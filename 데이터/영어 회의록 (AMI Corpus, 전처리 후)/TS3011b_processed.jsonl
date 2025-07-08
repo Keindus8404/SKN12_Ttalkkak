@@ -1,0 +1,364 @@
+{"timestamp": "00:07", "speaker": "Speaker_A", "text": "Welcome back ."}
+{"timestamp": "00:08", "speaker": "Speaker_B", "text": "Hello ."}
+{"timestamp": "00:09", "speaker": "Speaker_D", "text": "Hello ."}
+{"timestamp": "00:10", "speaker": "Speaker_A", "text": "Uh let me see ."}
+{"timestamp": "00:13", "speaker": "Speaker_B", "text": "There's one of mine ."}
+{"timestamp": "00:26", "speaker": "Speaker_A", "text": "Okay . Roo , welcome back ."}
+{"timestamp": "00:31", "speaker": "Speaker_B", "text": "Hello , Flores ."}
+{"timestamp": "00:32", "speaker": "Speaker_A", "text": "The waiting is for Sebastian ."}
+{"timestamp": "00:37", "speaker": "Speaker_A", "text": "There he is ."}
+{"timestamp": "00:39", "speaker": "Speaker_B", "text": "We have a slight problem . I opened uh the C_D_ ROM box uh guys ."}
+{"timestamp": "00:42", "speaker": "Speaker_A", "text": "Sorry ?"}
+{"timestamp": "00:44", "speaker": "Speaker_A", "text": "Uh no . You can't , sorry ."}
+{"timestamp": "00:47", "speaker": "Speaker_B", "text": "So just cancel it ."}
+{"timestamp": "00:59", "speaker": "Speaker_B", "text": "Yeah , I opened the C_D_ ROM box . Accidentally . But it's alright ."}
+{"timestamp": "01:01", "speaker": "Speaker_A", "text": "Okay . Okay . People , welcome back with the second meeting ."}
+{"timestamp": "01:29", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "01:37", "speaker": "Speaker_C", "text": "I think so too ."}
+{"timestamp": "01:37", "speaker": "Speaker_A", "text": "Roo ?"}
+{"timestamp": "01:39", "speaker": "Speaker_A", "text": "Ruud ? Almost , okay . Then we'll do your one uh uh as la uh the last . Um the top goal of this m"}
+{"timestamp": "01:46", "speaker": "Speaker_B", "text": "But you can't upload your presentation from here , I believe ."}
+{"timestamp": "01:54", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "01:55", "speaker": "Speaker_D", "text": "Uh if it if it if it's wireless I could just uh put it in the ."}
+{"timestamp": "01:58", "speaker": "Speaker_A", "text": "Yeah , w we will see ."}
+{"timestamp": "01:59", "speaker": "Speaker_B", "text": "I don't think it's wireless here . Or it is . Yeah ? Okay , great ."}
+{"timestamp": "02:00", "speaker": "Speaker_A", "text": "Um it is , yeah ."}
+{"timestamp": "02:00", "speaker": "Speaker_C", "text": "It is . It is ."}
+{"timestamp": "02:03", "speaker": "Speaker_D", "text": "Uh okay ."}
+{"timestamp": "02:04", "speaker": "Speaker_A", "text": "Yeah . Um the top goal of this meeting is to reach a decision on the product , on the target group um and and the functions of the remote control , so keep that in mind . Um"}
+{"timestamp": "02:23", "speaker": "Speaker_A", "text": "Yep . Okay . Um the new project requirements , first of all , um we didn't speak about it , but we should not um support teletext in the remote , um because our b um board uh feels that uh teletext is out of date and internet is replacing teletext . So um we are not even going to try to um implement it in our product ."}
+{"timestamp": "02:59", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "03:05", "speaker": "Speaker_B", "text": "Time , yeah ."}
+{"timestamp": "03:41", "speaker": "Speaker_B", "text": "Yes ."}
+{"timestamp": "03:42", "speaker": "Speaker_A", "text": "Is that clear ?"}
+{"timestamp": "03:45", "speaker": "Speaker_A", "text": "Any questions on these"}
+{"timestamp": "03:48", "speaker": "Speaker_A", "text": "requirements ?"}
+{"timestamp": "03:52", "speaker": "Speaker_A", "text": "No ?"}
+{"timestamp": "04:03", "speaker": "Speaker_B", "text": "Yeah , I'll start ."}
+{"timestamp": "04:03", "speaker": "Speaker_A", "text": "Uh uh yeah . Okay , great ."}
+{"timestamp": "04:04", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "04:14", "speaker": "Speaker_B", "text": "Geez , and sli and show ."}
+{"timestamp": "04:25", "speaker": "Speaker_B", "text": "Just uh press it . Uh yes ."}
+{"timestamp": "04:28", "speaker": "Speaker_B", "text": "Alright ."}
+{"timestamp": "04:31", "speaker": "Speaker_B", "text": "Um well w we uh we had discussed this already in the fin in the previous uh discussion . Uh the method of the remote control is just the function of remote control is basically to send messages to the television set ."}
+{"timestamp": "04:46", "speaker": "Speaker_B", "text": "So that was"}
+{"timestamp": "04:48", "speaker": "Speaker_B", "text": "the main uh important thing what a remote control should do . Then I found uh two different kind of remote controls , the multi-function uh remote control with many possibilities , but um the lack of the feeling I already mentioned uh in the previous uh discussion . And the ease-of-use remote control with uh the less p possibilities but a great feeling in in touching the buttons ."}
+{"timestamp": "04:50", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "05:07", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "05:15", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "05:17", "speaker": "Speaker_B", "text": "Um but um yeah ."}
+{"timestamp": "05:21", "speaker": "Speaker_B", "text": "My personal preferences were ease of uh the easy to use remote control , because uh the user-friendliness and uh it can be more trendy in in user design . But um your new goal f was for uh people than less than forty years old . So maybe um the multi-function can be implemented in uh in our design . But it should b I think it should be a combination , but teletext buttons are not uh in our design . So it should uh"}
+{"timestamp": "05:39", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "05:57", "speaker": "Speaker_B", "text": "take out , well , eight buttons or so . But my in my opinion , the the easy to use R_C_ is uh the best uh possi possibility for us ."}
+{"timestamp": "06:07", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "06:09", "speaker": "Speaker_A", "text": "Uh Ruud , did you get that ?"}
+{"timestamp": "06:13", "speaker": "Speaker_D", "text": "Yeah , uh b uh most ."}
+{"timestamp": "06:13", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "06:17", "speaker": "Speaker_D", "text": "Oh , user-friendly ."}
+{"timestamp": "06:22", "speaker": "Speaker_A", "text": "In the market , yeah ."}
+{"timestamp": "06:27", "speaker": "Speaker_B", "text": "Just for uh for user desi uh user uh friendliness I uh should choose for the the ease of use remote control ."}
+{"timestamp": "06:34", "speaker": "Speaker_A", "text": "Yeah . Okay . Sebastian ."}
+{"timestamp": "07:02", "speaker": "Speaker_C", "text": "Okay , it's still the right thing ."}
+{"timestamp": "07:06", "speaker": "Speaker_C", "text": "Okay . Um well , there are some changes in the design requirements , so there are some changes in the method also . Um basically all this device has to do is send messages to a T_V_ set . And the m most easy way to do this is by uh sending pulses of infrared light to a T_V_ set . Well , I th I tried to uh implement a picture here , but it's hardly readable ."}
+{"timestamp": "07:37", "speaker": "Speaker_A", "text": "No , it's not visible ."}
+{"timestamp": "07:39", "speaker": "Speaker_C", "text": "Um , there's a energy source here . And um basically there it's connected to three things . The user interface connected to a chip , which is connected to the sender , which generates messages using uh infrared light , which are sent to the receiver . That's basically the idea . And there's a little picture , just for your imagination , how a device like this should look or can look . Okay . Um what have I found . Usually these kind of things consist of a battery , infrared diode , buttons , chips , and circuit board . That's all . It's cased together , nothing more than that . It's almost every piece of equipment um"}
+{"timestamp": "08:23", "speaker": "Speaker_C", "text": "every piece of uh every T_V_ set is controlled infrared . There are some exceptions , but most of all have uh infrared controls . And uh the more luxury uh remote controls have lithium buttons . And I think that's what we w yes . In the and it's a little more a little bit more fancy also . So maybe we should consider that . Okay . I have a basic scheme of the things uh which are implemented . Um basically this is all there is . There's just one chip . There are a few buttons connected . Uh the buttons are lit . And the whole thing is transmitted by a infrared li diode , and there is not a power source here ."}
+{"timestamp": "08:25", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "08:38", "speaker": "Speaker_B", "text": "The glow in the dark uh concept uh we discussed ."}
+{"timestamp": "08:44", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "08:45", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "09:12", "speaker": "Speaker_A", "text": "So it's fairly easy ."}
+{"timestamp": "09:21", "speaker": "Speaker_A", "text": "Okay , good ."}
+{"timestamp": "09:36", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "10:13", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "10:32", "speaker": "Speaker_C", "text": "No , they're p f uh power friendly LEDs also . So we can use them . So that's no problem ."}
+{"timestamp": "10:35", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "10:46", "speaker": "Speaker_C", "text": "We can we can make its I think ."}
+{"timestamp": "10:47", "speaker": "Speaker_D", "text": "Well you could only lit uh the buttons the buttons that are used most . So , the channel switching ."}
+{"timestamp": "10:55", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "10:55", "speaker": "Speaker_A", "text": "Yeah . Yeah , but but the question is whether um two or four buttons makes uh m makes such a difference in the costs if you already plan to uh include fancy lightning techniques , I guess ."}
+{"timestamp": "10:56", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "11:07", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "11:07", "speaker": "Speaker_D", "text": "Hmm , true ."}
+{"timestamp": "11:14", "speaker": "Speaker_C", "text": "Yes . Well , it's not one light , it there are more lights in a in a in a mobile device . No no no , no . That's right , that's right . So well , this uh should be it ."}
+{"timestamp": "11:17", "speaker": "Speaker_B", "text": "Yeah , but not for each button one LED , I think ."}
+{"timestamp": "11:21", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "11:23", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "11:26", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "11:27", "speaker": "Speaker_A", "text": "Okay , Ruud ."}
+{"timestamp": "11:27", "speaker": "Speaker_D", "text": "Oh , mine is already outdated ."}
+{"timestamp": "11:31", "speaker": "Speaker_A", "text": "Okay well , we ar we are very curio curious to what the market um will feel about such a product ."}
+{"timestamp": "11:40", "speaker": "Speaker_A", "text": "So any income is welcome . Input ."}
+{"timestamp": "11:52", "speaker": "Speaker_D", "text": "Uh then I'm sure the target market is uh ten million units ."}
+{"timestamp": "11:57", "speaker": "Speaker_D", "text": "Of of which we should sell about uh forty percent to make the five million ."}
+{"timestamp": "12:04", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "12:07", "speaker": "Speaker_D", "text": "But um since uh the other part is uh forty percent of the market , I uh thought earlier we might want to constrain that portion of the market . But uh since uh the requirements changed , that's uh not a good idea ."}
+{"timestamp": "12:32", "speaker": "Speaker_D", "text": "Well , it's this till true , of course . That they only use ten percent the buttons . The buttons to zap are used the about uh fifteen hundred times , when uh the power button is only used one time . And the volume button's only four times . So they're obv obviously uh the most important buttons . And uh lots of people complained they kin can't find their remote control . So we might want to build in a feature to uh support them ."}
+{"timestamp": "12:57", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "13:04", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "13:06", "speaker": "Speaker_C", "text": "Or a find a finding function , you know . That's quite a yes ."}
+{"timestamp": "13:06", "speaker": "Speaker_A", "text": "Well , that's interesting ."}
+{"timestamp": "13:07", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "13:08", "speaker": "Speaker_A", "text": "Yeah , that's definitely interesting . It uh it separates our product from others uh as well . Okay , go on ."}
+{"timestamp": "13:11", "speaker": "Speaker_B", "text": "Sound signal ."}
+{"timestamp": "13:13", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "13:14", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "13:14", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "13:17", "speaker": "Speaker_D", "text": "Well , I just said that . And uh well , this obvious , and he also said it ."}
+{"timestamp": "13:23", "speaker": "Speaker_A", "text": "Okay . So that's what the market tells us ."}
+{"timestamp": "13:27", "speaker": "Speaker_D", "text": "Uh that's about it , yes ."}
+{"timestamp": "13:28", "speaker": "Speaker_A", "text": "Yep . Okay ."}
+{"timestamp": "13:33", "speaker": "Speaker_D", "text": "Uh mo uh zap buttons most . Volume , they are uh use a lot . But"}
+{"timestamp": "13:45", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "13:47", "speaker": "Speaker_C", "text": "Yes , we should focus on that , I guess . Well , the technical uh there I think there are no technical difficulties . There's no um elaborate technique uh used in this uh kind of equipment . So um I don't think we have any hiccups there . So we can fully concentrate on developing a product that is really um what the market needs . So maybe it's a good idea to think about these buttons and and uh and a sound signal ."}
+{"timestamp": "13:49", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "13:50", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "14:23", "speaker": "Speaker_C", "text": "Well"}
+{"timestamp": "14:27", "speaker": "Speaker_A", "text": "Well maybe maybe like clapping in your hands , like um turning on and off the the the lights ."}
+{"timestamp": "14:30", "speaker": "Speaker_C", "text": "Oh yes ."}
+{"timestamp": "14:32", "speaker": "Speaker_B", "text": "Yeah , but maybe you'll uh get some new technologies for it ."}
+{"timestamp": "14:49", "speaker": "Speaker_A", "text": "Reports rep respend response to it ."}
+{"timestamp": "14:52", "speaker": "Speaker_C", "text": "Yes . Yes , that's it ."}
+{"timestamp": "14:55", "speaker": "Speaker_C", "text": "Yes , same thing ."}
+{"timestamp": "14:55", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "14:56", "speaker": "Speaker_A", "text": "But uh th"}
+{"timestamp": "14:56", "speaker": "Speaker_B", "text": "But but T_V_s don't have all uh"}
+{"timestamp": "14:58", "speaker": "Speaker_C", "text": "No , so we we should use something else ."}
+{"timestamp": "15:05", "speaker": "Speaker_C", "text": "We do not control the T_V_ set so well ."}
+{"timestamp": "15:19", "speaker": "Speaker_A", "text": "Okay . So what about the clapping technique ? Um because you se"}
+{"timestamp": "15:23", "speaker": "Speaker_B", "text": "I'm convinced uh Sebastian will uh find uh one solution for us ."}
+{"timestamp": "15:31", "speaker": "Speaker_D", "text": "And b"}
+{"timestamp": "15:34", "speaker": "Speaker_C", "text": "Yes , yes . Well , basically the characteristics uh the characteristics of clapping is just an increase in the volume , the amplitude of the sound , which is uh generated a few times within a uh certain period of time . But there are many other sounds uh which are exactly the same from the point of view from a remote control ."}
+{"timestamp": "15:42", "speaker": "Speaker_A", "text": "Yeah , a peak . Yeah ."}
+{"timestamp": "15:49", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "15:54", "speaker": "Speaker_D", "text": "So if if you'd be watching a movie , it would constantly beep ."}
+{"timestamp": "15:57", "speaker": "Speaker_A", "text": "Yeah , that's true ."}
+{"timestamp": "15:57", "speaker": "Speaker_C", "text": "Yes , so we don't want that ."}
+{"timestamp": "16:14", "speaker": "Speaker_C", "text": "Well , I don't think uh ."}
+{"timestamp": "16:18", "speaker": "Speaker_C", "text": "No , and y the the most important thing for people is that there's a central point to which they can go and uh b uh perform a a some kind of uh . And then uh the remote control uh reports itself , so w we should use have uh we should use something like that . You do not want another device , which can be uh everywhere in the house , which you have to find first before you can find your remote control ."}
+{"timestamp": "16:24", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "16:46", "speaker": "Speaker_C", "text": "Yes , something like that . But that will be very costly , I think . So that's not a good idea ."}
+{"timestamp": "16:49", "speaker": "Speaker_A", "text": "Yeah , m maybe um w we uh we do agree on on the thing that the remote should have such a function , if it's possible within the costs and all that kind of things . Um maybe Sebastian should have uh a detailed look later on and um come up with a solution , because that's his his field of expertise ."}
+{"timestamp": "16:50", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "17:01", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "17:05", "speaker": "Speaker_C", "text": "I will ."}
+{"timestamp": "17:08", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "17:08", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "17:12", "speaker": "Speaker_C", "text": "Yes . But um before I do that I w I want to warn you that uh by implementing this kind of a function the technical design will become more complicated um and it will become more costly also . Because there will be additional components which which uh will be used . And there are some implepe imp"}
+{"timestamp": "17:22", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "17:26", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "17:32", "speaker": "Speaker_B", "text": "And do we even uh prefer the sound above the the LEDs , the lightning uh"}
+{"timestamp": "17:40", "speaker": "Speaker_B", "text": "function ?"}
+{"timestamp": "17:46", "speaker": "Speaker_A", "text": "Yeah , it's a distinction in the market . It's a different exactly . It's an uni an unique feature , and um I think um it's worth um uh looking and and probably more i interesting than uh than the lights ."}
+{"timestamp": "17:47", "speaker": "Speaker_B", "text": "It will be an a unique feature of our remote control ."}
+{"timestamp": "17:48", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "17:51", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "18:00", "speaker": "Speaker_B", "text": "And just about uh the user interface , I came up with um an easy remote control and an advanced remote control . What should we choose in in design ?"}
+{"timestamp": "18:09", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "18:20", "speaker": "Speaker_B", "text": "Well , the extra functions ."}
+{"timestamp": "18:23", "speaker": "Speaker_D", "text": "I have the numbers r I have the numbers right here ."}
+{"timestamp": "18:26", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "18:28", "speaker": "Speaker_D", "text": "Well , t uh we won't support teletext which which was the third-most the second-most used function ."}
+{"timestamp": "18:33", "speaker": "Speaker_B", "text": "Used option ."}
+{"timestamp": "18:43", "speaker": "Speaker_D", "text": "Uh well yeah , channel selection is obviously the most important ."}
+{"timestamp": "18:46", "speaker": "Speaker_A", "text": "Yeah . Okay , so on the relevance scale uh the channel selection , the volume selection and the teletext . Well , we skip that ."}
+{"timestamp": "18:56", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "19:02", "speaker": "Speaker_A", "text": "No ."}
+{"timestamp": "19:02", "speaker": "Speaker_D", "text": "Nope ."}
+{"timestamp": "19:04", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "19:07", "speaker": "Speaker_A", "text": "Uh uh uh I think we should go for the easier one ."}
+{"timestamp": "19:12", "speaker": "Speaker_A", "text": "No ."}
+{"timestamp": "19:22", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "19:32", "speaker": "Speaker_D", "text": "Uh well if we um include other uh innovative"}
+{"timestamp": "19:38", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "19:45", "speaker": "Speaker_A", "text": "Mm yeah ."}
+{"timestamp": "19:47", "speaker": "Speaker_C", "text": "Yeah , that's right ."}
+{"timestamp": "19:49", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "19:51", "speaker": "Speaker_B", "text": "Uh just a few buttons , trendy design , nice lightning effects wh and the sound ."}
+{"timestamp": "20:06", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "20:15", "speaker": "Speaker_A", "text": "But but are we not in in the in the manual uh I mean if you have few buttons , no display , um I mean uh I guess it's l it's working with with a shift functions and um one button can uh"}
+{"timestamp": "20:20", "speaker": "Speaker_C", "text": "Mm-hmm . Mm-hmm ."}
+{"timestamp": "20:29", "speaker": "Speaker_C", "text": "Ok like that . Well , I was more thinking about a more elaborate way of controlling , by by these kinds of sticks or something like that . I don't know if if it's user-friendly . That's your field of expertise ."}
+{"timestamp": "20:42", "speaker": "Speaker_A", "text": "But but how does how does the remote uh report uh r uh give back to the user w in what state it is ? Because we do not implement uh a user history ."}
+{"timestamp": "20:52", "speaker": "Speaker_C", "text": "Mm-hmm . There's no , but there's no way to do that , because we cannot implement that kind of the system . W"}
+{"timestamp": "21:03", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "21:05", "speaker": "Speaker_C", "text": "Well , maybe we can use a light for that . When you move the stick to a to a position , maybe uh a light next to it can lit up . So you know I've just uh pushed the button , or I changed the channel or t uh turned up the volume . Something like that ."}
+{"timestamp": "21:20", "speaker": "Speaker_D", "text": "And if you use that stick for volume control and channel uh selection , you have the m two most important functions in one uh button ."}
+{"timestamp": "21:27", "speaker": "Speaker_A", "text": "Yeah . Uh and we could have other buttons for the for the advanced uh functions ."}
+{"timestamp": "21:27", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "21:38", "speaker": "Speaker_A", "text": "Yeah , draw draw it on the board ."}
+{"timestamp": "21:41", "speaker": "Speaker_B", "text": "Um it's already uh oh , we have a blank ."}
+{"timestamp": "21:50", "speaker": "Speaker_B", "text": "Oh ."}
+{"timestamp": "21:55", "speaker": "Speaker_C", "text": "Oh yeah , something like that ."}
+{"timestamp": "21:58", "speaker": "Speaker_B", "text": "It's just an easy uh way of of a round button what which can be pushed in four directions . Instead of a stick . A stick is v vulnerab vulnerable"}
+{"timestamp": "22:03", "speaker": "Speaker_C", "text": "Yes . Yes ."}
+{"timestamp": "22:07", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "22:07", "speaker": "Speaker_A", "text": "Yeah , it can break down ."}
+{"timestamp": "22:08", "speaker": "Speaker_B", "text": "when it's falling down or uh just a round uh button should be the trick , I think ."}
+{"timestamp": "22:09", "speaker": "Speaker_C", "text": "Yes , yes ."}
+{"timestamp": "22:09", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "22:13", "speaker": "Speaker_C", "text": "Yes , and this also looks more fancy , I think . I think it it will attract uh"}
+{"timestamp": "22:15", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "22:18", "speaker": "Speaker_C", "text": "more uh uh public , I think . But you're the marketing man ."}
+{"timestamp": "22:18", "speaker": "Speaker_D", "text": "A younger uh Huh ."}
+{"timestamp": "22:22", "speaker": "Speaker_D", "text": "And it's also quite easy to use , so it'll it uh attract younger people because well new , and it might attract older people because it's easy to use ."}
+{"timestamp": "22:33", "speaker": "Speaker_B", "text": "Geez ."}
+{"timestamp": "22:37", "speaker": "Speaker_B", "text": "Well , volume and"}
+{"timestamp": "22:44", "speaker": "Speaker_B", "text": "something uh"}
+{"timestamp": "22:49", "speaker": "Speaker_A", "text": "Okay , yeah ."}
+{"timestamp": "22:51", "speaker": "Speaker_B", "text": "And the vol yeah , the pen doesn't uh really does what I want ."}
+{"timestamp": "22:58", "speaker": "Speaker_C", "text": "Okay , that's good ."}
+{"timestamp": "23:01", "speaker": "Speaker_A", "text": "Okay , but w we still we're still in the question of uh um uh putting in advanced options . Um Ruud just told us um the market is interested in some advanced uh new techniques . Um however , uh keeping it simple is is important for the costs and all all those kind of things . We need to find a balance between uh the advanced techniques and and the user-friendliness ."}
+{"timestamp": "23:24", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "23:29", "speaker": "Speaker_B", "text": "But I think our our next step to look at is just that . So I don't think it's um we have something to do . Uh we can't discuss it right now , because n no one of us have has the information to discuss about that ,"}
+{"timestamp": "23:44", "speaker": "Speaker_A", "text": "Um well , for we do have to uh decide this this meeting . Yeah . We need to um have the uh the user function uh the functions decided and um"}
+{"timestamp": "23:45", "speaker": "Speaker_B", "text": "I think ."}
+{"timestamp": "23:49", "speaker": "Speaker_B", "text": "Yes ?"}
+{"timestamp": "23:54", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "24:00", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "24:00", "speaker": "Speaker_B", "text": "'Kay , but teletext is so uh is just scrapped ."}
+{"timestamp": "24:02", "speaker": "Speaker_C", "text": "Do do you want a list of functions ? Do you want an explicit list ? Uh which uh incorporates all function available on the device ?"}
+{"timestamp": "24:10", "speaker": "Speaker_A", "text": "Um well , I do not want a full uh it's not necessary to to have a full list , but I want um the kind of functions , for example uh th the most important are volume and uh programme selecting ."}
+{"timestamp": "24:18", "speaker": "Speaker_C", "text": "Okay . Okay ."}
+{"timestamp": "24:23", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "24:24", "speaker": "Speaker_B", "text": "The ten digits ."}
+{"timestamp": "24:32", "speaker": "Speaker_B", "text": "Oh , and just one function . The the the the programme to programme button , the switch to uh two channels , when you have uh something on channel four and something on channel six , just one button which which can uh change yeah ."}
+{"timestamp": "24:42", "speaker": "Speaker_C", "text": "Mm-hmm . Yes ."}
+{"timestamp": "24:45", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "24:48", "speaker": "Speaker_A", "text": "A bit of a split mode . Uh l like Yeah . Dual channel watch . Okay , well um m maybe I should write that down . Uh Ruud , um what's your last name ?"}
+{"timestamp": "24:48", "speaker": "Speaker_C", "text": "Change . Yes , yes ."}
+{"timestamp": "24:52", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "24:52", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "25:06", "speaker": "Speaker_D", "text": "Mielsen ."}
+{"timestamp": "25:23", "speaker": "Speaker_B", "text": "Alright ."}
+{"timestamp": "25:27", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "25:45", "speaker": "Speaker_A", "text": "Volume . Programme ."}
+{"timestamp": "25:50", "speaker": "Speaker_C", "text": "Yes , that's important ."}
+{"timestamp": "25:52", "speaker": "Speaker_A", "text": "And and do we want um"}
+{"timestamp": "25:55", "speaker": "Speaker_A", "text": "the ten digits ?"}
+{"timestamp": "25:55", "speaker": "Speaker_B", "text": "The ten digits ? Yeah , I believe so ."}
+{"timestamp": "25:57", "speaker": "Speaker_C", "text": "Well , are are you sure ? I'm not so sure ."}
+{"timestamp": "25:58", "speaker": "Speaker_D", "text": "Well , if you want to go to channel ninety and you have th that button ."}
+{"timestamp": "26:02", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:02", "speaker": "Speaker_C", "text": "Well , that's complicated , but is that so relevant ? Because I don't think but you should uh shou you should know that ."}
+{"timestamp": "26:04", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "26:08", "speaker": "Speaker_B", "text": "I wouldn't buy it personally ."}
+{"timestamp": "26:11", "speaker": "Speaker_C", "text": "If it were so ."}
+{"timestamp": "26:13", "speaker": "Speaker_C", "text": "Okay , I can imagine when"}
+{"timestamp": "26:17", "speaker": "Speaker_C", "text": "I can imagine when you're when you have a satellite decoder and and you have , well , about six hundred channels , I can imagine you want this . But if you're uh a regular T_V_ user , and you just want uh to watch the the Dutch television networks , well , you can uh you can use uh about ten buttons . That's enough ."}
+{"timestamp": "26:34", "speaker": "Speaker_A", "text": "But we do have thirteen different Dutch channels ."}
+{"timestamp": "26:35", "speaker": "Speaker_B", "text": "Yep ."}
+{"timestamp": "26:37", "speaker": "Speaker_C", "text": "Well , but how how often do you watch all these channels ?"}
+{"timestamp": "26:37", "speaker": "Speaker_B", "text": "The older people only use five of them ."}
+{"timestamp": "26:41", "speaker": "Speaker_A", "text": "Often ."}
+{"timestamp": "26:46", "speaker": "Speaker_C", "text": "No , you're probably right ."}
+{"timestamp": "26:49", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:49", "speaker": "Speaker_C", "text": "Okay . But I think these uh ten uh buttons look a bit dull . Don't you think ?"}
+{"timestamp": "26:56", "speaker": "Speaker_C", "text": "The design . Okay . Well , y then there should be should done be done something specific with it ."}
+{"timestamp": "26:56", "speaker": "Speaker_B", "text": "On the design ."}
+{"timestamp": "27:10", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "27:12", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "27:15", "speaker": "Speaker_C", "text": "Okay , so you can experiment by uh with with shape or with size or with colour , that kind of thing . Okay ."}
+{"timestamp": "27:21", "speaker": "Speaker_A", "text": "Exactly , exactly ."}
+{"timestamp": "27:22", "speaker": "Speaker_D", "text": "And um there are some numbers about uh speech recognition here that uh younger people would like it . Uh it might be expensive and uh hard to implement , but it would be a solution uh"}
+{"timestamp": "27:36", "speaker": "Speaker_A", "text": "Okay , speech ."}
+{"timestamp": "27:37", "speaker": "Speaker_C", "text": "Well , maybe it can be combined with the find the remote control . So um when you add uh speech recognition to your remote control , uh it's very easy to change uh the channel . That's one thing . And it's very easy uh to find your remote control ."}
+{"timestamp": "27:40", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "27:50", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "27:53", "speaker": "Speaker_A", "text": "To find yeah ."}
+{"timestamp": "28:00", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "28:07", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "28:09", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "28:12", "speaker": "Speaker_C", "text": "Okay , okay ."}
+{"timestamp": "28:14", "speaker": "Speaker_D", "text": "Especially elder people uh don't like voice recognition . So then we should implement such a but"}
+{"timestamp": "28:20", "speaker": "Speaker_A", "text": "Yeah . But we do focus on younger people . We d it it's a board uh decision ."}
+{"timestamp": "28:24", "speaker": "Speaker_D", "text": "Yes ."}
+{"timestamp": "28:24", "speaker": "Speaker_C", "text": "Okay . Well . I I think it should uh should work , it sh we should manage that ."}
+{"timestamp": "28:29", "speaker": "Speaker_B", "text": "So we have to i to make um a decision between the ten digits or the voice recognition ."}
+{"timestamp": "28:30", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "28:34", "speaker": "Speaker_C", "text": "Yes . Well , the voice recognition has the main adva has another advantage . It's mas it makes it very easy for us to implement the find uh find the remote control button uh remote control function ."}
+{"timestamp": "28:46", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "28:49", "speaker": "Speaker_C", "text": "So that's that's a big advantage , I think ."}
+{"timestamp": "28:49", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "28:51", "speaker": "Speaker_A", "text": "Okay , g good ."}
+{"timestamp": "29:09", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "29:09", "speaker": "Speaker_C", "text": "There's only one disadvantage uh by implementing this . Um the power saving power saving will be a bit more difficult . So we can expect that there will be a less longer life to the batteries . But maybe can we we can think something smart about it . There are some uh hybrid hybrid devices which incorporate a solar panel and rechargeable batteries . So when you just leave the device in a in a light room , it charges itself . You have to do nothing for it ."}
+{"timestamp": "29:26", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "29:29", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "29:41", "speaker": "Speaker_A", "text": "But but can we manage it bu uh for the costs ?"}
+{"timestamp": "29:43", "speaker": "Speaker_D", "text": "M"}
+{"timestamp": "29:47", "speaker": "Speaker_D", "text": "And uh if we if we could inc uh include a c a cradle in which it could recharge ,"}
+{"timestamp": "29:57", "speaker": "Speaker_C", "text": "No , that's very cheap ."}
+{"timestamp": "29:59", "speaker": "Speaker_A", "text": "Is a cradle very cheap ?"}
+{"timestamp": "29:59", "speaker": "Speaker_C", "text": "It's Oh , it's very cheap . That's no problem . It's just a a case with two uh metal contacts ."}
+{"timestamp": "30:06", "speaker": "Speaker_A", "text": "I know , b uh but there should be an adapter as well ."}
+{"timestamp": "30:08", "speaker": "Speaker_C", "text": "Yes , but they're they're mass production . They're very cheap . So it will cost us p practically nothing ."}
+{"timestamp": "30:09", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "30:11", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "30:14", "speaker": "Speaker_A", "text": "Okay . We we have uh about ten minutes left this meeting . Um"}
+{"timestamp": "30:41", "speaker": "Speaker_D", "text": "Um I think we dealt with the most important information . Just that the younger part of uh the market isn't the forty percent we uh"}
+{"timestamp": "30:54", "speaker": "Speaker_D", "text": "want to sell to ."}
+{"timestamp": "31:05", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "31:11", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "31:11", "speaker": "Speaker_D", "text": "I don't think that's a big problem"}
+{"timestamp": "31:13", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "31:19", "speaker": "Speaker_D", "text": "Yes . Yeah , profitable ."}
+{"timestamp": "31:20", "speaker": "Speaker_C", "text": "Profitable ."}
+{"timestamp": "31:21", "speaker": "Speaker_A", "text": "Profitable . We we yeah , we still need to take in account the the bit older people . Okay . O okay ."}
+{"timestamp": "31:26", "speaker": "Speaker_D", "text": "Yes ."}
+{"timestamp": "31:33", "speaker": "Speaker_B", "text": "I have nothing uh nothing to add , I think ."}
+{"timestamp": "31:35", "speaker": "Speaker_A", "text": "Nothing to add ."}
+{"timestamp": "31:39", "speaker": "Speaker_A", "text": "Sebastian ?"}
+{"timestamp": "31:39", "speaker": "Speaker_C", "text": "Um I just want to make a summary of all all things uh spoken and uh the different possibilities . Um"}
+{"timestamp": "31:43", "speaker": "Speaker_A", "text": "Yeah ?"}
+{"timestamp": "31:45", "speaker": "Speaker_A", "text": "Great ."}
+{"timestamp": "31:49", "speaker": "Speaker_C", "text": "so uh basically we've decided to implement a seemingly uh easy design . So on the outside it looks easy , but uh we can make it easy on the inside or elaborate on the inside . So that's one the those are the choices we have to make . But I think there's a big advantage in making it more elaborate by uh implementing uh speech techniques , uh voice recognition , that these kinds of things ."}
+{"timestamp": "32:12", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "32:14", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "32:14", "speaker": "Speaker_C", "text": "Um it makes it also more uh attractable , I think , to our uh audience . Um there are some advantages and some disadvantages , and the main advantage is that we can implement uh fancy techniques , which uh I think our customers will like . The disadvantage is that there are some concerns about uh the the costs and um the things like uh battery lifetime , energy saving . Uh another advantage is that the circuit board will become much more easier if we do not do not implement these buttons ."}
+{"timestamp": "32:42", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "33:07", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "33:09", "speaker": "Speaker_B", "text": "But the cheaper the ch uh the the chip or th what was it ? The circuit board ."}
+{"timestamp": "33:13", "speaker": "Speaker_C", "text": "Mm-hmm . The circuit board ."}
+{"timestamp": "33:13", "speaker": "Speaker_A", "text": "The board ."}
+{"timestamp": "33:16", "speaker": "Speaker_B", "text": "The fewer buttons you can use on it ."}
+{"timestamp": "33:18", "speaker": "Speaker_C", "text": "The fewer buttons you have , the ch ch the cheaper the circuit board , yes ."}
+{"timestamp": "33:18", "speaker": "Speaker_A", "text": "No , it's th yeah ."}
+{"timestamp": "33:20", "speaker": "Speaker_B", "text": "Yeah , okay ."}
+{"timestamp": "33:21", "speaker": "Speaker_A", "text": "It's the other way around , yeah ."}
+{"timestamp": "33:22", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "33:23", "speaker": "Speaker_C", "text": "And it's very cheap uh to incorporate uh uh an integrated circuit , a chip . So that's"}
+{"timestamp": "33:30", "speaker": "Speaker_C", "text": "that's another advantage ."}
+{"timestamp": "33:30", "speaker": "Speaker_A", "text": "It shouldn't be a big issue ."}
+{"timestamp": "33:31", "speaker": "Speaker_B", "text": "Well it then we should just uh take a look at the costs and uh especially for the voice recognition ."}
+{"timestamp": "33:40", "speaker": "Speaker_B", "text": "No ."}
+{"timestamp": "33:41", "speaker": "Speaker_C", "text": "It can be costly . Maybe not ."}
+{"timestamp": "33:49", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "33:55", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "33:58", "speaker": "Speaker_A", "text": "Okay , great . Um"}
+{"timestamp": "34:02", "speaker": "Speaker_B", "text": "We're done , I think ."}
+{"timestamp": "34:07", "speaker": "Speaker_C", "text": "How nice ."}
+{"timestamp": "34:13", "speaker": "Speaker_B", "text": "Me neither ."}
+{"timestamp": "34:45", "speaker": "Speaker_B", "text": "Interface industrial ."}
+{"timestamp": "34:50", "speaker": "Speaker_A", "text": "I'm sorry , yeah , I'm sorry . User Interface Designer , uh Roo , I would like to see the user interface c uh concept . And um"}
+{"timestamp": "35:07", "speaker": "Speaker_A", "text": "Well , i it should be easy , that's w w what we concluded . It should be an easy interface with not so much buttons . S just a a p a p a volume and a programme one . And um"}
+{"timestamp": "35:10", "speaker": "Speaker_C", "text": "Mm yes ."}
+{"timestamp": "35:14", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "35:25", "speaker": "Speaker_C", "text": "So we drop the voice recognition ? Or Oh ."}
+{"timestamp": "35:35", "speaker": "Speaker_C", "text": "Okay . Well um do we really have to decide now or can we decide next meeting ?"}
+{"timestamp": "35:41", "speaker": "Speaker_A", "text": "No ."}
+{"timestamp": "35:42", "speaker": "Speaker_A", "text": "We can decide the next meeting . Yep ."}
+{"timestamp": "35:44", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "35:50", "speaker": "Speaker_B", "text": "Yep ."}
+{"timestamp": "35:56", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "36:03", "speaker": "Speaker_B", "text": "Adapt ."}
+{"timestamp": "36:03", "speaker": "Speaker_C", "text": "Adapt ."}
+{"timestamp": "36:03", "speaker": "Speaker_D", "text": "Left ."}
+{"timestamp": "36:04", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "36:09", "speaker": "Speaker_B", "text": "That's it ."}
+{"timestamp": "36:11", "speaker": "Speaker_B", "text": "'Kay ."}
+{"timestamp": "36:11", "speaker": "Speaker_A", "text": "Any other questions or can we have the lunch ?"}
+{"timestamp": "36:14", "speaker": "Speaker_C", "text": "We can have the lunch ."}
+{"timestamp": "36:16", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "36:16", "speaker": "Speaker_A", "text": "Yeah , okay . Good ."}
+{"timestamp": "36:16", "speaker": "Speaker_B", "text": "I'll take the lunch ."}

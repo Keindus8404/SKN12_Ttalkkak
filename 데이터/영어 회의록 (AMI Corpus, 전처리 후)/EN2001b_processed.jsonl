@@ -1,0 +1,507 @@
+{"timestamp": "00:02", "speaker": "Speaker_A", "text": "Hmm"}
+{"timestamp": "00:22", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "00:32", "speaker": "Speaker_B", "text": "Hmm ?"}
+{"timestamp": "00:47", "speaker": "Speaker_B", "text": "Ah , sod that . Okay , there ."}
+{"timestamp": "00:54", "speaker": "Speaker_B", "text": "Group K_ . Da ."}
+{"timestamp": "00:58", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "01:05", "speaker": "Speaker_B", "text": "Yeah , I guess . Whatever ."}
+{"timestamp": "01:10", "speaker": "Speaker_B", "text": "It's yeah , I never get this , so what's the point of if this is strapless if this strap's supposed to go behind m I obviously doing this wrong . Obviously failing this like whatev calling centre and tra"}
+{"timestamp": "01:21", "speaker": "Speaker_C", "text": "You you have this going behind your ears , the yeah . Yeah ."}
+{"timestamp": "01:24", "speaker": "Speaker_B", "text": "Like this and then yeah , you know what the shit has to do now ."}
+{"timestamp": "01:35", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "01:37", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "01:46", "speaker": "Speaker_B", "text": "Yes , so um actually I just realise I don't have power , let me just switch on the other which is gonna run out ."}
+{"timestamp": "01:57", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "01:58", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "02:03", "speaker": "Speaker_B", "text": "So there's probably not much to talk about at the moment in terms of like talking about each other's stuff , I mean beyond what we've been talking about yesterday ."}
+{"timestamp": "02:14", "speaker": "Speaker_D", "text": "Yeah , that's true I think ."}
+{"timestamp": "02:16", "speaker": "Speaker_B", "text": "So what I've been thinking is maybe if we try to really make sense together of the X_M_L_ format to be sure that we can all produce the data that we are producing in a way or at least I mean I guess my data I'll probably load in from completely different way anyway because it's matrix , but all this stuff that goes with annotation , that we have it in the right format . Maybe if we just sort of pool what we know about the X_M_L_ format and try to make sense of it . I don't at all know how to go about this ."}
+{"timestamp": "03:00", "speaker": "Speaker_B", "text": "Um I downloaded some"}
+{"timestamp": "03:07", "speaker": "Speaker_D", "text": "Oh yeah ."}
+{"timestamp": "03:28", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "03:28", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "03:36", "speaker": "Speaker_D", "text": "Yeah , we haven't got that much to talk about , I don't think ."}
+{"timestamp": "03:37", "speaker": "Speaker_C", "text": "No . Just maybe talk about um how you would give me your data file . Yeah ."}
+{"timestamp": "03:42", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "03:44", "speaker": "Speaker_D", "text": "Yes , we can do that ."}
+{"timestamp": "03:46", "speaker": "Speaker_B", "text": "What's that part ?"}
+{"timestamp": "03:48", "speaker": "Speaker_C", "text": "That's um the interface between having the topic segments and calculating the uh information importance of words ."}
+{"timestamp": "03:53", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "03:57", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "03:58", "speaker": "Speaker_C", "text": "Yeah . So I I would need separate files for each segment or just maybe have delimiters inbetween each segment ."}
+{"timestamp": "04:03", "speaker": "Speaker_D", "text": "Alright ."}
+{"timestamp": "04:08", "speaker": "Speaker_C", "text": "Okay , yeah , and y then I can make files of that ."}
+{"timestamp": "04:11", "speaker": "Speaker_C", "text": "Alright ."}
+{"timestamp": "04:15", "speaker": "Speaker_C", "text": "No , I don't kno know it , no ."}
+{"timestamp": "04:19", "speaker": "Speaker_C", "text": "Yeah , that's fine ."}
+{"timestamp": "04:21", "speaker": "Speaker_C", "text": "I just I just need a a title for the file , but doesn't matter what it is ."}
+{"timestamp": "04:26", "speaker": "Speaker_D", "text": "Right . Okay . Yeah , that's no problem ."}
+{"timestamp": "04:32", "speaker": "Speaker_B", "text": "Yes , so does anyone have a good idea where to start like which what so what is it we talk about getting in at the moment ? We're basically just 'cause the two of you will merge your data together , right ? In some way like i in the end it'll result in one annotation . So the only thing we're trying to tie in is just an additional annotation which is similar to"}
+{"timestamp": "04:42", "speaker": "Speaker_A", "text": "Mm yes ."}
+{"timestamp": "05:04", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "05:09", "speaker": "Speaker_B", "text": "I'm not sure it Ah . See , that's what I was thinking . Not sure what software I have at the moment , which would be hello ?"}
+{"timestamp": "05:11", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "05:12", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "05:26", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "05:28", "speaker": "Speaker_B", "text": "Ah ."}
+{"timestamp": "05:32", "speaker": "Speaker_B", "text": "Does anyone know any good standards software displays X_M_L_ , I'm not sure ."}
+{"timestamp": "05:36", "speaker": "Speaker_A", "text": "Take Mozilla ."}
+{"timestamp": "05:38", "speaker": "Speaker_B", "text": "Yeah , but I'm afraid I only have Firefox and Firefox doesn't have the nice X_M_L_ viewer anymore ."}
+{"timestamp": "05:44", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "05:44", "speaker": "Speaker_B", "text": "I think I don't have Mozilla ."}
+{"timestamp": "05:50", "speaker": "Speaker_B", "text": "No ."}
+{"timestamp": "05:54", "speaker": "Speaker_B", "text": "I can probably just Emacs them ."}
+{"timestamp": "05:58", "speaker": "Speaker_C", "text": "So uh we have then when we are mixing our um values together , is it um a value for each um expression , for each sentence or something ?"}
+{"timestamp": "06:10", "speaker": "Speaker_A", "text": "Yeah , I think that would be m I mean uh for me it's quite difficult to say o on ,"}
+{"timestamp": "06:12", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "06:17", "speaker": "Speaker_A", "text": "you know , w um what scope one annotation would have ."}
+{"timestamp": "06:21", "speaker": "Speaker_C", "text": "Mm-mm ."}
+{"timestamp": "06:24", "speaker": "Speaker_A", "text": "I think it would be certainly more than one word and"}
+{"timestamp": "06:29", "speaker": "Speaker_A", "text": "I think it would work best with utterances or segments ."}
+{"timestamp": "06:32", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "06:35", "speaker": "Speaker_C", "text": "Yeah , I would just end up with uh values for each word , so I wouldn't have um"}
+{"timestamp": "06:35", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "06:42", "speaker": "Speaker_C", "text": "any boundaries for segments at all ."}
+{"timestamp": "06:47", "speaker": "Speaker_C", "text": "I just I just would have the words , and then how we um how long each expression would be , I don't know ."}
+{"timestamp": "06:55", "speaker": "Speaker_B", "text": "But going from from a word business , wouldn't it be easier to then go back and calculate for each utterance ?"}
+{"timestamp": "07:00", "speaker": "Speaker_C", "text": "Yeah , but what is an utterance . Uh , yeah ."}
+{"timestamp": "07:04", "speaker": "Speaker_A", "text": "I think just the segments as they're segmented in the for example in the point se point six five ."}
+{"timestamp": "07:05", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "07:07", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "07:18", "speaker": "Speaker_A", "text": "I think so ."}
+{"timestamp": "07:19", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "07:24", "speaker": "Speaker_A", "text": "And you would s probably still need um your values for the words , um perhaps for for um the keywords that are displayed"}
+{"timestamp": "07:33", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "07:35", "speaker": "Speaker_A", "text": "when you click on something ."}
+{"timestamp": "07:39", "speaker": "Speaker_D", "text": "Mm ."}
+{"timestamp": "07:40", "speaker": "Speaker_A", "text": "Yeah , but that's another representation then , I think , f for the importance measure ."}
+{"timestamp": "07:44", "speaker": "Speaker_B", "text": "So d"}
+{"timestamp": "07:45", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "07:47", "speaker": "Speaker_B", "text": "Does anyone does anyone know in which file the actual , like what's it called , the splitting into the utterances ?"}
+{"timestamp": "07:48", "speaker": "Speaker_A", "text": "Should yeah ."}
+{"timestamp": "07:54", "speaker": "Speaker_A", "text": "Um po"}
+{"timestamp": "07:54", "speaker": "Speaker_D", "text": "Um is it not segments ? Or is it dialogue act dialogue acts ?"}
+{"timestamp": "07:56", "speaker": "Speaker_A", "text": "Yes ."}
+{"timestamp": "07:58", "speaker": "Speaker_A", "text": "No , it's not . It's um for example , there's uh B_D_B_O_O_ one C_ point six ."}
+{"timestamp": "08:05", "speaker": "Speaker_B", "text": "What does it end with ? Does it with with SAX ?"}
+{"timestamp": "08:09", "speaker": "Speaker_B", "text": "Does that look like it ?"}
+{"timestamp": "08:12", "speaker": "Speaker_A", "text": "Uh I can't see anything very much , but yeah , that's that's it ."}
+{"timestamp": "08:14", "speaker": "Speaker_C", "text": "Mm uh-huh ."}
+{"timestamp": "08:15", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "08:16", "speaker": "Speaker_D", "text": "I think that's it , yeah ."}
+{"timestamp": "08:18", "speaker": "Speaker_B", "text": "Be nice ."}
+{"timestamp": "08:18", "speaker": "Speaker_D", "text": "Yeah , they've all got an I_D_ for each utterance ."}
+{"timestamp": "08:20", "speaker": "Speaker_B", "text": "Let's actually just see if maybe K_ right ."}
+{"timestamp": "08:25", "speaker": "Speaker_B", "text": "Oh this is how much time you spend just getting the right software going ."}
+{"timestamp": "08:34", "speaker": "Speaker_B", "text": "Is that better to see ? I guess yeah , white and black is better to see ."}
+{"timestamp": "08:39", "speaker": "Speaker_C", "text": "Yeah , it's better ."}
+{"timestamp": "08:40", "speaker": "Speaker_A", "text": "Can you use a bigger font ?"}
+{"timestamp": "08:57", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "09:01", "speaker": "Speaker_A", "text": "Okay , so here there's for um each segment um uh that's really all segments , I mean it's it can be words or topics or um anything I think ."}
+{"timestamp": "09:25", "speaker": "Speaker_D", "text": "Yeah , and it's got a different uh file for each speaker ."}
+{"timestamp": "09:29", "speaker": "Speaker_B", "text": "But what is this ? I mean this doesn't contain any content . Like any text ."}
+{"timestamp": "09:33", "speaker": "Speaker_D", "text": "N no , it just points to the to the words ."}
+{"timestamp": "09:33", "speaker": "Speaker_A", "text": "No , but it yeah ."}
+{"timestamp": "09:43", "speaker": "Speaker_A", "text": "Yeah , it p Oh , well some of them point to the words , other others point to the um dialogue acts . So that's kind of the global thing that ties together other things ."}
+{"timestamp": "09:48", "speaker": "Speaker_D", "text": "Yeah , yeah ."}
+{"timestamp": "09:55", "speaker": "Speaker_B", "text": "So what do all these things in this file have in common ? What what are they ?"}
+{"timestamp": "09:59", "speaker": "Speaker_A", "text": "Um"}
+{"timestamp": "10:14", "speaker": "Speaker_B", "text": "Okay . And"}
+{"timestamp": "10:24", "speaker": "Speaker_A", "text": "Yeah , it looks uh uh the segment thing looks in the into the words X_M_L_ file and the dialogue acts"}
+{"timestamp": "10:34", "speaker": "Speaker_B", "text": "A dialogue act uh a dialogue act annotations of dialogue act . So is that just another representation of text ?"}
+{"timestamp": "10:41", "speaker": "Speaker_A", "text": "No , their their annotation of dialogue acts , and one um segment can have or one um of those word strings that are presented in one line can have several um dialogue acts annotated on it ."}
+{"timestamp": "10:58", "speaker": "Speaker_B", "text": "Just see , can we have this files somewhere . So the stuff that's"}
+{"timestamp": "11:03", "speaker": "Speaker_B", "text": "that's called segment here that do we know which file this is pulling from ?"}
+{"timestamp": "11:07", "speaker": "Speaker_B", "text": "From yeah , it's it's c it from words X_M_L_ , is that it's saying here ?"}
+{"timestamp": "11:08", "speaker": "Speaker_A", "text": "Yeah , it's from words ."}
+{"timestamp": "11:11", "speaker": "Speaker_A", "text": "Yes ."}
+{"timestamp": "11:17", "speaker": "Speaker_A", "text": "That's just below ."}
+{"timestamp": "11:20", "speaker": "Speaker_C", "text": "So we n would need a value label for each of those segments that are not dialogue acts ."}
+{"timestamp": "11:30", "speaker": "Speaker_C", "text": "For all those that point to the actual words ."}
+{"timestamp": "11:34", "speaker": "Speaker_B", "text": "Okay , let me just try to get them all to a different screen ."}
+{"timestamp": "11:51", "speaker": "Speaker_B", "text": "Sorry , I'm just I'm trying to arrange them , so that we have one above the other , so to make some sense of that ."}
+{"timestamp": "12:10", "speaker": "Speaker_A", "text": "But I think these segments are perhaps not exactly what we are looking at , because that's just o one tying all the others together ."}
+{"timestamp": "12:19", "speaker": "Speaker_A", "text": "And the information or r I mean we are going to create a file that looks more like um the words file ."}
+{"timestamp": "12:26", "speaker": "Speaker_A", "text": "I think ."}
+{"timestamp": "12:38", "speaker": "Speaker_B", "text": "To a certain position in the in the words file ."}
+{"timestamp": "12:43", "speaker": "Speaker_D", "text": "Yeah , think so ."}
+{"timestamp": "12:48", "speaker": "Speaker_B", "text": "So it's that non-vocal sound one here . That's the mic noise , okay ."}
+{"timestamp": "12:54", "speaker": "Speaker_B", "text": "But what's the does it always just oh no , it's it's referencing to several word structures . So this would be basically be a a sequence , right ?"}
+{"timestamp": "13:03", "speaker": "Speaker_A", "text": "Yes ."}
+{"timestamp": "13:04", "speaker": "Speaker_B", "text": "So that's from W_ fifty two ."}
+{"timestamp": "13:10", "speaker": "Speaker_B", "text": "Are they not ordered or oh yeah , from W_ fifty two down to W_ what are we talking about ? And yeah , w sorry ."}
+{"timestamp": "13:11", "speaker": "Speaker_A", "text": "Yeah , they are ."}
+{"timestamp": "13:18", "speaker": "Speaker_A", "text": "Um to discourse marker , DIS F_ marker fi point five ."}
+{"timestamp": "13:25", "speaker": "Speaker_A", "text": "Yeah , that's there no no , up up . Go up . Yeah , right ."}
+{"timestamp": "13:25", "speaker": "Speaker_C", "text": "Yeah , that's there . No , above ."}
+{"timestamp": "13:29", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "13:31", "speaker": "Speaker_B", "text": "Okay . So this so this is somebody saying it it doesn't ."}
+{"timestamp": "13:37", "speaker": "Speaker_B", "text": "Do we have any confirmation do we actually see from this file who's doing it , just out of interest ?"}
+{"timestamp": "13:37", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "13:42", "speaker": "Speaker_A", "text": "Yeah , this is all the speaker D_ ."}
+{"timestamp": "13:46", "speaker": "Speaker_A", "text": "You and the speaker D_ ."}
+{"timestamp": "13:46", "speaker": "Speaker_B", "text": "Oh . Sorry , in speaker D_'s file . So this is where he'd like time stops . And then it only starts at a later time , because oh , you don't see when I'm pointing at screen , it's just for this . So then it starts here this time against speaker D_ because in-between there's somebody else ."}
+{"timestamp": "14:02", "speaker": "Speaker_A", "text": "Yes . Um you can see whether there's somebody else or not . You can see that in the w um W_ point um first it's W_ point um five uh fifty four and then it's seventy six , so there are um this number of utterances of other speakers in-between ."}
+{"timestamp": "14:02", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "14:15", "speaker": "Speaker_B", "text": "Yeah . Okay ."}
+{"timestamp": "14:32", "speaker": "Speaker_B", "text": "How would that be to best tie in with the system ?"}
+{"timestamp": "14:36", "speaker": "Speaker_A", "text": "Yeah , I think we would also need two of those ."}
+{"timestamp": "14:40", "speaker": "Speaker_B", "text": "Sorry ?"}
+{"timestamp": "14:41", "speaker": "Speaker_A", "text": "Yeah , I think we would have to have the same structure , one that points to it , where we tie together , all our information . So we would perhaps have to make one that's similar ."}
+{"timestamp": "14:50", "speaker": "Speaker_B", "text": "Something like something like this or like where you give sort of a reference to a beginning and an end position ."}
+{"timestamp": "14:57", "speaker": "Speaker_A", "text": "Yes , and uh then another one that would perhaps give the actual probability value ."}
+{"timestamp": "15:07", "speaker": "Speaker_A", "text": "Yeah , it could could probably be in the same file , I don't know ."}
+{"timestamp": "15:13", "speaker": "Speaker_A", "text": "But if you have several layers , then"}
+{"timestamp": "15:17", "speaker": "Speaker_A", "text": "you can't represent them on the same file ."}
+{"timestamp": "15:21", "speaker": "Speaker_B", "text": "We have for now if we just do something which for every"}
+{"timestamp": "15:25", "speaker": "Speaker_B", "text": "segment in here attaches actually can we not tie it to the segments file ? Would that not be the way how they would want it to have to do as if we in the end , if we want to attach to each of those segments one number for now ."}
+{"timestamp": "15:44", "speaker": "Speaker_A", "text": "Yeah , in segment point one . Um there line below ."}
+{"timestamp": "15:49", "speaker": "Speaker_B", "text": "Yeah , so wouldn't it I mean the problem is they've me haven't looked at the exact inner workings of their of their engineered . But you'd think that the easiest way and the way that how it's intended to be would be just ,"}
+{"timestamp": "16:02", "speaker": "Speaker_B", "text": "if we have here a link to the segment , a like an I_D_ for that segment , that we just create another file which links to the segment and then has an additional value which is the number ."}
+{"timestamp": "16:15", "speaker": "Speaker_C", "text": "So you mean an a an attribute . Yeah ."}
+{"timestamp": "16:17", "speaker": "Speaker_B", "text": "Yeah , yeah ."}
+{"timestamp": "16:20", "speaker": "Speaker_B", "text": "Yeah , oh sorry , I I thought we were talking about having two files ."}
+{"timestamp": "16:25", "speaker": "Speaker_B", "text": "I was think yeah , I I think that I I understood wrong . I thought you were wanting to have two different X_M_L_ files , with one the reference and one just th just the number . And I was thinking that's probably what you meant , just um having like for each sort of of our segments having just the I_D_ , which is referencing to these segments here and another attribute which is the the value ."}
+{"timestamp": "16:47", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "16:48", "speaker": "Speaker_B", "text": "So this whole information we would then store in this Ah , no , that I don't have access to because I didn't download like there's this one meta information file where it describes the structure of all the files and describes which um which attributes they bring in . So we would add that to that file ?"}
+{"timestamp": "17:06", "speaker": "Speaker_D", "text": "Mm ."}
+{"timestamp": "17:06", "speaker": "Speaker_B", "text": "Saying that sort of we bring in information density . And then we would create the file of that type , which we probably couldn't call it segment . I'm not sure . We probably might have to have a different word for it . I'm not sure if it there's any trouble with it repeating ."}
+{"timestamp": "17:22", "speaker": "Speaker_C", "text": "Wouldn't it be easiest to just incorporate a new attribute in in this file ?"}
+{"timestamp": "17:28", "speaker": "Speaker_B", "text": "In the existing segments file ."}
+{"timestamp": "17:29", "speaker": "Speaker_C", "text": "Yeah , I don't know , that's probably not very uh nice but would quite easy , wouldn't it ?"}
+{"timestamp": "17:38", "speaker": "Speaker_A", "text": "But I I mean there's not all the information that is in in the c corpus in there in the segments file . I think that is just the um things that are loaded every time , but we have lazy loading , so it can load more than that . Perhaps we could just try to cope . Um , you know , to"}
+{"timestamp": "17:38", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "18:00", "speaker": "Speaker_A", "text": "make our file one of those lazy loaded . But I mean I've no real idea how that works ."}
+{"timestamp": "18:06", "speaker": "Speaker_B", "text": "What uh what are you saying about the w I th doesn't the lazy loading apply to everything ? I mean that it sort of dynamically loads ."}
+{"timestamp": "18:12", "speaker": "Speaker_A", "text": "Yeah , but yes , but it has um , you know , a basic thing that it loads , I think . So for example every time it loads the segment things , it can't it can't not display words , I think ."}
+{"timestamp": "18:28", "speaker": "Speaker_B", "text": "You think it i it l it loads the whole of the segments file every time ."}
+{"timestamp": "18:28", "speaker": "Speaker_A", "text": "And it eras"}
+{"timestamp": "18:32", "speaker": "Speaker_A", "text": "I think so ."}
+{"timestamp": "18:34", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "18:34", "speaker": "Speaker_A", "text": "That's how I understood it ."}
+{"timestamp": "18:37", "speaker": "Speaker_A", "text": "Because otherwise in the in the other things there is no information about what the participant name is and so on . So"}
+{"timestamp": "18:46", "speaker": "Speaker_A", "text": "in the segments file it's really the very basic that have to be displayed for any thing ."}
+{"timestamp": "18:53", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "18:54", "speaker": "Speaker_C", "text": "But they display the segments in or that the utterances i in their um"}
+{"timestamp": "19:02", "speaker": "Speaker_C", "text": "user interface as well , where the words are y um displayed ."}
+{"timestamp": "19:21", "speaker": "Speaker_B", "text": "No but I think it's too early to really like discuss that in detail , because we don't at all understand at the moment how the internal data structure like how the loading works . So maybe if we g if we go ahead , do you think it would be possible for you to do an like something like segments or maybe just a copy of segment which has an attribute for for each segment , um but it is like with a with a value with a density value ."}
+{"timestamp": "19:47", "speaker": "Speaker_A", "text": "Yeah , I thin I mean it wouldn't be difficult to um create a file of the p sh of that shape . I mean that would be no problem ."}
+{"timestamp": "19:55", "speaker": "Speaker_B", "text": "Would it be easier though , because all your methods are sort of not working with their whole time frame structure there . So would it be easy for you to to tie the things together . Like if you're doing it on on the word basis here with those words , that in the end you then tie it back in into the right segment here . I mean"}
+{"timestamp": "20:11", "speaker": "Speaker_A", "text": "Um yeah , I I don't know how about you with your words , but um for my segments were the um F_ zero measurements and all those values I get from there . Um I always store the beg uh start and end time of everything I calculated there , so I would just have to pu put it uh yes ."}
+{"timestamp": "20:20", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "20:30", "speaker": "Speaker_B", "text": "You're doing it time-based at the moment . So this isn't directly having time references , but you can get the oh , it is actually here ."}
+{"timestamp": "20:37", "speaker": "Speaker_A", "text": "Yeah , it is ."}
+{"timestamp": "20:40", "speaker": "Speaker_B", "text": "Okay . So if you slice it up by time , you'd probably be able to just like attach like just some attribute of"}
+{"timestamp": "20:51", "speaker": "Speaker_B", "text": "info val just f to each of those segments ."}
+{"timestamp": "20:57", "speaker": "Speaker_A", "text": "Uh actu but actually my segments are not always the same as their segments , because and their segments , there are um Pause um pauses sometimes . A"}
+{"timestamp": "21:07", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "21:08", "speaker": "Speaker_D", "text": "Yeah , can you not just leaves those lines blank ?"}
+{"timestamp": "21:11", "speaker": "Speaker_A", "text": "Um yes , but uh yeah , I mean one segment of theirs is sometimes two segments of mine , that's just what I meant ."}
+{"timestamp": "21:16", "speaker": "Speaker_D", "text": "Oh alright . Okay ."}
+{"timestamp": "21:21", "speaker": "Speaker_B", "text": "'Kay . Um I don't understand enough of what their data structure is . This probably would be a lot easier would I really understand how they are handling the data internally , 'cause then we c then I could say oh , it's easy to just tie it in if you just have it time-stamped that just reference by words and stuff ."}
+{"timestamp": "21:47", "speaker": "Speaker_B", "text": "So you would you're doing i you're doing a word by word base ."}
+{"timestamp": "21:50", "speaker": "Speaker_C", "text": "Yeah , the problem is probably that um I extract all the words and then uh I don't um use an I_D_ or something for it , so it would be difficult to write it back to the right position ."}
+{"timestamp": "21:54", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "22:00", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "22:10", "speaker": "Speaker_C", "text": "It depends on the position , I think . Yeah ."}
+{"timestamp": "22:12", "speaker": "Speaker_B", "text": "It be d depends on the position ."}
+{"timestamp": "22:16", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "22:27", "speaker": "Speaker_B", "text": "So what if you if you if you get the results from that software and you go back over it then with that file sort of , you write an algorithm which which then goes back because they they're in the right order still and stuff , right ? So that shouldn't be a problem . Oh but this is by speaker here which makes it slightly more difficult ."}
+{"timestamp": "22:37", "speaker": "Speaker_C", "text": "Mm yeah ."}
+{"timestamp": "22:42", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "22:45", "speaker": "Speaker_B", "text": "The problem is that actually NITE X_M_L_ probably provides a lot of the tools that we'd need to do that ."}
+{"timestamp": "22:50", "speaker": "Speaker_A", "text": "Yeah , but for example I made a file that contains just the um start times . It could contain end times and words for all speakers of all meetings . I mean that's just the same thing as I gave , yeah , as I gave to you . But um uh displaying also a start and end times of every word . So you could perhaps use it to match um it with your additional information you got , couldn't you ?"}
+{"timestamp": "22:51", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "23:00", "speaker": "Speaker_B", "text": "In in a temporal sequence ."}
+{"timestamp": "23:15", "speaker": "Speaker_D", "text": "Yeah , what did you use to make that file ? Just in Perl ? You didn't use an X_M_L_ parser ?"}
+{"timestamp": "23:17", "speaker": "Speaker_A", "text": "Perl , a Perl script , yeah ."}
+{"timestamp": "23:21", "speaker": "Speaker_A", "text": "No , no ."}
+{"timestamp": "23:22", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "23:23", "speaker": "Speaker_C", "text": "Um would you think it would make sense to just take um file files by speaker . It's it doesn't matter what input I give to um to Rainbow . So I just could g use the files as they are . I don't know if that's that would give an output ."}
+{"timestamp": "23:40", "speaker": "Speaker_B", "text": "But but would the information density algorithm still make any sense if you split them up , because I mean the whole I thought the whole thing is that you look at the frequency of a word in that specific how often a word inc occurs in a certain topic versus how often it occurs over the whole corpus and that from that it calculates ."}
+{"timestamp": "23:40", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "23:44", "speaker": "Speaker_C", "text": "I don't know ."}
+{"timestamp": "23:45", "speaker": "Speaker_A", "text": "Mm yeah ."}
+{"timestamp": "23:56", "speaker": "Speaker_C", "text": "No , it um I think it's not uh versus the whole corpus . It's um you have certain categories , and you measure which words um have the highest information for one category . So it's the categories across each other I think ."}
+{"timestamp": "24:05", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "24:22", "speaker": "Speaker_C", "text": "Um probably yeah . But yeah , it's it's s strange ."}
+{"timestamp": "24:26", "speaker": "Speaker_B", "text": "Yeah , I have a gut feeling it's not a good idea to split it ."}
+{"timestamp": "24:27", "speaker": "Speaker_A", "text": "Because it would then say how it find that it's that speaker ."}
+{"timestamp": "24:30", "speaker": "Speaker_B", "text": "Yeah . No , but I mean it can't be that difficult . If you if you already have you have in the right order all the words with a with a score to them , and you have a file which has each word and a time stamp . So those two tied together have each word and its time and"}
+{"timestamp": "24:31", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "24:36", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "24:41", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "24:46", "speaker": "Speaker_A", "text": "It's probability , yeah . Or or value , yeah ."}
+{"timestamp": "24:46", "speaker": "Speaker_B", "text": "and and and its proba and its value . Yeah ."}
+{"timestamp": "24:50", "speaker": "Speaker_C", "text": "Yeah , but what what the problem is , I don't know exactly . I think the information gain in Rainbow is ordered by the value of the information gain , not I am not sure if I can get the right order and the values ."}
+{"timestamp": "25:07", "speaker": "Speaker_C", "text": "That's the problem ."}
+{"timestamp": "25:07", "speaker": "Speaker_B", "text": "So they're they're at the moment so"}
+{"timestamp": "25:09", "speaker": "Speaker_C", "text": "But I um if the order stays the same , it's no problem at all to i just write back again . But if uh it's ordered by information gain , I don't know where the words come from , because it's it has a bag of words representation ."}
+{"timestamp": "25:20", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "25:24", "speaker": "Speaker_B", "text": "It appears to me that Rainbow was made for something quite different ."}
+{"timestamp": "25:25", "speaker": "Speaker_C", "text": "Uh yes . Is it is . It was made for text classification ."}
+{"timestamp": "25:28", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "25:30", "speaker": "Speaker_A", "text": "So , could you put the more information back in then ?"}
+{"timestamp": "25:34", "speaker": "Speaker_B", "text": "I actually like um um i are you actually sure that Rainbow is doing a measure , like is returning a measure of what we are trying to measure , 'cause it it seems to me that it's just it sounds like something quite different in in d many aspects ."}
+{"timestamp": "25:47", "speaker": "Speaker_C", "text": "Yeah , um what it actually does is that you you put in some documents , and you have several documents per category ."}
+{"timestamp": "25:53", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "25:57", "speaker": "Speaker_C", "text": "Um and you have several categories . And then it measures um which words are typical for a certain t category . And if you get a new document , it will um compare which words are in that new document . And if there are a lot of words that um are typical for one category , it will assign it to that category , and if it's typical for another one , it will assign it to that one ."}
+{"timestamp": "25:59", "speaker": "Speaker_B", "text": "And w"}
+{"timestamp": "26:07", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:15", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:28", "speaker": "Speaker_B", "text": "But where do you have the original category information from ?"}
+{"timestamp": "26:31", "speaker": "Speaker_C", "text": "Yeah , it's because you have um y um you have um oth different files . If if this is your directory , you have um um a diagra um , a directory one , two and three . And this represents the category . Everything that's in there is in category one . A"}
+{"timestamp": "26:39", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:46", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:50", "speaker": "Speaker_B", "text": "So where do you where do you have them from at the moment the split up ?"}
+{"timestamp": "26:53", "speaker": "Speaker_A", "text": "Yeah , but the topic isn't it ? That's a topic information ."}
+{"timestamp": "26:53", "speaker": "Speaker_C", "text": "Yeah , just split it up somehow , yeah ."}
+{"timestamp": "26:56", "speaker": "Speaker_B", "text": "In i in the t in the topics , in the in the human topic s um so you've split them up by topic at the moment ."}
+{"timestamp": "26:57", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "27:02", "speaker": "Speaker_C", "text": "No , I've just um split them up uh somehow um by um there are several documents for"}
+{"timestamp": "27:14", "speaker": "Speaker_C", "text": "um each meeting , and I just put one in each category . So uh it's it's not very sensible at the moment , because I'm waiting for the um topic segments or I'm just yeah ."}
+{"timestamp": "27:47", "speaker": "Speaker_C", "text": "Yeah , yeah , probably . Yeah , maybe it's it's better if I write it myself , because otherwise it's too easy to just split things up into bins , and it it wouldn't be any work at all in terms of programming or something ."}
+{"timestamp": "28:01", "speaker": "Speaker_B", "text": "Yeah , but I'm also just like I think that probably the entropy value at the moment for a word is closer to what we're at the moment looking for . I can just like k k I can sit together with you for twenty minutes and just show you the entropy code that I wrote for my other project and it probably and we should work together because it's we used t we have to we'd use the same matrix as I'm using in my latent semantic analysis , you'd use to calculate entropy scores . And then we'd have um a score which actually which would be the same for the word in each position . So in that sense it's doing something a bit different , and like w basically the score that I'm talking about is a conditional entropy score which just checks how much information , the fact that there's one word tells you about what would be the next word . But that's a relatively good measure of whether that's a very specific word , in which case they are usually words which tell you quite a lot or a very general word which usually doesn't tell you quite a lot ."}
+{"timestamp": "28:15", "speaker": "Speaker_C", "text": "Alright ."}
+{"timestamp": "28:23", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "28:34", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "28:46", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "28:51", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "28:54", "speaker": "Speaker_C", "text": "How does it calculate that actually ?"}
+{"timestamp": "29:00", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "29:02", "speaker": "Speaker_A", "text": "So how sure or unsure you are about the what's following our b our context measures , yeah ."}
+{"timestamp": "29:07", "speaker": "Speaker_B", "text": "Yes , yes , it has . I mean , I think the official le sort of the official description of what it tells you is um how much that like the fact that a given word occurs tells you about what's the next word's gonna be . Which doesn't sound too exciting , but it it just works out in the way that words which are promiscuous and which occur with everything all over the place have very low a scores on that , and also usually end up being the words which are p"}
+{"timestamp": "29:18", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "29:32", "speaker": "Speaker_B", "text": "Least like expressive , and l contain less information ."}
+{"timestamp": "29:36", "speaker": "Speaker_D", "text": "Well like function words and stuff ."}
+{"timestamp": "29:37", "speaker": "Speaker_B", "text": "Yeah , function words or just very general nouns . Pr probably like what whatev for example the word computer in that context . You could imagine it to f like be in all in all the contexts ."}
+{"timestamp": "29:43", "speaker": "Speaker_D", "text": "Mm ."}
+{"timestamp": "29:46", "speaker": "Speaker_A", "text": "But do we have enough informa enough data for that it gives us sensible things ? Because I mean the the words we're look really looking for appear not too often , and if they appear five times in the meeting and they have each time a different , you know , differ some different surrounded words , perhaps we have not enough data ."}
+{"timestamp": "30:06", "speaker": "Speaker_B", "text": "Yeah , so we would we w wouldn't do it by word , we would sorry , okay , um I was I was getting that w actually , sorry , I was getting that wrong , I was getting it from what I did my project . Now in this case , we would do it by per mee words per meeting ."}
+{"timestamp": "30:23", "speaker": "Speaker_C", "text": "Yeah , but that's the sa uh almost I think similar to what I'm doing , because words that are in every class , that are not very informative , but words that are only in one class are are very informative for that class ."}
+{"timestamp": "30:31", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "30:37", "speaker": "Speaker_B", "text": "Yes , it it's probably doing it's probably doing quite the same thing in the end , but I'm just saying like with that thing you would easily have an algorithm which at the moment provides you for each word with a score which we can use ."}
+{"timestamp": "30:46", "speaker": "Speaker_C", "text": "Oh okay ."}
+{"timestamp": "30:48", "speaker": "Speaker_C", "text": "Alright ."}
+{"timestamp": "30:50", "speaker": "Speaker_B", "text": "Um no um , I was I was I was describing the wrong thing . In this case we wouldn't be doing how much it tells you about another word . In this case we would be doing given that you know a word , how good is it at predicting from which um specific topic that was ."}
+{"timestamp": "31:02", "speaker": "Speaker_A", "text": "Yeah , okay ."}
+{"timestamp": "31:04", "speaker": "Speaker_B", "text": "So that would yeah , in that sense it's the same thing here ."}
+{"timestamp": "31:05", "speaker": "Speaker_C", "text": "Yeah , that's th yeah ."}
+{"timestamp": "31:07", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "31:21", "speaker": "Speaker_C", "text": "For a specific word per"}
+{"timestamp": "31:21", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "31:24", "speaker": "Speaker_B", "text": "The same word the word yesterday would be would have the same score all over the place ."}
+{"timestamp": "31:30", "speaker": "Speaker_C", "text": "All over the place . And in my case it would have I think it would have different uh values for each category . But in that category it would have the same value at each place ."}
+{"timestamp": "31:38", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "31:44", "speaker": "Speaker_B", "text": "I c"}
+{"timestamp": "31:54", "speaker": "Speaker_B", "text": "But but your category thing depends on that we not just have topic segments , but also that these topic segments we have them in categories ."}
+{"timestamp": "31:54", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "32:03", "speaker": "Speaker_B", "text": "You you do wouldn't you need several documents for each category ? Or several segments for each category ."}
+{"timestamp": "32:07", "speaker": "Speaker_C", "text": "Um that would be best , but I I would have to look if that ."}
+{"timestamp": "32:12", "speaker": "Speaker_B", "text": "Do but will it word without that at all ?"}
+{"timestamp": "32:15", "speaker": "Speaker_C", "text": "Um at least it works if there are several categories with each with one document each , but it um yeah ."}
+{"timestamp": "32:24", "speaker": "Speaker_B", "text": "Yeah , I mean s so in our case basically every"}
+{"timestamp": "32:28", "speaker": "Speaker_B", "text": "every s topic would be its own category ."}
+{"timestamp": "32:32", "speaker": "Speaker_B", "text": "And the question is does the algorithm still make any sense in that I don't understand the algorithm enough for that . But what I'm really like because the entropical um calculation is so simple , maybe we should look into making that score just as a preliminary score that we have . Like it it's a very it gives you like I've looked at the result , it gives you basically something in the end which vaguely tells you just whether a word is a very specific word"}
+{"timestamp": "32:32", "speaker": "Speaker_C", "text": "Yeah , that's the questio yeah , I don't know ."}
+{"timestamp": "32:42", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "32:48", "speaker": "Speaker_C", "text": "Mm okay ."}
+{"timestamp": "32:57", "speaker": "Speaker_B", "text": "or a very general word ."}
+{"timestamp": "32:58", "speaker": "Speaker_A", "text": "Yes ."}
+{"timestamp": "32:59", "speaker": "Speaker_B", "text": "And"}
+{"timestamp": "33:01", "speaker": "Speaker_B", "text": "I like there is some hope that probably having just sentences where there's lots of very specific words , if you mark them as being more interesting than the words which are only very general words , that they would get us somewhere ."}
+{"timestamp": "33:13", "speaker": "Speaker_A", "text": "Um and what well , what score would a word get that just occurs once in all the corpus for example ?"}
+{"timestamp": "33:21", "speaker": "Speaker_B", "text": "Probably one point zero is very high information value ."}
+{"timestamp": "33:25", "speaker": "Speaker_A", "text": "Even though there are all the other same topics where it doesn't occur ?"}
+{"timestamp": "33:34", "speaker": "Speaker_B", "text": "Yeah , in in a sense I mean this is a bit like the what like document frequency over total frequency ."}
+{"timestamp": "33:40", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "33:42", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "33:45", "speaker": "Speaker_A", "text": "So would it be higher-scored than a word that um occurs"}
+{"timestamp": "33:50", "speaker": "Speaker_A", "text": "in"}
+{"timestamp": "33:52", "speaker": "Speaker_A", "text": "every um sequence of the same topic ?"}
+{"timestamp": "34:07", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "34:12", "speaker": "Speaker_B", "text": "Within th within the topic , so like topic we had to when you say topic , you mean like just like from from a beginning to end point , like within one meeting there are several topics ?"}
+{"timestamp": "34:22", "speaker": "Speaker_A", "text": "Yes , but across meetings um there will be the same topic several times ."}
+{"timestamp": "34:28", "speaker": "Speaker_B", "text": "But we don't have that information anywhere , do we ?"}
+{"timestamp": "34:31", "speaker": "Speaker_A", "text": "Ah . It wasn okay . I thought that was what you were doing ."}
+{"timestamp": "34:35", "speaker": "Speaker_D", "text": "Well , um when it splits the topics up , it does do it on regular words that um that occur . But it doesn't tell you what they are , no ."}
+{"timestamp": "34:44", "speaker": "Speaker_B", "text": "But but you you are segmenting ."}
+{"timestamp": "34:47", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "34:51", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "35:00", "speaker": "Speaker_B", "text": "But like f for now , like your segmentation is just splitting a meeting up into different blocks ver"}
+{"timestamp": "35:03", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "35:05", "speaker": "Speaker_D", "text": "Yeah , you can't really get any other output ."}
+{"timestamp": "35:10", "speaker": "Speaker_B", "text": "Not not from what Colin is doing from what I no . It's only like I'm writing an algorithm that which then tries to also again based on word p occurrence patterns try to link together maybe different ones of those ."}
+{"timestamp": "35:21", "speaker": "Speaker_A", "text": "Oh , okay ."}
+{"timestamp": "35:23", "speaker": "Speaker_A", "text": "I misunderstood that then ."}
+{"timestamp": "35:28", "speaker": "Speaker_A", "text": "So yeah , how would it work ? I mean what would"}
+{"timestamp": "35:32", "speaker": "Speaker_A", "text": "um the his information then be useful for in r Rainbow ?"}
+{"timestamp": "35:37", "speaker": "Speaker_A", "text": "Um I thought the point about that was that we would put um into s um serial categories all the segments of the same topic across meetings ."}
+{"timestamp": "35:49", "speaker": "Speaker_C", "text": "Oh no , I li I th I thought something else that we d um we just split I need somewhere to split , and that um splitting at category boundaries um splitting at topic boundaries would a nice thing to do , rather than just splitting somewhere . So yeah , yeah ."}
+{"timestamp": "35:49", "speaker": "Speaker_B", "text": "So that yeah ."}
+{"timestamp": "35:52", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "36:04", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "36:06", "speaker": "Speaker_D", "text": "Yeah , it's supposed to split it into cu coherent topics with the similar information ."}
+{"timestamp": "36:08", "speaker": "Speaker_A", "text": "Yeah , but but then it does okay ."}
+{"timestamp": "36:11", "speaker": "Speaker_B", "text": "Yeah , I'm also a bit b like I'm not a hundred percent sure about Rainbow being the right thing , 'cause it seems that Rainbow does in its structure quite rely on having different examples of the same category sort of in in a way ."}
+{"timestamp": "36:22", "speaker": "Speaker_C", "text": "Yeah , but it I think it should work for just one document , because it it compares between the categories , and if you just have one document um it still can find out which words are informative for that category and which are not . So if you have just one document in each category , and there are a lot of um occurrences of the word the in each one , so this word will be not very informative across the categories . So it should work for one , but I'm not sure if how exactly it it um calculates everything . Uh I think it's not possible to look that up ."}
+{"timestamp": "36:40", "speaker": "Speaker_B", "text": "'Kay ."}
+{"timestamp": "36:51", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "36:52", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "37:01", "speaker": "Speaker_B", "text": "You know what , as a byproduct of my L_S_A_ I'll provide um a vocabulary like sort of a dictionary which for each word gives an entropy score entropy score , which just tells you of how much information the presence of a word tells you about which topic it is . Not which category , like I'm not I'm not lumping together separate topic segments into categories . But just like how much this word tells you about wh how likely that w the occurrence of that word makes it that it's a specific segment topic segment . Which is some measure already of how widespread this word is versus how specific f to a certain segment that is . And I'll just provide that , because that's just not much more work than just the usual thing . And then we can see how we can tie that in with the other stuff ."}
+{"timestamp": "37:20", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "37:32", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "37:49", "speaker": "Speaker_B", "text": "So if you um keep on working on Rainbow meanwhile and try to find a way how to tie your Rainbow stuff into"}
+{"timestamp": "37:50", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "37:58", "speaker": "Speaker_B", "text": "some way that we can attach it to a certain time segment ."}
+{"timestamp": "38:09", "speaker": "Speaker_C", "text": "Yeah , don't know ."}
+{"timestamp": "38:14", "speaker": "Speaker_B", "text": "It it used is each word completely unique , like sort of does it treat each word , each occurrence of word , as a completely unique event . Or does it , I mean , no , it it has to , I mean , basically the the form of the word is important , right ? We can't just replace the word by an arbitrary string ."}
+{"timestamp": "38:28", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "38:31", "speaker": "Speaker_B", "text": "Because it looks if the same word occurs again and stuff ."}
+{"timestamp": "38:45", "speaker": "Speaker_B", "text": "What I was thinking is whether if we replace the word by something uniquely id identifiable , then it wouldn't make a different which order it is . But that wouldn't work because it needs the word , because that's all it's working on . It's the word and that looks if that word occurs again and versus how often that word occurs in other context , right ? So we can't attach some type of information to the word , just to the word string itself , like making an underscore , making the time or something , that wouldn't work ."}
+{"timestamp": "38:48", "speaker": "Speaker_C", "text": "Mm-hmm . Oh right ."}
+{"timestamp": "38:58", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "39:02", "speaker": "Speaker_A", "text": "Yeah . Mm yeah ."}
+{"timestamp": "39:05", "speaker": "Speaker_C", "text": "Alright . Yeah , you you can use um"}
+{"timestamp": "39:19", "speaker": "Speaker_B", "text": "But would it have that in the untruncated version then , like would it s would the output be the untruncated version ? It will probably um no , I don't think it would ."}
+{"timestamp": "39:24", "speaker": "Speaker_C", "text": "Uh probably not . No , no ."}
+{"timestamp": "39:38", "speaker": "Speaker_C", "text": "Yeah , maybe I should try something different and just programme it for myself ."}
+{"timestamp": "39:53", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "39:58", "speaker": "Speaker_B", "text": "T I mean , let's just keep on talking meanwhile and I'll try to start that up ."}
+{"timestamp": "40:04", "speaker": "Speaker_B", "text": "It's it's it's really d it it's a very simple thing , but it it basically just"}
+{"timestamp": "40:08", "speaker": "Speaker_B", "text": "does something which tells you how specific a word is . In a sense it's in a it's it's basically just to to a high degree really telling you how r how rare a word is or how common a word is . But uh as as the first step that's probably for for a prototype for next week that's probably not a bad thing , I mean even if it's just that . Even if you just like if you have segments where where lots of rare words occur , highlighted in darker red than segments where all the very common words occur . That's just that's somewhere to start from ."}
+{"timestamp": "40:19", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "40:27", "speaker": "Speaker_D", "text": "Hmm . Yeah ."}
+{"timestamp": "40:39", "speaker": "Speaker_B", "text": "And it's it's a bit more sophisticated than that , but then de facto it just ends up doing that mostly , from what I figured out ."}
+{"timestamp": "40:56", "speaker": "Speaker_B", "text": "Actually I think I'm not gonna not gonna start that now , because that's probably gonna take too long ."}
+{"timestamp": "41:03", "speaker": "Speaker_B", "text": "So"}
+{"timestamp": "41:05", "speaker": "Speaker_B", "text": "if we get it on a word by word basis whatever you do it'll probably appear in a word by word basis , and what you have on a sort of segment but not quite segment base ."}
+{"timestamp": "41:10", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "41:15", "speaker": "Speaker_A", "text": "Yes . Yeah , I mean I haven't really decided on uh how to really get the information out of this now , because um when I have for example um increased speaker overlap , that applies to several turns of course . But I could give um the information about , yeah , how how important this is to each of those segments ."}
+{"timestamp": "41:42", "speaker": "Speaker_B", "text": "'Kay , what about the following model ? I mean this is a very unscientific way of doing it in some sense , but what if we if we take time as the standard unit for now and sort of like make a massive one segment split super-array . Because everything you're doing can in one way or the other be ti tied down to actual time . So if we if we if for if for each one segment time slot we could attach a value , and then it would be easy to then go back when if we have the time marks here , and re-map that onto onto the length of a segment , you know what I mean ? So if you have for each word say and we know that word starts at this segment and ends at that segment , and you have for like for some time period w the overlap and that period on the F_ ones and that period or something . So you also have a value which can be tied down to a time . And then we could just in m in Matlab or in something just create some massive super-array of"}
+{"timestamp": "42:36", "speaker": "Speaker_B", "text": "of things for each for each like sort of time sampling slot and and calculate a value for this , and once we have this array ,"}
+{"timestamp": "42:45", "speaker": "Speaker_B", "text": "we can go with the script and sort of go for each segment to the starting and end times and say okay , this is from our time segment f here to this time segment there . So we take the some of those and divide them by by the number or something , create the average and put it in as the value for the segment . You know what I mean ?"}
+{"timestamp": "43:01", "speaker": "Speaker_C", "text": "Yeah , but how can we get to know what makes sense as a a function for joining everything together ? Might be difficult to find that out . Yeah ."}
+{"timestamp": "43:09", "speaker": "Speaker_B", "text": "Oh ."}
+{"timestamp": "43:22", "speaker": "Speaker_B", "text": "We don't have a way of usefully evaluating automatically what's good and what's bad , so it's it's probably always gonna be a question of looking at it and saying okay , like running it with different different factor loadings and seeing okay , this way it works this well and this way it works that well ."}
+{"timestamp": "43:28", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "43:54", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "43:56", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "44:00", "speaker": "Speaker_B", "text": "But it probably be more difficult for mapped t to map for you to map it on so for you sort of i"}
+{"timestamp": "44:05", "speaker": "Speaker_A", "text": "Yeah sure , but I could then if I if I have um the value for a segment , I would perhaps just give all the"}
+{"timestamp": "44:13", "speaker": "Speaker_A", "text": "important wor or mm yeah no ."}
+{"timestamp": "44:17", "speaker": "Speaker_C", "text": "You you could always find out how many words there are in an utterance , couldn't you ?"}
+{"timestamp": "44:22", "speaker": "Speaker_A", "text": "Yes ."}
+{"timestamp": "44:23", "speaker": "Speaker_B", "text": "Yeah , but so you say that inst like you basically say w having an array where each each cell is is one like is o is one word . . And then you would map your information onto individual words ."}
+{"timestamp": "44:32", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "44:37", "speaker": "Speaker_A", "text": "Yeah , I would say that someone have to break it down , aye ?"}
+{"timestamp": "44:40", "speaker": "Speaker_B", "text": "Hmm ?"}
+{"timestamp": "44:42", "speaker": "Speaker_A", "text": "I would probably somehow have to break it down to to that level , yeah ."}
+{"timestamp": "44:50", "speaker": "Speaker_A", "text": "Yes , sure ."}
+{"timestamp": "44:53", "speaker": "Speaker_B", "text": "'Kay , and and then we could have like some type of just point in the end where the one scores from the all the individual word cells get multiplied all with like for each utterance or whatever . You have get all multiplied with the same value all the ones that are within that utterance . That's sort of the combination of of the two scores ."}
+{"timestamp": "45:11", "speaker": "Speaker_A", "text": "Yeah , probably somehow it should work that way ."}
+{"timestamp": "45:13", "speaker": "Speaker_C", "text": "For example ."}
+{"timestamp": "45:14", "speaker": "Speaker_B", "text": "And then we'd have to go back again and then put that back into that segment mode here ."}
+{"timestamp": "45:19", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "45:20", "speaker": "Speaker_B", "text": "So that we because in the end we don't want it on a per word basis , but probably on a per segment base ."}
+{"timestamp": "45:26", "speaker": "Speaker_A", "text": "Yeah , but then okay , but th at that moment it would be better for me to just make it on a per-segment basis right way , and let her adapt it also to the segment basis ."}
+{"timestamp": "45:32", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "45:33", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "45:35", "speaker": "Speaker_B", "text": "Oh , yeah yeah , actually that yeah , that's true , so that it's easier if you"}
+{"timestamp": "45:36", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "45:40", "speaker": "Speaker_B", "text": "are able to yeah well , I think that's probably back where we started at this . But you said it wi but you said it's more complicated , because your segments aren't those segments exactly ."}
+{"timestamp": "45:44", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "45:58", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "46:01", "speaker": "Speaker_B", "text": "Hmm . And their segments do overlap ."}
+{"timestamp": "46:06", "speaker": "Speaker_B", "text": "Uh the tho those do or those don't ?"}
+{"timestamp": "46:09", "speaker": "Speaker_A", "text": "Um"}
+{"timestamp": "46:11", "speaker": "Speaker_A", "text": "they're I mean my segments overlap in the same way as theirs do . But sometimes I have um split one of the segments into two segments , but it's easy to match the start and end times to map it to their segments ."}
+{"timestamp": "46:15", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "46:23", "speaker": "Speaker_B", "text": "Okay . So you could on their granularity you could on their granularity create a score like for each for each of their segments ."}
+{"timestamp": "46:33", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "46:36", "speaker": "Speaker_B", "text": "Well I guess I mean for you , if you know for each word , if you find that out , then it has to be possible , because if we know sort of this is going from word to word or it this is going from time to time and then there has to be a way then for you say okay , this concerns these following words , and then just make make a simple mean over them ."}
+{"timestamp": "46:40", "speaker": "Speaker_C", "text": "Yeah , then we sh yeah ."}
+{"timestamp": "46:55", "speaker": "Speaker_B", "text": "I think an interesting thing is if we don't combine your two scores in the"}
+{"timestamp": "47:02", "speaker": "Speaker_B", "text": "in the X_M_L_ file you had , but if we do that in the software , then we can probably make ways of playing with it in the software and sort of l you know like adapting some sort of control , like playing around with look like it's playing with different weightings for that the utterance-based one versus the word-based one and sort of look at it dynamically . You know what I mean ?"}
+{"timestamp": "47:23", "speaker": "Speaker_B", "text": "Like playing around , sort of figuring out what's the best way of combining them by playing around and looking at the results ."}
+{"timestamp": "47:26", "speaker": "Speaker_A", "text": "Mm-hmm , yeah ."}
+{"timestamp": "47:29", "speaker": "Speaker_C", "text": "We could even yeah , we could even have a look at our different measures , if they um"}
+{"timestamp": "47:37", "speaker": "Speaker_C", "text": "come up with the same same kinds of yeah ."}
+{"timestamp": "47:37", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "47:40", "speaker": "Speaker_B", "text": "Yeah , we could probably like make a uh um graphic display initially , at least for our experimenting . We'd just place them in different ways and then see how they interact with each other ."}
+{"timestamp": "47:53", "speaker": "Speaker_B", "text": "Okay . Yeah . So do you think y like both of you then can map something onto their segments , like just each of you provide one value , like double value or whatever , like one decimal value or whatever onto onto exactly their segments ."}
+{"timestamp": "48:17", "speaker": "Speaker_C", "text": "It's stated from where to where the segments go . It should be uh should be possible ."}
+{"timestamp": "48:21", "speaker": "Speaker_A", "text": "Yeah , it's tells you even which words it is ."}
+{"timestamp": "48:23", "speaker": "Speaker_C", "text": "Yeah , so it must should be possible . Yeah ."}
+{"timestamp": "48:31", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "48:54", "speaker": "Speaker_B", "text": "'Kay , I might just change my order of in which I do things and like forget my latent semantic analysis stuff until the weekend and try to really make sense of the"}
+{"timestamp": "49:04", "speaker": "Speaker_B", "text": "of the NITE data system now , so that maybe as soon as I've understood that we find ways of doing that in within the NITE framework already , so that we don't manually have to parse times and entire things together ."}
+{"timestamp": "49:17", "speaker": "Speaker_C", "text": "You mean by matching strings . Or what ?"}
+{"timestamp": "49:28", "speaker": "Speaker_C", "text": "Yeah , but what I've done is um a parser , an X_M_L_ parser where you can get the start times ."}
+{"timestamp": "49:34", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "49:35", "speaker": "Speaker_C", "text": "So , yeah , that's quite easy , because it's it's an attribute and you just s say that you want the values of those attributes ."}
+{"timestamp": "49:41", "speaker": "Speaker_B", "text": "Mm-hmm . Mm-hmm . So provided that you get your words in the right order , do you think it is an easy task for you to it it's a f relatively feasible task for you to to get just a single value per segment ?"}
+{"timestamp": "49:56", "speaker": "Speaker_B", "text": "Okay . And you say you think you're able as well to map onto those segments ."}
+{"timestamp": "50:01", "speaker": "Speaker_A", "text": "Yep . Should be possible ."}
+{"timestamp": "50:03", "speaker": "Speaker_B", "text": "And if you're both able to map into those segments , then we should be able to get one file where we have like whatever two values , value A_ and value B_ both as attributes for"}
+{"timestamp": "50:12", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "50:14", "speaker": "Speaker_B", "text": "for this ."}
+{"timestamp": "50:17", "speaker": "Speaker_B", "text": "And that we could load into a prototype and see what types of disp what ways of displaying this information are there ."}
+{"timestamp": "50:24", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "50:53", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "50:59", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "51:04", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "51:04", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "51:12", "speaker": "Speaker_B", "text": "There's probably also social interaction factors in that there's sometimes just a meeting like if people adapt their F_ zero to each other , then they're sometimes p"}
+{"timestamp": "51:13", "speaker": "Speaker_A", "text": "I'll probably look at it ."}
+{"timestamp": "51:23", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "51:26", "speaker": "Speaker_A", "text": "Yeah , but it could mess up things quite considerably ."}
+{"timestamp": "51:29", "speaker": "Speaker_B", "text": "Can you not do something like just like not measuring the F_ zero or the amplitude at all , but just like the variance of F_ zero within a certain time frame and like sort of like just have some part for its very low variance with more the same F_ zero and one where there's a lot of more variance . I don't well actually I don't know about that at all ."}
+{"timestamp": "51:44", "speaker": "Speaker_A", "text": "Yeah . But uh ar yeah . But all this is quite , you know , data-intensive . I when I um let the um just calculate the average F_ zero levels , it I think it needed more than half an hour , considerably more than what have half an hour f to delay it for our meetings , because um yeah , m I mean we have seventy five hours per , yeah , av average of six speakers , and they're measured every O_ point O_ one six seconds . And that gives us quite a lot of values ."}
+{"timestamp": "51:50", "speaker": "Speaker_B", "text": "Yeah . Sorry ."}
+{"timestamp": "52:01", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "52:04", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "52:22", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "52:33", "speaker": "Speaker_A", "text": "Yeah , what I did at the moment is um I um , yeah , I got the F_ zero values from for each speaker for his headphone , and I only take those um the w uh that were recorded at the time where he was actually speaking . And for those I calculated um the average ."}
+{"timestamp": "52:42", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "52:51", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "52:58", "speaker": "Speaker_A", "text": "Zero . So that gave me um now one value per speaker per meeting ."}
+{"timestamp": "53:06", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "53:09", "speaker": "Speaker_B", "text": "Um so what you would be feeding in would be just like one value per speaker per meeting , so that oka that that's that's your average baseline , okay okay . No yeah , that that makes m yeah , that makes a lot more sense , yeah . So that would show you how much relative to how he sort of how he's performing generally in that meeting relative to that how he's in a specific segment . He or she ."}
+{"timestamp": "53:14", "speaker": "Speaker_A", "text": "No no , that's just the average . No , that i yeah ."}
+{"timestamp": "53:30", "speaker": "Speaker_A", "text": "Yes , I mean I r just uh needed to have this value now to relate um m how yeah ."}
+{"timestamp": "53:35", "speaker": "Speaker_B", "text": "Yeah . Yeah . And for you that would be quite easy to translate into those segments ."}
+{"timestamp": "53:42", "speaker": "Speaker_A", "text": "Yeah , I think . Yeah ."}
+{"timestamp": "53:48", "speaker": "Speaker_A", "text": "Um amusement and so on is yeah ."}
+{"timestamp": "53:48", "speaker": "Speaker_C", "text": "Because you could take that on ours out maybe . If you take the laughter out and then calculate it ."}
+{"timestamp": "53:55", "speaker": "Speaker_C", "text": "Mm . Yeah ."}
+{"timestamp": "53:57", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "53:58", "speaker": "Speaker_A", "text": "Because it's quite funny to have a m male speaking at two hun two hundred um ."}
+{"timestamp": "54:09", "speaker": "Speaker_B", "text": "The Castrati corps of the International Computer Science institute . Oh well . I'm afraid I have to go soon . But not quite sure , I mean is there anything more we have to talk about anyway ?"}
+{"timestamp": "54:22", "speaker": "Speaker_C", "text": "Not the moment . Maybe if we meet at the weekend ."}
+{"timestamp": "54:28", "speaker": "Speaker_B", "text": "Yeah . See , as soon as as soon as I'm halfway through my L_S_A_ like basically as soon as I have the the matrix built , if of the document by word stuff , it's very easy to then calculate for each word a score , and I can just give you those scores and you can do with them whatever you want ."}
+{"timestamp": "54:28", "speaker": "Speaker_C", "text": "Oh I don't know ."}
+{"timestamp": "54:45", "speaker": "Speaker_C", "text": "So uh no , how about the the prototype . If we want to show him something on Monday , we definite have to work together . Some of us at least have to work together to get it running probably ."}
+{"timestamp": "54:57", "speaker": "Speaker_B", "text": "Yeah , I think Colin , Dave and me will actually work on on the Java stuff , and it and we'll just see whatever you whatever you supply us , we'll try to tie in and visualise in some way or another ."}
+{"timestamp": "55:06", "speaker": "Speaker_C", "text": "Alright ."}
+{"timestamp": "55:09", "speaker": "Speaker_B", "text": "Um I'll ask Jonathan if we can postpone the meeting to one o'clock . So that would give us a chance of meeting in for an hour before that to discuss the questions that we had ."}
+{"timestamp": "55:15", "speaker": "Speaker_D", "text": "Yeah , that sounds like an idea ."}
+{"timestamp": "55:23", "speaker": "Speaker_D", "text": "Yeah . Yeah , just send us an email and tell us what's happening ."}
+{"timestamp": "55:26", "speaker": "Speaker_B", "text": "Yeah , I haven't gotten like sort of my confirmation that w Wednesday is fine . I'm not sure if I'm supposed to expect a confirmation for my confirmation from him now or but I'll just email him again and s ask him if we can maybe make it one sorry , we said twelve and I'm asking if he can make one . This is a bit frustrating at the moment , this project , isn't it ? It's so like difficult to to get to the point where you understand enough to really feel that . I don't know , I'm not feeling that I'm really working at the moment , I'm more just trying to make sense of everything . And it's a bit too far into the meeting for that , and into the project for that ."}
+{"timestamp": "55:56", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "56:08", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "56:12", "speaker": "Speaker_B", "text": "I guess as soon as we have a framework in the w in the type of the prototype where like sort of each of us can tie in their stuff and see what it l how how it looks like and how it performs , you know . That probably makes it a lot easier then , but it's sort of it's a boot-strapping problem , like for the prototype we need some type of data , but to develop the data it would be a lot easier to to have the prototype ."}
+{"timestamp": "56:30", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "56:32", "speaker": "Speaker_B", "text": "Anyway , I gotta go ."}
+{"timestamp": "56:32", "speaker": "Speaker_A", "text": "Yeah . So I mean you will be happy with some data , even if it doesn't make much sense ."}
+{"timestamp": "56:33", "speaker": "Speaker_C", "text": "Yeah , me too ."}
+{"timestamp": "56:34", "speaker": "Speaker_C", "text": ".. ."}
+{"timestamp": "56:36", "speaker": "Speaker_B", "text": "Hmm ?"}
+{"timestamp": "56:37", "speaker": "Speaker_B", "text": "Yes , but if it's if it's in a form which is easy to read in at the moment , that would be fine . Sort of like if basically if we have something like this segments file , but for each of you like just have one attribute . I think it's really easy if we don't merge them before-hand , but if we let them if we combine them in the prototype or don't at the moment , because then we can easily d display them individually , c contrast them to each other and play around with how y to combine them ."}
+{"timestamp": "56:56", "speaker": "Speaker_A", "text": "Try uh try yeah . Mm-hmm ."}
+{"timestamp": "57:05", "speaker": "Speaker_B", "text": "Exactly , yeah . Yeah . And I mean computationally multiplying two integers or doubles or whatever shouldn't be the thing that slows us down ."}
+{"timestamp": "57:12", "speaker": "Speaker_A", "text": "Yeah , if it's already on segments base , that's not too much ."}
+{"timestamp": "57:15", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "57:17", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "57:18", "speaker": "Speaker_B", "text": "Alright ."}
+{"timestamp": "57:21", "speaker": "Speaker_D", "text": "Right ."}
