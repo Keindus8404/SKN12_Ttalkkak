@@ -1,0 +1,621 @@
+{"timestamp": "00:00", "speaker": "Speaker_D", "text": "Yeah , we had a long discussion about"}
+{"timestamp": "00:06", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "00:16", "speaker": "Speaker_D", "text": "Did did did it ? I didn't even check yesterday whether it was moving ."}
+{"timestamp": "00:18", "speaker": "Speaker_E", "text": "It didn't move yesterday either when I started it ."}
+{"timestamp": "00:19", "speaker": "Speaker_B", "text": "Oh , it didn't ? OK ."}
+{"timestamp": "00:20", "speaker": "Speaker_D", "text": "So ."}
+{"timestamp": "00:20", "speaker": "Speaker_B", "text": "It didn't move on me on one other meeting and it did on one and both recorded the same so ."}
+{"timestamp": "00:21", "speaker": "Speaker_D", "text": "Channel three ?"}
+{"timestamp": "00:22", "speaker": "Speaker_D", "text": "Channel three ?"}
+{"timestamp": "00:28", "speaker": "Speaker_D", "text": "Mm - hmm ?"}
+{"timestamp": "00:29", "speaker": "Speaker_E", "text": "You can tell if it 's picking up breath noise and stuff ."}
+{"timestamp": "00:32", "speaker": "Speaker_D", "text": "Yeah , it has a little indicator on it on the AF ."}
+{"timestamp": "00:33", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "00:34", "speaker": "Speaker_B", "text": "Oh , really ?"}
+{"timestamp": "00:36", "speaker": "Speaker_E", "text": "So if you yeah , if you breathe under breathe and then you see AF go off , then you know it 's p picking up your mouth noise ."}
+{"timestamp": "00:44", "speaker": "Speaker_B", "text": "Oh , that 's good . Cuz we have a lot of breath noises ."}
+{"timestamp": "00:46", "speaker": "Speaker_D", "text": "Yep . Test ."}
+{"timestamp": "00:58", "speaker": "Speaker_B", "text": "Exactly . It 's very disconcerting . OK ."}
+{"timestamp": "01:01", "speaker": "Speaker_B", "text": "So , um , I was gonna try to get out of here , like , in half an hour , um , cuz I"}
+{"timestamp": "01:07", "speaker": "Speaker_B", "text": "really appreciate people coming , and the main thing that I was"}
+{"timestamp": "01:13", "speaker": "Speaker_B", "text": "gonna ask people to help with today is to"}
+{"timestamp": "01:18", "speaker": "Speaker_B", "text": "give input on what kinds of database format we should use in"}
+{"timestamp": "01:24", "speaker": "Speaker_B", "text": "starting to link up things like word transcripts and annotations of word transcripts , so anything that"}
+{"timestamp": "01:34", "speaker": "Speaker_B", "text": "with time - marks for , like , words and phone boundaries and all the stuff we get out of the forced alignments and the recognizer ."}
+{"timestamp": "01:52", "speaker": "Speaker_D", "text": "Yeah , I 'm I 'm familiar with that . I mean , we I sort of already have developed an XML format"}
+{"timestamp": "01:54", "speaker": "Speaker_E", "text": "Can I see it ?"}
+{"timestamp": "02:00", "speaker": "Speaker_D", "text": "is it the sort of thing that you want to use or not ?"}
+{"timestamp": "02:03", "speaker": "Speaker_D", "text": "Have you looked at that ? I mean , I had a web page up ."}
+{"timestamp": "02:15", "speaker": "Speaker_B", "text": "OK , yeah . So you should , definitely ."}
+{"timestamp": "02:16", "speaker": "Speaker_D", "text": "Um , so so it definitely had that as a concept . So tha it has a single time - line ,"}
+{"timestamp": "02:21", "speaker": "Speaker_B", "text": "Mm - hmm ."}
+{"timestamp": "02:21", "speaker": "Speaker_D", "text": "and then you can have lots of different sections , each of which have I Ds attached to it , and then you can refer from other sections to those I Ds ,"}
+{"timestamp": "02:29", "speaker": "Speaker_D", "text": "if you want to ."}
+{"timestamp": "02:32", "speaker": "Speaker_D", "text": "so that you start with with a time - line tag ."}
+{"timestamp": "02:39", "speaker": "Speaker_D", "text": "And then you have a bunch of times ."}
+{"timestamp": "02:44", "speaker": "Speaker_B", "text": "Right , right ."}
+{"timestamp": "02:46", "speaker": "Speaker_D", "text": "Yeah , \"\" T equals one point"}
+{"timestamp": "02:51", "speaker": "Speaker_D", "text": "And then I I also had optional things like accuracy ,"}
+{"timestamp": "02:54", "speaker": "Speaker_D", "text": "and then \"\" ID equals T one , uh , one seven \"\" . And then ,"}
+{"timestamp": "03:01", "speaker": "Speaker_D", "text": "I also wanted to to be i to be able to not specify specifically what the time was and just have a stamp ."}
+{"timestamp": "03:06", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "03:09", "speaker": "Speaker_D", "text": "Yeah , so these are arbitrary , assigned by a program , not not by a user . So you have a whole bunch of those ."}
+{"timestamp": "03:19", "speaker": "Speaker_D", "text": "which has \"\" start"}
+{"timestamp": "03:22", "speaker": "Speaker_D", "text": "equals T - seventeen , end equals T - eighteen \"\" ."}
+{"timestamp": "03:26", "speaker": "Speaker_D", "text": "So what that 's saying is , we know it starts at this particular time . We don't know when it ends ."}
+{"timestamp": "03:31", "speaker": "Speaker_D", "text": "Right ? But it ends at this T - eighteen , which may be somewhere else . We say there 's another utterance ."}
+{"timestamp": "03:38", "speaker": "Speaker_D", "text": "We don't know what the t time actually is but we know that it 's the same time as this end time ."}
+{"timestamp": "03:45", "speaker": "Speaker_F", "text": "Mmm ."}
+{"timestamp": "03:46", "speaker": "Speaker_D", "text": "You know , thirty - eight , whatever you want ."}
+{"timestamp": "03:48", "speaker": "Speaker_D", "text": "OK ."}
+{"timestamp": "03:51", "speaker": "Speaker_D", "text": "Yes , exactly ."}
+{"timestamp": "03:52", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "03:53", "speaker": "Speaker_D", "text": "And then , uh and then these also have I Ds ."}
+{"timestamp": "04:00", "speaker": "Speaker_D", "text": "Right ? So you could you could have some sort of other other tag later in the file that would be something like , um ,"}
+{"timestamp": "04:08", "speaker": "Speaker_D", "text": "oh , I don't know , uh ,"}
+{"timestamp": "04:13", "speaker": "Speaker_D", "text": "\"\" noise - type equals"}
+{"timestamp": "04:20", "speaker": "Speaker_D", "text": "And then , uh ,"}
+{"timestamp": "04:33", "speaker": "Speaker_B", "text": "It 's an O instead of an I , but the D is good ."}
+{"timestamp": "04:39", "speaker": "Speaker_D", "text": "you know , so you could have some sort of type here ,"}
+{"timestamp": "04:44", "speaker": "Speaker_D", "text": "the utterance that it 's referring to could be U - seventeen or something like that ."}
+{"timestamp": "04:52", "speaker": "Speaker_B", "text": "that seems g"}
+{"timestamp": "04:54", "speaker": "Speaker_B", "text": "great for all of the"}
+{"timestamp": "04:57", "speaker": "Speaker_B", "text": "encoding of things with time and ,"}
+{"timestamp": "05:00", "speaker": "Speaker_D", "text": "Oh , well ."}
+{"timestamp": "05:05", "speaker": "Speaker_F", "text": "How - how"}
+{"timestamp": "05:11", "speaker": "Speaker_B", "text": "just conceptually , if you get , um , transcriptions where the words are staying"}
+{"timestamp": "05:18", "speaker": "Speaker_B", "text": "but the time boundaries are changing , cuz you 've got a new recognition output , or s sort of what 's the , um ,"}
+{"timestamp": "05:25", "speaker": "Speaker_B", "text": "sequence of going from the"}
+{"timestamp": "05:28", "speaker": "Speaker_B", "text": "waveforms that stay the same , the transcripts that may or may not change , and then the"}
+{"timestamp": "05:33", "speaker": "Speaker_B", "text": "utterance which where the time boundaries that may or may not change ?"}
+{"timestamp": "05:38", "speaker": "Speaker_B", "text": "Um ."}
+{"timestamp": "05:42", "speaker": "Speaker_F", "text": "um , time - stamps in the time - line without without , uh , changing the I Ds ."}
+{"timestamp": "05:47", "speaker": "Speaker_D", "text": "Right . That 's , the who that 's why you do that extra level of indirection ."}
+{"timestamp": "05:48", "speaker": "Speaker_B", "text": "the information ?"}
+{"timestamp": "05:53", "speaker": "Speaker_D", "text": "So that you can just change the time - line ."}
+{"timestamp": "05:57", "speaker": "Speaker_D", "text": "Yes ."}
+{"timestamp": "06:01", "speaker": "Speaker_D", "text": "Yeah , this I don't think I would do this for phone - level ."}
+{"timestamp": "06:03", "speaker": "Speaker_D", "text": "I think for phone - level you want to use some sort of binary representation because it 'll be too dense otherwise ."}
+{"timestamp": "06:07", "speaker": "Speaker_B", "text": "OK . So , if you were doing that and you had this sort of companion , uh , thing that gets called up for phone - level , uh , what would that look like ? How would you ?"}
+{"timestamp": "06:15", "speaker": "Speaker_F", "text": "Why -"}
+{"timestamp": "06:18", "speaker": "Speaker_B", "text": "H h"}
+{"timestamp": "06:18", "speaker": "Speaker_D", "text": "an existing way of doing it ."}
+{"timestamp": "06:24", "speaker": "Speaker_F", "text": "you know , barring memory limitations , or uh I w I mean this is still the m"}
+{"timestamp": "06:27", "speaker": "Speaker_D", "text": "It 's parsing limitations . I don't want to have this text file that you have to read in the whole thing to do something very simple for ."}
+{"timestamp": "06:34", "speaker": "Speaker_F", "text": "Oh , no . You would use it only for purposes where you actually want the phone - level information , I 'd imagine ."}
+{"timestamp": "06:40", "speaker": "Speaker_B", "text": "So you could have some file that configures how much information you want in your in your XML or something ."}
+{"timestamp": "06:46", "speaker": "Speaker_D", "text": "Right . I mean , you 'd y I I am imagining you 'd have multiple versions of this depending on the information that you want ."}
+{"timestamp": "06:50", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "06:59", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "07:07", "speaker": "Speaker_E", "text": "Lattices are big , too ."}
+{"timestamp": "07:21", "speaker": "Speaker_D", "text": "Uh , that 's a well , or something like it . It 's ICS uh , ICSI has a format for frame - level representation of features ."}
+{"timestamp": "07:27", "speaker": "Speaker_B", "text": "OK . That you could call that you would tie into this representation with like an ID ."}
+{"timestamp": "07:28", "speaker": "Speaker_D", "text": "Um ."}
+{"timestamp": "07:31", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "07:32", "speaker": "Speaker_D", "text": "Right . Or or there 's a there 's a particular way in XML to refer to external resources ."}
+{"timestamp": "07:37", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "07:38", "speaker": "Speaker_D", "text": "So you would say \"\" refer to this external file \"\" ."}
+{"timestamp": "07:43", "speaker": "Speaker_B", "text": "So that might that might work ."}
+{"timestamp": "07:45", "speaker": "Speaker_E", "text": "But what what 's the advantage of doing that versus just putting it into this format ?"}
+{"timestamp": "07:50", "speaker": "Speaker_E", "text": "Uh - huh ."}
+{"timestamp": "07:54", "speaker": "Speaker_D", "text": "You don't want to do it with that Anything at frame - level you had better encode binary or it 's gonna be really painful ."}
+{"timestamp": "08:04", "speaker": "Speaker_F", "text": "and , um , you know , c decompress them on the fly if y if space is really a concern ."}
+{"timestamp": "08:08", "speaker": "Speaker_E", "text": "I was thinking the advantage is that we can share this with other people ."}
+{"timestamp": "08:12", "speaker": "Speaker_D", "text": "you 're talking about gigabyte - size files . You 're gonna actually run out of space in your filesystem for one file ."}
+{"timestamp": "08:19", "speaker": "Speaker_D", "text": "Right ? Because you have a two - gigabyte limit on most O Ss ."}
+{"timestamp": "08:28", "speaker": "Speaker_F", "text": "Like phones , or syllables , or anything like that ."}
+{"timestamp": "08:29", "speaker": "Speaker_B", "text": "Phones are every five frames though , so ."}
+{"timestamp": "08:32", "speaker": "Speaker_B", "text": "Or something like that ."}
+{"timestamp": "08:39", "speaker": "Speaker_F", "text": "v Look at it , words times the average The average number of phones in an English word is , I don't know , five maybe ?"}
+{"timestamp": "08:48", "speaker": "Speaker_B", "text": "Oh , so you mean pause phones take up a lot of the long pause phones ."}
+{"timestamp": "08:52", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "08:52", "speaker": "Speaker_F", "text": "Exactly . Yeah ."}
+{"timestamp": "08:52", "speaker": "Speaker_B", "text": "Yeah . OK . That 's true . But you do have to keep them in there . Y yeah . OK ."}
+{"timestamp": "08:59", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "09:02", "speaker": "Speaker_D", "text": "is too verbose . I would use something tighter than P - files ."}
+{"timestamp": "09:06", "speaker": "Speaker_D", "text": "So ."}
+{"timestamp": "09:08", "speaker": "Speaker_F", "text": "I mean , I 've I 've used them . I don't know what their structure is . I 've forgot what the str"}
+{"timestamp": "09:09", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "09:17", "speaker": "Speaker_D", "text": "It 's whatever you want , actually . So that what 's nice about the P - file It i"}
+{"timestamp": "09:18", "speaker": "Speaker_E", "text": "Right ."}
+{"timestamp": "09:28", "speaker": "Speaker_D", "text": "And then also attached to it is an arbitrary vector of values ."}
+{"timestamp": "09:33", "speaker": "Speaker_B", "text": "Oh ."}
+{"timestamp": "09:33", "speaker": "Speaker_D", "text": "And it can take different types . So it th they don't all have to be floats . You know , you can have integers and you can have doubles , and all that sort of stuff ."}
+{"timestamp": "09:38", "speaker": "Speaker_B", "text": "So that that sounds that sounds about what I w"}
+{"timestamp": "09:40", "speaker": "Speaker_D", "text": "Um ."}
+{"timestamp": "09:55", "speaker": "Speaker_D", "text": "even though they 're always sequential . And so it does waste a lot of space ."}
+{"timestamp": "09:59", "speaker": "Speaker_F", "text": "Hmm ."}
+{"timestamp": "09:59", "speaker": "Speaker_D", "text": "But it 's still a lot tighter than than ASCII . And we have a lot of tools already to deal with it ."}
+{"timestamp": "10:03", "speaker": "Speaker_B", "text": "You do ? OK . Is there some documentation on this somewhere ? OK , great . So ,"}
+{"timestamp": "10:06", "speaker": "Speaker_D", "text": "Yeah , there 's a ton of it . Man - pages and , uh , source code , and"}
+{"timestamp": "10:11", "speaker": "Speaker_B", "text": "I mean , that sounds good . I I was just looking for something I 'm not a database person , but something sort of standard enough that ,"}
+{"timestamp": "10:17", "speaker": "Speaker_B", "text": "you know , if we start using this we can give it out , other people can work on it , or Is it ?"}
+{"timestamp": "10:45", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "10:50", "speaker": "Speaker_F", "text": "Yeah , so there is something like that but it 's , um , probably not as sophist"}
+{"timestamp": "10:53", "speaker": "Speaker_D", "text": "Well , what does H T K do for features ? Or does it even have a concept of features ?"}
+{"timestamp": "10:57", "speaker": "Speaker_F", "text": "I mean , Entropic has their own feature format that 's called , like , S - SD or some so SF or something like that ."}
+{"timestamp": "11:02", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "11:04", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "11:04", "speaker": "Speaker_D", "text": "I 'm just wondering , would it be worth while to use that instead ?"}
+{"timestamp": "11:05", "speaker": "Speaker_F", "text": "Hmm ?"}
+{"timestamp": "11:12", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "11:14", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "11:16", "speaker": "Speaker_B", "text": "I just you know , we we 've done this stuff on prosodics and"}
+{"timestamp": "11:20", "speaker": "Speaker_B", "text": "three or four places have asked for those prosodic files , and we just have an ASCII ,"}
+{"timestamp": "11:24", "speaker": "Speaker_B", "text": "uh , output of frame - by - frame . Which is fine ,"}
+{"timestamp": "11:24", "speaker": "Speaker_D", "text": "Ah , right ."}
+{"timestamp": "11:27", "speaker": "Speaker_B", "text": "but it gets unwieldy to go in and and query these files with really huge files ."}
+{"timestamp": "11:32", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "11:33", "speaker": "Speaker_B", "text": "I mean , we could do it . I was just thinking if there 's something that where all the frame values are Hmm ?"}
+{"timestamp": "11:42", "speaker": "Speaker_D", "text": "Yeah , I mean , they 'd be emo enormous ."}
+{"timestamp": "11:45", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "11:47", "speaker": "Speaker_B", "text": "So it 's doable , it 's just that you can only store a feature vector at frame - by - frame and it doesn't have any kind of ,"}
+{"timestamp": "11:54", "speaker": "Speaker_E", "text": "Is is the sharing part of this a pretty important consideration or does that just sort of , uh a nice thing to have ?"}
+{"timestamp": "12:02", "speaker": "Speaker_B", "text": "I I don't know enough about what we 're gonna do with the data . But I thought it would be good to get something that"}
+{"timestamp": "12:11", "speaker": "Speaker_B", "text": "we can that other people can use or adopt for their own kinds of"}
+{"timestamp": "12:19", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "12:22", "speaker": "Speaker_B", "text": "what it ends up being is you get"}
+{"timestamp": "12:24", "speaker": "Speaker_B", "text": "features from the signal , and of course those change every time your alignments change . So you re - run a recognizer , you want to recompute"}
+{"timestamp": "12:34", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "12:37", "speaker": "Speaker_B", "text": "utterance boundary segment , which is gonna happen a lot ."}
+{"timestamp": "12:40", "speaker": "Speaker_B", "text": "And so I wanted something where all of this can be done in a elegant way and that if somebody"}
+{"timestamp": "12:46", "speaker": "Speaker_B", "text": "wants to try something or compute something else , that it can be done flexibly ."}
+{"timestamp": "12:51", "speaker": "Speaker_B", "text": "Um , it doesn't have to be pretty , it just has to be ,"}
+{"timestamp": "12:59", "speaker": "Speaker_D", "text": "We should look at ATLAS , the NIST thing ,"}
+{"timestamp": "13:01", "speaker": "Speaker_B", "text": "Oh ."}
+{"timestamp": "13:01", "speaker": "Speaker_F", "text": "Mmm ."}
+{"timestamp": "13:03", "speaker": "Speaker_D", "text": "and see if they have anything at that level . I mean , I 'm not sure what to do about this with ATLAS , because they chose a different route ."}
+{"timestamp": "13:09", "speaker": "Speaker_D", "text": "I chose something that Th - there are sort of two choices . Your your file format"}
+{"timestamp": "13:15", "speaker": "Speaker_D", "text": "know that you 're talking about language and speech , which is what I chose , and time ,"}
+{"timestamp": "13:23", "speaker": "Speaker_D", "text": "And then the application has to impose the structure on top ."}
+{"timestamp": "13:26", "speaker": "Speaker_D", "text": "So what it looked like ATLAS chose is , they chose the other way , which was their file format is just"}
+{"timestamp": "13:31", "speaker": "Speaker_D", "text": "nodes and links , and you have to interpret what they mean yourself ."}
+{"timestamp": "13:36", "speaker": "Speaker_B", "text": "And why did you not choose that type of approach ?"}
+{"timestamp": "13:40", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "13:42", "speaker": "Speaker_D", "text": "if you 're looking at a raw file to be t for the tags to say \"\" it 's an utterance \"\" , as opposed to the tag to say \"\" it 's a link \"\" ."}
+{"timestamp": "13:48", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "13:52", "speaker": "Speaker_D", "text": "Yeah , they 're reasonably compatible ."}
+{"timestamp": "13:53", "speaker": "Speaker_E", "text": "You could probably translate between them ."}
+{"timestamp": "13:55", "speaker": "Speaker_B", "text": "Yeah , that 's w So , OK ."}
+{"timestamp": "13:55", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "13:58", "speaker": "Speaker_D", "text": "if we choose to use ATLAS , which maybe we should just do , we should just throw this out before we invest a lot of time in it ."}
+{"timestamp": "14:05", "speaker": "Speaker_B", "text": "So this is what the meeting 's about , just sort of how to Um , cuz we need to come up with a database like this just to do our work . And I actually don't"}
+{"timestamp": "14:06", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "14:15", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "14:17", "speaker": "Speaker_B", "text": "maybe oth you know , if if you have any idea of how to choose , cuz I don't ."}
+{"timestamp": "14:21", "speaker": "Speaker_F", "text": "Do they already have tools ?"}
+{"timestamp": "14:26", "speaker": "Speaker_D", "text": "You don't need a full XML parser . It 's very easy to just write a Perl script to parse it ."}
+{"timestamp": "14:36", "speaker": "Speaker_B", "text": "And you can have as much information in the tag as you want , right ?"}
+{"timestamp": "14:46", "speaker": "Speaker_B", "text": "Can you But you can add to those structures"}
+{"timestamp": "14:49", "speaker": "Speaker_D", "text": "Sure ."}
+{"timestamp": "14:52", "speaker": "Speaker_D", "text": "What NIST would say is that instead of doing this , you would say something like \"\" link"}
+{"timestamp": "14:58", "speaker": "Speaker_D", "text": "start equals , um , you know , some node ID , end equals some other node ID \"\" ,"}
+{"timestamp": "15:10", "speaker": "Speaker_F", "text": "Hmm ."}
+{"timestamp": "15:11", "speaker": "Speaker_D", "text": "You know , so it 's very similar ."}
+{"timestamp": "15:13", "speaker": "Speaker_B", "text": "So why would it be a a waste to do it this way if it 's similar enough that we can always translate it ?"}
+{"timestamp": "15:18", "speaker": "Speaker_E", "text": "It probably wouldn't be a waste . It would mean that at some point if we wanted to switch , we 'd just have to"}
+{"timestamp": "15:22", "speaker": "Speaker_D", "text": "Write a translator . But it se"}
+{"timestamp": "15:22", "speaker": "Speaker_E", "text": "translate everything ."}
+{"timestamp": "15:24", "speaker": "Speaker_E", "text": "But that 's I don't think that 's a big deal ."}
+{"timestamp": "15:33", "speaker": "Speaker_F", "text": "Do they already have something that 's that would be useful for us in place ?"}
+{"timestamp": "15:40", "speaker": "Speaker_D", "text": "The I looked at it The last time I looked at it was a while ago , probably a year ago ,"}
+{"timestamp": "15:45", "speaker": "Speaker_E", "text": "Hmm ."}
+{"timestamp": "15:45", "speaker": "Speaker_D", "text": "uh , when we first started talking about this . And at that time at least"}
+{"timestamp": "15:52", "speaker": "Speaker_D", "text": "And so , specifically they didn't have any external format representation at that time ."}
+{"timestamp": "16:00", "speaker": "Speaker_D", "text": "uh , annotated transcription graph , which I really liked . And that 's exactly what this stuff is based on ."}
+{"timestamp": "16:05", "speaker": "Speaker_D", "text": "Since then , they 've developed their own external file format ,"}
+{"timestamp": "16:09", "speaker": "Speaker_D", "text": "which is , uh , you know , this sort of s this sort of thing ."}
+{"timestamp": "16:12", "speaker": "Speaker_D", "text": "Um , and apparently they 've also developed a lot of tools , but I haven't looked at them . Maybe I should ."}
+{"timestamp": "16:16", "speaker": "Speaker_F", "text": "@ @ We should we should find out ."}
+{"timestamp": "16:16", "speaker": "Speaker_B", "text": "I mean , would the tools would the tools run on something like this , if you can translate them anyway ?"}
+{"timestamp": "16:22", "speaker": "Speaker_B", "text": "I mean , that I guess it 's a question that uh , yeah ."}
+{"timestamp": "16:22", "speaker": "Speaker_F", "text": "It 's a hassle"}
+{"timestamp": "16:28", "speaker": "Speaker_D", "text": "that would make it very difficult to translate from one to the other ."}
+{"timestamp": "16:28", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "16:30", "speaker": "Speaker_F", "text": "I I think if it 's conceptually close , and they already have or will have tools that everybody else will be using , I mean ,"}
+{"timestamp": "16:30", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "16:38", "speaker": "Speaker_D", "text": "Yeah , we might as well ."}
+{"timestamp": "16:43", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "16:44", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "16:49", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "16:54", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "16:59", "speaker": "Speaker_D", "text": "The other thing the other way that I sort of established this was as easy translation to and from the Transcriber format ."}
+{"timestamp": "17:06", "speaker": "Speaker_B", "text": "Right . Right ."}
+{"timestamp": "17:09", "speaker": "Speaker_B", "text": "I mean , I like this . This is sort of intuitively easy to actually r read , as easy it could as it could be . But ,"}
+{"timestamp": "17:12", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "17:15", "speaker": "Speaker_B", "text": "I suppose that as long as they have a type here that specifies \"\" utt \"\" ,"}
+{"timestamp": "17:20", "speaker": "Speaker_B", "text": "um ,"}
+{"timestamp": "17:21", "speaker": "Speaker_D", "text": "It 's almost the same . The the the the point is with this , though , is that you can't really add any supplementary information ."}
+{"timestamp": "17:31", "speaker": "Speaker_D", "text": "Yeah . You 'd have to make a different type ."}
+{"timestamp": "17:35", "speaker": "Speaker_B", "text": "Um , I guess in my mind I don't know enough Jane would know better , about"}
+{"timestamp": "17:48", "speaker": "Speaker_B", "text": "it could be in its own channel , it could span time boundaries of any type , it could be instantaneous , things like that . Um ,"}
+{"timestamp": "17:52", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "17:56", "speaker": "Speaker_B", "text": "and then from the recognition side we have"}
+{"timestamp": "18:01", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "18:04", "speaker": "Speaker_B", "text": "And then at the prosody - level we have"}
+{"timestamp": "18:07", "speaker": "Speaker_B", "text": "frame sort of like cepstral"}
+{"timestamp": "18:09", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "18:17", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "18:18", "speaker": "Speaker_F", "text": "It seems to me you want to keep the frame - level stuff separate ."}
+{"timestamp": "18:21", "speaker": "Speaker_B", "text": "Yeah . I I definitely agree and I wanted to find actually a f a nicer format or a maybe a more compact format than what we used before . Just cuz you 've got"}
+{"timestamp": "18:27", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "18:41", "speaker": "Speaker_D", "text": "Um ,"}
+{"timestamp": "18:43", "speaker": "Speaker_F", "text": "You would have like a speaker tag or something ?"}
+{"timestamp": "18:48", "speaker": "Speaker_D", "text": "the way I had it is each turn or each utterance , I don't even remember now , had a speaker ID tag attached to it ."}
+{"timestamp": "18:49", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "18:56", "speaker": "Speaker_F", "text": "OK ."}
+{"timestamp": "19:00", "speaker": "Speaker_D", "text": "which which would , uh , be linked to the link ."}
+{"timestamp": "19:03", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "19:18", "speaker": "Speaker_D", "text": "link seventy - four or something like that . And then somewhere up here you would have a link that that , uh ,"}
+{"timestamp": "19:21", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "19:33", "speaker": "Speaker_D", "text": "You know , or something like that ."}
+{"timestamp": "19:36", "speaker": "Speaker_B", "text": "I mean , w yeah , channel is what the channelized output out"}
+{"timestamp": "19:39", "speaker": "Speaker_D", "text": "This isn't quite right . I have to look at it again ."}
+{"timestamp": "19:44", "speaker": "Speaker_F", "text": "a hierarchical relationship between , um , say , an utterance and the words within it ?"}
+{"timestamp": "19:50", "speaker": "Speaker_F", "text": "So how do you tell that these are the words that belong to that utterance ?"}
+{"timestamp": "19:56", "speaker": "Speaker_D", "text": "Um , you would have another structure lower down than this that would be saying they 're all belonging to this ID ."}
+{"timestamp": "20:00", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "20:05", "speaker": "Speaker_E", "text": "So each thing refers to the utterance that it belongs to ."}
+{"timestamp": "20:09", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "20:11", "speaker": "Speaker_E", "text": "So it 's it 's not hi it 's sort of bottom - up ."}
+{"timestamp": "20:11", "speaker": "Speaker_D", "text": "And then each utterance could refer to a turn , and each turn could refer to something higher up ."}
+{"timestamp": "20:18", "speaker": "Speaker_B", "text": "So right now what you have as utterance , um , the closest thing that comes out of the channelized is the"}
+{"timestamp": "20:24", "speaker": "Speaker_B", "text": "stuff between the segment boundaries that the transcribers put in or that Thilo put in ,"}
+{"timestamp": "20:29", "speaker": "Speaker_B", "text": "which may or may not actually be , like , a s it 's usually not um , the beginning and end of a sentence , say ."}
+{"timestamp": "20:36", "speaker": "Speaker_B", "text": "So , right . Um , so it 's like a segment or something . So ,"}
+{"timestamp": "20:39", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "20:41", "speaker": "Speaker_B", "text": "I mean , I assume this is possible , that if you have someone annotates the punctuation or whatever when they transcribe ,"}
+{"timestamp": "20:56", "speaker": "Speaker_B", "text": "i It 's only a unit by virtue of the annotations at the word - level ."}
+{"timestamp": "21:00", "speaker": "Speaker_D", "text": "Sure . I mean , so you would you would have yet another tag ."}
+{"timestamp": "21:01", "speaker": "Speaker_B", "text": "And then that would get a tag somehow . OK ."}
+{"timestamp": "21:04", "speaker": "Speaker_D", "text": "You 'd have another tag which says this is of type \"\" sentence \"\" ."}
+{"timestamp": "21:06", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "21:18", "speaker": "Speaker_B", "text": "But , uh , what I don't understand is where the where in this type of file that would be expressed ."}
+{"timestamp": "21:24", "speaker": "Speaker_D", "text": "Right . You would have another tag somewhere ."}
+{"timestamp": "21:27", "speaker": "Speaker_B", "text": "S so it would just be floating before the sentence or floating after the sentence without a time - mark ."}
+{"timestamp": "21:34", "speaker": "Speaker_D", "text": "type equals \"\" sentence \"\" ,"}
+{"timestamp": "21:49", "speaker": "Speaker_D", "text": "No . I don't know I take that back ."}
+{"timestamp": "21:53", "speaker": "Speaker_D", "text": "Can you can you say that this is"}
+{"timestamp": "21:56", "speaker": "Speaker_E", "text": "You would just have a r"}
+{"timestamp": "21:57", "speaker": "Speaker_B", "text": "S"}
+{"timestamp": "21:59", "speaker": "Speaker_E", "text": "You would refer up to the sentence ."}
+{"timestamp": "22:01", "speaker": "Speaker_B", "text": "they 're actually overlapping each other , sort of ."}
+{"timestamp": "22:03", "speaker": "Speaker_F", "text": "the thing is that some something may be a part of"}
+{"timestamp": "22:06", "speaker": "Speaker_F", "text": "one thing for one purpose and another thing of another purpose ."}
+{"timestamp": "22:10", "speaker": "Speaker_B", "text": "You have to have another type then , I guess ."}
+{"timestamp": "22:10", "speaker": "Speaker_F", "text": "So f"}
+{"timestamp": "22:11", "speaker": "Speaker_F", "text": "s"}
+{"timestamp": "22:16", "speaker": "Speaker_B", "text": "OK . OK ."}
+{"timestamp": "22:17", "speaker": "Speaker_F", "text": "y So for instance @ @ sup"}
+{"timestamp": "22:21", "speaker": "Speaker_F", "text": "Suppose you have a word sequence and you have two different segmentations of that same word sequence . f Say , one segmentation is in terms of ,"}
+{"timestamp": "22:30", "speaker": "Speaker_F", "text": "um ,"}
+{"timestamp": "22:32", "speaker": "Speaker_F", "text": "you know , uh , sentences . And another segmentation is in terms of , um , I don't know , prosodic phrases ."}
+{"timestamp": "22:40", "speaker": "Speaker_F", "text": "And let 's say that they don't nest . So , you know , a prosodic phrase may cross"}
+{"timestamp": "22:45", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "22:46", "speaker": "Speaker_F", "text": "two sentences or something . I don't know if that 's true or not but let 's as"}
+{"timestamp": "22:50", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "22:51", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "22:53", "speaker": "Speaker_F", "text": "So , you want to be s you want to say this this word is part of that sentence and this prosodic phrase ."}
+{"timestamp": "22:55", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "23:01", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "23:01", "speaker": "Speaker_F", "text": "But the phrase is not part of the sentence and neither is the sentence part of the phrase ."}
+{"timestamp": "23:03", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "23:04", "speaker": "Speaker_D", "text": "I I 'm pretty sure that you can do that , but I 'm forgetting the exact level of nesting ."}
+{"timestamp": "23:06", "speaker": "Speaker_F", "text": "So , you would have to have two different pointers from the word up one level up , one to the sent"}
+{"timestamp": "23:14", "speaker": "Speaker_F", "text": "@ @ Right ."}
+{"timestamp": "23:16", "speaker": "Speaker_D", "text": "And then lower down you would say \"\" here 's a prosodic boundary and it has these words in it \"\" ."}
+{"timestamp": "23:21", "speaker": "Speaker_D", "text": "And lower down you 'd have \"\" here 's a sentence , and it has these words in it \"\" ."}
+{"timestamp": "23:21", "speaker": "Speaker_B", "text": "An - Right ."}
+{"timestamp": "23:21", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "23:23", "speaker": "Speaker_B", "text": "So you would be able to go in and say , you know , \"\" give me all the words in the bound in the prosodic phrase and give me all the words in the \"\" Yeah ."}
+{"timestamp": "23:27", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "23:29", "speaker": "Speaker_B", "text": "Um , OK ."}
+{"timestamp": "23:31", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "23:32", "speaker": "Speaker_D", "text": "So ."}
+{"timestamp": "23:39", "speaker": "Speaker_F", "text": "find and extract information in a structure of this type ?"}
+{"timestamp": "23:50", "speaker": "Speaker_B", "text": "I don't know if this is premature because I suppose once you get the representation you can do this , but the kinds of things I was worried about is ,"}
+{"timestamp": "23:59", "speaker": "Speaker_F", "text": "No , that 's not clear . I mean , yeah , you c sure you can do it , but can you do it"}
+{"timestamp": "24:03", "speaker": "Speaker_B", "text": "I I mean , I can't do it , but I can um ,"}
+{"timestamp": "24:04", "speaker": "Speaker_F", "text": "sort of l l you know ,"}
+{"timestamp": "24:06", "speaker": "Speaker_F", "text": "y y you gotta you gotta do this you you 're gonna want to do this very quickly"}
+{"timestamp": "24:14", "speaker": "Speaker_B", "text": "Right . You 'd need a p sort of a paradigm for how to do it . But an example would be"}
+{"timestamp": "24:20", "speaker": "Speaker_B", "text": "\"\" find all the cases in which Adam"}
+{"timestamp": "24:25", "speaker": "Speaker_B", "text": "started to talk while Andreas was talking and his pitch was rising , Andreas 's pitch \"\" . That kind of thing ."}
+{"timestamp": "24:34", "speaker": "Speaker_D", "text": "Is the rising pitch a feature , or is it gonna be in the same file ?"}
+{"timestamp": "24:45", "speaker": "Speaker_D", "text": "I mean , that 's gonna be hard regardless , right ? Because you 're gonna have to write a program that goes through your feature file and looks for rising pitches ."}
+{"timestamp": "24:49", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "24:59", "speaker": "Speaker_B", "text": "when it 's rising we have a begin - end rise representation ? But suppose we dump out this file and we say ,"}
+{"timestamp": "25:05", "speaker": "Speaker_B", "text": "uh , for every word we just classify it as , w you know , rise or fall or neither ?"}
+{"timestamp": "25:09", "speaker": "Speaker_D", "text": "OK . Well , in that case you would add that to this format r"}
+{"timestamp": "25:10", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "25:12", "speaker": "Speaker_B", "text": "So we would basically be sort of , um ,"}
+{"timestamp": "25:15", "speaker": "Speaker_B", "text": "taking the format and enriching it with things that we wanna"}
+{"timestamp": "25:19", "speaker": "Speaker_B", "text": "query in relation to the words that are already in the file , and then querying it . OK ."}
+{"timestamp": "25:22", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "25:28", "speaker": "Speaker_D", "text": "There 's a standard again in XML , specifically for searching XML documents structured X - XML documents , where you can specify both the content and the structural position ."}
+{"timestamp": "25:42", "speaker": "Speaker_F", "text": "That 's relative to the structure of the XML document , not to the structure of what you 're representing in the document ."}
+{"timestamp": "25:45", "speaker": "Speaker_D", "text": "You use it as a tool ."}
+{"timestamp": "25:46", "speaker": "Speaker_D", "text": "You use it as a tool , not an end - user . It 's not an end - user thing . It 's it 's you would use that to build your tool to do that sort of search ."}
+{"timestamp": "25:49", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "25:52", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "25:53", "speaker": "Speaker_F", "text": "Be -"}
+{"timestamp": "25:58", "speaker": "Speaker_F", "text": "that 's the underlying data structure . And you want to be able to search in that lattice ."}
+{"timestamp": "26:03", "speaker": "Speaker_F", "text": "That 's different from searching through the text ."}
+{"timestamp": "26:06", "speaker": "Speaker_D", "text": "Well , no , no , no . The whole point is that the text and the lattice are isomorphic ."}
+{"timestamp": "26:11", "speaker": "Speaker_D", "text": "They represent each other completely ."}
+{"timestamp": "26:17", "speaker": "Speaker_D", "text": "I mean th"}
+{"timestamp": "26:17", "speaker": "Speaker_B", "text": "That 's true if the features from your acoustics or whatever that are not explicitly in this are at the level of these types ."}
+{"timestamp": "26:26", "speaker": "Speaker_B", "text": "That that if you can"}
+{"timestamp": "26:27", "speaker": "Speaker_D", "text": "Yeah , but that 's gonna be the trouble no matter what ."}
+{"timestamp": "26:29", "speaker": "Speaker_D", "text": "Right ? No matter what format you choose , you 're gonna have the trou you 're gonna have the difficulty of relating"}
+{"timestamp": "26:39", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "26:42", "speaker": "Speaker_F", "text": "Hmm ."}
+{"timestamp": "26:44", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "26:45", "speaker": "Speaker_B", "text": "Or another example was , you know , uh , where in the language where in the word sequence"}
+{"timestamp": "26:52", "speaker": "Speaker_B", "text": "are people interrupting ? So ,"}
+{"timestamp": "26:55", "speaker": "Speaker_B", "text": "I guess that one 's actually easier ."}
+{"timestamp": "27:13", "speaker": "Speaker_E", "text": "Uh , you you could use the XML to put the data in ,"}
+{"timestamp": "27:20", "speaker": "Speaker_E", "text": "the transfer format , uh , but then you store the data in the database , which"}
+{"timestamp": "27:25", "speaker": "Speaker_E", "text": "allows you to do all kinds of good search things in there ."}
+{"timestamp": "27:28", "speaker": "Speaker_D", "text": "One of the things that ATLAS is doing is they 're trying to define an API which is independent of the back store ,"}
+{"timestamp": "27:29", "speaker": "Speaker_B", "text": "Huh ."}
+{"timestamp": "27:41", "speaker": "Speaker_D", "text": "My opinion on that is for the s sort of stuff that we 're doing , I suspect it 's overkill to do a full relational database , that , um ,"}
+{"timestamp": "27:50", "speaker": "Speaker_D", "text": "just a flat file and , uh , search tools I bet will be enough ."}
+{"timestamp": "27:59", "speaker": "Speaker_D", "text": "decide to go that route completely and we program to their API , then if we wanted to add a database later it would be pretty easy ."}
+{"timestamp": "28:00", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "28:02", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "28:16", "speaker": "Speaker_B", "text": "I mean , it 'd be good for us to know to use a format where"}
+{"timestamp": "28:20", "speaker": "Speaker_B", "text": "we know we can easily , um , input that to some database if other people are using it ."}
+{"timestamp": "28:23", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "28:25", "speaker": "Speaker_B", "text": "Something like that ."}
+{"timestamp": "28:32", "speaker": "Speaker_D", "text": "the whole framework that that NIST is talking about , with ATLAS and a database and all that sort of stuff , cuz it 's a big learning curve ,"}
+{"timestamp": "28:38", "speaker": "Speaker_E", "text": "Hmm ."}
+{"timestamp": "28:39", "speaker": "Speaker_D", "text": "just to get going . Whereas if we just do a flat file format ,"}
+{"timestamp": "28:39", "speaker": "Speaker_F", "text": "Hmm ."}
+{"timestamp": "28:43", "speaker": "Speaker_D", "text": "sure , it may not be as efficient but everyone can program in Perl and and use it ."}
+{"timestamp": "28:46", "speaker": "Speaker_B", "text": "@ @ OK ."}
+{"timestamp": "28:52", "speaker": "Speaker_F", "text": "not convinced that you can do much at all on the text on the flat file that that you know , the text representation ."}
+{"timestamp": "29:01", "speaker": "Speaker_F", "text": "e"}
+{"timestamp": "29:02", "speaker": "Speaker_F", "text": "Because the text representation is gonna be ,"}
+{"timestamp": "29:05", "speaker": "Speaker_F", "text": "uh , not reflecting the structure of of your words and annotations ."}
+{"timestamp": "29:18", "speaker": "Speaker_F", "text": "Y yeah . You can use Perl to read it in and construct a internal representation that is essentially a lattice ."}
+{"timestamp": "29:26", "speaker": "Speaker_F", "text": "But ,"}
+{"timestamp": "29:27", "speaker": "Speaker_E", "text": "@ @ Yeah ."}
+{"timestamp": "29:28", "speaker": "Speaker_D", "text": "OK . Well , that was a different point . Right ? So what I was saying"}
+{"timestamp": "29:32", "speaker": "Speaker_F", "text": "But that 's what you 'll have to do ."}
+{"timestamp": "29:34", "speaker": "Speaker_D", "text": "For Perl if you want to just do Perl . If you wanted to use the structured XML query language , that 's a different thing . And it 's a set of tools that let you specify given the D - DDT DTD of the document ,"}
+{"timestamp": "29:34", "speaker": "Speaker_F", "text": "Bec - be"}
+{"timestamp": "29:46", "speaker": "Speaker_D", "text": "um , what sorts of structural searches you want to do ."}
+{"timestamp": "29:50", "speaker": "Speaker_D", "text": "So you want to say that , you know , you 're looking for ,"}
+{"timestamp": "29:53", "speaker": "Speaker_D", "text": "um , a tag within a tag within a particular tag that has this particular text in it ,"}
+{"timestamp": "29:58", "speaker": "Speaker_D", "text": "um , and , uh , refers to a particular value ."}
+{"timestamp": "30:11", "speaker": "Speaker_D", "text": "someone would build a tool that used that as a library ."}
+{"timestamp": "30:16", "speaker": "Speaker_D", "text": "So that they so that you wouldn't have to construct the internal representations yourself ."}
+{"timestamp": "30:28", "speaker": "Speaker_B", "text": "there may be a lot of different ones , but they 'll all have a similar nature . They 'll be"}
+{"timestamp": "30:32", "speaker": "Speaker_B", "text": "looking at either a word - level prosodic ,"}
+{"timestamp": "30:36", "speaker": "Speaker_B", "text": "uh , an a value , like a continuous value , like the slope of something . But"}
+{"timestamp": "30:39", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "30:44", "speaker": "Speaker_B", "text": "some kind of data reduction where the prosodic features are sort o uh , either at the word - level or at the"}
+{"timestamp": "30:50", "speaker": "Speaker_B", "text": "segment - level , or or something like that . They 're not gonna be at the phone - level and they 're no not gonna be at the frame - level when we get done with"}
+{"timestamp": "30:51", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "30:56", "speaker": "Speaker_B", "text": "sort of giving them simpler shapes and things ."}
+{"timestamp": "31:04", "speaker": "Speaker_B", "text": "Well , I guess , the two goals . Um , one that Chuck mentioned is"}
+{"timestamp": "31:07", "speaker": "Speaker_B", "text": "starting out with something that we don't have to start over , that we don't have to throw away if other people want to extend it for other kinds of questions ,"}
+{"timestamp": "31:12", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "31:19", "speaker": "Speaker_B", "text": "where we condition the location of features on information that 's in the kind of file that you put up there ."}
+{"timestamp": "31:27", "speaker": "Speaker_B", "text": "And that would that would do it , I mean , for me ."}
+{"timestamp": "31:35", "speaker": "Speaker_D", "text": "we want to try to pick something that lets us do a little bit of both ."}
+{"timestamp": "31:37", "speaker": "Speaker_B", "text": "In the between , right . And especially that the representation doesn't have to be thrown away , even if your tools change ."}
+{"timestamp": "31:41", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "31:48", "speaker": "Speaker_D", "text": "but if we use the ATLAS external file representation ,"}
+{"timestamp": "31:52", "speaker": "Speaker_D", "text": "um ,"}
+{"timestamp": "31:59", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "31:59", "speaker": "Speaker_D", "text": "and then later on if we choose to go up the learning curve , we can use the whole ATLAS inter infrastructure ,"}
+{"timestamp": "32:06", "speaker": "Speaker_D", "text": "which has all that built in ."}
+{"timestamp": "32:08", "speaker": "Speaker_B", "text": "So if if you would l look at that and let us know what you think . I mean ,"}
+{"timestamp": "32:10", "speaker": "Speaker_D", "text": "Sure ."}
+{"timestamp": "32:11", "speaker": "Speaker_B", "text": "I think we 're sort of guinea pigs , cuz I I want to get the prosody work done but I don't want to waste time , you know ,"}
+{"timestamp": "32:17", "speaker": "Speaker_B", "text": "getting the Yeah ?"}
+{"timestamp": "32:20", "speaker": "Speaker_D", "text": "Well , I wouldn't wait for the formats , because anything you pick we 'll be able to translate"}
+{"timestamp": "32:24", "speaker": "Speaker_D", "text": "to another form ."}
+{"timestamp": "32:26", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "32:31", "speaker": "Speaker_F", "text": "what it is you 'll you 'll be dealing with , because ,"}
+{"timestamp": "32:34", "speaker": "Speaker_F", "text": "um ,"}
+{"timestamp": "32:38", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "32:38", "speaker": "Speaker_B", "text": "Yeah , definitely ."}
+{"timestamp": "32:40", "speaker": "Speaker_F", "text": "I think the more eyes look at this the better ."}
+{"timestamp": "32:50", "speaker": "Speaker_D", "text": "Hi , Jane ."}
+{"timestamp": "32:51", "speaker": "Speaker_F", "text": "Mmm ."}
+{"timestamp": "33:00", "speaker": "Speaker_D", "text": "Can you Oh , well ."}
+{"timestamp": "33:07", "speaker": "Speaker_D", "text": "Sure ."}
+{"timestamp": "33:07", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "33:14", "speaker": "Speaker_A", "text": "Oh you are ? Oh ."}
+{"timestamp": "33:30", "speaker": "Speaker_D", "text": "and so if we pick something else , there 's the learning - curve problem . But , I mean , it is just something we developed at ICSI ."}
+{"timestamp": "33:36", "speaker": "Speaker_F", "text": "Is there an is there an IP - API ?"}
+{"timestamp": "33:39", "speaker": "Speaker_D", "text": "Yeah . There 's an API for it . And , uh ,"}
+{"timestamp": "33:39", "speaker": "Speaker_F", "text": "OK ."}
+{"timestamp": "33:42", "speaker": "Speaker_D", "text": "a bunch of libraries , P - file utilities ."}
+{"timestamp": "33:44", "speaker": "Speaker_F", "text": "and so basically the uh the filesystem"}
+{"timestamp": "33:53", "speaker": "Speaker_D", "text": "And we definitely hit that with Broadcast News ."}
+{"timestamp": "34:01", "speaker": "Speaker_F", "text": "you know , conceptually one file into smaller files on disk so that you can essentially ,"}
+{"timestamp": "34:07", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "34:07", "speaker": "Speaker_F", "text": "you know , have arbitrarily long f"}
+{"timestamp": "34:08", "speaker": "Speaker_D", "text": "Most of the tools can handle that . So that"}
+{"timestamp": "34:11", "speaker": "Speaker_D", "text": "we didn't do it at the API - level . We did it at the t tool - level . That that most many of them can s you can specify several P - files and they 'll just be done sequentially ."}
+{"timestamp": "34:19", "speaker": "Speaker_F", "text": "OK ."}
+{"timestamp": "34:20", "speaker": "Speaker_D", "text": "So ."}
+{"timestamp": "34:25", "speaker": "Speaker_D", "text": "Sure ."}
+{"timestamp": "34:27", "speaker": "Speaker_C", "text": "True ."}
+{"timestamp": "34:34", "speaker": "Speaker_F", "text": "What does the P stand for anyway ?"}
+{"timestamp": "34:34", "speaker": "Speaker_C", "text": "s something ."}
+{"timestamp": "34:38", "speaker": "Speaker_C", "text": "Oh , in there ."}
+{"timestamp": "34:40", "speaker": "Speaker_D", "text": "I didn't de I didn't develop it . You know , it was I think it was Dave Johnson ."}
+{"timestamp": "34:44", "speaker": "Speaker_D", "text": "So it 's all part of the Quicknet library . It has all the utilities for it ."}
+{"timestamp": "34:50", "speaker": "Speaker_D", "text": "Oh , were they ?"}
+{"timestamp": "34:50", "speaker": "Speaker_F", "text": "P - files were were around when w with , um , RAP ."}
+{"timestamp": "34:54", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "34:55", "speaker": "Speaker_F", "text": "Right ?"}
+{"timestamp": "34:57", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "34:57", "speaker": "Speaker_E", "text": "No ."}
+{"timestamp": "34:58", "speaker": "Speaker_B", "text": "Yeah ?"}
+{"timestamp": "35:01", "speaker": "Speaker_E", "text": "I don't remember what the \"\" P \"\" is , though ."}
+{"timestamp": "35:02", "speaker": "Speaker_A", "text": "Is it related to P - make ?"}
+{"timestamp": "35:03", "speaker": "Speaker_F", "text": "No ."}
+{"timestamp": "35:07", "speaker": "Speaker_D", "text": "The Quicknet library has a bunch of things in it to handle P - files , so it works pretty well ."}
+{"timestamp": "35:09", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "35:12", "speaker": "Speaker_F", "text": "@ @"}
+{"timestamp": "35:17", "speaker": "Speaker_D", "text": "Neither do I ."}
+{"timestamp": "35:18", "speaker": "Speaker_E", "text": "Probably stands for \"\" Phil \"\" ."}
+{"timestamp": "35:20", "speaker": "Speaker_E", "text": "Phil Kohn ."}
+{"timestamp": "35:24", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "35:26", "speaker": "Speaker_B", "text": "Huh ."}
+{"timestamp": "35:36", "speaker": "Speaker_B", "text": "Great ."}
+{"timestamp": "35:39", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "35:40", "speaker": "Speaker_B", "text": "I guess it 's also sort of a political deci I mean , if if you feel like that 's a community that would"}
+{"timestamp": "35:49", "speaker": "Speaker_B", "text": "sounds like it 's worth doing ."}
+{"timestamp": "35:49", "speaker": "Speaker_D", "text": "Yeah , I think it it w"}
+{"timestamp": "35:51", "speaker": "Speaker_D", "text": "And , w uh , as I said , I what I did with this stuff I based it on theirs . It 's just they hadn't actually come up with an external format yet ."}
+{"timestamp": "35:58", "speaker": "Speaker_D", "text": "So now that they have come up with a format ,"}
+{"timestamp": "36:00", "speaker": "Speaker_D", "text": "it doesn't it seems pretty reasonable to use it ."}
+{"timestamp": "36:03", "speaker": "Speaker_D", "text": "But let me look at it again ."}
+{"timestamp": "36:04", "speaker": "Speaker_B", "text": "OK , great ."}
+{"timestamp": "36:07", "speaker": "Speaker_D", "text": "There 's one level there 's one more level of indirection and I 'm just blanking on exactly how it works ."}
+{"timestamp": "36:14", "speaker": "Speaker_B", "text": "I mean , we can start with , um , I guess , this input from Dave 's , which you had printed out , the channelized input . Cuz he has all of the"}
+{"timestamp": "36:23", "speaker": "Speaker_B", "text": "channels , you know , with the channels in the tag and stuff like that . So that would be i directly ,"}
+{"timestamp": "36:25", "speaker": "Speaker_D", "text": "Yeah , I 've seen it ."}
+{"timestamp": "36:29", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "36:29", "speaker": "Speaker_D", "text": "Easy easy to map ."}
+{"timestamp": "36:32", "speaker": "Speaker_B", "text": "making sure to handle the annotations that are , you know , not at the word - level and , um ,"}
+{"timestamp": "36:38", "speaker": "Speaker_C", "text": "Where are those annotations coming from ?"}
+{"timestamp": "36:44", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "36:47", "speaker": "Speaker_A", "text": "Are you talking about the overlap a annotations ?"}
+{"timestamp": "36:49", "speaker": "Speaker_B", "text": "Yeah , any kind of annotation that , like , isn't already there . Uh , you know , anything you can envision ."}
+{"timestamp": "36:55", "speaker": "Speaker_A", "text": "So what I was imagining was um , so Dave says we can have unlimited numbers of green ribbons ."}
+{"timestamp": "37:00", "speaker": "Speaker_A", "text": "And so put , uh , a a green ribbon on for an overlap code ."}
+{"timestamp": "37:13", "speaker": "Speaker_A", "text": "However , you know , you want to have it , uh , time time uh , located in the discourse . So , um ,"}
+{"timestamp": "37:21", "speaker": "Speaker_A", "text": "if we if we tie the overlap code to the first word in the overlap ,"}
+{"timestamp": "37:27", "speaker": "Speaker_A", "text": "then you 'll have a time - marking . It won't it 'll be independent of the time bins ,"}
+{"timestamp": "37:30", "speaker": "Speaker_A", "text": "however these e evolve , shrink , or whatever , increase , or Also , you could have different time bins for different purposes ."}
+{"timestamp": "37:45", "speaker": "Speaker_A", "text": "And it would just end up on a separate ribbon ."}
+{"timestamp": "37:47", "speaker": "Speaker_A", "text": "So the overlap coding is gonna be easy with respect to that ."}
+{"timestamp": "37:47", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "38:02", "speaker": "Speaker_E", "text": "It probably doesn't matter . No , I d"}
+{"timestamp": "38:03", "speaker": "Speaker_D", "text": "I mean , it doesn't . I mean , that not for the topic of this meeting ."}
+{"timestamp": "38:06", "speaker": "Speaker_A", "text": "No . W the idea is just to have a separate green ribbon ,"}
+{"timestamp": "38:08", "speaker": "Speaker_A", "text": "you know , and and and let 's say that this is a time bin . There 's a word here . This is the first word of an overlapping segment of any length ,"}
+{"timestamp": "38:15", "speaker": "Speaker_A", "text": "overlapping with any other , uh , word uh , i segment of any length . And , um ,"}
+{"timestamp": "38:21", "speaker": "Speaker_A", "text": "then you can indicate that this here was perhaps a ch a backchannel ,"}
+{"timestamp": "38:24", "speaker": "Speaker_A", "text": "or you can say that it was , um , a usurping of the turn , or you can you know , any any number of categories . But the fact is , you have it time - tagged"}
+{"timestamp": "38:31", "speaker": "Speaker_A", "text": "in a way that 's independent of the , uh , sp particular time bin that the word ends up in ."}
+{"timestamp": "38:36", "speaker": "Speaker_A", "text": "If it 's a large unit or a small unit , or we sh change the boundaries of the units ,"}
+{"timestamp": "38:36", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "38:40", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "38:40", "speaker": "Speaker_A", "text": "it 's still unique and and , uh , fits with the format ,"}
+{"timestamp": "38:44", "speaker": "Speaker_A", "text": "flexible , all that ."}
+{"timestamp": "38:45", "speaker": "Speaker_F", "text": "Um ,"}
+{"timestamp": "38:48", "speaker": "Speaker_F", "text": "it would be nice um ,"}
+{"timestamp": "38:51", "speaker": "Speaker_F", "text": "uh , uh it 's related but not directly germane to the topic of discussion , but , when it comes to annotations , um ,"}
+{"timestamp": "38:59", "speaker": "Speaker_F", "text": "you often find yourself in the situation where you have different annotations of the same , say , word sequence ."}
+{"timestamp": "39:17", "speaker": "Speaker_F", "text": "So , once this data gets out there , some people might start annotating this for ,"}
+{"timestamp": "39:23", "speaker": "Speaker_F", "text": "I don't know , dialogue acts or , um ,"}
+{"timestamp": "39:34", "speaker": "Speaker_F", "text": "And the only thing that"}
+{"timestamp": "39:37", "speaker": "Speaker_F", "text": "is really sort of common among all the versi the various versions of this data is the word sequence ,"}
+{"timestamp": "39:43", "speaker": "Speaker_F", "text": "or approximately ."}
+{"timestamp": "39:44", "speaker": "Speaker_B", "text": "Or the time ."}
+{"timestamp": "39:46", "speaker": "Speaker_F", "text": "Or the times . But , see , if you 'd annotate dialogue acts , you don't necessarily want to or topics you don't really want to be dealing with time - marks ."}
+{"timestamp": "39:52", "speaker": "Speaker_F", "text": "You 'd it 's much more efficient for them to just see the word sequence , right ?"}
+{"timestamp": "39:54", "speaker": "Speaker_B", "text": "Mm - hmm ."}
+{"timestamp": "40:09", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "40:10", "speaker": "Speaker_F", "text": "So , um , the p my point is that you 're gonna end up with ,"}
+{"timestamp": "40:17", "speaker": "Speaker_F", "text": "uh , word sequences that are differently annotated . And you want some tool ,"}
+{"timestamp": "40:23", "speaker": "Speaker_F", "text": "uh , that is able to sort of merge these different annotations back into a single ,"}
+{"timestamp": "40:28", "speaker": "Speaker_F", "text": "uh , version ."}
+{"timestamp": "40:32", "speaker": "Speaker_F", "text": "Um , and we had this problem very massively , uh , at SRI when we worked , uh , a while back on ,"}
+{"timestamp": "40:40", "speaker": "Speaker_F", "text": "well , on dialogue acts as well as , uh , you know , um , what was it ? uh ,"}
+{"timestamp": "40:45", "speaker": "Speaker_B", "text": "Well , all the Switchboard in it . Yeah ."}
+{"timestamp": "40:51", "speaker": "Speaker_F", "text": "Because we had one set of annotations that were based on ,"}
+{"timestamp": "40:55", "speaker": "Speaker_F", "text": "uh , one version of the transcripts with a particular segmentation , and then we had another version that was based on ,"}
+{"timestamp": "41:03", "speaker": "Speaker_F", "text": "uh , a different s slightly edited version of the transcripts with a different segmentation . So ,"}
+{"timestamp": "41:08", "speaker": "Speaker_F", "text": "we had these two different"}
+{"timestamp": "41:11", "speaker": "Speaker_F", "text": "versions which were you know , you could tell they were from the same source but they weren't identical . So it was extremely hard"}
+{"timestamp": "41:18", "speaker": "Speaker_F", "text": "to reliably merge these two back together to correlate the information from the different annotations ."}
+{"timestamp": "41:23", "speaker": "Speaker_D", "text": "Yep . I I don't see any way that file formats are gonna help us with that . It 's it 's all a question of semantic ."}
+{"timestamp": "41:26", "speaker": "Speaker_F", "text": "No ."}
+{"timestamp": "41:28", "speaker": "Speaker_B", "text": "Mm - hmm ."}
+{"timestamp": "41:31", "speaker": "Speaker_F", "text": "not personally , but someone writing a tool that is essentially an alignment tool ,"}
+{"timestamp": "41:36", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "41:41", "speaker": "Speaker_F", "text": "uh , sort of like th uh , you know , you have this thing in UNIX where you have , uh ,"}
+{"timestamp": "41:45", "speaker": "Speaker_B", "text": "W - diff or diff . Yeah ."}
+{"timestamp": "41:46", "speaker": "Speaker_F", "text": "diff ."}
+{"timestamp": "41:54", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "41:55", "speaker": "Speaker_F", "text": "Something like that ,"}
+{"timestamp": "42:02", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "42:09", "speaker": "Speaker_D", "text": "so you have different formats ."}
+{"timestamp": "42:15", "speaker": "Speaker_D", "text": "Yeah , I think it 's gonna be very hard . Any sort of structured"}
+{"timestamp": "42:15", "speaker": "Speaker_F", "text": "two versions ."}
+{"timestamp": "42:18", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "42:18", "speaker": "Speaker_D", "text": "anything when you try to merge is really , really hard because you ha i"}
+{"timestamp": "42:38", "speaker": "Speaker_D", "text": "But this is exactly what I mean , is that that the problem i"}
+{"timestamp": "42:39", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "42:40", "speaker": "Speaker_B", "text": "You just have to know wha what to tie it to ."}
+{"timestamp": "42:42", "speaker": "Speaker_D", "text": "Yeah , exactly . The problem is saying \"\" what are the semantics , what do you mean by \"\" merge \"\" ? \"\" So ."}
+{"timestamp": "42:46", "speaker": "Speaker_B", "text": "Right , right ."}
+{"timestamp": "42:46", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "42:55", "speaker": "Speaker_F", "text": "Both were based on words , so , bo we have two versions of the same words intersp you know , sprinkled with with different tags for annotations ."}
+{"timestamp": "43:07", "speaker": "Speaker_F", "text": "But , you know , it had lots of errors and things would end up in the wrong order , and so forth . Uh , so ,"}
+{"timestamp": "43:12", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "43:15", "speaker": "Speaker_F", "text": "Uh , it it was a kluge because it was basically reducing everything to uh , to uh , uh , to textual alignment ."}
+{"timestamp": "43:23", "speaker": "Speaker_B", "text": "But , d isn't that something where whoever if if the people"}
+{"timestamp": "43:39", "speaker": "Speaker_B", "text": "You know what I mean ? Then Or if they tied it to an acoustic segment and we had the time - marks , that would help . But the problem is exactly as Adam said , that you get ,"}
+{"timestamp": "43:45", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "43:58", "speaker": "Speaker_A", "text": "one version in terms of the words where the words are concerned ."}
+{"timestamp": "44:11", "speaker": "Speaker_F", "text": "And , uh , s you know , several years from now you might want to look into , um ,"}
+{"timestamp": "44:17", "speaker": "Speaker_F", "text": "the prosody of"}
+{"timestamp": "44:21", "speaker": "Speaker_F", "text": "referring expressions . And someone at the university of who knows where has annotated the referring expressions ."}
+{"timestamp": "44:28", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "44:28", "speaker": "Speaker_F", "text": "So you want to get that annotation and bring it back in line with your data ."}
+{"timestamp": "44:32", "speaker": "Speaker_D", "text": "But unfortunately they 've also hand - edited it ."}
+{"timestamp": "44:33", "speaker": "Speaker_F", "text": "OK ?"}
+{"timestamp": "44:34", "speaker": "Speaker_B", "text": "But they 've also Exactly . And so that 's exactly what we should somehow when you distribute the data , say that you know ,"}
+{"timestamp": "44:35", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "44:36", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "44:37", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "44:41", "speaker": "Speaker_B", "text": "that have some way of knowing how to merge it back in and asking people to try to do that ."}
+{"timestamp": "44:47", "speaker": "Speaker_A", "text": "I agree . That was what I was wondering ."}
+{"timestamp": "44:49", "speaker": "Speaker_A", "text": "Time is unique . You were saying that you didn't think we should Andreas was saying Yeah ."}
+{"timestamp": "44:50", "speaker": "Speaker_D", "text": "Well ,"}
+{"timestamp": "44:52", "speaker": "Speaker_F", "text": "Time time times are"}
+{"timestamp": "44:54", "speaker": "Speaker_D", "text": "what if they haven't notated with them , times ?"}
+{"timestamp": "44:55", "speaker": "Speaker_F", "text": "ephemeral ."}
+{"timestamp": "44:58", "speaker": "Speaker_D", "text": "So so imagine I think his his example is a good one . Imagine that this person who developed the corpus of the referring expressions didn't include time ."}
+{"timestamp": "45:04", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "45:06", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "45:06", "speaker": "Speaker_D", "text": "He included references to words . He said that at this word is when when it happened . Or she ."}
+{"timestamp": "45:08", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "45:10", "speaker": "Speaker_F", "text": "Or she ."}
+{"timestamp": "45:11", "speaker": "Speaker_A", "text": "But then couldn't you just indirectly figure out the time tied to the word ?"}
+{"timestamp": "45:13", "speaker": "Speaker_B", "text": "Exactly . Yeah ."}
+{"timestamp": "45:14", "speaker": "Speaker_D", "text": "Sure . But what if what if they change the words ?"}
+{"timestamp": "45:16", "speaker": "Speaker_A", "text": "Not Well , but you 'd have some anchoring point . He couldn't have changed all the words ."}
+{"timestamp": "45:20", "speaker": "Speaker_E", "text": "But can they change the words without changing the time of the word ?"}
+{"timestamp": "45:31", "speaker": "Speaker_F", "text": "Mmm . Mm - hmm ."}
+{"timestamp": "45:32", "speaker": "Speaker_D", "text": "And I I guess the answer is ,"}
+{"timestamp": "45:35", "speaker": "Speaker_D", "text": "um , it 's gonna be different every time ."}
+{"timestamp": "45:38", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "45:40", "speaker": "Speaker_D", "text": "I it 's exactly what I said before , which is that \"\" what do you mean by \"\" merge \"\" ? \"\""}
+{"timestamp": "45:44", "speaker": "Speaker_D", "text": "So in this case where you have the words and you don't have the times , well , what do you mean by \"\" merge \"\" ?"}
+{"timestamp": "45:49", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "45:49", "speaker": "Speaker_D", "text": "If you tell me what you mean , I can write a program to do it ."}
+{"timestamp": "45:55", "speaker": "Speaker_D", "text": "Right . And that 's about all you can do ."}
+{"timestamp": "45:56", "speaker": "Speaker_B", "text": "And beyond that , all you know is is relative ordering and sometimes even that is wrong ."}
+{"timestamp": "46:01", "speaker": "Speaker_B", "text": "So ."}
+{"timestamp": "46:05", "speaker": "Speaker_D", "text": "extract the times f from the best match of theirs to yours , and use that ."}
+{"timestamp": "46:09", "speaker": "Speaker_B", "text": "And then infer that their time - marks are somewhere in between . Yeah , exactly ."}
+{"timestamp": "46:11", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "46:19", "speaker": "Speaker_B", "text": "Definitely . Definitely ."}
+{"timestamp": "46:21", "speaker": "Speaker_B", "text": "Alright . Well , I guess , w I I didn't want to keep people too long and Adam wanted t people I 'll read the digits . If anyone else offers to , that 'd be great . And"}
+{"timestamp": "46:29", "speaker": "Speaker_F", "text": "Ah , well . For th for the for the benefit of science we 'll read the digits ."}
+{"timestamp": "46:29", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "46:30", "speaker": "Speaker_D", "text": "More digits , the better . OK , this is"}
+{"timestamp": "46:31", "speaker": "Speaker_B", "text": "Thanks thanks a lot . It 's really helpful . I mean , Adam and Don will sort of meet and I think that 's great . Very useful ."}
+{"timestamp": "48:03", "speaker": "Speaker_A", "text": "s"}

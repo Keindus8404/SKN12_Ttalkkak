@@ -1,0 +1,575 @@
+﻿[00:00] Speaker_B | Five years just because of the floods bringing the ceilings down . So On its great joy .
+"[00:03] Speaker_A | Alright , is it it's ready . Okay , great ."
+[00:11] Speaker_D | Aren't they suing him ?
+"[00:13] Speaker_B | I think they probably ought to , but uh they well , they've only just started realising that treating this as a legal issue is probably the right way to look at it . So they're not really the sort of people that are up for understanding um the intricacies of the committee , I guess . I mean i you would have thought they could , but it's r it's actually quite hard work . The law isn't very clear ."
+[00:21] Speaker_D | Mm-hmm .
+[00:34] Speaker_D | Can't th can't they get legal aid ?
+"[00:37] Speaker_B | That's a good question . They p they uh they might be able to . It's just it's so strapped now , um you know , like the Citizens Advice Bureau is so hard to actually get access to because they've they have so many cases and so few people . So But yeah , that's probably the next thing they'll have to do ."
+[00:52] Speaker_D | Hmm .
+[00:55] Speaker_D | Mm-hmm .
+"[00:57] Speaker_A | Yeah , everything's okay ."
+[01:03] Speaker_D | Are we supposed to count to ten or something ? We don't have to do all that ?
+"[01:08] Speaker_C | Yeah , mm-hmm ."
+[01:08] Speaker_D | Okay .
+[01:10] Speaker_C | Hmm .
+[01:27] Speaker_B | Mm-hmm .
+"[01:28] Speaker_A | Okay . Okay , okay , yeah ."
+[01:31] Speaker_D | Okay .
+"[01:32] Speaker_A | Okay , thanks ."
+[01:32] Speaker_D | Thank you .
+[01:33] Speaker_C | Thank you .
+[02:01] Speaker_D | Mm-hmm .
+"[02:11] Speaker_B | So um this is something that you know , we're not gonna do everything today , but I wanted to make sure that we sort of all aligned on what he was doing at the moment and and then sort of figured out how to give him the best advice coming up . So that's that's why I called this ."
+"[02:31] Speaker_A | Okay . Okay , thanks . Yeah ."
+[02:34] Speaker_D | You're gonna give a presentation for us then . Great .
+"[02:36] Speaker_A | Yeah , yeah a very or a quick uh slides . So um I've been here for fourteen month , I think . Yeah , so I've a accustomed to the environment here and enjoy staying here . So mm uh"
+"[02:53] Speaker_A | from uh last year I was uh uh s uh supervising the annotation of segmentation , summarisation uh uh with Jean uh of the I uh IC ICSI corpus and uh uh uh on the other hand uh I w n uh did s some very preliminary work on chunking the switchboard corpus . But uh that was not uh well picked up in the AMI corpus , which is supposed to be . So uh and currently I'm more interested in see uh uh , yeah , analysing the discourse structure in multi-party meetings . This is what I'm going to present here . So uh"
+[03:05] Speaker_D | Mm-hmm .
+[03:16] Speaker_D | Mm-hmm .
+"[03:55] Speaker_A | 'Cause meetings is a lit different from normal text or a n a normal dialogue or monologue . So interactivity is a concept is a concept that I'm using to distinguish the two uh uh extremes of uh of interac uh of discourse in meetings . And uh for dialogues uh and monologues I think we might have to use different uh concepts to m m uh model the discourse structure . Then uh I w I will uh give a very uh rough plan for the next uh couple of month . And finally I I will intr i introduce some related work , yeah . So"
+"[04:50] Speaker_A | the big question that I'm concern here is what's the relationship between utterances in multi-party meetings , or how do we analyse discourse structure right above utterances instead of uh those high level intentional structure of discourse ? So the concern here is about the very local low level utterance-to-utterance relations in multi-party meetings . Uh this is the local discourse structure ."
+"[05:21] Speaker_A | So the uh building block of that kind of uh structure would be the uh utterance and possibly one of its properties , the dialogue act which we're currently uh working on or uh and uh for meetings , yeah , so I've mentioned uh uh before that meetings is a bit different from uh monologue and uh dialogues ."
+"[05:57] Speaker_A | So uh in meetings I uh from my uh reading of the one of the AMI meetings I_S_ one O_ eight , uh the uh the four meetings , I noticed that uh uh the interaction , degrees of interaction in the meetings uh varies from parts to parts . So for some part uh the interaction is very strong . So it's obviously a dialogue . But uh for some part part where the interaction is very weak , uh just uh like the uh chairman or project manager is mm"
+"[07:21] Speaker_B | I'm a little bit confused . So um when you say interactivity , do you mean um well , how would you characterise a highly interactive meeting ? What are the measurements you'd apply ? So you I think what you're doing is segmenting meetings into highly interactive parts and not so interactive parts , where you think some of them are like a bit like dialogue and some are a bit like monologue . So what measurements would you apply to um find out which is which ?"
+[07:22] Speaker_A | Uh-huh .
+[07:26] Speaker_A | Yeah .
+"[07:40] Speaker_A | Yeah . Yeah , yeah ."
+[08:11] Speaker_B | So you mean relatively short turns and speaker change .
+"[08:54] Speaker_B | So so am I right in thinking you think that you can segment meetings maybe into two t types of areas , interactive and non-interactive ? So what are th what are the characteristics of the interactive areas ? So w so okay , so but you just said , I think , that you would characterise short turns as being the non-interactive parts ."
+[09:00] Speaker_A | Yeah .
+[09:02] Speaker_A | Yeah .
+[09:05] Speaker_A | Speak change speak change would be yeah .
+"[09:15] Speaker_A | If if it's uh just some kind of back-channel or it's just a signal signal the s the speaker is listening or is understanding what's going on , yeah . Yeah , yeah ."
+"[09:24] Speaker_B | Oh okay , well we we can discount back-channels . I mean uh c are you is it okay if we talk about this for a minute 'cause I'm confused . Or or do you get a c"
+[09:33] Speaker_A | Mm-hmm .
+[09:35] Speaker_B | Alright . Alright .
+[09:35] Speaker_A | Uh-huh .
+[09:49] Speaker_D | Sure . So so what did you have more on later slides about this ?
+"[09:52] Speaker_A | Uh yeah . Uh so for interactivity this is the only slide . So yeah activity is uh I'd define interactivity to be as a degrees of interaction in meetings . So which might uh speak change whi uh uh would be a very good indicator , yeah ."
+[09:57] Speaker_D | Okay .
+[10:12] Speaker_A | Mm-hmm .
+"[10:13] Speaker_A | Yeah , yeah yeah ."
+"[10:17] Speaker_A | No , no . Yeah . No yeah . So actually , so uh this is a very rough idea of interactivity . If we go further , we might distinguish uh the interactivity between two , f three , or all the groups . So that might be some final definition for the uh interactivity , yeah ."
+"[10:44] Speaker_A | Yeah , so that might be the second class , yeah . Weak this is a kind of weak interactivity . Yeah . Yeah ."
+"[10:48] Speaker_D | Okay . Y yeah , yeah ."
+[10:58] Speaker_D | Right . Yeah . Mm-hmm .
+"[11:11] Speaker_A | Yeah , yeah , yeah , yeah , yeah , yeah , yeah , definitely , yeah ."
+[11:27] Speaker_B | Well do y
+"[11:28] Speaker_D | Like statement , statement , reject , accept , you know , something like that ."
+"[11:30] Speaker_B | Yeah . Sufficient but not necessary maybe . It depend if you had so a bunch of people all just giving information and opinion around the table and they never actually ask questions of each other , but the turns were actually quite short , which one would it be ?"
+[11:31] Speaker_A | Yeah .
+[11:37] Speaker_A | Mm-hmm .
+[11:59] Speaker_B | Mm-hmm .
+[12:32] Speaker_A | the the cons the the two that we are going to analyse the discourse structure might be d different .
+"[12:40] Speaker_A | Yeah , yeah ."
+"[12:46] Speaker_A | Yeah , yeah . And also 'cause uh I have uh read some of the M_O_T_A_ uh corpus . Uh so for some part of th that kind of meetings um uh several utterances or dialogue acts are just uh tagged as statement . So that I don't think that would be very informative for high level str analysis . So that's all what uh that's why why uh I'm distinguishing the two kinds of discourse here ."
+"[13:17] Speaker_B | Right . So Wei-Xun quite takes quite a strong position on um this um difference between these two um kinds of group activities because he says that they admit different kinds of analyses . Right , the with the non-interactive , more monolo mono-logic sections of the meeting um you have to uh analyse them using something akin to rhetorical structure or something . And uh with the other sections you uh um you you use some other theory to look at them . And I actually uh think that that's a slightly extreme um position um with regard to the literature that a lot of people might say it doesn't really matter who the different speakers are in an interactive section . You can still um build maybe the the same argument structure over the top of the basic um acts and propositional content that's there ."
+[13:44] Speaker_D | Mm-hmm .
+[14:12] Speaker_A | Mm-hmm .
+"[14:17] Speaker_B | And uh what you get is a messier version of the argument structure because not everybody has the same argument in their brain , you know , for this . But um but that the same theory or the the same analysis can be applied to both parts . So I think it's important to keep um that in mind , and if you if you do need to argue that these two kinds of group activities uh can can only be analysed if you use different analytical mechanisms , then you have to explain why that is . Right , so it it puts an extra burden of proof on the work that you do ."
+[14:33] Speaker_A | Mm-hmm .
+[14:49] Speaker_A | Okay .
+[14:56] Speaker_A | Mm-hmm .
+[14:56] Speaker_B | Mm .
+"[15:15] Speaker_A | Yeah , the like yeah ."
+[15:15] Speaker_B | Right .
+"[15:17] Speaker_B | But to the grou degree that a group is building an argument together , I mean it I think wh what you're doing in a group discussion isn't necessarily one coherent argument f for the person , but an argument that is the group view . And so it's maybe it's not R_S_T_ , um but it's um more akin to um I don't know , is it Toolman ? But , you know , not that i but you know , the kinds of things where people to try to represent argument structure ."
+[15:31] Speaker_D | Yeah .
+"[15:44] Speaker_D | Right , but those are very those are really different um theories that are at are trying to get at different things and it and they admit of m you know , some of them admit of multiple parties and some of them assume you're in one speaker's head . Right , and the"
+[15:57] Speaker_B | Are are the important aspects of it for this analysis really that substantively different though ?
+"[16:01] Speaker_D | Mm-hmm . Yeah , the entire theory is based on intention and the intention of one individual . So R_S_T_ would be a bad theory to use . W"
+"[16:10] Speaker_B | But i if somebody if there's been an argument so far in a group meeting , and um somebody makes a statement , they have an intention about how to modify that group argument ."
+"[16:17] Speaker_D | So modelling modelling a single contribution by a single speaker , you can within that you can use R_S_T_ if you want to , right . But across speakers you can't . They have no relations for things like reject or agree . They the theory doesn't have them ."
+[16:57] Speaker_B | Okay .
+[17:06] Speaker_A | Yeah .
+"[17:06] Speaker_C | No , I don't think so . I d"
+[17:11] Speaker_A | Yeah .
+[17:11] Speaker_C | Hmm .
+[17:12] Speaker_C | Mm-hmm .
+[17:14] Speaker_C | Yeah . Yes .
+[17:16] Speaker_D | Well her the relations have a s
+[17:59] Speaker_B | Mm .
+"[18:06] Speaker_A | Yeah , yeah ."
+"[18:18] Speaker_B | Yeah , c I just think well , I mean it all of these things when they encounter a new genre of um of uh actual data , then they end up modifying building new kinds of relations with new kinds of semantics and adding them . That's the entire history of these ."
+[18:43] Speaker_A | Yeah .
+[18:43] Speaker_B | Mm-hmm .
+[19:04] Speaker_A | Mm-hmm .
+"[19:16] Speaker_A | No , just a uh turn exchange , yeah ."
+"[19:20] Speaker_D | I mean it had the at the l at the leaves they had the well , she didn't show it , but they would have the semantics of the utterances . And then she had relation names and handles ."
+[19:27] Speaker_A | Mm-hmm .
+[19:30] Speaker_A | Yeah . Actually sh uh she used some a a a bunch of features to do the automatic parsing .
+[19:41] Speaker_A | Mm-hmm .
+[19:47] Speaker_C | Hmm . Mm-hmm .
+"[19:50] Speaker_B | Mm-hmm , yeah ."
+[19:54] Speaker_A | Mm-hmm .
+[20:02] Speaker_B | Yeah .
+[20:08] Speaker_B | Right . So there you've got somebody who's doing theoretical development that would claim that you don't need two separate an analytical frameworks for these two types of activities that Wei-Xun has identified .
+[20:21] Speaker_B | Yeah .
+[20:26] Speaker_B | Mm-hmm .
+[20:27] Speaker_A | Uh yeah .
+"[20:30] Speaker_A | Utterance to utterance , yeah . Very low level , yeah ."
+"[20:34] Speaker_A | You cou yeah . Yeah , i to uh just we need to see uh how well we could work out of the utterance to utterance ."
+[20:46] Speaker_A | Yeah .
+[21:00] Speaker_A | Yeah . So uh yeah .
+[21:26] Speaker_D | Well I think we should ass I think we should
+[21:36] Speaker_A | Mm-hmm .
+[21:42] Speaker_A | Yeah .
+"[21:57] Speaker_B | Hmm , yeah ."
+"[22:03] Speaker_D | But there's a different set of tags in there from the kinds of relations you see within R_S_T_ , for example . So if you look at Amanda Stent's thesis and the analysis that she did sort of within a turn she used something like R_S_T_ . And then across turns she used damsel , right ."
+[22:10] Speaker_B | Mm-hmm .
+[22:20] Speaker_B | Mm-hmm .
+"[22:24] Speaker_B | Yeah , which wouldn't probably wouldn't give us the kind of um information that we need about relations across turns , just because we really are critically interested in the argument um that the group is building up so that we can find the decisions that they made and um any p uh counter proposals to proposals that have been made and things . I mean it really is more in the spirit uh of the R_S_T_ ish relations than um than in the damsel kinds of relationships . What we want uh out of the c um the relationships between speakers here . They are jointly building up an argument structure , and that is the critical thing that we're missing in order to be able to um understand what's happening in these meetings ."
+"[23:09] Speaker_B | So we wouldn't we wouldn't wanna do the same thing as what um she did in this case , bec just because um damsel doesn't give you the right sort of representation between speakers ."
+[23:23] Speaker_D | Oh yeah .
+[23:28] Speaker_D | In fact R_S_T_ doesn't give you anything like that .
+[23:30] Speaker_A | No .
+"[23:32] Speaker_A | Hmm , hmm ."
+[23:37] Speaker_D | Okay .
+[23:39] Speaker_D | Right . Right .
+"[23:49] Speaker_D | Right , okay . D so I think it's much more impor I think it would make more sense to go about this problem figuring out what kinds of relationships we want and then finding and , you know , like setting down what the constraints are on the analysis game . He's been looking at the data , okay , s to good . Um and then and then there are lots of different theories of argument . I mean you can also think about the sort of joint problem solving kinds of um approaches . So you know , Clark and Lockbaum and , you know , that that kind of thing . That were designed for dialogue , right , I mean , and can be expanded to more than two persons . Actually the Lockbaum stuff is for groups ."
+[24:02] Speaker_B | Yeah .
+[24:07] Speaker_B | Well Wei-Xun's been looking at the data . So that's that's a step for this .
+[24:11] Speaker_A | Mm-hmm .
+[24:17] Speaker_A | Yeah .
+"[24:23] Speaker_A | Yeah , yeah . Yeah ."
+[24:30] Speaker_A | Yeah .
+[24:34] Speaker_A | Mm-hmm .
+[24:34] Speaker_B | Mm-hmm .
+[24:38] Speaker_B | Mm-hmm .
+"[24:45] Speaker_B | Mm-hmm , yeah ."
+"[24:45] Speaker_A | Yeah , yeah , yeah ."
+"[24:50] Speaker_A | So yeah , for interactivity this is a very weak definition , yeah . If we need more then we might use some more finer uh f finer uh definition for interactivity ."
+"[25:03] Speaker_B | Well , what you'll need in the end is something operational . So it's something that you can use to actually segment meetings into the um the areas that you think are important for this analysis , right ? So um it's not quite clear to me what the different kinds of things are . So it would be I think handy if you could take a meeting at some point and say , you know , this is a interactive area and this is a mono-logic area because and we could come up with what kinds of measurements you need ."
+[25:06] Speaker_A | Yeah .
+[25:15] Speaker_A | Yeah . Okay .
+"[25:35] Speaker_B | Um I mean we have w we haven't done past work here on segmenting meetings in that way , but we have done work on characterising different kinds of meetings um in terms of how highly interactive they are . But it's a different definition , right . It's in terms of how much all of the people involved in the meeting um take some take equal part in it as opposed to um like the highest state is people in the meeting just driving it and and uh the other people following whatever the high state is people want ."
+[26:07] Speaker_A | Yeah .
+"[26:17] Speaker_A | Yeah , okay ."
+[26:27] Speaker_A | Mm-hmm .
+"[26:43] Speaker_A | Yeah , okay ."
+"[26:46] Speaker_A | So mm so for dialogue , yeah , mm there would be uh some kind of uh interaction structure . So it for uh in previous discourse studies , uh especially in discourse analysis exchange uh is used to describe this kind of uh local structure . And in conversation the analysis so adjacency pairs are used to describe this kind of structure . Uh"
+"[28:03] Speaker_A | Uh here information is a little vague . It could be some kind of knowledge what the uh speaker knows or or some kind of thought what the speaker is thinking . So these two kind of uh inform mm two kinds of the information uh might be some kind of a difference . So this is a little bit like the Bell's mm exchange of information uh for the knowledge . If exchange of uh opinion uh uh some kind of so it's uh very related to thought , of thinking , yeah ."
+[28:40] Speaker_B | Do you think it matters whether something is knowledge or opinion in the way it contributes to the group process ?
+"[28:45] Speaker_A | Uh in some case it s differs 'cause uh when we exchange knowledge , we might not challenge uh the speaker , but uh when the speaker is uh pre uh is uh talk about what he feels , what he thinks , is proposing something or s uh then other speakers might might chan challenge him or her ."
+[29:15] Speaker_A | So that kind of structu
+[29:17] Speaker_A | Yeah . Yeah .
+"[29:30] Speaker_A | Yeah . But uh that might b be some difference inter interaction par patterns . Might be . 'Cause uh for information if we uh somebody's uh seeking some information , then he uh ask some question and uh the one knows will uh gives gives the answer . But uh uh for the uh opinion or thought uh stuff , then the speaker might just uh uh present some idea and others will comment or uh challenge uh the idea ."
+[30:04] Speaker_B | Yeah .
+"[30:06] Speaker_B | Well you you can't define 'em that way . You can't define the difference between information and opinion that way because that's um basically defining as the what happened about it . And I think what tends to happen is that um if people challenge the the facts , you often discover that they weren't actually solid facts anyway , you know , that they're I think the boundary between these is kind of fluid . So I guess the question is is it important to what what's it important to ? So do you need the difference between information and opinion to do this analysis ?"
+[30:09] Speaker_A | Mm-hmm .
+[30:11] Speaker_A | Okay .
+[30:21] Speaker_A | Mm-hmm .
+[30:28] Speaker_A | Yeah .
+"[30:30] Speaker_A | Yeah , it's vague , yeah . Yeah , yeah , yeah ."
+[30:58] Speaker_B | So what have you been looking at ?
+"[31:00] Speaker_D | Yeah , I was just gonna say it would be useful to know what m"
+[31:04] Speaker_A | Yeah .
+[31:04] Speaker_B | So you're you've got books that high on your desk . Which ones are they ?
+[31:17] Speaker_D | But who's they ? That's the question .
+[31:21] Speaker_D | Who ?
+"[31:22] Speaker_A | uh Sinclair and Coulthard . That is . Also at Geneva school they I don't think they list some kind of exchange . But uh the uh exchange structure uh and uh yeah , exchange is first uh developed in uh systemic functional grammar along the uh uh Halliday and and Martin's work . Yeah . So uh actually they they have some something in in a textbook about the exchange . Uh they call it negotiation . So they have uh some flow charts of the uh uh detailed analysis of uh uh exchange structure , yeah ."
+[31:24] Speaker_D | Right .
+[31:40] Speaker_B | Mm-hmm .
+[31:44] Speaker_B | Mm-hmm .
+[31:56] Speaker_B | Mm .
+[32:09] Speaker_A | Yeah .
+"[32:13] Speaker_A | So um uh I don't think there is any kind of principle classification of exchanges . This is i yeah , w"
+"[32:23] Speaker_B | Um the well are you thinking it's been a while since I've read this literature . But I mean my understanding of exchange is is that the initiating move introduces a goal to the discourse , and then the remaining moves um will uh contribute to either the um the meeting of that discourse goal or the decision not to bother with that discourse goal , right . And so um I'd be surprised if there wasn't work describing"
+[32:29] Speaker_A | Mm-hmm .
+[32:36] Speaker_A | Mm-hmm .
+[32:57] Speaker_A | Okay .
+[32:59] Speaker_A | Mm .
+[32:59] Speaker_B | things in those terms . I mean I know Sinclair and Coulthard is is basically about teaching yeah . So you wouldn't expect that to necessarily um apply uh in in wider contacts in a way . Like you might expect to have to extend the theory to do that . But I th I think there are other other people have looked at exchange structure and described it in these terms in a way that should really suit your needs .
+"[33:03] Speaker_A | Yeah , I_R_F_ uh kind of structure . Yeah , yeah , yeah ."
+[33:23] Speaker_A | Okay .
+"[33:26] Speaker_A | Mm 'cause uh from my previous experience we see ananys analysis of information seeking dialogues over telephones . So it's um uh about the tourism information . So from uh um my analysis of that kind of dialogues I could say that there's only there only four basic uh exchanges depend on the information uh direction of the information flow , and also the speaker role ."
+[33:34] Speaker_B | Mm-hmm .
+[33:39] Speaker_B | Yeah .
+[33:39] Speaker_D | Mm-hmm .
+[33:51] Speaker_B | Mm-hmm .
+"[33:58] Speaker_A | 'Cause in the information seeking dialogues the uh t roles of the two participants are different . One is mainly the uh from the uh agency , a tourism agency . That is main uh uh information provider uh while the customer is the information seeker mainly . Yeah , that's uh so theref uh and also mm uh the direction of information flows for some kind of information , like uh the uh uh price of a specific route , uh the spots they're going to uh visit , and also on the uh kinds of uh ve uh vehicle or or transportation , yeah ."
+[34:13] Speaker_B | Mm-hmm .
+[34:34] Speaker_B | Yeah .
+"[34:36] Speaker_B | So this is a l a lot like George Horton's work on saying what are the different parameters for um these exchanges . You know , what are the things that characterise the set of exchanges that can happen ? Mm ."
+[34:38] Speaker_A | Uh-huh .
+"[34:41] Speaker_A | Yeah , yeah , yeah . Yeah , yeah , yeah , yeah , yeah ."
+"[34:46] Speaker_A | Yeah yeah , s yeah , yeah . So but there also some variations which I call complex exchanges . So that's uh that's uh just a list . Mm not like the uh basic exchange uh exchanges , yeah ."
+"[34:58] Speaker_B | So so is your complaint less about um less about knowing what makes an exchange and more about knowing how you parameterise exchanges for this genre ? So what's the range ? okay , so you're worried about what's the range of exchange types for this genre , and that's what you think hasn't been done . Uh-huh . Okay . That's clearer ."
+"[35:10] Speaker_A | Yeah , yeah ."
+"[35:15] Speaker_A | Yeah yeah , parametri yeah , I I I'm looking for parametric , yeah , scheme . Yeah yeah yeah . That's uh y yeah . A parame parameter or principle . Yeah , some something like . Yeah ."
+[35:25] Speaker_B | Mm-hmm .
+[35:26] Speaker_A | Yeah . And also yeah . A and also s in 'cause in the meetings uh the speakers might might report something uh they've done in the past and uh uh uh uh talk about th what they are currently doing and also planning some future actions . So this kind of information might also be helpful .
+"[35:46] Speaker_B | Yeah . So so have have you tried I mean um I know of one previous attempt to establish what exchanges are needed for f um some kinds of industry meetings , and our experience in that project was that um you can't really identify exchange structures in these meetings because they they don't really follow that pattern . That exchanges are clear in um well , i there're clearer in when you've got fewer people . So there's fewer people trying to pull the discourse goals in different directions . Um and they're clearer when um your goals are quite limited . So when you've just got information exchange and you know , the or there's a clear task that the people are trying to do and they're focussed on that task , as is normal in dialogue elicitation like map task or like your"
+[35:50] Speaker_A | Mm-hmm .
+[36:06] Speaker_A | Mm-hmm .
+[36:18] Speaker_A | Yeah .
+"[36:35] Speaker_B | like your informa which like your information seeking dialogues , which wasn't dialogue elicitation , but it was very constrained in genre . So um the the answer to the question might be nobody knows what the catalogue of exchanges is for real meetings because um or for these decision making meetings because you can't identify exchanges , right . So have you gone through the meetings and looked for initiations and responses with without a prior catalogue , just knowing that init initiation in introduces a new discourse goal and a response um meets or negates that goal in some way . So have you tried marking these exchanges ?"
+"[36:42] Speaker_A | Yeah , yeah ."
+[36:49] Speaker_A | Mm-hmm .
+[37:12] Speaker_A | Yeah .
+[37:20] Speaker_B | Mm-hmm .
+"[37:24] Speaker_D | Well I mean I think that um w it I don't know uh w it'd probably get to re hear , you know , more of your presentation because I think there are lots of different candidates and you certainly can't go through and mark up every meeting , I mean mark up meetings with every scheme we think of . So I think we have to kind of get an overview of what the candidates are m if there's like two or three that we think are good contenders , then we try to see what works better , right ."
+[37:33] Speaker_A | Mm-hmm .
+[37:42] Speaker_A | Yeah .
+[38:11] Speaker_D | There are a lot of option there are a lot more options . So so let's see what what else you've got .
+[38:25] Speaker_B | So that's it .
+"[38:25] Speaker_D | Oh , so that was it on dialogue , okay ."
+[38:27] Speaker_B | Yeah .
+[38:30] Speaker_D | Okay . So uh it's very unclear to me why you think exchange of information is more principal t uh did you I mean what did you have specific schemes in mind there ? Or spec mm specific
+[39:15] Speaker_B | Do you mean an action in terms of what the group is requiring him to do or do you mean an action in like picking something up ?
+"[39:23] Speaker_B | So action in the technical meeting sense or just action in the physical sense . Right , okay ."
+"[39:27] Speaker_A | Physical sense , yeah . Physical sense , yeah . Yeah , so uh this kind of might be the uh some kind of semantics of the utterance or or exchange . So uh this is just one um thing I one parameter uh for mm-hmm ."
+[39:45] Speaker_D | But can you give us an example of a scheme that's based on exchange of information ?
+[39:54] Speaker_A | I mean uh here the scheme is for exchange scheme .
+"[39:58] Speaker_A | So yeah , for uh for for uh exchange of information . So there might be the uh s speaker , and he uh a hearer . So who speaks to whom and uh uh"
+[39:59] Speaker_D | Okay .
+"[40:16] Speaker_A | S so this is the uh uh so direction of the information flow and also so speaker role might be first uh parameters for the uh ex uh information exchanges . So um but for action that might be uh some kind of uh propose or accept or reject kind of uh uh exchange structure , I mean ."
+[40:30] Speaker_D | Mm-hmm .
+"[40:43] Speaker_B | Oh , so that's not a physical action , right ? Uh uh if I pick this up , which is a physical action , you can't reject that . What do you mean ?"
+[40:49] Speaker_A | Uh-huh .
+[40:57] Speaker_A | So we're going to do something and uh uh so could you do something or this kind of uh action related utterance I mean . Yeah .
+"[41:06] Speaker_B | Right . That's right , that's a action in the sort of technical sense of meetings . So you are actioned to do something , which is part of the permanent record that yeah , okay ."
+"[41:10] Speaker_A | Okay , technical sense . Yeah . Yeah . Yeah , yeah , yeah , yeah ."
+"[41:15] Speaker_A | Okay , yeah , yeah . Okay , yeah , that's n"
+[41:19] Speaker_A | Hmm .
+"[41:27] Speaker_A | Before come up with the scheme , you mean . Yeah ."
+"[42:00] Speaker_A | So yeah . Uh yeah . S Stent yeah Stent might does um yeah . Stent , yeah ."
+[42:08] Speaker_A | Mm no .
+[42:10] Speaker_D | Okay . So um have you looked at Nate Blaylock's work ?
+[42:16] Speaker_A | Uh so so 'cause I'm I might not familiar with these na
+[42:29] Speaker_A | Mm-hmm .
+[42:41] Speaker_D | I can't remember the I can't remember the names of all the actions .
+[42:42] Speaker_A | So uh is it the work uh described in the c uh in in uh in the coconut project or something similar ?
+"[42:47] Speaker_D | No , so so the Coconut project is a project that I did with Rich Thomasson and Barbara DiGinio . Have you looked at that ?"
+"[42:52] Speaker_A | Yeah , yeah , yeah , yeah . Y yeah , look uh not very much detail , yeah ."
+"[42:57] Speaker_D | Not very clear . No . Though there's a lot of detail in the paper . But you haven't looked at it no in very much detail . Okay , so I think you should , um because it was all these things that are done for joint problem solving and joint action I think are very relevant to look at because these people are solving a problem together , right . So um while these schemes may not have they have some es of the essential components that you need to characterise um joint problem solving . So while th um"
+[43:00] Speaker_A | Yeah .
+"[43:03] Speaker_A | No , not . Okay ."
+[43:12] Speaker_A | Yeah .
+"[43:27] Speaker_D | you may think that they're missing something , then we we could certainly augment them . But I think that they have to be looked at . And so so Nate Blaylock tried to okay , so you know , from Gross and Krauss and Gross and Sidener came all this stuff about shared plans and how you really can't understand , you know , dialogue u unless you understand shared plans . But the actual theoretical um or formalisation of it was incredibly complex . And so um Lockbaum simplified it quite and , you know , Sidener and Rich and Collagen have simplified it quite a bit . Um but Nate Blaylock tried to um , you know , define ,"
+"[43:55] Speaker_A | Yes , yes ."
+"[44:14] Speaker_D | you know , what happens after somebody suggests something . Well , you can adopt it , you can well I can't remember you know , okay , but he has uh he has a taxonomy yeah , right ."
+"[44:22] Speaker_A | Yeah , I know okay . Oh . Uh I know this guy , yeah , yeah . Uh , Jim @'s student . Yeah , I know . No no , in Saa Saarbruecken . Yeah , yeah . Okay . Yeah yeah yeah . Okay . Yeah , I know , her ."
+[44:35] Speaker_B | Different .
+[45:12] Speaker_A | Mm-hmm .
+"[45:28] Speaker_B | Mm-hmm , yeah ."
+[45:31] Speaker_B | Well the first step is find out in the what how much of the material does the collaborative problem solving cover ? So how much of a genre clash is there here ?
+"[46:10] Speaker_B | Yeah . B th But there there are people in the field that are moving that direction , like Martin . And also what's important here is the theoretical clarity about what an initiation and a response is . So what is it that ties um different acts together at a higher level , you know ."
+[46:11] Speaker_A | Mm-hmm .
+"[46:25] Speaker_D | Mm-hmm . Yeah , th I mean it it does seem like , you know , there's something that we want from that and then there's something that we want from collaborative problem solving . And"
+[46:35] Speaker_B | Mm-hmm .
+"[46:47] Speaker_B | But I think more important than looking at um whether parts of the meeting are highly interactive or not so interactive is uh looking at what sort of task the people are trying to do at the moment . So you know , are they doing um uh i are are they uh i as in the kick off meeting just exchanging information to get started with a project or are they uh actually addressing some specific design um criteria at the moment . Should try to decide which shape the thing is ."
+[47:33] Speaker_A | Yeah .
+[47:36] Speaker_D | Hmm .
+"[47:48] Speaker_A | Yeah . So main actions I guess might be some some high level uh problem solving or decision making uh uh concepts , uh not like the exchange which which I I would like to be very low level utterance to utterance relations ."
+[48:10] Speaker_B | Um so what's the high level version again ? P s
+"[48:12] Speaker_A | Uh I mean uh I mean the m main actions might be some it might be , yeah , built built"
+[48:14] Speaker_C | Meeting action .
+"[48:16] Speaker_B | Right , okay . I mean i the meeting actions is just gonna be a segmentation . It's not going to present any s any micro-structure . So it's just gonna say from here to here they're doing something . That's all that that scheme is gonna do ."
+"[48:25] Speaker_A | Okay , so well w"
+[48:28] Speaker_A | Okay .
+"[48:28] Speaker_D | Like somebody's writing on the white-board or I mean the w meeting actions they presented at the review seemed really low level to me , like somebody stood up ."
+[48:30] Speaker_A | Okay .
+[48:35] Speaker_B | It's n
+"[48:39] Speaker_B | That's not no , those well , that's individual actions . And the meeting actions are meant to b uh become more um semantic and more theoretical than the kind IDIAP have traditionally used . So so we need to still preserve some uh sense of the activity . But rather than saying it is somebody's at the white-board , it'll be , you know , that somebody's explaining something that the others are focussed on ."
+"[48:39] Speaker_A | Okay . Physical . Some kind of physical actions , yeah ."
+[48:47] Speaker_D | Okay .
+[48:49] Speaker_D | Okay . Okay .
+[48:57] Speaker_D | Okay .
+"[49:01] Speaker_D | I mean I I realise it's important to recognise that , you know , what Wei-Xun got up and went to the white-board . I realise that's important , you know . But I d was kind of surprised that those meeting actions . So Yeah , mm okay ."
+[49:01] Speaker_A | Okay .
+[49:08] Speaker_B | Yeah .
+[49:12] Speaker_B | It's it's a different scheme . Yeah .
+"[49:29] Speaker_B | Mm-hmm . Well you might need the meeting action segmentation in order to know where what uh what area you're circumventing for so , it's just exchange structure in this area that you're looking at , and then that's a solid boundary between the next bit or something . I don't know . Um but w well , time's getting on . So , you know , what practical things can we do to help this work move forward ? So y show what else"
+[49:44] Speaker_A | Yeah .
+"[49:49] Speaker_A | Yeah , okay ."
+"[49:57] Speaker_A | Next . Yeah . So yeah , for the monologue I've I have not uh looked into the details about the this kind of uh relations for the monologue parts ."
+"[49:58] Speaker_B | you're you're thinking about , yeah ."
+"[50:17] Speaker_A | And uh so uh next I need to uh review the literature and uh come up with s schemes for the real data annotation . And after that uh we w 'cause this mm is not in the hub corpus . So we are not going to get l all the meetings annotated with that kind of . So uh so we we might ju first try a few meetings and uh have a reliability study . If it's reliable enough , then we must just uh just annotate a small part of the meetings and using some learning techniques to boot boot-strap the uh uh automatic uh analyser ."
+[50:31] Speaker_B | Mm-hmm .
+[50:39] Speaker_B | Mm-hmm .
+[50:45] Speaker_B | Mm-hmm .
+[51:15] Speaker_A | Mm-hmm .
+"[51:21] Speaker_A | Yeah , if uh if it's based on the uh um dialogue acts , yeah ."
+"[51:26] Speaker_B | Um right , well one presumes it is , otherwise it's gonna be ra radically expensive to do any kind of mark-up . So um the you know , it's something that we can look at , but you need to what we need it's more important than knowing , you know , that we need exchange structure marked up on X_ amount of data at this point is knowing um where you're headed with this , I think . So what's the good that that uh the project gets out of this in the end . So you know , what's the w what's the headline results of the work on the project , I think is is what we're trying to get a sense of here ."
+[51:32] Speaker_A | Mm-hmm .
+[52:06] Speaker_A | Yes .
+"[52:06] Speaker_B | So you get your exchange structure marked up . And say we just put in the money , get exchange structure marked up on that entire hub or , you know , figure out how to boot-strap it so we we get this um uh how do you how do you sell that as a as a project goal , you know ? 'Cause people are gonna say exchange structure , so what . What do wh what do you what how do you plug that into the rest the stuff , right ? Yeah ."
+[52:23] Speaker_A | Hmm .
+[52:39] Speaker_A | This might not be
+[53:02] Speaker_B | Mm-hmm .
+"[53:06] Speaker_B | Yeah . See 'cause I think that um just to make this m more efficient , you should be thinking about the high-level goal in order to focus the work that you're doing rather than thinking well , you know , there's these theories , you know , how can we apply these theories to it . Um and then seeing what comes out of that that might be useful for the meeting browser , actually trying to say yeah , we have a goal of being able to do this with the meeting browser , um what kinds of dialogue structure would we need to be able to do that . I mean uh I don't know , maybe you'd wanna disagree with that , but I this more goal directed might actually make it easier to um bring these things to publication in the long run , right ?"
+[53:11] Speaker_A | Mm-hmm .
+[53:14] Speaker_A | Yeah .
+[53:26] Speaker_A | Okay .
+[53:34] Speaker_A | Mm-hmm .
+"[53:45] Speaker_D | Well I think we should approach it both ways . I mean uh you know , I I d"
+"[54:04] Speaker_B | Right . It's not necessarily what they say . But it's something at least identify something that we'd hope to get out of it , you know ."
+[54:16] Speaker_B | Mm-hmm .
+"[54:30] Speaker_A | Yeah , yeah . So after this if uh if uh uh we might do some mm pe uh from here we might be some uh uh , yeah , c problem solving , decision making process to track that kind of information . Yeah ."
+"[54:37] Speaker_D | Yeah , some higher level yeah ."
+[54:41] Speaker_B | Yeah .
+"[54:42] Speaker_D | So I mean I think it's clear that something at this level needs to be there . I mean and to ask questions , like who disagreed or were there any counter proposals or whatever . Even those kind of questions you need some kind of mark-up like this ."
+"[54:57] Speaker_B | I It just helps you know which theory you should be concentrating on . So you know , that immediately discounts exchange um structures that are mostly for information seeking alone because the notion exchange is to restrict it there , and in favour of um these these more argumentative things . So I mean uh I do think you should keep in mind what the final goal is so that you can plug this into something at the end and and um show some benefit of having the mark-up ."
+[55:17] Speaker_A | Yeah .
+[55:23] Speaker_D | Well that brings up something interesting because I think probably what we should do is try to get
+"[55:31] Speaker_D | you know , some of these"
+"[55:35] Speaker_D | tasks sort of put on , you know , sort of as part of the official agenda . So being able to answer questions like um were there any counter proposals to the bana you know , banana shape or whatever . Um uh or to some specific , you know , recommendation and things like that . I mean , you know , those , you know , strike me as cl clear things that , you know , people who go to decision making meetings want to know if they've missed one or are arriving late or anything like that . So it wou it seems like we should probably get some of these things on the official agenda and say look , you know , wouldn't it be nice if you could have answers to these questions , or something ."
+[55:48] Speaker_B | Mm-hmm .
+[56:03] Speaker_B | Yeah .
+"[56:15] Speaker_B | Yeah . I mean operationally it's not gonna much difference whether it's hub or not , right , because"
+[56:21] Speaker_D | Oh .
+"[56:32] Speaker_D | And I think we wouldn't wanna necessarily do this on ICSI data . I think the ICSI data is too too complex , and there aren't enough real decisions made , you know , that you could clearly identify . I mean there are some , but and not that I've read more than about two meetings . But um I think , w it , you know w well , so one thing that's gonna be interesting is the , I think to me , is the um what can you do because presumably the um D_F_K_I_ folk or somebody is gonna mark up a lot of the data with sort of tags about ontology , right ?"
+"[56:37] Speaker_A | Messy . Yeah , yeah ."
+"[56:38] Speaker_B | Yeah , it uh and it's too different a genre , yeah ."
+[56:41] Speaker_A | Hmm . Mm-hmm .
+[56:45] Speaker_B | Mm .
+[56:46] Speaker_A | Ye Yeah . Yeah .
+[57:11] Speaker_A | Mm-hmm .
+[57:12] Speaker_B | Mm-hmm .
+"[57:12] Speaker_D | So we know , you know , somebody will have gone and by hand and sort of marked up som something l like shallow semanticy kinds of things , right , or maybe deeper semanticy things , but that but you know , not really in a in a formal language , but mostly just , you know , tags , right ? Um and then the question is , well , how does you know , just the way people typically do this is , you know , let's take these semantic features into or these features into account and see how well we do with the the learning , and then let's throw these features out and see how well we do , um because we know we're gonna have them , because one or two sides is really intr are really interested in this ontology stuff , right ? I mean T_N_O_ is and D_F_K_I_ is , right ."
+"[57:20] Speaker_B | Yeah , that's not help either . But yeah , they're sure to do that ."
+[57:58] Speaker_B | Mm-hmm .
+[58:02] Speaker_B | Mm-hmm .
+"[58:03] Speaker_D | So there will be some kind of domain semantics . And there will also be presumably some kind of task hierarchy modelling going on in I mean 'cause the whole browser working group um final um sort of presentation on that second day was about , you know , knowing the task , right . And very you know , details about which task is this you know , which sub-task is this little chunk of the meeting addressing and furthering in various ways , right . Which seems like it would be really hard in an open domain ."
+[58:18] Speaker_B | In the m
+[58:32] Speaker_B | Mm-hmm .
+[59:07] Speaker_C | Mm .
+[59:36] Speaker_C | what happened happening in a meeting .
+"[59:57] Speaker_D | No , those are the s those are the scenarios . Those are the user scenarios . The task what what he came back and said that at the end , I mean it actually kind kind of scared me , because it was all based around tasks ."
+[00:02] Speaker_B | Yeah .
+"[00:11] Speaker_B | Okay , well c maybe ."
+"[00:12] Speaker_D | And and the domain tasks , okay , they're now they now have to decide how many buttons to put on this thing . I mean it was all about the domain task ."
+[00:22] Speaker_B | Okay .
+"[00:22] Speaker_D | And it is really the it and given that , uh it it's really scary to think about what you could possibly do in an open domain where you don't where you don't know what the tasks are . And I don't think you're gonna be able to figure them out uh very reliably ."
+[00:37] Speaker_B | Mm-hmm .
+"[00:45] Speaker_D | I do , but the whole project is , you know , focussed on AMI hub data as their first priority ."
+[00:52] Speaker_B | Well yeah . But that doesn't mean you have to be um using the techniques that you can be using open-domain techn
+"[00:59] Speaker_D | N no no no no no , but I mean if the if the if they had th they had this sort of epiphany at the end of this meeting where they decided well why are people browsing this . Well it's all to see how , you know , how the participants were furthering their tasks ."
+[01:17] Speaker_B | Mm-hmm .
+[01:22] Speaker_B | And you don't think that can be done in open domain at all .
+[01:39] Speaker_B | I don't know . We'll see .
+"[01:40] Speaker_D | Well right . And then , yes , and then there was this confusion about the um last spider phone conference that the messages telling people to call came out after the meeting happened , at least to some of us ."
+"[01:56] Speaker_B | Oh right , yeah . So we don't know what happened at that one . Yeah ."
+"[02:00] Speaker_D | So um I mean we'll we'll get that back on track . But I think that um we don't you know , there will be some meeting browser demo that um , you know I I think it's an interesting question of okay well , if you have knowledge , here's what you can do . If you don't have that knowledge"
+[02:17] Speaker_B | Mm-hmm .
+"[02:23] Speaker_B | Yeah . So you're advising Wei-Xun that he should be using like any ontologies and propositional content that um D_F_K_I_ and T_N_O_ bank in the C_V_S_ repository , or or not ? That's what I'm not clear on ."
+"[02:36] Speaker_A | Yeah , ma ma uh s"
+[02:39] Speaker_A | Mm-hmm .
+[02:43] Speaker_B | With our without . Mm-hmm . Okay .
+"[03:01] Speaker_A | Yeah , yeah , yeah . Different feature combination , yeah ."
+[03:11] Speaker_B | Can actually try . Mm-hmm . Yeah .
+[03:22] Speaker_B | I don't know when they'll bank these by the way . Um 'cause that's it's not hub . So i it's one of these things where everybody's supposed to bank as many things as possible . So you know w
+[03:40] Speaker_B | Yeah . But open .
+"[03:57] Speaker_B | Yeah , it's not really an open domain task , yeah ."
+[04:11] Speaker_D | Right .
+"[04:15] Speaker_D | Sure , so we might find that when we move from what we thought was open domain , but on the hub , you know , our results go down when we truly are getting meeting yeah . So I mean that'll be interesting ."
+"[04:24] Speaker_B | Mm-hmm . Yeah . That's quite reasonable . W we've got five ISCA meetings actually which are still uh an elicitation task , but they're not our domain . So that should help some ."
+"[04:38] Speaker_D | Okay , well that's good ."
+"[04:51] Speaker_D | So okay . So we wanna decide um what Wei-Xun should do next and maybe think about meeting in , I don't know , a month or something . Yeah , mm-hmm ."
+"[05:02] Speaker_B | Yeah , just figure out how we're gonna help him to to try to make this more efficient ."
+"[05:09] Speaker_D | Um so before we do that , can I just ask you a question about chunking ? In the beginning you said something about you were doing this chunking um and you're doing it on the ICSI data , but this was did you say it th wasn't picked up in AMI or you I I I was confused about w"
+"[05:13] Speaker_A | Yeah , yes ."
+"[05:24] Speaker_A | Uh uh yeah . Uh I mean I was supposed to chunk uh some part of the AMI meetings , you know , to see if the chunker channel switchboard works well enough or not . If not , then mm we have to use some kind of semi-superv supervised learning or some uh boot-strapping to to to do the chunking ."
+[05:25] Speaker_B | Yeah .
+[05:37] Speaker_D | Mm-hmm .
+[05:44] Speaker_D | Mm-hmm .
+[05:49] Speaker_D | And you and you haven't done it yet .
+"[05:50] Speaker_A | No , no , 'cause I was a bit worried about uh this kind of uh discourse structure , yeah ."
+[05:56] Speaker_D | Tha that's fine . So that's still on the agenda to do at some point .
+[05:57] Speaker_A | Yeah .
+"[05:59] Speaker_B | Yeah , but we should make sure we finish that off , because otherwise that work's just wasted , right ."
+[06:04] Speaker_A | Yeah .
+"[06:04] Speaker_B | We're gonna use chunks for something useful . Yeah , chunks are gonna be named entities if nothing else ."
+[06:06] Speaker_A | Okay .
+"[06:07] Speaker_D | Well so I mean right . Um or building blocks . I mean so I mean we have to think about how s chunking interacts with the automatic segmentation , you know . Because um Barbara was showing the low level ."
+[06:25] Speaker_B | Automatic segmentation at which level ?
+"[06:28] Speaker_B | Uh-huh . Dialogue act , yeah ."
+[06:39] Speaker_B | Yeah .
+"[06:43] Speaker_B | Yeah , and that's a problem . Yeah ."
+[06:55] Speaker_D | Right . Yeah .
+[07:03] Speaker_A | Mm-hmm .
+"[07:16] Speaker_D | Periods . Oh , after uh right ."
+[07:17] Speaker_C | Hmm . Mm-hmm .
+"[07:22] Speaker_D | Okay . Right , okay . Good . So it sounds like well w"
+"[07:29] Speaker_B | Well hold on . But when do we need chunking by ? And it you know , so y I don't like the idea that , you know , you start something and then eighteen months later you pick up to do the last ten percent of the work to finish it off or whatever . So it I like things kinda tidy . Right . So how much work is there left and when do we actually need it by would be useful to discuss ."
+"[07:52] Speaker_D | Well , you wanted to do the chunking on the AMI data , right ? Because m"
+[07:55] Speaker_A | Yeah .
+"[08:07] Speaker_D | So we got stuck at some point on evaluation of chunking , right . The problem was you didn't have ICSI data that was hand labelled for chunks . And we decided labelling the ICSI data for chunks would be probably difficult and maybe not very useful . And so it it mi"
+[08:17] Speaker_A | Or AMI data . N no .
+"[08:34] Speaker_D | Okay , if there if there was if there was hand labelled data that you could evaluate again so train on some and evaluate on some , wouldn't that um 'cause you've trained on Switchboard , right , where there there are chunks . So if you had some ICSI data that you could maybe use , I don't know , um as a what's the n there's t there's a training set and then there's the development set and then there's the test set . Maybe you'd use some chunked ICSI stuff as development or something and do some last tweaks and then evaluate . But you know , w h I mean I can see why Wei-Xun didn't wanna spend his time chunking ICSI d"
+[08:44] Speaker_A | Mm-hmm .
+[08:53] Speaker_A | Yeah .
+[09:02] Speaker_A | Mm-hmm .
+[09:05] Speaker_B | Mm .
+[09:24] Speaker_D | Which means we have to get some portion of the data hand-chunked .
+[09:28] Speaker_B | Hand-chunked . Mm-hmm . But
+"[09:33] Speaker_B | that shouldn't be that hard to do , right ? How much data do you need ?"
+[09:38] Speaker_D | How much um well
+[09:44] Speaker_D | in Switchboard . Switchboard is all chunked . Right .
+[09:48] Speaker_A | Yeah .
+"[09:48] Speaker_B | Yeah . They the data how much data you need was not a problem with the Switchboard 'cause he had lots . So he didn't have to think about how much . So we need to know how much data you need hand-chunked . And then uh how do you hand-chunk stuff , right . So you were were working on instructions for doing hand-chunking ."
+[09:55] Speaker_D | Right .
+[10:05] Speaker_A | Mm .
+"[10:05] Speaker_D | No , you had Penn tree-bank parses , and you made chunks from that ."
+"[10:07] Speaker_B | For Switchboard , yeah . But then he there were two possible options for uh for doing this on the AMI data . You could either um essentially go the same route as they did with the Switchboard um , you know , do the Penn tree-bank and then create the chunks off that , or you could chunk directly . And it wasn't clear to us which one of those two methods was the right way to do this ."
+"[10:08] Speaker_A | Yeah , yeah , for Switchboard , yeah ."
+[10:20] Speaker_D | Mm-hmm .
+"[10:28] Speaker_A | Direct chunking , 'cause we are not going to in a tree out of the AMI data ."
+"[10:35] Speaker_B | Right , well , so you'd have to produce as part of this exercise ."
+[10:35] Speaker_D | Is anybody gonna parse ? Is any gonna try to anybody try to parse the AMI data ?
+"[10:40] Speaker_B | You would've thought so , but I dunno ."
+"[10:42] Speaker_A | Uh so th uh we uh D_F_K_I_ , 'cause they're working on some H_P_S_G_ parsing . Yeah , might be . Might be , yeah ."
+"[10:47] Speaker_B | Oh yes , yeah , I'd forgotten about that ."
+[10:48] Speaker_C | Mm-hmm .
+"[10:54] Speaker_B | But that's not very similar . Well , I don't know very much about grammar . Is th is that similar enough that that this same method could apply that we derive chunks off the H_P_S_G_ output ?"
+[11:05] Speaker_A | Uh if uh I'm I guess that if they're different then we might just uh write another script to do the translation .
+[11:22] Speaker_A | Mm-hmm .
+"[11:31] Speaker_A | Okay . Yeah , yeah . I need to look at some of to see ."
+"[11:34] Speaker_D | Well they're using the E_R_G_ , right ? The which probably has a l maybe finer g uh which I believe has finer grained distinctions than , and different labels , than the Penn tree-bank ."
+[11:43] Speaker_A | Mm-hmm .
+"[11:45] Speaker_B | Yeah . And the mappings are can be cr pretty difficult for this , right ? Or is is easy to map between finer grained distinctions and coarser ones ?"
+[11:55] Speaker_B | Think so ?
+"[11:58] Speaker_A | Yeah , yeah ."
+[12:03] Speaker_B | Yeah .
+[12:04] Speaker_A | Okay .
+"[12:10] Speaker_D | 'Cause they're doing this with Dan Flickinger , right ? Which is the same um parser as the Redwoods Tree-bank was made with that Alex talked about yesterday . So you can look at Redwoods parses"
+[12:23] Speaker_A | Mm-hmm .
+"[12:28] Speaker_D | um and see how different they are from tree-bank parses . And you might wanna talk to Alex to find out if somebody's already done this turn Redwoods stuff into tree-bank stuff so that they can compare , you know , against results that are reported on tree-bank ."
+[12:42] Speaker_C | Mm-hmm .
+"[12:44] Speaker_B | Huh . The names would suggest that this was the idea , right ."
+"[12:48] Speaker_D | Well that was the idea I believe , but um"
+[12:49] Speaker_B | Yeah .
+[13:03] Speaker_B | Right . So y that sort of assumes that we think it's better to do this by deriving chunks from um some parsed format than just hand chunking the stuff .
+[13:26] Speaker_B | Mm-hmm .
+[13:39] Speaker_B | Yeah .
+"[13:41] Speaker_B | So let's try it this way , and then that that puts off the question of um when do we have to do this to when we get H_P_S_G_ stuff , right ? So can you ask um D_F_K_I_ whether they can give us a couple AMI meetings run through their H_P_S_G_ process ? I don't even know what time scale they had in mind . I mean it is this something they w they were doing it at the moment , but I don't know whether this was very preliminary or do you remember ?"
+[13:58] Speaker_A | Mm-hmm .
+[14:07] Speaker_D | They talked about it at the meeting that we went to in
+"[14:14] Speaker_A | Twenty minute , yeah ."
+[14:14] Speaker_D | Twente .
+"[14:14] Speaker_B | Twente , yeah ."
+[14:14] Speaker_C | Mm-hmm .
+[14:20] Speaker_C | Mm-hmm . Contact .
+"[14:26] Speaker_D | You were there Jean . Yeah , okay ."
+[14:28] Speaker_B | Yeah .
+"[14:34] Speaker_D | No no no no , no no no , I I I know you missed a meeting and s and so there there may have been you missed the one in T_N_O_ ."
+"[14:44] Speaker_A | T_N_O_ , yeah . Okay . Yeah , 'cause yeah they did some work bio project with the H_P_S_G_ parsing . At least bio . Yeah , well maybe . Okay . Yeah ."
+[14:57] Speaker_B | Yeah .
+"[14:58] Speaker_D | On on which project ? Sorry , I didn't get that . Verbmobil , right . Yes , yes , they did ."
+[15:01] Speaker_B | Yeah .
+[15:02] Speaker_C | Hmm .
+"[15:05] Speaker_D | It well that's that's what Alex talked about yesterday , right . The parse I mean that's wasn't something she did , but that's the data she's using , right . So we have all that stuff here , you know , the parsed Verbmobil material . So you can look at that and see what the parse trees look like . You don't need to wait for D_F_K_I_ . And if it turns out that you think oh , there's no way I can map these into Penn tree-bank style bracketing , then then we have to think of something else , right ."
+[15:05] Speaker_A | Okay .
+[15:08] Speaker_A | Mm-hmm .
+[15:15] Speaker_A | Mm-hmm .
+[15:28] Speaker_A | No .
+[15:37] Speaker_C | Mm-hmm .
+"[15:42] Speaker_A | Okay , okay . Mm-hmm ."
+[15:43] Speaker_C | Hmm .
+"[15:45] Speaker_D | But I think they had that in mind . So it's it's worth also talking to her about that . Okay , good ."
+"[15:55] Speaker_B | So it's talk to Alex , see if it looks like it maps by looking at the Verbmobil . If it does , ask D_F_K_I_ either for data or a time scale , and you're gonna need to know how much data you need in order to do that . So do you have a technique for estimating how much data you'd need ?"
+[16:09] Speaker_A | Yeah .
+"[16:16] Speaker_B | I don't know how you do that , so who knows how you do that ?"
+[16:20] Speaker_D | Everybody always says there's no data like more data .
+[16:27] Speaker_A | Okay .
+[16:35] Speaker_A | Yeah .
+"[16:36] Speaker_B | Yeah , I know ."
+[16:37] Speaker_A | Yeah .
+[17:01] Speaker_B | Yeah .
+"[17:05] Speaker_B | Yeah . Well I gue if we did a chunked version of the AMI data and stuck it into C_V_S_ under the automatic contributions then um people would end up using it , 'cause they do that , right . So the question is at what stage should we put that in ?"
+[17:13] Speaker_D | Mm-hmm .
+[17:16] Speaker_D | Mm-hmm .
+"[17:24] Speaker_B | Yeah , so post-evaluation so we can put in some idea of what the evaluation is like ."
+[17:29] Speaker_D | Mm yeah . I mean otherwise
+[17:32] Speaker_D | you get these very bizarre results because the data is not really very good .
+[17:36] Speaker_B | Mm-hmm .
+"[17:46] Speaker_B | No , but he's relying it on it th this summer ."
+[17:59] Speaker_B | Mm-hmm .
+"[18:06] Speaker_B | So when when do you think that would be ? When when is she sending somebody ? Oh for the next one , mm-hmm ."
+"[18:08] Speaker_D | She just said that hopefully by the next meeting she would be bringing someone else , or someone else would be coming instead of her , remember ?"
+[18:11] Speaker_C | Mm .
+[18:15] Speaker_C | Mm-hmm .
+"[18:21] Speaker_D | The th not to have not to have it done , but just to talk about how it could interact with automatic dialogue act segmentation . Um and we I guess we should talk to Yoshi about about it in relationship to named entities . Who's uh who's doing named entities besides Yoshi ? Okay . So we could talk to Vasilis about that as well ."
+[18:27] Speaker_B | How it could be done .
+[18:29] Speaker_B | Yeah .
+"[18:59] Speaker_B | So and then we can evaluate on the ICSI , you know , pretty easily ."
+"[19:04] Speaker_D | So one thing that would be very helpful for me because I haven't read I think we're in a situation where Jean , you know , has read a lot of literature and I've read a lot of literature and we there is some overlap , but there's also quite a big space where we don't know the literature from the other side . And since you're gonna be reading it , I mean it would be probably be useful if you made some kind of ,"
+"[19:44] Speaker_B | Yeah , even if it's just a you know , on a Wiki the um the references and then why they're relevant , right . I mean you don't wanna make this really formal , or do you ? Yeah , a paragraph each . Yeah ."
+[20:01] Speaker_A | Hmm hmm .
+[20:01] Speaker_B | Yeah .
+"[20:03] Speaker_B | But that wou that would help us be a lot more specific ab than than just um you know , listing bullet points on slides cause then we'd know sort of which literature you're thinking of um putting in and we could read the most important argumentative stuff ."
+"[20:13] Speaker_A | Okay . Yeah , yeah . Yeah ."
+"[20:15] Speaker_D | Well in any way , every time you write a paper , you've got to go back and do this related work thing anyway . So it just it just makes it a lot easier um to get that"
+"[20:17] Speaker_B | I can have these things anyway , yeah ."
+[20:21] Speaker_B | Yeah .
+[20:25] Speaker_B | Mm-hmm .
+"[20:25] Speaker_D | common ground I think , you know . I think it's a real advantage that we've read different things and come at it from a different side because I think this ha they the the previous approaches haven't really ,"
+"[20:26] Speaker_A | 'Kay . Yeah , yeah ."
+[20:37] Speaker_B | Mm-hmm . They haven't addressed this problem . Yeah .
+"[20:38] Speaker_D | you know , taken you know , the good features from , you know , both sides and and tried to put them together ."
+"[20:48] Speaker_B | Yeah . I'm gonna have to go very soon because I've got this um this hearing to go to . But uh so the practical actions , you know , what are the things we're gonna go away and do . Yeah ."
+[20:49] Speaker_A | Hmm .
+[20:55] Speaker_D | I can send you a l
+"[21:12] Speaker_A | Yeah , yeah ."
+"[21:16] Speaker_A | Okay . S so then later , yeah ? Okay ."
+[21:23] Speaker_C | Yeah .
+"[21:26] Speaker_C | Um right now d uh I'm doing I'm trying to do the uh meeting action segmentation . J because uh after talking to Jane um just uh we have different ideas whether uh meeting action will be about the same size as topic segments . So um it would be good to um t right now I'm doing this , um looking at the data and trying to see if I can do the meeting action segmentation first and the scheme , and then do topic segmentation again to see if the boundary actually coincide with each other . Yeah , if if that that do , then maybe we can talk again whether um i it it make sense . Mm-hmm ."
+[21:31] Speaker_D | Mm-hmm .
+[21:42] Speaker_D | Okay . Yeah . Mm-hmm .
+[21:49] Speaker_D | Mm-hmm .
+[21:56] Speaker_D | Mm-hmm .
+[21:59] Speaker_D | Hmm . Yeah .
+"[22:03] Speaker_B | Yeah . So you can do this exercise and then come and talk to me some time next week . I'm not in Monday , but the other days I'll be around . Mm-hmm ."
+[22:25] Speaker_B | Yeah . Yeah . S
+"[22:30] Speaker_B | Yeah , so this this is interesting , but i w I don't think we can afford to l um look at this right now . So why don't you bring it by um next week ? And i what I really wanna do concentrate just now is is finding out the how we're gonna help um Wei-Xun with with making progress on this . So we've already got you know , he's gonna um construct a list of the references he thinks is important , and Johanna and I and and you as well are gonna contribute to that . And we can put that on a Wiki or we can do it some other way . I mean you know I'm Wiki mad . So um if we share it , it should go on a Wiki 'cause I can't find anything in my email . But , you know , you don't have to do that ."
+"[22:35] Speaker_C | Mm-hmm , right , sure . Yeah ."
+[22:41] Speaker_C | Mm-hmm .
+"[22:44] Speaker_C | Mm , sure . Yes ."
+[22:45] Speaker_D | Mm-hmm .
+[22:54] Speaker_C | Mm-hmm .
+[22:58] Speaker_C | Mm-hmm . Hmm .
+[22:58] Speaker_A | Okay .
+"[23:04] Speaker_A | Yeah , it's yeah ."
+[23:05] Speaker_C | Hmm .
+"[23:06] Speaker_B | Um and then uh how do we you're actually so what you're doing is taking all of the the the most important references for um finding argument structure that might i eventually be of some use to a meeting browser and trying to look at actual data and apply and and see like which one helps you figure out what you're actually gonna do with this particular data , right . So it seems to me that we should take like the front-runner scheme and the data and you should look at not front-runner scheme but front-runner theory and i see if you can speak to the data , you know , using that kind of theory at some point . And might might be an interesting exercise , right ?"
+"[23:49] Speaker_D | Well I think we need to um , like you mentioned earlier , um factor in what this might be used for in the end . And so even if it we won't it won't be used , maybe if it would need some higher level analysis before it could be directly used for that purpose , we should still keep that in mind . And so I think going through the presentations that um were given at the work package six meeting where um and I think it was um it wasn't wha was it Anita or was it oh I've forgotten her name , the other woman um from Twente , you know , they talked about"
+[24:07] Speaker_B | The update .
+[24:20] Speaker_B | Mm-hmm .
+[24:23] Speaker_C | Hmm .
+"[24:31] Speaker_D | they did they had done a lot of questionnaires , and they got some user requirements out of that . And then Steve presented um the results of following people around and looking at how they used their notes from meetings . And and so that would give us some ideas about , you know , what people want , you know , out of meeting records . But then we should also add things that we think are interesting . But just to have to keep some of these goals in mind 'cause they're t o one scheme might let you answer this set of questions but wouldn't help you at all with another set of questions ."
+[24:46] Speaker_B | Mm-hmm .
+[24:47] Speaker_C | Hmm .
+"[24:59] Speaker_B | Yeah . But that's a good starting point , yeah ."
+"[25:08] Speaker_B | That'll be the Exactly , yeah . So you wanna go through basically the user requirements and , you know , maybe think about some user requirements of your own and make a case for , you know , these are the kinds of things that we'd want , and look , you're gonna need um this kind of dialogue or argument structure for it ."
+"[25:22] Speaker_D | So should we expect that all the slides from like the work package six meeting or the joint work package five work pa will be u up on one of the work package web sites ? And if not , how do we make that happen ?"
+[25:32] Speaker_B | Um uh uh I'll think about that .
+[25:36] Speaker_D | Hmm okay .
+"[25:39] Speaker_D | Some of this was presented in at least the one spider phone or the second spider phone telecon I went to for work package six . So if they're not on the web we can try to look at that , you know , at the materials that were presented in that telecon without necessarily listening to the whole telecon . Yeah ?"
+"[26:04] Speaker_D | And Steve m and his I've forgotten the name , is it was it Simon , his yeah . They they've I think they may have written this up um in a report um , but I wou would hope that's on the work package six web site as well ."
+[26:08] Speaker_B | Yeah .
+"[26:12] Speaker_B | Mm-hmm , yeah ."
+"[26:17] Speaker_B | Yeah . Okay . So so we're gonna go through the requirements like that and did did you think that's that was reasonable to after that to try and um actually , you know , take some theory that seems fairly reasonable and think about the particular data and come and talk ?"
+[26:37] Speaker_B | Yeah . I there's a few references missing . Yeah .
+"[26:52] Speaker_B | Yep . So then try front-runner scheme on , well , a front-runner theory ."
+"[26:56] Speaker_D | Or t or or two and see this one gives you this and this g and can't you know , are they fundamentally incompatible . Or can we yeah , mm-hmm ."
+"[27:03] Speaker_B | Yeah . But try it informally . Yep , mm-hmm . When do we get together again ? 'Cause I really do have to go . I promised these guys I'd be there ."
+[27:09] Speaker_D | Okay .
+"[27:11] Speaker_D | I think this is gonna take about three weeks 'cause he's got plenty of reading to do . So maybe we get together again in the yeah , I mean , I'll send them the references immediately ."
+[27:15] Speaker_B | Uh-huh . But w
+"[27:17] Speaker_B | Reading lists before that though , so right ?"
+[27:23] Speaker_A | Okay .
+[27:26] Speaker_A | Sorry ? You mean mm .
+"[27:31] Speaker_A | I will try my best , yeah ."
+"[27:32] Speaker_D | If y if if it's too tight , you know , I think m we can say four . Or are you gonna be on holiday ?"
+"[27:35] Speaker_A | Oh yeah . Uh I m I might yeah , 'cause uh Julie and the boy is here . So . it's a little tiring 'cause my parents have left . Uh yeah . So I might take two weeks off two weeks off in uh May , yeah , sometimes , yeah . Off , yeah . Okay , thanks ."
+"[27:44] Speaker_D | Yeah . Maybe four weeks ? Okay . Okay . So we should get together probably in about four weeks , yes . So when are you gonna bring this beautiful baby in to see everybody ? Good , good . That's great ."
+[27:44] Speaker_B | Uh-huh .
+"[27:51] Speaker_B | Four weeks , yeah ."
+"[27:56] Speaker_A | Uh yeah , hope I hope so very soon . Yeah . Yeah ."
+[28:03] Speaker_C | Something . Sure .
+[28:06] Speaker_B | Right . I'm gonna head off .
+[28:07] Speaker_D | Yep . Well good luck solving your problem . I have to tick and tick ? It does something weird when you do that .
+"[28:08] Speaker_A | Okay , thanks ."
+[28:08] Speaker_C | Mm-hmm .
+"[28:09] Speaker_B | C 'cause floods are more important than dialogue structure , I'm afraid ."

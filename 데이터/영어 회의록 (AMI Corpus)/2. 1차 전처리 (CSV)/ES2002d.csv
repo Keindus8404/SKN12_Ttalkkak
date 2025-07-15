@@ -1,0 +1,644 @@
+﻿"[00:02] Speaker_B | Okay we all all set ? Right . Well this is the uh final detailed design meeting . Um we're gonna discuss the look and feel design , the user interface design , and we're gonna evaluate the product . And the end result of this meeting has to be a decision on the details of this remote control , like absolute final decision , um and then I'm gonna have to specify the final design in the final report ."
+"[00:31] Speaker_B | So um just from from last time to recap , we said we were gonna have a snowman shaped remote control with no L_C_D_ display , no need for talk-back , it was hopefully gonna be kinetic power and battery uh with rubber buttons , maybe backlighting the buttons with some internal L_E_D_s to shine through the casing , um hopefully a jog-dial , and incorporating the slogan somewhere as well . Anything I've missed ? Okay um so uh if you want to present your prototype go ahead ."
+[00:59] Speaker_A | No .
+"[01:10] Speaker_D | Uh-oh . This is it ? Um , there are a few changes we've made . Um , well look at the expense sheet , and uh it turned to be quite a lot expensive to have open up and have lots of buttons and stuff inside , so instead we've um this is gonna be an L_C_D_ screen , um just a a very very basic one , very small um with access to the menu through the the scroll wheel and uh confirm"
+[01:16] Speaker_B | Okay .
+[01:19] Speaker_B | Mm .
+[01:24] Speaker_B | Mm-hmm .
+"[01:36] Speaker_D | um button . Uh , apart from that , it's just pretty much the same as we discussed last time ."
+[01:38] Speaker_C | Mm 'kay .
+"[01:41] Speaker_A | And there isn't uh d it doesn't open up to the advanced functions ? So the advanced functions are still hidden from you , but they're hidden in the sense that um they're not in use ."
+[01:51] Speaker_C | Where are they ?
+"[01:54] Speaker_C | Ah , right . Great ."
+"[01:58] Speaker_A | The L_C_D_ panel just displays um functionally what you're doing . If you're using an advanced function right , like um c brightness , contrast , whatever , it will just say You know it's like it only has four columns , it's a very simple L_C_D_ like , whereas many the minimum amount we need that the user will automatically know like this is brightness or this is contrast ."
+[02:01] Speaker_C | Right .
+[02:05] Speaker_C | Okay .
+[02:11] Speaker_C | Right .
+[02:16] Speaker_B | Mm-hmm . Okay cool .
+"[02:16] Speaker_C | Right , 'kay ."
+"[02:17] Speaker_A | It might even be one , a bit more complex L_C_D_ panel with pictures like maybe the sun or the , you know , the the symbols of the various functions ."
+[02:20] Speaker_C | Okay .
+"[02:25] Speaker_C | Mm-hmm , and what is this here ?"
+[02:26] Speaker_B | Oh right okay . Cool .
+[02:28] Speaker_A | That's a number pad .
+"[02:29] Speaker_C | Okay so the number pad is 'Kay , great ."
+[02:31] Speaker_B | Where are we gonna have the slogan ?
+[02:34] Speaker_A | Um they're al along this Yeah .
+"[02:34] Speaker_D | You know , just like right inside there ."
+[02:37] Speaker_B | Okay cool .
+"[02:38] Speaker_A | You have this space here , and then you have this thing on the side as well , or at the bottom ."
+[02:44] Speaker_B | Okay .
+"[02:44] Speaker_A | 'Cause slogans are usually quite small , right , they're not like huge so they're s"
+[02:46] Speaker_C | Mm .
+[02:48] Speaker_C | Yep .
+"[02:50] Speaker_A | Say a button's about say a button's about this size , right , so you would still have plenty of space for a slogan , say even for that ."
+[02:50] Speaker_B | Okay .
+[02:51] Speaker_C | Looks good .
+[02:53] Speaker_C | Yep .
+"[02:56] Speaker_B | So if this isn't to scale , what kind of"
+[02:59] Speaker_B | dimensions are you thinking about here ?
+[03:05] Speaker_B | Mm-hmm .
+[03:09] Speaker_C | Okay .
+"[03:10] Speaker_A | Yep so that would be about a centimetre for a button , so one two three"
+[03:17] Speaker_A | four centimetres . Plus maybe half o five
+[03:20] Speaker_C | Mm-hmm .
+[03:22] Speaker_C | About nine in total .
+"[03:22] Speaker_A | six seven eight , about yeah nine total ."
+"[03:23] Speaker_B | Six , seven , eight , nine , ten ."
+[03:25] Speaker_B | So we're talking about ten centimetres . That would be good . So ten centimetres in height . Okay um .
+[03:25] Speaker_C | That sounds good . Yeah .
+[03:28] Speaker_C | Yep .
+"[03:29] Speaker_A | Nine , ten ."
+[03:31] Speaker_A | Yep .
+"[03:35] Speaker_C | That'd be good , in fact a pen is about ten centimetres usually , so that would be that sounds like a really good size , if you see it there ."
+[03:40] Speaker_B | Yeah .
+[03:42] Speaker_B | That's great and it's very bright as well . So um okay .
+[03:44] Speaker_C | Mm .
+"[03:45] Speaker_C | Is it possible uh I'm just gonna bring up the idea of colours . Is these are these the colours that of production , or is this just what we had available ?"
+[03:54] Speaker_D | We're gonna have again the the sort of the foggy um yellow from last time that lit up when you pushed the button .
+[04:00] Speaker_C | Right .
+[04:00] Speaker_B | Okay so just could you just list all the things that it does s so I can write them in the report .
+"[04:05] Speaker_D | But um this button um , because it's red it's sort of very prominent , we're gonna use it as uh it can be the power button if you hold it for maybe two seconds it'll send a stand-by signal . Um apart from that it's gonna be used as a confirm button for the L_C_D_ screen and you use this as a jog-dial ."
+[04:16] Speaker_B | Mm-hmm .
+[04:19] Speaker_A | Sure .
+[04:22] Speaker_B | Okay .
+"[04:24] Speaker_B | Okay so that's like an okay button , right ."
+[04:27] Speaker_C | Mm-hmm .
+[04:28] Speaker_D | I don't know .
+[04:32] Speaker_B | Okay .
+[04:33] Speaker_C | How high is it ?
+"[04:34] Speaker_A | No as in the height , but what about the width ?"
+[04:35] Speaker_C | Yeah .
+[04:37] Speaker_D | Didn't put five centimetres .
+[04:37] Speaker_B | Oh oh like depth of the actual thing .
+[04:39] Speaker_A | Do we need five ? I don't think five is be about th three and a half .
+[04:40] Speaker_D | Um .
+[04:43] Speaker_C | Okay .
+[04:44] Speaker_D | Something by there .
+"[04:44] Speaker_B | Oh is this k to get an idea of scale from your from your thing there okay . So you can power on and off , what else can you do ?"
+"[04:45] Speaker_A | Yeah , yeah ."
+[04:46] Speaker_C | Sure .
+[04:50] Speaker_C | Three and a half .
+[04:51] Speaker_D | Um you can skip straight to a channel using these buttons .
+[04:54] Speaker_B | Okay .
+"[05:00] Speaker_D | Um , were gonna have the volume control here , but um because we've got the the L_C_D_ and the jog-dial we just thought we'd um use that as the volume ."
+[05:08] Speaker_B | Okay jog-dial for volume .
+[05:12] Speaker_B | And what else do you do with the jog-dial ?
+[05:12] Speaker_C | Mm-hmm .
+"[05:18] Speaker_B | Contrast , brightness , yeah , and anything else ?"
+[05:20] Speaker_D | Um yeah .
+[05:30] Speaker_B | Well of the designers what are they ?
+[05:32] Speaker_D | Uh what can a T_V_ do ?
+"[05:35] Speaker_A | Okay things like um brightness , contrast , um maybe tuning the channels ."
+[05:38] Speaker_B | Uh-huh .
+[05:42] Speaker_B | Okay channel tuning . That's a good one .
+[05:42] Speaker_A | Um .
+"[05:45] Speaker_A | What else ? Um the various inputs . Are you having a V_C_R_ , are you having you know which input do you have ?"
+"[05:47] Speaker_C | Mm-hmm , mm-hmm ."
+[05:49] Speaker_B | Okay auxiliary inputs .
+"[05:50] Speaker_C | Mm-hmm , probably colour or sharpness ."
+[05:50] Speaker_A | Um .
+"[05:53] Speaker_A | Yep , colour , sharpness . Um a lot of these things will have to be um free and open for users to define them ."
+[05:54] Speaker_B | Sharpness .
+[06:00] Speaker_C | Mm-hmm .
+[06:00] Speaker_B | Okay what about uh sound settings ? Uh d can you change any of those at all ?
+[06:04] Speaker_C | Audio .
+"[06:05] Speaker_A | Audio , we have like your basic y your base , your mid-range , your high range ."
+[06:06] Speaker_D | Um .
+[06:11] Speaker_A | Um .
+"[06:13] Speaker_A | Yep , left-right balance , um maybe even pre-programmed sound modes , like um the user could determine like a series of sound modes , and then what could happen would be um when you click on that then it would go to that setting ."
+[06:18] Speaker_B | Okay .
+[06:23] Speaker_C | Mm-hmm .
+"[06:28] Speaker_B | Okay , is there anything else at all it can do ?"
+[06:28] Speaker_C | Mm 'kay .
+[06:29] Speaker_A | Yeah .
+[06:45] Speaker_B | We can now have a little look at the
+"[06:49] Speaker_B | the Excel sheet and price listing , and see if we need to"
+[06:53] Speaker_D | Mm-hmm .
+"[06:53] Speaker_B | um if we need to rethink anything at all . So um for this first part here power-wise , have we got battery ? Do we have kinetic as well ? No . Okay , just battery ."
+[07:01] Speaker_A | The battery .
+[07:04] Speaker_A | No .
+[07:06] Speaker_A | Um .
+[07:11] Speaker_B | And that's because of cost restraints is it ? Okay um what about the electronics here ? Advanced chip .
+[07:12] Speaker_A | Yep .
+[07:12] Speaker_D | Yeah .
+"[07:13] Speaker_A | Yeah advanced chip . We need an advanced chip I think , yep . Let me just confirm that . Yes I think so ."
+[07:26] Speaker_A | Yep .
+"[07:29] Speaker_B | Okay um the case , what does it mean by single and double , do you know ?"
+[07:32] Speaker_D | Um I think single would just be sort of one sort of oval whereas double is this sort of thing .
+[07:36] Speaker_A | Yeah .
+[07:36] Speaker_B | So we want double-curved ? Okay .
+[07:38] Speaker_A | Yep .
+[07:40] Speaker_B | Um .
+[07:41] Speaker_A | Plastic .
+[07:44] Speaker_B | Is there any rubber at all in the buttons or any
+[07:46] Speaker_A | I think we're gonna have to skip the rubber .
+"[07:47] Speaker_B | Okay , um and we wanted special colours didn't we ? So I'll have to put that Oh no wait we ho how many colours have we got there ?"
+[07:48] Speaker_A | Um .
+[07:51] Speaker_A | Yep .
+"[07:55] Speaker_A | For the case itself , one colour . It's one special colour ."
+"[07:59] Speaker_B | Just one colour , okay ."
+"[08:00] Speaker_A | 'Cause the case unit itself , the rest of our components go on top of it ."
+"[08:02] Speaker_B | Okay so interface-wise , is it this third option we have , the two of them there ?"
+[08:02] Speaker_C | Mm .
+[08:05] Speaker_A | Yes .
+[08:07] Speaker_A | One and the L_C_ display .
+"[08:10] Speaker_B | Okay and then buttons , we have what , two colours ?"
+[08:14] Speaker_D | Um we have um got some push buttons as well .
+[08:17] Speaker_C | Or even clear .
+[08:18] Speaker_A | We've got push buttons as well .
+[08:23] Speaker_B | Like uh oh wait so push button and integrated scroll wheel push okay .
+[08:23] Speaker_D | 'Kay .
+[08:26] Speaker_D | So I reckon we've got one button for this thing 'cause it's just one big sheet of rubber .
+[08:29] Speaker_B | Uh-huh .
+[08:32] Speaker_B | Okay .
+[08:33] Speaker_A | Okay let's just be safe and put like say four buttons for that one .
+[08:36] Speaker_B | Okay .
+"[08:37] Speaker_A | Okay um and maybe a special colour for the buttons , so maybe four again ."
+[08:43] Speaker_B | Four . So w why are we arriving at the number four ? Where does the number four come from ?
+[08:48] Speaker_A | 'Cause that's one button by its the complexity of twelve buttons .
+"[08:52] Speaker_B | Okay right , so we're writing down four ."
+[08:54] Speaker_A | So we're just estimating that yeah it would be less .
+[09:01] Speaker_A | No .
+[09:03] Speaker_A | Yep . Yep .
+"[09:20] Speaker_B | Well we h something has to go to the tune of two point t three Euro , so let me see , what are we I mean oh yes sorry , four point three . My maths is all out ."
+[09:28] Speaker_C | Two point three ? Four point three no ?
+"[09:33] Speaker_D | Well we could take out ones by making it single curved , just fill in those bits ."
+[09:38] Speaker_B | Yeah .
+"[09:39] Speaker_A | How much would that save us ? That will only save you one . The other thing could be that um you could take away the L_C_D_ panel and the advanced chip together , um because when you"
+[09:40] Speaker_B | How much would that save us ? One .
+[09:41] Speaker_D | That is one .
+[09:51] Speaker_C | Mm-hmm .
+"[09:57] Speaker_D | That's fair enough , yeah ."
+[09:59] Speaker_C | Mm-hmm .
+[10:01] Speaker_C | Mm-hmm .
+[10:03] Speaker_C | Mm-hmm .
+[10:05] Speaker_C | Mm-hmm .
+[10:05] Speaker_B | So w what's our reviewed suggestion ? Um take away the L_C_ display ?
+[10:10] Speaker_A | Yep .
+[10:12] Speaker_A | And the advanced chip goes away as well .
+[10:12] Speaker_C | Mm-hmm .
+[10:14] Speaker_B | To be replaced with a regular chip .
+[10:16] Speaker_A | Regular chip .
+[10:18] Speaker_A | Yep .
+[10:21] Speaker_C | Mm-hmm .
+[10:21] Speaker_B | Okay .
+[10:31] Speaker_A | The twelve buttons that you see there .
+[10:33] Speaker_B | Twelve buttons .
+[10:37] Speaker_B | Yeah .
+[10:41] Speaker_B | Do you think ?
+"[10:42] Speaker_A | Yeah , so you can't actually cut It's like three times the number of buttons , four , eight , twelve ."
+"[10:47] Speaker_B | Like is is that one big button or is it twelve buttons , how can it be something in between ?"
+"[10:53] Speaker_A | It It needs to be more than one big button because if you open up your phone , underneath there's actually one button underneath , it's just that the panel itself is a single panel ."
+[10:58] Speaker_C | Mm-hmm .
+[10:59] Speaker_B | Mm .
+[11:03] Speaker_C | Mm-hmm .
+[11:03] Speaker_B | Okay well we have point three to get rid of somewhere .
+"[11:08] Speaker_A | We just report that it has to be over budget , or the colours , you could take away s colours for th for the buttons ."
+[11:08] Speaker_B | Mm .
+[11:12] Speaker_B | No can do .
+[11:15] Speaker_D | Yeah w
+[11:16] Speaker_A | Normal coloured buttons .
+[11:19] Speaker_B | Well do you want colour differentiation here ?
+[11:28] Speaker_A | Should we take that off uh ?
+[11:30] Speaker_B | Ah .
+"[11:32] Speaker_A | Hey it's back to the original . Um so then these just become normal coloured buttons , so that might be some some way of cutting the cost ."
+[11:32] Speaker_B | That's it .
+[11:33] Speaker_C | Hmm .
+[11:37] Speaker_C | Mm-hmm .
+[11:40] Speaker_C | Mm .
+"[11:56] Speaker_C | How about with embossing the logo , isn't that going to cost us some money ?"
+[12:01] Speaker_C | Yeah .
+[12:01] Speaker_C | That's a freebie .
+[12:01] Speaker_D | Reckon that probably counts as a special form for the buttons .
+[12:04] Speaker_A | Yeah .
+[12:04] Speaker_B | Yeah that's a good idea .
+[12:07] Speaker_B | Just one ?
+[12:14] Speaker_D | I think there's just one button so handy .
+"[12:15] Speaker_B | Yeah okay . Well well there we go . So I'm just gonna have to redraw this now . So we're not gonna have the L_C_D_ anymore , and we'll just gonna have an on t on the T_V_ it'll show you what you're doing , which I think is fair enough , and so this is gonna be one big thing here ."
+[12:33] Speaker_B | Um .
+[12:35] Speaker_C | Was the goal in your in your prototype design that it be as low profile as possible ?
+[12:42] Speaker_A | What do you mean by profile ?
+[12:42] Speaker_D | Yeah .
+[12:45] Speaker_A | No .
+[12:46] Speaker_D | You see I envision it as being um quite deep sort of deep enough to be comfy to hold in your hands rather than being wide and flat .
+[12:48] Speaker_C | Yeah .
+"[12:50] Speaker_C | Yeah that's what I was thinking , to Sure , okay ."
+"[12:54] Speaker_C | Yeah alright yeah fair enough . Okay , just thought I'd ask ."
+"[12:57] Speaker_A | So there's one more dimension to the thing which we need to to add , and you might want to add in the report , length , width , and height ."
+[12:59] Speaker_C | Mm-hmm .
+"[13:04] Speaker_B | Right okay . So just to well to be thorough then , width-wise we're looking at about what three centimetres or something ?"
+[13:05] Speaker_A | Yeah .
+[13:12] Speaker_A | Yeah .
+[13:14] Speaker_C | Hmm .
+"[13:21] Speaker_B | How how tall do you envisage it being ? About that big ? About two centimetres , okay ."
+"[13:24] Speaker_D | Yeah it works , yeah ."
+[13:24] Speaker_A | Two .
+[13:27] Speaker_C | Two's not very high at all though . Maybe a bit higher ?
+[13:29] Speaker_A | This is about this is about two .
+"[13:33] Speaker_D | See , about that thick ."
+"[13:35] Speaker_B | Okay . Ach , that is Yeah . Okay we'll s we'll say two point five . Okay um so we have it within cost anyway ."
+[13:35] Speaker_C | Maybe closer to three even or two and a half .
+[13:36] Speaker_A | Okay .
+[13:45] Speaker_B | Um so yeah project evaluation is this point .
+[13:50] Speaker_B | Um .
+[13:51] Speaker_C | Mm-hmm .
+[13:52] Speaker_B | Right uh .
+[13:56] Speaker_B | Okay so can we close that ? This is what it's the final spec that it's gonna be . Someone is gonna have to yeah that's fine that's fine .
+[14:01] Speaker_C | Mm-hmm .
+[14:28] Speaker_C | Yeah .
+"[14:32] Speaker_C | Sure , okay ."
+"[14:35] Speaker_C | Yeah , alright ."
+"[14:38] Speaker_C | Okay , sure ."
+[14:41] Speaker_C | What about button shape ? Square buttons ?
+"[14:43] Speaker_A | Yeah button shape might be a good idea to change , rather than rather than positioning , 'cause I think positioning is we're kinda engrained into the the telephone kind of"
+[14:45] Speaker_C | Okay .
+[14:48] Speaker_C | Yeah .
+[14:49] Speaker_C | Sure .
+[14:53] Speaker_C | Yeah .
+[14:55] Speaker_A | pad .
+[14:56] Speaker_B | Right um .
+"[14:59] Speaker_B | So at this point we uh , let me see , discuss uh how satisfied we all are with um"
+[15:17] Speaker_C | Mm 'kay .
+[15:32] Speaker_A | Maybe we should do the design evaluation first .
+"[15:35] Speaker_B | Yeah , yeah go for that first . I wasn't entirely sure what uh who was supposed to be doing that , but y you go for it ."
+[15:35] Speaker_C | Evaluation .
+[15:39] Speaker_C | Okay .
+[15:41] Speaker_C | Sure .
+"[15:42] Speaker_C | Um , alright so the way this works , I'm gonna need to plug into PowerPoint , I'll try and do it as quick as possible . Um , this is um I'll just go over your head if that's okay ."
+[15:46] Speaker_B | Okay .
+[15:48] Speaker_B | Okay .
+[15:53] Speaker_B | Yeah .
+[15:56] Speaker_C | What's that ?
+"[15:57] Speaker_A | No , that's okay that's okay ."
+[15:58] Speaker_C | I don't need the PowerPoint ?
+"[16:01] Speaker_C | Oh course , yeah that's true . Let me get that ."
+[16:04] Speaker_C | A bit more .
+[16:10] Speaker_A | You you still have your blue fingers .
+[16:14] Speaker_D | Is it ?
+[16:16] Speaker_A | You killed a monster .
+"[16:45] Speaker_C | Doesn't seem like it's going , does it ?"
+[16:47] Speaker_B | Oh there it is .
+"[16:47] Speaker_C | Yeah , okay great . Uh and I'm gonna write up our results on the board , so this'll be a way for us to go through and decide if we're um sort of review where we stand with it ."
+"[17:01] Speaker_C | So to sort of b bring together two things , sort of design goals and also the market research that we had , uh when we rate this , one is v high in in succeeding or fitting to our original aim and seven is low , okay . So these i these i th are the and um we've been asked to uh to collectively rate this , so what we can do is try and just y work on a consensus system so"
+[17:14] Speaker_B | Mm 'kay .
+"[17:25] Speaker_C | we just come to an agreement . Okay ? So the first one uh , stylish look and feel ."
+[17:26] Speaker_B | Okay .
+[17:32] Speaker_A | I rate that pretty highly .
+"[17:33] Speaker_B | Well yeah , I mean compared to most remote controls you see that's pretty good . I dunno like a six or something . What does anybody else think ?"
+[17:33] Speaker_D | Yeah .
+[17:35] Speaker_C | Yeah .
+[17:37] Speaker_C | Yeah .
+"[17:39] Speaker_C | Yeah um me uh my only reservation with it was that we basically went with yellow because it's the company's colour , and I don't know if yellow's gonna really be a hit ."
+[17:45] Speaker_B | Mm .
+[17:48] Speaker_B | Mm .
+[17:50] Speaker_B | Okay .
+[17:51] Speaker_D | I'm seeing five then .
+[17:53] Speaker_C | What do you guys think ?
+[17:54] Speaker_B | I would say five or six . David ?
+[17:55] Speaker_C | Okay .
+[17:57] Speaker_A | Yep I'm fine with that .
+[17:58] Speaker_C | Okay let's go with five then .
+[17:59] Speaker_B | Okay .
+[18:00] Speaker_C | Fi oh uh just actually the opposite .
+"[18:01] Speaker_A | It's one to seven , right ?"
+"[18:03] Speaker_C | The So it meant three , okay ."
+"[18:03] Speaker_B | Oh yes sorry then , then I would say two or three ."
+"[18:08] Speaker_A | Wait , what's the scale , one to seven , right ?"
+[18:09] Speaker_D | One's high-ish isn't it ?
+[18:10] Speaker_B | Yeah .
+"[18:10] Speaker_C | Yeah , one is high ."
+"[18:12] Speaker_D | Ah , okay so yeah , two or three ."
+"[18:15] Speaker_A | Okay , it's upside-down ."
+"[18:16] Speaker_C | Let's go with two point five then . Okay , um control high tech innovation ."
+"[18:25] Speaker_C | Yeah , so we've had to remove a few of our features we wanted , but jog-dial"
+[18:28] Speaker_B | Mm .
+[18:31] Speaker_C | 's good .
+"[18:31] Speaker_B | I'd go with three or four , maybe three ."
+[18:31] Speaker_A | Say it's more
+[18:32] Speaker_D | Eight three .
+"[18:32] Speaker_A | medium , but going towards a little bit higher than medium kind of thing . Yep ."
+"[18:36] Speaker_C | Okay , three ?"
+"[18:36] Speaker_B | Yeah about three , okay ."
+[18:46] Speaker_A | Lemon .
+[18:48] Speaker_D | Yeah .
+[18:48] Speaker_C | Sorta .
+[18:51] Speaker_C | Yeah .
+[18:53] Speaker_C | Okay .
+"[18:55] Speaker_B | But the yellow , I mean it could be a lemon yellow colour , couldn't it ?"
+"[18:55] Speaker_C | Right . Yeah , could be . Yeah ."
+"[18:57] Speaker_A | Yeah , the the yellow is more representative of the colour , but the button itself , the blue can be anything else ."
+[18:59] Speaker_C | Okay .
+[19:00] Speaker_B | Yeah .
+[19:02] Speaker_C | Okay so we'll go two .
+[19:04] Speaker_B | Mm-hmm .
+[19:05] Speaker_C | Yeah ?
+"[19:06] Speaker_C | Okay , and um design is simple to use , simple in features ."
+"[19:11] Speaker_B | Well yeah , I mean it's really basic looking isn't it ? I mean I'd give that nearly a one ."
+"[19:13] Speaker_C | F f yeah f fairly basic , you guys think ?"
+[19:17] Speaker_D | Yeah one .
+"[19:18] Speaker_A | Yep , that's fine ."
+"[19:21] Speaker_C | Um , soft and spongy , have we achieved that ? We've used mostly plastic in the end so it's going to be quite a bit of a compromise for price . Five ?"
+[19:29] Speaker_D | Yeah I think it's about five .
+[19:37] Speaker_B | Yeah I suppose mm 'kay .
+"[19:41] Speaker_A | Yeah , company logo ."
+[19:42] Speaker_C | could we have used an entirely rubber frame to it ? Was that an option ?
+"[19:46] Speaker_A | I think it'll be cost prohibitive , yeah ."
+[19:47] Speaker_C | It would cost more than plastic .
+"[19:50] Speaker_C | Okay , logo , we've got it in there , haven't we ?"
+[19:52] Speaker_A | Yep .
+"[19:52] Speaker_B | Yep . Gonna have that on the side , aren't we , like there or something ?"
+"[19:58] Speaker_C | Huh . And um it's within budget , yep . It is , isn't it ?"
+[20:02] Speaker_D | Yeah .
+"[20:03] Speaker_C | Okay , so we can say then that uh out of a possible or what would be our goal here ?"
+"[20:10] Speaker_B | Out of forty nine , I guess ."
+"[20:12] Speaker_C | Yeah , out of forty nine with with zero being the highest ."
+"[20:17] Speaker_C | We are at uh two , seven , eight , ten , fifteen point five ."
+[20:26] Speaker_B | 'S pretty good .
+[20:27] Speaker_C | So it's pretty good .
+[20:30] Speaker_C | Translates to something like about approximately seventy two percent efficacy
+[20:38] Speaker_C | of our original goal .
+[20:40] Speaker_C | Right ?
+[20:42] Speaker_B | Uh yeah .
+[20:42] Speaker_C | I think 'cause if you turn that into
+[20:45] Speaker_C | a hundred
+[20:47] Speaker_C | it would be about
+"[20:48] Speaker_B | Twice that , about thirty one ."
+"[20:54] Speaker_B | So yeah ab well yeah about sixty nine , seventy percent yeah ."
+"[20:56] Speaker_C | Oh right , about seventy , yeah seventy percent ."
+[20:59] Speaker_B | It's pretty good .
+"[21:00] Speaker_C | Okay , good . That was just a little formality for us to go through ."
+[21:04] Speaker_B | Okay .
+"[21:05] Speaker_C | Yep , oh hundred pound pen . Sorry alright . No ."
+[21:16] Speaker_C | Hmm .
+[21:31] Speaker_B | Uh-huh .
+[21:43] Speaker_B | Mm-hmm .
+"[21:44] Speaker_C | Could our design involve a series of colours so that it's more of like a line where we have like sort of the , I don't know like the harvest line or the vibrant , I dunno the Whatever just some theme and then we have different tones , lime green , lemon . It's just discussion . I mean obviously we can just abandon this , it's fine . I'm just thinking about what we originally set out to do ."
+[21:48] Speaker_A | Yep .
+[21:57] Speaker_B | Okay .
+"[22:04] Speaker_C | Um , yep so there . That's all ."
+[22:05] Speaker_B | Right .
+"[22:07] Speaker_B | Okay , great um are you submitting the"
+[22:12] Speaker_B | the um evaluation criteria or am I ? I don't know what your instructions have been .
+"[22:17] Speaker_C | Um , I think to record it and uh I haven't been asked to submit it yet . Yeah ."
+"[22:23] Speaker_B | Okay , uh just wondering if I need to include it in the minutes , because if you're submitting it anyway then Okay great ."
+"[22:28] Speaker_C | I will , yeah ."
+[22:29] Speaker_A | It keeps getting too big .
+"[22:31] Speaker_B | Cool . Um right , uh well next up then , because we've done finance , is the project evaluation ."
+"[22:40] Speaker_A | 'Kay I'm I'm listening I'm just trying to incorporate the logo into the the thing , so I'm playing with the Play-Doh as well ."
+"[22:43] Speaker_B | Oh right , okay ."
+[22:48] Speaker_C | Huh .
+"[23:20] Speaker_B | Right , okay . Um well do you wanna um just individually say what you think about about these four points and or not those four points , my four points , sorry , forgotten that ."
+[23:50] Speaker_C | Yep .
+[23:54] Speaker_C | I like those printer cables that just have the two little butterfly clips like that . It's really quick .
+"[23:57] Speaker_B | Oh yeah , they're good aren't they , yeah . Right okay , um yeah here we are . Uh as a note we'll do this"
+[24:00] Speaker_C | To use .
+[24:07] Speaker_B | alphabetically . Um do you wanna start Andrew ?
+"[24:09] Speaker_C | Sure , um so what is it you're asking of me now ?"
+"[24:13] Speaker_B | I don't know , just um your opinion on those four those four points really and how we used them . Yeah ."
+"[24:17] Speaker_C | Or sort of our work on setting this up . Yeah . Well , is it uh okay I'll just go through your system then . The the room uh"
+"[24:26] Speaker_C | is fairly institutional , but um the main thing is , I think"
+"[24:33] Speaker_C | um our use of this space is more just to report on things as opposed to be creative and constructive and it would probably help to um have l sort of a cumulative effect of we have ideas and we come back and then the ideas are still in discussion , you know , as in other words this this room is sort of a centre point of creativity , whereas in reality as we've gone through this , it's not really the centre point of creativity , it's more just a"
+[24:49] Speaker_B | Uh-huh .
+[24:57] Speaker_B | Well d do you feel though that that you were able to have quite a lot of creative input into the thing ?
+"[25:02] Speaker_C | Yeah , yeah but that's just the thing is the quest in terms of the the first point there , the room , it feels as though the creativity goes on when we leave , and then we come here and then we kind of put out our ideas and then , you know ."
+"[25:15] Speaker_C | Oh , oh right right , oh right okay room for creativ Oh right I just looked up and saw okay whiteboard , digital pens , the room . No , of course , yeah ."
+[25:21] Speaker_B | Room .
+[25:24] Speaker_C | Sorry .
+[25:25] Speaker_C | Huh .
+[25:27] Speaker_C | Yeah .
+"[25:29] Speaker_C | Yeah I th okay on th um yeah dif answering the question uh in those terms I'd say that actually there's sort of a tease of creativity because we're asked to work through this , but actually the guidelines are fairly contrived in terms of um okay fashion trends , say fruit and vegetable colour scheme , but then i then we're told okay use the co company company colours ."
+[25:44] Speaker_B | Mm-hmm .
+[25:51] Speaker_B | Mm .
+[26:00] Speaker_B | Okay .
+"[26:08] Speaker_A | You feel like you're caged within whatever y It's like a balloon in a cage , it can only go so big and not hit the side . The constraints do come in very fast ."
+[26:08] Speaker_B | Okay .
+[26:12] Speaker_C | Yeah .
+"[26:14] Speaker_B | Okay uh do you know what , actually let's take each point and everybody discuss it , I think . Yeah . So still on the topic of room for creativity uh next up is Craig ."
+[26:18] Speaker_C | Yeah .
+"[26:24] Speaker_D | Um I agree with his point it's um it is quite a lot of fun t to go and then you have sort of hit the end then go right , gotta cut everything out 'cause we don't have enough money ."
+[26:33] Speaker_B | Yeah .
+[26:33] Speaker_A | Yeah .
+[26:35] Speaker_C | Yep .
+"[26:36] Speaker_A | I think another point is that the meetings um are more brainstorming sessions than meetings , so time is also a very s um strong factor , and structure . Because for a brainstorming meeting you want a structure that allows you to allows ideas to get tossed , um to be evaluated , and to be reviewed , and to get feedback and come back ."
+[26:40] Speaker_C | Yeah .
+[26:45] Speaker_B | Yeah .
+[26:45] Speaker_C | Yeah .
+"[26:51] Speaker_C | Mm-hmm , mm-hmm ."
+[26:51] Speaker_B | Mm .
+"[26:55] Speaker_A | And I guess that point about the room not being r very friendly to that , I think that's a very big thing , and I think the fact that we're wearing these things restricts I feel it 'cause I wear m my glasses , right , and that but that irritates me right it it it does actually you know affect how , w whether you feel comfortable to communicate . I feel like I'm hiding behind the equipment , rather than the equipment is helping me , and you know ."
+[27:00] Speaker_C | Yeah .
+"[27:04] Speaker_C | Yeah , sure ."
+[27:06] Speaker_B | Yeah .
+[27:09] Speaker_C | Yeah .
+[27:12] Speaker_C | New creativity .
+[27:17] Speaker_C | Yep .
+[27:19] Speaker_C | Right .
+"[27:24] Speaker_B | Yeah , but actual environment ?"
+[27:27] Speaker_C | Mm .
+[27:29] Speaker_C | Mm-hmm .
+[27:29] Speaker_B | Okay .
+[27:32] Speaker_C | Mm-hmm .
+[27:32] Speaker_B | Okay .
+[27:34] Speaker_B | Very good . Um what about leadership ?
+"[27:39] Speaker_B | I don't know if that means like , if I did a good job or something . I don't really know ."
+"[27:49] Speaker_B | From like your personal coach person and stuff like that , do you think maybe ?"
+"[27:53] Speaker_C | Yeah from and you as well I think , just sort of acting as team leader ."
+[27:57] Speaker_B | Okay .
+"[27:57] Speaker_C | Um yeah I think I think it's I think it's good . I mean my personal views on on leadership is that effective effective leadership sort of um gives people a certain room for freedom and delegation , but then to come back with something that they take great ownership and"
+[28:12] Speaker_B | Mm-hmm .
+"[28:37] Speaker_B | Uh-huh , okay ."
+"[28:53] Speaker_C | Yeah , oh yeah , without without a doubt ."
+[28:56] Speaker_C | Yeah maybe not co confining .
+[28:58] Speaker_C | Yeah .
+"[28:59] Speaker_C | Yeah , yeah ."
+"[29:03] Speaker_C | Mm-hmm , mm-hmm ."
+[29:04] Speaker_B | Okay .
+[29:06] Speaker_C | Mm-hmm .
+[29:07] Speaker_C | Mm-hmm .
+"[29:10] Speaker_C | Mm-hmm , mm-hmm ."
+[29:12] Speaker_B | Uh-huh .
+"[29:13] Speaker_C | Mm-hmm , mm-hmm ."
+[29:17] Speaker_C | Mm-hmm .
+[29:17] Speaker_B | Okay .
+"[29:20] Speaker_C | Mm . Mm-hmm , mm-hmm . Yeah ."
+"[29:24] Speaker_B | Okay , uh what about teamwork ?"
+"[29:29] Speaker_C | Um did , you wanna comment Craig ?"
+"[29:30] Speaker_D | Uh , reckon that was a bit hard because we could only discuss things in the meeting ."
+[29:34] Speaker_C | Yeah .
+[29:34] Speaker_B | Yeah .
+"[29:35] Speaker_D | If we could just go up to somebody outside the meeting and have a quick talk with them , that would've been a lot easier ."
+[29:39] Speaker_C | Yeah .
+[29:41] Speaker_B | Okay .
+[29:41] Speaker_C | Fully agree .
+"[29:41] Speaker_A | I think you tried to use the common share folder to to to to communicate , but um it just comes back to us so slow in the email um it it doesn't have a , you know , a messenger will go ."
+[29:51] Speaker_B | Mm .
+"[29:56] Speaker_B | Did uh did you guys get the email I sent you ? Oh that's alright . I was wondering if that got there okay . Okay , um so um to s to to summarize the teamwork issue , saying that if we could communicate outside the meeting , you know just like quick questions , quick thoughts , whatever , it probably would be bit easier ."
+[29:56] Speaker_C | Yeah .
+[29:57] Speaker_D | Not just yet .
+[29:58] Speaker_A | Yeah .
+"[29:58] Speaker_C | Yeah , got the email ."
+[29:59] Speaker_A | Okay .
+[30:12] Speaker_C | Yeah .
+"[30:13] Speaker_A | I think the tools that they were given , the tool set that were given to us are fancy but they don't support collaboration , I think that's the word . They don't support the team working together , you know , they're still very individual tools ."
+"[30:19] Speaker_C | Mm-hmm , mm-hmm , mm-hmm , exactly ."
+"[30:21] Speaker_B | Oh right , okay ."
+"[30:25] Speaker_C | Yeah , I mean sort of taking upon that idea , w the way I see this i is that it's uh the the s the structure in which we've we've approached this whole task is quite contrary to the p principle of teamwork because the the tasks were d d sort of um divided , and then the work went on in isolation I I don't know what you guys did while you were together , maybe that was a bit different ,"
+[30:46] Speaker_B | Mm .
+"[30:50] Speaker_C | but um yeah , but um but actually if you if you imagine not entire the completely same task given to us but us said okay , first thing we have to do is come up with um let's say um a design concept , and we sit here together and do it , well that's what teamwork is . To s to say okay go off and don't talk to each other , it's actually p sort of predisposes you to quite the contrary of teamwork . Um not that we haven't done I think the best we could have done . I'm not dissatisfied with it ."
+[30:50] Speaker_A | We had Play-Doh fun .
+[31:07] Speaker_B | Yeah .
+[31:11] Speaker_B | Yeah .
+[31:17] Speaker_B | Okay .
+[31:20] Speaker_B | Okay .
+"[31:22] Speaker_B | Right , uh anything else to say on teamwork at all ? Okay , um what about the you know how we used the whiteboard , the digital pens , the projector , stuff like that ? Um did anybody think anything was like really useful , anything was pretty un f"
+"[31:26] Speaker_A | No , not really ."
+[31:36] Speaker_C | Mm-hmm .
+[31:41] Speaker_B | unsupportive ?
+"[31:42] Speaker_C | I think the whiteboard , for me , is the kind of thing I would use all the time , but it's um not quite as useful as to us as it could have been , maybe just in the way that we we use it , in the sense that once we have an idea out there or while work was going on in between meetings , that could have been up on a board uh you know as opposed to in like in text ."
+[32:00] Speaker_B | Mm .
+"[32:04] Speaker_C | Um , and then we could then keep our ideas sort of building on that . I know that people who design cars and you know in aviation they quite often just have a simple like fibreglass prototype and it's completely you know um abs abstract from the final product , but they use it as a kind of a context to sort of walk around and puzzle and and point and discuss and and and in a way everybody's as we discuss things in the in theoretically and out of our notebooks ,"
+[32:18] Speaker_B | Mm-hmm .
+[32:21] Speaker_B | Yeah .
+[32:22] Speaker_B | And point at ? Yeah .
+"[32:29] Speaker_C | we're just we're actually just each of us discussing something that's in each of our own minds . It wasn't until we had this here , you know , like at one point I peeked across and looked at Craig's paper and I'm like , now I know what he's thinking 'cause I saw his book ."
+[32:35] Speaker_B | Yeah .
+[32:40] Speaker_B | Ah .
+[32:46] Speaker_B | So do you think producing a prototype earlier in the process woulda been a good idea ?
+"[32:51] Speaker_C | Think could be , yeah ."
+[32:55] Speaker_B | Yeah .
+"[32:56] Speaker_C | Yeah , yeah ."
+[32:58] Speaker_C | Yeah .
+"[33:00] Speaker_C | Yeah , yeah ."
+[33:02] Speaker_C | Mm-hmm .
+[33:05] Speaker_C | Mm-hmm .
+[33:07] Speaker_C | Yeah .
+"[33:10] Speaker_C | Yeah , yeah ."
+[33:10] Speaker_B | Okay .
+"[33:12] Speaker_C | Yeah , because the PowerPoint was provided to us while we had time to prepare , whereas I can imagine if I'd been encouraged to use Paintbrush , for example , or whatever , I would've actually used it , um 'ca you know , just 'cause that's sorta how we what we were set up to to use while we had our time ."
+[33:21] Speaker_B | Alright .
+"[33:31] Speaker_A | I think that there were too many PowerPoints in the meetings . 'Cause the plug-in and the plugging spent we spent a lot of time doing that . And a lot of the information on the PowerPoints , I don't think , you know , we needed to actually it could have , we could have gone through it verbally , especially my slides , I felt that they just you know as opposed to having to present them ."
+[33:34] Speaker_C | Mm-hmm .
+[33:34] Speaker_D | Yeah .
+[33:34] Speaker_B | Yeah .
+[33:36] Speaker_C | Yeah .
+[33:37] Speaker_B | Yeah .
+"[33:41] Speaker_C | No , not quite ."
+[33:44] Speaker_C | Yeah .
+[33:45] Speaker_C | Yeah .
+[33:45] Speaker_B | Okay .
+[33:47] Speaker_C | Yeah .
+"[33:48] Speaker_B | What about the digital pens , did you find them easy enough to use ?"
+[33:52] Speaker_D | Oh they're a bit clunky .
+[33:57] Speaker_B | Yeah .
+[33:59] Speaker_C | Yep .
+[34:01] Speaker_C | Mm .
+"[34:03] Speaker_A | Having to tick it before you go off was a bit hindering as well , 'cause you're half way through a thought , and then you run out of paper and then you have to jump ."
+[34:06] Speaker_C | Mm .
+[34:06] Speaker_B | Yeah .
+"[34:09] Speaker_B | I know , I think at the very start of today I like wrote a whole load of stuff , didn't click note on one , then went back and wrote one tiny wee thing on the another page , but then did click note , and so I'm quite worried that I've just written over the top of it or something , but they'll have my paper anyway um and haven't done that since ."
+[34:20] Speaker_C | Hmm .
+[34:22] Speaker_C | Hmm .
+"[34:23] Speaker_C | Mm-hmm , mm-hmm . Hmm ."
+"[34:29] Speaker_C | Mm-hmm , mm-hmm , mm-hmm ."
+"[34:30] Speaker_B | Yeah , yeah ."
+"[34:34] Speaker_C | And o on the topic of the technology , it just occurred to me that we actually didn't need to move our computers because each computer has all of the files ."
+[34:42] Speaker_B | Yeah .
+[34:44] Speaker_C | We only actually needed one computer .
+"[34:46] Speaker_B | Yeah , that's true ."
+"[34:47] Speaker_C | If there had been a fifth , that coulda just been sitting there ready to go the whole time ."
+[34:48] Speaker_D | Good point .
+[34:53] Speaker_C | Yeah .
+[34:56] Speaker_C | Yeah .
+[34:59] Speaker_C | Yeah .
+[34:59] Speaker_B | Yeah .
+[35:01] Speaker_B | Do you think the computers just provide distraction in a meeting ?
+[35:06] Speaker_D | Yeah .
+[35:07] Speaker_B | Okay .
+"[35:09] Speaker_B | I know I I like to have things written down in front of me actually , like a lot of the stuff that was emailed to me I ended up you know like writing down there or something so I could look at it really quickly and not have the distraction of all of that , um I don't know about anybody else ."
+[35:12] Speaker_C | Mm-hmm . Yep .
+[35:16] Speaker_C | Mm-hmm .
+[35:16] Speaker_A | Yep .
+[35:18] Speaker_C | Mm-hmm .
+[35:22] Speaker_C | Mm-hmm .
+[35:23] Speaker_B | Um what else uh any wh I do I'm not really sure what they're looking for when they say new ideas found . Um I don't know is could you think of like anything else that would have been helpful today at all ?
+"[35:43] Speaker_C | Well , the w main one for me is that uh the process"
+[35:50] Speaker_C | na in a natural f context would not have been interrupted by this necessity to discommunicate ourselves from each other .
+"[36:00] Speaker_C | So , that's kind of a new idea for me is like just sort of that idea , well you know it's kind of s hard to keep f working forward on a team a team based project when when you're told you must now work away from your team ."
+[36:10] Speaker_B | Mm-hmm .
+[36:22] Speaker_C | Oh yeah .
+"[36:24] Speaker_C | Yeah , yeah ."
+"[36:32] Speaker_C | Mm-hmm , mm-hmm , mm-hmm ."
+[36:46] Speaker_C | Mm-hmm .
+[36:48] Speaker_C | Mm-hmm .
+[36:51] Speaker_C | Mm-hmm .
+"[36:58] Speaker_B | There you go . Um so in closing , I haven't got my five minutes to go . Thin Oh there it i Five minutes to go . Wonderful . Okay um are the costs within the budget , yes they are . And is the project evaluated , yes it is . So now celebrate ."
+[36:58] Speaker_C | Hmm .
+[37:15] Speaker_A | And we have Ninja Homer .
+[37:17] Speaker_D | Oh yeah .
+[37:18] Speaker_B | Well apparently now I write the final report . What are you guys doing now ?
+[37:20] Speaker_D | Do we know what the other ones are ?
+[37:22] Speaker_C | I I don't know .
+[37:23] Speaker_B | You dunno ?
+[37:24] Speaker_C | Hmm .
+[37:29] Speaker_C | What did you call it ?
+[37:31] Speaker_A | Ninja Homer . See it looks like Homer Simpson
+"[37:34] Speaker_C | Huh , huh . Logo ."
+[37:35] Speaker_A | but it's electronic so it's made in Japan . Yeah it's just a logo .
+[37:40] Speaker_C | Huh .
+[37:44] Speaker_C | Mm .
+[37:45] Speaker_A | The the red is supposed to represent the whatever else you wanna print on the side of it .
+[37:50] Speaker_C | Mm-hmm .
+[37:51] Speaker_B | I think it's quite nice .
+[37:51] Speaker_C | Fashion technology or something .
+"[37:56] Speaker_C | Hmm , hmm , hmm ."
+"[37:59] Speaker_B | Oh no , that's cool , it's got I'm kind of I'm slightly gutted that we couldn't get plastic and rubber , I think that would have been nice ."
+[38:00] Speaker_C | Hmm .
+[38:01] Speaker_A | It's clunky .
+"[38:04] Speaker_C | Yeah , yeah ."
+"[38:06] Speaker_B | Ah well , maybe from now on real reaction should give us more money ."
+[38:09] Speaker_C | Mm-hmm .
+"[38:10] Speaker_A | Oh , I did learn something new , Play-Doh is useful . No it is it is . It is useful and in in in in in in in um conceptualizing , in being creative . 'Cause like you say , it's something you can put your hands on and feel and touch and get a sense for . Like we were playing with the Play-Doh and the ideas came with the Play-Doh rather than with everything else . You might wanna write that down . It's just , I'm just fiddling with the Play-Doh , and I'm going yeah yeah it's kinda cool ."
+[38:10] Speaker_C | Hmm .
+[38:13] Speaker_B | Play-Doh s
+[38:15] Speaker_C | Huh .
+[38:18] Speaker_C | Huh .
+[38:20] Speaker_B | Really ?
+[38:23] Speaker_B | Yeah .
+[38:27] Speaker_B | Did they ?
+[38:29] Speaker_C | Yeah .
+[38:30] Speaker_B | Okay .
+[38:32] Speaker_B | Play-Doh .
+"[38:33] Speaker_C | No , it's true , yeah ."
+[38:34] Speaker_D | Guess I'd forgot how good s Play-Doh smells .
+[38:36] Speaker_C | Hmm .
+[38:38] Speaker_C | And some Play-Dohs are actually I think edible aren't they ?
+"[38:40] Speaker_A | No , all Play-Doh is edible ."
+"[38:40] Speaker_B | Yeah like the stuff for I think it has to be , yeah ."
+[38:41] Speaker_D | I think they're all non-toxic 'cause it's aimed for like two-year-olds .
+"[38:46] Speaker_C | Wow , hmm ."
+[38:46] Speaker_B | Yeah um so to wha what are your summarising words about Play-Doh ?
+"[38:51] Speaker_A | It's helpful to the creative process . Um it engages all your senses not just your sight , but your sense of feel your sense of touch . And it helps you to understand"
+[38:52] Speaker_C | Huh .
+[38:53] Speaker_B | Okay .
+[38:57] Speaker_C | Yep .
+"[39:02] Speaker_A | dimension as well . I think that that's very helpful because it it starts to pop up , whereas on a piece of paper , on a computer , on a board , um even with a three D_ graphic thing it still , it requires a lot of yeah tangible , that's a nice word . It becomes tangible ."
+[39:03] Speaker_B | Yeah .
+[39:07] Speaker_B | Yeah .
+"[39:07] Speaker_C | Mm-hmm , yep . Yeah ."
+[39:12] Speaker_D | Yeah it's not very tangible .
+[39:12] Speaker_C | Yeah .
+[39:14] Speaker_B | Mm-hmm .
+"[39:14] Speaker_C | Mm-hmm , mm-hmm , mm-hmm ."
+[39:17] Speaker_C | Mm-hmm .
+[39:18] Speaker_B | Tangible .
+[39:30] Speaker_B | Mm . I don't know if there's anything else we needed to discuss .
+[39:33] Speaker_A | Nope .
+[39:37] Speaker_B | That that's about it really .
+[39:41] Speaker_B | Just sit still I guess for a little while .
+"[39:43] Speaker_C | Do we retreat to our , to continue our"
+[39:47] Speaker_A | I think we could probably do it here as long as we don't collaborate .
+[39:48] Speaker_C | r reporting or what i
+[39:49] Speaker_B | Well I dunno . Um I'm sure the little uh the little thing'll pop up any minute now .
+[39:55] Speaker_A | Can we turn off the microphones ?
+"[39:58] Speaker_B | Yeah , yeah if the meeting's over then yeah I guess so ."

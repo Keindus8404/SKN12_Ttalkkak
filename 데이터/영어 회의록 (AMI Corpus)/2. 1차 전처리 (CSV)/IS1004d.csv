@@ -1,0 +1,471 @@
+﻿[00:25] Speaker_A | Okay . Good afternoon again .
+[01:27] Speaker_A | So we went through th uh w we took this following decisions .
+"[01:33] Speaker_A | No L_C_D_ , no speech recognition technology , okay , we went through a b to a banana look and feel for the remote control . We went through the use of wheels and but buttons . And also the use of a basis station for battery ch charging and uh also to um call the to call the mot mote remote control when it is lost . Okay . Um . Good ."
+[02:04] Speaker_A | So guys
+[02:07] Speaker_A | let this uh wonderful thing .
+[02:11] Speaker_C | Okay so we can go to the slides . Yeah .
+[02:17] Speaker_C | Number three . Oh number two sorry .
+[02:23] Speaker_C | So final design . Final design .
+[02:26] Speaker_C | Okay so
+[02:28] Speaker_C | Michael you can go ahead .
+[02:29] Speaker_B | Yeah so uh following our decision to uh
+[02:36] Speaker_B | make a yellow well to make a banana
+[02:38] Speaker_A | Yeah can you show it to the the camera maybe .
+[02:40] Speaker_B | remote okay so
+"[02:45] Speaker_C | You can pull it out first , maybe ."
+[02:46] Speaker_B | We've well first first of all we made a an attractive base station uh with a banana leaf uh look and feel um and uh
+[02:53] Speaker_A | Mm-hmm .
+"[02:58] Speaker_B | bana sit the banana sits in there k you know nicely weighted so that it's not gonna tip over and um this is the remote itself , it's kind of it's it's ergonomic , it fits in the hand uh rather well . We've got the two uh"
+[03:29] Speaker_A | What's the use uh of the t turbo button already ?
+[03:33] Speaker_B | This is when you when you uh are scrolling the uh through the channels you can tell it to to skip th past channels that you quickly rather th
+[03:40] Speaker_A | Ah yeah yeah an then you stop when you stop it stops .
+[03:44] Speaker_B | Yeah . Well when you stop scrolling the wheel it stops . But normally with uh it will just uh s stay on each station briefly so you can see the the picture .
+[03:51] Speaker_A | Uh-huh .
+"[03:52] Speaker_C | And we we do have one more functionality . If you take the banana as such and uh you press the turbo button , so it switch ons the switch ons the T_V_ ."
+[04:00] Speaker_B | The T_V_ yeah . The s the turbo button . So rather than having uh an extra button for um for the on off switch you just use the turbo button .
+[04:01] Speaker_A | Which one ?
+[04:02] Speaker_C | The turbo button .
+[04:03] Speaker_A | Okay .
+[04:04] Speaker_C | Additional button .
+[04:10] Speaker_D | What this button for ?
+[04:12] Speaker_D | Okay .
+[04:18] Speaker_D | But if you want to go to page seven hundred ?
+[04:18] Speaker_A | To navigate it through th through teletext .
+[04:19] Speaker_B | To navigate yeah .
+"[04:19] Speaker_C | That's right , that's right ."
+[04:23] Speaker_B | Yeah .
+[04:24] Speaker_D | How man
+"[04:25] Speaker_B | Well then you can you you have like a little uh number selection thing , you press the the the teletext button uh to move between uh the fields and then you can just scroll the number back and forth so you have s you go you scroll to seven and then"
+[04:50] Speaker_C | So then then both the scroll buttons they are for teletext browsing .
+[04:50] Speaker_D | Yeah .
+"[04:55] Speaker_C | And you can tele yeah , once you press the teletext button then the scroll buttons they are more for teletext , they are no more for channel or vol volume . Yeah ."
+[04:56] Speaker_D | Ah okay okay . Okay . Okay okay .
+[05:00] Speaker_D | Okay .
+[05:03] Speaker_D | I see . I see . Okay . Okay .
+[05:09] Speaker_C | That's right .
+[05:11] Speaker_B | Also the top of the banana . So . And then we have in the uh in the base station we have the the button at the front for uh for calling the uh the banana .
+[05:12] Speaker_C | Yeah .
+[05:12] Speaker_A | Excellent .
+[05:19] Speaker_A | Calling .
+[05:21] Speaker_C | Yeah .
+[05:21] Speaker_A | Excellent . And the the leaves plays the roles of of antennas ?
+[05:25] Speaker_B | Actually they do . That's that's yeah that's uh that's form and function in the one in the one uh object .
+[05:26] Speaker_A | Oh .
+[05:28] Speaker_C | Yeah .
+"[05:30] Speaker_C | So it always means , whatever the rays goes by they they get reflected and then you are having a better coverage . It's like antennas ."
+[05:38] Speaker_B | Yeah . So .
+[05:41] Speaker_B | But yeah that's um that's just like that's an attractive um base station .
+"[05:48] Speaker_A | So , what else ?"
+[05:48] Speaker_B | Okay .
+[05:51] Speaker_C | And for the power source we are having solar cells and rechargeable batteries and this and uh the basis station is going to have the input from the mm power line for for charging the batteries .
+[06:07] Speaker_C | It is very light .
+"[06:08] Speaker_A | Yeah , they're light ."
+[06:09] Speaker_D | Okay .
+[06:09] Speaker_B | It's it's uh it's about the weight of a banana .
+[06:12] Speaker_D | Okay .
+"[06:13] Speaker_B | You know , to give you the correct look and feel ."
+[06:22] Speaker_D | Okay .
+"[06:23] Speaker_D | Yeah yeah yeah , I see . I under I understand ."
+"[06:25] Speaker_B | I think a child would try to eat it anyway , so maybe we should"
+[06:27] Speaker_C | Yeah .
+[06:30] Speaker_B | consider that . maybe health and safety aspects .
+[06:32] Speaker_A | Ah yeah .
+[06:33] Speaker_C | Mm-hmm .
+[06:34] Speaker_C | Oh we didn't think of that yet . Yeah .
+[06:36] Speaker_B | Yeah .
+"[06:36] Speaker_A | So for the power source , apparently you still you you want to use both solar cells and batteries ."
+[06:43] Speaker_C | Oh yeah that's right .
+[06:46] Speaker_B | I don't really know if the solar cells are actually necessary any more if you have a recharging base station .
+"[06:48] Speaker_A | Yeah , where are going to where are you are you going to place them ?"
+[06:50] Speaker_C | Mm-hmm mm-hmm .
+[06:53] Speaker_C | It'll It'll be always at top somewhere at there .
+[06:55] Speaker_B | If I was gonna place them I'd put them on the on the top here since that's like uh the black bit but yeah I don't I really don't think it's necessary to have the solar cells anymore .
+[07:03] Speaker_C | Yeah because now we are having rechargeable batteries so that that is .
+[07:06] Speaker_A | Okay . What will be the autonomy ? Roughly ?
+[07:06] Speaker_B | Mm .
+[07:09] Speaker_B | The what sorry ?
+[07:10] Speaker_A | The autonomy .
+[07:14] Speaker_A | Autonomy .
+[07:15] Speaker_B | What do you mean ?
+[07:16] Speaker_D | How long the how long the bit the batteries long .
+[07:16] Speaker_A | Uh I mean how long does i how how how long can it be held off a station ?
+[07:18] Speaker_B | Ah .
+[07:20] Speaker_B | Ah .
+[07:22] Speaker_B | A long time .
+[07:24] Speaker_C | Eight to ten eight to ten hours .
+[07:28] Speaker_C | N most no most of the time it's not being used .
+[07:35] Speaker_C | Mm .
+[07:36] Speaker_C | Mm-hmm . No eight or eight or ten hours of working . If you are just leaving like that it'll be much longer .
+"[07:39] Speaker_B | Ah , okay . Okay ."
+[07:42] Speaker_A | Yeah . F weeks .
+[07:43] Speaker_C | Yeah . That's right .
+[07:44] Speaker_B | Yeah .
+[07:46] Speaker_A | Right .
+[07:48] Speaker_A | Next slide ?
+[07:49] Speaker_C | Yeah .
+[07:53] Speaker_C | And we are having the speakers regular chip for control . Pricing is was a factor so that's why we have gone for a regular chip only not the advanced chip .
+[08:01] Speaker_C | And uh that's it .
+[08:05] Speaker_A | Okay . Okay . Those really sounds very good . Nothing else to add ?
+[08:08] Speaker_C | That's right .
+[08:16] Speaker_B | It seems to be falling over .
+[08:17] Speaker_D | I l yeah .
+[08:18] Speaker_A | Yeah .
+[08:33] Speaker_C | You want to have more functional buttons ?
+[08:43] Speaker_C | You are not convinced .
+"[08:48] Speaker_C | Not not many , we we want to keep it simple . So that this button fo is for teletext which is usually also the case , that usually there is a teletext button and once you press that , the channel buttons , they baco become the scrolling buttons ."
+"[09:06] Speaker_A | Well in fact b both will be could be useful , navigating through teletext ."
+[09:08] Speaker_C | Means let's say this this can move the the larger digits and this can move the smaller digits .
+[09:14] Speaker_B | Or can move between positions in the in the number .
+[09:16] Speaker_C | That's right .
+[09:17] Speaker_A | Yeah .
+[09:17] Speaker_D | And what about people who want to use digits ? Butto real buttons ?
+[09:22] Speaker_C | Yeah . So there was there was a constraint that the surface area which we have on this banana on one side because of the shape .
+[09:22] Speaker_A | Wow .
+"[09:30] Speaker_C | So we are targeting a segment which is which is just very trendy kind of thing , they they don't care about the buttons any more ."
+[09:39] Speaker_D | Okay . Because have you thought about configuration and all this kind of uh stuff ?
+[09:43] Speaker_B | It's all automatic .
+[09:46] Speaker_B | Yep .
+[10:02] Speaker_A | So we have to go through now evaluations .
+[10:04] Speaker_C | Evalua yeah .
+[10:05] Speaker_D | Yeah .
+"[10:10] Speaker_A | Uh you're four I think . So this is one , which one is this one ?"
+[10:11] Speaker_D | Yeah .
+[10:14] Speaker_D | Yeah .
+[10:20] Speaker_D | Okay . I I const I constructed a a list of criteria based on the on the general user requirements . And each criteria is will be evaluated it's uh logical criteria so we must
+[10:41] Speaker_D | users must say i if it's true or is or if it's false in a in a scale ranging from zero to seven .
+[10:52] Speaker_C | Why this strange factor of seven ?
+[10:55] Speaker_D | Because i
+[10:58] Speaker_D | I'm sorry . Sorry .
+[11:01] Speaker_C | Usually I have seen that scales are from one to ten .
+"[11:01] Speaker_D | Ah yeah . It's from sorry , it's from one to seven . It's from from one to seven sorry . Because it should be an even"
+"[11:08] Speaker_D | it should be an even uh scale , and five"
+[11:08] Speaker_C | Okay .
+[11:10] Speaker_C | Okay . Mm-hmm .
+[11:15] Speaker_D | is too short and nine is too long .
+[11:17] Speaker_C | Okay .
+"[11:19] Speaker_C | Okay fine , got the idea ."
+[11:20] Speaker_A | So to have in order to have enough granularity it's in order to have enough granularity in the evaluation .
+[11:22] Speaker_D | Sorry ?
+[11:26] Speaker_D | Yeah yeah .
+[11:28] Speaker_C | Okay .
+[11:28] Speaker_D | The variance is mi it's is minimal . I'm um answering your question . Okay . And that's the criteria I I found more useful . I think I sh I I could write the criteria in the on the whiteboard ? And we all four could range
+[11:29] Speaker_A | Okay .
+"[11:30] Speaker_C | Okay , okay , great ."
+[11:32] Speaker_C | Okay . Yeah yeah . Go ahead .
+[11:42] Speaker_C | Mm-hmm . Sure .
+[11:46] Speaker_C | Okay . Yeah yeah . Yeah .
+[11:49] Speaker_A | Okay .
+"[11:59] Speaker_C | So you can say fancy ,"
+[12:02] Speaker_C | handy .
+[12:10] Speaker_C | Handy .
+"[12:14] Speaker_C | Yeah , it's fancy , according to me ."
+"[12:19] Speaker_A | Yeah , six ."
+[12:21] Speaker_C | Seven . Seven by me .
+[12:21] Speaker_A | S seven . Six .
+[12:23] Speaker_D | I would say seven . It's quite fancy .
+[12:24] Speaker_C | Okay .
+"[12:30] Speaker_A | No , wait . What do you say seven ? Five ?"
+[12:30] Speaker_B | Yeah uh five .
+[12:32] Speaker_C | Five .
+"[12:32] Speaker_B | Five , maybe maybe maybe six it's it's I guess it's yeah ."
+"[12:36] Speaker_A | Okay , six point five ."
+[12:40] Speaker_A | Handy ?
+[12:46] Speaker_C | Again I'll give seven .
+"[12:49] Speaker_B | I'd give it a six like I'd I think it's probably more handy than my current remote , 'cause of the scroll wheels but maybe loses the point for not having you know the extra buttons when you reall if you do need them for some reason but you know you can always use your other"
+[12:49] Speaker_A | Seven .
+[12:50] Speaker_D | Six .
+[12:54] Speaker_C | Yep .
+[13:05] Speaker_B | remote .
+"[13:06] Speaker_A | So seven , seven , six ,"
+[13:07] Speaker_C | Seven for me .
+[13:08] Speaker_B | Yeah .
+[13:09] Speaker_D | Six .
+[13:09] Speaker_A | six point five .
+[13:15] Speaker_A | Functional .
+[13:21] Speaker_C | I'll give five .
+[13:23] Speaker_A | Four .
+"[13:25] Speaker_B | Well it depends when you say functional , do you mean it does what we want it to do , or d does what it does , you know , can it make you coffee ?"
+[13:32] Speaker_D | Everything ar
+[13:34] Speaker_B | You know .
+[13:40] Speaker_D | It's compared to the all
+[13:40] Speaker_A | you could expect .
+[13:43] Speaker_C | That's right . That's right .
+[13:44] Speaker_D | remote controls .
+[13:47] Speaker_C | The standards . What is available in the market off the shelf .
+[13:49] Speaker_B | Yeah . I have to say four .
+[13:51] Speaker_D | Actually I don't know what are the r the real specification of a of a universal remote contro
+[13:56] Speaker_B | Well it's not a universal remote . Remember we're focus we're supposed to focus just on T_V_s .
+[13:58] Speaker_D | Ah it's not an univer but it's for all kind of T_V_s ?
+[14:02] Speaker_A | Yeah .
+[14:03] Speaker_B | Well all T_V_s but only T_ only T_V_s I guess .
+[14:05] Speaker_A | So it's universal but for T_V_s .
+[14:11] Speaker_D | Yeah .
+[14:13] Speaker_C | Five .
+[14:14] Speaker_A | Five ? Four .
+[14:14] Speaker_B | Four .
+[14:15] Speaker_D | Four . Four .
+[14:19] Speaker_A | Four .
+[14:20] Speaker_D | So four ?
+[14:27] Speaker_C | There I'll give it seven .
+"[14:32] Speaker_D | It means cool features , like"
+[14:35] Speaker_D | new features actually .
+[14:36] Speaker_C | That's right .
+[14:38] Speaker_C | For a T_V_ the most important feature which I felt was the locator which is a cool feature . And then the scroll buttons are again cool features . We don't have L_C_D_ for it but
+[14:51] Speaker_C | that we decided we don't want to have .
+[14:52] Speaker_A | Yeah . Seven .
+[14:54] Speaker_D | I would say five .
+[14:55] Speaker_B | I'll say five .
+[14:56] Speaker_C | Mm-hmm . Seven .
+[14:56] Speaker_A | Six .
+"[14:58] Speaker_A | Plus six , I say I said seven . So it's six . Yeah ."
+[14:59] Speaker_B | Yeah .
+[15:01] Speaker_B | S yeah .
+[15:05] Speaker_C | Okay .
+"[15:06] Speaker_B | Uh , okay , definitely easy to use ."
+[15:08] Speaker_C | Definitely seven .
+[15:10] Speaker_B | Seven .
+[15:12] Speaker_A | Seven .
+[15:14] Speaker_A | Seven . And you ?
+"[15:24] Speaker_B | Alright , now here's the sixty million Dollar question , well , twenty five twenty five Euro question ."
+[15:36] Speaker_B | What do you what do you guys reckon ?
+[15:38] Speaker_C | I'll say five .
+[15:41] Speaker_B | Hmm .
+[15:41] Speaker_C | I'll say five .
+[15:45] Speaker_A | Twenty five Euros .
+"[16:09] Speaker_A | So this is selling costs , not production costs ."
+[16:11] Speaker_B | Yeah . Yeah .
+[16:11] Speaker_D | Yeah this is the the initial specifications .
+[16:19] Speaker_A | Five .
+[16:19] Speaker_D | I would say six . It's quite cheap actually .
+"[16:21] Speaker_B | I'd say two . I don't want a banana on my living room table , a banana remote ."
+[16:24] Speaker_C | Why ?
+"[16:32] Speaker_B | It is handy , it's handy , but it it's terrible . Yeah ."
+[16:35] Speaker_C | Anyb anybody who comes here anybody who comes to your home he'll at least ask once what is this .
+"[16:42] Speaker_B | Yeah , but it's not a positive thing ."
+[16:43] Speaker_C | It's a very positive thing if you see like that .
+"[16:44] Speaker_B | Well , you know , it's it's handy , it's ergonomic , but it's a banana ."
+"[16:47] Speaker_A | Well , don't forget well , don't for don't forget who we're targeting also who are f f who are wh yeah , youngst youngst"
+[16:52] Speaker_C | Youngsters .
+"[16:53] Speaker_B | Yeah but it says I , I would buy this , so ."
+[16:56] Speaker_A | No well yeah I if you would be young .
+[17:01] Speaker_A | Not telling that you are young . Li li like a teenager for instance .
+[17:06] Speaker_A | Okay you're you're crazy teenager and you like fun things . Yeah .
+[17:11] Speaker_C | You want to flaunt . You with your girlfriend or something .
+[17:14] Speaker_B | S s
+"[17:18] Speaker_B | Still I I'd say two . I don't think I at any stage in my life I would want a banana remote control , really ."
+"[17:23] Speaker_C | Uh yeah , crazy ."
+[17:24] Speaker_A | Okay so you s you give oh yeah yeah I know I know . So you say two . F I d I say five .
+"[17:24] Speaker_B | I can say , maybe there is a market for it , I dunno . Yeah ."
+[17:28] Speaker_C | I say five .
+[17:32] Speaker_A | You say ?
+[17:38] Speaker_C | And you have saved it ?
+[17:42] Speaker_C | You'll have to reload .
+"[17:43] Speaker_A | Uh yeah , I think so ."
+[17:55] Speaker_D | Yeah it's two different situations . If you really need an universal remote control or if you
+[18:03] Speaker_D | would change your remote control for a n for a new one .
+[18:05] Speaker_A | Yeah that's two different question .
+"[18:06] Speaker_B | If I had t if I had to spend twenty five Euro ,"
+"[18:10] Speaker_B | if that was like my limit , maybe I would buy it . Because the other twenty five Euro remote controls are probably gonna look"
+[18:17] Speaker_A | Ugly .
+[18:19] Speaker_C | And they they might not be a as easy as this yeah .
+[18:21] Speaker_B | And it yeah this is gonna f you know handy to use .
+[18:24] Speaker_C | Yeah .
+[18:26] Speaker_D | So ? What now ? What range ?
+[18:27] Speaker_A | I stick to five .
+[18:28] Speaker_C | I go slightly up . Six .
+[18:29] Speaker_B | Although it still has it still has the word of course at the beginning so I dunno . Um .
+[18:30] Speaker_D | Six .
+[18:41] Speaker_A | Three So we are
+[18:41] Speaker_B | I give it a four now .
+"[18:44] Speaker_C | Six , five , four ."
+"[18:46] Speaker_D | Six , so it's uh five point five , or less ."
+[18:51] Speaker_A | Yeah .
+[19:02] Speaker_C | Okay .
+"[19:03] Speaker_A | So and last question , will I change my rem change my remote control from Mando banana ."
+"[19:09] Speaker_A | Um , zero . No uh we can't . So one ."
+[19:19] Speaker_A | Well if .
+[19:23] Speaker_A | No uh let's say I'll put two .
+"[19:25] Speaker_B | I'd say three , I mean my remote control is kinda at home is pretty terrible . If it was change my remote control of my D_V_D_ player for a Mando banana then I would be more inclined to but uh 'cause it's really bad but uh I'd say a three ."
+[19:37] Speaker_A | It's for the T_V_ .
+[19:43] Speaker_C | I'll still give it five .
+[19:45] Speaker_D | Five ?
+[19:45] Speaker_C | Yeah .
+[19:46] Speaker_A | Two three five two three fi and two . So it's r
+[19:58] Speaker_D | Who is the outlier ? Wh wh you said five ?
+[20:02] Speaker_C | No I said five .
+[20:07] Speaker_A | Okay just just do a sum .
+[20:14] Speaker_B | It's not very promising but you know
+"[20:16] Speaker_D | No because there are more yeah , we shouldn't sum like that ."
+[20:22] Speaker_A | Well maybe we should we should uh have a look globally glob
+[20:25] Speaker_D | Because the the last two questions is much more important than the rest actually . Otherwise we wouldn't we will not sell .
+[20:29] Speaker_C | Mm-hmm .
+[20:31] Speaker_B | Is there some some formula you're using that says you have to sum them up ?
+[20:37] Speaker_B | Well just leave it at that then .
+[20:40] Speaker_A | Yeah .
+[20:41] Speaker_C | Oops .
+"[20:42] Speaker_A | So maybe maybe w we can we should stick to general feeling . We can had uh have a out of these numbers , which which is that well we should go for it ."
+[20:46] Speaker_D | Yeah .
+"[20:58] Speaker_B | No . I think it it kind of you just lose information if you sum it , so ."
+"[21:02] Speaker_A | Okay . So let's move uh let's move on . Okay , now now we have to mm to estimate uh the cost okay . So I prepare an Excel sh uh an Excel sheet . Um well we are going to calculate the production costs . We should we should be below twelve point five ."
+"[21:06] Speaker_C | Yeah , sure ."
+"[21:31] Speaker_A | So I already uh put some pu some numbers here , okay . We are going to go through so this is the number the mm number of components we need for this thing . So it appears that there were things that we didn't thought about . Uh and also things that I uh I d I forget to uh to put like solar cells ."
+[21:56] Speaker_C | Mm-hmm .
+[21:58] Speaker_A | Oh yeah finally we say no . Okay so let's let's go let's go let go through all the lines . So hand dynamo . This something we didn't thought about .
+"[21:58] Speaker_C | Solar cells , yeah yeah yeah yeah yeah , we said no to that ."
+"[22:08] Speaker_B | You mean , charging it by shaking the banana ."
+[22:10] Speaker_A | Yeah .
+"[22:15] Speaker_A | Yeah . Okay so we we stick to battery , one ."
+[22:20] Speaker_C | Yeah .
+[22:21] Speaker_A | No kinetic also . I don't I don't see the difference between kinetic and dynamo .
+[22:32] Speaker_A | Ah you have to ah okay I see so kinetic is really uh shaking the banana . Crazy . Okay . So those banana is falling .
+[22:37] Speaker_B | Yeah .
+[22:37] Speaker_C | Yeah .
+[22:46] Speaker_A | Let's go ahead . So we we st only have one for battery . Uh then for electronics um so I didn't put anything for the .
+"[22:55] Speaker_C | So we have the regular chip on the print , which is one ."
+[22:57] Speaker_A | Yeah .
+[22:59] Speaker_A | Yeah .
+[22:59] Speaker_C | And that's it .
+[23:00] Speaker_A | Okay . No so we hin
+[23:03] Speaker_C | And we have sample speaker . Yeah . Yeah . the cost of that is very high .
+[23:16] Speaker_A | The beep .
+[23:18] Speaker_C | Uh-huh .
+[23:20] Speaker_C | Mm-hmm . Mm-hmm .
+[23:21] Speaker_A | Okay so I'll remove it .
+[23:25] Speaker_B | Yeah .
+[23:28] Speaker_C | And we have sev
+"[23:37] Speaker_C | Yeah . So we we'll put some extras , if there is something ."
+[23:40] Speaker_A | Yeah maybe . We'll see later . Okay so in for the case um
+[23:42] Speaker_B | Mm .
+"[23:47] Speaker_C | Okay . To reduce the cost , it's okay ."
+[23:51] Speaker_A | Because we have two things .
+[23:55] Speaker_A | No .
+[23:58] Speaker_B | Well d yeah it's monotonic but
+[24:03] Speaker_B | it's got but if you hold it
+"[24:06] Speaker_B | if you hold it that way that's two curved ,"
+"[24:10] Speaker_B | one on this side , one on that side , but they're opposite sides ."
+[24:13] Speaker_A | Well .
+[24:18] Speaker_D | Actually what's the differen
+[24:18] Speaker_A | What a what i if I put one here .
+[24:18] Speaker_B | This is actually I mean this probably
+"[24:22] Speaker_A | Yeah so let's put one here in the then instead of single oka all right . So we stick to plastic , it cost nothing ."
+[24:26] Speaker_C | Okay . Okay .
+[24:28] Speaker_B | Yeah .
+[24:30] Speaker_C | Yeah . That's right .
+"[24:34] Speaker_A | No , it's too no ."
+[24:37] Speaker_A | It's too expensive .
+[24:39] Speaker_B | Well when okay . Well we we'll come back we'll come back and see if we can fit it in .
+[24:40] Speaker_A | We're already at eleven .
+[24:44] Speaker_A | Okay so I put rubber one .
+[24:50] Speaker_B | Yeah .
+[24:54] Speaker_C | We don't have any push buttons .
+"[24:56] Speaker_B | No , we have two push buttons ."
+[24:57] Speaker_A | We have three .
+"[24:58] Speaker_C | No that is a scroll wheel itself , it'll be put in that ."
+[24:59] Speaker_B | Huh .
+"[25:01] Speaker_A | No no . We have two scroll , and we have three push buttons ."
+"[25:02] Speaker_C | Ah okay , okay ."
+[25:03] Speaker_B | Uh .
+"[25:05] Speaker_C | Okay , okay ."
+[25:09] Speaker_B | Okay it's gonna have to be plastic .
+"[25:09] Speaker_D | Actually whe whe when you wrote regular chip you should put two , because there is another chip here ."
+[25:15] Speaker_A | No it's no chip . This is just radio frequency . Th This is no chip .
+[25:19] Speaker_C | Yeah .
+[25:19] Speaker_D | Yeah but
+[25:20] Speaker_C | No . There's no chip there . It just emits the signal . And the receiver accepts it and that's it .
+[25:27] Speaker_A | Yeah .
+[25:28] Speaker_D | Fo i it does nothing actually ?
+[25:29] Speaker_A | No . Just only .
+"[25:30] Speaker_C | Just se sends the signal , that's it ."
+[25:35] Speaker_A | Okay w we didn't think a thought about uh integrated scroll wheel push buttons .
+[25:41] Speaker_B | Well I actually did um
+[25:43] Speaker_B | think about it myself but I thought you know because you could potentially you know you could be pushing it down as you scroll it for a instead of a turbo button but you know the turbo button does add that extra class .
+[25:55] Speaker_A | Yeah .
+[25:57] Speaker_B | You know . So I mean if we're if we're over budget then maybe we could we could rethink that .
+"[26:03] Speaker_A | Okay . So no L_C_D_ ,"
+"[26:06] Speaker_A | so for we have no button supplements , right ?"
+[26:09] Speaker_C | Yep . No .
+[26:21] Speaker_B | Yeah .
+[26:23] Speaker_B | No we're not we don't need anything special for the buttons .
+[26:26] Speaker_A | Okay so we are over budget .
+"[26:28] Speaker_C | Yeah . So first thing which we should take care of is ,"
+[26:32] Speaker_B | Make it plastic instead of rubber . And then we're basically o on budget except for you know ten cents .
+"[26:32] Speaker_C | instead of rubber , let it be plastic ."
+[26:33] Speaker_A | Yeah .
+"[26:39] Speaker_C | And uh that much money will be required for the base station , which is not there ."
+[26:43] Speaker_A | Yeah .
+[26:47] Speaker_A | So mayb in fact n we have to put two here
+[26:53] Speaker_A | because it cost nothing .
+[27:05] Speaker_A | Exactly exactly so we have margin for that stuff .
+[27:08] Speaker_C | That's right .
+[27:11] Speaker_A | Yeah maybe .
+[27:14] Speaker_A | Okay good .
+[27:15] Speaker_C | Yeah .
+[27:17] Speaker_A | Excellent .
+[27:20] Speaker_B | So what do we do with the extra profits ?
+[27:26] Speaker_B | Okay . The next fruit .
+[27:28] Speaker_A | Yeah . So well we're under the the the cost . So we can go to through to project evaluation .
+"[27:42] Speaker_D | Okay so now we have a product which nobody would would buy . Would yeah , would buy ."
+[27:48] Speaker_A | Sorry ?
+[27:55] Speaker_B | No it's people in in in Milan and uh in Paris that are gonna buy it . We're n yeah . We're not in Milan or Paris .
+"[27:58] Speaker_D | Ah would buy , yeah . Massively , yeah ."
+[28:02] Speaker_D | Yeah . Okay .
+"[28:04] Speaker_D | Uh you have been in Milan a couple of times , so . And you said the lowest ."
+[28:15] Speaker_C | Detachable battery .
+[28:16] Speaker_B | That's 'cause I'm sick of Milan .
+[28:16] Speaker_A | It did yeah .
+"[28:18] Speaker_A | Extra battery , yeah ."
+[28:28] Speaker_A | Well in fact I I did not know I didn't know really what to say here . If uh if you have any ideas of what we can we can say . So
+[28:40] Speaker_A | I don't I don't I don't understand what
+[28:43] Speaker_A | what they mean by satisfaction um and for and for example .
+[28:51] Speaker_A | Should it be more like um like a status of
+[28:55] Speaker_A | of the these meetings in fact .
+[28:58] Speaker_B | Yeah .
+"[28:59] Speaker_A | Yeah well in fact uh we we use a little bit the white board and the digital pen , not that much ."
+[29:05] Speaker_B | I dunno I think we had a fair bit of creativity .
+[29:07] Speaker_A | Oh yeah it's really creative .
+[29:24] Speaker_A | Yeah .
+[29:30] Speaker_C | They like that .
+[29:30] Speaker_B | see if they like it .
+[29:31] Speaker_C | Mm-hmm .
+"[29:32] Speaker_A | Yeah maybe we should go through , yeah an uh evaluation ."
+[29:36] Speaker_B | Because yeah the evaluation for us is is kind of
+[29:39] Speaker_C | Biased .
+[29:39] Speaker_B | pointless .
+[29:40] Speaker_A | So maybe you should we should do a kinda evaluation
+[29:48] Speaker_B | Yeah .
+"[29:50] Speaker_B | Because it it would also be interesting to uh you to know find out if we have a market in really young children as well , to see you know how to how to market this thing ."
+[29:50] Speaker_C | Mm-hmm .
+[29:59] Speaker_A | Yeah .
+[29:59] Speaker_C | Mm-hmm .
+"[30:00] Speaker_B | 'Cause you know if well I mean maybe you don't wanna give all your kids their own remote because they'll be changing the channel all the time but you know maybe in some households where there is you know a T_V_ for each kid , then you know , banana remote control could be fun for them as well . Might have to draw a face on it ."
+[30:15] Speaker_A | Mm-hmm .
+[30:18] Speaker_B | So but I think that's something we need to to work on next time is really finding out more about the target
+[30:26] Speaker_B | market .
+[30:27] Speaker_A | Yep .
+"[30:29] Speaker_A | Any any new ideas we could uh we could investigate next time ? Dunno , oranges ?"
+"[30:37] Speaker_C | Yeah . The cost of the thing can be made more than might be . Because I think it's just the optimal , what we have done for the cost which we are looking forward to ."
+[30:51] Speaker_C | Interface .
+[30:52] Speaker_D | Mm-hmm .
+"[30:52] Speaker_B | Well just the the the circuit board that we're using inside , I'm not sure really how complicated our um"
+[30:56] Speaker_C | Mm-hmm .
+"[31:00] Speaker_B | our needs are . I mean all we have is two push buttons and two scrollers , do we really need an integrated circuit to"
+[31:07] Speaker_A | Hmm .
+[31:07] Speaker_B | you know to process that .
+[31:08] Speaker_C | Mm-hmm . Mm-hmm . Mm-hmm .
+[31:10] Speaker_D | So more general remote control instead of just focusing on uh on T_V_ .
+[31:16] Speaker_C | That's right .
+[31:16] Speaker_D | The complexity shouldn't be much higher .
+[31:19] Speaker_C | Yeah .
+"[31:25] Speaker_B | And also fo you know for mood lighting and and stuff , that would be rather cool . I think that's actually something that should be in version two , is the ability to you know to control things other than the T_V_ and not just electronic equipment but you know the whole environment of the room ."
+[31:36] Speaker_C | Integrate .
+[31:39] Speaker_C | Mm-hmm .
+[31:45] Speaker_A | Okay . Very good .
+[31:51] Speaker_C | What else ?
+[31:52] Speaker_A | Well done . I think we we can go
+[31:53] Speaker_C | Okay .
+[31:57] Speaker_A | home . Yeah . Maybe maybe we can hassle the the
+[32:03] Speaker_A | production department to to make a a real prototype that we can use at home to to evaluate .
+[32:09] Speaker_C | Mm-hmm .
+[32:12] Speaker_B | Yep .
+[32:14] Speaker_C | Thank you .
+[32:15] Speaker_D | Bye .

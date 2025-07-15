@@ -1,0 +1,542 @@
+﻿[00:22] Speaker_D | Good afternoon . Sorry I'm a little late . Got stuck in the traffic .
+[00:26] Speaker_A | No problem .
+"[00:29] Speaker_A | Okay . That's possible on uh this time of day . Starts at three o'clock . Uh Uh , let me see . Our fourth and last meeting ."
+[00:37] Speaker_D | Yeah .
+[00:47] Speaker_A | There he is .
+[00:51] Speaker_A | Yes .
+"[01:20] Speaker_A | And this uh design , detailed design meeting uh we will discuss uh the look-and-feel of the design , the usability interface design , and we will do the product evaluation . Um , in order to do that we have this agenda ."
+"[01:40] Speaker_A | We'll have the prototype presentation first . Then we will set up some evaluation cri um criteria . Then we will look at the finance . Uh we will have to see if everything we wanna do is also possible within our budget . Because everything costs money , and the more functions you wanna have the more money it will cost . So we have to see if it fits within the twelve and a half Euro per remote ."
+"[02:09] Speaker_A | But we will see that later . Then we will do the project uh evaluation , and the closing after that . We've got forty minutes . So we will be finished at half past three . But first um"
+"[02:25] Speaker_A | we will do the this is prototype presentation . So , if some yeah if somebody wants step forward ."
+[02:33] Speaker_C | Okay .
+[02:37] Speaker_C | Well this is what me and Richard came up with . The default spot for the on-off button . The mute button just below that . Then there's the volume and channel selectors .
+"[02:51] Speaker_C | Simple plus-minus button . Uh we thought of a help button . If you hold it and you press another button , uh the help goes to the L_C_D_ screen ."
+[03:04] Speaker_C | Then there's the zero to one to zero buttons . A button for teletext . A button for the subtitles . And the company logo .
+[03:15] Speaker_C | So it's rather simple prototype . And uh we'll have to see from testing uh how the users take it .
+[03:26] Speaker_A | Okay .
+"[03:27] Speaker_D | Um , is this the moment where we ask or can ask questions about the functionality ?"
+[03:33] Speaker_C | Sure uh just pop in at any time .
+[03:33] Speaker_B | Yeah . Yeah .
+"[03:36] Speaker_D | Um , when you're in teletext there usually are buttons where you just you just press it and you g go to the next teletext page ."
+[03:56] Speaker_B | You put it uh you um came in uh page uh one hundred . Now you can use the normal uh one to zero buttons . And you But you can also uh use the um button th for uh changing the the channel .
+[04:00] Speaker_D | Mm-hmm .
+[04:15] Speaker_D | Okay .
+[04:26] Speaker_D | Yeah .
+[04:29] Speaker_A | Okay . Uh but um I thought in a few meetings earlier we uh uh tried to keep it uh simple . Uh just a few buttons and large buttons . But uh I think these are altogether quite a quite a few buttons .
+[04:40] Speaker_B | Oh yeah ?
+[04:50] Speaker_A | So I'm wondering if we if we neely really need all of those buttons .
+[04:57] Speaker_C | I think if you look at
+"[04:59] Speaker_C | most controls , they've got more buttons than this . And well the on-off button , it's it's a necessity . You can't drop that one . The volume and channel buttons , you need you obviously need those those ."
+[05:02] Speaker_A | That's right .
+[05:03] Speaker_B | Yeah .
+[05:06] Speaker_A | Yeah .
+[05:06] Speaker_B | Yeah .
+[05:13] Speaker_A | Yeah .
+[05:14] Speaker_C | The mute button could be replaced uh by pressing the volume-down button twice . So we could cancel that one . I think the help button really is necessary because there's no other way to know when someone wants to know what a button does .
+[05:26] Speaker_B | Yeah yeah .
+[05:34] Speaker_A | Mm .
+[05:54] Speaker_A | Yeah . Okay .
+"[05:56] Speaker_C | Well , you can't"
+[05:59] Speaker_C | leave out the number buttons I guess .
+[06:01] Speaker_A | Yeah . Uh teletext and subtitles are yeah necessary . Okay .
+[06:04] Speaker_C | Yeah . So it's rather basic already .
+[06:04] Speaker_B | Oh .
+[06:04] Speaker_D | Yeah .
+[06:08] Speaker_D | Yeah . Think so . That's what I pointed out earlier . If you just make a control for just the T_V_ there's just not much to gain here .
+[06:15] Speaker_B | Yeah .
+[06:15] Speaker_A | Yep .
+[06:17] Speaker_A | Okay . So we had somebody about th interfa Something about the design of the buttons there ?
+"[06:23] Speaker_C | Yeah , they're It's rather hard to draw on the white-board . But they're supposed to be equal sized , round , with a with a little logo on it for the for the volume , the the triangle and stuff . Just for recognition ."
+[06:24] Speaker_A | Just n normal plain buttons .
+[06:36] Speaker_A | Yeah . 'Kay .
+[06:42] Speaker_A | No .
+[06:47] Speaker_A | No .
+[06:52] Speaker_A | Yeah . Okay .
+[06:54] Speaker_C | So and for the materials we've just chosen for rubber buttons . With a a different colour than the case . So they jump out .
+[06:57] Speaker_B | Nay .
+[06:58] Speaker_A | Yep .
+"[07:05] Speaker_A | Okay . That's nice . Then because we only have thirty minutes left , I will move on to the finance part , which is pretty exciting , to see if it's all possible what we wanna do . And I can tell you"
+[07:05] Speaker_C | And uh that's about it .
+[07:24] Speaker_A | that we're going to have a pretty hard time producing this for twelve and a half Euros .
+[07:33] Speaker_B | Mm .
+"[07:34] Speaker_A | If we see I don't know if I've filled in correctly , so just correct me if you see uh something wrong . I counted two batteries . But maybe we can also use one . I don't know if it's possible ."
+[07:45] Speaker_D | Since it rechargeable .
+[07:46] Speaker_A | It's rechargeable . That's right .
+[07:51] Speaker_A | Okay . That's two Euros off . We need the advanced chip . So there's not much to uh
+[07:57] Speaker_C | Yep .
+[08:12] Speaker_B | Mm .
+"[08:15] Speaker_A | I don't know , but I think the single curved is good for design , and also for the display to have a prominent place on the remote control . I think we have to keep that ."
+[08:20] Speaker_B | Yeah .
+[08:25] Speaker_C | Yes .
+[08:27] Speaker_B | Yeah .
+[08:28] Speaker_A | Then we have the case material supplements . It's plastic . It's the cheapest one we need . So that's uh not much to save either . But then the biggest costs are the buttons .
+"[08:42] Speaker_A | So maybe we really should try to discard some buttons to uh keep our costs low . Because you have to we will have to get the twelve and a half Euros at the end . Um ,"
+[08:46] Speaker_B | Okay .
+[08:50] Speaker_B | Yeah .
+"[09:00] Speaker_A | so if we Let's fir first count the buttons we have now . Because I Sixteen . Nah , that will be even more then . Eighteen Euros ."
+"[09:04] Speaker_B | Sixteen , I believe so ."
+"[09:16] Speaker_A | So ,"
+[09:16] Speaker_B | Uh seventeen .
+[09:18] Speaker_A | seventeen .
+[09:19] Speaker_B | Uh with the help button .
+[09:22] Speaker_C | Yep .
+"[09:22] Speaker_A | Okay , including the help ? Yeah . Uh seventeen . I think we can uh discard the help and the mute button"
+[09:22] Speaker_D | Damn .
+[09:23] Speaker_B | Yeah .
+"[09:30] Speaker_A | uh by pressing down volume long , or pressing down a a number"
+[09:37] Speaker_C | Yep .
+[09:37] Speaker_A | long . That saves us uh one Euro already . 'Cause then we have got fifteen I think ?
+[09:43] Speaker_C | Yeah .
+[09:44] Speaker_D | Wouldn't Yeah . No . That wouldn't be an option .
+[09:45] Speaker_A | Fifteen buttons .
+"[09:49] Speaker_D | Uh , d I assume you'd count the volume and channel thingies for two buttons each , right ?"
+"[09:54] Speaker_A | No those are one , I think ."
+[09:55] Speaker_B | Yeah .
+"[09:57] Speaker_D | Well , think actually there're two buttons , aren't they ?"
+"[10:14] Speaker_A | Yeah but th it's not stated in this files . So maybe we can we can even make one button with the volume and the channel in one , by pressing"
+[10:16] Speaker_B | It's just a .
+"[10:24] Speaker_D | Well I was thinking , maybe you could just integrate three of those numbers to one button ."
+[10:30] Speaker_A | That's possibility as well .
+[10:32] Speaker_D | That would cut the cost .
+[11:10] Speaker_A | Plus . Min .
+[11:17] Speaker_A | Uh s yeah channel . Yeah w
+[11:24] Speaker_A | Yeah th I think they count uh the materials .
+[11:32] Speaker_A | Yeah on the chip there . Yeah .
+[11:34] Speaker_C | Yeah .
+[11:35] Speaker_D | Mm-hmm .
+[11:36] Speaker_A | That's right . That's right .
+[11:38] Speaker_D | Yeah .
+"[11:45] Speaker_D | But , I think this really is four buttons anyhow ."
+[11:49] Speaker_C | Yes .
+"[11:51] Speaker_A | Yeah . Maybe it is , but then it seems to me that it's impossible to get the twelve and a half Euros . Also the L_C_ display , I think it's , I think it's too expensive for the display we use . I think they uh try t"
+[12:01] Speaker_D | Yes .
+[12:03] Speaker_C | Uh that's that's a big cost .
+[12:11] Speaker_C | If we leave out the display we can also save money on the chip .
+"[12:25] Speaker_D | Only the docking station , I guess ."
+[12:27] Speaker_A | Yeah .
+[12:29] Speaker_C | Which isn't the the docking station isn't even in this c s schematic .
+[12:35] Speaker_A | No . That's extra . That's extra . That's right .
+[12:35] Speaker_C | So it's not even taken into the price .
+[12:40] Speaker_D | Maybe we should to a different supplier .
+[13:11] Speaker_C | My mother can't even send send an S_M_S_ message .
+[13:15] Speaker_A | Yeah . That's a point .
+[13:25] Speaker_B | Yeah .
+[13:36] Speaker_A | Yep .
+[13:36] Speaker_C | Yeah .
+[13:39] Speaker_A | No .
+"[13:41] Speaker_D | Well , since the market research"
+"[13:44] Speaker_D | indicated that older people spend their money easier , more easy , maybe it's feasible to just put the price of the remote up a little . Especially since we have those nice features ."
+[13:55] Speaker_B | Nay .
+[14:05] Speaker_C | The margin will get too small . Yeah .
+[14:09] Speaker_B | But it is possible to make one uh for uh twelve fifty .
+[14:14] Speaker_B | I don't think so .
+[14:14] Speaker_A | It is . If you leave out the L_C_ display . And if you use less buttons .
+[14:15] Speaker_D | It would be a be a pretty rigid one .
+[14:20] Speaker_B | Yeah .
+[14:23] Speaker_A | Say Or you can take the single chip .
+[14:24] Speaker_C | Ten .
+[14:32] Speaker_B | Yeah .
+[14:35] Speaker_B | But we want to make a
+[14:37] Speaker_A | But then w
+[14:43] Speaker_A | Good looking .
+"[14:43] Speaker_B | Uh , wi with n Oh , with uh"
+[14:49] Speaker_A | Yeah .
+[14:56] Speaker_D | Or b
+"[14:57] Speaker_D | Basically becoming a choice between like either a good remote and a higher production cost , or just any other remote control ."
+[15:09] Speaker_A | Or we can leave out the ten buttons and take one scroll wheel for the programme numbers .
+[15:17] Speaker_B | Scroll-wheel's one .
+[15:17] Speaker_A | Then w
+[15:21] Speaker_B | Yeah .
+[15:34] Speaker_C | We're getting closer .
+[15:38] Speaker_D | But how does scroll-wheel work here ?
+[15:48] Speaker_A | Or maybe you can
+"[15:51] Speaker_A | um scroll . If you scroll you will see the numbers on the L_C_D_ display . Until you've got the right number , then you push it ."
+[15:58] Speaker_C | Yeah .
+[16:01] Speaker_D | That would bring up the price of the scroll-wheel also .
+[16:05] Speaker_A | Alright . It's gotta scroll and push . Okay but then you you can push uh some other button as well .
+[16:05] Speaker_D | Integrated scroll-wheel push-button . But Yeah .
+[16:06] Speaker_B | Mm .
+[16:13] Speaker_C | You could just not scroll for a half a second .
+"[16:16] Speaker_A | Yeah . That's right . So if you scroll to a number and then you wait a half second , then it g turns to that channel ."
+[16:17] Speaker_C | So you won't need a button .
+[16:22] Speaker_D | I think that would be like the end of our usability .
+[16:41] Speaker_A | And the regular chip is not possible ? It has to be advanced ?
+"[16:46] Speaker_C | If you want to use an L_C_D_ screen you you need an advanced chip , yes ."
+[16:48] Speaker_A | It has to be advanced . Yeah . Okay . And we can save a Euro by a flat design .
+[16:50] Speaker_B | Hmm .
+[16:59] Speaker_A | That's an option we can Then we're almost there .
+[17:01] Speaker_C | Yep .
+[17:01] Speaker_B | Ja ja .
+[17:06] Speaker_C | Yeah if you v could just leave out one more button .
+"[17:13] Speaker_B | Yeah , or we have to uh skip the subtitle uh button ."
+[17:16] Speaker_C | Yeah .
+[17:23] Speaker_A | Can we use can't we integrate the teletext and the subtitles in one button ?
+[17:28] Speaker_C | I think so . Yeah .
+"[17:28] Speaker_B | Uh , yeah ."
+[17:29] Speaker_A | If you push it three times ?
+"[17:29] Speaker_D | Well , think it's pretty much the teletext subtitles are right now you just push the teletext button , go to page eight eight eight , and teletext disappears . But the subtitles stay there ."
+[17:31] Speaker_B | Yeah .
+[17:37] Speaker_A | Yeah .
+[17:37] Speaker_B | Yeah .
+"[17:48] Speaker_B | One m uh one b uh , a few buttons ."
+"[17:49] Speaker_D | Well , that could be just uh like the scroll to eight , click , scroll to eight , click , scroll to eight , click ."
+[17:54] Speaker_C | Yeah . Okay .
+"[17:56] Speaker_D | But then again that would be d j just pretty much not an option for older people , who don't even know what a scroll-wheel is ."
+[18:02] Speaker_C | No .
+[18:04] Speaker_B | Yeah .
+[18:05] Speaker_D | Holding a
+[18:05] Speaker_A | No .
+[18:07] Speaker_D | remote with which they expect to have like ten buttons for the numbers one to zero .
+[18:16] Speaker_D | With only five buttons on it .
+[18:19] Speaker_D | And a scroll-wheel .
+"[18:21] Speaker_A | I think if you make a good advertisement uh on television and in the in the guide , you can explain to the people how to use the scroll wheel ."
+[18:35] Speaker_A | If you just make it real simple .
+"[18:40] Speaker_A | Because it saves it saves a lot of money . And we can keep our L_C_D_ screen , which can provide extra information . How to use the scroll wheel . How to use the other bu buttons as subtitles ."
+[18:48] Speaker_D | True . True .
+[18:50] Speaker_B | Hmm .
+[18:53] Speaker_A | And it's good for the innovative design as well . If you would erase these .
+[19:02] Speaker_A | Mm eraser ?
+[19:29] Speaker_D | That's a pretty big scroll wheel .
+"[19:50] Speaker_A | Something like that . Then , yeah . We've got the scroll-wheel . One , two , three , four , five buttons , if we erase this one ."
+[20:14] Speaker_A | And these are two buttons then .
+[20:34] Speaker_C | If you press the volume button you can control the volume with the scroll-wheel .
+[20:36] Speaker_A | Yeah .
+[20:39] Speaker_C | So that would save two buttons . If you do the same for the channel .
+[20:41] Speaker_A | Yeah .
+"[20:43] Speaker_A | That's really a good good idea , I think ."
+[20:51] Speaker_A | And it will make the use of the scroll wheel uh more obvious indeed .
+[20:55] Speaker_C | More obvious .
+"[20:59] Speaker_A | So we make one for the volume , one for the channel ."
+"[21:11] Speaker_A | Plus scroll . That's right . So we've got one , two , three . Yeah , we can leave the teletext in if we want ."
+[21:23] Speaker_B | Yeah .
+[21:23] Speaker_A | That's m that's better .
+[21:24] Speaker_D | So this is five buttons .
+"[21:25] Speaker_C | If we leave out all those buttons , perhaps you can go with the flat flat case . And make it smaller overall ."
+"[21:34] Speaker_C | So if you put the the volume and channel buttons on the same height as the on-off button , the screen right behi under that , than the scroll button"
+[21:35] Speaker_A | Y yeah .
+[21:41] Speaker_A | Mm yeah .
+[21:45] Speaker_C | you get a a much smaller remote .
+[21:47] Speaker_B | Uh yeah .
+[21:48] Speaker_A | That's right .
+[21:50] Speaker_C | And it
+[21:51] Speaker_A | So we can
+[21:53] Speaker_A | decrease this one to four buttons .
+[21:56] Speaker_C | Yeah ?
+[21:57] Speaker_D | Right now we have five .
+[22:06] Speaker_A | Yeah . That's no problem .
+[22:12] Speaker_A | Yeah .
+"[22:13] Speaker_A | Yeah . It's uh it's more the moulds in which they are being made , I think . Single curved is really easy to just fill in . And cases come right out of the machine . And single curved you have to have a different uh different machine , than a flat one ."
+[22:19] Speaker_D | Mm .
+"[22:30] Speaker_A | I think this is a really easy one . Um ,"
+"[22:35] Speaker_A | what does everybody think about a flat or a single curved design ? Freek , what do you think ?"
+[22:47] Speaker_C | Yeah .
+[22:49] Speaker_C | Richard's argument was very good . Yeah .
+[22:50] Speaker_B | Yeah .
+[22:50] Speaker_D | all these changes are not really okay with me . But since
+[22:51] Speaker_A | Yeah .
+[22:53] Speaker_A | Yep .
+[22:56] Speaker_A | We have to cut costs . Yeah . Yeah I'm ag
+[22:57] Speaker_D | we just have to .
+[22:58] Speaker_B | Yeah .
+[23:00] Speaker_D | I'd rather just go to the board and
+[23:04] Speaker_A | Ask for more money .
+[23:04] Speaker_D | get us to spend eighteen dollars a a remote .
+[23:06] Speaker_A | Yeah .
+[23:08] Speaker_A | Yeah . I am agreeing with the usability . Yeah .
+[23:09] Speaker_D | Or do some market research and see what the options are .
+"[23:13] Speaker_A | Yeah . But th um I think we can then keep the single curved one . Just to express our L_C_D_ screen a bit more . So people will use it more , and especially for the help functions , it will be good if we have scroll bar , scroll button . It will be necessary to have good help function , as well ."
+[23:23] Speaker_C | Yep .
+[23:23] Speaker_D | Yeah .
+[23:24] Speaker_B | Yeah .
+[23:43] Speaker_A | So this is scroll .
+[23:56] Speaker_A | I think it was better to have this price list a bit earlier . Before we went on to the to the whole design .
+[24:01] Speaker_B | The th
+[24:06] Speaker_A | I'm glad we could make a bit .
+[24:10] Speaker_D | Yeah .
+"[24:11] Speaker_A | It's pretty different , if you saw the last one than this one ."
+[24:18] Speaker_B | No .
+[24:22] Speaker_A | Yeah . It will .
+[24:22] Speaker_D | to get this to sell .
+[24:25] Speaker_A | Yeah .
+[24:27] Speaker_D | 'Cause if older people like familiar forms and familiar stuff . This is not familiar for them .
+[24:35] Speaker_D | So we're gonna have to do a lotta convincing them .
+"[24:45] Speaker_A | That's right . We can let l We can stick it out , a bit . Like a old old buttons . Maybe that's recognisable for them as well . Yeah . That's a good one ."
+[24:45] Speaker_D | Yeah .
+[24:51] Speaker_B | Yeah . Yeah .
+[24:56] Speaker_B | Yeah .
+"[24:58] Speaker_A | So , I'm afraid we have to move on . And it's uh it's b uh less frightening , I think . If they see this design they think oh , there are only five buttons , and uh But we will see ."
+[25:13] Speaker_B | Yeah .
+[25:13] Speaker_D | That's true . Might uh might be confusing too .
+[25:16] Speaker_A | Yeah . That's definitely right .
+"[25:16] Speaker_D | They'd be like , what ? Only five buttons ?"
+[25:17] Speaker_B | Mm-hmm .
+[25:20] Speaker_A | Yeah .
+[25:28] Speaker_A | That's right . I would buy it if I was six . No I don't know . What it costs under twelve and a half Euros ? No ?
+"[25:37] Speaker_A | Uh , yes they are ."
+[25:40] Speaker_A | No . But we can go on with the project evaluation .
+[25:46] Speaker_D | Mm-hmm .
+"[25:49] Speaker_A | Let's see . I can sit down I think . We still have fifteen minutes left , so we're nice on schedule ."
+[25:55] Speaker_C | Yeah .
+"[25:57] Speaker_A | Um , the project process ."
+"[26:00] Speaker_D | So um , I like set up all these criteria ."
+[26:04] Speaker_A | Evaluation criteria . That's right . That was the the point I forgot .
+[26:04] Speaker_D | And evaluation of the
+[26:08] Speaker_D | thingy .
+[26:22] Speaker_D | Five more minutes ?
+[26:25] Speaker_D | Okay .
+[26:36] Speaker_A | Uh yes . What ?
+"[26:42] Speaker_D | 'Kay so I did some literature study study , and analysis of the requirements we set up earlier ."
+[26:48] Speaker_A | Uh yeah .
+"[26:49] Speaker_D | Translated it into criteria , which would be these . Um , is the remote fancy ? The shape , look and feel . Innovative ? What new functions are there ? Uh , easy to use ?"
+"[27:03] Speaker_D | Uh , learnability is a very important factor here . Uh , is it functional ? Are there not too many functions uh among the functions ? And are the those functions that are there , are they useful ? And the cost ."
+[27:20] Speaker_D | The target group . Is the remote really for the group we're making it for ? And recognability . If our company is If it is easily recognisable that our company made it ?
+[27:38] Speaker_D | So we're supposed to evaluate it right now .
+[27:41] Speaker_A | Okay .
+[27:44] Speaker_D | Let's see .
+"[27:47] Speaker_D | Oh I have to say this was a little hard , because the minutes of our last meeting"
+[27:53] Speaker_D | were not here .
+"[27:53] Speaker_A | Yeah , that's because my pen failed to upload his data . I tried to but it's uh it's giving errors by downloading the software ."
+[27:54] Speaker_B | Mm .
+[27:57] Speaker_D | Okay .
+[27:59] Speaker_D | Interesting .
+[28:04] Speaker_B | Mm . 'Kay .
+"[28:07] Speaker_D | Is the design fancy , on a scale of one to seven ?"
+[28:10] Speaker_A | I think it's fancy .
+[28:12] Speaker_C | Six .
+[28:13] Speaker_A | Yeah .
+[28:14] Speaker_B | Uh six . Yeah .
+[28:14] Speaker_D | We all go for six ? Good .
+[28:15] Speaker_A | Six .
+"[28:20] Speaker_D | Um , is the design innovative ?"
+[28:24] Speaker_B | Mm . Sh
+"[28:24] Speaker_D | I think so , with our L_C_D_ screen , docking station , scroll-buttons ."
+[28:29] Speaker_C | Yeah .
+[28:30] Speaker_D | Seven ?
+[28:31] Speaker_B | Yeah .
+[28:39] Speaker_A | Yeah . That's right .
+[28:42] Speaker_B | Mm . Not really .
+[28:43] Speaker_A | That's a bit dodgy .
+[28:50] Speaker_A | I would say four . Four or five between . Between four or five .
+[28:51] Speaker_C | Four or five . Yes .
+[28:52] Speaker_B | W Yeah . Four .
+"[28:55] Speaker_D | I'd go for four , too ."
+[28:56] Speaker_B | Yeah .
+[28:56] Speaker_A | Yeah .
+[29:01] Speaker_A | Is it functional ?
+"[29:02] Speaker_D | Is the design functional ? Um , do we have all functions that we want to include ?"
+[29:07] Speaker_A | Yes .
+[29:08] Speaker_B | N Yeah .
+[29:08] Speaker_D | I think we do . Do we have too many functions ? I don't think so . It's pretty slim .
+[29:10] Speaker_C | No .
+[29:11] Speaker_B | No .
+[29:11] Speaker_A | No .
+[29:12] Speaker_A | Think it's uh seven .
+[29:15] Speaker_D | Seven .
+"[29:18] Speaker_D | Oh , and do we um"
+[29:29] Speaker_B | Mm m
+[29:29] Speaker_D | R_S_I_ influences ? Think we do .
+"[29:29] Speaker_C | Mm , we haven't thought of that one ."
+[29:32] Speaker_A | It was . I had them worked out .
+"[29:37] Speaker_A | Mm . They are ugly , not very functional , and getting lost ."
+[29:45] Speaker_B | Yeah .
+[29:45] Speaker_D | Are the production costs within the preset limits ? Well they are now .
+[29:49] Speaker_A | Yeah .
+[29:54] Speaker_D | Does the design fit the group of focus ?
+[29:58] Speaker_C | I think that's a three .
+"[29:58] Speaker_B | Mm , th yeah ."
+"[30:00] Speaker_A | No I think with our new radio button , I think it's uh"
+[30:02] Speaker_B | Yeah .
+[30:05] Speaker_A | I think it's better .
+[30:08] Speaker_D | I don't know .
+[30:14] Speaker_D | I think a radio button is not exactly what older people expect to have a remote control .
+"[30:20] Speaker_B | Uh , yeah , true ."
+[30:21] Speaker_A | Yeah .
+[30:23] Speaker_A | I would give it a four .
+[30:29] Speaker_D | I'm not sure . I think I'd go for two .
+[30:35] Speaker_D | 'Kay .
+"[30:43] Speaker_D | Is the company company recognisable ? Well , we have the logo there ."
+[30:45] Speaker_A | Yes it is . Yeah .
+[30:45] Speaker_B | Yeah yeah .
+"[30:52] Speaker_A | And they wanna put fashion in their products . Uh in the slogan of the company . And we have the removable front cases . So , I think it's very recognisable . Yep ."
+[31:02] Speaker_B | Yeah .
+[31:02] Speaker_D | Yeah .
+[31:10] Speaker_D | So that will be this .
+"[31:15] Speaker_D | I was also supposed to calculate the score , but"
+[31:19] Speaker_D | thought we would have another private thingy after this .
+[31:21] Speaker_A | We've got a calculate it .
+[31:24] Speaker_A | Mm ?
+[31:25] Speaker_C | Twendag sieven an twendag .
+[31:28] Speaker_A | N We've gonna We're going to evaluate it .
+[31:29] Speaker_D | We're gonna go to our other room again .
+"[31:32] Speaker_D | Well , anyhow . These are seven factors times seven is forty"
+[31:36] Speaker_D | something . Two ?
+[31:39] Speaker_D | No . Nine ?
+"[31:42] Speaker_D | Uh , minus one ."
+[31:50] Speaker_D | Minus four .
+[31:53] Speaker_D | So that would be minus eight .
+[31:56] Speaker_D | Forty one out of forty nine .
+[31:56] Speaker_A | Forty one .
+[32:05] Speaker_A | Around eighty percent . What is it ?
+[32:06] Speaker_D | Okay .
+[32:08] Speaker_D | Guess I'll just type that in on the bottom here .
+[32:14] Speaker_A | That's eighty four percent .
+[32:22] Speaker_B | Hmm .
+[32:22] Speaker_A | I think that's a pretty nice score .
+[32:25] Speaker_C | Yeah .
+[32:25] Speaker_B | Yeah .
+[32:37] Speaker_D | Hmm . 'Kay . So that will be the evaluation .
+[32:41] Speaker_A | Okay . Thank you .
+"[32:46] Speaker_A | So ,"
+[32:48] Speaker_A | that brings us to the project evaluation .
+[32:54] Speaker_A | Yep .
+"[32:56] Speaker_A | Thank you . Project process . Did we move through the right phases , you think ? Along the process ?"
+[33:04] Speaker_C | Yes .
+[33:06] Speaker_D | Think we should have a should have had the finance thingy a lot earlier .
+[33:11] Speaker_B | Yeah .
+[33:12] Speaker_A | That's right .
+[33:13] Speaker_D | In the design phase .
+[33:15] Speaker_A | So lack of information about prices .
+[33:18] Speaker_D | Yeah .
+[33:18] Speaker_C | Yeah . That's true .
+[33:18] Speaker_B | Yeah .
+[33:20] Speaker_D | Definitely .
+[33:20] Speaker_A | Okay .
+[33:30] Speaker_A | Okay . Satisfaction . Was there room for creativity ?
+[33:34] Speaker_D | No .
+[33:41] Speaker_B | Yeah .
+[33:43] Speaker_A | The room was Yeah .
+[33:44] Speaker_B | Yeah .
+[33:49] Speaker_D | And I would've liked to go for the
+[33:52] Speaker_D | younger users also .
+[33:56] Speaker_D | And just to be able to access internet and
+[33:59] Speaker_D | get something of your own .
+[34:01] Speaker_B | Mm .
+[34:04] Speaker_A | Restrictions .
+[34:09] Speaker_A | Internet access .
+[34:13] Speaker_A | 'Kay . Leadership . Was it clear what everybody had to do uh according to their roles and functions ?
+[34:24] Speaker_C | Yes .
+[34:24] Speaker_D | Yeah .
+[34:24] Speaker_A | Yeah ?
+[34:24] Speaker_B | Yeah .
+"[34:26] Speaker_A | Teamwork ? Did it work out ? Working together ? Also , you two of you with the uh last phase ?"
+"[34:31] Speaker_C | Yes , was okay ."
+[34:32] Speaker_B | Yeah .
+[34:34] Speaker_A | Nice .
+"[34:40] Speaker_C | The tasks are very structured , so you can just do step by step and it's very easy ."
+[34:45] Speaker_B | Mm-hmm .
+[34:45] Speaker_D | Mm-hmm .
+[34:51] Speaker_A | Okay .
+[34:53] Speaker_A | Were the means sufficient for the tasks uh we had to do ? Or were they too much ?
+[34:59] Speaker_B | Mm .
+[35:05] Speaker_C | The digital the digital pen is very nice .
+[35:05] Speaker_A | Smart-board .
+[35:07] Speaker_B | Yeah .
+[35:10] Speaker_C | Yes . Yeah .
+[35:17] Speaker_A | Failed download .
+[35:32] Speaker_A | So you rather wanted to have a flip-over ? Or something else ?
+[35:37] Speaker_C | A flip-over or a more precise uh
+[35:41] Speaker_B | Yeah .
+[35:42] Speaker_D | Yeah .
+"[35:42] Speaker_A | Faster as well , I think . Yeah ."
+[35:42] Speaker_C | digit Yes .
+[35:48] Speaker_A | Flip-over .
+[36:03] Speaker_A | Yeah .
+"[36:12] Speaker_D | Yeah , I tried to open the file on my laptop , but"
+[36:14] Speaker_B | So Yeah ? No ?
+[36:15] Speaker_C | No . Didn't work .
+[36:17] Speaker_A | Uh you need a smart board uh application I think .
+[36:19] Speaker_D | Yeah .
+[36:21] Speaker_B | T can uh can you export it uh like a Yeah .
+[36:22] Speaker_A | But I think you can Yeah . Should be possible . Yeah you can export it as image .
+[36:29] Speaker_D | Should've done that then .
+[36:33] Speaker_A | So the sharing of the information was uh was okay ?
+[36:37] Speaker_D | Pen is here .
+[36:38] Speaker_C | Yes .
+"[36:38] Speaker_A | Uh , network . Yeah , pen is here on the table ."
+[36:38] Speaker_B | Uh .
+"[36:46] Speaker_B | Uh , yeah ."
+[36:52] Speaker_A | Yeah . It's possible .
+[36:55] Speaker_D | Mm . Yeah .
+[36:55] Speaker_B | It's possible .
+[36:57] Speaker_A | Okay .
+[36:58] Speaker_B | Okay .
+[37:00] Speaker_A | That's nice . Have we found new ideas for
+[37:23] Speaker_A | Yeah .
+[37:30] Speaker_A | Yeah .
+[37:36] Speaker_D | Mm-hmm .
+[37:38] Speaker_B | Yeah .
+[37:39] Speaker_D | Yeah .
+[37:41] Speaker_B | Yeah .
+[37:43] Speaker_C | Yeah .
+[37:48] Speaker_A | How do we call ?
+[38:04] Speaker_A | criteria .
+[38:14] Speaker_A | Okay .
+"[38:16] Speaker_A | Mm , any more ideas ? Or questions about the project ? Or about the product ?"
+[38:24] Speaker_B | Mm .
+[38:28] Speaker_A | Because I think
+[38:34] Speaker_A | then that we get to our last sheet .
+[38:40] Speaker_A | Are the costs within the budget ?
+[38:43] Speaker_B | Mm yeah .
+[38:44] Speaker_A | Yeah .
+[38:44] Speaker_D | They are .
+[38:50] Speaker_A | Docking station . That's a good point . But maybe because of the docking station the price of the remote can also be a little bit higher ?
+[39:00] Speaker_D | Yeah .
+[39:01] Speaker_C | Perhaps .
+[39:01] Speaker_A | Uh and I think you can compensate that as well .
+[39:04] Speaker_B | Mm .
+"[39:05] Speaker_A | So I think that shouldn't be the biggest problem , because it's very cheap to make as well ."
+[39:10] Speaker_C | Mm-hmm .
+[39:11] Speaker_B | Yeah .
+[39:11] Speaker_A | Do we think we gonna get the twelve and a half million ? Or what was it ? Fifteen fifteen million . I think we will . If we gonna export this product . It's innovative . Especially in America . People are pretty decadent .
+[39:16] Speaker_D | Fifty grand .
+[39:24] Speaker_D | Yeah .
+[39:29] Speaker_B | Yeah . Mm .
+[39:31] Speaker_A | Sometimes .
+"[39:32] Speaker_D | Yeah , still I think I mean if we're n gonna make a scroll-button anyway"
+[39:33] Speaker_B | Yeah .
+[39:37] Speaker_A | You can do more .
+[39:38] Speaker_D | it'd be more for the younger people than for the older people . So maybe we should just re-focus .
+[39:41] Speaker_B | Ah .
+[39:41] Speaker_A | Yeah .
+[39:45] Speaker_A | Just put it on the market for everybody . You can you can change markets where by changing the front covers . That's one thing you can change it with . So you can also try to uh reach the younger people by uh putting fancy covers on on the market . Just as a test . See how it works . That's I think a good advantage .
+[39:47] Speaker_D | Or specifically for younger people .
+[39:47] Speaker_B | Ah .
+[39:53] Speaker_B | Ah .
+[39:54] Speaker_D | That's true .
+"[40:09] Speaker_D | Yeah , I think then it would be way more uh popular with younger people than it is , than would be with"
+[40:19] Speaker_D | older people .
+[40:20] Speaker_A | Yeah .
+[40:21] Speaker_D | Even if it were their covers .
+[40:23] Speaker_B | Hmm .
+"[40:23] Speaker_A | Uh , uh then I think we can have our little celebration , right now ."
+[40:30] Speaker_A | That's it . Yeah . I think we still have to fit in one more questionnaire . I think . I don't know . I didn't get a message
+[40:34] Speaker_B | Where's the champagne ?
+[40:35] Speaker_D | 'Kay .
+[40:40] Speaker_A | from the from ending of the Oh I think I have one now . Five more minutes ? Oh that's nice .
+[40:44] Speaker_D | Oh you did .
+[40:47] Speaker_B | Okay .
+[41:01] Speaker_D | Mm-hmm .
+[41:02] Speaker_B | Yeah .
+"[41:18] Speaker_A | Export as picture , I think ."
+[41:22] Speaker_D | Yeah .
+[41:22] Speaker_B | Yeah .
+"[41:36] Speaker_A | Hmm . This is another network , I guess ."
+[41:49] Speaker_A | Does somebody see the project folder ? I don't .
+[41:57] Speaker_A | Hmm .
+[42:00] Speaker_A | My Documents .
+"[42:09] Speaker_A | Yeah , I'll just put it in My Documents and uh That's okay ."
+"[42:10] Speaker_D | Yeah , it probably will ."
+[42:21] Speaker_A | Okay .
+[42:40] Speaker_B | Okay .
+[42:40] Speaker_C | Okay .
+[42:41] Speaker_A | Summary of the project .
+[42:44] Speaker_D | Are we supposed to go into our own rooms again ?
+"[42:48] Speaker_A | Yeah . Questionnaire . I think you all get a questionnaire in in your room . And then I'll meet you in I think about ten minutes , or something . Okay . Thank you ."
+[42:50] Speaker_D | Yeah .
+[42:51] Speaker_B | Yeah .
+[42:57] Speaker_C | Okay .
+[42:57] Speaker_B | Okay .
+[43:03] Speaker_A | Hopefully my pen will download its software .
+[43:07] Speaker_A | Oh .
+[43:07] Speaker_A | Or data .
+[43:10] Speaker_D | That'd be nice .

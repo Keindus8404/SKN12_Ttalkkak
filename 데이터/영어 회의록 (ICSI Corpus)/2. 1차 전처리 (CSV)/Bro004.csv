@@ -1,0 +1,742 @@
+﻿[00:02] me018 | I think I 'm zero .
+[00:04] fn002 | Ah -
+[00:04] me006 | Wh - what causes the crash ?
+[00:04] me013 | Unprecedented .
+"[00:04] me034 | Hello , hello , hello , hello ."
+[00:05] me018 | Did you fix something ?
+[00:07] me034 | Hello .
+"[00:09] fn002 | Five , five ."
+"[00:09] me034 | Hello , hello ."
+"[00:09] me006 | Oh , maybe it 's the turning turning off and turning on of the mike , right ?"
+"[00:22] me013 | Uh , you think that 's you ?"
+[00:24] me013 | Oh .
+[00:25] me034 | Aaa - aaa - aaa . OK . That 's me .
+[00:34] me013 | OK .
+"[00:36] me013 | OK . So , um I guess we are"
+"[00:44] mn007 | Channel channel three , yeah . OK ."
+"[00:47] fn002 | Mmm , channel five ?"
+[00:47] me034 | Channel two .
+[00:49] fn002 | Doesn't work ?
+[00:49] me034 | Two .
+"[00:50] me013 | Yeah , that 's the mike number there ,"
+[00:53] fn002 | No ?
+"[00:54] me018 | Is it written on her sheet , I believe ."
+"[00:57] me013 | Uh , mike number five ,"
+"[00:58] fn002 | Ah , era el cuatro . Yeah ."
+[01:00] me013 | channel channel four .
+[01:01] fn002 | Yeah yeah yeah .
+"[01:05] fn002 | Ah yeah , it 's OK ."
+[01:06] me013 | Yeah .
+[01:10] me034 | I think I 'm channel two .
+"[01:11] me013 | Oh , I 'm channel must be channel one . Channel one ? Yes , OK ."
+[01:16] me013 | OK . So uh
+"[01:35] mn007 | Uh so . uh We So As I was already said , we we mainly focused on"
+"[01:47] mn007 | uh four kind of features . The PLP , the PLP with JRASTA , the MSG , and the MFCC from the baseline Aurora ."
+[02:00] me013 | Mm - hmm .
+"[02:02] mn007 | Uh , and we focused for the the test part on the English and the Italian ."
+[02:09] mn007 | Um . We 've trained uh several neural networks on so on the TI - digits English and on the Italian data and also on the broad uh English uh French and uh Spanish databases .
+"[02:30] mn007 | Mmm , so there 's our result tables here , for the tandem approach , and um , actually what we we @ @ observed is that if the network is trained on the task data it works pretty well ."
+[02:52] me011 | I can't get back far enough .
+[02:53] me034 | Chicken on the grill .
+[02:56] me034 | Try that corner .
+[02:57] me018 | How about over th from the front of the room ?
+"[02:58] me034 | Yeah , it 's longer ."
+[03:00] me013 | We 're pausing for a photo opportunity here . Uh .
+[03:03] me013 | Uh .
+[03:06] me013 | So .
+[03:06] me006 | Oh wait wait wait wait wait . Wait . Hold on . Hold on . Let me give you a black screen .
+[03:07] me034 | Get out of the Yeah .
+[03:09] me013 | OK .
+[03:15] me011 | One more .
+[03:17] me013 | He 's facing this way .
+[03:18] me011 | Because we said we were gonna do this and I just remembered .
+"[03:26] me013 | OK , this this would be a good section for our silence detection ."
+[03:30] me034 | Mm - hmm .
+[03:34] me013 | Oh .
+[03:35] me013 | OK .
+"[03:36] me013 | So um ,"
+"[03:41] mn007 | Yeah , so if the network is trained on the task data um tandem works pretty well . And uh actually we have uh , results are similar"
+[03:41] me013 | Yeah .
+"[03:57] me018 | On data from just that task , that language ?"
+[03:59] mn007 | Just that task .
+[04:00] mn007 | But actually we didn't train network on uh both types of data I mean
+[04:13] me018 | Mmm .
+[04:19] me018 | Mm - hmm .
+"[04:22] mn007 | Yeah . So ,"
+[04:24] me013 | clearly it 's gonna be good then but the question is how much worse is it
+[04:24] me018 | So what 's th
+"[04:29] me013 | I mean ,"
+"[04:31] me013 | From what I saw from the earlier results , uh I guess last week ,"
+[04:44] mn007 | Mmm . Yeah .
+[04:45] me013 | But but the question is if you train on one language
+[04:57] mn007 | If we use the same language ?
+"[04:59] me013 | No , no , no ."
+[05:05] mn007 | Mm - hmm .
+"[05:08] me013 | I don't have the numbers in front of me , so I 'm just imagining ."
+[05:11] me013 | E
+"[05:13] me013 | So , you didn't train on TIMIT and test on on Italian digits , say ?"
+"[05:17] mn007 | No , we did four four kind of of testing , actually ."
+[05:29] mn007 | So for Italian on the Italian speech @ @ .
+[05:34] mn007 | The second test is trained on a single language
+"[05:39] mn007 | um with broad database , but the same language as the t task data ."
+[05:44] me013 | OK .
+[05:44] mn007 | But for Italian we choose Spanish which we assume is close to Italian .
+"[05:49] mn007 | The third test is by using , um"
+[05:53] mn007 | the three language database
+[05:56] mn007 | and the fourth is
+[05:56] me013 | W which in It has three languages . That 's including the w
+[06:03] mn007 | But not
+[06:03] me018 | In -
+[06:05] me018 | The three languages
+[06:08] mn007 | Yeah
+[06:09] mn007 | And the fourth test is uh excluding from these three languages the language that is the task language .
+"[06:18] me013 | Oh , OK , yeah , so , that is what I wanted to know ."
+[06:19] mn007 | Yeah .
+"[06:20] me013 | I just wasn't saying it very well , I guess ."
+"[06:21] mn007 | Uh , yeah ."
+"[06:22] mn007 | So um for uh TI - digits for ins example uh when we go from TI - digits training to TIMIT training uh we lose uh around ten percent , uh ."
+[06:42] me013 | Right .
+"[06:43] mn007 | of ten percent , relative ."
+"[06:46] mn007 | So this is not so bad . And then when we jump to the multilingual data it 's uh it become worse and , well"
+[06:54] me013 | Ab - about how much ?
+"[06:56] mn007 | Around uh , let 's say , twenty perc twenty percent further . So . Yeah ."
+[07:05] me013 | Twenty percent further ?
+[07:05] mn007 | Twenty to to thirty percent further . Yeah .
+"[07:08] me018 | And so , remind me , the multilingual stuff is just the broad data . Right ?"
+[07:12] mn007 | Yeah .
+[07:12] me018 | It 's not the digits . So it 's the combination of two things there .
+[07:16] me018 | It 's removing the task specific training and it 's adding other languages .
+[07:21] mn007 | Yeah .
+[07:23] mn007 | Yeah .
+[07:24] me018 | OK .
+"[07:25] me018 | Already , right right right ."
+[07:28] me018 | So they were sort of building here ? OK ?
+"[07:31] mn007 | Uh So , basically when it 's trained on the the multilingual broad data"
+[07:50] mn007 | So .
+[07:51] me013 | Yes .
+"[07:55] me013 | I i if you compare everything to the first case at the baseline ,"
+"[08:01] me013 | for the for the using the same language but a different task , and something like one point three"
+[08:08] mn007 | No no no .
+[08:09] mn007 | Uh same language we are at uh for at English at O point eight .
+[08:20] mn007 | So . Le - let me .
+[08:21] me013 | I I I 'm sorry . I I I meant something different by baseline
+[08:21] mn007 | Tas - task data we are u
+[08:23] mn007 | Yeah .
+[08:26] mn007 | Mmm .
+[08:31] mn007 | Hmm .
+[08:32] me013 | By baseline here I meant
+"[08:34] mn007 | Oh yeah , the f"
+"[08:36] mn007 | Yeah , OK . Yeah ."
+[08:40] me013 | So I was just I just trying to understand that . So if we call
+[08:40] mn007 | Yeah . Sure .
+"[08:45] me013 | just normalized to one , the word error rate"
+[08:45] mn007 | Mmm .
+[08:54] mn007 | Mm - hmm .
+[08:59] mn007 | Mm - hmm .
+[09:09] mn007 | Mm - hmm .
+"[09:11] mn007 | Yeah , it 's around one point one . Yeah ."
+[09:13] me013 | Right .
+[09:21] mn007 | Ye -
+"[09:21] me013 | That 's what you were just saying , I think ."
+[09:25] me018 | One point four ?
+"[09:29] me018 | So , it 's an additional thirty percent ."
+[09:31] mn007 | What would you say ? Around one point four yeah .
+[09:33] me013 | OK .
+"[09:38] mn007 | If we exclude English , um there is not much difference with the data with English ."
+[09:46] mn007 | So .
+[09:46] me013 | Aha !
+[09:47] mn007 | Yeah .
+[09:47] me013 | That 's interesting .
+[09:50] mn007 | Uh .
+"[09:51] me013 | No , that that 's important . So what what it 's saying here is just that "" yes , there is a reduction"
+[10:11] mn007 | Hmm .
+[10:18] me013 | So what 's the difference between two and three ?
+[10:26] me018 | It 's multilingual .
+[10:33] mn007 | Um Yeah .
+"[10:33] me013 | Cuz in both in both both of those cases , you don't have the same task ."
+[10:38] mn007 | Yeah sure .
+[10:47] mn007 | Uh yeah .
+"[10:48] me006 | Yeah , a fraction of it ."
+[10:55] me013 | How m how much bigger is it ?
+"[11:01] me006 | Yeah , um ."
+"[11:02] mn007 | It 's two times , actually ? Yeah ."
+[11:05] mn007 | Um .
+"[11:18] mn007 | We just wanted to keep this , w well , not too huge . So ."
+"[11:22] me013 | So it 's two times ,"
+"[11:27] mn007 | Uh ,"
+[11:29] mn007 | Yeah .
+[11:29] me013 | And the broad English data is what you got this one point one with . So that 's TIMIT basically right ?
+[11:34] mn007 | Yeah .
+[11:34] me006 | Mm - hmm .
+[11:34] me013 | So it 's band - limited TIMIT .
+[11:36] me006 | Mm - hmm .
+[11:36] mn007 | Mm - hmm .
+[11:37] me013 | This is all
+[11:37] mn007 | Yeah .
+[11:38] me006 | Downs -
+[11:38] me013 | eight kilohertz sampling .
+[11:39] me006 | Right .
+"[11:40] me013 | So you have band - limited TIMIT , gave you uh"
+[11:43] me013 | almost as good as a result as using TI - digits
+[11:48] me013 | OK ?
+[11:48] mn007 | Hmm ?
+[11:49] me013 | Um and um
+[12:07] mn007 | Yep .
+[12:07] me013 | Both training and test ?
+[12:09] me013 | Yeah . OK .
+[12:11] me013 | Um
+[12:16] me013 | OK .
+[12:17] me013 | Well .
+"[12:24] me013 | different task didn't seem to hurt us that much , and going to a different language"
+[12:29] me013 | um
+[12:41] mn007 | Mmm .
+[12:42] me013 | It sounds like um
+[13:05] me013 | in the training set .
+[13:09] me013 | Um
+[13:11] me013 | So these are results with
+[13:20] me013 | Yeah .
+[13:23] me013 | Yeah .
+[13:40] mn007 | And then it 's it gets worse with the multilingual .
+[13:48] mn007 | Yeah . There there is a difference actually with b between PLP and JRASTA is that
+[14:05] mn007 | Mmm .
+"[14:06] me013 | I have a suggestion , actually , even though it 'll delay us slightly , would would you mind"
+"[14:13] mn007 | Yeah , yeah ."
+[14:23] me013 | Yeah .
+[14:26] me018 | Um .
+"[14:29] me013 | Uh ,"
+"[14:30] me013 | this way and just slightly to the left , yeah ."
+"[14:36] me018 | What was Was this number forty or It was roughly the same as this one , he said ? When you had the two language versus the three language ?"
+[14:41] me013 | Um .
+[14:44] me013 | That 's what he was saying .
+"[14:44] me018 | That 's where he removed English , right ?"
+[14:45] me006 | Yeah .
+[14:46] me013 | Right .
+"[14:47] me006 | It sometimes , actually , depends on what features you 're using ."
+[14:50] me013 | Yeah .
+[15:17] me018 | Mm - hmm .
+[15:20] me018 | Mm - hmm . I wonder were um all three of these nets using the same output ? This multi - language uh labelling ?
+[15:29] me006 | Mm - hmm .
+[15:31] me006 | He was using uh sixty - four phonemes from SAMPA .
+"[15:34] me018 | OK , OK ."
+[15:35] me006 | Yeah .
+[15:56] me018 | Yeah .
+[15:57] me013 | And comparing different bad results can be tricky .
+[15:58] me018 | Hmm .
+[16:12] me018 | Mm - hmm .
+"[16:42] me013 | Wasn't there something of that ? Where you ,"
+[16:49] fn002 | No .
+"[16:50] me013 | I thought there was something like that ,"
+"[16:55] me018 | Yeah , that would be interesting ."
+"[16:56] me013 | Um ,"
+[17:17] me013 | We 've never just trained on one lang
+[17:22] me013 | Yeah .
+"[17:23] mn007 | Uh , no ."
+[17:29] me013 | But we 've done a bunch of things where we just trained on one language . Right ?
+"[17:32] me013 | I mean , you haven't you haven't done all your tests on multiple languages ."
+"[17:36] mn007 | Uh ,"
+[17:38] mn007 | No .
+[17:52] me018 | Did you do different languages from digits ?
+[17:57] mn007 | Uh . No .
+[17:58] mn007 | You mean
+"[18:11] me013 | See , I thought you showed me something like that last week ."
+"[18:17] mn007 | No , I don't think so ."
+[18:23] me013 | Um
+[18:29] me034 | These numbers are uh
+"[18:30] me013 | So , I mean wha what 's the This this chart this table that we 're looking at is um ,"
+[18:31] mn007 | So .
+[18:43] mn007 | So you have uh basically two uh parts . The upper part is for TI - digits
+[18:50] me006 | Mm - hmm .
+[18:55] me013 | Yeah .
+"[18:55] mn007 | And the first four rows is well - matched , then the s the second group of four rows is mismatched , and"
+"[19:10] me018 | So , so the upper part is training TI - digits ?"
+[19:10] mn007 | So .
+"[19:14] mn007 | It 's it 's the HTK results , I mean . So it 's"
+[19:33] me013 | Hmm .
+[19:34] mn007 | So .
+[19:34] mn007 | Uh
+[19:37] mn007 | Yeah .
+"[19:39] me013 | Well ,"
+[19:40] me013 | What was is that i
+[19:41] me013 | What was it that you had
+[19:45] me013 | Wh - when you showed me the your table last week ?
+[19:47] mn007 | It - It was part of these results .
+[19:55] me018 | So where is the baseline for the TI - digits located in here ?
+[20:01] mn007 | You mean the HTK Aurora baseline ?
+[20:03] me018 | Yeah .
+[20:04] mn007 | It 's uh the one hundred number .
+"[20:06] mn007 | It 's , well , all these numbers are the ratio"
+[20:08] me018 | Ah !
+"[20:11] me018 | Ah , OK , OK ."
+"[20:12] me013 | So this is word word error rate , so a high number is bad ."
+"[20:16] mn007 | Yeah , this is a word error rate ratio ."
+[20:16] fn002 | Yeah .
+[20:20] mn007 | Yeah .
+"[20:20] me018 | OK , I see ."
+[20:22] mn007 | seventy point two means that
+"[20:26] me018 | OK , OK , gotcha ."
+[20:29] mn007 | Hmm .
+[20:35] me013 | let 's see
+[20:44] mn007 | Yeah .
+[20:47] me013 | um
+[20:50] mn007 | To TIMIT .
+[20:54] mn007 | Mmm .
+"[20:54] mn007 | Then you have uh MF , MS and ME which are for French , Spanish and English ."
+[21:32] me013 | Right .
+"[21:34] me013 | So , I 'm sorry . I missed that . What 's MF , MS and ME ?"
+"[21:37] me018 | Multi - French , Multi - Spanish"
+"[21:37] mn007 | So . Multi - French , Multi - Spanish , and Multi - English ."
+"[21:39] me013 | Uh OK . So , it 's uh broader vocabulary ."
+[21:43] mn007 | Yeah .
+[21:51] me013 | was
+[21:57] me013 | and I was seeing
+[22:00] me013 | I I think that was all it was . You had some very limited results that at that point
+[22:03] mn007 | Yeah .
+[22:12] me013 | where where English was removed .
+"[22:26] me013 | Um now , what 's the noise condition"
+[22:35] me013 | It 's the same uh Aurora noises
+[22:37] mn007 | Yeah .
+"[22:38] me013 | uh , in all these cases"
+[22:39] mn007 | Yeah .
+[22:41] me013 | So there 's not a statistical sta a strong st
+"[22:48] mn007 | No these are the s s s same noises , yeah ."
+[22:54] me006 | Well matched condition .
+[22:55] me013 | Right .
+[23:18] me013 | the other languages .
+[23:20] mn007 | Mmm .
+[23:24] me013 | So .
+"[23:26] me013 | Um , oh I well , wait a minute . You have this here , for the Italian . That 's right . OK , so ,"
+[23:29] mn007 | Yeah .
+[23:57] me013 | Mm - hmm .
+[23:58] mn007 | Mmm . Uh .
+"[24:01] me013 | Well , I mean , let 's see ."
+[24:09] mn007 | Yeah .
+"[24:16] mn007 | There there is another difference , is that the noise the noises are different . Well ,"
+[24:19] me013 | In in what ?
+[24:21] mn007 | For for the Italian part I mean the
+[24:35] me013 | And the noise is different in th
+[24:41] me013 | Do we have any um
+[24:51] me013 | have the same noise as in the Aurora ?
+"[24:55] fn002 | Mmm , no ."
+[24:57] mn007 | No .
+[25:01] me018 | Can I ask something real quick ?
+[25:18] mn007 | Yeah .
+[25:19] me018 | I is that a noisy condition ?
+[25:21] mn007 | Yeah .
+[25:23] me018 | So that 's matched training ? Is that what that is ?
+"[25:26] mn007 | It 's no , the third part , so it 's uh highly mismatched ."
+[25:32] me018 | So why do you get your best number
+[25:37] me018 | Wouldn't you get your best number in the clean case ?
+"[25:39] me034 | Well , it 's relative to the"
+[25:41] me034 | um
+[25:42] mn007 | Yeah .
+[25:43] mn007 | Yeah .
+[25:46] me034 | Yeah .
+[25:48] me018 | OK .
+[26:02] mn007 | Yeah . But it 's not a clean case . It 's a noisy case but
+[26:10] me018 | Oh ! So this upper third ?
+[26:11] mn007 | So Yeah .
+[26:13] me018 | Uh that 's still noisy ?
+[26:15] mn007 | Yeah .
+"[26:15] me018 | Ah , OK ."
+[26:20] me018 | Mm - hmm .
+[26:23] me018 | I see .
+[26:24] mn007 | Mmm .
+[26:29] me013 | OK ?
+"[26:33] me013 | So uh , I think this will take some looking at , thinking about . But ,"
+"[26:45] mn007 | Uh , no we don't plan to fill the holes but"
+[26:48] me013 | OK .
+[27:31] mn007 | these are the results we obtained for Italian
+[27:44] me013 | Mm - hmm .
+[27:45] mn007 | Mmm .
+"[27:48] mn007 | And the , mmm what 's in the table , just at the left of the PLP twelve on - line normalization column ,"
+"[28:07] me018 | Where is that ? seventy - nine , fifty"
+"[28:09] me013 | Uh , it 's just sort of sitting right on the uh the column line ."
+[28:10] mn007 | So .
+"[28:14] me018 | Oh I see , OK ."
+[28:15] mn007 | Just uh
+[28:15] me013 | Yeah .
+[28:16] mn007 | Yeah .
+[28:26] me013 | Yes .
+[28:28] me013 | Yes .
+[28:48] mn007 | Yeah . There were diff there were different things and
+[29:15] mn007 | So it adapts more quickly
+[29:17] me013 | Yes . Yeah .
+[29:40] me013 | Mm - hmm .
+[30:00] me013 | Right . Right .
+[30:02] mn007 | And Pratibha did something different is that he uh she initialed the um values of the mean and variance
+"[30:18] mn007 | Mmm . There were other minor differences , the fact that"
+"[30:32] mn007 | Uh , but the main differences concerns the recursion ."
+[30:44] me013 | OK .
+[30:45] mn007 | We It it 's slightly uh different because
+[31:00] me034 | Mm - hmm .
+[31:02] me013 | Yeah .
+"[31:10] mn007 | But , well it 's similar ."
+[31:21] me013 | Mm - hmm .
+[31:29] me013 | OK .
+[31:31] mn007 | So basically what I expect is that
+[31:37] me013 | Right .
+[31:43] me013 | Right .
+"[31:48] me013 | OK , but I think that"
+[31:48] mn007 | Mmm .
+"[31:51] me013 | because of that especially , we wanna draw some conclusions from this , do some reductions"
+[31:56] mn007 | Yeah .
+[32:02] me013 | So do you are you w
+"[32:07] mn007 | No , I we plan to start this uh so , act actually we have discussed uh"
+[32:34] mn007 | If we trained the networks on the on
+[32:40] me013 | Mm - hmm .
+[32:47] me013 | Mmm .
+[33:23] me013 | I di
+"[33:46] me013 | It 's a trade - off , right ? Any - anyway go ahead ."
+"[34:00] mn007 | Doing something like , um"
+"[34:06] mn007 | well , basically context dependent phonemes ."
+"[34:13] me013 | Maybe . I mean , I I think"
+[34:21] me013 | Right .
+[34:27] me013 | Right ?
+"[34:28] mn007 | Ye - yeah but here it 's something different . We want to have features uh well ,"
+[34:31] me013 | Yeah .
+"[34:34] me013 | Yeah , but it 's still true"
+[34:51] mn007 | Mm - hmm .
+"[34:52] me013 | Uh , and you 're putting it all together ,"
+[34:57] me013 | That that 's true
+"[35:02] me013 | in in a hybrid system ,"
+[35:09] mn007 | Yeah .
+[35:09] me013 | OK ? But I it 's it 's a big deal
+[35:18] me013 | And once you the other thing is that once you represent start representing more and more context
+[35:32] me013 | So um
+"[35:40] me013 | a particular context , for instance you may have some kinds of contexts that will never occur"
+[35:53] me013 | We already actually don't have a huge amount of training data
+"[36:02] mn007 | mmm ,"
+"[36:05] mn007 | I mean , the the way we we do it now is that we have a neural network and"
+[36:16] me013 | Right .
+[36:24] mn007 | Uh
+[36:25] me013 | Almost .
+[36:25] me013 | But I mean it it it does give a distribution .
+[36:29] mn007 | Yeah .
+"[36:30] me013 | and it is true that if there 's two phones that are very similar ,"
+[36:41] mn007 | Yeah .
+"[36:42] mn007 | Yeah , sure but uh"
+"[37:00] me013 | Oh no , but it would still be even more of a binary decision ."
+[37:12] me013 | That would be even even more distinct of a binary decision .
+[37:15] me013 | I actually would have thought you 'd wanna go the other way and have fewer classes .
+"[37:19] me013 | Uh , I mean for instance ,"
+"[37:20] me013 | the the thing I was arguing for before , but"
+[37:21] mn007 | Mmm .
+"[37:22] me013 | again which I don't think we have time to try ,"
+[37:29] mn007 | Mm - hmm .
+"[37:38] mn007 | Yeah , perhaps you 're right , but you have more classes so you you have more information in your features . So ,"
+[37:45] me013 | Mm - hmm .
+[37:46] mn007 | Um You have more information in the
+[37:47] me013 | True .
+"[37:56] mn007 | But still the information is relevant because it 's it 's information that helps to discriminate ,"
+[37:57] me013 | Mm - hmm .
+[38:02] me013 | Mm - hmm .
+[38:09] mn007 | Mmm .
+[38:11] mn007 | Mmm .
+[38:18] mn007 | Mmm .
+[38:32] mn007 | Mmm .
+[38:51] me013 | Uh we haven't been doing any of the L D A RASTA sort of thing .
+[38:53] mn007 | Mm - hmm .
+[39:08] mn007 | Mm - hmm .
+[39:11] me013 | So what i what is going on right now ? What 's right you 've got
+[39:15] mn007 | N
+"[39:18] fn002 | I I I 'm trying the HTK with eh ,"
+"[39:28] me013 | The combination , I see ."
+"[39:29] fn002 | The combination , yeah . But I haven't result at this moment ."
+[39:33] me013 | MSG and and PLP .
+[39:35] fn002 | Yeah .
+"[39:39] fn002 | Ye - Uh , with the old older , yeah ."
+[39:40] mn007 | Yeah .
+[39:40] me013 | Old one .
+[39:43] fn002 | Yeah . But We can
+[39:45] fn002 | know soon .
+[39:48] fn002 | I don't know .
+[39:49] mn007 | Yeah .
+"[39:50] me013 | Uh , OK ."
+"[39:51] mn007 | Uh so there is this combination , yeah . Working on combination obviously ."
+[39:55] fn002 | Mm - hmm .
+[40:10] fn002 | Yep .
+[40:11] mn007 | Um .
+[40:13] mn007 | And we think that
+"[40:23] mn007 | So , get simpler networks ,"
+[40:38] mn007 | Basically we have three types of broad phonetic classes .
+[41:02] me006 | Twenty - seven .
+[41:02] mn007 | Twenty - seven broad classes .
+"[41:06] mn007 | So like , uh , oh , I don't know ,"
+[41:11] mn007 | Um
+[41:16] me013 | How many how many nets do you have ?
+"[41:17] mn007 | For the moments we do not don't have nets , I mean ,"
+[41:19] me013 | No nets .
+[41:21] mn007 | Were we just changing the labels to retrain nets with fewer out outputs .
+[41:21] fn002 | Begin to work in this .
+[41:25] me013 | Right .
+[41:28] mn007 | Mm - hmm .
+[41:30] me013 | Uh .
+[41:50] mn007 | It -
+[41:51] me018 | I think they have one output .
+"[41:51] mn007 | It 's the single net , yeah ."
+"[41:53] me013 | Oh , it 's just one net ."
+[41:54] fn002 | Yeah .
+[41:54] me006 | mm - hmm
+[41:54] mn007 | It 's one net with
+[41:59] me013 | I see .
+"[42:01] me013 | I see , OK ."
+"[42:02] mn007 | So it 's Well , it 's basically a standard net with fewer classes ."
+[42:07] me013 | So you 're sort of going the other way of what you were saying a bit ago instead of yeah .
+"[42:10] mn007 | Yeah , but I think Yeah ."
+[42:11] me006 | But including the features .
+[42:11] mn007 | B b
+"[42:12] mn007 | including the features , yeah ."
+[42:13] mn007 | I don't think this will work alone .
+[42:16] mn007 | I think it will get worse because
+[42:18] me013 | Uh - huh .
+"[42:18] mn007 | Well , I believe the effect that of of too"
+[42:22] mn007 | reducing too much the information is
+[42:28] me013 | But you think if you include that
+"[42:30] mn007 | Yeah , because there is perhaps one important thing that the net"
+"[42:40] mn007 | Because these nets are trained on well - controlled condition . I mean the labels are obtained on clean speech , and we add noise after ."
+"[42:50] mn007 | But perhaps , something intermediary using also"
+"[43:02] me013 | well , somewhat broad . I mean , it 's twenty - seven instead of sixty - four ,"
+[43:06] mn007 | Yeah .
+[43:06] me013 | And you have the original features .
+"[43:09] me013 | Which are PLP , or something ."
+[43:09] mn007 | Yeah .
+[43:10] mn007 | Mm - hmm .
+"[43:19] mn007 | There will probably be , yeah , one single KL to transform everything or"
+[43:20] fn002 | Mu .
+[43:24] me013 | Right .
+[43:25] fn002 | No transform the PLP and only
+[43:29] fn002 | transform the other
+[43:31] fn002 | I 'm not sure .
+[43:34] me013 | I see .
+[43:35] fn002 | Two e
+[43:36] mn007 | Yeah .
+[43:38] me013 | Right .
+[43:39] me013 | Whether you would transform together or just one .
+[43:41] fn002 | @ @ it 's one .
+[43:41] me013 | Yeah .
+[43:43] me013 | But that 's interesting .
+[43:49] mn007 | Yeah .
+[43:50] me013 | Yeah .
+[43:53] mn007 | Mmm .
+"[43:58] mn007 | Uh , yeah ."
+"[44:01] me013 | So I think , you know , we need to"
+[44:08] mn007 | Mm - hmm .
+[44:18] mn007 | Mm - hmm .
+"[44:20] me013 | Um , let me pass this out ,"
+"[44:30] mn007 | Uh , no . I don't think so ."
+"[44:40] me026 | Oh , thanks ."
+[44:41] me013 | Ah ! OK .
+[44:48] me013 | So they 're they 're doing the the VAD I guess they mean
+[44:51] me013 | voice activity detection
+[44:54] me013 | So they 've just trained up a net
+[45:11] mn007 | Mm - hmm .
+"[45:14] me013 | voice activity detection , or else just using the silence ,"
+"[45:23] me013 | But on the other hand , maybe they can get by with a smaller net"
+[45:29] mn007 | Mm - hmm .
+"[45:38] me013 | Um , I mean , not uniformly ."
+[45:46] mn007 | Mmm .
+[45:50] fn002 | But they have a question of the result . Um how are trained the the LDA filter ?
+[46:00] fn002 | How obtained the LDA filter ?
+[46:01] mn007 | Mmm .
+[46:03] me013 | I I 'm sorry . I don't understand your question .
+"[46:03] fn002 | Yes , um the LDA filter"
+[46:12] fn002 | I don't know exactly how they are obtained .
+[46:14] me013 | It 's on training .
+[46:21] fn002 | You understand me ?
+[46:22] me013 | No .
+"[46:23] fn002 | Yeah , uh for example ,"
+[46:32] me013 | Yes .
+"[46:46] me013 | Yes , I don't know ."
+"[46:53] me013 | In earlier experiments , they had taken LDA"
+[46:58] fn002 | Yeah .
+"[46:59] fn002 | Yeah , because maybe it the same situation that the neural network training with their own"
+[47:04] mn007 | Mmm .
+[47:05] fn002 | set .
+"[47:08] me013 | Yeah , I don't know ."
+"[47:10] me013 | but uh to tell you the truth , I wasn't actually looking at the LDA so much when I I was looking at it I was mostly thinking about the the VAD ."
+"[47:19] me013 | And um , it ap"
+"[47:26] mn007 | The features , yeah ."
+[47:28] mn007 | Yeah .
+"[47:29] me013 | It says "" baseline ASP "" ."
+"[47:35] mn007 | Yeah , I don't know ."
+[47:35] me034 | ASP .
+[47:38] me034 | Oh .
+[47:39] me034 | There it is .
+[47:46] me013 | Um
+"[47:47] me013 | Cuz there 's "" baseline Aurora "" above it ."
+"[47:52] me013 | This is mostly better than baseline , although in some cases it 's a little worse , in a couple cases ."
+"[47:55] me034 | Well , it says baseline ASP is twenty - three mill"
+[47:56] fn002 | Yeah .
+[48:02] me034 | From the baseline . OK .
+"[48:06] mn007 | I think it 's the C - zero using C - zero instead of log energy . Yeah , it 's this ."
+[48:06] me013 | when when we were up in Oregon .
+"[48:10] fn002 | Ah , OK , mm - hmm ."
+[48:13] me013 | Oh .
+[48:14] me013 | OK .
+"[48:14] mn007 | It should be that , yeah ."
+[48:16] me018 | They s
+[48:16] me018 | they say in here that the VAD is not used as an additional feature . Does does anybody know how they 're using it ?
+"[48:21] me013 | Yeah . So so what they 're doing here is ,"
+[48:22] mn007 | Yeah .
+[48:33] me018 | Mm - hmm .
+"[48:34] me013 | And so um ,"
+[48:41] me018 | Mm - hmm .
+[48:53] me034 | Hmm .
+[48:54] me013 | Right ?
+[48:59] me018 | I don't understand . You mean it 's throwing out frames ?
+"[49:02] me013 | It 's throwing out chunks of frames , yeah ."
+"[49:03] me013 | There 's the the median filter is enforcing that it 's not gonna be single cases of frames , or isolated frames ."
+[49:07] me018 | Yeah .
+"[49:16] me018 | Yeah , that 's what I was just gonna ask . How can you just throw out frames ?"
+[49:17] me013 | Yeah .
+"[49:19] me013 | Well ,"
+[49:19] mn007 | i
+[49:22] mn007 | Yeah .
+[49:25] me018 | Yeah .
+[49:28] me018 | Mm - hmm .
+[49:29] me034 | Huh .
+[49:30] mn007 | Yeah .
+"[49:31] mn007 | Yeah , you can basically remove the the frames from the feature feature files . And ."
+[49:34] me013 | Yeah .
+"[49:36] me013 | Yeah , so I mean in the i i in the in the decoding , you 're saying that we 're gonna decode from here to here ."
+[49:36] mn007 | I t
+[49:41] me018 | Mm - hmm .
+"[49:41] me013 | I think they 're they 're they 're treating it ,"
+[49:48] me018 | In the text they say that this this is a tentative block diagram of a possible configuration we could think of .
+[49:55] me018 | So that sort of sounds like they 're not doing that yet .
+[50:04] me013 | I think what I mean by tha that is they 're trying to come up with a block diagram that 's plausible for the standard .
+[50:18] me018 | Yeah .
+[50:19] me018 | Yeah .
+[50:20] me013 | Um .
+[50:20] me018 | I 'm just wondering what exactly did they do up in this table if it wasn't this .
+"[50:31] me013 | Certainly it would be tricky about it intrans in transmitting voice ,"
+[50:41] me018 | Mm - hmm .
+[50:44] me018 | Plus it 's gonna introduce delays .
+[50:51] me018 | Mmm .
+[51:07] me013 | I don't know Wh - what 's the difference between TLDA and SLDA ?
+[51:09] me034 | Temporal and spectral .
+[51:12] fn002 | Temporal LDA .
+[51:15] me013 | So um .
+[51:23] me013 | by saying this is a b a tentative block di diagram I think means
+[51:41] me013 | So um
+"[51:44] me013 | I think that it 's it 's nice to do that in this because in fact , it 's gonna give a better word error result"
+"[52:13] me013 | But , on the other hand , and maybe maybe it 's a decent idea ."
+[52:31] me013 | combinations of features and multi - band
+"[52:34] me013 | Uh , and we 've been looking at cross - language , cross task issues ."
+[52:51] me013 | on - line normalization and the uh
+"[53:11] me013 | Uh , because we still have even once we choose ,"
+[53:19] me013 | but but uh
+"[53:32] me018 | When they removed the silence frames , did they insert some kind of a marker so that the recognizer knows it 's knows when it 's time to back trace or something ?"
+"[53:40] me013 | Well , see they , I I think they 're"
+[53:43] me013 | Um .
+"[53:56] me018 | Oh , right ."
+[53:59] me018 | Maybe they 're just inserting some nummy frames or something ?
+"[54:02] me013 | Uh , you know that 's what I had thought ."
+[54:04] me013 | But I don't I don't think they are .
+[54:05] me018 | Hmm .
+[54:11] me013 | p put some low level noise or something .
+[54:13] me013 | Probably don't want all zeros . Most recognizers don't like zeros but
+[54:14] me018 | Hmm .
+[54:17] me018 | Yeah .
+[54:22] me018 | Some constant vector .
+[54:24] me018 | I mean i w
+[54:35] me013 | Mm - hmm .
+[54:36] me018 | So that the the silence model in HTK will always pick it up .
+[54:48] me018 | Hmm .
+"[54:48] me013 | But whatever they did , I mean they have to play within the rules of this specific evaluation ."
+[54:51] me018 | Yeah .
+[55:01] me018 | Yeah .
+"[55:04] me018 | Yeah , yeah ."
+[55:06] me013 | Yeah .
+[55:08] me013 | Uh .
+"[55:10] me013 | So , OK , So I think"
+"[55:21] me013 | Uh , I wanna look at these numbers off - line a little bit and think about it and and talk with everybody uh , outside of this meeting ."
+"[55:28] me013 | Um , but uh"
+[55:31] me013 | No I mean it sounds like I mean
+[55:48] me013 | Um
+[56:26] mn007 | Mm - hmm .
+[56:30] me013 | Uh
+[56:35] me013 | I doubt it would help by forty per cent .
+[56:39] mn007 | Yeah .
+[56:42] me013 | Just curious .
+"[56:50] mn007 | I think we 're alright , um , not much problems with that ."
+[56:51] me013 | OK .
+[56:55] me013 | Computation ?
+"[57:02] me013 | Yeah . Yeah , well ."
+[57:04] mn007 | But Yeah .
+"[57:06] me013 | Are were you folks using Gin ? That 's a that just died , you know ?"
+"[57:10] mn007 | Mmm , no . You were using Gin perhaps , yeah ? No ."
+[57:13] fn002 | No .
+"[57:16] me013 | Yeah ,"
+[57:17] fn002 | Yes .
+[57:24] me034 | Tonic .
+[57:30] mn007 | Mm - hmm .
+[57:32] me013 | U
+[57:33] me013 | Go ahead .
+"[57:33] me026 | Do we have that big new IBM machine the , I think in th"
+[57:38] me013 | We have the little tiny IBM machine
+"[57:44] me013 | It 's got s slots for eight ,"
+"[57:57] me013 | So instead of having eight processors that were eight hundred megahertz , we ended up with two that are five hundred and fifty megahertz ."
+[58:03] me013 | And more are supposed to come soon and there 's only a moderate amount of dat of memory . So I don't think
+"[58:18] me013 | Hopefully , they 'll get us some more"
+"[58:24] me013 | Uh , yeah , I think that 'll be once we get it populated ,"
+[58:30] me013 | And uh and uh a nice amount of memory . Uh so it 'll be a pr pretty fast Linux machine .
+"[58:36] me026 | And if we can do things on Linux , some of the machines we have going already , like Swede ?"
+[58:41] me013 | Mm - hmm .
+[58:41] me026 | Um
+[58:42] me026 | It seems pretty fast .
+[58:44] me013 | Mm - hmm .
+[58:45] me026 | I think Fudge is pretty fast too .
+[59:14] me013 | There 's there 's there 's gonna be debugging hassles
+[59:22] me013 | But .
+[59:31] me026 | I is it um mostly um the neural network trainings that are um slowing us down or the HTK runs that are slowing us down ?
+"[59:41] me013 | Uh , I think yes ."
+"[59:45] me013 | Isn't that right ? I mean I think you 're you 're sort of held up by both , right ?"
+[59:55] mn007 | Mmm .
+[59:57] mn007 | Yeah .
+[59:59] me013 | It sounded like they were roughly equal ?
+[00:01] me013 | Is that about right ?
+[00:02] mn007 | Yeah .
+[00:03] me013 | Yeah .
+"[00:05] me026 | Because , um I think that 'll be running Linux , and Sw - Swede and Fudge are already running Linux so , um I could try to"
+"[00:12] me026 | get um the train the neural network trainings or the HTK stuff running under Linux , and to start with I 'm wondering which one I should pick first ."
+[00:49] mn007 | For HTK ?
+[00:52] mn007 | Uh
+[00:55] me013 | OK .
+[00:55] mn007 | Yeah .
+[00:57] me013 | OK .
+[01:05] mn007 | Mmm .
+[01:05] me013 | Yeah .
+"[01:31] me018 | They have a they have a thing for doing that and th they have for awhile , in H T K ."
+[01:35] me013 | Yeah ?
+[01:35] me018 | And you can parallelize the training .
+[01:38] me018 | And run it on several machines and it just basically keeps counts .
+[01:38] me013 | Aha !
+[01:45] mn007 | Mmm .
+[01:45] me013 | I see .
+[01:50] mn007 | Yeah .
+[01:50] me013 | Something that we haven't really settled on yet is other than
+[02:16] me013 | Um .
+"[02:18] me013 | So I I think the the advantage of going with the neural net thing is that we 're gonna use the neural net trainings ,"
+"[02:23] me013 | no matter what ,"
+[02:24] me026 | OK .
+"[02:24] me013 | for a lot of the things we 're doing ,"
+"[02:26] me013 | whereas , w exactly which"
+[02:28] me013 | HMM Gaussian - mixture - based HMM thing we use is gonna depend
+[02:33] me013 | uh
+"[02:37] me013 | So with that ,"
+[02:41] me013 | go to our
+"[02:53] me013 | And , it 's about eleven fifty ."
+"[03:06] me013 | Uh , I can I can start over here ."
+"[08:29] me013 | Great , uh , could you give Adam a call . Tell him to"
+[08:32] me013 | He 's at two nine seven seven .
+"[08:39] me013 | @ @ You know Herve 's coming tomorrow , right ?"
+"[08:44] me013 | Herve will be giving a talk , yeah , talk at eleven ."
+"[08:47] me006 | Hello , is Adam there ?"
+"[08:48] me006 | Hey Adam , this is Barry ."
+[08:49] me006 | Yeah we 're all done .
+"[08:54] me013 | Did uh , did everybody sign these consent"
+[08:57] me013 | Er everybody
+"[08:58] me013 | Has everyone signed a consent form before , on previous meetings ? You don't have to do it again each time"
+[09:05] me013 | Yes .
+[09:07] me013 | microphones off

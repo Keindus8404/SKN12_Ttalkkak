@@ -1,0 +1,336 @@
+﻿[00:52] Speaker_A | So we come to the third meetings . I have
+[01:00] Speaker_A | Um so in the last meeting we have discussed the functional design and now we will talk about the conceptual design .
+[01:16] Speaker_A | So we
+[01:21] Speaker_A | will talk about some
+[01:23] Speaker_A | specific details .
+[01:36] Speaker_C | I'm participant two .
+[01:42] Speaker_C | Components design .
+[02:37] Speaker_C | Yeah b uh f well uh I meant uh by by battery I meant uh I will not have a uh a wire between the remote control and the energy source but uh I didn't fou we didn't decide yet which kind of battery
+"[02:57] Speaker_C | we will put inside the the remote . So uh it's a point to discuss . Then uh the case material we have uh uh also several choices , like wood , rubber , titanium or latex . But uh well"
+[03:17] Speaker_C | it's not a a re uh well a real issue for the from the technical uh point of view .
+"[03:27] Speaker_C | Concerning the interface uh we can we can put mm just simple buttons or scrolls or buttons uh much more complicated , but it also requires that the chip to process the button is more complicated so . And uh this is the last point , the choice of chips ."
+[03:40] Speaker_B | Mm .
+[03:50] Speaker_C | So what I have f found is that I think basic battery or kinetic uh energy uh collection is the is the better way to provide energy because I think solar energy wi won't work in a cluttered uh uh environment .
+[04:07] Speaker_B | Mm .
+[05:02] Speaker_B | Mm .
+[05:02] Speaker_C | And s so uh we can move to the next slide . Yeah .
+[05:07] Speaker_B | Sorry . What is this single curved what does it mean ?
+"[05:22] Speaker_B | Yo l yeah . When you hold on it , it is comfortable to hold ."
+[05:27] Speaker_C | Yeah . It's more confog f comfortable that if these uh it's completely flat .
+[05:31] Speaker_B | Okay .
+"[05:33] Speaker_B | Yeah . And the battery , is it kind of a rechargeable or it doesn't matter ?"
+[05:46] Speaker_B | That that's what it means by kinetic .
+[05:51] Speaker_B | Okay .
+[05:53] Speaker_B | Mm-hmm .
+[05:57] Speaker_B | Okay .
+[06:05] Speaker_B | Mm .
+[06:09] Speaker_B | Okay .
+[06:11] Speaker_B | Yeah .
+[06:18] Speaker_C | Yeah . And yeah and so can you go to the next slide please . So and uh that's uh that summarize well what I have said .
+[06:31] Speaker_B | Mm mm . Wha
+[06:33] Speaker_C | So uh you're right we can uh see in our uh R_ and D_ uh if the kinetic metal is sufficient to provide enough energy . That's it .
+[06:40] Speaker_B | Ah the department .
+[06:44] Speaker_B | Mm .
+[07:12] Speaker_B | So I um keep in touch with the R_ and D_ department .
+"[07:16] Speaker_C | Oh yeah I take care , it's all right ."
+"[07:23] Speaker_B | So the titanium case is the normal case that I'll show you some pictures that I have and you tell me whether they are titanium case or not . 'Cause I am not very sure , plastic , titanium or whatever . There's another point I want to make , is that the uh well you've seen them I le na my presentation that um I point out some why buttons are not the mm"
+[07:54] Speaker_B | Yeah .
+"[07:57] Speaker_B | Yeah , maybe n"
+"[07:59] Speaker_A | We will , okay ."
+[08:18] Speaker_A | Three .
+[08:19] Speaker_B | Yeah .
+[08:26] Speaker_B | So the user interface is uh
+"[08:29] Speaker_B | i it uses the aspect uh of a computer system , a programme which can be seen or heard"
+[08:37] Speaker_B | or otherwise perceived by the human user and the commands and mechanism
+"[08:42] Speaker_B | the user uses to control its operation and input data . So you s this gives you the ways to input data and we have uh we are more we emphasise more on the graphical user interface here . The idea is to represent buttons as figures , diagrams , symbols and on so you you can easily when you look at the symbols you understand what it is doing . Yeah . Yeah . So ."
+[09:06] Speaker_A | What's the function of this button .
+[09:14] Speaker_B | Ea easy to use .
+[09:19] Speaker_B | So next one . function five .
+[09:19] Speaker_A | Graphical user interface .
+"[09:25] Speaker_B | So I can use the button , the mouse maybe ."
+[09:27] Speaker_A | A graphical user interface emphasise the use of pictures .
+[09:30] Speaker_B | Yeah .
+[09:32] Speaker_B | So next line . So the here are some examples . So they cluster the buttons together .
+[09:39] Speaker_B | They group them into col they colour them and uh they have different forms as well .
+[09:50] Speaker_B | but this interface are kind of confusing .
+[09:53] Speaker_B | Uh basically there are too many buttons .
+[09:56] Speaker_B | Right . Next one .
+[09:57] Speaker_C | Yeah .
+[10:01] Speaker_B | So some people are propose voice recognition and
+"[10:05] Speaker_B | so ah by the way I receive an email from the from one our departments saying that the voice recognition has been used in the coffee machine for this by a company when you tell the you say good morning coffee machine and the machine are reply to you . So I just got an email saying that . And it seems like this voice recognition technology is ready to be used so we might consider that ,"
+[10:21] Speaker_C | Mm-hmm mm mm .
+[10:31] Speaker_C | Yeah fine .
+[10:31] Speaker_B | supposedly . The next one .
+"[10:38] Speaker_B | Mm so somebody some people use uh some people use a spinning wheel th with the L_C_ display so instead of using the mm buttons you have a L_C_D_ screen and then there you can u you can use that as buttons , you can use that as real so so that could be an option as well . Touch screen , I mean . Next one ."
+[11:01] Speaker_A | Yeah .
+[11:05] Speaker_B | And some people propose a scroll button .
+[11:09] Speaker_B | Integrated with push buttons or you may have scroll button instead of p just the push button . Like the one we have here .
+"[11:18] Speaker_B | Uh , next one ."
+[11:29] Speaker_A | Mm-hmm .
+[11:30] Speaker_B | so there are a few aspects that I collected here .
+"[11:35] Speaker_B | So s basically this deals with special users , children , handicapped people ,"
+"[11:42] Speaker_B | old people , and uh"
+"[11:46] Speaker_B | mm and prog basically they are programmable , specially for children . And uh"
+"[11:54] Speaker_B | mm yeah yeah . And then they also secure uh covers , to protect"
+"[12:10] Speaker_B | But we don't have to integrate all these complicated features . I'm just saying that the currently in the market there are there are control there are remote controllers f customisable for different people . Yeah , so that's the point ."
+[12:27] Speaker_B | The next one .
+[12:34] Speaker_B | And uh you see this is the one where you have the protection cover .
+"[12:38] Speaker_B | Mm maybe useful for children , they migh you you they only see the buttons outside . And for adults wh where you have more control you can see the one inside . So the adults might wanna have a key to lock that to pr so children will not touch the button inside ."
+[12:54] Speaker_C | Yeah .
+[12:55] Speaker_B | Yeah .
+[12:56] Speaker_C | S a good idea .
+"[12:59] Speaker_B | The next one . So this guy this is another company that provides big buttons . At I see that that is useful for old people and then you don't get it lost . But for our product we don't need a big one because you have voice recognition e eventually with use . And you can call your remote controller if you don't know where it is . T_V_ remote controller where are you ? And then , he will beeps and to say that I am here , for example . Is it possible ?"
+[13:15] Speaker_C | Yeah .
+[13:32] Speaker_C | Yeah .
+[13:32] Speaker_D | Yeah .
+[13:36] Speaker_C | Yeah but uh as Norman say if uh there is uh already a commercial product available who t who do this we we can check uh to integrate it i into our uh new remote control .
+[13:36] Speaker_D | Yeah .
+[13:41] Speaker_B | Yeah .
+[13:44] Speaker_B | Yeah .
+[13:46] Speaker_B | Yeah .
+"[13:48] Speaker_B | Yeah . And uh , this is another one where you can uh the the the part that's a V_ standing for the volume . So there's a up arrow and a down arrow . But you the see that in the V_ , the V_ appears to be the down arrow on the top on the top up arrow if you up arrow there's a V_ like as as if it's turning down so it's confusing interface , so I wanna avoid this kind of thing in the design ."
+[14:09] Speaker_A | Mm-hmm .
+[14:14] Speaker_C | Yeah yeah .
+[14:18] Speaker_B | And here are is uh here is a s short summary that I summary that I compiled after the findings I found .
+[14:47] Speaker_C | Yeah .
+"[14:51] Speaker_C | Well I I think you it's it's it's fine you have uh reviewed all all the possibilities but uh uh well uh i if we consider that uh the user interface is displayed on the T_V_ screen I don't think we nee uh we need much buttons in the remote since we we just have to navigate and to have a okay or enter key or things like that , because uh adding wheels or scrolls uh makes the thing more complicated and more expensive also , so ."
+[14:57] Speaker_B | Yeah .
+[15:09] Speaker_B | Mm-hmm .
+[15:15] Speaker_B | Yeah .
+[15:21] Speaker_B | Mm .
+[15:29] Speaker_B | Mm .
+[15:30] Speaker_B | Okay .
+[15:31] Speaker_A | Or maybe we can include the user manual in the in the remote control and we should have just a button like help and you say uh and you ik you press the button help and maybe you see the the user m might in the in the T_V_ .
+[15:49] Speaker_C | Yeah . That's a good idea . To have a help button .
+[15:53] Speaker_B | A help button . So you are display on the screen . So on the T_V_ screen .
+[15:53] Speaker_A | Yeah .
+[15:54] Speaker_C | Yeah .
+[15:56] Speaker_C | On the T_V_ screen . On the T_V_ screen the uh how to use your remote .
+[15:59] Speaker_B | Okay .
+"[16:01] Speaker_B | Okay . Okay . So that eliminates all the complicated documentation , okay . So wi"
+[16:01] Speaker_D | Oh .
+[16:06] Speaker_A | Yeah .
+"[16:08] Speaker_D | But people are often enough looking at the help , once they see the help button they say oh this is a complicated stuff . It's a psychology . Okay . And let us see what the market demands . We could just go to my presentation ."
+[16:21] Speaker_B | Yeah .
+[16:24] Speaker_A | Yeah .
+[16:29] Speaker_D | Yeah that's right .
+[16:33] Speaker_B | Mm .
+[16:43] Speaker_A | Can be used by both kids and old people .
+[16:44] Speaker_D | Both yeah .
+[16:45] Speaker_B | Mm .
+[17:21] Speaker_C | Uh well . So le le let's see what uh what people want .
+[17:22] Speaker_B | Yeah .
+[17:23] Speaker_B | Let's see the market demand .
+[17:25] Speaker_D | And then we can decide what what we can yeah .
+[17:26] Speaker_B | What what market yes yes .
+"[17:53] Speaker_D | we just made an marketing survey of what people need from our remotes and how it could be special from the other remotes . And we got the best on the responses from the questionnaires . Uh we also have some prizes for the most creative solutions . And we found the following solutions which we could which would be helpful for our design . So seventy percent of the users , they find their remote controls very ugly , they don't find it pleasant to use in the size or usage or anything . And eighty percent of the people they are always l I mean they are willing to spend more money"
+[18:33] Speaker_D | if the remote control would look fancy .
+[18:36] Speaker_D | And the current remote controls do not match well the operating behaviour of the user .
+[18:42] Speaker_D | And seventy five percent of the users
+[18:52] Speaker_C | Yeah .
+[18:52] Speaker_A | Mm-hmm .
+[18:54] Speaker_B | Yeah . Yes .
+[19:13] Speaker_B | Yeah .
+[19:17] Speaker_C | Yeah .
+[19:21] Speaker_D | And um if the remote control is too complicated it takes much time to learn the functionality of it .
+[19:26] Speaker_B | Mm .
+"[19:27] Speaker_C | Mm , the functionalities yeah ."
+"[19:29] Speaker_D | So you can just see the percentage , fifty percent people they responded that they always lose their remotes and thirty four percent they say that it's quite difficult to learn if it's too complex . So keeping in view all these findings and the frustrations I think this should be the solution for them . We should have an L_C_D_ on the rem remote control ."
+[19:55] Speaker_B | Oh .
+[19:56] Speaker_C | Well mm w well I I I don't really see the advantage of having uh L_C_D_ on the on the remote control if we have a a a big screen and uh display on the screen .
+[20:03] Speaker_B | Big screen .
+[20:07] Speaker_D | Mm-hmm ?
+[20:14] Speaker_B | Yeah .
+"[20:15] Speaker_D | I mean as our survey says that people are willing to pay more if their remotes are fancy . So if we have a L_C_D_ on the remote , rather than looking onto the T_V_ you just look into a remote and navigate it . It's the same menu as we have saw that iPod remote control . We just play around"
+[20:18] Speaker_C | Yeah .
+[20:29] Speaker_B | Mm yeah .
+"[20:35] Speaker_C | Yeah but when you play with the iPod you don't have a big screen in front of you , s"
+[20:38] Speaker_B | Yeah . Yeah .
+"[20:38] Speaker_A | You can use this screen instead of the big se screen , instead of use the yeah ."
+[20:39] Speaker_D | Yeah .
+[20:49] Speaker_A | Hmm .
+[20:53] Speaker_D | Yeah .
+[20:55] Speaker_C | Yeah .
+[20:58] Speaker_D | I mean this were the points which we got from the market demands . So
+[20:59] Speaker_B | Yeah .
+[21:01] Speaker_C | Yeah . Yeah yeah .
+[21:03] Speaker_B | Yeah .
+[21:04] Speaker_C | So I th I I well I think we we can focus on the uh on the fancy look on the uh
+[21:10] Speaker_B | Yeah . More on a fancy design .
+[21:13] Speaker_C | on the speech recognition if the technology is available but well I think L_C_D_ will uh will uh make us spend a lot of money for not so big results .
+[21:23] Speaker_B | Mm .
+[21:25] Speaker_B | Remember we have a s budget for the cost of producing the remote controller .
+[21:25] Speaker_D | Mm-hmm .
+[21:31] Speaker_A | Yeah .
+[21:43] Speaker_B | Uh maybe you can find out the price and tell us next time . Is i if i
+[21:49] Speaker_B | Yeah .
+[21:50] Speaker_D | And it's always good to have an voice recognition for the remote controls .
+[21:53] Speaker_B | Yeah . And also the cost for the speech recognition . Ask our R_ and D_ department .
+[21:57] Speaker_C | Yeah .
+[21:57] Speaker_A | Mm . It's for it's just for small vocabulary . We it's not yeah .
+"[22:00] Speaker_D | Yeah it's o only for a limited vocabulary , say eighty commands or so ."
+[22:00] Speaker_B | Yeah .
+[22:02] Speaker_B | Yeah . And ho
+[22:04] Speaker_A | Yeah .
+[22:09] Speaker_C | Well uh compared to the to s the simpl simpler simplest button .
+"[22:14] Speaker_D | Mm , the scroll button , from the survey we never see that people would like to have some scrolling button . Because they they just they're just frightened to use the scrollings or help button ."
+[22:24] Speaker_B | Yeah .
+[22:26] Speaker_C | Yeah I I I think that uh well uh as we have seen in the in the presentation uh well uh about uh uh fifty percent of the of the percent n choose the button so uh I think to have uh five uh simple button is sufficient for our functionality .
+[22:36] Speaker_B | Don't use the buttons .
+[22:40] Speaker_B | Yeah .
+[22:42] Speaker_B | Yeah . Yeah .
+[22:44] Speaker_B | Yeah .
+[22:45] Speaker_D | Yeah .
+[22:45] Speaker_A | It doesn't mean that the other buttons are not necessary or important .
+[22:48] Speaker_B | Important .
+[22:51] Speaker_A | But they are just less used compar yeah .
+[22:52] Speaker_D | They're not used much .
+[23:01] Speaker_B | Yeah .
+[23:03] Speaker_B | Yeah . Mm .
+"[23:07] Speaker_B | Yeah , yeah . So so the at most more power uh ."
+[23:09] Speaker_A | Or maybe we can u uh or maybe we can uh make this the ten percent of button more bigger than the others .
+[23:18] Speaker_C | Yeah .
+[23:19] Speaker_A | So .
+[23:34] Speaker_B | Yep .
+[23:37] Speaker_B | Yeah .
+[23:41] Speaker_B | Mm . Mm . Yeah .
+[23:46] Speaker_B | Yeah .
+[23:47] Speaker_A | Mm .
+"[23:48] Speaker_D | Or it could be like this , as the people say , if they have a L_C_D_ on the remote not on the television . Because when you have the L_C_D_ onto the television screen you miss the picture in the background , we are most focused on the commands . So if you have then L_C_D_ in the remote , you just have a menu , and increasing and lower these signs here to change the programs and this menu when you press the menu , in the L_C_D_ displays as you go on pressing the menu it faster displays volume , then the program , then the brightness , contrast and all the stuff . And accordingly you can just increase or decrease ."
+[24:22] Speaker_B | Mm .
+[24:26] Speaker_B | Mm .
+[24:30] Speaker_B | Mm . I if Mm . Mm .
+[24:35] Speaker_B | Yeah .
+[24:38] Speaker_C | Yeah .
+[24:39] Speaker_D | Yeah that has to be checked out .
+"[24:40] Speaker_B | I think that there's no contradiction here , because if there are few buttons , you don't have to look at your your controller any more because you know where the buttons are , so if you wanna control the screen d sh sharpness you just say sharpness and then you t turn you just press lef increase or decrease button and the same for the volume and the channel , if you had the speech recognition there you just shout your channel , just tell your channel and then you don't even have to look at the butto at the controller so finally that wil eliminates the the need for L_C_D_ , with the help of speech recogniser you can Yeah ."
+[24:50] Speaker_C | Yeah .
+[25:03] Speaker_D | Yeah .
+[25:14] Speaker_D | Okay .
+"[25:21] Speaker_D | I mean , better if we could just check all the cost with L_C_D_ and also with the speech recognition . And then we could find which would would be a more suitable in this case ."
+[25:26] Speaker_B | Mm .
+[25:26] Speaker_C | Yeah .
+[25:40] Speaker_C | Well so we we can think about a well a a vocal command like uh find and when the remote control uh hears fine well yeah just uh to make him beep or t
+[25:45] Speaker_B | Mm .
+"[25:49] Speaker_A | You will listen to a peep , special peep ."
+"[25:49] Speaker_B | Where , yeah ."
+[25:57] Speaker_C | Yeah .
+[25:57] Speaker_B | Yeah .
+[26:00] Speaker_B | Mm .
+[26:03] Speaker_C | Yeah .
+[26:08] Speaker_B | Put it back at the charge . Yeah .
+[26:21] Speaker_B | Yeah .
+[26:21] Speaker_C | Yeah .
+[26:21] Speaker_A | Okay .
+"[26:22] Speaker_C | And that's a good idea , that's simple , like in phones ."
+[26:24] Speaker_A | Yeah .
+[26:24] Speaker_B | Mm .
+"[26:25] Speaker_D | I mean it doe it also doesn't require a voice command , because there are problems with a voice command ."
+[26:28] Speaker_C | Yeah .
+[26:28] Speaker_A | But you don't you don't have to move the the charger .
+[26:30] Speaker_B | Hmm . Mm . Th yeah . Mm yeah . Yeah . Mm .
+"[26:31] Speaker_D | Yeah , yeah , yeah . I mean charger would be fixed because it's always with electricity plugged ."
+[26:32] Speaker_A | You have to keep it .
+[26:33] Speaker_C | Yeah .
+[26:35] Speaker_C | Yeah if there if there uh there is nuff not enough battery .
+[26:35] Speaker_A | Okay .
+[26:38] Speaker_B | Mm . There's mm . Mm .
+[26:39] Speaker_C | Also and uh uh the remote is lost .
+"[26:42] Speaker_B | Yeah . That we can what we can do is we can program a function whereby when you press the switch off T_V_ button , the off button , the remote there be s uh instruction on the screen , please charge charge me . You never get it lost because uh every time you're off the computer the T_V_ you are asked the the command the T_V_ com remote controller would tell you to put it back to where to the charger ."
+[26:42] Speaker_D | Yeah that's right .
+[26:55] Speaker_C | Yeah .
+"[27:06] Speaker_D | It's an good reminder , yeah that's right ."
+[27:07] Speaker_B | Yeah . So you will never get lost yeah .
+[27:10] Speaker_C | Okay .
+[27:12] Speaker_A | Maybe for some people lazy people .
+"[27:15] Speaker_B | Yeah . Yeah because everything is programmed inside . So it's it's uh it's all about strategy , y"
+[27:19] Speaker_A | Yeah yeah .
+[27:24] Speaker_D | And of course the final point is a fancy look . As we have seen earlier the
+[27:27] Speaker_B | Mm .
+[27:32] Speaker_B | Mm .
+[27:37] Speaker_A | Mm .
+[27:41] Speaker_C | Well the last one with the um
+[27:43] Speaker_B | With uh two two two parts controller .
+"[27:48] Speaker_D | I mean uh I mean uh I mean uh you see if it's like that even a kid who wants to have a control he could just plug it and use it , you can't avoid him . But you can have an button for child lock ."
+[28:01] Speaker_B | Yeah .
+[28:02] Speaker_C | Yeah .
+[28:03] Speaker_B | Mm .
+[28:05] Speaker_B | Mm .
+[28:07] Speaker_B | Mm . Mm .
+"[28:09] Speaker_C | Well we can think about uh having uh on the on the on the user interface when you switch on the T_V_ you can uh well write a code or choose a category , if it is kids , uh things like that ."
+[28:09] Speaker_B | Mm .
+[28:16] Speaker_B | Mm .
+[28:22] Speaker_B | Mm .
+[28:25] Speaker_B | Yeah . Mm .
+[28:26] Speaker_D | That's right .
+[28:27] Speaker_A | Or maybe you have to to show some specific programmes for kids and then just just yeah just push uh kids button so it's automatically
+[28:33] Speaker_B | Mm .
+[28:38] Speaker_B | Mm . Mm .
+[28:41] Speaker_B | Mm .
+[28:44] Speaker_A | So if he .
+[28:53] Speaker_C | So for mm yeah .
+[28:53] Speaker_B | Mm .
+[28:54] Speaker_A | Yeah .
+"[28:55] Speaker_C | So for my part I will check the prices the um the prices difference uh of what to use , where to use , and s uh and so on ."
+[29:05] Speaker_D | Yeah I think it should be clearer for us in the next meeting that th uh these could be included .
+[29:08] Speaker_C | Yeah .
+[29:09] Speaker_B | Mm . I think we need to define also a s the set of vocabularies for the speech recogniser
+[29:16] Speaker_C | Yeah .
+[29:31] Speaker_A | Mm-hmm .
+[29:47] Speaker_B | Mm .
+[30:03] Speaker_A | Yeah it's yeah .
+"[30:07] Speaker_C | That's right , yeah , yeah ."
+[30:08] Speaker_B | Mm .
+[30:16] Speaker_B | Yeah .
+[30:17] Speaker_D | I mean the the you just check all the probability that saying T_V_ twenty five and just ordinary twenty five . Ordinary twenty five you almost there's a probability of being said around sixty seventy percent and T_V_ twenty five
+[30:23] Speaker_C | Yeah yeah .
+[30:23] Speaker_B | Mm .
+[30:27] Speaker_C | Yeah but well okay .
+[30:27] Speaker_B | Mm .
+[30:31] Speaker_D | I dunno it will be round about one or two percent . So it's better to have some prefix before the number .
+[30:32] Speaker_B | Mm .
+[30:34] Speaker_A | Mm-hmm .
+[30:34] Speaker_B | Mm .
+[30:37] Speaker_B | But I I I think that the user would like wou would like to associate the channel or call the channel rather than than the numbers .
+"[30:44] Speaker_D | Yeah something , some code ."
+"[30:45] Speaker_B | You say numbe channel number five of the T_V_ correspond to something else in the channel . So some people may want to say , I want to see this channel ."
+[30:51] Speaker_C | Yeah yeah .
+[30:54] Speaker_C | Mm mm .
+[30:56] Speaker_D | That will be too big . And it will be difficult for the vocabulary also .
+[30:59] Speaker_B | Yeah . Check with the v R_ and D_ department the capability of recogniser . Uh ?
+[31:02] Speaker_A | It's difficult to to just say the the name of the channel . It will be difficult to say just the name of the channel . Because you have to s t uh a ch yeah but you have to to have all the name of the channel in your vocabulary .
+"[31:10] Speaker_B | Well , it's convenient for the user ."
+[31:22] Speaker_C | Yeah .
+[31:24] Speaker_B | The uh uh mm .
+"[31:24] Speaker_A | Or maybe the user can create his own vocabulary , just pronouncing the the name of channels and include in the vocabulary ."
+"[32:07] Speaker_D | Yeah , the ."
+[32:14] Speaker_A | Or lets the user create his own vocabulary
+[32:16] Speaker_B | Mm .
+[32:19] Speaker_B | So you you don't use the speech recogniser in that way .
+[32:19] Speaker_A | of channel .
+[32:22] Speaker_A | No . Just you have uh in the beginning you have
+"[32:32] Speaker_B | Oh , okay . Yeah ."
+"[32:38] Speaker_C | I I also think about uh another problem , if if there is uh more than one person who is watching T_V_ the s well the the speech uh r recogniser should be able to distinguish between the two . Because uh I remember when I was a young child with my sister we yeah we always want to w to watch different emission at the at the same time so it's a pr it could be a problem if uh if well if someone passes by when you are watching T_V_ and say oh T_V_ thirty and just run , s"
+"[32:46] Speaker_D | Yeah yeah , ."
+[32:54] Speaker_B | Mm .
+"[32:59] Speaker_B | Yeah , I wanna watch this , I wanna watch that ."
+[33:00] Speaker_D | Yeah .
+[33:17] Speaker_B | Mm .
+"[33:19] Speaker_D | A and in the same lines we would have a one more problem . If we are using the television in the different environments , say in the factories or in the shops where there is a lot of noise and this voice commands if they fail to work , that would bring a bad name bad uh reputation for our company . So I think we should specify some pre-requirements if we want to use a voice commands , say that it should be used in an silent homely environment or s something ."
+"[33:26] Speaker_C | Yeah , yeah ."
+[33:28] Speaker_A | Yeah .
+[33:33] Speaker_B | Mm .
+[33:34] Speaker_A | Mm .
+"[33:47] Speaker_A | Or we can switch on or switch off the the special , yeah ."
+[33:49] Speaker_D | Yeah that's right that should be an option .
+[33:52] Speaker_B | Mm .
+"[33:53] Speaker_C | Yeah that's well I think that's a good uh a good option because it's simple and uh simple to implement also , so ."
+[33:58] Speaker_B | Hmm .
+[34:00] Speaker_D | I think these are the practical problems .
+[34:03] Speaker_D | So we need to take care of them in the design .
+[34:05] Speaker_A | Maybe we'll discuss them in next meeting . It's time to close this meeting .
+[34:10] Speaker_C | Okay .
+[34:10] Speaker_D | Okay .
+[34:19] Speaker_C | Okay .
+[34:22] Speaker_C | So I see ya .
+[34:24] Speaker_D | Okay . See you another thirty minutes .

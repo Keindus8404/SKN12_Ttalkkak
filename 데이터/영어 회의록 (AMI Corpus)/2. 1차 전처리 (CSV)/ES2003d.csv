@@ -1,0 +1,385 @@
+﻿"[00:00] Speaker_B | That should hopefully do the trick , um ."
+[00:16] Speaker_B | 'Kay . Sorry about the small delay . Falling a little bit behind schedule . And that's uh fifteen twenty five .
+"[00:33] Speaker_B | Okay . So just to try and roughly go over what we agreed in the last one , um"
+"[00:43] Speaker_B | we're gonna go for something uh uh how was it ? Uh The new black , I believe . Um something that looks good 'cause that seems to be in preference to actual functionality in the end , though we should never avoid functionality , of course . Uh many of our components are gonna be standard , off the shelf , but it seemed like we were gonna require at least an advanced chip and we were still very much for the idea of using an L_C_D_ display . Um other things were we were hoping to use rubber , most likely gonna be double curved , etcetera ."
+"[01:17] Speaker_B | Okay . So um due to your hard work , we might as well let the uh two designers go first , and uh show us the prototype ."
+[01:36] Speaker_A | outline our ideas .
+[01:38] Speaker_A | Okay . Now
+[02:20] Speaker_B | Okay .
+[02:50] Speaker_A | uh if we're going to retain ergonomic design .
+[02:54] Speaker_A | Um now I I got your note about uh keeping the cost down .
+"[02:59] Speaker_B | I'm afraid yeah . We'll go into that a bit more , but please go on ."
+[03:01] Speaker_A | Yeah .
+"[03:11] Speaker_A | with uh plastic casing . Though I would recommend around the grip part here in the middle , having maybe just a rubber grip over that which would allow for a slightly more sort of bio-morphic form , and a bit more ergonomic as well . As for the um"
+"[03:28] Speaker_A | as for the single curve ,"
+"[03:31] Speaker_A | um well this edge and this edge , like I say it would be nice to have some curvature to it , but it's not absolutely necessary . Really the curve that's most needed is the underside so that the jo so that the joystick rests over the the edge of the hand like this ."
+[03:49] Speaker_A | Um and you have
+[03:52] Speaker_A | the uh transmitter here and a wee speaker for the uh for the uh for the uh fi uh for the remote control finder .
+[04:01] Speaker_A | So .
+[04:03] Speaker_A | Any further comments ?
+"[04:05] Speaker_D | Um obviously it's gonna be bulkier than how it looks , because it's gonna be flat on one side , so the L_C_D_ will be s sticking down like this , won't it ? 'Cause it you can't get it curved ."
+[04:14] Speaker_A | Mm-hmm . Yeah .
+"[04:18] Speaker_D | Uh because of costs . And it's plastic as well , so it won't be as comfortable on the hand ."
+"[04:18] Speaker_A | Yeah , I mean the uh Yeah ."
+"[04:24] Speaker_A | Yeah . I mean with the with the rubber design it could i you know it could pretty much mould very much to the to the user's hand . One nice wee feature if we could if we could still do the rubber , I though of was to have the uh rubber extend beyond the end of the uh of the rigid substructure . So it has a wee sort of tail that you just drape over your wrist so it stays in position nicely ."
+[04:24] Speaker_B | Mm .
+[04:50] Speaker_A | Mm .
+[04:51] Speaker_A | Lovely . Um .
+"[04:57] Speaker_B | Okay , yeah . Great . Um ."
+[04:59] Speaker_C | Right .
+[05:01] Speaker_C | Yeah I've got a if you load up my evaluation document .
+"[05:04] Speaker_B | Yeah , okay . Excellent work ."
+[05:05] Speaker_A | Okay .
+[05:07] Speaker_C | Mm .
+[05:12] Speaker_B | Um .
+[05:22] Speaker_C | Uh evaluation .
+[05:29] Speaker_C | Basic point uh have a list of criteria that we need to rate the prototype by . Um then we will it's a seven s um seven
+"[06:42] Speaker_C | One , t"
+"[06:48] Speaker_C | Seven , eight , oh ."
+"[07:17] Speaker_A | Yeah , that's still part of the design ."
+"[07:19] Speaker_C | Sure . And Adam , we can keep that in ?"
+"[07:21] Speaker_B | Yeah , I believe so . So I mean I don't think anybody could actually stop a remote being lost , 'cause that would mean doing something about the human element , but I'd like to think that we've done something about finding the damn thing once we have ."
+[07:23] Speaker_C | Okay .
+[07:33] Speaker_A | Mm .
+[07:35] Speaker_C | Sure .
+[07:35] Speaker_A | Mm . And making it a bright colour helps with the personally I would have gone for purple .
+"[07:39] Speaker_C | Mm . Bright colour . So we still have that noise thing , yeah ? Os on a scale of one to seven , how would you guys rate it for finding finding it once it's lost ?"
+[07:43] Speaker_A | Mm-hmm .
+[07:51] Speaker_A | I'd say number one .
+[07:52] Speaker_D | One . Yeah .
+[07:53] Speaker_C | Number one ? Okay . Number number one for the first criteria .
+"[07:58] Speaker_A | I think w if it was just the sounder then th I mean something I've found with uh w w with say tr trying to find uh a cordless phone or a m mobile , you can hear it , but you can't quite pin it dow pin down where it is ."
+[08:17] Speaker_D | What about what if the the volume on the T_V_'s turned up massively and uh you just wanna turn down the volume can't find remote .
+[08:28] Speaker_D | Suppose you have to go to the T_V_ and do it manually . Mm .
+[08:30] Speaker_C | Yeah .
+[08:31] Speaker_A | Yeah .
+[08:31] Speaker_B | Mm . Um
+[08:32] Speaker_C | Yeah .
+[08:33] Speaker_D | Like y you wouldn't hear the speaker .
+[08:35] Speaker_C | Mm-hmm .
+"[08:36] Speaker_B | just before we go through all of the steps here , um well what we'll do is"
+[08:38] Speaker_C | You wanna say something ?
+[08:50] Speaker_C | That's fine .
+[08:51] Speaker_C | Oh that's that's fine .
+[08:53] Speaker_B | Um so is there anything here that you
+[09:01] Speaker_B | that you wanted to cover as in the criteria that you've covered ? And then we'll come back pretty much promptly to this .
+[09:07] Speaker_B | I is there any of these criteria that need any explaining ? Or is there anything that yous thought tha really would stand out compared to the others ?
+"[09:14] Speaker_C | Um , a few ."
+"[09:18] Speaker_C | Something I neglected from my initial research is that Real Reactions has a a goal strategy that all of the products be inspired by material fashion , and clothing fashion . That is why fruit and veg being popular in the home and in clothing was important and they want all their products to be somehow inspired by current trends in fashion . So they say we put the fashion in electronics , well they really mean it they they're very big on fashion , so ."
+[09:48] Speaker_B | Okay .
+"[09:50] Speaker_C | That's this bit right here . And uh this bit is this one easy to use for visitors or for anybody ? I guess it's just the same as saying easy to use interface , so it's kinda condensed into one . And we can come back to it , you said . So ."
+[10:06] Speaker_B | Okay . No and which we will do very very shortly .
+[10:12] Speaker_B | Um .
+"[10:16] Speaker_B | Okay . Slight problem we had was that we have an amazing four Euros over budget for what we were hoping to do . Um most of it stems from the use of the L_C_D_ which I think in the end accounted for about half of our expenditure because of course we required a chip as well . Um the only way to get this down was either to ditch the a L_C_D_ , at which point we've removed a large part of how we were gonna interface , require more buttons , etcetera ."
+"[10:52] Speaker_B | Or what we did was that we um we as in I as I was quickly going over it was altering the actual structure . Um changing it to plastic and a solid unit with a single curve design would allow us to come back into the um proposed costs and we're just scraping it in , we've got point two of a Euro left over there . So we're just managing it really . Even then as well , um there was no criteria technically defined for a joystick so I've used what I think's appropriate . With any luck that won't mean that we've incurred more cost than we can actually afford to ."
+"[11:29] Speaker_B | It blows a lot of our really good ideas kind of slightly to one side , for example the possibility of having a U_S_B_ connection is definitely not viable now . Um ."
+[11:40] Speaker_C | Different languages ?
+"[11:42] Speaker_B | That should still be viable . We've got an advanced chip , we've got the use of the L_C_D_ . So being able to communicate in multiple languages is still very much a possibility . Um but what's something we need to decide on is how we're gonna go from here . We do need to try and come up with an idea which could be continued with other people if need be . Um ."
+[11:46] Speaker_C | Yeah .
+"[12:05] Speaker_B | We can I can bring the excel up sheet up and uh show you if you wish um . I really think as m much as it pains me is that we might have to go with plastic and some kind of solid design , possibly meaning that the L_C_D_ wouldn't be in this perfect place . It might be s stuck like slightly between what would be good for left handed and what would be good for a right handed person ."
+[12:26] Speaker_A | Mm-hmm I suppose o one thing that could be done is h is have it um circular and have it s so that the uh the pink actually goes a bit over the pinkie finger . Mm . So that uh th
+[12:37] Speaker_B | Okay .
+[12:38] Speaker_C | Mm .
+"[12:40] Speaker_B | It very much is about making concessions , unfortunately . Um ."
+[12:44] Speaker_A | Mm .
+[12:45] Speaker_C | Do you have any data on how much um different prints cost ? I mean can you get the entire thing printed with a design um ?
+"[12:53] Speaker_B | Um b b b da is you mean on the plastic , or ? Let's have a look . You now have as much information as I do . Um ."
+"[13:01] Speaker_C | Yeah , yeah ."
+"[13:05] Speaker_B | So as you can see here , for example , the battery"
+[13:08] Speaker_B | really not very little choice in that one . We've gone for one of the cheaper options as well . Unfortunately we require the advanced chip if we're gonna do what we're needing to .
+"[13:17] Speaker_B | I've said single curved . We really do need it to be that way for the ergonomics of it . Um plastic for some reason incurs no cost , which I've had to very much make advantage of , despite the fact that rubber's only got a value of two Euros per unit . Problem comes here as you can see in the interface . Um"
+"[13:36] Speaker_B | if I've read this thing correctly , then we can save point five of a Euro here in that it's not per push button . That might make sense , because then a numeric keypad would come in at um what , four point five Euros , which is an awful lot , so that could well be wrong . Even if we save point five there , it would just mean that we're most likely placing it in actually just gaining a colour for the unit , which has had to be put to one side . As you can see , the use of an L_C_ display um advanced chip and what would determine the scroll wheel here as well because it's an integrated scroll scroll wheel push button that wasn't quite what I think they had in mind with a joystick ."
+[14:15] Speaker_C | Why would why would that be more expensive than an individual push button and scroll wheel together ?
+[14:21] Speaker_C | That's quite significantly expensive .
+[14:23] Speaker_B | I that's something you'll have to take up with the bean counters . Um
+[14:29] Speaker_A | Mm . yeah .
+"[14:31] Speaker_B | as you can see I mean that's taken up well over half of the price . So um I'm very much open to suggestions of where we go , but because we need to shed what was four Euros off of the um the price of for what we really desired , this one comes in under price as you can see , but this was the one that sacrificed the material for the case and for the actual case design ."
+[14:34] Speaker_C | Yeah .
+[14:59] Speaker_C | We don't even have uh speakers here . The like uh we uh what about speakers and transmitters and stuff like that ? Have we factored that in ?
+[15:07] Speaker_D | Mm .
+[15:21] Speaker_C | Yeah .
+[15:22] Speaker_D | That's too expensive isn't it ?
+"[15:29] Speaker_B | Mm . Oh good call , I missed that ."
+"[15:32] Speaker_C | I I mean it's not on here , but um ."
+[15:38] Speaker_C | Did they s do we have to use an advanced chip for the L_C_D_ ? Okay . Well that's yeah .
+[15:42] Speaker_D | Yeah .
+[15:49] Speaker_C | What's a hand dyna dynamo ? You have to wind it up ?
+"[15:52] Speaker_B | I believe so , yeah ."
+"[15:55] Speaker_B | That would probably not be in keeping with the um the fashion statement and such , yeah ."
+[16:00] Speaker_D | Fashion .
+[16:03] Speaker_D | So basically the only new thing is the L_C_D_ on the remote now .
+[16:03] Speaker_C | Okay .
+"[16:07] Speaker_B | Being manipulated by the joystick , yeah ."
+"[16:09] Speaker_D | Oh , and joystick , yeah ."
+[16:11] Speaker_B | Which I'm defining as scroll wheel . Um .
+"[16:18] Speaker_C | And we couldn't replace the joystick , right ? Because we would need four extra buttons to replace it , up down left and right , and that would be more expensive than a but is a scroll wheel not just back and forward ?"
+[16:26] Speaker_A | Mm .
+"[16:29] Speaker_B | Yeah it's just because there was no actual definition for what a joystick might be , that"
+[16:34] Speaker_B | that's what I've labelled it for the purposes of this evaluation .
+[16:38] Speaker_D | The L_C_D_ basically is the big selling point of
+"[16:40] Speaker_B | If we remove the L_C_ display , we could save ourselves"
+[16:42] Speaker_D | the remote .
+[16:46] Speaker_B | a fair amount .
+"[16:49] Speaker_D | But that's what makes it uh original though , isn't it ?"
+[16:51] Speaker_A | Mm . I think if we remove the the L_C_ display then there was absolutely no point to any of these meetings and we just we could just put our branding on any other remote control .
+[16:51] Speaker_C | Yeah .
+[17:02] Speaker_C | Yeah . Yeah . Um . Uh k
+[17:11] Speaker_B | If we could've increased the price we could've manufactured that and we could've got something far closer to what we were hoping to .
+[17:16] Speaker_C | Does this does this bear in mind that I mean it's a bit ridiculous that they're gonna charge us
+"[17:23] Speaker_C | what is it , like this much money for three million if we're gonna buy three million components , you know ."
+"[17:30] Speaker_B | Again , you'll have to argue with the accountants on that one . Um but for the purposes of this meeting , I'm we're gonna have to stick with these figures ."
+[17:32] Speaker_C | Mm .
+[17:39] Speaker_C | 'Kay .
+"[17:40] Speaker_B | So ,"
+"[17:42] Speaker_B | I would say that it would seem like the general opinion is we're gonna keep the L_C_ display 'cause it's about what really separates us , despite the cost it's gonna incur . Um"
+[17:48] Speaker_C | I think so .
+"[17:54] Speaker_B | are people maybe not happy with , but are willing to go ahead with this in going for a plastic solid case , to keep the L_C_D_ ?"
+"[18:04] Speaker_A | Mm-hmm . Um yeah I mean one thing , I mean ho uh how much extra would it be to to keep I mean keep the um the articulation ?"
+"[18:14] Speaker_B | It's hard to tell . Um I would say that you're at least gonna take double curved , and even then I'm not quite sure if that's incorporating the idea of articulation ."
+[18:17] Speaker_A | This is what I'm wondering .
+[18:25] Speaker_C | Yeah .
+"[18:25] Speaker_A | Oh no , I think I I it d that it needn't require it to be double curved ."
+[18:32] Speaker_A | It's uh it's just it's just it's just that the case would come in t would be made in two parts and then joined together with an articulation .
+[18:33] Speaker_D | You just .
+[18:33] Speaker_B | Single curved with articulation ?
+[18:41] Speaker_C | Could we could we not get rid of the curvy the curvous the curvaceousness and focus on the menu being the best interface ? 'Cause like we do we have re restrictions on software ?
+[18:52] Speaker_D | That's what we need for the joystick I think though .
+"[18:55] Speaker_A | Mm . Yeah , I mean and I mean the uh I mean if you look uh if you look closer at the uh at the prototype here , the lines here along the grip"
+"[19:05] Speaker_A | are actually quite straight . Um I mean yeah , on the on the L_C_D_ I mean although we've done it with a curve it could just as easily be done um without curves . The curve that's really needed is up here , to put uh to keep the joystick in a good ergonomic position for it to have it rest on the top of the hand ."
+"[19:29] Speaker_C | Okay . Sure . Okay , my bad ."
+"[19:33] Speaker_B | We wouldn't actually save a lot by reducing it anyway , so I mean for the purposes of this meeting maybe we can state that single curve still allows articulation . Um unless we hear otherwise we could go ahead with that proposal ."
+[19:43] Speaker_A | Mm .
+[19:50] Speaker_C | So I think the product is not gonna perform so well for my criteria .
+"[20:06] Speaker_C | Oh , wait a minute ."
+[20:07] Speaker_C | Sample speaker ?
+[20:10] Speaker_C | What is a sample speaker ? Is that somewhat similar to what we want ?
+[20:14] Speaker_A | Mm no that's that voice response thing that we got the email about . But I thought it was just completely pointless .
+[20:16] Speaker_D | Costs four .
+[20:18] Speaker_C | Yeah .
+[20:21] Speaker_C | You got a email about voice response ?
+[20:23] Speaker_A | Yeah .
+"[20:24] Speaker_C | I did not , so ."
+"[20:25] Speaker_A | Alright . B i basically it was saying that our labs had come up with a chip that you could , you know , say hello to , and it would say hello back in a friendly female voice ."
+"[20:36] Speaker_B | Okay , yeah we'll definitely won't go with that one ."
+"[20:40] Speaker_B | Yeah , that's voice recognition , so ."
+"[20:43] Speaker_C | Okay , okay ."
+[20:46] Speaker_B | Um .
+[20:50] Speaker_C | So it looks like we're gonna get rid of the whole loca locator thing .
+"[20:54] Speaker_B | It looks like it unless we can manage to put it in under point two Euros , um ."
+[20:54] Speaker_D | Yeah .
+[21:04] Speaker_A | Mm-hmm .
+[21:10] Speaker_D | Are we going for a special colour at all ?
+[21:13] Speaker_B | It's uh a case of um
+[21:16] Speaker_B | I'm uh slightly unsure . One point five of a Euro for one push button doesn't sound quite right . So maybe it's a case of a push button is maybe one or more .
+[21:28] Speaker_A | Mm .
+[21:28] Speaker_B | Um .
+[21:29] Speaker_D | Well I was for a case .
+[21:33] Speaker_D | Or had you already incorporated that ?
+"[21:35] Speaker_C | Oh , special colour for the case ."
+[21:37] Speaker_B | Well you got point five there . It's literally a case of whether or not this is correct . I'm not quite sure if they're I don't think they mean point five Euros per button .
+"[21:45] Speaker_A | Okay , well l let's say that and then we can have our special coloured case and then we at least have make it a little harder to lose . Because most m most remotes are a fairly dingy colour that gets camouflaged under any pile of crap in a living room ."
+[21:47] Speaker_C | Mm-hmm .
+[21:54] Speaker_B | There we go .
+[22:01] Speaker_C | W what's the default colour ? White or black ?
+"[22:03] Speaker_B | Black's probably the normal colour you'd say , yeah . I quite like that colour that you're fetching there , it's uh definitely for make it glow in the dark even better . So"
+[22:05] Speaker_A | Or grey .
+[22:06] Speaker_C | Right .
+[22:08] Speaker_A | Yellow .
+[22:14] Speaker_C | Yeah .
+[22:18] Speaker_B | will we go with that then ?
+[22:21] Speaker_A | Okay .
+[22:22] Speaker_C | Yeah .
+[22:22] Speaker_B | It's not and we can see we'll come back to uh your evaluation which you're probably now going to pan us but there we go .
+"[22:33] Speaker_B | Just to give you an idea , um you want to go maybe a bit quickly as well , I'm not sure how much time . We've not hit the five minute mark warning yet , but ."
+[22:40] Speaker_C | Right okay . Okay .
+[22:43] Speaker_B | Ten .
+[22:43] Speaker_C | 'Kay . Ability to stop remotes from being lost or to find them once they are lost .
+[22:49] Speaker_C | Um . Okay . Special colour .
+[22:50] Speaker_D | Special colour .
+[22:52] Speaker_B | Mm mm four ? Three ? Mm .
+[22:53] Speaker_C | Uh uh four .
+"[22:57] Speaker_C | Three if we're being generous , I feel ."
+[22:57] Speaker_A | Three . I think we can do three .
+[23:00] Speaker_D | Three .
+[23:00] Speaker_C | Think we're being generous here with three .
+[23:06] Speaker_C | Mm .
+"[23:09] Speaker_C | Yeah . Okay . Reduce the number of unused buttons . We're down to t two buttons , is it ?"
+[23:10] Speaker_B | Okay .
+[23:15] Speaker_B | Two buttons .
+[23:15] Speaker_A | Two buttons and a joystick .
+[23:18] Speaker_A | Totally .
+[23:18] Speaker_B | Yeah . I'd say we're doing well there .
+[23:34] Speaker_B | Mm-hmm .
+[23:38] Speaker_A | It doesn't get much fancier .
+[23:40] Speaker_C | Sure . And we could do whatever we like with the L_ L_C_D_ . Yeah let's just assume it's a good L_C_D_ display . Maybe I was panicking for no reason .
+"[23:47] Speaker_D | Are we going one on ? I'd say we go two , 'cause like f the fanciest would be the double curved ."
+"[23:55] Speaker_C | Yeah , w maybe you'd be a bit too yeah . There we go . Yeah , that's m"
+[23:56] Speaker_D | Wouldn't it ?
+[23:56] Speaker_A | Mm .
+[23:57] Speaker_D | With the articulators .
+[23:59] Speaker_D | With bells on it .
+[24:12] Speaker_B | Which is a shame .
+"[24:13] Speaker_A | Mm . I'd give it a three for this for that . Yeah . I mean the menus thing is something you don't normally see on um on a remote , but you see it in a lot of other places ."
+[24:15] Speaker_D | No need for teletext .
+[24:20] Speaker_C | 'Kay .
+[24:33] Speaker_B | Mm .
+[24:39] Speaker_A | Mm-hmm .
+[24:40] Speaker_C | You say three ? I might go as far as two on that . Three .
+[24:44] Speaker_A | I'd give it a three .
+"[24:44] Speaker_B | I'd be tempted with three , yeah ."
+[24:46] Speaker_C | Three . Okay .
+[24:49] Speaker_C | Okay .
+"[24:49] Speaker_B | We'll get panned on the next one , anyway ."
+"[24:51] Speaker_C | Materials that people find pleasing . Sponginess is what they really would have wanted , apparently ."
+"[24:54] Speaker_B | Yeah , w"
+"[24:57] Speaker_B | It is , yeah . Don't blame them . Um because of the way that we've minimalised the number of buttons and such . Plastic , it sucks . But it's no worse than any of the other pl remote controls we have ."
+[25:05] Speaker_C | Yeah .
+[25:11] Speaker_C | That's true . It's not a step backwards .
+[25:15] Speaker_A | Mm-hmm .
+"[25:16] Speaker_A | I'd s I I'd give it a six , to be honest ."
+"[25:18] Speaker_D | Six , ."
+"[25:33] Speaker_A | Well I I I would sa I would say give a s give a selection of colours . Um we went with yellow we went with yellow for the prototype 'cause we had yellow . If I were buying one , I'd go for purple . Leopard print would be cool ."
+"[25:50] Speaker_D | Yeah we gotta . I'd say the colour of the border there world you'd find that , that's that'd stand out ."
+"[25:57] Speaker_B | Like yellow , yeah . It would also help keep the the product placement s yeah . Is it inspired by clothing fashion ?"
+"[26:02] Speaker_D | Logo , brand ."
+[26:04] Speaker_C | Mm .
+[26:05] Speaker_D | Mm 'kay .
+[26:08] Speaker_C | Th th they're referring to the fruit and veg thing .
+[26:17] Speaker_B | Yes .
+[26:23] Speaker_C | Oh is that 'cause it's flat ? What is what fruit or veg is flat ?
+[26:24] Speaker_A | budgeted .
+[26:29] Speaker_A | I I think s I I think this isn't not particularly fruit and veggie . Um .
+[26:37] Speaker_D | Yellow courgette .
+"[26:49] Speaker_C | Four ? Oh that's it's very ambitious , yeah , um ."
+[26:51] Speaker_B | Is that being too generous ?
+[26:52] Speaker_A | Mm . I'd I'd I don't think fruit and veg is the sole criterion . Is the sole criterion for being um fashion fashionable or inspired by current fashions . Um I'd g I'd rate I'd rate this fairly highly from that point of view actually .
+"[26:58] Speaker_B | Oh dear , ."
+[26:58] Speaker_C | Sure .
+[27:02] Speaker_C | Inspired by .
+"[27:11] Speaker_D | Well this this what we're gonna t this is their motto , like . And we're we're not doing well on it ."
+[27:14] Speaker_C | Yeah .
+[27:16] Speaker_C | This is their strategy .
+[27:18] Speaker_C | I m imagine we actually had some money invested in this and the amount that we invest is gonna be proportional to the marks . Might we might wanna be a bit more skepible sceptical about
+[27:30] Speaker_C | this one .
+[27:33] Speaker_B | What would you think yourself ?
+"[27:34] Speaker_C | I would say I mean it's it's not at all , right ? In any way or shape or form . We didn't m"
+"[27:42] Speaker_B | Well , it's kind of curved and we can make it yellow , and that's pretty much banana like ."
+"[27:47] Speaker_C | Okay , the the yellow banana like thing is I think is okay ."
+[27:51] Speaker_B | Si it's got a curve to it .
+[27:53] Speaker_C | Right five . Is that sound reasonable ?
+[27:57] Speaker_B | Am I do you think I'm stretching the uh the use of the banana ?
+"[27:57] Speaker_D | Yeah , I'll go with five ."
+[27:59] Speaker_C | Five .
+"[28:06] Speaker_C | 'Kay , so we have one , two , three , four , five , six , seven ."
+"[28:13] Speaker_C | So five , seven , ten , sixteen , twenty one ."
+[28:19] Speaker_C | Which gives us an average of three .
+[28:23] Speaker_C | It's well this would be in the middle . So we it's it's not bad . It's in the good section .
+[28:32] Speaker_B | It's not bad and considering the don't pick the pen . Um .
+"[28:42] Speaker_B | Y oh and you've knocked batteries out . Um right okay it's considering the price we had to get this in , to have a positive you know , even based on the four of us being heavily biased , um"
+"[28:47] Speaker_D | 'S bad design , that thing ."
+[28:52] Speaker_C | Mm-hmm .
+[28:59] Speaker_C | Yeah .
+[29:10] Speaker_B | um the the cost features .
+"[29:13] Speaker_D | Mm , yeah ."
+[29:14] Speaker_A | Mm .
+"[29:14] Speaker_C | Even if we were to increase this entire thing by by seven , we were to go down a grade to to four , we would have to do I mean we didn't we weren't that kinda optimistic too optim overly optimistic . You know like we didn't we didn't add we didn't subtract a whole seven points from these things , so I think we're definitely on the good bit . Even if we gave this one seven and this one seven , that's still only three extra points over seven . You know , it's yeah , we did it w it was okay . It was good ."
+[29:44] Speaker_A | Mm .
+"[29:47] Speaker_A | Personally ,"
+[29:49] Speaker_A | I think given that
+[29:53] Speaker_A | the product um
+"[29:58] Speaker_A | only replaces a single remote control that you've already got ,"
+[30:05] Speaker_A | are people really gonna shell out twenty five Euros for something that's only marginally good ?
+"[30:12] Speaker_D | Well , it depends who your who's what the target people are , like you'd say"
+[30:20] Speaker_D | maybe the fashion conscious
+"[30:24] Speaker_D | women would be going , oh look at that , 's cool , it looks like a it's"
+[30:28] Speaker_C | Mm-hmm .
+"[30:29] Speaker_D | yellow , looks like a banana , it's cool it's gotta look good in the sitting room ."
+[30:34] Speaker_B | Hide it in the fruit basket .
+"[30:35] Speaker_D | Rather than the L_C_D_ whereas uh more technical like like more uh people in with the latest technology it's good , it's got an L_C_D_ screen 's only got two buttons and a joystick ."
+"[30:50] Speaker_D | So ,"
+[30:52] Speaker_D | which which kind of people would be more
+[30:54] Speaker_D | likely to buy it ?
+[30:57] Speaker_B | Probably the people technologically . They're usually the ones that buy pointless stuff .
+"[31:01] Speaker_C | I think so . I mean my mum still has not learnt how to use text messaging on her phone , and she's had it for a long time , you know . She uses it to make phone calls and that's it ."
+"[31:12] Speaker_C | Yeah . So I think if sh if my mum saw a remote control like this with only two buttons and a joystick , I mean that'll probably be the first one she decides not to buy , you know . She'd be like is this a remote control , I don't how do you use it , and stuff like that . So even if it is really user friendly to us , but we're used to using menus all the time ."
+[31:23] Speaker_B | Mm-hmm .
+"[31:33] Speaker_A | Mm-hmm . I s I suppose one thing is that b because it's technically innovative ,"
+"[31:39] Speaker_A | um for someone who's sort of technophobic , the fact that it simply looks unfamiliar would be daunting ."
+[31:46] Speaker_C | Yeah .
+"[31:48] Speaker_C | Yeah . I think it's totally uh radical to have a remote control with no no numbered buttons , yeah ."
+[31:49] Speaker_A | Um .
+[31:52] Speaker_D | Yeah .
+[31:54] Speaker_D | Yeah .
+"[31:56] Speaker_C | But like radical good , maybe ."
+[31:58] Speaker_B | Okay . Um don't know how lo much longer we've got . At least five minutes I think . Um quickly we'll pop onto project evaluation . Um .
+"[32:10] Speaker_B | So ,"
+[32:14] Speaker_B | we've got these uh four criteria here for uh satisfaction .
+[32:20] Speaker_B | Does anybody want to um
+[32:23] Speaker_B | um do you have any opinions on any of them ? For example um we'll work backwards I suppose . The ability to work on this project using the technology we've been presented with . Um people made good use of the
+[32:41] Speaker_B | uh pen and paper ?
+"[32:44] Speaker_A | Yeah , got notes and doodles ."
+[32:45] Speaker_D | Yeah .
+[32:50] Speaker_B | I'm not quite sure what the advantage for us using a digital pen might be .
+[32:55] Speaker_C | I think tracking .
+[32:56] Speaker_A | Well I think this is a I think the digital pen's mostly for the benefit of the uh
+[32:58] Speaker_B | Mm .
+[33:00] Speaker_A | of the researchers studying this . It's all p goes into their corpus . Though it would have been nice to be able to transfer the um
+[33:09] Speaker_A | transfer our n our paper notes onto the uh
+[33:13] Speaker_A | computer ourselves .
+"[33:14] Speaker_C | Yeah , that woulda been pretty good ."
+[33:15] Speaker_B | It does seem like the paper's still a heavy consideration for taking notes . So maybe this is literally just a way around it . Um I dunno .
+[33:27] Speaker_B | How are people satisfied with the teamwork we've managed to display today ?
+[33:32] Speaker_D | Good .
+"[33:33] Speaker_C | I'd yeah I liked it , yeah ."
+[33:38] Speaker_B | Leadership . As much as can be leadered in this uh thing .
+[33:43] Speaker_D | Very good .
+"[33:44] Speaker_C | I li yeah , top marks ."
+[33:56] Speaker_D | We're burs bursting with creativity .
+"[34:05] Speaker_B | Yeah I think of in the end , ideas that can be used sadly . Not so much that we weren't full of ideas , but of ones that are gonna allow us to actually build the thing . It's a bit of a pity . Um I would have to agree on that . I think we needed a larger budget ."
+[34:16] Speaker_C | Mm-hmm .
+[34:23] Speaker_C | Yeah .
+[34:32] Speaker_A | Yeah .
+[34:35] Speaker_A | Mm . I mean I th I mean I think to r retaining the s the more sort of bio-morphic form in the articulation would gain more in s uh would gain more profit in sales than it would lose in uh
+[34:36] Speaker_B | first on the market .
+[34:52] Speaker_A | in added expense .
+[34:54] Speaker_B | Mm .
+[34:56] Speaker_D | And the price was like it was twice the
+[35:00] Speaker_D | w assembly cost . And would it have to be twice that ? It could be like coulda had the assembly like maybe fifteen Euro .
+[35:11] Speaker_D | We'll still settle for twenty five .
+"[35:15] Speaker_B | That's true , yeah . Um I suppose these are all that will have to be taken up with a at a different group at I guess . As to a the costs involved ."
+[35:15] Speaker_D | Maybe .
+[35:28] Speaker_B | But I mean
+[35:30] Speaker_B | we've got a a prototype .
+[35:33] Speaker_A | Such as it is .
+"[35:42] Speaker_B | had at our disposal , and um such ."
+"[35:48] Speaker_C | Yeah , to begin with . Yeah ."
+"[35:49] Speaker_D | In the beginning , yeah ."
+"[35:51] Speaker_B | Probably would have mean we could have come up with a lot more solid design in the end , I would have to agree . It is very much a pity to um get so far into the stage and then find out that maybe some of your ideas are just a bit too expensive . Always hard to tell until you know the costs . Um ."
+[35:55] Speaker_C | Yeah .
+"[36:15] Speaker_B | Okay . Are the costs within budget ? Well , they are now that we have our slightly less than capable product . We've evaluated it , and we can say that we came out with a value of three ."
+[36:24] Speaker_C | Okay .
+[36:30] Speaker_C | Yeah .
+[36:31] Speaker_A | Actually I want th one thing I would say I mean something that could perhaps be part of the product mm the um m product testing market research process would be to uh produce mock-ups of both versions and see just how much of a difference the over going over-budget
+[36:52] Speaker_A | um m would make to sales .
+[36:54] Speaker_B | It's yeah ?
+[36:56] Speaker_C | And like response from consumers .
+"[36:58] Speaker_A | And we could even you know , market two versions ."
+[37:14] Speaker_A | Yes .
+"[37:25] Speaker_B | anything they think that's not been covered , before I quickly write up a final report ."
+"[37:34] Speaker_B | Um I dunno , I mean we've got a product . We maybe aren't as happy with it as we'd like to be , but"
+[37:42] Speaker_B | we've got something we think we can maybe stick onto the the market and sell .
+[37:48] Speaker_B | And of course something we have been avoiding talking about 'cause of we've no information is selling them directly to the manufacturers . There is a huge market . I mean we've briefly touched on it but we've no more knowledge then there's little we can say on that .
+[37:55] Speaker_C | Yeah .
+[38:00] Speaker_C | Yeah .
+[38:01] Speaker_A | Mm .
+[38:06] Speaker_B | Yeah .
+"[38:09] Speaker_B | So um unless anybody's got anything they'd like to add , we can maybe round this up slightly earlier than we'd need to and then we can finish up the writing and such ."
+[38:20] Speaker_A | And I can get my bus .
+[38:23] Speaker_B | Yeah ?
+[38:24] Speaker_A | Okay .
+[38:24] Speaker_C | Yeah .
+[38:28] Speaker_B | Uh thank you for your participation .
+[38:30] Speaker_C | Thank you .
+[38:31] Speaker_A | Thank you .
+[38:48] Speaker_C | And s yeah that's just bad .
+[38:53] Speaker_C | Do you think maybe the prices were were made ?

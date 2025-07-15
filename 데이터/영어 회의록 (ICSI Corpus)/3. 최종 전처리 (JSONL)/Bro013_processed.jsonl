@@ -1,0 +1,470 @@
+{"timestamp": "00:23", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "00:23", "speaker": "Speaker_C", "text": "Sh - Close your door on door on the way out ? Thanks ."}
+{"timestamp": "00:23", "speaker": "Speaker_B", "text": "Thanks ."}
+{"timestamp": "00:25", "speaker": "Speaker_B", "text": "Oh ."}
+{"timestamp": "00:39", "speaker": "Speaker_E", "text": "Uh , well , first there are perhaps these uh Meeting Recorder"}
+{"timestamp": "00:44", "speaker": "Speaker_E", "text": "digits"}
+{"timestamp": "00:45", "speaker": "Speaker_E", "text": "that we tested . So ."}
+{"timestamp": "00:47", "speaker": "Speaker_E", "text": "Um ."}
+{"timestamp": "00:49", "speaker": "Speaker_C", "text": "the SRI System and the oth And"}
+{"timestamp": "00:54", "speaker": "Speaker_C", "text": "difference between having a lot of uh"}
+{"timestamp": "01:06", "speaker": "Speaker_C", "text": "on"}
+{"timestamp": "01:09", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "01:12", "speaker": "Speaker_C", "text": "And uh it 's significantly better than that , using"}
+{"timestamp": "01:19", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "01:26", "speaker": "Speaker_C", "text": "But that 's that 's using uh a a pretty huge amount of data ,"}
+{"timestamp": "01:41", "speaker": "Speaker_E", "text": "Yeah . Right ."}
+{"timestamp": "01:47", "speaker": "Speaker_C", "text": "is is doing the digits um"}
+{"timestamp": "01:50", "speaker": "Speaker_C", "text": "the wor as a word model or as"}
+{"timestamp": "01:53", "speaker": "Speaker_C", "text": "uh a sub s sub - phone states ?"}
+{"timestamp": "02:04", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "02:14", "speaker": "Speaker_E", "text": "It 's their complete system and including on - line"}
+{"timestamp": "02:20", "speaker": "Speaker_C", "text": "That 's true ."}
+{"timestamp": "02:21", "speaker": "Speaker_E", "text": "And if you don't use adaptation , the error rate is"}
+{"timestamp": "02:25", "speaker": "Speaker_E", "text": "around"}
+{"timestamp": "02:27", "speaker": "Speaker_E", "text": "fifty percent worse , I think , if I remember . Yeah ."}
+{"timestamp": "02:29", "speaker": "Speaker_C", "text": "OK ."}
+{"timestamp": "02:31", "speaker": "Speaker_C", "text": "It 's tha it 's that much , huh ?"}
+{"timestamp": "02:31", "speaker": "Speaker_E", "text": "Nnn ."}
+{"timestamp": "02:32", "speaker": "Speaker_E", "text": "It 's Yeah . It 's quite significant . Yeah ."}
+{"timestamp": "02:35", "speaker": "Speaker_C", "text": "Oh . OK ."}
+{"timestamp": "02:37", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "02:45", "speaker": "Speaker_C", "text": "take I guess that somebody 's gonna do this , right ? is to take some of these tandem things and feed it into the SRI system , right ?"}
+{"timestamp": "02:51", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "02:52", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "02:52", "speaker": "Speaker_E", "text": "We can do something like that . Yeah ."}
+{"timestamp": "02:59", "speaker": "Speaker_E", "text": "I am not sure . Our back - end is is fairly simple but until now , well , the attempts"}
+{"timestamp": "03:07", "speaker": "Speaker_E", "text": "to improve it or have fail Ah , well , I mean"}
+{"timestamp": "03:10", "speaker": "Speaker_E", "text": "uh what Chuck"}
+{"timestamp": "03:11", "speaker": "Speaker_E", "text": "tried"}
+{"timestamp": "03:12", "speaker": "Speaker_E", "text": "to to to do"}
+{"timestamp": "03:15", "speaker": "Speaker_E", "text": "Yeah . So it 's Yeah ."}
+{"timestamp": "03:23", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "03:27", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "03:34", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "03:37", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "03:38", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "03:38", "speaker": "Speaker_C", "text": "And um ."}
+{"timestamp": "03:41", "speaker": "Speaker_E", "text": "So , yeah , we could retrain"}
+{"timestamp": "03:43", "speaker": "Speaker_E", "text": "some of these tandem"}
+{"timestamp": "03:52", "speaker": "Speaker_E", "text": "f for the HMM models . Yeah . Mm - hmm ."}
+{"timestamp": "03:53", "speaker": "Speaker_C", "text": "much better H M Ms . Yeah ."}
+{"timestamp": "03:56", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "03:58", "speaker": "Speaker_C", "text": "But just train those H M Ms using different features , the features coming from our Aurora stuff . So ."}
+{"timestamp": "04:01", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "04:04", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "04:08", "speaker": "Speaker_E", "text": "perhaps it 's not related , the amount of data but the um"}
+{"timestamp": "04:14", "speaker": "Speaker_E", "text": "it 's probably not a problem of noise , because"}
+{"timestamp": "04:17", "speaker": "Speaker_E", "text": "our features are supposed to be robust to noise ."}
+{"timestamp": "04:20", "speaker": "Speaker_E", "text": "It 's not a problem of channel , because there is"}
+{"timestamp": "04:20", "speaker": "Speaker_C", "text": "Well , yeah ."}
+{"timestamp": "04:23", "speaker": "Speaker_E", "text": "um"}
+{"timestamp": "04:29", "speaker": "Speaker_C", "text": "I I I 'm sorry . What what is the problem that you 're trying to explain ?"}
+{"timestamp": "04:34", "speaker": "Speaker_C", "text": "That the Oh ."}
+{"timestamp": "04:37", "speaker": "Speaker_C", "text": "So much worse ?"}
+{"timestamp": "04:37", "speaker": "Speaker_E", "text": "uh so much worse . Yeah ."}
+{"timestamp": "04:44", "speaker": "Speaker_C", "text": "I mean , that it has to do with the um amount of training data . It it 's it 's orders of magnitude off ."}
+{"timestamp": "04:50", "speaker": "Speaker_E", "text": "Yeah but Yeah ."}
+{"timestamp": "04:54", "speaker": "Speaker_E", "text": "Yeah but we train only on digits and it 's it 's a digit task , so . Well ."}
+{"timestamp": "04:57", "speaker": "Speaker_C", "text": "But but"}
+{"timestamp": "05:00", "speaker": "Speaker_C", "text": "if you look at what commercial places do , they use a huge amount of data . This is a modest amount of data ."}
+{"timestamp": "05:01", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "05:03", "speaker": "Speaker_E", "text": "Alright ."}
+{"timestamp": "05:05", "speaker": "Speaker_E", "text": "Yeah . Mm - hmm ."}
+{"timestamp": "05:12", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "05:14", "speaker": "Speaker_C", "text": "But the thing is , if you have a huge in other words , do word models But if you have a huge amount of data"}
+{"timestamp": "05:18", "speaker": "Speaker_E", "text": "Right ."}
+{"timestamp": "05:19", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "05:20", "speaker": "Speaker_C", "text": "then you 're going to have many occurrences of similar uh allophones ."}
+{"timestamp": "05:24", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "05:29", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "05:30", "speaker": "Speaker_C", "text": "I I think it has to be that , because , as you say , this is , you know , this is near - microphone , it 's really pretty clean data ."}
+{"timestamp": "05:35", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "05:38", "speaker": "Speaker_C", "text": "Now , some of it could be the fact that uh let 's see , in the in these multi - train things did we include noisy data in the"}
+{"timestamp": "05:46", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "05:46", "speaker": "Speaker_C", "text": "training ? I mean , that could be hurting us actually , for the clean case ."}
+{"timestamp": "05:54", "speaker": "Speaker_E", "text": "are better than the multi - train , yeah ."}
+{"timestamp": "05:59", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "06:00", "speaker": "Speaker_C", "text": "But um ."}
+{"timestamp": "06:02", "speaker": "Speaker_C", "text": "Uh ."}
+{"timestamp": "06:04", "speaker": "Speaker_C", "text": "So ."}
+{"timestamp": "06:06", "speaker": "Speaker_E", "text": "well , let 's say if we if we add enough data to train on the um"}
+{"timestamp": "06:10", "speaker": "Speaker_C", "text": "Uh - huh ."}
+{"timestamp": "06:12", "speaker": "Speaker_E", "text": "on the Meeting Recorder digits ,"}
+{"timestamp": "06:13", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "06:14", "speaker": "Speaker_E", "text": "I guess we could have better results than this ."}
+{"timestamp": "06:17", "speaker": "Speaker_E", "text": "And ."}
+{"timestamp": "06:18", "speaker": "Speaker_E", "text": "What I meant is that perhaps we can learn something"}
+{"timestamp": "06:21", "speaker": "Speaker_E", "text": "uh from this ,"}
+{"timestamp": "06:22", "speaker": "Speaker_E", "text": "what 's what 's wrong"}
+{"timestamp": "06:24", "speaker": "Speaker_E", "text": "uh"}
+{"timestamp": "06:30", "speaker": "Speaker_C", "text": "What kind of numbers are we getting on TI - digits ?"}
+{"timestamp": "06:32", "speaker": "Speaker_E", "text": "It 's point eight percent , so ."}
+{"timestamp": "06:38", "speaker": "Speaker_C", "text": "Oh . I see ."}
+{"timestamp": "06:38", "speaker": "Speaker_E", "text": "Four - Fourier ."}
+{"timestamp": "06:39", "speaker": "Speaker_E", "text": "@ @"}
+{"timestamp": "06:42", "speaker": "Speaker_E", "text": "Yeah . Yeah ."}
+{"timestamp": "06:45", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "06:46", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "06:48", "speaker": "Speaker_C", "text": "Sure , but I mean ,"}
+{"timestamp": "06:55", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "07:05", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "07:14", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "07:20", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "07:21", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "07:30", "speaker": "Speaker_E", "text": "Yeah . Mm - hmm ."}
+{"timestamp": "07:34", "speaker": "Speaker_C", "text": "Um ."}
+{"timestamp": "07:39", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "08:00", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "08:05", "speaker": "Speaker_C", "text": "Um ."}
+{"timestamp": "08:10", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "08:30", "speaker": "Speaker_C", "text": "the uh point eight percent for for for the original TI - digits database ?"}
+{"timestamp": "08:36", "speaker": "Speaker_C", "text": "Um ."}
+{"timestamp": "08:40", "speaker": "Speaker_E", "text": "th that 's my point I I I don't"}
+{"timestamp": "08:43", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "08:54", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "08:58", "speaker": "Speaker_C", "text": "Um . Why is it uh four times as high ,"}
+{"timestamp": "09:03", "speaker": "Speaker_C", "text": "or more ?"}
+{"timestamp": "09:10", "speaker": "Speaker_C", "text": "Right ? I mean , there 's even though it 's close - miked there 's still there really is background noise ."}
+{"timestamp": "09:15", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "09:16", "speaker": "Speaker_C", "text": "Um . And uh I suspect when the TI - digits were recorded if somebody fumbled or said something wrong or something that they probably made them take it over ."}
+{"timestamp": "09:26", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "09:28", "speaker": "Speaker_C", "text": "It was not I mean there was no attempt to have it be realistic in any in any sense at all ."}
+{"timestamp": "09:28", "speaker": "Speaker_E", "text": "Well ."}
+{"timestamp": "09:31", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "09:42", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "09:42", "speaker": "Speaker_E", "text": "whereas these Meeting Recorder digits"}
+{"timestamp": "09:46", "speaker": "Speaker_E", "text": "sometimes you have breath noise and"}
+{"timestamp": "09:50", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "09:53", "speaker": "Speaker_E", "text": "It 's not controlled at all , I mean ."}
+{"timestamp": "09:58", "speaker": "Speaker_E", "text": "Mm - hmm . But -"}
+{"timestamp": "10:12", "speaker": "Speaker_C", "text": "um ,"}
+{"timestamp": "10:14", "speaker": "Speaker_C", "text": "the SRI results . I mean , they 're much much better , but still you 're getting something like one point three percent"}
+{"timestamp": "10:18", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "10:34", "speaker": "Speaker_C", "text": "on the actual TI - digits . So this I think , on both systems the these digits are showing up as harder ."}
+{"timestamp": "10:35", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "10:41", "speaker": "Speaker_C", "text": "Um ."}
+{"timestamp": "10:41", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "10:45", "speaker": "Speaker_C", "text": "uh I mean it 's still read ."}
+{"timestamp": "10:59", "speaker": "Speaker_C", "text": "I mean , I 'm sure they wouldn't release the numbers , but I don't think that uh"}
+{"timestamp": "11:03", "speaker": "Speaker_C", "text": "the uh the the companies that that do telephone speech get anything like point four percent on their"}
+{"timestamp": "11:13", "speaker": "Speaker_C", "text": "Uh , I mean , for one thing people do phone up who don't have uh"}
+{"timestamp": "11:16", "speaker": "Speaker_C", "text": "uh Middle America accents and"}
+{"timestamp": "11:20", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "11:28", "speaker": "Speaker_C", "text": "Um ."}
+{"timestamp": "11:29", "speaker": "Speaker_C", "text": "I mean ."}
+{"timestamp": "11:31", "speaker": "Speaker_C", "text": "OK . That was that topic . What else we got ?"}
+{"timestamp": "11:35", "speaker": "Speaker_E", "text": "Um ."}
+{"timestamp": "11:42", "speaker": "Speaker_C", "text": "I know Thilo and Dan Ellis are are submitting something , but uh ."}
+{"timestamp": "11:46", "speaker": "Speaker_E", "text": "Yeah . I I guess e the only thing with"}
+{"timestamp": "12:06", "speaker": "Speaker_C", "text": "Now , actually for the for the Aur - uh we do have stuff for Aurora , right ? Because because we have ano an extra month or something ."}
+{"timestamp": "12:09", "speaker": "Speaker_E", "text": "Yeah . Yeah ."}
+{"timestamp": "12:12", "speaker": "Speaker_E", "text": "Yeah . So . Yeah , for sure we will"}
+{"timestamp": "12:14", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "12:15", "speaker": "Speaker_E", "text": "do something for"}
+{"timestamp": "12:18", "speaker": "Speaker_E", "text": "the special session . Yeah ."}
+{"timestamp": "12:21", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "12:27", "speaker": "Speaker_C", "text": "That 's fine ."}
+{"timestamp": "12:29", "speaker": "Speaker_C", "text": "Um ."}
+{"timestamp": "12:31", "speaker": "Speaker_C", "text": "Anything else ?"}
+{"timestamp": "12:49", "speaker": "Speaker_E", "text": "So , yeah ."}
+{"timestamp": "12:56", "speaker": "Speaker_E", "text": "the results are"}
+{"timestamp": "12:59", "speaker": "Speaker_E", "text": "similar to the"}
+{"timestamp": "13:00", "speaker": "Speaker_E", "text": "France Telecom results and"}
+{"timestamp": "13:02", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "13:06", "speaker": "Speaker_E", "text": "Um ."}
+{"timestamp": "13:09", "speaker": "Speaker_E", "text": "So there is this point ."}
+{"timestamp": "13:19", "speaker": "Speaker_E", "text": "um ,"}
+{"timestamp": "13:20", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "13:23", "speaker": "Speaker_E", "text": "well , this VAD"}
+{"timestamp": "13:28", "speaker": "Speaker_E", "text": "and we if we put it on the server side ,"}
+{"timestamp": "13:39", "speaker": "Speaker_E", "text": "so you accumulate the delay so"}
+{"timestamp": "13:48", "speaker": "Speaker_E", "text": "and"}
+{"timestamp": "13:49", "speaker": "Speaker_C", "text": "So wha where did this good VAD come from ?"}
+{"timestamp": "13:50", "speaker": "Speaker_E", "text": "So ."}
+{"timestamp": "13:52", "speaker": "Speaker_E", "text": "It 's"}
+{"timestamp": "13:53", "speaker": "Speaker_E", "text": "um from OGI . So"}
+{"timestamp": "13:58", "speaker": "Speaker_E", "text": "it 's the network with the huge amounts on hidden of hidden units , and"}
+{"timestamp": "14:02", "speaker": "Speaker_E", "text": "um"}
+{"timestamp": "14:04", "speaker": "Speaker_E", "text": "nine input frames compared to"}
+{"timestamp": "14:07", "speaker": "Speaker_E", "text": "the VAD that was"}
+{"timestamp": "14:08", "speaker": "Speaker_E", "text": "in the proposal which has"}
+{"timestamp": "14:10", "speaker": "Speaker_E", "text": "a very small amount of hidden units and fewer inputs ."}
+{"timestamp": "14:16", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "14:18", "speaker": "Speaker_C", "text": "Yeah , but they had to get rid of it because of the space , didn't they ?"}
+{"timestamp": "14:21", "speaker": "Speaker_E", "text": "Yeah . So ."}
+{"timestamp": "14:23", "speaker": "Speaker_E", "text": "Yeah . But the abso assumption is that"}
+{"timestamp": "14:30", "speaker": "Speaker_E", "text": "And ."}
+{"timestamp": "14:33", "speaker": "Speaker_E", "text": "Yeah but nnn ."}
+{"timestamp": "14:41", "speaker": "Speaker_C", "text": "if if I I don't know what the thinking was amongst the the the the ETSI folk but um"}
+{"timestamp": "14:48", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "14:53", "speaker": "Speaker_E", "text": "They just want , apparently they don't want to fix the VAD because"}
+{"timestamp": "14:57", "speaker": "Speaker_E", "text": "they think there is some interaction between"}
+{"timestamp": "15:02", "speaker": "Speaker_E", "text": "and"}
+{"timestamp": "15:06", "speaker": "Speaker_E", "text": "But"}
+{"timestamp": "15:07", "speaker": "Speaker_E", "text": "they still want to just to give some"}
+{"timestamp": "15:12", "speaker": "Speaker_E", "text": "requirement for this VAD because it 's it will not be part of they don't want it to be part of the standard ."}
+{"timestamp": "15:19", "speaker": "Speaker_C", "text": "OK ."}
+{"timestamp": "15:19", "speaker": "Speaker_E", "text": "So ."}
+{"timestamp": "15:20", "speaker": "Speaker_E", "text": "So it must be at least"}
+{"timestamp": "15:27", "speaker": "Speaker_E", "text": "uh not yet"}
+{"timestamp": "15:30", "speaker": "Speaker_E", "text": "Nnn ."}
+{"timestamp": "15:34", "speaker": "Speaker_C", "text": "s"}
+{"timestamp": "15:43", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "15:44", "speaker": "Speaker_C", "text": "You know , as long as it did the job ."}
+{"timestamp": "15:47", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "15:50", "speaker": "Speaker_C", "text": "So that 's good ."}
+{"timestamp": "15:55", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "15:56", "speaker": "Speaker_E", "text": "Uh I designed a new a new filter"}
+{"timestamp": "16:00", "speaker": "Speaker_E", "text": "because"}
+{"timestamp": "16:01", "speaker": "Speaker_E", "text": "when I designed other filters"}
+{"timestamp": "16:10", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "16:11", "speaker": "Speaker_E", "text": "uh Hynek suggested that both could have sixty - five sixty - s"}
+{"timestamp": "16:16", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "16:18", "speaker": "Speaker_C", "text": "You didn't gain anything , right ?"}
+{"timestamp": "16:19", "speaker": "Speaker_E", "text": "And . So I did that and"}
+{"timestamp": "16:21", "speaker": "Speaker_E", "text": "uh it 's running ."}
+{"timestamp": "16:23", "speaker": "Speaker_E", "text": "So , let 's see"}
+{"timestamp": "16:25", "speaker": "Speaker_E", "text": "what will happen ."}
+{"timestamp": "16:27", "speaker": "Speaker_E", "text": "Uh but the filter is of course closer"}
+{"timestamp": "16:32", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "16:33", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "16:36", "speaker": "Speaker_E", "text": "Um . Yeah ."}
+{"timestamp": "16:40", "speaker": "Speaker_C", "text": "So that means logically , in principle , it should be better . So probably it 'll be worse ."}
+{"timestamp": "16:48", "speaker": "Speaker_C", "text": "Or in the basic"}
+{"timestamp": "16:52", "speaker": "Speaker_E", "text": "Yeah . Sure ."}
+{"timestamp": "16:57", "speaker": "Speaker_C", "text": "OK ."}
+{"timestamp": "16:57", "speaker": "Speaker_E", "text": "Yeah , and then we 've started to work with this of um"}
+{"timestamp": "17:00", "speaker": "Speaker_E", "text": "voiced - unvoiced"}
+{"timestamp": "17:02", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "17:03", "speaker": "Speaker_E", "text": "stuff ."}
+{"timestamp": "17:04", "speaker": "Speaker_E", "text": "And"}
+{"timestamp": "17:10", "speaker": "Speaker_E", "text": "perhaps try to have um"}
+{"timestamp": "17:12", "speaker": "Speaker_E", "text": "a new system with uh uh MSG stream also"}
+{"timestamp": "17:16", "speaker": "Speaker_E", "text": "see what what happens ."}
+{"timestamp": "17:24", "speaker": "Speaker_E", "text": "So , something that 's similar to the proposal too , but with MSG stream ."}
+{"timestamp": "17:28", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "17:29", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "17:29", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "17:31", "speaker": "Speaker_C", "text": "OK ."}
+{"timestamp": "17:41", "speaker": "Speaker_A", "text": "I begin to play"}
+{"timestamp": "17:59", "speaker": "Speaker_A", "text": "between the um FFT of the signal and the small"}
+{"timestamp": "18:06", "speaker": "Speaker_A", "text": "we after the um mel filter bank ."}
+{"timestamp": "18:09", "speaker": "Speaker_C", "text": "Uh - huh ."}
+{"timestamp": "18:10", "speaker": "Speaker_A", "text": "And , well , is more or less robust ."}
+{"timestamp": "18:12", "speaker": "Speaker_A", "text": "Is good for clean speech . Is"}
+{"timestamp": "18:16", "speaker": "Speaker_C", "text": "Huh ?"}
+{"timestamp": "18:16", "speaker": "Speaker_A", "text": "for noisy speech ."}
+{"timestamp": "18:17", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "18:18", "speaker": "Speaker_A", "text": "but um we must to have bigger statistic with TIMIT ,"}
+{"timestamp": "18:23", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "18:23", "speaker": "Speaker_A", "text": "and is not ready yet"}
+{"timestamp": "18:25", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "18:25", "speaker": "Speaker_A", "text": "to use on , well , I don't know ."}
+{"timestamp": "18:29", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "18:35", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "18:35", "speaker": "Speaker_A", "text": "Mm - hmm ."}
+{"timestamp": "18:39", "speaker": "Speaker_A", "text": "I have here ."}
+{"timestamp": "18:40", "speaker": "Speaker_A", "text": "I have here"}
+{"timestamp": "18:40", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "18:42", "speaker": "Speaker_A", "text": "for one signal , for one frame ."}
+{"timestamp": "18:43", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "18:45", "speaker": "Speaker_A", "text": "The the mix of the two , noise and unnoise , and the signal is this ."}
+{"timestamp": "18:45", "speaker": "Speaker_C", "text": "Uh - huh ."}
+{"timestamp": "18:55", "speaker": "Speaker_C", "text": "Uh ."}
+{"timestamp": "18:57", "speaker": "Speaker_A", "text": "These are the two the mixed , the big signal is for clean ."}
+{"timestamp": "19:02", "speaker": "Speaker_C", "text": "There 's None of these axes are labeled , so I don't know what this What 's this axis ?"}
+{"timestamp": "19:09", "speaker": "Speaker_A", "text": "nnn , \"\" frame \"\" ."}
+{"timestamp": "19:11", "speaker": "Speaker_A", "text": "Mm - hmm ."}
+{"timestamp": "19:12", "speaker": "Speaker_C", "text": "And what 's th what this ?"}
+{"timestamp": "19:14", "speaker": "Speaker_A", "text": "Uh , this is uh energy , log - energy of the spectrum ."}
+{"timestamp": "19:18", "speaker": "Speaker_A", "text": "Of the - No , this is the variance , the difference"}
+{"timestamp": "19:22", "speaker": "Speaker_A", "text": "between"}
+{"timestamp": "19:23", "speaker": "Speaker_A", "text": "the spectrum of the signal"}
+{"timestamp": "19:26", "speaker": "Speaker_A", "text": "and"}
+{"timestamp": "19:28", "speaker": "Speaker_A", "text": "FFT of each frame of the signal and"}
+{"timestamp": "19:31", "speaker": "Speaker_A", "text": "this mouth spectrum of time after the f"}
+{"timestamp": "19:35", "speaker": "Speaker_C", "text": "For this one ."}
+{"timestamp": "19:35", "speaker": "Speaker_A", "text": "may fit"}
+{"timestamp": "19:36", "speaker": "Speaker_C", "text": "For the noi"}
+{"timestamp": "19:36", "speaker": "Speaker_A", "text": "for the two ,"}
+{"timestamp": "19:37", "speaker": "Speaker_A", "text": "this big , to here , they are to signal ."}
+{"timestamp": "19:40", "speaker": "Speaker_A", "text": "This is for clean and this is for noise ."}
+{"timestamp": "19:44", "speaker": "Speaker_C", "text": "Oh . There 's two things on the same graph ."}
+{"timestamp": "19:45", "speaker": "Speaker_A", "text": "Yeah . I don't know . I I think that I have d another graph , but I 'm not sure ."}
+{"timestamp": "19:50", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "19:50", "speaker": "Speaker_C", "text": "So w which is clean and which is noise ?"}
+{"timestamp": "19:53", "speaker": "Speaker_E", "text": "I think the lower one is noise ."}
+{"timestamp": "19:54", "speaker": "Speaker_A", "text": "The lower is noise and the height is clean ."}
+{"timestamp": "19:57", "speaker": "Speaker_C", "text": "OK . So it 's harder to distinguish"}
+{"timestamp": "20:00", "speaker": "Speaker_A", "text": "It 's height ."}
+{"timestamp": "20:00", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "20:02", "speaker": "Speaker_A", "text": "Oh . I must to have ."}
+{"timestamp": "20:04", "speaker": "Speaker_A", "text": "Pity , but I don't have"}
+{"timestamp": "20:07", "speaker": "Speaker_A", "text": "two different"}
+{"timestamp": "20:12", "speaker": "Speaker_E", "text": "So this should the the the t"}
+{"timestamp": "20:14", "speaker": "Speaker_E", "text": "voiced"}
+{"timestamp": "20:15", "speaker": "Speaker_C", "text": "Uh - huh ."}
+{"timestamp": "20:15", "speaker": "Speaker_A", "text": "Yeah , it is the height"}
+{"timestamp": "20:16", "speaker": "Speaker_E", "text": "portions ."}
+{"timestamp": "20:17", "speaker": "Speaker_A", "text": "is voiced portion ."}
+{"timestamp": "20:20", "speaker": "Speaker_A", "text": "And this is the noise portion ."}
+{"timestamp": "20:23", "speaker": "Speaker_C", "text": "Uh - huh ."}
+{"timestamp": "20:23", "speaker": "Speaker_A", "text": "And this is more or less like this ."}
+{"timestamp": "20:25", "speaker": "Speaker_A", "text": "But I meant to have see @ @ two two the picture ."}
+{"timestamp": "20:25", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "20:28", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "20:29", "speaker": "Speaker_A", "text": "This is , for example , for one frame ."}
+{"timestamp": "20:31", "speaker": "Speaker_C", "text": "Yeah"}
+{"timestamp": "20:32", "speaker": "Speaker_A", "text": "the the spectrum of the signal ."}
+{"timestamp": "20:35", "speaker": "Speaker_A", "text": "And this is the small"}
+{"timestamp": "20:37", "speaker": "Speaker_A", "text": "version of the spectrum after ML"}
+{"timestamp": "20:40", "speaker": "Speaker_A", "text": "mel filter bank ."}
+{"timestamp": "20:42", "speaker": "Speaker_C", "text": "Yeah . And this is the difference ?"}
+{"timestamp": "20:42", "speaker": "Speaker_A", "text": "And this is"}
+{"timestamp": "20:44", "speaker": "Speaker_A", "text": "I don't know ."}
+{"timestamp": "20:48", "speaker": "Speaker_A", "text": "with LPC model"}
+{"timestamp": "20:50", "speaker": "Speaker_A", "text": "the spectrum but"}
+{"timestamp": "20:52", "speaker": "Speaker_A", "text": "using Matlab without going factor and s"}
+{"timestamp": "20:57", "speaker": "Speaker_A", "text": "Not pre - emphasis . Nothing ."}
+{"timestamp": "20:59", "speaker": "Speaker_A", "text": "And the I think that this is good ."}
+{"timestamp": "21:06", "speaker": "Speaker_A", "text": "this is another frame ."}
+{"timestamp": "21:11", "speaker": "Speaker_A", "text": "envelope ,"}
+{"timestamp": "21:12", "speaker": "Speaker_A", "text": "this envelope ,"}
+{"timestamp": "21:15", "speaker": "Speaker_A", "text": "with the mel filter bank ."}
+{"timestamp": "21:28", "speaker": "Speaker_C", "text": "Um ."}
+{"timestamp": "21:29", "speaker": "Speaker_C", "text": "But if you were to really try and get a voiced - unvoiced , do you do you want to totally ignore that ? I mean , do you do you I mean ,"}
+{"timestamp": "21:34", "speaker": "Speaker_C", "text": "clearly a a very big very big cues for voiced - unvoiced come from uh spectral slope and so on , right ?"}
+{"timestamp": "21:41", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "21:43", "speaker": "Speaker_C", "text": "Um ."}
+{"timestamp": "21:49", "speaker": "Speaker_C", "text": "Yeah . I see ."}
+{"timestamp": "21:50", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "21:51", "speaker": "Speaker_A", "text": "Yeah because when did noise"}
+{"timestamp": "21:52", "speaker": "Speaker_E", "text": "Uh ."}
+{"timestamp": "21:57", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "21:58", "speaker": "Speaker_A", "text": "if s @ @"}
+{"timestamp": "21:59", "speaker": "Speaker_A", "text": "val value is"}
+{"timestamp": "22:00", "speaker": "Speaker_A", "text": "indicative that is a voice frame and it 's"}
+{"timestamp": "22:04", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "22:05", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "22:07", "speaker": "Speaker_C", "text": "certainly if you want to do good voiced - unvoiced detection , you need a few features . Each each feature is by itself not enough . But , you know , people look at at slope and uh"}
+{"timestamp": "22:17", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "22:36", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "22:41", "speaker": "Speaker_C", "text": "Uh . Or maybe you could you just do it going through the P FFT 's figuring out some um probable um harmonic structure ."}
+{"timestamp": "22:49", "speaker": "Speaker_C", "text": "Right . And and uh ."}
+{"timestamp": "22:50", "speaker": "Speaker_E", "text": "Mmm ."}
+{"timestamp": "22:55", "speaker": "Speaker_A", "text": "the paper that you s give me yesterday ."}
+{"timestamp": "23:02", "speaker": "Speaker_A", "text": "they are some"}
+{"timestamp": "23:02", "speaker": "Speaker_A", "text": "problem"}
+{"timestamp": "23:03", "speaker": "Speaker_E", "text": "Yeah , but it 's not it 's , yeah , it 's it 's another problem . Yeah"}
+{"timestamp": "23:06", "speaker": "Speaker_A", "text": "Is another problem ."}
+{"timestamp": "23:09", "speaker": "Speaker_E", "text": "Yeah , there is"}
+{"timestamp": "23:10", "speaker": "Speaker_E", "text": "th this fact actually . If you"}
+{"timestamp": "23:15", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "23:17", "speaker": "Speaker_E", "text": "What 's this again ? Is it the mel - filters ?"}
+{"timestamp": "23:20", "speaker": "Speaker_A", "text": "Yeah like this . Of kind like this ."}
+{"timestamp": "23:21", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "23:22", "speaker": "Speaker_E", "text": "OK ."}
+{"timestamp": "23:23", "speaker": "Speaker_E", "text": "So the envelope here is the output of the mel - filters"}
+{"timestamp": "23:26", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "23:26", "speaker": "Speaker_E", "text": "and what we clearly see is that in some cases ,"}
+{"timestamp": "23:31", "speaker": "Speaker_E", "text": "and"}
+{"timestamp": "23:32", "speaker": "Speaker_E", "text": "the the harmonics are resolved by the f Well ,"}
+{"timestamp": "23:36", "speaker": "Speaker_E", "text": "there are still appear after mel - filtering ,"}
+{"timestamp": "23:39", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "23:42", "speaker": "Speaker_E", "text": "for high pitched voice because"}
+{"timestamp": "23:48", "speaker": "Speaker_E", "text": "is sometimes even smaller than the pitch ."}
+{"timestamp": "23:51", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "23:53", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "23:56", "speaker": "Speaker_E", "text": "Nnn ."}
+{"timestamp": "23:59", "speaker": "Speaker_E", "text": "And so what happens is that this"}
+{"timestamp": "24:07", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "24:08", "speaker": "Speaker_E", "text": "um"}
+{"timestamp": "24:10", "speaker": "Speaker_E", "text": "so we were thinking to modify the mel - spectrum to have something that that 's smoother on low frequencies ."}
+{"timestamp": "24:20", "speaker": "Speaker_E", "text": "i"}
+{"timestamp": "24:22", "speaker": "Speaker_E", "text": "Yeah . This is a separate thing ."}
+{"timestamp": "24:23", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "24:23", "speaker": "Speaker_C", "text": "Separate thing ? Yeah ."}
+{"timestamp": "24:24", "speaker": "Speaker_E", "text": "And ."}
+{"timestamp": "24:38", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "24:39", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "24:56", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "24:56", "speaker": "Speaker_C", "text": "by uh"}
+{"timestamp": "25:04", "speaker": "Speaker_C", "text": "It 's uh a variant on what you 're s what you 're doing . The I mean , the the the mel"}
+{"timestamp": "25:27", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "25:31", "speaker": "Speaker_C", "text": "if was uh noisy , the proportion that it would go down would be"}
+{"timestamp": "25:36", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "25:36", "speaker": "Speaker_C", "text": "if it was if it was unvoiced or something ."}
+{"timestamp": "25:39", "speaker": "Speaker_C", "text": "So you oughta be able to pick out voiced segments ."}
+{"timestamp": "25:43", "speaker": "Speaker_C", "text": "At least it should be another another cue ."}
+{"timestamp": "25:49", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "26:06", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "26:27", "speaker": "Speaker_B", "text": "you know ,"}
+{"timestamp": "26:38", "speaker": "Speaker_B", "text": "um"}
+{"timestamp": "26:47", "speaker": "Speaker_B", "text": "the uh the great advantages that"}
+{"timestamp": "27:02", "speaker": "Speaker_B", "text": "you can imagine um"}
+{"timestamp": "27:06", "speaker": "Speaker_B", "text": "um features"}
+{"timestamp": "27:14", "speaker": "Speaker_B", "text": "with uh undirected links"}
+{"timestamp": "27:18", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "27:29", "speaker": "Speaker_B", "text": "and um"}
+{"timestamp": "27:31", "speaker": "Speaker_B", "text": "yeah , I 've just been continue reading"}
+{"timestamp": "27:34", "speaker": "Speaker_B", "text": "um about certain things ."}
+{"timestamp": "27:34", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "27:41", "speaker": "Speaker_B", "text": "um"}
+{"timestamp": "27:49", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "27:52", "speaker": "Speaker_B", "text": "it seems like the modulation um spectrum tells you a lot about"}
+{"timestamp": "28:04", "speaker": "Speaker_B", "text": "So , um . Yeah ."}
+{"timestamp": "28:06", "speaker": "Speaker_B", "text": "Just"}
+{"timestamp": "28:07", "speaker": "Speaker_B", "text": "that 's about it ."}
+{"timestamp": "28:09", "speaker": "Speaker_C", "text": "OK ."}
+{"timestamp": "28:13", "speaker": "Speaker_D", "text": "OK . And um so I 've been looking at Avendano 's work and um"}
+{"timestamp": "28:51", "speaker": "Speaker_D", "text": "the reverberation responses um simply convolved"}
+{"timestamp": "28:56", "speaker": "Speaker_D", "text": "um"}
+{"timestamp": "28:56", "speaker": "Speaker_D", "text": "in , but"}
+{"timestamp": "28:58", "speaker": "Speaker_D", "text": "it 's not really with these ten millisecond frames"}
+{"timestamp": "29:00", "speaker": "Speaker_D", "text": "cuz you j"}
+{"timestamp": "29:12", "speaker": "Speaker_D", "text": "and the then it um"}
+{"timestamp": "29:37", "speaker": "Speaker_D", "text": "that 's supposed to d"}
+{"timestamp": "29:55", "speaker": "Speaker_D", "text": "method training trading the um the spectral resolution for time resolution and um"}
+{"timestamp": "30:11", "speaker": "Speaker_D", "text": "frequency resolution ."}
+{"timestamp": "30:28", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "30:45", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "30:47", "speaker": "Speaker_D", "text": "Oh , and um , another f first step is um , so the the way I want to extend his work is make it able to deal with a time varying reverberation response um and um"}
+{"timestamp": "31:00", "speaker": "Speaker_D", "text": "we don't really know how fast"}
+{"timestamp": "31:09", "speaker": "Speaker_D", "text": "we we have this um block least squares um"}
+{"timestamp": "31:28", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "31:33", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "31:39", "speaker": "Speaker_C", "text": "OK ."}
+{"timestamp": "31:46", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "32:46", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "32:46", "speaker": "Speaker_D", "text": "Is there a particular way we 're supposed to read them ?"}
+{"timestamp": "32:48", "speaker": "Speaker_E", "text": "There are only zeros here . Well ."}
+{"timestamp": "32:51", "speaker": "Speaker_C", "text": "No . \"\" O \"\" \"\" O \"\" \"\" O \"\" and \"\" zero \"\" are two ways that we say that digit ."}
+{"timestamp": "32:55", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "32:58", "speaker": "Speaker_C", "text": "so it 's i"}
+{"timestamp": "32:58", "speaker": "Speaker_E", "text": "Perhaps in the sheets there should be another sign for the if we want to the the guy to say \"\" O \"\" or"}
+{"timestamp": "33:06", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "33:07", "speaker": "Speaker_E", "text": "OK ."}
+{"timestamp": "33:07", "speaker": "Speaker_D", "text": "Alright ."}
+{"timestamp": "33:14", "speaker": "Speaker_D", "text": "OK ."}
+{"timestamp": "33:19", "speaker": "Speaker_E", "text": "because here you only have zeros"}
+{"timestamp": "33:24", "speaker": "Speaker_C", "text": "they they write down OH . or they write down ZERO a and they and they each have their own pronunciation ."}
+{"timestamp": "33:28", "speaker": "Speaker_E", "text": "Yeah but if the sh the sheet was prepared with a different sign for the \"\" O \"\" ."}
+{"timestamp": "33:32", "speaker": "Speaker_C", "text": "But people wouldn't know what that wa"}
+{"timestamp": "33:33", "speaker": "Speaker_C", "text": "I mean there is no convention for it ."}
+{"timestamp": "33:34", "speaker": "Speaker_E", "text": "OK ."}
+{"timestamp": "33:36", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "33:38", "speaker": "Speaker_C", "text": "\"\" OK when we write this , say it tha \"\" , you know , and you just They just want people to read the digits as you ordinarily would and and people"}
+{"timestamp": "33:40", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "33:42", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "33:43", "speaker": "Speaker_E", "text": "Yep ."}
+{"timestamp": "33:45", "speaker": "Speaker_C", "text": "say it different ways ."}
+{"timestamp": "33:46", "speaker": "Speaker_D", "text": "OK . Is this a change from the last batch of of um forms ? Because in the last batch it was spelled out which one you should read ."}
+{"timestamp": "33:51", "speaker": "Speaker_E", "text": "Yeah , it was orthographic , so ."}
+{"timestamp": "33:58", "speaker": "Speaker_D", "text": "Oh . OK ."}
+{"timestamp": "34:02", "speaker": "Speaker_D", "text": "OK ."}
+{"timestamp": "34:05", "speaker": "Speaker_D", "text": "OK ."}
+{"timestamp": "34:06", "speaker": "Speaker_C", "text": "OK ."}
+{"timestamp": "34:59", "speaker": "Speaker_C", "text": "when I 'm talking on the phone , certainly , and and saying these numbers , I almost always say zero ."}
+{"timestamp": "35:19", "speaker": "Speaker_C", "text": "Yeah it 's shorter . Yeah . So it 's So . So uh . Now , don't think about it ."}
+{"timestamp": "37:54", "speaker": "Speaker_C", "text": "OK . We 're done ."}

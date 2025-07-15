@@ -1,0 +1,575 @@
+﻿{"timestamp": "00:00", "speaker": "Speaker_B", "text": "Five years just because of the floods bringing the ceilings down . So On its great joy ."}
+{"timestamp": "00:03", "speaker": "Speaker_A", "text": "Alright , is it it's ready . Okay , great ."}
+{"timestamp": "00:11", "speaker": "Speaker_D", "text": "Aren't they suing him ?"}
+{"timestamp": "00:13", "speaker": "Speaker_B", "text": "I think they probably ought to , but uh they well , they've only just started realising that treating this as a legal issue is probably the right way to look at it . So they're not really the sort of people that are up for understanding um the intricacies of the committee , I guess . I mean i you would have thought they could , but it's r it's actually quite hard work . The law isn't very clear ."}
+{"timestamp": "00:21", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "00:34", "speaker": "Speaker_D", "text": "Can't th can't they get legal aid ?"}
+{"timestamp": "00:37", "speaker": "Speaker_B", "text": "That's a good question . They p they uh they might be able to . It's just it's so strapped now , um you know , like the Citizens Advice Bureau is so hard to actually get access to because they've they have so many cases and so few people . So But yeah , that's probably the next thing they'll have to do ."}
+{"timestamp": "00:52", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "00:55", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "00:57", "speaker": "Speaker_A", "text": "Yeah , everything's okay ."}
+{"timestamp": "01:03", "speaker": "Speaker_D", "text": "Are we supposed to count to ten or something ? We don't have to do all that ?"}
+{"timestamp": "01:08", "speaker": "Speaker_C", "text": "Yeah , mm-hmm ."}
+{"timestamp": "01:08", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "01:10", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "01:27", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "01:28", "speaker": "Speaker_A", "text": "Okay . Okay , okay , yeah ."}
+{"timestamp": "01:31", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "01:32", "speaker": "Speaker_A", "text": "Okay , thanks ."}
+{"timestamp": "01:32", "speaker": "Speaker_D", "text": "Thank you ."}
+{"timestamp": "01:33", "speaker": "Speaker_C", "text": "Thank you ."}
+{"timestamp": "02:01", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "02:11", "speaker": "Speaker_B", "text": "So um this is something that you know , we're not gonna do everything today , but I wanted to make sure that we sort of all aligned on what he was doing at the moment and and then sort of figured out how to give him the best advice coming up . So that's that's why I called this ."}
+{"timestamp": "02:31", "speaker": "Speaker_A", "text": "Okay . Okay , thanks . Yeah ."}
+{"timestamp": "02:34", "speaker": "Speaker_D", "text": "You're gonna give a presentation for us then . Great ."}
+{"timestamp": "02:36", "speaker": "Speaker_A", "text": "Yeah , yeah a very or a quick uh slides . So um I've been here for fourteen month , I think . Yeah , so I've a accustomed to the environment here and enjoy staying here . So mm uh"}
+{"timestamp": "02:53", "speaker": "Speaker_A", "text": "from uh last year I was uh uh s uh supervising the annotation of segmentation , summarisation uh uh with Jean uh of the I uh IC ICSI corpus and uh uh uh on the other hand uh I w n uh did s some very preliminary work on chunking the switchboard corpus . But uh that was not uh well picked up in the AMI corpus , which is supposed to be . So uh and currently I'm more interested in see uh uh , yeah , analysing the discourse structure in multi-party meetings . This is what I'm going to present here . So uh"}
+{"timestamp": "03:05", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "03:16", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "03:55", "speaker": "Speaker_A", "text": "'Cause meetings is a lit different from normal text or a n a normal dialogue or monologue . So interactivity is a concept is a concept that I'm using to distinguish the two uh uh extremes of uh of interac uh of discourse in meetings . And uh for dialogues uh and monologues I think we might have to use different uh concepts to m m uh model the discourse structure . Then uh I w I will uh give a very uh rough plan for the next uh couple of month . And finally I I will intr i introduce some related work , yeah . So"}
+{"timestamp": "04:50", "speaker": "Speaker_A", "text": "the big question that I'm concern here is what's the relationship between utterances in multi-party meetings , or how do we analyse discourse structure right above utterances instead of uh those high level intentional structure of discourse ? So the concern here is about the very local low level utterance-to-utterance relations in multi-party meetings . Uh this is the local discourse structure ."}
+{"timestamp": "05:21", "speaker": "Speaker_A", "text": "So the uh building block of that kind of uh structure would be the uh utterance and possibly one of its properties , the dialogue act which we're currently uh working on or uh and uh for meetings , yeah , so I've mentioned uh uh before that meetings is a bit different from uh monologue and uh dialogues ."}
+{"timestamp": "05:57", "speaker": "Speaker_A", "text": "So uh in meetings I uh from my uh reading of the one of the AMI meetings I_S_ one O_ eight , uh the uh the four meetings , I noticed that uh uh the interaction , degrees of interaction in the meetings uh varies from parts to parts . So for some part uh the interaction is very strong . So it's obviously a dialogue . But uh for some part part where the interaction is very weak , uh just uh like the uh chairman or project manager is mm"}
+{"timestamp": "07:21", "speaker": "Speaker_B", "text": "I'm a little bit confused . So um when you say interactivity , do you mean um well , how would you characterise a highly interactive meeting ? What are the measurements you'd apply ? So you I think what you're doing is segmenting meetings into highly interactive parts and not so interactive parts , where you think some of them are like a bit like dialogue and some are a bit like monologue . So what measurements would you apply to um find out which is which ?"}
+{"timestamp": "07:22", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "07:26", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "07:40", "speaker": "Speaker_A", "text": "Yeah . Yeah , yeah ."}
+{"timestamp": "08:11", "speaker": "Speaker_B", "text": "So you mean relatively short turns and speaker change ."}
+{"timestamp": "08:54", "speaker": "Speaker_B", "text": "So so am I right in thinking you think that you can segment meetings maybe into two t types of areas , interactive and non-interactive ? So what are th what are the characteristics of the interactive areas ? So w so okay , so but you just said , I think , that you would characterise short turns as being the non-interactive parts ."}
+{"timestamp": "09:00", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "09:02", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "09:05", "speaker": "Speaker_A", "text": "Speak change speak change would be yeah ."}
+{"timestamp": "09:15", "speaker": "Speaker_A", "text": "If if it's uh just some kind of back-channel or it's just a signal signal the s the speaker is listening or is understanding what's going on , yeah . Yeah , yeah ."}
+{"timestamp": "09:24", "speaker": "Speaker_B", "text": "Oh okay , well we we can discount back-channels . I mean uh c are you is it okay if we talk about this for a minute 'cause I'm confused . Or or do you get a c"}
+{"timestamp": "09:33", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "09:35", "speaker": "Speaker_B", "text": "Alright . Alright ."}
+{"timestamp": "09:35", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "09:49", "speaker": "Speaker_D", "text": "Sure . So so what did you have more on later slides about this ?"}
+{"timestamp": "09:52", "speaker": "Speaker_A", "text": "Uh yeah . Uh so for interactivity this is the only slide . So yeah activity is uh I'd define interactivity to be as a degrees of interaction in meetings . So which might uh speak change whi uh uh would be a very good indicator , yeah ."}
+{"timestamp": "09:57", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "10:12", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "10:13", "speaker": "Speaker_A", "text": "Yeah , yeah yeah ."}
+{"timestamp": "10:17", "speaker": "Speaker_A", "text": "No , no . Yeah . No yeah . So actually , so uh this is a very rough idea of interactivity . If we go further , we might distinguish uh the interactivity between two , f three , or all the groups . So that might be some final definition for the uh interactivity , yeah ."}
+{"timestamp": "10:44", "speaker": "Speaker_A", "text": "Yeah , so that might be the second class , yeah . Weak this is a kind of weak interactivity . Yeah . Yeah ."}
+{"timestamp": "10:48", "speaker": "Speaker_D", "text": "Okay . Y yeah , yeah ."}
+{"timestamp": "10:58", "speaker": "Speaker_D", "text": "Right . Yeah . Mm-hmm ."}
+{"timestamp": "11:11", "speaker": "Speaker_A", "text": "Yeah , yeah , yeah , yeah , yeah , yeah , yeah , definitely , yeah ."}
+{"timestamp": "11:27", "speaker": "Speaker_B", "text": "Well do y"}
+{"timestamp": "11:28", "speaker": "Speaker_D", "text": "Like statement , statement , reject , accept , you know , something like that ."}
+{"timestamp": "11:30", "speaker": "Speaker_B", "text": "Yeah . Sufficient but not necessary maybe . It depend if you had so a bunch of people all just giving information and opinion around the table and they never actually ask questions of each other , but the turns were actually quite short , which one would it be ?"}
+{"timestamp": "11:31", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "11:37", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "11:59", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "12:32", "speaker": "Speaker_A", "text": "the the cons the the two that we are going to analyse the discourse structure might be d different ."}
+{"timestamp": "12:40", "speaker": "Speaker_A", "text": "Yeah , yeah ."}
+{"timestamp": "12:46", "speaker": "Speaker_A", "text": "Yeah , yeah . And also 'cause uh I have uh read some of the M_O_T_A_ uh corpus . Uh so for some part of th that kind of meetings um uh several utterances or dialogue acts are just uh tagged as statement . So that I don't think that would be very informative for high level str analysis . So that's all what uh that's why why uh I'm distinguishing the two kinds of discourse here ."}
+{"timestamp": "13:17", "speaker": "Speaker_B", "text": "Right . So Wei-Xun quite takes quite a strong position on um this um difference between these two um kinds of group activities because he says that they admit different kinds of analyses . Right , the with the non-interactive , more monolo mono-logic sections of the meeting um you have to uh analyse them using something akin to rhetorical structure or something . And uh with the other sections you uh um you you use some other theory to look at them . And I actually uh think that that's a slightly extreme um position um with regard to the literature that a lot of people might say it doesn't really matter who the different speakers are in an interactive section . You can still um build maybe the the same argument structure over the top of the basic um acts and propositional content that's there ."}
+{"timestamp": "13:44", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "14:12", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "14:17", "speaker": "Speaker_B", "text": "And uh what you get is a messier version of the argument structure because not everybody has the same argument in their brain , you know , for this . But um but that the same theory or the the same analysis can be applied to both parts . So I think it's important to keep um that in mind , and if you if you do need to argue that these two kinds of group activities uh can can only be analysed if you use different analytical mechanisms , then you have to explain why that is . Right , so it it puts an extra burden of proof on the work that you do ."}
+{"timestamp": "14:33", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "14:49", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "14:56", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "14:56", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "15:15", "speaker": "Speaker_A", "text": "Yeah , the like yeah ."}
+{"timestamp": "15:15", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "15:17", "speaker": "Speaker_B", "text": "But to the grou degree that a group is building an argument together , I mean it I think wh what you're doing in a group discussion isn't necessarily one coherent argument f for the person , but an argument that is the group view . And so it's maybe it's not R_S_T_ , um but it's um more akin to um I don't know , is it Toolman ? But , you know , not that i but you know , the kinds of things where people to try to represent argument structure ."}
+{"timestamp": "15:31", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "15:44", "speaker": "Speaker_D", "text": "Right , but those are very those are really different um theories that are at are trying to get at different things and it and they admit of m you know , some of them admit of multiple parties and some of them assume you're in one speaker's head . Right , and the"}
+{"timestamp": "15:57", "speaker": "Speaker_B", "text": "Are are the important aspects of it for this analysis really that substantively different though ?"}
+{"timestamp": "16:01", "speaker": "Speaker_D", "text": "Mm-hmm . Yeah , the entire theory is based on intention and the intention of one individual . So R_S_T_ would be a bad theory to use . W"}
+{"timestamp": "16:10", "speaker": "Speaker_B", "text": "But i if somebody if there's been an argument so far in a group meeting , and um somebody makes a statement , they have an intention about how to modify that group argument ."}
+{"timestamp": "16:17", "speaker": "Speaker_D", "text": "So modelling modelling a single contribution by a single speaker , you can within that you can use R_S_T_ if you want to , right . But across speakers you can't . They have no relations for things like reject or agree . They the theory doesn't have them ."}
+{"timestamp": "16:57", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "17:06", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "17:06", "speaker": "Speaker_C", "text": "No , I don't think so . I d"}
+{"timestamp": "17:11", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "17:11", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "17:12", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "17:14", "speaker": "Speaker_C", "text": "Yeah . Yes ."}
+{"timestamp": "17:16", "speaker": "Speaker_D", "text": "Well her the relations have a s"}
+{"timestamp": "17:59", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "18:06", "speaker": "Speaker_A", "text": "Yeah , yeah ."}
+{"timestamp": "18:18", "speaker": "Speaker_B", "text": "Yeah , c I just think well , I mean it all of these things when they encounter a new genre of um of uh actual data , then they end up modifying building new kinds of relations with new kinds of semantics and adding them . That's the entire history of these ."}
+{"timestamp": "18:43", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "18:43", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "19:04", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "19:16", "speaker": "Speaker_A", "text": "No , just a uh turn exchange , yeah ."}
+{"timestamp": "19:20", "speaker": "Speaker_D", "text": "I mean it had the at the l at the leaves they had the well , she didn't show it , but they would have the semantics of the utterances . And then she had relation names and handles ."}
+{"timestamp": "19:27", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "19:30", "speaker": "Speaker_A", "text": "Yeah . Actually sh uh she used some a a a bunch of features to do the automatic parsing ."}
+{"timestamp": "19:41", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "19:47", "speaker": "Speaker_C", "text": "Hmm . Mm-hmm ."}
+{"timestamp": "19:50", "speaker": "Speaker_B", "text": "Mm-hmm , yeah ."}
+{"timestamp": "19:54", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "20:02", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "20:08", "speaker": "Speaker_B", "text": "Right . So there you've got somebody who's doing theoretical development that would claim that you don't need two separate an analytical frameworks for these two types of activities that Wei-Xun has identified ."}
+{"timestamp": "20:21", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "20:26", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "20:27", "speaker": "Speaker_A", "text": "Uh yeah ."}
+{"timestamp": "20:30", "speaker": "Speaker_A", "text": "Utterance to utterance , yeah . Very low level , yeah ."}
+{"timestamp": "20:34", "speaker": "Speaker_A", "text": "You cou yeah . Yeah , i to uh just we need to see uh how well we could work out of the utterance to utterance ."}
+{"timestamp": "20:46", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "21:00", "speaker": "Speaker_A", "text": "Yeah . So uh yeah ."}
+{"timestamp": "21:26", "speaker": "Speaker_D", "text": "Well I think we should ass I think we should"}
+{"timestamp": "21:36", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "21:42", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "21:57", "speaker": "Speaker_B", "text": "Hmm , yeah ."}
+{"timestamp": "22:03", "speaker": "Speaker_D", "text": "But there's a different set of tags in there from the kinds of relations you see within R_S_T_ , for example . So if you look at Amanda Stent's thesis and the analysis that she did sort of within a turn she used something like R_S_T_ . And then across turns she used damsel , right ."}
+{"timestamp": "22:10", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "22:20", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "22:24", "speaker": "Speaker_B", "text": "Yeah , which wouldn't probably wouldn't give us the kind of um information that we need about relations across turns , just because we really are critically interested in the argument um that the group is building up so that we can find the decisions that they made and um any p uh counter proposals to proposals that have been made and things . I mean it really is more in the spirit uh of the R_S_T_ ish relations than um than in the damsel kinds of relationships . What we want uh out of the c um the relationships between speakers here . They are jointly building up an argument structure , and that is the critical thing that we're missing in order to be able to um understand what's happening in these meetings ."}
+{"timestamp": "23:09", "speaker": "Speaker_B", "text": "So we wouldn't we wouldn't wanna do the same thing as what um she did in this case , bec just because um damsel doesn't give you the right sort of representation between speakers ."}
+{"timestamp": "23:23", "speaker": "Speaker_D", "text": "Oh yeah ."}
+{"timestamp": "23:28", "speaker": "Speaker_D", "text": "In fact R_S_T_ doesn't give you anything like that ."}
+{"timestamp": "23:30", "speaker": "Speaker_A", "text": "No ."}
+{"timestamp": "23:32", "speaker": "Speaker_A", "text": "Hmm , hmm ."}
+{"timestamp": "23:37", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "23:39", "speaker": "Speaker_D", "text": "Right . Right ."}
+{"timestamp": "23:49", "speaker": "Speaker_D", "text": "Right , okay . D so I think it's much more impor I think it would make more sense to go about this problem figuring out what kinds of relationships we want and then finding and , you know , like setting down what the constraints are on the analysis game . He's been looking at the data , okay , s to good . Um and then and then there are lots of different theories of argument . I mean you can also think about the sort of joint problem solving kinds of um approaches . So you know , Clark and Lockbaum and , you know , that that kind of thing . That were designed for dialogue , right , I mean , and can be expanded to more than two persons . Actually the Lockbaum stuff is for groups ."}
+{"timestamp": "24:02", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "24:07", "speaker": "Speaker_B", "text": "Well Wei-Xun's been looking at the data . So that's that's a step for this ."}
+{"timestamp": "24:11", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "24:17", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "24:23", "speaker": "Speaker_A", "text": "Yeah , yeah . Yeah ."}
+{"timestamp": "24:30", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "24:34", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "24:34", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "24:38", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "24:45", "speaker": "Speaker_B", "text": "Mm-hmm , yeah ."}
+{"timestamp": "24:45", "speaker": "Speaker_A", "text": "Yeah , yeah , yeah ."}
+{"timestamp": "24:50", "speaker": "Speaker_A", "text": "So yeah , for interactivity this is a very weak definition , yeah . If we need more then we might use some more finer uh f finer uh definition for interactivity ."}
+{"timestamp": "25:03", "speaker": "Speaker_B", "text": "Well , what you'll need in the end is something operational . So it's something that you can use to actually segment meetings into the um the areas that you think are important for this analysis , right ? So um it's not quite clear to me what the different kinds of things are . So it would be I think handy if you could take a meeting at some point and say , you know , this is a interactive area and this is a mono-logic area because and we could come up with what kinds of measurements you need ."}
+{"timestamp": "25:06", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "25:15", "speaker": "Speaker_A", "text": "Yeah . Okay ."}
+{"timestamp": "25:35", "speaker": "Speaker_B", "text": "Um I mean we have w we haven't done past work here on segmenting meetings in that way , but we have done work on characterising different kinds of meetings um in terms of how highly interactive they are . But it's a different definition , right . It's in terms of how much all of the people involved in the meeting um take some take equal part in it as opposed to um like the highest state is people in the meeting just driving it and and uh the other people following whatever the high state is people want ."}
+{"timestamp": "26:07", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "26:17", "speaker": "Speaker_A", "text": "Yeah , okay ."}
+{"timestamp": "26:27", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "26:43", "speaker": "Speaker_A", "text": "Yeah , okay ."}
+{"timestamp": "26:46", "speaker": "Speaker_A", "text": "So mm so for dialogue , yeah , mm there would be uh some kind of uh interaction structure . So it for uh in previous discourse studies , uh especially in discourse analysis exchange uh is used to describe this kind of uh local structure . And in conversation the analysis so adjacency pairs are used to describe this kind of structure . Uh"}
+{"timestamp": "28:03", "speaker": "Speaker_A", "text": "Uh here information is a little vague . It could be some kind of knowledge what the uh speaker knows or or some kind of thought what the speaker is thinking . So these two kind of uh inform mm two kinds of the information uh might be some kind of a difference . So this is a little bit like the Bell's mm exchange of information uh for the knowledge . If exchange of uh opinion uh uh some kind of so it's uh very related to thought , of thinking , yeah ."}
+{"timestamp": "28:40", "speaker": "Speaker_B", "text": "Do you think it matters whether something is knowledge or opinion in the way it contributes to the group process ?"}
+{"timestamp": "28:45", "speaker": "Speaker_A", "text": "Uh in some case it s differs 'cause uh when we exchange knowledge , we might not challenge uh the speaker , but uh when the speaker is uh pre uh is uh talk about what he feels , what he thinks , is proposing something or s uh then other speakers might might chan challenge him or her ."}
+{"timestamp": "29:15", "speaker": "Speaker_A", "text": "So that kind of structu"}
+{"timestamp": "29:17", "speaker": "Speaker_A", "text": "Yeah . Yeah ."}
+{"timestamp": "29:30", "speaker": "Speaker_A", "text": "Yeah . But uh that might b be some difference inter interaction par patterns . Might be . 'Cause uh for information if we uh somebody's uh seeking some information , then he uh ask some question and uh the one knows will uh gives gives the answer . But uh uh for the uh opinion or thought uh stuff , then the speaker might just uh uh present some idea and others will comment or uh challenge uh the idea ."}
+{"timestamp": "30:04", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "30:06", "speaker": "Speaker_B", "text": "Well you you can't define 'em that way . You can't define the difference between information and opinion that way because that's um basically defining as the what happened about it . And I think what tends to happen is that um if people challenge the the facts , you often discover that they weren't actually solid facts anyway , you know , that they're I think the boundary between these is kind of fluid . So I guess the question is is it important to what what's it important to ? So do you need the difference between information and opinion to do this analysis ?"}
+{"timestamp": "30:09", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "30:11", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "30:21", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "30:28", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "30:30", "speaker": "Speaker_A", "text": "Yeah , it's vague , yeah . Yeah , yeah , yeah ."}
+{"timestamp": "30:58", "speaker": "Speaker_B", "text": "So what have you been looking at ?"}
+{"timestamp": "31:00", "speaker": "Speaker_D", "text": "Yeah , I was just gonna say it would be useful to know what m"}
+{"timestamp": "31:04", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "31:04", "speaker": "Speaker_B", "text": "So you're you've got books that high on your desk . Which ones are they ?"}
+{"timestamp": "31:17", "speaker": "Speaker_D", "text": "But who's they ? That's the question ."}
+{"timestamp": "31:21", "speaker": "Speaker_D", "text": "Who ?"}
+{"timestamp": "31:22", "speaker": "Speaker_A", "text": "uh Sinclair and Coulthard . That is . Also at Geneva school they I don't think they list some kind of exchange . But uh the uh exchange structure uh and uh yeah , exchange is first uh developed in uh systemic functional grammar along the uh uh Halliday and and Martin's work . Yeah . So uh actually they they have some something in in a textbook about the exchange . Uh they call it negotiation . So they have uh some flow charts of the uh uh detailed analysis of uh uh exchange structure , yeah ."}
+{"timestamp": "31:24", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "31:40", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "31:44", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "31:56", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "32:09", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "32:13", "speaker": "Speaker_A", "text": "So um uh I don't think there is any kind of principle classification of exchanges . This is i yeah , w"}
+{"timestamp": "32:23", "speaker": "Speaker_B", "text": "Um the well are you thinking it's been a while since I've read this literature . But I mean my understanding of exchange is is that the initiating move introduces a goal to the discourse , and then the remaining moves um will uh contribute to either the um the meeting of that discourse goal or the decision not to bother with that discourse goal , right . And so um I'd be surprised if there wasn't work describing"}
+{"timestamp": "32:29", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "32:36", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "32:57", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "32:59", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "32:59", "speaker": "Speaker_B", "text": "things in those terms . I mean I know Sinclair and Coulthard is is basically about teaching yeah . So you wouldn't expect that to necessarily um apply uh in in wider contacts in a way . Like you might expect to have to extend the theory to do that . But I th I think there are other other people have looked at exchange structure and described it in these terms in a way that should really suit your needs ."}
+{"timestamp": "33:03", "speaker": "Speaker_A", "text": "Yeah , I_R_F_ uh kind of structure . Yeah , yeah , yeah ."}
+{"timestamp": "33:23", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "33:26", "speaker": "Speaker_A", "text": "Mm 'cause uh from my previous experience we see ananys analysis of information seeking dialogues over telephones . So it's um uh about the tourism information . So from uh um my analysis of that kind of dialogues I could say that there's only there only four basic uh exchanges depend on the information uh direction of the information flow , and also the speaker role ."}
+{"timestamp": "33:34", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "33:39", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "33:39", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "33:51", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "33:58", "speaker": "Speaker_A", "text": "'Cause in the information seeking dialogues the uh t roles of the two participants are different . One is mainly the uh from the uh agency , a tourism agency . That is main uh uh information provider uh while the customer is the information seeker mainly . Yeah , that's uh so theref uh and also mm uh the direction of information flows for some kind of information , like uh the uh uh price of a specific route , uh the spots they're going to uh visit , and also on the uh kinds of uh ve uh vehicle or or transportation , yeah ."}
+{"timestamp": "34:13", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "34:34", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "34:36", "speaker": "Speaker_B", "text": "So this is a l a lot like George Horton's work on saying what are the different parameters for um these exchanges . You know , what are the things that characterise the set of exchanges that can happen ? Mm ."}
+{"timestamp": "34:38", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "34:41", "speaker": "Speaker_A", "text": "Yeah , yeah , yeah . Yeah , yeah , yeah , yeah , yeah ."}
+{"timestamp": "34:46", "speaker": "Speaker_A", "text": "Yeah yeah , s yeah , yeah . So but there also some variations which I call complex exchanges . So that's uh that's uh just a list . Mm not like the uh basic exchange uh exchanges , yeah ."}
+{"timestamp": "34:58", "speaker": "Speaker_B", "text": "So so is your complaint less about um less about knowing what makes an exchange and more about knowing how you parameterise exchanges for this genre ? So what's the range ? okay , so you're worried about what's the range of exchange types for this genre , and that's what you think hasn't been done . Uh-huh . Okay . That's clearer ."}
+{"timestamp": "35:10", "speaker": "Speaker_A", "text": "Yeah , yeah ."}
+{"timestamp": "35:15", "speaker": "Speaker_A", "text": "Yeah yeah , parametri yeah , I I I'm looking for parametric , yeah , scheme . Yeah yeah yeah . That's uh y yeah . A parame parameter or principle . Yeah , some something like . Yeah ."}
+{"timestamp": "35:25", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "35:26", "speaker": "Speaker_A", "text": "Yeah . And also yeah . A and also s in 'cause in the meetings uh the speakers might might report something uh they've done in the past and uh uh uh uh talk about th what they are currently doing and also planning some future actions . So this kind of information might also be helpful ."}
+{"timestamp": "35:46", "speaker": "Speaker_B", "text": "Yeah . So so have have you tried I mean um I know of one previous attempt to establish what exchanges are needed for f um some kinds of industry meetings , and our experience in that project was that um you can't really identify exchange structures in these meetings because they they don't really follow that pattern . That exchanges are clear in um well , i there're clearer in when you've got fewer people . So there's fewer people trying to pull the discourse goals in different directions . Um and they're clearer when um your goals are quite limited . So when you've just got information exchange and you know , the or there's a clear task that the people are trying to do and they're focussed on that task , as is normal in dialogue elicitation like map task or like your"}
+{"timestamp": "35:50", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "36:06", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "36:18", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "36:35", "speaker": "Speaker_B", "text": "like your informa which like your information seeking dialogues , which wasn't dialogue elicitation , but it was very constrained in genre . So um the the answer to the question might be nobody knows what the catalogue of exchanges is for real meetings because um or for these decision making meetings because you can't identify exchanges , right . So have you gone through the meetings and looked for initiations and responses with without a prior catalogue , just knowing that init initiation in introduces a new discourse goal and a response um meets or negates that goal in some way . So have you tried marking these exchanges ?"}
+{"timestamp": "36:42", "speaker": "Speaker_A", "text": "Yeah , yeah ."}
+{"timestamp": "36:49", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "37:12", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "37:20", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "37:24", "speaker": "Speaker_D", "text": "Well I mean I think that um w it I don't know uh w it'd probably get to re hear , you know , more of your presentation because I think there are lots of different candidates and you certainly can't go through and mark up every meeting , I mean mark up meetings with every scheme we think of . So I think we have to kind of get an overview of what the candidates are m if there's like two or three that we think are good contenders , then we try to see what works better , right ."}
+{"timestamp": "37:33", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "37:42", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "38:11", "speaker": "Speaker_D", "text": "There are a lot of option there are a lot more options . So so let's see what what else you've got ."}
+{"timestamp": "38:25", "speaker": "Speaker_B", "text": "So that's it ."}
+{"timestamp": "38:25", "speaker": "Speaker_D", "text": "Oh , so that was it on dialogue , okay ."}
+{"timestamp": "38:27", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "38:30", "speaker": "Speaker_D", "text": "Okay . So uh it's very unclear to me why you think exchange of information is more principal t uh did you I mean what did you have specific schemes in mind there ? Or spec mm specific"}
+{"timestamp": "39:15", "speaker": "Speaker_B", "text": "Do you mean an action in terms of what the group is requiring him to do or do you mean an action in like picking something up ?"}
+{"timestamp": "39:23", "speaker": "Speaker_B", "text": "So action in the technical meeting sense or just action in the physical sense . Right , okay ."}
+{"timestamp": "39:27", "speaker": "Speaker_A", "text": "Physical sense , yeah . Physical sense , yeah . Yeah , so uh this kind of might be the uh some kind of semantics of the utterance or or exchange . So uh this is just one um thing I one parameter uh for mm-hmm ."}
+{"timestamp": "39:45", "speaker": "Speaker_D", "text": "But can you give us an example of a scheme that's based on exchange of information ?"}
+{"timestamp": "39:54", "speaker": "Speaker_A", "text": "I mean uh here the scheme is for exchange scheme ."}
+{"timestamp": "39:58", "speaker": "Speaker_A", "text": "So yeah , for uh for for uh exchange of information . So there might be the uh s speaker , and he uh a hearer . So who speaks to whom and uh uh"}
+{"timestamp": "39:59", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "40:16", "speaker": "Speaker_A", "text": "S so this is the uh uh so direction of the information flow and also so speaker role might be first uh parameters for the uh ex uh information exchanges . So um but for action that might be uh some kind of uh propose or accept or reject kind of uh uh exchange structure , I mean ."}
+{"timestamp": "40:30", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "40:43", "speaker": "Speaker_B", "text": "Oh , so that's not a physical action , right ? Uh uh if I pick this up , which is a physical action , you can't reject that . What do you mean ?"}
+{"timestamp": "40:49", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "40:57", "speaker": "Speaker_A", "text": "So we're going to do something and uh uh so could you do something or this kind of uh action related utterance I mean . Yeah ."}
+{"timestamp": "41:06", "speaker": "Speaker_B", "text": "Right . That's right , that's a action in the sort of technical sense of meetings . So you are actioned to do something , which is part of the permanent record that yeah , okay ."}
+{"timestamp": "41:10", "speaker": "Speaker_A", "text": "Okay , technical sense . Yeah . Yeah . Yeah , yeah , yeah , yeah ."}
+{"timestamp": "41:15", "speaker": "Speaker_A", "text": "Okay , yeah , yeah . Okay , yeah , that's n"}
+{"timestamp": "41:19", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "41:27", "speaker": "Speaker_A", "text": "Before come up with the scheme , you mean . Yeah ."}
+{"timestamp": "42:00", "speaker": "Speaker_A", "text": "So yeah . Uh yeah . S Stent yeah Stent might does um yeah . Stent , yeah ."}
+{"timestamp": "42:08", "speaker": "Speaker_A", "text": "Mm no ."}
+{"timestamp": "42:10", "speaker": "Speaker_D", "text": "Okay . So um have you looked at Nate Blaylock's work ?"}
+{"timestamp": "42:16", "speaker": "Speaker_A", "text": "Uh so so 'cause I'm I might not familiar with these na"}
+{"timestamp": "42:29", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "42:41", "speaker": "Speaker_D", "text": "I can't remember the I can't remember the names of all the actions ."}
+{"timestamp": "42:42", "speaker": "Speaker_A", "text": "So uh is it the work uh described in the c uh in in uh in the coconut project or something similar ?"}
+{"timestamp": "42:47", "speaker": "Speaker_D", "text": "No , so so the Coconut project is a project that I did with Rich Thomasson and Barbara DiGinio . Have you looked at that ?"}
+{"timestamp": "42:52", "speaker": "Speaker_A", "text": "Yeah , yeah , yeah , yeah . Y yeah , look uh not very much detail , yeah ."}
+{"timestamp": "42:57", "speaker": "Speaker_D", "text": "Not very clear . No . Though there's a lot of detail in the paper . But you haven't looked at it no in very much detail . Okay , so I think you should , um because it was all these things that are done for joint problem solving and joint action I think are very relevant to look at because these people are solving a problem together , right . So um while these schemes may not have they have some es of the essential components that you need to characterise um joint problem solving . So while th um"}
+{"timestamp": "43:00", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "43:03", "speaker": "Speaker_A", "text": "No , not . Okay ."}
+{"timestamp": "43:12", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "43:27", "speaker": "Speaker_D", "text": "you may think that they're missing something , then we we could certainly augment them . But I think that they have to be looked at . And so so Nate Blaylock tried to okay , so you know , from Gross and Krauss and Gross and Sidener came all this stuff about shared plans and how you really can't understand , you know , dialogue u unless you understand shared plans . But the actual theoretical um or formalisation of it was incredibly complex . And so um Lockbaum simplified it quite and , you know , Sidener and Rich and Collagen have simplified it quite a bit . Um but Nate Blaylock tried to um , you know , define ,"}
+{"timestamp": "43:55", "speaker": "Speaker_A", "text": "Yes , yes ."}
+{"timestamp": "44:14", "speaker": "Speaker_D", "text": "you know , what happens after somebody suggests something . Well , you can adopt it , you can well I can't remember you know , okay , but he has uh he has a taxonomy yeah , right ."}
+{"timestamp": "44:22", "speaker": "Speaker_A", "text": "Yeah , I know okay . Oh . Uh I know this guy , yeah , yeah . Uh , Jim @'s student . Yeah , I know . No no , in Saa Saarbruecken . Yeah , yeah . Okay . Yeah yeah yeah . Okay . Yeah , I know , her ."}
+{"timestamp": "44:35", "speaker": "Speaker_B", "text": "Different ."}
+{"timestamp": "45:12", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "45:28", "speaker": "Speaker_B", "text": "Mm-hmm , yeah ."}
+{"timestamp": "45:31", "speaker": "Speaker_B", "text": "Well the first step is find out in the what how much of the material does the collaborative problem solving cover ? So how much of a genre clash is there here ?"}
+{"timestamp": "46:10", "speaker": "Speaker_B", "text": "Yeah . B th But there there are people in the field that are moving that direction , like Martin . And also what's important here is the theoretical clarity about what an initiation and a response is . So what is it that ties um different acts together at a higher level , you know ."}
+{"timestamp": "46:11", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "46:25", "speaker": "Speaker_D", "text": "Mm-hmm . Yeah , th I mean it it does seem like , you know , there's something that we want from that and then there's something that we want from collaborative problem solving . And"}
+{"timestamp": "46:35", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "46:47", "speaker": "Speaker_B", "text": "But I think more important than looking at um whether parts of the meeting are highly interactive or not so interactive is uh looking at what sort of task the people are trying to do at the moment . So you know , are they doing um uh i are are they uh i as in the kick off meeting just exchanging information to get started with a project or are they uh actually addressing some specific design um criteria at the moment . Should try to decide which shape the thing is ."}
+{"timestamp": "47:33", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "47:36", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "47:48", "speaker": "Speaker_A", "text": "Yeah . So main actions I guess might be some some high level uh problem solving or decision making uh uh concepts , uh not like the exchange which which I I would like to be very low level utterance to utterance relations ."}
+{"timestamp": "48:10", "speaker": "Speaker_B", "text": "Um so what's the high level version again ? P s"}
+{"timestamp": "48:12", "speaker": "Speaker_A", "text": "Uh I mean uh I mean the m main actions might be some it might be , yeah , built built"}
+{"timestamp": "48:14", "speaker": "Speaker_C", "text": "Meeting action ."}
+{"timestamp": "48:16", "speaker": "Speaker_B", "text": "Right , okay . I mean i the meeting actions is just gonna be a segmentation . It's not going to present any s any micro-structure . So it's just gonna say from here to here they're doing something . That's all that that scheme is gonna do ."}
+{"timestamp": "48:25", "speaker": "Speaker_A", "text": "Okay , so well w"}
+{"timestamp": "48:28", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "48:28", "speaker": "Speaker_D", "text": "Like somebody's writing on the white-board or I mean the w meeting actions they presented at the review seemed really low level to me , like somebody stood up ."}
+{"timestamp": "48:30", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "48:35", "speaker": "Speaker_B", "text": "It's n"}
+{"timestamp": "48:39", "speaker": "Speaker_B", "text": "That's not no , those well , that's individual actions . And the meeting actions are meant to b uh become more um semantic and more theoretical than the kind IDIAP have traditionally used . So so we need to still preserve some uh sense of the activity . But rather than saying it is somebody's at the white-board , it'll be , you know , that somebody's explaining something that the others are focussed on ."}
+{"timestamp": "48:39", "speaker": "Speaker_A", "text": "Okay . Physical . Some kind of physical actions , yeah ."}
+{"timestamp": "48:47", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "48:49", "speaker": "Speaker_D", "text": "Okay . Okay ."}
+{"timestamp": "48:57", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "49:01", "speaker": "Speaker_D", "text": "I mean I I realise it's important to recognise that , you know , what Wei-Xun got up and went to the white-board . I realise that's important , you know . But I d was kind of surprised that those meeting actions . So Yeah , mm okay ."}
+{"timestamp": "49:01", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "49:08", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "49:12", "speaker": "Speaker_B", "text": "It's it's a different scheme . Yeah ."}
+{"timestamp": "49:29", "speaker": "Speaker_B", "text": "Mm-hmm . Well you might need the meeting action segmentation in order to know where what uh what area you're circumventing for so , it's just exchange structure in this area that you're looking at , and then that's a solid boundary between the next bit or something . I don't know . Um but w well , time's getting on . So , you know , what practical things can we do to help this work move forward ? So y show what else"}
+{"timestamp": "49:44", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "49:49", "speaker": "Speaker_A", "text": "Yeah , okay ."}
+{"timestamp": "49:57", "speaker": "Speaker_A", "text": "Next . Yeah . So yeah , for the monologue I've I have not uh looked into the details about the this kind of uh relations for the monologue parts ."}
+{"timestamp": "49:58", "speaker": "Speaker_B", "text": "you're you're thinking about , yeah ."}
+{"timestamp": "50:17", "speaker": "Speaker_A", "text": "And uh so uh next I need to uh review the literature and uh come up with s schemes for the real data annotation . And after that uh we w 'cause this mm is not in the hub corpus . So we are not going to get l all the meetings annotated with that kind of . So uh so we we might ju first try a few meetings and uh have a reliability study . If it's reliable enough , then we must just uh just annotate a small part of the meetings and using some learning techniques to boot boot-strap the uh uh automatic uh analyser ."}
+{"timestamp": "50:31", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "50:39", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "50:45", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "51:15", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "51:21", "speaker": "Speaker_A", "text": "Yeah , if uh if it's based on the uh um dialogue acts , yeah ."}
+{"timestamp": "51:26", "speaker": "Speaker_B", "text": "Um right , well one presumes it is , otherwise it's gonna be ra radically expensive to do any kind of mark-up . So um the you know , it's something that we can look at , but you need to what we need it's more important than knowing , you know , that we need exchange structure marked up on X_ amount of data at this point is knowing um where you're headed with this , I think . So what's the good that that uh the project gets out of this in the end . So you know , what's the w what's the headline results of the work on the project , I think is is what we're trying to get a sense of here ."}
+{"timestamp": "51:32", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "52:06", "speaker": "Speaker_A", "text": "Yes ."}
+{"timestamp": "52:06", "speaker": "Speaker_B", "text": "So you get your exchange structure marked up . And say we just put in the money , get exchange structure marked up on that entire hub or , you know , figure out how to boot-strap it so we we get this um uh how do you how do you sell that as a as a project goal , you know ? 'Cause people are gonna say exchange structure , so what . What do wh what do you what how do you plug that into the rest the stuff , right ? Yeah ."}
+{"timestamp": "52:23", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "52:39", "speaker": "Speaker_A", "text": "This might not be"}
+{"timestamp": "53:02", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "53:06", "speaker": "Speaker_B", "text": "Yeah . See 'cause I think that um just to make this m more efficient , you should be thinking about the high-level goal in order to focus the work that you're doing rather than thinking well , you know , there's these theories , you know , how can we apply these theories to it . Um and then seeing what comes out of that that might be useful for the meeting browser , actually trying to say yeah , we have a goal of being able to do this with the meeting browser , um what kinds of dialogue structure would we need to be able to do that . I mean uh I don't know , maybe you'd wanna disagree with that , but I this more goal directed might actually make it easier to um bring these things to publication in the long run , right ?"}
+{"timestamp": "53:11", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "53:14", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "53:26", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "53:34", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "53:45", "speaker": "Speaker_D", "text": "Well I think we should approach it both ways . I mean uh you know , I I d"}
+{"timestamp": "54:04", "speaker": "Speaker_B", "text": "Right . It's not necessarily what they say . But it's something at least identify something that we'd hope to get out of it , you know ."}
+{"timestamp": "54:16", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "54:30", "speaker": "Speaker_A", "text": "Yeah , yeah . So after this if uh if uh uh we might do some mm pe uh from here we might be some uh uh , yeah , c problem solving , decision making process to track that kind of information . Yeah ."}
+{"timestamp": "54:37", "speaker": "Speaker_D", "text": "Yeah , some higher level yeah ."}
+{"timestamp": "54:41", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "54:42", "speaker": "Speaker_D", "text": "So I mean I think it's clear that something at this level needs to be there . I mean and to ask questions , like who disagreed or were there any counter proposals or whatever . Even those kind of questions you need some kind of mark-up like this ."}
+{"timestamp": "54:57", "speaker": "Speaker_B", "text": "I It just helps you know which theory you should be concentrating on . So you know , that immediately discounts exchange um structures that are mostly for information seeking alone because the notion exchange is to restrict it there , and in favour of um these these more argumentative things . So I mean uh I do think you should keep in mind what the final goal is so that you can plug this into something at the end and and um show some benefit of having the mark-up ."}
+{"timestamp": "55:17", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "55:23", "speaker": "Speaker_D", "text": "Well that brings up something interesting because I think probably what we should do is try to get"}
+{"timestamp": "55:31", "speaker": "Speaker_D", "text": "you know , some of these"}
+{"timestamp": "55:35", "speaker": "Speaker_D", "text": "tasks sort of put on , you know , sort of as part of the official agenda . So being able to answer questions like um were there any counter proposals to the bana you know , banana shape or whatever . Um uh or to some specific , you know , recommendation and things like that . I mean , you know , those , you know , strike me as cl clear things that , you know , people who go to decision making meetings want to know if they've missed one or are arriving late or anything like that . So it wou it seems like we should probably get some of these things on the official agenda and say look , you know , wouldn't it be nice if you could have answers to these questions , or something ."}
+{"timestamp": "55:48", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "56:03", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "56:15", "speaker": "Speaker_B", "text": "Yeah . I mean operationally it's not gonna much difference whether it's hub or not , right , because"}
+{"timestamp": "56:21", "speaker": "Speaker_D", "text": "Oh ."}
+{"timestamp": "56:32", "speaker": "Speaker_D", "text": "And I think we wouldn't wanna necessarily do this on ICSI data . I think the ICSI data is too too complex , and there aren't enough real decisions made , you know , that you could clearly identify . I mean there are some , but and not that I've read more than about two meetings . But um I think , w it , you know w well , so one thing that's gonna be interesting is the , I think to me , is the um what can you do because presumably the um D_F_K_I_ folk or somebody is gonna mark up a lot of the data with sort of tags about ontology , right ?"}
+{"timestamp": "56:37", "speaker": "Speaker_A", "text": "Messy . Yeah , yeah ."}
+{"timestamp": "56:38", "speaker": "Speaker_B", "text": "Yeah , it uh and it's too different a genre , yeah ."}
+{"timestamp": "56:41", "speaker": "Speaker_A", "text": "Hmm . Mm-hmm ."}
+{"timestamp": "56:45", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "56:46", "speaker": "Speaker_A", "text": "Ye Yeah . Yeah ."}
+{"timestamp": "57:11", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "57:12", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "57:12", "speaker": "Speaker_D", "text": "So we know , you know , somebody will have gone and by hand and sort of marked up som something l like shallow semanticy kinds of things , right , or maybe deeper semanticy things , but that but you know , not really in a in a formal language , but mostly just , you know , tags , right ? Um and then the question is , well , how does you know , just the way people typically do this is , you know , let's take these semantic features into or these features into account and see how well we do with the the learning , and then let's throw these features out and see how well we do , um because we know we're gonna have them , because one or two sides is really intr are really interested in this ontology stuff , right ? I mean T_N_O_ is and D_F_K_I_ is , right ."}
+{"timestamp": "57:20", "speaker": "Speaker_B", "text": "Yeah , that's not help either . But yeah , they're sure to do that ."}
+{"timestamp": "57:58", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "58:02", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "58:03", "speaker": "Speaker_D", "text": "So there will be some kind of domain semantics . And there will also be presumably some kind of task hierarchy modelling going on in I mean 'cause the whole browser working group um final um sort of presentation on that second day was about , you know , knowing the task , right . And very you know , details about which task is this you know , which sub-task is this little chunk of the meeting addressing and furthering in various ways , right . Which seems like it would be really hard in an open domain ."}
+{"timestamp": "58:18", "speaker": "Speaker_B", "text": "In the m"}
+{"timestamp": "58:32", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "59:07", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "59:36", "speaker": "Speaker_C", "text": "what happened happening in a meeting ."}
+{"timestamp": "59:57", "speaker": "Speaker_D", "text": "No , those are the s those are the scenarios . Those are the user scenarios . The task what what he came back and said that at the end , I mean it actually kind kind of scared me , because it was all based around tasks ."}
+{"timestamp": "00:02", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "00:11", "speaker": "Speaker_B", "text": "Okay , well c maybe ."}
+{"timestamp": "00:12", "speaker": "Speaker_D", "text": "And and the domain tasks , okay , they're now they now have to decide how many buttons to put on this thing . I mean it was all about the domain task ."}
+{"timestamp": "00:22", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "00:22", "speaker": "Speaker_D", "text": "And it is really the it and given that , uh it it's really scary to think about what you could possibly do in an open domain where you don't where you don't know what the tasks are . And I don't think you're gonna be able to figure them out uh very reliably ."}
+{"timestamp": "00:37", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "00:45", "speaker": "Speaker_D", "text": "I do , but the whole project is , you know , focussed on AMI hub data as their first priority ."}
+{"timestamp": "00:52", "speaker": "Speaker_B", "text": "Well yeah . But that doesn't mean you have to be um using the techniques that you can be using open-domain techn"}
+{"timestamp": "00:59", "speaker": "Speaker_D", "text": "N no no no no no , but I mean if the if the if they had th they had this sort of epiphany at the end of this meeting where they decided well why are people browsing this . Well it's all to see how , you know , how the participants were furthering their tasks ."}
+{"timestamp": "01:17", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "01:22", "speaker": "Speaker_B", "text": "And you don't think that can be done in open domain at all ."}
+{"timestamp": "01:39", "speaker": "Speaker_B", "text": "I don't know . We'll see ."}
+{"timestamp": "01:40", "speaker": "Speaker_D", "text": "Well right . And then , yes , and then there was this confusion about the um last spider phone conference that the messages telling people to call came out after the meeting happened , at least to some of us ."}
+{"timestamp": "01:56", "speaker": "Speaker_B", "text": "Oh right , yeah . So we don't know what happened at that one . Yeah ."}
+{"timestamp": "02:00", "speaker": "Speaker_D", "text": "So um I mean we'll we'll get that back on track . But I think that um we don't you know , there will be some meeting browser demo that um , you know I I think it's an interesting question of okay well , if you have knowledge , here's what you can do . If you don't have that knowledge"}
+{"timestamp": "02:17", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "02:23", "speaker": "Speaker_B", "text": "Yeah . So you're advising Wei-Xun that he should be using like any ontologies and propositional content that um D_F_K_I_ and T_N_O_ bank in the C_V_S_ repository , or or not ? That's what I'm not clear on ."}
+{"timestamp": "02:36", "speaker": "Speaker_A", "text": "Yeah , ma ma uh s"}
+{"timestamp": "02:39", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "02:43", "speaker": "Speaker_B", "text": "With our without . Mm-hmm . Okay ."}
+{"timestamp": "03:01", "speaker": "Speaker_A", "text": "Yeah , yeah , yeah . Different feature combination , yeah ."}
+{"timestamp": "03:11", "speaker": "Speaker_B", "text": "Can actually try . Mm-hmm . Yeah ."}
+{"timestamp": "03:22", "speaker": "Speaker_B", "text": "I don't know when they'll bank these by the way . Um 'cause that's it's not hub . So i it's one of these things where everybody's supposed to bank as many things as possible . So you know w"}
+{"timestamp": "03:40", "speaker": "Speaker_B", "text": "Yeah . But open ."}
+{"timestamp": "03:57", "speaker": "Speaker_B", "text": "Yeah , it's not really an open domain task , yeah ."}
+{"timestamp": "04:11", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "04:15", "speaker": "Speaker_D", "text": "Sure , so we might find that when we move from what we thought was open domain , but on the hub , you know , our results go down when we truly are getting meeting yeah . So I mean that'll be interesting ."}
+{"timestamp": "04:24", "speaker": "Speaker_B", "text": "Mm-hmm . Yeah . That's quite reasonable . W we've got five ISCA meetings actually which are still uh an elicitation task , but they're not our domain . So that should help some ."}
+{"timestamp": "04:38", "speaker": "Speaker_D", "text": "Okay , well that's good ."}
+{"timestamp": "04:51", "speaker": "Speaker_D", "text": "So okay . So we wanna decide um what Wei-Xun should do next and maybe think about meeting in , I don't know , a month or something . Yeah , mm-hmm ."}
+{"timestamp": "05:02", "speaker": "Speaker_B", "text": "Yeah , just figure out how we're gonna help him to to try to make this more efficient ."}
+{"timestamp": "05:09", "speaker": "Speaker_D", "text": "Um so before we do that , can I just ask you a question about chunking ? In the beginning you said something about you were doing this chunking um and you're doing it on the ICSI data , but this was did you say it th wasn't picked up in AMI or you I I I was confused about w"}
+{"timestamp": "05:13", "speaker": "Speaker_A", "text": "Yeah , yes ."}
+{"timestamp": "05:24", "speaker": "Speaker_A", "text": "Uh uh yeah . Uh I mean I was supposed to chunk uh some part of the AMI meetings , you know , to see if the chunker channel switchboard works well enough or not . If not , then mm we have to use some kind of semi-superv supervised learning or some uh boot-strapping to to to do the chunking ."}
+{"timestamp": "05:25", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "05:37", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "05:44", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "05:49", "speaker": "Speaker_D", "text": "And you and you haven't done it yet ."}
+{"timestamp": "05:50", "speaker": "Speaker_A", "text": "No , no , 'cause I was a bit worried about uh this kind of uh discourse structure , yeah ."}
+{"timestamp": "05:56", "speaker": "Speaker_D", "text": "Tha that's fine . So that's still on the agenda to do at some point ."}
+{"timestamp": "05:57", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "05:59", "speaker": "Speaker_B", "text": "Yeah , but we should make sure we finish that off , because otherwise that work's just wasted , right ."}
+{"timestamp": "06:04", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "06:04", "speaker": "Speaker_B", "text": "We're gonna use chunks for something useful . Yeah , chunks are gonna be named entities if nothing else ."}
+{"timestamp": "06:06", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "06:07", "speaker": "Speaker_D", "text": "Well so I mean right . Um or building blocks . I mean so I mean we have to think about how s chunking interacts with the automatic segmentation , you know . Because um Barbara was showing the low level ."}
+{"timestamp": "06:25", "speaker": "Speaker_B", "text": "Automatic segmentation at which level ?"}
+{"timestamp": "06:28", "speaker": "Speaker_B", "text": "Uh-huh . Dialogue act , yeah ."}
+{"timestamp": "06:39", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "06:43", "speaker": "Speaker_B", "text": "Yeah , and that's a problem . Yeah ."}
+{"timestamp": "06:55", "speaker": "Speaker_D", "text": "Right . Yeah ."}
+{"timestamp": "07:03", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "07:16", "speaker": "Speaker_D", "text": "Periods . Oh , after uh right ."}
+{"timestamp": "07:17", "speaker": "Speaker_C", "text": "Hmm . Mm-hmm ."}
+{"timestamp": "07:22", "speaker": "Speaker_D", "text": "Okay . Right , okay . Good . So it sounds like well w"}
+{"timestamp": "07:29", "speaker": "Speaker_B", "text": "Well hold on . But when do we need chunking by ? And it you know , so y I don't like the idea that , you know , you start something and then eighteen months later you pick up to do the last ten percent of the work to finish it off or whatever . So it I like things kinda tidy . Right . So how much work is there left and when do we actually need it by would be useful to discuss ."}
+{"timestamp": "07:52", "speaker": "Speaker_D", "text": "Well , you wanted to do the chunking on the AMI data , right ? Because m"}
+{"timestamp": "07:55", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "08:07", "speaker": "Speaker_D", "text": "So we got stuck at some point on evaluation of chunking , right . The problem was you didn't have ICSI data that was hand labelled for chunks . And we decided labelling the ICSI data for chunks would be probably difficult and maybe not very useful . And so it it mi"}
+{"timestamp": "08:17", "speaker": "Speaker_A", "text": "Or AMI data . N no ."}
+{"timestamp": "08:34", "speaker": "Speaker_D", "text": "Okay , if there if there was if there was hand labelled data that you could evaluate again so train on some and evaluate on some , wouldn't that um 'cause you've trained on Switchboard , right , where there there are chunks . So if you had some ICSI data that you could maybe use , I don't know , um as a what's the n there's t there's a training set and then there's the development set and then there's the test set . Maybe you'd use some chunked ICSI stuff as development or something and do some last tweaks and then evaluate . But you know , w h I mean I can see why Wei-Xun didn't wanna spend his time chunking ICSI d"}
+{"timestamp": "08:44", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "08:53", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "09:02", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "09:05", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "09:24", "speaker": "Speaker_D", "text": "Which means we have to get some portion of the data hand-chunked ."}
+{"timestamp": "09:28", "speaker": "Speaker_B", "text": "Hand-chunked . Mm-hmm . But"}
+{"timestamp": "09:33", "speaker": "Speaker_B", "text": "that shouldn't be that hard to do , right ? How much data do you need ?"}
+{"timestamp": "09:38", "speaker": "Speaker_D", "text": "How much um well"}
+{"timestamp": "09:44", "speaker": "Speaker_D", "text": "in Switchboard . Switchboard is all chunked . Right ."}
+{"timestamp": "09:48", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "09:48", "speaker": "Speaker_B", "text": "Yeah . They the data how much data you need was not a problem with the Switchboard 'cause he had lots . So he didn't have to think about how much . So we need to know how much data you need hand-chunked . And then uh how do you hand-chunk stuff , right . So you were were working on instructions for doing hand-chunking ."}
+{"timestamp": "09:55", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "10:05", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "10:05", "speaker": "Speaker_D", "text": "No , you had Penn tree-bank parses , and you made chunks from that ."}
+{"timestamp": "10:07", "speaker": "Speaker_B", "text": "For Switchboard , yeah . But then he there were two possible options for uh for doing this on the AMI data . You could either um essentially go the same route as they did with the Switchboard um , you know , do the Penn tree-bank and then create the chunks off that , or you could chunk directly . And it wasn't clear to us which one of those two methods was the right way to do this ."}
+{"timestamp": "10:08", "speaker": "Speaker_A", "text": "Yeah , yeah , for Switchboard , yeah ."}
+{"timestamp": "10:20", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "10:28", "speaker": "Speaker_A", "text": "Direct chunking , 'cause we are not going to in a tree out of the AMI data ."}
+{"timestamp": "10:35", "speaker": "Speaker_B", "text": "Right , well , so you'd have to produce as part of this exercise ."}
+{"timestamp": "10:35", "speaker": "Speaker_D", "text": "Is anybody gonna parse ? Is any gonna try to anybody try to parse the AMI data ?"}
+{"timestamp": "10:40", "speaker": "Speaker_B", "text": "You would've thought so , but I dunno ."}
+{"timestamp": "10:42", "speaker": "Speaker_A", "text": "Uh so th uh we uh D_F_K_I_ , 'cause they're working on some H_P_S_G_ parsing . Yeah , might be . Might be , yeah ."}
+{"timestamp": "10:47", "speaker": "Speaker_B", "text": "Oh yes , yeah , I'd forgotten about that ."}
+{"timestamp": "10:48", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "10:54", "speaker": "Speaker_B", "text": "But that's not very similar . Well , I don't know very much about grammar . Is th is that similar enough that that this same method could apply that we derive chunks off the H_P_S_G_ output ?"}
+{"timestamp": "11:05", "speaker": "Speaker_A", "text": "Uh if uh I'm I guess that if they're different then we might just uh write another script to do the translation ."}
+{"timestamp": "11:22", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "11:31", "speaker": "Speaker_A", "text": "Okay . Yeah , yeah . I need to look at some of to see ."}
+{"timestamp": "11:34", "speaker": "Speaker_D", "text": "Well they're using the E_R_G_ , right ? The which probably has a l maybe finer g uh which I believe has finer grained distinctions than , and different labels , than the Penn tree-bank ."}
+{"timestamp": "11:43", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "11:45", "speaker": "Speaker_B", "text": "Yeah . And the mappings are can be cr pretty difficult for this , right ? Or is is easy to map between finer grained distinctions and coarser ones ?"}
+{"timestamp": "11:55", "speaker": "Speaker_B", "text": "Think so ?"}
+{"timestamp": "11:58", "speaker": "Speaker_A", "text": "Yeah , yeah ."}
+{"timestamp": "12:03", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "12:04", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "12:10", "speaker": "Speaker_D", "text": "'Cause they're doing this with Dan Flickinger , right ? Which is the same um parser as the Redwoods Tree-bank was made with that Alex talked about yesterday . So you can look at Redwoods parses"}
+{"timestamp": "12:23", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "12:28", "speaker": "Speaker_D", "text": "um and see how different they are from tree-bank parses . And you might wanna talk to Alex to find out if somebody's already done this turn Redwoods stuff into tree-bank stuff so that they can compare , you know , against results that are reported on tree-bank ."}
+{"timestamp": "12:42", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "12:44", "speaker": "Speaker_B", "text": "Huh . The names would suggest that this was the idea , right ."}
+{"timestamp": "12:48", "speaker": "Speaker_D", "text": "Well that was the idea I believe , but um"}
+{"timestamp": "12:49", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "13:03", "speaker": "Speaker_B", "text": "Right . So y that sort of assumes that we think it's better to do this by deriving chunks from um some parsed format than just hand chunking the stuff ."}
+{"timestamp": "13:26", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "13:39", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "13:41", "speaker": "Speaker_B", "text": "So let's try it this way , and then that that puts off the question of um when do we have to do this to when we get H_P_S_G_ stuff , right ? So can you ask um D_F_K_I_ whether they can give us a couple AMI meetings run through their H_P_S_G_ process ? I don't even know what time scale they had in mind . I mean it is this something they w they were doing it at the moment , but I don't know whether this was very preliminary or do you remember ?"}
+{"timestamp": "13:58", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "14:07", "speaker": "Speaker_D", "text": "They talked about it at the meeting that we went to in"}
+{"timestamp": "14:14", "speaker": "Speaker_A", "text": "Twenty minute , yeah ."}
+{"timestamp": "14:14", "speaker": "Speaker_D", "text": "Twente ."}
+{"timestamp": "14:14", "speaker": "Speaker_B", "text": "Twente , yeah ."}
+{"timestamp": "14:14", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "14:20", "speaker": "Speaker_C", "text": "Mm-hmm . Contact ."}
+{"timestamp": "14:26", "speaker": "Speaker_D", "text": "You were there Jean . Yeah , okay ."}
+{"timestamp": "14:28", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "14:34", "speaker": "Speaker_D", "text": "No no no no , no no no , I I I know you missed a meeting and s and so there there may have been you missed the one in T_N_O_ ."}
+{"timestamp": "14:44", "speaker": "Speaker_A", "text": "T_N_O_ , yeah . Okay . Yeah , 'cause yeah they did some work bio project with the H_P_S_G_ parsing . At least bio . Yeah , well maybe . Okay . Yeah ."}
+{"timestamp": "14:57", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "14:58", "speaker": "Speaker_D", "text": "On on which project ? Sorry , I didn't get that . Verbmobil , right . Yes , yes , they did ."}
+{"timestamp": "15:01", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "15:02", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "15:05", "speaker": "Speaker_D", "text": "It well that's that's what Alex talked about yesterday , right . The parse I mean that's wasn't something she did , but that's the data she's using , right . So we have all that stuff here , you know , the parsed Verbmobil material . So you can look at that and see what the parse trees look like . You don't need to wait for D_F_K_I_ . And if it turns out that you think oh , there's no way I can map these into Penn tree-bank style bracketing , then then we have to think of something else , right ."}
+{"timestamp": "15:05", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "15:08", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "15:15", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "15:28", "speaker": "Speaker_A", "text": "No ."}
+{"timestamp": "15:37", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "15:42", "speaker": "Speaker_A", "text": "Okay , okay . Mm-hmm ."}
+{"timestamp": "15:43", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "15:45", "speaker": "Speaker_D", "text": "But I think they had that in mind . So it's it's worth also talking to her about that . Okay , good ."}
+{"timestamp": "15:55", "speaker": "Speaker_B", "text": "So it's talk to Alex , see if it looks like it maps by looking at the Verbmobil . If it does , ask D_F_K_I_ either for data or a time scale , and you're gonna need to know how much data you need in order to do that . So do you have a technique for estimating how much data you'd need ?"}
+{"timestamp": "16:09", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "16:16", "speaker": "Speaker_B", "text": "I don't know how you do that , so who knows how you do that ?"}
+{"timestamp": "16:20", "speaker": "Speaker_D", "text": "Everybody always says there's no data like more data ."}
+{"timestamp": "16:27", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "16:35", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "16:36", "speaker": "Speaker_B", "text": "Yeah , I know ."}
+{"timestamp": "16:37", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "17:01", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "17:05", "speaker": "Speaker_B", "text": "Yeah . Well I gue if we did a chunked version of the AMI data and stuck it into C_V_S_ under the automatic contributions then um people would end up using it , 'cause they do that , right . So the question is at what stage should we put that in ?"}
+{"timestamp": "17:13", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "17:16", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "17:24", "speaker": "Speaker_B", "text": "Yeah , so post-evaluation so we can put in some idea of what the evaluation is like ."}
+{"timestamp": "17:29", "speaker": "Speaker_D", "text": "Mm yeah . I mean otherwise"}
+{"timestamp": "17:32", "speaker": "Speaker_D", "text": "you get these very bizarre results because the data is not really very good ."}
+{"timestamp": "17:36", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "17:46", "speaker": "Speaker_B", "text": "No , but he's relying it on it th this summer ."}
+{"timestamp": "17:59", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "18:06", "speaker": "Speaker_B", "text": "So when when do you think that would be ? When when is she sending somebody ? Oh for the next one , mm-hmm ."}
+{"timestamp": "18:08", "speaker": "Speaker_D", "text": "She just said that hopefully by the next meeting she would be bringing someone else , or someone else would be coming instead of her , remember ?"}
+{"timestamp": "18:11", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "18:15", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "18:21", "speaker": "Speaker_D", "text": "The th not to have not to have it done , but just to talk about how it could interact with automatic dialogue act segmentation . Um and we I guess we should talk to Yoshi about about it in relationship to named entities . Who's uh who's doing named entities besides Yoshi ? Okay . So we could talk to Vasilis about that as well ."}
+{"timestamp": "18:27", "speaker": "Speaker_B", "text": "How it could be done ."}
+{"timestamp": "18:29", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "18:59", "speaker": "Speaker_B", "text": "So and then we can evaluate on the ICSI , you know , pretty easily ."}
+{"timestamp": "19:04", "speaker": "Speaker_D", "text": "So one thing that would be very helpful for me because I haven't read I think we're in a situation where Jean , you know , has read a lot of literature and I've read a lot of literature and we there is some overlap , but there's also quite a big space where we don't know the literature from the other side . And since you're gonna be reading it , I mean it would be probably be useful if you made some kind of ,"}
+{"timestamp": "19:44", "speaker": "Speaker_B", "text": "Yeah , even if it's just a you know , on a Wiki the um the references and then why they're relevant , right . I mean you don't wanna make this really formal , or do you ? Yeah , a paragraph each . Yeah ."}
+{"timestamp": "20:01", "speaker": "Speaker_A", "text": "Hmm hmm ."}
+{"timestamp": "20:01", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "20:03", "speaker": "Speaker_B", "text": "But that wou that would help us be a lot more specific ab than than just um you know , listing bullet points on slides cause then we'd know sort of which literature you're thinking of um putting in and we could read the most important argumentative stuff ."}
+{"timestamp": "20:13", "speaker": "Speaker_A", "text": "Okay . Yeah , yeah . Yeah ."}
+{"timestamp": "20:15", "speaker": "Speaker_D", "text": "Well in any way , every time you write a paper , you've got to go back and do this related work thing anyway . So it just it just makes it a lot easier um to get that"}
+{"timestamp": "20:17", "speaker": "Speaker_B", "text": "I can have these things anyway , yeah ."}
+{"timestamp": "20:21", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "20:25", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "20:25", "speaker": "Speaker_D", "text": "common ground I think , you know . I think it's a real advantage that we've read different things and come at it from a different side because I think this ha they the the previous approaches haven't really ,"}
+{"timestamp": "20:26", "speaker": "Speaker_A", "text": "'Kay . Yeah , yeah ."}
+{"timestamp": "20:37", "speaker": "Speaker_B", "text": "Mm-hmm . They haven't addressed this problem . Yeah ."}
+{"timestamp": "20:38", "speaker": "Speaker_D", "text": "you know , taken you know , the good features from , you know , both sides and and tried to put them together ."}
+{"timestamp": "20:48", "speaker": "Speaker_B", "text": "Yeah . I'm gonna have to go very soon because I've got this um this hearing to go to . But uh so the practical actions , you know , what are the things we're gonna go away and do . Yeah ."}
+{"timestamp": "20:49", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "20:55", "speaker": "Speaker_D", "text": "I can send you a l"}
+{"timestamp": "21:12", "speaker": "Speaker_A", "text": "Yeah , yeah ."}
+{"timestamp": "21:16", "speaker": "Speaker_A", "text": "Okay . S so then later , yeah ? Okay ."}
+{"timestamp": "21:23", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "21:26", "speaker": "Speaker_C", "text": "Um right now d uh I'm doing I'm trying to do the uh meeting action segmentation . J because uh after talking to Jane um just uh we have different ideas whether uh meeting action will be about the same size as topic segments . So um it would be good to um t right now I'm doing this , um looking at the data and trying to see if I can do the meeting action segmentation first and the scheme , and then do topic segmentation again to see if the boundary actually coincide with each other . Yeah , if if that that do , then maybe we can talk again whether um i it it make sense . Mm-hmm ."}
+{"timestamp": "21:31", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "21:42", "speaker": "Speaker_D", "text": "Okay . Yeah . Mm-hmm ."}
+{"timestamp": "21:49", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "21:56", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "21:59", "speaker": "Speaker_D", "text": "Hmm . Yeah ."}
+{"timestamp": "22:03", "speaker": "Speaker_B", "text": "Yeah . So you can do this exercise and then come and talk to me some time next week . I'm not in Monday , but the other days I'll be around . Mm-hmm ."}
+{"timestamp": "22:25", "speaker": "Speaker_B", "text": "Yeah . Yeah . S"}
+{"timestamp": "22:30", "speaker": "Speaker_B", "text": "Yeah , so this this is interesting , but i w I don't think we can afford to l um look at this right now . So why don't you bring it by um next week ? And i what I really wanna do concentrate just now is is finding out the how we're gonna help um Wei-Xun with with making progress on this . So we've already got you know , he's gonna um construct a list of the references he thinks is important , and Johanna and I and and you as well are gonna contribute to that . And we can put that on a Wiki or we can do it some other way . I mean you know I'm Wiki mad . So um if we share it , it should go on a Wiki 'cause I can't find anything in my email . But , you know , you don't have to do that ."}
+{"timestamp": "22:35", "speaker": "Speaker_C", "text": "Mm-hmm , right , sure . Yeah ."}
+{"timestamp": "22:41", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "22:44", "speaker": "Speaker_C", "text": "Mm , sure . Yes ."}
+{"timestamp": "22:45", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "22:54", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "22:58", "speaker": "Speaker_C", "text": "Mm-hmm . Hmm ."}
+{"timestamp": "22:58", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "23:04", "speaker": "Speaker_A", "text": "Yeah , it's yeah ."}
+{"timestamp": "23:05", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "23:06", "speaker": "Speaker_B", "text": "Um and then uh how do we you're actually so what you're doing is taking all of the the the most important references for um finding argument structure that might i eventually be of some use to a meeting browser and trying to look at actual data and apply and and see like which one helps you figure out what you're actually gonna do with this particular data , right . So it seems to me that we should take like the front-runner scheme and the data and you should look at not front-runner scheme but front-runner theory and i see if you can speak to the data , you know , using that kind of theory at some point . And might might be an interesting exercise , right ?"}
+{"timestamp": "23:49", "speaker": "Speaker_D", "text": "Well I think we need to um , like you mentioned earlier , um factor in what this might be used for in the end . And so even if it we won't it won't be used , maybe if it would need some higher level analysis before it could be directly used for that purpose , we should still keep that in mind . And so I think going through the presentations that um were given at the work package six meeting where um and I think it was um it wasn't wha was it Anita or was it oh I've forgotten her name , the other woman um from Twente , you know , they talked about"}
+{"timestamp": "24:07", "speaker": "Speaker_B", "text": "The update ."}
+{"timestamp": "24:20", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "24:23", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "24:31", "speaker": "Speaker_D", "text": "they did they had done a lot of questionnaires , and they got some user requirements out of that . And then Steve presented um the results of following people around and looking at how they used their notes from meetings . And and so that would give us some ideas about , you know , what people want , you know , out of meeting records . But then we should also add things that we think are interesting . But just to have to keep some of these goals in mind 'cause they're t o one scheme might let you answer this set of questions but wouldn't help you at all with another set of questions ."}
+{"timestamp": "24:46", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "24:47", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "24:59", "speaker": "Speaker_B", "text": "Yeah . But that's a good starting point , yeah ."}
+{"timestamp": "25:08", "speaker": "Speaker_B", "text": "That'll be the Exactly , yeah . So you wanna go through basically the user requirements and , you know , maybe think about some user requirements of your own and make a case for , you know , these are the kinds of things that we'd want , and look , you're gonna need um this kind of dialogue or argument structure for it ."}
+{"timestamp": "25:22", "speaker": "Speaker_D", "text": "So should we expect that all the slides from like the work package six meeting or the joint work package five work pa will be u up on one of the work package web sites ? And if not , how do we make that happen ?"}
+{"timestamp": "25:32", "speaker": "Speaker_B", "text": "Um uh uh I'll think about that ."}
+{"timestamp": "25:36", "speaker": "Speaker_D", "text": "Hmm okay ."}
+{"timestamp": "25:39", "speaker": "Speaker_D", "text": "Some of this was presented in at least the one spider phone or the second spider phone telecon I went to for work package six . So if they're not on the web we can try to look at that , you know , at the materials that were presented in that telecon without necessarily listening to the whole telecon . Yeah ?"}
+{"timestamp": "26:04", "speaker": "Speaker_D", "text": "And Steve m and his I've forgotten the name , is it was it Simon , his yeah . They they've I think they may have written this up um in a report um , but I wou would hope that's on the work package six web site as well ."}
+{"timestamp": "26:08", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:12", "speaker": "Speaker_B", "text": "Mm-hmm , yeah ."}
+{"timestamp": "26:17", "speaker": "Speaker_B", "text": "Yeah . Okay . So so we're gonna go through the requirements like that and did did you think that's that was reasonable to after that to try and um actually , you know , take some theory that seems fairly reasonable and think about the particular data and come and talk ?"}
+{"timestamp": "26:37", "speaker": "Speaker_B", "text": "Yeah . I there's a few references missing . Yeah ."}
+{"timestamp": "26:52", "speaker": "Speaker_B", "text": "Yep . So then try front-runner scheme on , well , a front-runner theory ."}
+{"timestamp": "26:56", "speaker": "Speaker_D", "text": "Or t or or two and see this one gives you this and this g and can't you know , are they fundamentally incompatible . Or can we yeah , mm-hmm ."}
+{"timestamp": "27:03", "speaker": "Speaker_B", "text": "Yeah . But try it informally . Yep , mm-hmm . When do we get together again ? 'Cause I really do have to go . I promised these guys I'd be there ."}
+{"timestamp": "27:09", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "27:11", "speaker": "Speaker_D", "text": "I think this is gonna take about three weeks 'cause he's got plenty of reading to do . So maybe we get together again in the yeah , I mean , I'll send them the references immediately ."}
+{"timestamp": "27:15", "speaker": "Speaker_B", "text": "Uh-huh . But w"}
+{"timestamp": "27:17", "speaker": "Speaker_B", "text": "Reading lists before that though , so right ?"}
+{"timestamp": "27:23", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "27:26", "speaker": "Speaker_A", "text": "Sorry ? You mean mm ."}
+{"timestamp": "27:31", "speaker": "Speaker_A", "text": "I will try my best , yeah ."}
+{"timestamp": "27:32", "speaker": "Speaker_D", "text": "If y if if it's too tight , you know , I think m we can say four . Or are you gonna be on holiday ?"}
+{"timestamp": "27:35", "speaker": "Speaker_A", "text": "Oh yeah . Uh I m I might yeah , 'cause uh Julie and the boy is here . So . it's a little tiring 'cause my parents have left . Uh yeah . So I might take two weeks off two weeks off in uh May , yeah , sometimes , yeah . Off , yeah . Okay , thanks ."}
+{"timestamp": "27:44", "speaker": "Speaker_D", "text": "Yeah . Maybe four weeks ? Okay . Okay . So we should get together probably in about four weeks , yes . So when are you gonna bring this beautiful baby in to see everybody ? Good , good . That's great ."}
+{"timestamp": "27:44", "speaker": "Speaker_B", "text": "Uh-huh ."}
+{"timestamp": "27:51", "speaker": "Speaker_B", "text": "Four weeks , yeah ."}
+{"timestamp": "27:56", "speaker": "Speaker_A", "text": "Uh yeah , hope I hope so very soon . Yeah . Yeah ."}
+{"timestamp": "28:03", "speaker": "Speaker_C", "text": "Something . Sure ."}
+{"timestamp": "28:06", "speaker": "Speaker_B", "text": "Right . I'm gonna head off ."}
+{"timestamp": "28:07", "speaker": "Speaker_D", "text": "Yep . Well good luck solving your problem . I have to tick and tick ? It does something weird when you do that ."}
+{"timestamp": "28:08", "speaker": "Speaker_A", "text": "Okay , thanks ."}
+{"timestamp": "28:08", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "28:09", "speaker": "Speaker_B", "text": "C 'cause floods are more important than dialogue structure , I'm afraid ."}

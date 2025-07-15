@@ -1,0 +1,868 @@
+﻿"[00:01] me018 | Eh , we should be going ."
+"[00:04] me013 | So ne next week we 'll have , uh , both Birger and , uh ,"
+[00:10] me013 | Michael Kleinschmidt and Birger Kollmeier will join us .
+"[00:18] me013 | you 're probably gonna go up in a couple three weeks or so ? When d when are you thinking of going up to , uh ,"
+[00:23] me013 | OGI ?
+"[00:23] mn007 | Yeah , like ,"
+[00:28] me013 | OK .
+[00:32] mn007 | Uh - huh .
+[00:39] mn007 | maybe we can start with this .
+"[00:46] me013 | All today , huh ?"
+[00:47] mn007 | Yeah .
+[00:48] me013 | Oh .
+"[00:52] mn007 | Yeah . So there was this conference call this morning ,"
+"[00:55] mn007 | um ,"
+[00:56] mn007 | and the only topic on the agenda was just to discuss
+[01:00] mn007 | a and to
+"[01:05] me013 | No , this I 'm sorry , this is a conference call between different Aurora people or just ?"
+"[01:08] mn007 | Uh , yeah . It 's the conference call between the Aurora , uh , group ."
+[01:10] me013 | It 's the main conference call .
+[01:11] me013 | OK .
+"[01:14] mn007 | Uh , yeah . There were like two hours of discussions ,"
+"[01:18] mn007 | and then suddenly ,"
+"[01:20] mn007 | uh , people were tired , I guess , and they decided on"
+"[01:31] mn007 | Uh , it means that it 's like eighty milliseconds less than before ."
+[01:38] mn007 | Um .
+[01:38] me013 | And what are we sitting at currently ?
+"[01:40] mn007 | So , currently d uh , we have system that has two hundred and thirty . So ,"
+[01:40] me013 | Yeah .
+[01:45] mn007 | that 's fine .
+[01:46] me013 | Two thirty .
+"[01:52] mn007 | Yeah . But that 's Yeah . That 's not a problem , I I guess ."
+[01:58] me013 | OK .
+[01:58] mn007 | Um .
+[01:58] me013 | W
+"[01:59] me013 | It 's it 's p d primary primarily determined by the VAD at this point , right ?"
+"[02:03] mn007 | Yeah . At this point , yeah ."
+"[02:05] mn007 | Yeah , uh - huh ."
+[02:06] me013 | Yeah . We probably should do that pretty soon so that we don't get used to it being a certain way .
+[02:10] me013 | Yeah .
+[02:11] mn007 | Um .
+[02:13] me013 | on the phone ?
+"[02:14] mn007 | Yeah , sure ."
+[02:15] me013 | OK .
+"[02:15] mn007 | Well , it was mainly a discussion between Hari and"
+[02:17] me013 | Hmm .
+[02:20] me013 | Yeah .
+"[02:21] mn007 | Uh ,"
+[02:22] me013 | OK .
+"[02:28] mn007 | Uh , yeah . So ,"
+[02:29] mn007 | the second thing is the system that we have currently .
+"[02:32] mn007 | Oh , yes . We have , like , a system that gives sixty - two percent"
+"[02:36] mn007 | improvement , but"
+"[02:41] mn007 | Well , it has a latency of two thirty , but"
+[02:44] mn007 | if you want also to stick to the number
+"[02:46] mn007 | of features that limit it to sixty ,"
+[02:50] mn007 | then we go a little bit down but it 's still sixty - one percent .
+"[02:54] mn007 | Uh , and if we drop the tandem network , then we have fifty - seven percent ."
+"[03:00] me013 | Uh , but th the two th two thirty includes the tandem network ?"
+[03:05] me013 | OK .
+"[03:06] me013 | And i is the tandem network , uh , small enough that it will fit on the terminal size in terms of ?"
+[03:13] me013 | No .
+[03:15] mn007 | No .
+[03:17] me013 | OK .
+[03:23] me013 | Mm - hmm .
+"[03:23] mn007 | the maps the the MIPs ,"
+[03:24] me013 | Mm - hmm .
+"[03:25] mn007 | I think it fits , but it 's , uh , m mainly a problem of memory ."
+[03:29] me013 | Right .
+"[03:31] mn007 | and I don't know how much this can be discussed or not ,"
+[03:39] me013 | Ho - how much memory d ? H how many ?
+"[03:45] me013 | Yeah . I 'd like to see that , cuz maybe I could"
+"[03:47] me013 | think a little bit about it , cuz we"
+"[03:50] me013 | maybe we could make it a little smaller or I mean , it 'd be it 'd be neat if we could fit it all ."
+[03:52] mn007 | Uh - huh .
+"[03:54] me013 | Uh , I 'd like to see how far off"
+[03:56] me013 | we are .
+[04:00] me013 | have it
+"[04:01] me013 | on the , uh ,"
+"[04:02] me013 | t uh , server side . Right ?"
+[04:03] mn007 | Yeah .
+[04:04] me013 | OK .
+"[04:09] me013 | Uh , well , y you 're saying here ."
+"[04:15] mn007 | Yeah , there were small tricks to make this tandem network work ."
+"[04:19] mn007 | Uh ,"
+"[04:21] mn007 | mmm ,"
+"[04:26] mn007 | um , use"
+[04:29] mn007 | some kind of hierarchical structure where the silence probability is not computed by the final tandem network but by the VAD network .
+"[04:38] mn007 | Um ,"
+[04:46] mn007 | and we re - scale the other probabilities by one minus
+[04:47] me013 | Huh .
+[04:51] mn007 | the silence probability .
+"[04:55] mn007 | So it 's some kind of hierarchical thing ,"
+"[05:13] mn007 | Yeah , the reason w why why we did that with the silence probability was that ,"
+[05:23] mn007 | Yeah .
+[05:24] mn007 | So there is the tandem network that e e e estimates the phone probabilities
+[05:25] me013 | Yeah .
+[05:28] me013 | Yeah .
+[05:29] mn007 | and the silence probabilities also .
+[05:30] me013 | Right .
+[05:31] mn007 | And
+"[05:33] mn007 | things get better when , instead of using the silence probability computed by the"
+"[05:37] mn007 | tandem network , we use the silence probability ,"
+"[05:40] mn007 | uh , given by the VAD network ,"
+[05:50] mn007 | but
+"[05:51] mn007 | maybe ,"
+"[05:53] mn007 | So we have a network for the VAD which has one hundred hidden units ,"
+[05:57] mn007 | and the tandem network has five hundred .
+[06:00] mn007 | Um .
+"[06:01] mn007 | So it 's smaller but th the silence probability from this network seems , uh , better ."
+[06:07] me013 | OK .
+[06:17] me013 | Yeah . But OK .
+[06:25] mn007 | Well !
+[06:36] me006 | wh what led you to do that .
+"[06:39] mn007 | problem that we observed ,"
+"[06:42] mn007 | um ,"
+"[06:45] mn007 | that there was there were , like ,"
+[06:47] mn007 | many insertions in the in the system .
+[06:50] me013 | Mm - hmm .
+[06:51] mn007 | Mmm .
+[06:51] me013 | Hmm .
+"[06:51] mn007 | Actually plugging in the tandem network was increasing ,"
+"[06:55] mn007 | I I I think , the number of insertions ."
+[07:03] mn007 | So it looked strange and then just using the the other silence probability helps . Mmm .
+[07:19] me013 | combining knowledge sources . Right ? Because
+[07:22] me013 | the fact that you have these two nets
+"[07:24] me013 | that are different sizes means they behave a little differently , they find different things ."
+"[07:29] me013 | And , um ,"
+"[07:31] me013 | if you have ,"
+"[07:34] me013 | f the distribution that you have from ,"
+"[07:37] me013 | uh , f speech sounds"
+"[07:42] me013 | and rather than just taking one minus that to get the other ,"
+"[07:45] me013 | which is essentially what 's happening , you have this other"
+[07:48] me013 | source of knowledge that you 're putting in there . So you make use of both of them
+[07:51] me013 | in in what you 're ending up with .
+[07:53] me013 | Maybe it 's better .
+[07:53] mn007 | Yeah .
+"[07:55] me013 | Anyway ,"
+[07:56] mn007 | Yeah .
+"[07:57] mn007 | And and the features are different also . I mean ,"
+[07:59] mn007 | the VAD doesn't use the same features there are .
+[07:59] me013 | Mm - hmm .
+[08:02] me013 | Oh !
+"[08:04] me013 | That might be the key ,"
+[08:05] mn007 | Mm - hmm .
+[08:05] me013 | actually .
+[08:06] me013 | Cuz you were really thinking about speech versus nonspeech
+[08:09] mn007 | Mm - hmm .
+[08:09] me013 | for that .
+[08:12] me013 | That 's a good point .
+"[08:18] mn007 | Uh . Well , there are other things that we should do but ,"
+"[08:23] mn007 | um ,"
+"[08:28] mn007 | so , these things are like hav having a better VAD ."
+[08:34] mn007 | probably implies working a little bit on
+[08:37] mn007 | features that are more
+[08:38] mn007 | suited to
+[08:39] mn007 | a voice activity detection .
+"[08:53] me013 | I mean , back on the second stream , I mean , that 's something we 've talked about for a while . I mean ,"
+[08:57] me013 | I think
+[09:00] mn007 | Yeah . Mmm .
+"[09:01] me013 | Um ,"
+[09:02] me013 | so we have this this default idea about just using some sort of purely spectral
+[09:07] me013 | thing ?
+"[09:08] mn007 | Uh , yeah . But ,"
+[09:08] me013 | for a second stream ?
+"[09:09] mn007 | um ,"
+"[09:11] mn007 | we we did a first try with this , and it it"
+[09:14] mn007 | clearly hurts .
+"[09:15] me013 | But , uh , how was the stream combined ?"
+[09:16] mn007 | Uh .
+"[09:19] mn007 | It was c it was just combined , um ,"
+"[09:22] mn007 | by the acoustic model . So there was ,"
+[09:25] mn007 | no neural network for the moment . Mm - hmm .
+"[09:26] me013 | Right . So , I mean , if you just had a second stream that was just spectral and had another neural net and combined there ,"
+"[09:32] me013 | that , uh ,"
+[09:33] mn007 | Mm - hmm .
+[09:34] me013 | might be good .
+[09:35] mn007 | Mmm .
+"[09:41] mn007 | Yeah , and the other thing , that noise estimation and th um ,"
+"[09:49] mn007 | tandem network , right now , is like i is using the noises from the Aurora task and"
+"[09:58] mn007 | um ,"
+[09:59] mn007 | try to argue about that because
+[10:06] me013 | Right .
+[10:09] mn007 | So we have t n
+"[10:15] me013 | Yeah . Maybe you just put in some other noise , something that 's different ."
+[10:15] mn007 | this problem .
+[10:16] mn007 | Mm - hmm . Yeah .
+"[10:17] me013 | I mean , it it 's probably helpful to have have a little noise there ."
+[10:21] mn007 | Uh - huh .
+[10:21] me013 | But it may be something else th at least you could say it was .
+[10:22] mn007 | Yeah .
+"[10:24] me013 | And then if it doesn't hurt too much , though ."
+[10:25] mn007 | Uh - huh .
+[10:26] me013 | Yeah . That 's a good idea .
+[10:30] mn007 | Yeah . The last thing is that
+[10:32] mn007 | I think we are getting close to human performance .
+"[10:36] mn007 | Well , that 's something I would like to investigate further , but ,"
+"[10:44] mn007 | I did , uh , listen to the m most noisy utterances of the SpeechDat - Car Italian and"
+[10:50] mn007 | tried to transcribe them .
+[10:53] me013 | So this is a particular human . This is this i this is Stephane . Yeah .
+"[11:05] mn007 | what happens is is that ,"
+"[11:07] mn007 | uh , the digit error rate"
+"[11:10] mn007 | on this is around one percent ,"
+[11:13] me013 | Yeah .
+"[11:16] mn007 | Um , but what happens also is that if"
+[11:22] mn007 | a re - synthesized version of
+[11:24] mn007 | the speech
+"[11:25] mn007 | and I re - synthesized this using a white noise that 's filtered by a LPC ,"
+[11:31] me013 | Yeah .
+"[11:33] mn007 | Um ,"
+"[11:34] mn007 | well , you can argue , that , uh that this is not speech , so the ear is not"
+[11:36] me013 | Yeah .
+"[11:44] me013 | There 's two problems there . I mean I mean , so so the first is"
+[11:45] mn007 | Uh - huh .
+[11:52] me013 | i i you 're you 're adding other degradation .
+[11:54] me013 | Right ? So it 's not just the noise but you 're adding in fact some degradation because it 's only an approximation .
+"[12:00] me013 | Um ,"
+[12:01] me013 | and the second thing is which is
+"[12:06] me013 | if you do it with whispered speech ,"
+[12:10] me013 | you get this number .
+[12:11] me013 | What if you had done analysis re - synthesis and taken the pitch as well ?
+[12:17] me013 | Alright ? So now you put the pitch in .
+[12:20] mn007 | Uh - huh .
+[12:21] me013 | What would the percentage be then ?
+"[12:23] me013 | See , that 's the question ."
+"[12:27] me013 | if it 's , uh Let 's say it 's back down to one percent again ."
+[12:30] mn007 | Uh - huh .
+"[12:30] me013 | That would say at least for people ,"
+"[12:32] me013 | having the pitch is really , really important ,"
+[12:34] me013 | which would be interesting in itself .
+"[12:37] me013 | if i on the other hand , if it stayed up near five percent ,"
+[12:44] me013 | You know ?
+[12:44] mn007 | Uh - huh .
+[12:47] me013 | I 'm not sure how we can conclude from this anything about that our system is close to
+[12:50] mn007 | Ye -
+[12:52] me013 | the human performance .
+[12:56] mn007 | what I what I listened to when I re - synthesized the LP - the LPC - twelve spectrum
+"[13:02] mn007 | is in a way what the system , uh , is hearing ,"
+"[13:11] mn007 | well , the excitation is is"
+[13:13] mn007 | not taken into account .
+[13:15] mn007 | That 's what we do with our system .
+[13:17] mn007 | And
+[13:22] me013 | What if you did LPC - twenty ?
+[13:25] me013 | Twenty .
+[13:27] me013 | Right ?
+"[13:28] me013 | I mean , th the thing is LPC is not a a really great"
+[13:28] mn007 | Mm - hmm .
+[13:32] me013 | representation of speech .
+[13:33] mn007 | Mm - hmm .
+"[13:34] me013 | So , all I 'm saying is that you have in addition to the w the ,"
+"[13:37] me013 | uh , removal of pitch ,"
+[13:39] mn007 | Mm - hmm .
+"[13:40] me013 | you also are doing ,"
+"[13:41] me013 | uh , a particular parameterization ,"
+"[13:44] me013 | which , um ,"
+[13:47] mn007 | Mmm .
+"[13:53] me013 | No . Actually , we d we we don't , because we do we do , uh ,"
+"[13:57] me013 | uh , mel filter bank , for instance . Right ?"
+"[14:01] mn007 | is it that different , I mean ?"
+"[14:02] me013 | Um ,"
+"[14:04] me013 | I don't know what mel , uh , based synthesis would sound like , but certainly the spectra are quite different ."
+[14:04] mn007 | I
+[14:10] mn007 | Mm - hmm .
+[14:10] me018 | Couldn't you t
+"[14:11] me018 | couldn't you , um ,"
+[14:14] me018 | test the human performance on just the original audio ?
+[14:18] mn007 | This is the one percent number .
+"[14:20] me013 | Yeah , it 's one percent . He 's trying to remove the pitch information"
+[14:20] mn007 | Mm - hmm .
+"[14:22] me018 | Oh , oh . OK , I see ."
+[14:23] mn007 | Mm - hmm .
+[14:23] me013 | and make it closer to what to what we 're seeing as the feature vectors .
+"[14:27] me018 | OK . So , y"
+"[14:28] me018 | uh , your performance was one percent ,"
+[14:30] mn007 | Uh - huh .
+[14:30] me018 | and then when you re - synthesize with LPC - twelve it went to five .
+[14:33] me018 | OK .
+[14:37] me013 | We were we were j It it it 's a little bit still apples and oranges because we
+[14:42] me013 | are choosing these features in order to be the best for recognition .
+[14:45] mn007 | Uh - huh .
+"[14:46] me013 | And , um ,"
+[14:48] me013 | i
+[14:48] me013 | if you listen to them they still might not be very Even if you made something closer
+[14:52] me013 | to what we 're gonna i it might not sound very good .
+[14:54] mn007 | Yeah .
+"[14:58] me013 | might actually make it even harder ,"
+"[15:00] me013 | uh , to understand than the LPC - twelve . So all I 'm saying is that the LPC - twelve"
+[15:05] me013 | puts in synthesis puts in some degradation
+[15:08] mn007 | Uh - huh .
+"[15:08] me013 | that 's not what we 're used to hearing ,"
+"[15:10] me013 | and is ,"
+"[15:13] me013 | it 's not just a question of how much information is there , as if you will always take maximum"
+"[15:18] me013 | advantage of any information that 's presented to you . In fact , you"
+[15:19] mn007 | Mm - hmm .
+[15:21] me013 | hear some things better than others .
+"[15:23] me013 | And so it it isn't But ,"
+"[15:24] me013 | I agree that it says that ,"
+"[15:26] me013 | uh , the kind of information that we 're feeding it is probably ,"
+"[15:30] me013 | um , um , a little bit , um ,"
+[15:34] me013 | minimal . There 's definitely some things that we 've thrown away .
+[15:40] me013 | an interesting test of this would be if you if you actually put the pitch back in .
+"[15:44] me013 | So , you just extract it from the actual speech and put it back in ,"
+[15:48] me013 | and see does that is that does that make the difference ?
+[15:51] mn007 | Uh - huh .
+"[15:51] me013 | If that if that takes it down to one percent again ,"
+"[15:54] me013 | then you 'd say "" OK , it 's it 's in fact having ,"
+"[15:56] me013 | um ,"
+[16:00] me013 | also the the pitch
+[16:07] me018 | But from this it 's pretty safe to say that
+[16:09] me018 | the system is with either
+[16:11] me018 | two to seven percent
+[16:13] me018 | away from the performance of a human . Right ?
+[16:16] me018 | So it 's somewhere in that range .
+[16:17] me018 | Two two to six percent .
+[16:25] me013 | for Stephane .
+"[16:34] me013 | that 's what that 's the first thing that I would be curious about , is , you know , i i"
+[16:39] me013 | when you we
+[16:49] me013 | Mm - hmm .
+"[16:51] mn007 | uh , noise . I mean not periodic ."
+[16:59] me018 | In the LPC synthesis ?
+"[17:03] me013 | Yeah . You did LPC re - synthesis L PC re - synthesis . So ,"
+[17:03] mn007 | I
+[17:04] mn007 | Uh - huh .
+"[17:07] me013 | uh and you did it with a noise source ,"
+[17:09] mn007 | Mm - hmm .
+[17:09] me013 | rather than with with a s periodic source .
+"[17:13] me013 | Right ? So if you actually did real re - synthesis like you do in an LPC synthesizer , where it 's unvoiced you use noise , where it 's voiced you use ,"
+"[17:21] me013 | uh , periodic pulses ."
+[17:23] mn007 | Um .
+[17:24] me013 | Right ?
+"[17:24] mn007 | Yeah , but it 's neither purely voiced or purely unvoiced ."
+[17:29] mn007 | Esp - especially because there is noise .
+"[17:35] me013 | um ,"
+[17:39] mn007 | Uh - huh .
+[17:41] mn007 | Yeah .
+[17:41] me013 | voice thing .
+"[17:42] me013 | Yeah . I mean , it 's probably not worth your time . It 's it 's a side thing and and and there 's a lot to do . But I 'm I 'm just saying , at least as a thought experiment ,"
+"[17:45] mn007 | Uh - huh , yeah ."
+[17:48] mn007 | Mm - hmm .
+[17:49] me013 | that 's what I would wanna test .
+"[17:51] me013 | Uh , I wan would wanna drive it with a a a two - source system rather than a than a one - source system ."
+[17:53] mn007 | Mm - hmm .
+[17:55] mn007 | Mm - hmm .
+"[17:57] me013 | And then that would tell you whether in fact it 's Cuz we 've talked about , like , this harmonic tunneling or"
+"[18:01] me013 | other things that people have done based on pitch ,"
+[18:04] me013 | maybe that 's really a key element .
+"[18:05] me013 | Maybe maybe , uh ,"
+"[18:08] me013 | uh , without that ,"
+[18:08] me013 | it 's it 's not possible to do a whole lot better than we 're doing . That that could be .
+[18:12] mn007 | Yeah .
+[18:15] me013 | Yeah .
+[18:17] mn007 | Mmm . Evi -
+"[18:18] me013 | But , I mean , other than that , I don't think it 's I mean , other than the pitch de information ,"
+[18:22] me013 | it 's hard to imagine that there 's a whole lot more
+[18:27] me013 | that we 're throwing away that 's important .
+"[18:32] me013 | Right ? I mean , we 're using"
+[18:36] mn007 | Mm - hmm .
+[18:42] me013 | Hmm .
+[18:44] me013 | Yeah .
+[18:46] me013 | Yeah . That look
+[18:47] me013 | Yeah .
+[18:50] me013 | I would figure .
+[18:51] me013 | If somebody was
+"[18:52] me013 | paying really close attention ,"
+"[18:54] me013 | you might get I would actually think that if ,"
+"[18:58] me013 | you looked at people on various times of the day and different amounts of attention , you might actually get up to three or four percent"
+"[19:03] me013 | error on digits . Uh ,"
+[19:04] mn007 | Mm - hmm .
+[19:08] mn007 | @ @
+[19:09] me013 | we 're not
+"[19:10] me013 | incredibly far off . On the other hand ,"
+"[19:12] me013 | with any of these numbers except maybe the one percent , it 's st it 's not actually"
+[19:17] me013 | usable
+[19:18] me013 | in a commercial system with
+[19:20] mn007 | Uh - huh .
+[19:20] me013 | a full telephone number or something .
+[19:24] me013 | Yeah .
+[19:26] me013 | Right .
+[19:34] me013 | Good .
+"[19:36] me013 | Um , while we 're still on Aurora stuff maybe you can"
+[19:39] me013 | talk a little about the
+"[19:40] me013 | status with the , uh ,"
+[19:43] me013 | Wall Street Journal things for it .
+"[19:45] me018 | So I 've , um , downloaded ,"
+"[19:48] me018 | uh ,"
+[19:49] me018 | a couple of things from Mississippi State .
+"[19:51] me018 | Um , one is their"
+"[19:53] me018 | software their ,"
+"[19:54] me018 | uh , LVCSR system ."
+[19:56] me018 | Downloaded the latest version of that .
+[19:58] me018 | Got it compiled and everything .
+"[20:00] me018 | Um , downloaded"
+[20:02] me018 | the scripts . They wrote some scripts that sort of make it easy to run
+"[20:06] me018 | the system on the Wall Street Journal ,"
+"[20:08] me018 | uh ,"
+[20:08] me018 | data .
+"[20:09] me018 | Um ,"
+[20:10] me018 | so I haven't run the scripts yet .
+"[20:12] me018 | Uh , I 'm waiting there was one problem with part of it and I wrote a note to Joe asking him about it ."
+[20:17] me018 | So I 'm waiting to hear from him .
+"[20:19] me018 | But , um , I did print something out just to give you an idea about"
+[20:23] me018 | where the system is .
+"[20:24] me018 | Uh ,"
+"[20:26] me018 | on their web site they , uh , did this little table of where their system performs relative to"
+[20:31] me018 | other systems that have done this this task .
+"[20:34] me018 | And , um , the Mississippi State system"
+"[20:37] me018 | using a bigram grammar ,"
+"[20:39] me018 | uh , is at about eight point two percent ."
+"[20:41] me018 | Other comparable systems from ,"
+"[20:45] me018 | were getting from , uh , like six point nine , six point eight percent ."
+[20:49] me013 | This is on clean
+[20:50] me013 | test set ?
+[20:51] me018 | on clean stuff . Yeah . They they 've started a table
+[20:59] me018 | and I didn't
+"[21:00] me018 | notice until after I 'd printed it out that ,"
+"[21:02] me018 | um ,"
+[21:08] me018 | So I I don't know what those numbers really mean .
+[21:10] me013 | What kind of numbers are they getting on these on the test conditions ?
+"[21:16] me018 | the they 're showing word error rate . But on this one ,"
+"[21:19] me018 | I I don't know if these are word error rates because they 're really big . So ,"
+[21:23] me018 | under
+[21:25] me018 | condition one here it 's ten percent .
+[21:27] me018 | Then under three it goes to sixty - four point six percent .
+[21:31] me018 | Yeah .
+[21:35] me018 | they 're really high .
+"[21:41] me013 | uh , some of the higher error rates on , uh ,"
+"[21:44] me013 | some of these w uh , uh ,"
+"[21:49] mn007 | Uh . Yeah , it 's around fifteen to twenty percent ."
+[21:54] me018 | Correct ?
+[21:55] me018 | Accuracy ?
+[21:57] me013 | Yeah .
+"[21:57] mn007 | Twenty percent error rate ,"
+[21:58] me013 | Yeah . So twenty percent error rate on digits .
+"[22:02] me013 | So if you 're doing so if you 're doing ,"
+"[22:02] me018 | Oh , oh , on digits . Yeah ."
+[22:03] mn007 | On digits . And this is so so still the baseline . Right ?
+[22:04] me018 | OK .
+"[22:04] me013 | you know ,"
+"[22:06] me013 | sixty - thousand Yeah , and if you 're saying sixty - thousand word recognition , getting sixty percent error on some of these noise condition not at all surprising ."
+[22:06] me018 | Yeah .
+[22:11] me018 | Yeah .
+"[22:13] mn007 | The baseline is sixty percent also on digits ,"
+"[22:16] me018 | Oh , is it ?"
+[22:16] mn007 | on the m more mismatched conditions .
+[22:19] me018 | OK .
+[22:20] mn007 | So .
+[22:20] me013 | Yeah .
+"[22:21] me018 | So , yeah , that 's probably what it is then ."
+[22:25] me018 | Yeah . So they have a lot of different conditions that they 're gonna be filling out .
+[22:33] me018 | Yeah . It 's it 's gonna be hard .
+"[22:35] me018 | they 're I I 'm still waiting for them to release the , um ,"
+"[22:39] me018 | multi - CPU version of their scripts , cuz right now their script only handles"
+"[22:42] me018 | processing on a single CPU ,"
+[22:44] me018 | which will take a really long time
+[22:47] me018 | to run . So .
+[22:47] me013 | This is for the training ?
+[22:48] me018 | But their s
+"[22:53] me018 | I beli Yes , for the training also ."
+[22:55] me013 | OK .
+"[22:55] me018 | And , um , they 're supposed to be coming out with it any time , the multi - CPU one ."
+[22:58] me013 | OK .
+"[22:58] me018 | So , as soon as they get that , then I 'll I 'll grab those too and so w"
+"[23:01] me013 | Yeah . Cuz we have to get started , cuz it 's cuz , uh ,"
+[23:02] me018 | Yeah .
+"[23:03] me018 | Yeah . I 'll go ahead and try to run it though with just the single CPU one , and I they they ,"
+"[23:07] me018 | um , released like a smaller data set that you can use that only takes like sixteen hours to train and stuff ."
+[23:13] me013 | Oh ! Good .
+[23:16] me013 | Yeah .
+[23:16] me018 | the thing works and everything .
+[23:19] me013 | I guess the actual evaluation will be in six weeks or something .
+[23:24] me013 | Is that about right you think ?
+"[23:25] mn007 | Uh , we don't know yet , I I think ."
+"[23:27] me013 | Really , we don't know ?"
+[23:28] mn007 | Uh - huh .
+[23:31] me013 | Hmm .
+[23:31] me018 | It wasn't on the conference call this morning ?
+[23:34] mn007 | No .
+[23:37] me018 | Did they say anything
+"[23:39] me018 | on the conference call about , um ,"
+[23:42] me018 | how the Wall Street Journal part of the test was going to be run ?
+[23:48] mn007 | No . Mmm .
+[23:48] me018 | I thought I remembered hearing that some sites
+[23:50] me018 | were saying that they didn't have the compute to be able to run the Wall Street Journal stuff
+"[23:55] me018 | at their place ,"
+[23:56] me018 | so there was some talk about having Mississippi State run the systems for them .
+[24:01] me018 | Did did that come up at all ?
+"[24:08] me018 | Oh , OK ."
+"[24:08] mn007 | the meeting today and ,"
+[24:12] mn007 | didn't read also the most recent mails about
+"[24:17] mn007 | the large - vocabulary task . But ,"
+"[24:19] mn007 | uh , did you do you still ,"
+"[24:21] mn007 | uh , get the mails ?"
+[24:23] mn007 | You 're not on the mailing list or what ?
+[24:29] mn007 | Uh - huh .
+"[24:32] mn007 | Oh , yeah . So we should have a look at this ."
+[24:44] me018 | Yeah .
+[24:44] me013 | It just just sounds funny .
+[24:51] me013 | anyway .
+[24:52] me018 | Yeah . I 'm I 'm wondering about that because
+"[24:55] me018 | there 's this whole issue about ,"
+"[24:57] me018 | you know ,"
+"[24:58] me018 | simple tuning parameters , like word insertion penalties ."
+[25:01] mn007 | Mm - hmm .
+[25:01] me018 | And whether or not those are
+[25:05] me018 | So .
+[25:07] mn007 | Mm - hmm .
+"[25:09] me018 | I mean , it makes a big difference . If you change your front - end ,"
+"[25:12] me018 | you know ,"
+"[25:12] me018 | the scale is completely can be completely different , so ."
+[25:17] me018 | It seems reasonable that that at least should be
+[25:20] me018 | tweaked to match the front - end .
+[25:22] mn007 | You didn't get any answer from Joe ?
+"[25:25] me018 | I did , but Joe said ,"
+"[25:27] me018 | you know , "" what you 're saying makes sense and I don't know "" ."
+[25:30] mn007 | Uh - huh .
+[25:30] me018 | So he doesn't know what
+"[25:31] me018 | the answer is . I mean , that 's th We had this"
+"[25:33] me018 | back and forth a little bit about ,"
+"[25:35] me018 | you know , are sites gonna are you gonna run this data for different sites ?"
+"[25:40] me018 | if Mississippi State runs it , then maybe they 'll"
+[25:43] me018 | do a little optimization
+"[25:45] me018 | on that parameter ,"
+[25:53] me018 | it 's just not clear yet what 's gonna happen .
+"[25:56] me018 | Uh , he 's been putting this stuff out on their web site and for people to grab but"
+[26:01] me018 | I haven't heard too much about
+"[26:03] me013 | So it could be I mean , Chuck and I had actually talked about this a couple times , and and over some lunches , I think ,"
+"[26:09] me013 | that , um ,"
+"[26:12] me013 | The - there 's this question about , you know , what do you wanna scale ?"
+[26:15] me013 | Suppose y you can't adjust
+"[26:17] me013 | these word insertion penalties and so forth , so you have to do everything at the level of the features . What could you do ?"
+"[26:22] me013 | And , uh , one thing I had suggested at an earlier time was maybe some sort of scaling , some sort of root or or something of"
+"[26:29] me013 | the , um ,"
+"[26:31] me013 | uh , features ."
+"[26:32] me013 | But the problem with that is that isn't quite the same , it occurred to me later ,"
+"[26:36] me013 | because what you really want to do is scale the ,"
+"[26:39] mn007 | Nnn , the dist"
+[26:41] mn007 | Yeah .
+"[26:42] me013 | But ,"
+"[26:43] me013 | what might get at something similar , it just occurred to me , is kind of an intermediate thing is because we do this strange thing that we do with the tandem system ,"
+[26:51] me013 | at least in that system what you could do
+"[26:53] me013 | is take the , um ,"
+"[26:56] me013 | uh ,"
+"[26:57] me013 | values that come out of the net , which are something like log probabilities ,"
+[27:02] me013 | and scale those .
+"[27:04] me013 | And then , uh , um then at least"
+[27:07] me013 | those things would have
+"[27:12] me013 | And then that goes into the rest of it and then that 's used as observations . So it 's it 's ,"
+"[27:17] me013 | um ,"
+[27:20] mn007 | Mm - hmm .
+[27:22] me013 | another way to do it .
+"[27:25] mn007 | But , these values are not"
+"[27:31] me013 | I know they 're not . But but ,"
+[27:33] mn007 | Uh - huh .
+[27:37] mn007 | Mm - hmm .
+"[27:38] me013 | at the other end . So ,"
+"[27:39] me013 | um , my thought was maybe I mean , they 're not used as probabilities ,"
+[27:44] me013 | but
+[27:46] me013 | we 're taking advantage of the fact that something like log probabilities has more of a Gaussian shape than Gaus - than
+"[27:52] me013 | probabilities , and so we can model them better . So , in a way we 're"
+"[27:57] me013 | taking advantage of the fact that they 're probabilities , because"
+[28:00] me013 | they 're this quantity that
+[28:04] mn007 | Mm - hmm .
+[28:06] me013 | maybe it would have a a reasonable effect to do that . I d I don't know .
+[28:13] me013 | a ruling back on this . And we may end up being in a situation where we just you know really can't change the
+[28:18] me013 | word insertion penalty . But the other thing we could do
+"[28:21] me013 | is also we could I mean , this this may not help us ,"
+"[28:25] me013 | uh , in the evaluation but it might help us in our understanding at least . We might , just run it with different insper insertion penalties ,"
+"[28:36] me013 | playing the rules the way you wanted , we did this . But in fact if we did that , it made a a big difference . """
+"[28:42] me018 | it might be possible to ,"
+"[28:46] me018 | uh , simulate"
+[28:48] me018 | the back - end
+[28:49] me018 | with some other
+"[28:51] me018 | system . So we we get our f front - end features ,"
+"[28:54] me018 | and then , uh ,"
+[28:57] me018 | as part of the process of figuring out the scaling
+[29:00] me013 | Mm - hmm .
+[29:04] me018 | we have some back - end
+[29:06] me018 | that we attach onto our features that
+[29:09] me018 | sort of
+[29:10] me018 | simulates what would be happening .
+"[29:12] me018 | Um ,"
+[29:13] me013 | And just adjust it until it 's the best number ?
+"[29:16] me018 | our l version of the back - end ,"
+"[29:18] me018 | uh ,"
+"[29:20] me013 | Well , we can probably use the real thing , can't we ? And then jus just , uh ,"
+"[29:23] me018 | Yeah . Oh , yeah ."
+[29:23] me013 | use it on a reduced test set or something .
+[29:25] me018 | That 's true .
+[29:25] me013 | Yeah .
+[29:26] me018 | And then we just use that to determine some scaling factor that we use .
+[29:42] me018 | Mm - hmm .
+[29:50] me018 | Yeah .
+"[29:54] me006 | Out of curiosity , what what kind of recognizer is the one from Mississippi State ?"
+"[29:59] me018 | Uh , w what do you mean when you say "" what kind "" ?"
+"[30:01] me006 | Um , is it like a Gaussian mixture model ?"
+[30:03] me018 | Yeah .
+[30:04] me006 | OK .
+"[30:05] me018 | It 's the same system that they use when they participate in the Hub - five evals . It 's a ,"
+"[30:25] me013 | Do they have the same sort of mix - down sort of procedure , where they"
+[30:29] me013 | start off with a small number of some things and ? Yeah .
+[30:29] me018 | I don't know .
+[30:31] me018 | Yeah . And then divide the mixtures in half . I don't know if they do that . I 'm not really sure .
+[30:34] me013 | Yeah .
+"[30:43] me018 | Yeah , th I have I I I don't have it up here but I have a the whole system description ,"
+[30:43] me013 | or if it 's ?
+[30:48] me018 | that describes
+[30:49] me018 | exactly what their system is and I I 'm not sure .
+[30:55] me013 | OK .
+"[30:57] me018 | It 's some kind of a mixture of Gaussians and ,"
+"[30:59] me018 | uh , clustering and ,"
+[31:02] me018 | They 're they 're trying to put in sort of all of the standard features
+[31:06] me018 | that people use nowadays .
+"[31:12] me013 | come in in time to be relevant , but , uh , we had talked about , uh , Guenter"
+"[31:17] me013 | playing around ,"
+"[31:18] me013 | uh ,"
+"[31:21] me013 | uh , possibly coming up with something"
+"[31:29] me013 | uh , it wasn't going to work for him to do CVS ."
+[31:31] mn007 | Yeah .
+[31:32] mn007 | Yeah . So now he has a version of the software .
+[31:34] me013 | So he just has it all sitting there . Yeah .
+[31:36] mn007 | Yeah . Um Mm - hmm .
+[31:40] me013 | he might work on improving the noise estimate or on
+[31:47] me013 | Yeah . I just saw the Eurospeech We we didn't talk about it at our meeting but I just saw the just read the paper .
+"[31:53] me013 | Someone , I forget the name , and and Ney , uh , about histogram"
+[31:57] me013 | equalization ?
+"[32:03] me013 | Yeah . I mean , I just read the paper . I didn't see the poster ."
+[32:03] mn007 | Yeah .
+[32:07] mn007 | Yeah .
+[32:20] mn007 | Yeah .
+[32:21] mn007 | Right .
+"[32:22] me013 | and they adjust the distribution . So you you have the distributions from the training set ,"
+[32:24] mn007 | N
+[32:28] me013 | So this is just a a histogram of of
+"[32:38] me013 | of histogram of of levels of brightness or whatever . And and and then ,"
+[32:42] me018 | Hmm .
+"[32:43] me013 | when you get a new new thing that you you want to adjust to be better in some way ,"
+"[32:48] me013 | you adjust it so that the histogram of the new data looks like the old data . You do this kind of piece - wise linear or ,"
+"[33:05] me013 | they said they s they sort of see it in a way as s for the speech case as being kind of a generalization of spectral subtraction in a way , because , you know , in spectral subtraction you 're trying to"
+"[33:20] me013 | Uh and , uh , this is sort of adjusting it for for a lot of different levels . And then they have s they have some kind of ,"
+[33:37] me018 | So is this a histogram across different frequency bins ?
+"[33:42] me013 | Um , I think this i"
+"[33:44] me013 | You know , I don't remember that ."
+[33:46] me013 | Do you remember ?
+"[33:54] me018 | So , one histogram per frequency bin ."
+"[33:56] mn007 | Yeah , I guess ."
+[34:01] me018 | So th
+[34:02] me018 | Oh .
+[34:07] me018 | Huh .
+[34:07] me013 | I don't remember that .
+"[34:08] me018 | that , um , histogram represents the different energy levels that have been seen at that frequency ?"
+[34:15] me013 | And how often they you 've seen them . Yeah .
+[34:17] me018 | Uh - huh .
+[34:21] me013 | So you don't have to change the training . You just do a measurement over the training .
+"[34:25] me013 | And then , uh , for testing , uh , you can do it for one per utterance ."
+[34:29] me013 | Even relatively short utterances . And they claim it it works pretty well .
+[34:35] me018 | Is the idea that you you run a test utterance
+[34:43] me013 | I guess in pri
+[34:43] me018 | what to do to the utterance to
+[34:45] me013 | Yeah .
+[34:47] me018 | I see .
+[34:48] me018 | Hmm .
+[34:49] me018 | Yeah .
+[34:55] me018 | Hmm .
+"[34:56] me013 | That that was sort of the idea . So that that seemed , you know , different ."
+"[35:06] me013 | Cuz we you know , one thing that w that ,"
+[35:06] me018 | Mm - hmm .
+"[35:07] me013 | uh , Stephane and Sunil seemed to find ,"
+"[35:24] me013 | But there 's other things that we 're not doing . So , we 're not making any use of pitch ,"
+"[35:32] me013 | uh , because the stuff between the harmonics is probably a schmutz . And and the ,"
+"[35:37] me013 | uh , transcribers will have fun with that ."
+"[35:43] me013 | the , uh , stuff at the harmonics isn't so much ."
+[35:48] me013 | And we there 's this overall idea of really sort of
+[35:51] me013 | matching the the hi distributions somehow .
+"[35:54] me013 | Uh , not just , um ,"
+[35:58] me013 | not just subtracting off your estimate of the noise .
+[36:01] me013 | So .
+[36:05] me013 | Guenter 's gonna
+"[36:10] mn007 | Uh ,"
+"[36:11] mn007 | I dunno . I don't have feedback from him , but"
+[36:13] me013 | Yeah .
+"[36:15] me013 | Well , he 's got it anyway , so he can ."
+[36:16] mn007 | Yeah .
+[36:17] mn007 | Uh - huh .
+"[36:17] me013 | So potentially if he came up with something that was useful , like a diff a better noise estimation module or something , he could ship it to you guys u up there and"
+[36:24] mn007 | Yeah .
+[36:26] mn007 | Mm - hmm . Mm - hmm .
+[36:29] me013 | Yeah .
+"[36:45] me013 | other territory . But , uh ,"
+"[36:54] me013 | uh , maybe just , uh , quickly today about maybe"
+[37:00] me013 | and then Barry can say something about what what we 're talking about .
+[37:00] me026 | OK .
+"[37:04] me026 | So Michael Kleinschmidt , who 's a PHD student from Germany ,"
+[37:07] me026 | showed up this week . He 'll be here for about six months . And he 's done some work using
+"[37:14] me026 | of , um ,"
+"[37:18] me026 | and using that f uh , to generate speech recognition features ."
+[37:23] me026 | And he did work back in Germany
+"[37:30] me026 | using , um , isolated"
+[37:33] me026 | digit recognition as the task . It was actually just a single - layer neural network
+[37:42] me026 | in fact .
+"[37:43] me026 | Um , and he tried that on I think on some Aurora data and got results that he thought seemed respectable . And"
+"[37:52] me026 | uh , a real speech recognition system ."
+"[37:57] me026 | So I 'll be working with him on that . And , um ,"
+"[38:01] me026 | maybe I should say a little more about these features ,"
+[38:03] me026 | although I don't understand them that well .
+"[38:06] me026 | The I think it 's a two - stage idea . And , um ,"
+[38:10] me026 | the first stage of these features
+[38:12] me026 | correspond to what 's called the peripheral auditory system .
+[38:19] me026 | a filter bank with a compressive nonlinearity .
+[38:22] me026 | And
+"[38:25] me026 | @ @ in there that isn't already modeled in something like ,"
+"[38:28] me026 | um , PLP . I should learn more about that ."
+"[38:31] me026 | the second stage is , um ,"
+"[38:42] me026 | um ,"
+"[38:46] me026 | sort of like based on diffe different w um , wavelet basis functions"
+[38:51] me026 | used to analyze
+[38:52] me026 | the input .
+"[38:54] me026 | So th he uses analysis functions called Gabor functions ,"
+"[38:59] me026 | um , which have a certain"
+"[39:01] me026 | extent , um ,"
+[39:06] me026 | And
+"[39:07] me026 | the idea is these are used to sample ,"
+"[39:09] me026 | um ,"
+[39:10] me026 | the signal in a
+[39:15] me026 | So you 're sampling some piece of this time - frequency plane .
+"[39:19] me026 | And , um ,"
+"[39:23] me026 | that ,"
+"[39:24] me026 | um , is is interesting , cuz ,"
+"[39:37] me026 | typically ,"
+"[39:41] me026 | using this , um , basis function idea , you could have some basis functions"
+[39:45] me026 | which have a lot longer time scale
+"[39:48] me026 | and , um , some which have a lot shorter , and"
+[39:51] me026 | so it would be like a set of multi - scale features .
+"[40:01] me026 | basis functions ,"
+[40:07] me026 | he actually does
+[40:11] me026 | an optimal set of basis functions out of all the possible ones .
+[40:12] me018 | Hmm . H
+[40:14] me018 | What does he do to choose those ?
+"[40:19] me026 | um ,"
+"[40:28] me026 | I mean , he t he tries , um ,"
+[40:33] me026 | So there are M possible subsets of this
+[40:41] me026 | possible sub - vectors .
+"[40:42] me026 | Whichever sub - vector ,"
+"[40:44] me026 | um ,"
+[40:52] me026 | the the fe feature that didn't use
+[40:55] me013 | Gets thrown out .
+[40:57] me026 | so we 'll throw it out and we 're gonna randomly select
+[41:02] me026 | from the set of possible basis functions .
+[41:05] me018 | Hmm !
+[41:05] me013 | Yeah . So i so it 's actuall
+[41:07] me018 | it 's a little bit like a genetic algorithm or something in a way .
+"[41:09] me013 | Well , it 's it 's much simpler . But it 's but it 's uh , it 's there 's a lot number of things I like about it , let me just say ."
+[41:11] me018 | Greedy .
+[41:16] me013 | i i
+[41:18] me013 | both pieces of this are have their analogies in stuff we already do .
+[41:25] me013 | at how to approach it and potentially one that 's
+"[41:31] me013 | uh , and a b a bit more inspiration from from auditory things . So it 's so I think it 's a neat thing to try ."
+"[41:37] me013 | The primary features ,"
+"[41:40] me013 | Yeah , essentially , it 's it 's , uh , you know , PLP or or mel cepstrum , or something like that . You 've you 've got some ,"
+[41:51] me013 | the kind of filter bank with a kind of
+[41:54] me013 | quasi - log scaling .
+"[41:55] me013 | Um , if you put in if you also include the RASTA in it i RASTA the filtering being done in the log domain"
+"[42:02] me013 | has an AGC - like , uh , characteristic , which , you know , people typi typically put in these kind of ,"
+"[42:08] me013 | uh , um ,"
+"[42:13] me013 | uh , but it 's not exactly the same ."
+"[42:15] me013 | I would agree that the second one is is somewhat more different but ,"
+"[42:19] me013 | um , it 's mainly different in that the things that we have been doing like that"
+"[42:24] me013 | um ,"
+[42:25] me013 | had a different kind of motivation and have ended up with different kinds of constraints .
+"[42:30] me013 | So , for instance , if you look at the LDA RASTA stuff ,"
+"[42:33] me013 | you know , basically what they do is they they look at the different eigenvectors out of the LDA and they form filters out of it . Right ?"
+[42:45] me013 | And so in fact they 're multi - scale .
+[43:01] me013 | Yeah . They use several of them . Yeah .
+[43:02] me026 | OK .
+"[43:03] me013 | Uh , I mean , you don't have to but but but , uh , Hynek has ."
+"[43:07] me013 | Um ,"
+[43:18] me013 | I think he may have had people sometimes doing it on both simultaneously some two - D and that would be the closest to these Gabor function kind of things .
+"[43:32] me013 | the feature selection thing , it 's a simple method ,"
+"[43:45] me013 | uh , called Stepwise Linear Discriminant Analysis in which you which I think it 's used in social sciences a lot ."
+"[43:51] me013 | So , you you you you pick the best feature ."
+[43:56] me013 | you take y you find the next feature that 's the best in combination with it .
+"[44:01] me013 | And what what Michael 's describing seems to me much , much better ,"
+"[44:05] me013 | because the problem with the stepwise discriminant analysis is that you don't know that you know , if you 've picked the right"
+"[44:11] me013 | set of features . Just because something 's a good feature doesn't mean that you should be adding it . So ,"
+"[44:24] me013 | Uh , you 're always looking at things in combination with other features ."
+"[44:28] me013 | so the only thing is , of course , there 's this this"
+"[44:31] me013 | artificial question of of , uh ,"
+"[44:39] me013 | I mean , it still isn't necessarily really optimal , but it seems like a pretty good heuristic ."
+"[44:44] me013 | So I th I think it 's it 's I think it 's kinda neat stuff . And and and , uh ,"
+[44:49] me013 | the thing that I wanted to to add to it also was to have us use this in a multi - stream way .
+"[44:57] me013 | Um ,"
+"[44:58] me013 | so so that , um ,"
+"[45:03] me013 | and these different functions ,"
+"[45:11] me013 | have some of them in one stream and some of them in another stream , and so forth ."
+"[45:16] me013 | And , um ,"
+"[45:23] me013 | And we 've also talked a little bit about , uh ,"
+"[45:36] me013 | uh , energy and fre and frequency . And some are emphasizing downward and"
+[45:43] me013 | and so forth . So .
+"[45:45] me013 | So there 's a bunch of stuff to look at . But , uh , I think we 're sorta gonna start off with what"
+[45:52] me013 | branch out from there .
+[45:55] me013 | And his advisor is
+"[45:56] me013 | here , too , at the same time . So ,"
+[46:04] me013 | So .
+"[46:22] me006 | So , like , if we have ,"
+"[46:28] me006 | and presumably the neural nets are are learning some sort of a nonlinear mapping ,"
+[46:36] me006 | to to this this probability posterior space .
+[46:36] me013 | Mm - hmm .
+[46:47] me006 | some sort of pattern .
+"[46:57] me006 | the , uh , um , the best features ,"
+[47:03] me013 | Mm - hmm .
+[47:10] me013 | Right ?
+"[47:22] me013 | a nasty argument that could be made th that it 's it 's not different at at all ,"
+"[47:31] me013 | because we are going into a a very powerful ,"
+"[47:35] me013 | that , uh , in fact is combining over time and frequency ,"
+[47:44] me026 | @ @
+"[47:56] me013 | computing features is useful ,"
+[48:13] me013 | you 've lost information and yet it does better
+"[48:28] me013 | Because if it wasn't the constraints that mattered , then we would 've completely solved this problem long ago , because long ago we already knew how to put waveforms into powerful statistical mechanisms ."
+[48:39] me006 | Right .
+"[48:43] me013 | Uh ,"
+[48:57] mn007 | Mm - hmm .
+"[49:04] me013 | not infinite but a lot , and then compared to the number parameters and it it , uh it just doesn't do nearly as well ."
+[49:22] me013 | So .
+"[49:30] me006 | Well , that sort of segues into what what I 'm doing ."
+[49:32] me013 | Yeah .
+"[49:34] me006 | Um ,"
+"[49:35] me006 | so , uh , the big picture is k"
+"[49:37] me006 | um , come up with a set of ,"
+"[49:39] me006 | uh , intermediate categories , then build intermediate category classifiers , then do recognition ,"
+"[49:44] me006 | and , um , improve speech recognition in that way ."
+"[49:59] me006 | methods that can help me find ,"
+"[50:01] me006 | um , a set of intermediate categories of speech that , uh , will help me to discriminate later down the line ."
+[50:16] me006 | train train an ordinary neural net
+"[50:19] me006 | uh , to learn the posterior probabilities of phones ."
+"[50:22] me006 | And so ,"
+"[50:31] me006 | And so , um , what what are these patterns ? I don't know ."
+[50:33] me018 | Hmm .
+[50:38] me006 | to look at those patterns
+"[50:54] me006 | um , that the neural net learns ."
+[50:58] me006 | Yeah .
+"[51:02] me013 | relationship between what you 're talking about doing and what you 're talking about doing there . Right ? So ,"
+"[51:25] me013 | is just what he 's talking about doing , too ,"
+[51:27] me013 | except that he 's talking about doing them in order to discover intermediate categories that correspond
+"[51:33] me013 | to these uh , uh , what these"
+[51:36] me013 | sub - features are are are are showing you .
+"[51:39] me013 | And , um ,"
+"[51:41] me013 | the other difference is that ,"
+"[51:43] me013 | um ,"
+"[51:44] me013 | he 's doing this in a in a multi - band setting ,"
+[51:47] me013 | which means that he 's constraining himself
+"[51:49] me013 | to look across time in some f relatively limited , uh , uh , spectral extent . Right ?"
+"[51:55] me013 | And whereas in in this case you 're saying "" let 's just do it unconstrained "" ."
+[52:00] me013 | So they 're they 're really pretty related and maybe they 'll be at some point where we 'll
+[52:04] me013 | see the the connections a little better and
+[52:05] me026 | Hmm .
+[52:08] me013 | connect them .
+[52:17] me006 | some patterns of intermediate categories .
+"[52:20] me006 | Um , the other one was ,"
+"[52:23] me006 | um , to ,"
+"[52:25] me006 | uh , come up with a a a model um , a graphical model ,"
+[52:30] me006 | that treats the intermediate categories
+"[52:37] me006 | but that through ,"
+"[52:46] me006 | we have learned something about these these latent , um latent variables which happen to correspond to intermediate categories ."
+"[52:56] me006 | Yeah , and so those are the the two directions that I 'm I 'm looking into right now . And , uh ,"
+[53:10] me013 | OK .
+[53:12] me013 | Should we do our digits and
+[53:14] me013 | get ou get our treats ?
+"[53:18] me013 | Yeah . It 's kind of like , you know , the little rats with the little thing dropping down to them . We do the digits and then we get our treats ."
+[57:00] me018 | OK .
+[57:01] me013 | OK .

@@ -1,0 +1,813 @@
+﻿[00:00] me013 | Yeah .
+"[00:00] me011 | OK , we 're on ."
+"[00:01] me011 | So , I think this is gonna be a pretty short meeting because I have four agenda items , three of them were"
+[00:07] me011 | requested by Jane who is not gonna be at the meeting today .
+[00:11] me011 | So .
+[00:13] me011 | The uh first was transcription status . Does anyone besides Jane know what the transcription status is ?
+[00:21] mn014 | Is that English ?
+[00:22] me018 | Well first of all with IBM I got a note from Brian yesterday saying that they
+[00:27] me018 | finally made the tape for
+[00:29] me018 | the thing that we sent them a week or week and a half ago and that it 's gone out to the transcribers and hopefully next week we 'll
+[00:35] me018 | have the transcription back from that .
+[00:37] me011 | C can I have a pen ?
+[00:39] me018 | Jane seems to be um
+[00:41] me018 | moving right along on the
+"[00:43] me018 | transcriptions from the ICSI side . She 's assigned , I think"
+[00:47] me018 | probably
+[00:49] me018 | five or six
+"[00:50] mn014 | Yeah , I think we 're up to MR thirteen or something ."
+[00:50] me018 | m more meetings .
+[00:52] mn017 | Mmm .
+[00:56] me001 | Which meetings is she transcribing ?
+"[00:58] me018 | Um well we 've we 've run out of E D Us because a certain number of them are um , sort of"
+[01:00] me001 | OK .
+[01:03] me018 | awaiting
+[01:04] me018 | to go to IBM .
+"[01:05] mn014 | For IBM , yeah ."
+[01:05] me001 | OK .
+[01:05] mn017 | Hmm .
+[01:06] me018 | and the rest are in process being transcribed uh here .
+[01:08] me001 | So we 're doing some in parallel .
+[01:09] mn017 | So does she have transcribers right now who are basically sitting idle because there 's no data back from
+[01:11] me011 | Yep .
+[01:12] me018 | No .
+[01:14] me018 | Oh no no . No . We 're not waiting on them .
+[01:14] mn017 | IBM no ?
+"[01:15] me011 | No , no . We haven't done that process . So . They ' r they 're doing the full transcription process ."
+[01:16] mn017 | Oh .
+"[01:19] mn017 | Oh , OK ."
+[01:19] me018 | Yeah .
+"[01:21] me018 | We 're doing it in parallel , yeah ."
+[01:22] me001 | OK .
+"[01:25] mn017 | um , s some of her people to"
+"[01:28] mn017 | transcribe uh some of the initial data we got from the SmartKom data collection , which is these short like five or seven minute sessions ."
+[01:36] mn014 | Yep .
+"[01:40] mn017 | The Again , we we have a similar uh"
+[01:43] mn017 | logistic set - up where we are supposed to send the data to Munich and get it transcribed and get it back .
+[01:46] me011 | Right .
+[01:48] mn017 | But to get going we would like some of the data transcribed right away so we can get started .
+[01:53] mn017 | And so um I wanted to ask Jane if if
+"[01:57] mn017 | uh , you know , maybe one of their"
+"[01:59] mn017 | transcribers could could do I mean since these are very short , that should really be uh ,"
+[02:03] me013 | Mm - hmm .
+[02:05] mn014 | There 's only two channels .
+[02:07] mn014 | So it 's only Yeah . As the synthesis doesn't have to be transcribed I think . So .
+"[02:09] mn017 | Right , s"
+[02:10] mn017 | Yeah . So So it 's basically one channel to transcribe . And it 's One session is only
+"[02:16] me013 | So that should have ma many fewer And it 's also not uh a bunch of interruptions with people and all that , right ? So . Yeah ."
+"[02:29] mn017 | And so um ,"
+[02:30] mn014 | Yep .
+"[02:37] mn017 | Uh if if that 's OK with you to to , you know ,"
+[02:40] me013 | Yeah .
+"[02:40] mn017 | get that stuff uh to ask her for that , then I 'll do that ."
+[02:48] mn017 | Yeah .
+"[02:51] mn017 | OK , yeah ."
+[02:54] me013 | Yeah .
+[02:54] mn017 | Alrighty .
+[03:09] me011 | Can you mail that out to the list ?
+"[03:14] me011 | Oh , OK , OK ."
+[03:16] me018 | I 'll send it out to the list telling people to look at it .
+"[03:18] me011 | Yeah , I haven't done that . So . I have lots of stuff to add that 's just in my own directory . I 'll try to get to that ."
+[03:21] me018 | Yeah .
+"[03:38] me011 | I 'm gonna send out to the participants , uh , with links to web pages which contain the transcripts and allow them to"
+[03:50] me013 | OK .
+[03:50] me011 | For the ones that we have .
+"[03:53] mn014 | So but it 's just transcripts , not the not the audio ?"
+"[03:55] me011 | Nope , they 'll have access to the audio also ."
+"[03:56] mn014 | OK , yeah , yep . Ah ."
+[04:00] me011 | I mean that 's my intention . Because the transcripts might not be right . So you want people to be able to listen to them .
+[04:01] mn014 | Yeah .
+[04:04] mn014 | Yeah .
+"[04:12] me011 | Oh , that 's a good point ."
+"[04:14] me011 | That 's a good point . Yeah , it 's it 's probably going to have to be the uncompressed versions because , uh , uh , it takes too long to do random access decompression ."
+[04:22] me018 | Hmm .
+"[04:24] me018 | Yeah , I was just wondering because we 're uh running out of the un - backed - up disk space on"
+"[04:28] me011 | Well , that was the other point . Yep , that 's another agenda item ."
+"[04:30] me018 | Oh , was that another one ? OK . I 'll wait ."
+"[04:35] me011 | But that is a good point so we 'll get to that , too ."
+"[04:37] me011 | Um , DARPA demo status , not much to say . The back - end stuff is working out fine . It 's more or less ready to go . I 've added some stuff that uh indes indexes by the meeting type MR , EDU , et cetera and also by the user ID ."
+[04:52] me011 | So that the front - end can then do filtering based on that as well .
+"[04:56] me011 | The back - end is uh , going more slowly as I s I think I said before just cuz I 'm not much of a Tcl - TK programmer ."
+[05:11] me001 | Right .
+[05:14] me013 | Oh -
+"[05:19] me011 | As pretty as we might like , but we 'll have something ."
+[05:27] mn017 | Mm - hmm .
+[05:29] me013 | O K . Finally said he was too busy . I guess we reached it .
+"[05:39] me001 | And , also um ,"
+"[05:41] me001 | I was just showing Andreas , I got um an X Waves"
+"[05:44] me001 | kind of display , and I don't know how much more we can do with it with like the prosodic stuff where we have like stylized pitches and signals and the transcripts on the bottom so , right now it 's just an X Waves and then you have three windows but I don't know , it looked pretty nice and I 'm sure it think it has potential for"
+"[05:50] me011 | Oh , cool ."
+"[05:59] me011 | For a demo ? Yeah , sounds good ."
+"[05:59] me001 | a little something , yeah , for a demo ."
+[06:10] me001 | Oh . OK .
+[06:12] me011 | So it might just be slides .
+[06:14] mn014 | Well Yeah .
+[06:17] mn014 | I 've been putting together uh Transcriber things for Windows so i And I installed it on Dave Gelbart 's PC and it worked just fine . So hopefully that will work .
+[06:31] mn014 | Yeah .
+[06:32] mn014 | Yep .
+[06:35] me011 | Well
+"[06:37] me011 | Transcriber is Tcl - TK , very generic with Snack , so basically anything you can get Snack to run on , it will work ."
+[06:39] mn014 | Yeah .
+[06:40] mn017 | Right .
+[06:41] mn014 | Yeah .
+[06:43] mn014 | Yeah but But the problem is
+"[06:44] mn014 | the version Transcriber works with , the Snack version , is one point six whatever and that 's not anymore supported . It 's not on on the web page anymore . But I just wrote an email to to the author of to the Snack author and he sent me to one point six whatever library and so it works ."
+[06:59] me011 | Well I thought it was packaged with Transcriber ?
+"[07:02] mn014 | Yeah , but then you can't add our patches and then"
+"[07:06] mn014 | the the new version is is totally different a and in yeah , in terms of of the source code . You you can't find the Tcl files anymore . It 's some whatever wrapped thing and you can't you can't access that so"
+[07:06] me011 | Oh .
+[07:11] me011 | Ah .
+[07:14] mn017 | Mmm .
+[07:17] mn014 | you have to install First install Tcl then install Snack and then install the Transcriber thing and then
+[07:23] mn014 | do the patches . Yeah .
+[07:24] me011 | Patch . Ugh !
+[07:24] mn017 | I I wonder if if we should
+[07:26] mn017 | contribute our changes back to the authors so that they maintain those changes along We have ? Oh .
+[07:29] mn014 | Yeah .
+[07:31] me011 | We have Yeah b it 's just hasn't made it into the release yet .
+"[07:34] mn017 | Oh , OK ."
+[07:35] me018 | So did you um
+"[07:41] mn014 | No , I haven't done that yet . I 'm oh Nope ."
+[07:44] mn014 | But I definitely will do that .
+"[07:46] me013 | So , can some of the stuff that Don 's talking about somehow fit into this"
+[07:54] me001 | Yeah .
+"[07:55] me001 | Yeah , it 's basically ASCII files or binary files , whatever representation . Just three different It 's a waveform and"
+[08:05] me001 | I mean we could do it in Matl - I mean you could do it in a number of different places I 'm sure .
+"[08:09] mn017 | But But it would be cool if the Transcriber interface had like another window for the you know , maybe above the waveform where it would show some arbitrary"
+[08:11] mn014 | Yep .
+[08:15] me001 | Yeah .
+[08:17] mn017 | valued function that is that is you know time synchron ti
+"[08:19] me001 | Yeah , that 'd be very cool ."
+[08:19] me013 | Yes .
+"[08:20] me011 | It 'd be easy enough to add that . Again it 's it 's It 's more Tcl - T K programming . So someone who 's familiar with Tcl - TK has to do it , but uh , it wouldn't be hard to do ."
+[08:22] mn017 | ti time synchronous with the wavform .
+[08:24] me001 | Yeah .
+[08:25] mn017 | Right .
+[08:27] mn017 | Right .
+[08:30] mn017 | But it would almost be like having another waveform displayed . S Right .
+[08:32] me001 | Mm - hmm .
+[08:32] me011 | Yep .
+[08:33] mn014 | Yep .
+"[08:35] mn014 | Yeah . Yeah , maybe we could l look into that ."
+[08:38] me001 | Yeah .
+[08:38] me011 | But it it seems to me that
+[08:40] me011 | I c
+[08:41] me011 | It doesn't seem like having that real time is that necessary . So yo It seems to me you could do images .
+[08:50] me018 | Like being able to scroll through it and stuff for the demo .
+[08:52] me001 | OK .
+[08:54] me018 | Is that what you mean ? Yeah .
+"[08:54] me011 | Yeah , jus Yeah . It just seems to me jus"
+[08:59] mn014 | And to hear it . Yeah . Yeah .
+"[08:59] me001 | to hear it and see it , and see the pitch contours also ."
+[09:02] mn014 | Yeah .
+"[09:02] me011 | Sure , but I don't think I You can do all that just statically in PowerPoint."
+"[09:07] me001 | Yeah , I mean y"
+"[09:08] me001 | Right , right ."
+[09:14] me001 | um view graphs or something .
+"[09:16] me013 | You know , wh Yeah . So . Uh , no , we 're talking about on the computer and and um , I think when we were talking about this before we had littl this little demo meeting , we sort of set up a range of different degrees of liveness that you could have"
+[09:19] me001 | Right .
+[09:43] mn017 | Mm - hmm .
+"[09:48] me013 | um Anyway , jus just looking for ways that we could actually show what you 're doing , uh ,"
+[09:53] me001 | Mm - hmm .
+[09:53] me013 | in to people .
+"[09:56] me013 | Cuz a lot of this stuff , particularly for Communicator , uh certainly a significant chunk of the things that we waved our arms about th originally had t had to do with prosodics"
+[10:04] me013 | It 'd be nice to show that we can actually get them and
+[10:05] me001 | Mm - hmm .
+[10:06] mn017 | Mmm .
+[10:07] me013 | see them .
+"[10:12] me011 | And the last i item on the agenda is disk issues yet again . So , we 're doing OK on backed up . We 're We 're only about thirty percent on the second disk ."
+"[10:22] me011 | So , uh ,"
+"[10:24] me011 | we have a little bit of time before that becomes critical , but we are like ninety five percent , ninety eight percent on the scratch disks for the expanded meetings ."
+[10:32] mn014 | Yeah .
+"[10:33] me011 | And , my original intention was like we would just delete them as we needed more space , but unfortunately we 're in the position where we have to deal with all the meeting data"
+[10:44] mn014 | Yeah .
+"[10:44] me018 | Oh there 's a lot of transcribers , too ."
+"[10:46] me011 | Yeah , there 're a lot of transcribers , so all of those need to be expanded , and then people are doing chunking and I want to do uh , uh ,"
+[10:46] mn014 | Yeah .
+[10:48] me018 | Mm - hmm .
+[10:50] mn014 | An -
+[10:53] me018 | Right .
+"[10:55] me011 | uh , the permission forms , so I want those to be live , so there 's a lot of data that has to be around ."
+"[11:02] me011 | And Jane was gonna talk to , uh , Dave Johnson about it . One of the things I was thinking is we we just got these hundred alright , excuse me ten , uh"
+[11:10] me011 | SPARC - Blade
+[11:12] me013 | Did they come in ?
+[11:13] me018 | SUN - Blades . Yeah . They came in the other day .
+[11:14] me011 | SUN - Blades . They came in but they 're not set up yet . And so it seems to me we could hang scratch disk on those
+[11:14] mn017 | Yeah .
+[11:15] me013 | Oh .
+[11:31] me013 | Yeah .
+[11:31] me011 | Because there 's no more room in the disk racks on Abbott .
+[11:33] me018 | Ah .
+"[11:34] me018 | Ah , I see ."
+"[11:35] me013 | Weren't we gonna get Well , maybe it should get another rack ."
+[11:36] mn017 | But you still need to store the disks somehow .
+"[11:39] me011 | Well , but the SUN - Blades have spare drive bays ."
+[11:43] me011 | Just put them in .
+[11:46] mn014 | Internal . Yeah .
+[11:46] me011 | Sure .
+[11:47] me011 | Yeah .
+[11:49] mn017 | Oh .
+"[11:49] me011 | Cuz the SUN uh , these SUN - Blades take commodity hard drives . So you can just go out and buy a PC hard drive and stick it in ."
+[11:54] mn017 | Mmm .
+"[11:56] me013 | But if Abbott is going to be our disk server it it file server it seems like we would want to get it , uh , a second disk rack or something ."
+"[12:09] me011 | Well , I mean there are lots of long term solutions . What I 'm looking for is where do we s expand the next meeting ?"
+[12:14] mn014 | Yep .
+"[12:15] mn017 | I see Oh , I see ."
+"[12:16] me013 | Well , for the next meeting you might be out of luck with those ten , mightn't you ? Uh , you know Dave Johnson is gone for , like , ten days ,"
+"[12:22] me011 | Oh , I didn't know he had left already ."
+"[12:23] me013 | Uh , well , tonight ."
+"[12:25] me011 | Oh , oh well ."
+[12:26] mn017 | You mean he won't set up the mmm .
+[12:28] me001 | How much space do you need for these ?
+[12:29] me013 | I don't know . I don't know what his schedule is . I 'm just saying he 's gone .
+[12:30] me011 | You we need about a gig per meeting .
+[12:31] me018 | I I thi
+[12:32] me001 | I have um I have an eighteen gig drive hanging off of my computer .
+[12:36] me011 | Alright ! What 's your computer 's name ?
+"[12:38] me001 | Uh , Samosa ."
+"[12:41] me001 | Yeah , I had . Well it 's about I think there 's about twelve gig left ."
+[12:45] me011 | So it And you have an X drives installed ? OK .
+[12:47] me001 | Yeah .
+"[12:48] me001 | So , I didn't realize it was so critical . I mean I 'm not doing anything on it right now until I get new meetings to transcri or that are new transcriptions coming in I really can't do anything ."
+[12:49] me011 | And you 're o you 're offering ?
+[12:57] me011 | OK .
+"[12:57] me018 | I I jus I just gave Thilo some about ten gigs , the last ten gigs of space that there was on on uh Abbott ."
+"[12:57] me001 | Um not that I can't do anything , I jus"
+"[13:09] me011 | Which one was that , X G ? OK ."
+[13:10] mn014 | XG .
+[13:10] me018 | XG .
+[13:13] me018 | Yeah .
+[13:13] mn017 | XG ?
+"[13:18] mn017 | The uh Hub - five training set waveforms , right ?"
+[13:20] me018 | No . I don't think that 's on XG . On XG is only Carmen and Du - and Stephane 's disk .
+"[13:21] me011 | But that won't be getting any bigger , will it ?"
+[13:22] mn017 | Right .
+[13:24] mn014 | It 's Yeah .
+[13:24] mn017 | But I 've also been storing I 've been storing the feature files there and I guess I can s start deleting some because we now know what the best features are and we won't be using the old ones anymore .
+"[13:34] me018 | Yeah , I do I don't think it was on XG . I th"
+"[13:34] me001 | I have a lot of space , though ."
+[13:35] mn014 | Isn't that XH ?
+[13:36] me001 | I have a lot of space and it 's not it 's n There 's very little uh Yeah not for long . But I mean it 's not going f It 's not being used often at all .
+[13:40] mn017 | Maybe I 'm confu Oh no I 'm sorry .
+[13:44] mn017 | Oh OK .
+[13:48] me001 | I th
+[13:49] mn017 | I think you 're right . It 's XH and D The b I 'm also using DG I got that confused . OK .
+"[13:49] me001 | I think it 's about four or five gig cuz I have four meetings on there , three or four meetings ."
+[13:55] me011 | Great .
+[13:55] me001 | So .
+[14:04] mn017 | OK .
+[14:05] me013 | There should I d There should just be a b I should have a button .
+"[14:08] me013 | Just press Press each meeting saying "" we need more disk space "" "" this week "" . Skip the rest of the conversation ."
+"[14:09] me011 | The "" more disk space "" button ? Yep ."
+[14:16] me018 | Well we 've collected so far something like
+[14:18] me018 | uh sixty - five meetings .
+[14:21] me018 | And it 's
+[14:21] me013 | And And how much does each meeting take ?
+[14:23] me018 | about a gig uncompressed .
+[14:26] mn014 | It 's It 's a little bit more as I usually don't do not uncompress the all of the PZM and the PDA things . So .
+[14:27] me018 | Is a little more ?
+[14:34] mn014 | Yeah .
+[14:34] mn014 | One point five or something .
+[14:37] me011 | Half a gig . For all of them .
+[14:37] me018 | About half ?
+[14:38] mn014 | Yeah .
+[14:39] mn014 | Yeah . Yep .
+[14:41] me018 | So we 're definitely are storing
+"[14:43] me018 | you know , all of those ."
+[14:45] me018 | So there 's what thirty some gig
+[14:48] me018 | of just meetings so far ?
+[14:54] me018 | Mm - hmm .
+[14:57] mn014 | Yeah .
+[15:00] me011 | I would like to .
+"[15:03] me013 | Yeah . Well I mean it 's the they really are cheap . I mean it 's just a question of figuring out where they should be and hanging them , but"
+[15:10] me011 | Yep .
+"[15:11] me013 | But uh , we could You know , if you want to get four disks , get four disks . I mean it 's it 's small I mean these things ar are just a few hundred dollars ."
+"[15:19] me018 | Yeah . Well I sent that message out to , I guess , you and Dave asking for if we could get some disk . I s I sent this out"
+[15:22] me013 | Yeah .
+[15:25] me013 | Right .
+[15:26] me018 | a a day ago but and Dave didn't respond so I don I don't know
+[15:34] me011 | Yep .
+[15:35] me018 | So I was assuming he was gonna take over that . But he 's probably too busy given that he 's leaving .
+"[15:39] me013 | Yeah , I think you need a direct conversation with him . And just say an - e just ask him that , you know , wha what should you do . And in my answer back was "" are you sure you just want one ? "" So I mean I think"
+[15:48] me018 | Yeah .
+[15:55] me011 | Wa - a I know what they want . The sysadmins would prefer to have one external drive per machine .
+[16:01] me013 | Yeah .
+[16:07] me013 | Right .
+[16:08] me011 | So the question is where are you gonna hang them ?
+[16:11] me018 | Mm - hmm .
+[16:12] me018 | I don't know what the space situation is in the machine room .
+[16:14] me011 | Right .
+[16:15] me018 | So .
+[16:20] me018 | I think part of the reason why Dave can't get the the new machines up is because he doesn't have room in the machine room right now . So he has to re - arrange a bunch of stuff .
+[16:23] mn017 | Mmm .
+[16:25] me011 | Yep .
+[16:25] mn017 | One One
+[16:27] mn017 | On - One thing to in to um t to do when you need to conserve space is
+"[16:32] mn017 | I bet there are still some old , uh , like , nine gig disks , uh ,"
+[16:36] mn017 | around and you can probably consolidate them onto larger disks and and you know recover the space .
+[16:41] me011 | Yep .
+"[16:42] me013 | Yeah . No . I think Dave Dave knows all these things , of course . An - and so , he always has a a lot of plans of things that he 's gonna do to make things better in many ways an and runs out of time ."
+[16:44] mn017 | Right .
+[16:50] mn017 | Mm - hmm .
+[16:50] me011 | But I I know that generally their first priority has been for backed up disk . And so I think what he 's been concentrating on is uh
+[16:57] mn017 | Mmm .
+[16:58] me011 | the back the
+[17:02] mn017 | Mmm .
+"[17:05] me013 | Well . So . But this this is a very specific question for me . Basically , we can easily get"
+[17:19] mn017 | Maybe we can put some disks in the in that back room there .
+[17:25] me011 | Popcorn .
+[17:26] me013 | Yeah ?
+[17:31] me018 | Hmm .
+[17:33] mn017 | What do you mean it 's not on the net ?
+[17:35] mn014 | It 's not bad .
+"[17:38] mn017 | Oh because it 's because it 's an ACIRI machine ? Oh , oh oh ."
+[17:41] me013 | Yeah .
+"[17:42] me011 | And also on the list is to get it into the normal ICSI net , but"
+[17:46] me011 | Who knows when that will happen ?
+[17:47] me018 | That might be a good
+"[17:49] me018 | short term solution , though ."
+"[17:50] me011 | No , the the problem with that apparently is that they don't currently have a wire"
+"[17:58] me011 | So , they actually have to run a wire"
+[18:01] me011 | somewhere .
+[18:01] me013 | Yeah .
+[18:10] me011 | But Dave has to do all of them .
+"[18:23] me013 | Uh , maybe maybe after after tea or something you and I can go down and and talk to him about it Just say "" wha you know , what should we do right now ? """
+[18:32] me018 | How long is David gonna be gone ?
+"[18:34] me013 | Uh , eleven days or something ?"
+[18:40] me013 | Yeah basically tomorrow and all of the week after .
+[18:46] me011 | And that 's all I have .
+"[18:53] me013 | uh , I talked briefly to Mari and uh we"
+[18:58] me013 | had both been busy with other things so we haven't really connected that much since the last meeting we had here
+[19:06] me013 | the Friday after next .
+"[19:08] me013 | And I I I wanted to make it , um"
+"[19:11] me013 | after the next one of these meetings , so something that we wanna"
+[19:16] me013 | do next meeting is is uh to
+"[19:19] me013 | put together um , a kind of reasonable list for ourselves of what is it ,"
+"[19:25] me013 | um ,"
+[19:26] me013 | that
+[19:27] me013 | we 've done .
+[19:30] me013 | bulletize I mean o e do do I can I can dream up text but this is basically gonna lead to the annual report .
+[19:36] mn017 | Mm - hmm .
+[19:38] me011 | This is the fifteenth ?
+"[19:41] me013 | Um , that would"
+[19:41] me011 | So just a week from tomorrow ? OK .
+[19:43] me013 | Yeah .
+[19:44] me013 | Yeah .
+[19:46] mn017 | Is this gotta be in the morning ?
+[19:49] mn017 | Or Because you know I Fridays I have to leave uh
+[19:53] mn017 | like around uh two .
+[19:56] mn017 | So if it could be before that would be be
+[20:03] me013 | Yeah so what I meant was on the me this meeting
+[20:05] mn017 | OK .
+[20:06] mn017 | Alright .
+[20:09] mn017 | Mm - hmm .
+[20:13] mn017 | OK .
+"[20:17] me013 | Uh , and then the next day uh , late in the day I 'll"
+[20:20] me013 | be having that that discussion with her .
+[20:21] mn017 | Mmm .
+[20:23] me013 | Um .
+[20:26] me013 | So .
+[20:36] mn017 | also a you know various variously talked about the um work that
+[20:42] mn017 | w uh was happening sort of on the on the recognition side um but isn't necessarily
+[20:46] me013 | Mm - hmm .
+[20:48] mn017 | related to meetings uh specifically . So . Um . And
+[20:53] mn017 | I wondered whether we should
+[20:56] mn017 | maybe have um a separate meeting and between
+"[21:01] mn017 | you know , whoever 's interested in that"
+[21:03] mn017 | because I feel that uh there 's plenty of stuff to talk about but it would be sort of
+[21:08] mn017 | um
+[21:12] me013 | Think so ?
+[21:16] mn017 | It 's just
+[21:18] mn017 | gonna be ver very boring for people who are not
+"[21:20] mn017 | you know , sort of"
+[21:22] mn017 | really interested in the details of the
+[21:24] me011 | I 'm interested .
+[21:24] mn017 | recognition system .
+[21:26] mn014 | Me too .
+"[21:26] me013 | Well , OK , so how many how many people here would not be interested in uh in a meeting about recognition ?"
+[21:33] me018 | Jane may not be .
+"[21:33] me011 | Jane , I think ."
+[21:35] mn014 | Yep .
+[21:39] me011 | No . If we talked about it in this meeting .
+[21:40] me018 | He 's wondering how much overlap there will be .
+[21:41] mn017 | OK .
+"[21:41] me013 | Yeah , so you 're su So ."
+"[21:43] mn017 | So , uh ,"
+"[21:44] mn017 | uh , Liz and Jane probably ."
+"[21:47] me013 | OK , so we 're gonna have a guy 's meeting ."
+[21:54] me001 | Watch a ball game ?
+"[21:56] me013 | Yeah , real real real men"
+"[21:56] me018 | Don't listen to this , Liz ."
+"[21:59] me013 | "" Real men do decoding "" or something like that ."
+[22:01] mn017 | Right .
+[22:02] me013 | Uh .
+[22:04] me013 | Yeah .
+[22:04] mn017 | I mean when when the talk is about data collection
+[22:16] me013 | So you need a better developed feminine side .
+"[22:25] me011 | Yeah , I would as I would guess ."
+[22:29] me013 | Uh .
+[22:31] me013 | Um .
+[22:40] me013 | Yeah .
+"[22:42] me013 | You know , I I 've heard some comments about like this . That m could be . I mean the Um ."
+[22:43] mn017 | Mm - hmm .
+[22:49] me018 | Why don't we alternate this meeting every other week ?
+[22:54] me011 | Or just alternate the focus .
+[22:55] me018 | Tha - That 's what I mean .
+"[22:56] me011 | Yeah , so on even weeks have basic on data ."
+[22:56] me013 | Yeah .
+"[22:58] mn017 | We could do that , yeah ."
+[22:58] me018 | Yeah .
+[22:59] mn017 | I I Personally I 'd I 'm not in favor of more meetings .
+[23:03] me013 | Right .
+"[23:04] mn017 | Because , uh . You know ."
+[23:11] mn017 | Right .
+[23:14] mn014 | Yep .
+"[23:14] me018 | Well , cuz we get into these other topics ."
+[23:15] me001 | Yeah .
+[23:15] mn017 | We feel We feel obligated to collect more data .
+[23:15] me011 | Yeah .
+[23:17] me018 | Yeah .
+[23:18] me011 | Ugh .
+[23:19] me011 | I don't . Let 's read digits and go .
+"[23:21] me013 | Why don't we just start with that . And then if we find , you know we 're just not getting enough done , there 's all these topics not coming up , then we can expand into another meeting . But I I think that 's a great idea ."
+[23:24] mn017 | ummh . OK .
+[23:27] mn017 | Mm - hmm .
+[23:31] me013 | Uh .
+[23:33] me013 | So uh .
+[23:35] me013 | Um .
+[23:38] mn017 | Mm - hmm .
+[23:40] me018 | Yeah that would be good . I mean Andreas and I have
+[23:42] me018 | various talks in the halls and there 's lots of
+[23:43] mn017 | Mm - hmm .
+"[23:53] me018 | So , it would be good ."
+"[23:55] me013 | Yeah , and you 're you 're attending"
+"[24:01] me013 | probably one of the best you and I , I guess are the main ones who sort of see the bridge between the two . We are doing recognition in both of them . So ."
+[24:05] me011 | Bridge .
+[24:05] mn017 | Mm - hmm .
+[24:09] me018 | Mm - hmm .
+[24:09] mn017 | Right .
+[24:10] me013 | Uh .
+[24:12] mn017 | So um .
+[24:12] me011 | OK ?
+[24:13] mn017 | So so we could talk a little bit about that now if if there 's some time .
+[24:20] mn017 | Um I jus So the latest result was that um
+[24:24] mn017 | um
+[24:25] mn017 | yot
+[24:26] mn017 | I tested the uh the
+[24:29] mn017 | sort of final version of the PLP
+[24:32] mn017 | configuration
+[24:33] mn017 | um on development test data for for this year 's Hub - five test set .
+[24:38] me013 | Mm - hmm .
+[24:39] mn017 | And the
+[24:41] mn017 | recognition performance was
+"[24:44] mn017 | exactly , and I mean exactly up to the you know , the first decimal , same as with the"
+[24:49] mn017 | uh Mel Cepstra
+[24:50] mn017 | front - end .
+[24:50] me011 | Mmm .
+[24:51] me018 | For both females and males ?
+[24:52] mn017 | Yes .
+[24:53] me018 | Oh !
+[24:58] mn017 | i overall .
+[24:58] mn017 | They They were The males I think were slightly better and the females were slightly worse but nothing really . I mean definitely not significant .
+[24:59] me018 | Mm - hmm .
+[25:04] me013 | Mm - hmm .
+[25:04] me018 | Mm - hmm .
+[25:05] mn017 | And then the really nice thing was that if if we combine the two systems we get a one and a half percent improvement .
+[25:11] me011 | Wow .
+[25:12] me011 | Just with ROVER ?
+"[25:14] mn017 | t With N - best ROVER , which is like our new and improved version of ROVER ."
+[25:18] me011 | Mm - hmm .
+[25:24] me013 | So except I mean the only key difference between the two really is the kind of smoothing at the end which is the
+[25:30] me013 | auto - regressive versus the
+[25:31] mn017 | Yeah .
+[25:32] me013 | cepstral truncation . OK .
+"[25:36] me011 | Yeah , it 's pretty impressive ."
+"[25:36] mn017 | And And so uh after I told the my uh colleagues at SRI about that , you know ,"
+"[25:43] mn017 | now they definitely want to , you know , uh , have a Next time we have an evaluation they want to do uh , you know , basically a at least the system combination ."
+"[25:51] mn017 | Um , and , you know , why not ? Uh . So ."
+"[25:54] me013 | Sure , why not ?"
+"[25:55] me011 | We clearly gotta add a few more features , though ."
+[25:59] mn017 | Uh w what do you mean ? More features in the sense of front - end features or in the sense of just bells and whistles ?
+"[26:04] me011 | No , uh front - end features ."
+"[26:10] mn017 | Oh I mean Yeah . Well Right . So , we cou Yeah . That 's the the"
+"[26:15] mn017 | the There 's one thing uh I mean you don't want to overdo it because y every front - end You know , if you you know you basically multiply your effort by N , where N is a number of different"
+[26:20] me018 | Oh .
+[26:25] mn017 | systems and Um . So .
+[26:26] me013 | Mm - hmm .
+[26:28] mn017 | So one one
+[26:32] mn017 | only
+[26:33] mn017 | to have the everything up to the point where you generate lattices be basically one system and then
+[26:39] mn017 | after that you rescore your lattices with the multiple systems and combine the results and that 's a fairly painless um thing . So .
+[26:44] me013 | Mmm .
+[26:47] me013 | An -
+"[26:50] mn017 | I I think so . Yeah . Maybe a little less because at that point the error rates are lower and so if You know , maybe it 's only one percent or something but that would still be worthwhile doing ."
+[26:55] me018 | Mm - hmm .
+[26:59] mn017 | So .
+"[27:01] mn017 | Um Jus - You know , just wanted to let you know that that 's working out very nicely ."
+[27:04] me011 | Cool .
+"[27:07] mn017 | And then we had some results on digits , uh ,"
+[27:12] mn017 | with um We We So this was uh
+[27:16] mn017 | really really sort of just to get Dave going with his um
+"[27:21] mn017 | experiments . And so ,"
+[27:21] me013 | Mm - hmm .
+"[27:23] mn017 | uh . But as a result , um , you know , we were sort of wondering why is the"
+[27:28] mn017 | Hub - five system doing so well on the digits . And the reason is basically there 's a whole bunch of read speech data in the Hub - five training set . And you c
+[27:30] me013 | Right .
+[27:33] me011 | Right .
+"[27:34] me013 | Including digits I gather , yeah ."
+"[27:35] mn017 | And Not all of No it 's actually , digits is only a maybe a fifth of it . The rest is is read is read TIMIT data and uh ATIS data and Wall Street Journal and stuff like that ."
+[27:40] me013 | A fifth of it is how much ?
+[27:46] me013 | Right . But a fi a fifth is how much ?
+[27:52] mn017 | A fifth would be maybe
+[27:57] mn017 | uh two hours something .
+"[27:59] me013 | Yeah , so I mean that 's actually not that different from the amount of training that there was . So ."
+[28:01] mn017 | Right .
+[28:05] me013 | Oh yeah w
+"[28:07] mn017 | You know the error rate is half of what you do if you train only on ti uh TIMIT uh not TIMIT uh TI - digits , which is only what two hours something ?"
+[28:12] me013 | Mm - hmm .
+[28:14] me013 | Right .
+[28:14] me011 | I don't know .
+[28:15] mn017 | So .
+"[28:16] mn017 | Uh , more read speech data definitely helps . And you can leave out all the conversational data with no performance penalty . That 's e That was e Right , right ."
+"[28:23] me013 | Yeah that was the interesting thing . Because because uh , it was apparent if you put in a bunch more data it would be better , but but uh ."
+[28:29] mn017 | Right .
+[28:29] me018 | Well is there even more read speech data around ?
+"[28:31] mn017 | Oh , yeah . So we only for the Hub - five training , we 're only using uh a fairly small subset of the Macrophone database ."
+[28:37] me018 | Mm - hmm .
+"[28:38] mn017 | Um , so , you could beef that up and probably do even better ."
+[28:42] me011 | I could also put in uh
+[28:42] me018 | Mm - hmm .
+[28:45] me011 | focus condition zero from Hub - four
+"[28:47] me011 | from Broadcast News ,"
+[28:49] me011 | which is mostly prepared speech .
+[28:51] me011 | It 's not exactly read speech but it 's pretty darn close .
+[28:51] mn017 | Yeah .
+[28:53] mn017 | Yeah .
+[28:54] mn017 | Right .
+"[28:55] mn017 | Well , I mean that 's plenty of read speech data . I mean , Wall Street Journal , uh , take one example ."
+[28:58] me011 | Yeah .
+[28:58] me011 | That 's right .
+[29:00] mn017 | But um .
+"[29:02] mn017 | So , you know that might be useful for the people who train the the digit recognizers to to use uh something other than TI - digits ."
+[29:07] me011 | Yeah .
+[29:10] me013 | Well they been using TIMIT .
+[29:12] mn017 | OK .
+[29:12] me013 | That Uh .
+[29:19] mn017 | Mm - hmm .
+"[29:22] me013 | um , and actually the best results they got wa were uh using TIMIT ."
+[29:27] me011 | Hmm .
+"[29:28] me013 | But uh which So that 's what they 're they 're using now . But but yeah certainly if we ,"
+[29:30] mn017 | Mmm .
+[29:35] me013 | If we knew what the structure of what we 're doing there was . I mean there 's still a bunch of messing around with different kinds of uh noise robustness algorithms . So we don't know exactly which combination we 're gonna be going with .
+[29:39] mn017 | Mm - hmm .
+[29:43] mn017 | Mm - hmm .
+"[29:47] me013 | Once we know , then the trainable parts of it it 'd be great to run"
+[29:51] me013 | lots of lots of stuff through .
+[29:52] mn017 | Mm - hmm .
+[29:53] mn017 | Right .
+"[29:55] mn017 | Well , that was that . And then I th guess Chuck and I had some discussions about how to proceed with the tandem"
+[30:03] mn017 | You wanna You wanna see where that stands ? @ @
+"[30:04] me018 | Well , I 'm Yeah , so Andreas uh brought over the uh alignments that the SRI system uses . And so I 'm in the process of um"
+[30:15] me018 | converting those alignments into uh label files that we can use to train
+[30:19] me018 | uh a new net with . And uh so then I 'll train the net . And .
+[30:24] mn017 | An - And one side effect of that would be that it 's um that the phone set would change . So the MLP would be trained on I think only forty - six or forty - eight forty - eight phones ?
+[30:28] me018 | Right .
+[30:33] me018 | Eight .
+[30:34] me018 | Mm - hmm .
+[30:35] mn017 | Uh which is smaller than the um
+[30:38] mn017 | than the phone set that that we 've been using so far .
+"[30:42] mn017 | And that that that will probably help , actually , because"
+[30:42] me018 | So it 's a little different ?
+"[30:45] mn017 | um the fewer dimensions uh e the less trouble probably with the as far as just the um ,"
+"[30:54] mn017 | Just You know we want to try things like deltas on the tandem features . And so you h have to multiply everything by two or three . And so , you know ,"
+[31:02] mn017 | fewer dimensions in the phone set would be actually helpful just from a logistics point of view .
+"[31:07] me013 | Sure . Although we I mean , it 's not that many fewer and and and we take a KLT anyway so we could Yeah ."
+[31:10] mn017 | Right .
+[31:11] mn017 | Exactly . So so that was the other thing . And then we wanted to s just limit it to maybe
+[31:17] mn017 | uh something on the same order of dimensions as we use in a standard um
+[31:22] mn017 | front - end . So
+[31:23] mn017 | that would mean just doing the top I don't know ten or twelve or something of the KLT
+"[31:28] me013 | Yeah , and I think and we sh again check we should check with Stephane . My impression was that when we did that before that had very little uh he didn't lose very much ."
+[31:29] mn017 | dimensions .
+[31:36] mn017 | Right .
+[31:37] me018 | By just taking the top whatever ?
+[31:38] me011 | Yep .
+[31:39] me013 | Yeah yeah .
+"[31:40] mn017 | But then And then something Once we have the new M L P trained up ,"
+[31:45] mn017 | uh one thing I wanted to try just for the fun of it was to actually run uh like a standard hybrid system that is based on
+"[31:54] mn017 | you know , those features uh and uh retrain MLP and also the"
+"[32:00] mn017 | you know , the dictionary that we use for the Hub - five system ."
+[32:03] me013 | And the b And the base u starting off with the base of the alignments that you got from i from a pretty decent system .
+[32:06] mn017 | Exactly .
+[32:06] me018 | Right .
+[32:07] mn017 | Yeah . So
+"[32:09] mn017 | that would basically give us a , um , more hopefully a a"
+[32:14] mn017 | better system
+"[32:15] mn017 | um because you know , compared to what Eric did a while ago , where he trained up , I think , a system based on Broadcast News and then"
+[32:25] me013 | Yeah .
+[32:29] mn017 | he probably didn't use all the training data
+[32:31] mn017 | that was available . And his dictionary probably wasn't as tuned to um
+[32:39] mn017 | as ours is . So .
+"[32:40] me013 | That 's That 's certainly one thing , yeah . Uh ."
+[32:42] mn017 | And the dictionary made a huge difference . Uh . We we made some
+[32:44] me013 | Yeah .
+[32:51] mn017 | uh something like a four percent absolute
+"[32:57] me013 | Well the other thing is , dipping"
+[33:01] mn017 | Mm - hmm .
+"[33:03] me013 | when we were collaborating with SRI before , uh"
+[33:04] mn017 | Mmm . Mm - hmm .
+"[33:06] me013 | it was I think , it is was a really key"
+"[33:09] me013 | uh starting point for us that we actually got our alignment . When we were working together we got our initial alignments from Decipher ,"
+[33:15] mn017 | Mm - hmm .
+[33:16] me013 | uh at the time . Uh .
+[33:16] mn017 | Yeah .
+[33:18] me018 | Yeah .
+[33:23] mn017 | Mm - hmm .
+[33:24] me013 | then it was it was typically better to use our own systems cuz they were self consistent but but certainly to start off when we were
+[33:30] me013 | trying to recover from our initial hundred and forty percent error uh rate . Uh . But that was a that was a good good good way to start .
+[33:35] mn017 | Yeah .
+[33:37] mn017 | OK .
+[33:40] mn017 | Yeah .
+[33:42] me018 | W What is the performance on s the best Switchboard system that we 've done ?
+[33:42] mn017 | Right .
+[33:46] me018 | Roughly ?
+"[33:47] me013 | Well , the hybrid system we never got better than about fifty percent"
+[33:58] me013 | fix up the dictionary .
+[33:59] me013 | Uh we always had a list of a half dozen things that we were gonna do and and a lot of them were pretty simple and we never did .
+[34:03] mn017 | Yeah .
+[34:04] mn017 | Mmm .
+[34:08] mn017 | Right .
+"[34:10] mn017 | And And that number I think was on Switchboard - one data , right ?"
+[34:14] mn017 | Where the error rate now is in the twenties .
+[34:16] me013 | Yeah . Yeah .
+"[34:16] mn017 | So , um ."
+[34:17] me013 | So we were Yeah . We were
+[34:17] mn017 | That 's yet s
+[34:18] me013 | probably at least a factor or two off .
+[34:19] mn017 | Right .
+[34:20] me013 | Yeah .
+[34:20] mn017 | So it would be So it would be good t to sort of r re uh just at least to give us an idea of how well the hybrid system would do .
+[34:22] me013 | Yeah .
+[34:26] me013 | Yeah .
+[34:28] me013 | Yeah . It 's the conver it 's the s
+[34:29] me013 | conversational speech bit .
+[34:30] me013 | Because our our Broadcast News system is actually pretty good . He knows .
+[34:30] mn017 | Mm - hmm .
+[34:33] mn017 | Right .
+[34:34] mn017 | And the other thing that that would help us to evaluate is to see how well the M L P is trained up . Right ?
+[34:40] mn017 | Because it 's a pretty good um
+[34:42] me013 | Mm - hmm .
+[34:43] mn017 | indicator of that .
+"[34:50] mn017 | uh you know , use them as a basis for the tandem system ."
+[34:51] me018 | Mm - hmm .
+"[34:54] me013 | Yeah . It 'll still probably be worse . I mean , it 's it 'd be context independent and so on . But ."
+[34:56] mn017 | No .
+[34:56] mn017 | Sure .
+[34:57] me018 | Should we Should we bother with um using the net
+[35:02] me018 | before doing uh embedded
+[35:05] me018 | training ?
+"[35:07] mn017 | Oh oh that 's a good question . Yeah , we we weren't sure whether it 's worth to just use the alignments um"
+[35:14] mn017 | from the S R I recognizer or whether to actually go through one or more iterations of embedded training where you realign .
+[35:19] me011 | Try it .
+[35:21] me011 | You run it ? Keep keep both versions ? See which one 's better ?
+"[35:24] me013 | Uh , yeah . I mean . I think I agree with Ad -"
+[35:26] mn017 | Mm - hmm .
+[35:28] mn017 | Mm - hmm .
+[35:30] mn017 | Right .
+[35:36] me018 | Mmm .
+[35:36] mn017 | Alright .
+"[35:37] me011 | I could make arguments either way . You know , it 's Sort of given up guessing ."
+[35:38] mn017 | But But so I Well but i But in your experience I mean uh have you seen
+[35:43] mn017 | big improvements in s on some tasks with embedded training ? Or was it sort of small - ish uh improvements that you got
+[35:49] me013 | Uh well . It depended on the task . I mean I think in this one I would sort of expect it to be important because we 're coming from
+[35:51] mn017 | Right .
+"[35:55] me013 | uh , alignments that were achieved with an extremely different system ."
+[35:57] mn017 | Right .
+[35:58] mn017 | Right .
+"[35:59] me011 | Although ,"
+[35:59] me013 | Uh .
+"[36:00] me011 | I mean we 've done it with When we were combining with the Cambridge recurrent neural net , embedded training made it worse ."
+[36:11] me013 | Right . But I mean i
+[36:12] me011 | I think it 's a bug .
+[36:13] mn017 | So you you started training with outputs from a with alignments that were generated by the Cambridge uh system ?
+[36:18] me011 | Yep .
+[36:20] mn017 | Uh . Hmm .
+[36:22] me013 | Yeah .
+"[36:22] mn017 | Well , that might probably just Hmm . That was probably because your initial system I mean your system was ba worse than Cambridge 's ."
+[36:32] mn017 | Um .
+[36:32] me013 | Was it ? I don't think it was .
+[36:34] me011 | No they were they were comparable .
+[36:34] mn017 | It wasn't ?
+[36:35] me013 | No .
+[36:35] mn017 | Really ?
+[36:36] me011 | They were very close .
+[36:36] me013 | Yeah .
+[36:37] mn017 | That 's weird .
+[36:39] me013 | Excuse me ?
+[36:40] mn017 | That 's That 's weird .
+[36:41] mn017 | No I mean it 's weird that it did I 'm sorry . It 's w It 's weird that it got worse .
+[36:41] me011 | That 's what I said .
+[36:47] me018 | That 's ambiguous .
+[36:49] me013 | Um . No . Uh .
+[36:52] me013 | Tha - u we we 've see I mean and wi with the numbers OGI numbers task we 've seen a number of times people doing embedded trainings and things not getting better .
+[37:01] mn017 | We have seen cases where acoustic retraining the acoustic models after some other change made matters worse rather than better .
+[37:07] mn017 | Yeah .
+[37:08] me013 | But I But I would I would suspect that something that that had um a very different
+[37:14] me013 | Um
+"[37:15] me013 | feature set , for instance I mean they were using pretty diff similar feature sets to us ."
+[37:19] me011 | Yep .
+[37:22] mn017 | Mm - hmm .
+[37:24] me018 | What about uh hidden unit size on this . Oh .
+[37:31] me013 | to the Cambridge system and our system is they both were training posteriors .
+[37:35] me011 | Right .
+"[37:35] me013 | So I mean , uh , that 's another pretty big difference and"
+[37:36] me011 | Ah yeah . That 's another big difference .
+[37:40] mn017 | You mean with soft targets ?
+"[37:45] mn017 | Sorry , I 'm sor I missed What What 's the key issue here ?"
+"[37:48] me013 | Oh , that uh"
+[37:51] me013 | both the Cambridge system and our system were were training
+"[38:00] me013 | So so that 's another difference . I mean . You know , there 's diffe different front - end"
+[38:00] mn017 | Yeah .
+"[38:04] me013 | different different uh , um ,"
+"[38:08] me013 | Uh , I would think that in a that an embedded uh"
+[38:14] me013 | training would have at least a good shot of improving it some more . But we don't know .
+[38:16] mn017 | Mm - hmm .
+[38:20] mn017 | OK .
+[38:21] me013 | You gonna say something ?
+[38:21] me018 | Yeah . I was wondering uh you know what
+[38:27] me018 | Anybody have any intuitions or suggestions ?
+"[38:29] me013 | Uh , how much training data ?"
+"[38:31] me018 | Well , I was gonna start off with the small train set ."
+[38:34] me013 | And how How many hours is that ?
+[38:35] me018 | That 's why I was I I 'm not sure how much that is .
+"[38:39] mn017 | Well i you 'd would be gender - dependent training , right ? So So I think it 's uh that 's about"
+"[38:41] me018 | Gender - dependent , yeah ."
+"[38:47] mn017 | mmm , something like thirty hours ."
+[38:49] me018 | Thirty hours .
+[38:49] mn017 | Thirty hours per gender .
+[38:53] me018 | In the small training set ?
+[39:01] mn017 | like thirty forty hours something like that .
+[39:05] me018 | They called to tell us that ?
+[39:06] mn017 | Yeah .
+[39:08] me013 | Um . So . Uh .
+[39:10] me013 | after run
+[39:12] me013 | Right . So At least a couple thousand hidden units .
+[39:17] me013 | I mean . It 's it 's th the thing I 'll I 'll think about it a little more but it it 'd be toss up between two thousand and four thousand .
+[39:23] me018 | Mmm .
+[39:26] me018 | And a thousand is too small ?
+"[39:29] me013 | Oh let me think about it , but I think that that uh th at some point there 's diminishing returns ."
+[39:33] me018 | Mm - hmm .
+"[39:34] me013 | I mean it doesn't actually get worse , typically , but it but but there is diminishing returns and you 're doubling the amount of time ."
+[39:34] me011 | Mm - hmm .
+[39:42] me011 | But not by a lot .
+[39:42] me013 | Not by much . Fifty s Fifty four to forty eight ?
+[39:44] me011 | Vast majority is from the input unit .
+[39:47] mn017 | OK . Yeah .
+[39:48] me013 | Yeah . Yeah . It 'll have a very tiny effect .
+"[39:50] me011 | Right , because you used the context windows and so the input to hidden is much , much larger ."
+[39:52] me013 | Yeah .
+"[39:54] mn017 | Oh I see , I see , yeah , of course . Yeah . It 's negligible , OK ."
+[39:55] me013 | Yeah .
+"[39:58] me013 | Yeah , so it 's it 'd be way , way less than ten percent of the difference ."
+[40:00] mn017 | Uh - huh .
+[40:01] me013 | Uh .
+[40:08] me018 | The The net that that we did use already uh was eight thousand hidden units and that 's the one that Eric trained up .
+[40:18] me013 | of speech .
+[40:18] mn017 | Was that gender - dependent or independent ?
+[40:19] me018 | Gender - dependent .
+[40:20] me013 | Oh . So that would be like trained on s sixty or seventy hours .
+[40:23] mn017 | Mm - hmm .
+[40:27] me013 | two thousand fr I mean the four thousand will be better
+[40:30] me013 | and the two thousand will be almost will be faster and almost as good . So .
+[40:31] me011 | It 'll be faster .
+[40:33] me018 | Yeah .
+[40:34] me018 | Maybe I 'll start off with two thousand just
+[40:34] mn017 | Mm - hmm .
+[40:35] me013 | Yeah .
+[40:36] me018 | to see .
+[40:38] mn017 | OK .
+[40:38] me018 | OK .
+"[40:39] me013 | Yeah , thirty hours is like a hundred and"
+[40:43] me013 | ten thousand
+[40:45] me013 | uh
+[40:46] me013 | seconds .
+"[40:48] me013 | Uh , so that 's like eleven eleven million frames ."
+[40:52] me013 | And a two thousand hidden unit net
+[40:56] me013 | is uh
+[40:58] me013 | I guess about
+"[41:00] me013 | seven , eight hundred thousand parameters ."
+[41:11] mn017 | Right . I actually have to go . So .
+[41:13] me013 | Alright .
+[41:15] me013 | Uncle Bernie 's rule is ten to one .
+[41:19] me013 | Bernie Woodrow 's Rule of yeah Uncle Bernie yeah .
+[41:26] mn017 | Read your digits .
+[41:29] me013 | Yes sir .
+[41:29] me011 | We 're just waiting for you to leave .
+[41:33] me013 | @ @
+[41:34] me011 | Anything else ?
+[41:35] me013 | Nah .
+[41:36] me011 | OK .
+[41:38] me011 | If yeah that 's right .
+[41:39] mn014 | Yeah .
+"[41:40] me011 | Uh , well , we started late ."
+[44:13] me018 | Transcript

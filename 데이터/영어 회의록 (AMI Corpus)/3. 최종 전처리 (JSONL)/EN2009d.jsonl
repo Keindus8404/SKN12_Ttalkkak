@@ -1,0 +1,865 @@
+﻿{"timestamp": "00:00", "speaker": "Speaker_B", "text": "Which data . You know , I I want everything and then I'll decide what I want ."}
+{"timestamp": "00:01", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "00:03", "speaker": "Speaker_A", "text": "So this was that face to face meeting . Um but it uh it doesn't"}
+{"timestamp": "00:05", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "00:48", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "00:58", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "01:00", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "01:03", "speaker": "Speaker_B", "text": "Mm-hmm . Mm-hmm . Okay . As long as the format in which we pick it up is a format which could be generalised to a finer take . Because the worst thing that can ever happen to you is you discover that you've done huge amounts of analysis and th you actually had the data but you threw it away because you treated it so grossly . Okay . So whatever we should be able to b you know , backtrack and say okay instead of every second , every tenth of a second or some such thing . But you know th"}
+{"timestamp": "01:40", "speaker": "Speaker_B", "text": "Well , the eye tracker does ."}
+{"timestamp": "01:40", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "01:42", "speaker": "Speaker_C", "text": "Uh five hundred Hertz though ."}
+{"timestamp": "01:44", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "01:44", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "01:45", "speaker": "Speaker_A", "text": "But right . W what w um the kinds of events that we had r uh before talked about putting into the record for then use in ELAN and N_X_T_ isn't based on saying every X_ seconds something . You know , give me give me what's happening every X_ seconds . It's more like , you know , give me the fixations and the um the blinks . Yeah . Oh yeah . Durations are in there . But it's not there's a difference between um saying that something is in a particular state every frame , whatever the frame rate is , you know , ten seconds a minute . You know , that's that's one kind of w way of looking at data , and um a parsed version of the data , which isn't at um any particular length . It relies on this really close frame rate that's underneath ."}
+{"timestamp": "02:15", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "02:18", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "02:28", "speaker": "Speaker_B", "text": "Well so there's no real time , there's only ev there's only events . What I'm we're trying to figure out is whether we've thrown time away ."}
+{"timestamp": "02:56", "speaker": "Speaker_B", "text": "Okay , so one of the formats in which eye tracker data is analysed is percentage of time spent on some target as opposed to some competitor over the first second after some event , okay . So you actually have to be shu have to show at some time slice rate whether the eye was on the same target as the other guy , a similar target , what we'd both been deali you know . So we have to b we have all the parts , the interesting parts of the screen identified and be able to show distribution of gaze over time . Alright . Now we could be really unlucky and somebody would expect us to do that at the real frame rate . But I think that's really unlucky . But but my point is that we mustn't throw away in or lose the capacity of being able to deliver that kind of data . Mm-hmm . Mm ."}
+{"timestamp": "03:11", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "03:20", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "03:27", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "03:29", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "03:50", "speaker": "Speaker_B", "text": "S so typically the eye will move , right . So over any one second , they eye's actually f fixing on a bunch of different things . And you and so when you say the eye was on this from here to here what's gonna happen is that is that if you use the real frame rate , it's gonna jiggle all over the place . It's gonna be on this landmark . Uh it's on this object , that object , this fixed thing , that fixed thing , okay . You're gonna get lots and lots of stuff . And it's percentage distribution that you're going to want . It's not uh I went here . I s you know , it's not like person walking . I went here , I stayed here . It's it's more like a fly hovering ."}
+{"timestamp": "03:53", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "04:08", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "04:22", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "04:25", "speaker": "Speaker_A", "text": "So you need to know the percentage of time it was on during that fixation ."}
+{"timestamp": "04:28", "speaker": "Speaker_B", "text": "Mm-hmm . Because if you if you take them as separate events you get thousands of separate events ."}
+{"timestamp": "04:30", "speaker": "Speaker_A", "text": "Yeah ?"}
+{"timestamp": "04:36", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "04:43", "speaker": "Speaker_B", "text": "Against bigger frames ."}
+{"timestamp": "04:53", "speaker": "Speaker_B", "text": "Well , that's the that's the problem . There are two ways of doing it . One is that there's always a cut-off , right . But the other is that there will be a time span , a kind of reaction to some event span ."}
+{"timestamp": "04:57", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "05:02", "speaker": "Speaker_C", "text": "B uh uh m yeah , so I'll I'll lag in some of it during the I suppose there's the the saccadic movement itself , for example ."}
+{"timestamp": "05:06", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "05:09", "speaker": "Speaker_B", "text": "Right . And so I mean there are there are really two ways of looking at this . One would like to know for example the percentage of time overall in which two people are looking at the same thing , okay . And one would like to know sequences of they didn't look at the same thing and then they broke it . Or they did look at the same thing and then they did or didn't brea you know . One one could imagine those two categories . That's that's a kind of testing of our hypotheses . But there's a certain amount of um dues you pay to the way they do things in the literature to get your papers published . And one of the things they will want to know is an event series after some critical event , right . What percentage of time is given to looking where the other guy is looking . And what percentage of time over some , you know , reasonable time span of a couple of seconds , alright . So they'll be they they'll want to see essentially the gaze settling on particular incidents on particular places . So we have to be able to deliver those two things and they're rather different demands ."}
+{"timestamp": "05:18", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "05:29", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "05:54", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "06:04", "speaker": "Speaker_C", "text": "Th th th yeah , the it should still come out that the little sketch I asked this p for for last week about N_X_T_ and whether it would have that sort of tiered effect so you could see the overlap of where one person is looking compared to the other and their mouse movements and things . That that should ra uh address all that . Mm-hmm . But but because it's also in the i based on the the time course of the procedure you'll be able to basically get the scan path of the pattern of events from that as well ."}
+{"timestamp": "06:05", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "06:19", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "06:21", "speaker": "Speaker_A", "text": "'Cause all you wanna know is whether they were looking at the same object in the period after ."}
+{"timestamp": "06:31", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "06:33", "speaker": "Speaker_A", "text": "Okay . Can we draw it to make sure that that um that this is satisfying Ellen's concerns ?"}
+{"timestamp": "06:37", "speaker": "Speaker_C", "text": "Yeah , yeah . So I did have it somewhere . I didn't have it r uh haven't brought it . trying to remember it ."}
+{"timestamp": "06:39", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "06:40", "speaker": "Speaker_A", "text": "Well , there's a white-board , right . We love this thing . See if the pens work . So um this is um A_'s eyes , right ? And B_'s eyes . And I think what you're saying you should probably draw this right , is that they you know , if um from this time to this time they're looking at triangle one ."}
+{"timestamp": "07:05", "speaker": "Speaker_A", "text": "W what you're saying is that you want to know in the critical you wanna know after they're they're looking at triangle one what's happening in this period with this guy , right ?"}
+{"timestamp": "07:16", "speaker": "Speaker_B", "text": "Or how l alright . Let's let's imagine a typical construction event , okay . There is some part there are there are separate movable parts on the screen ready for use , right . There may be or not a construction already begun , right . Somebody makes the first move . There's some kind of communication either gestural , imaginary or verbal , that plans how we're gonna do it , right . Before that happens the person who speaks is going to do some kind of visual scanning . While they're speaking or communicating in some way , the other person may or may not be looking where they're looking , okay . They may be overlapping gaze at particular objects which are of interest . Let's call it the c the construct , existing construct , which could be zero ."}
+{"timestamp": "07:24", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "07:38", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "07:48", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "08:00", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "08:08", "speaker": "Speaker_B", "text": "Alright . Or the um the addendum , the thing which is next going to be added . Next piece , okay . Now in neither case , when you draw this , he's looking at triangle one , which you're actually drawing , you know , for a the period of time in which he's steadily looking at triangle one is gonna be very very short , right . Because staring fixedly without interruption , blink or or saccade is is an extremely short event ."}
+{"timestamp": "08:08", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "08:14", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "08:27", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "08:33", "speaker": "Speaker_C", "text": "Uh it m it m uh but uh br at that point they're all of it lumped all the individual fixations as long as it doesn't move off that triangle together as a total sort of gaze gaze time on that . Yep . Yeah . That that's a target within the target region ."}
+{"timestamp": "08:45", "speaker": "Speaker_B", "text": "That's fine . So it's in a region it's in a region . Okay . But even so you're likely to get bouncing in and out of the region , right . So even so you wanna look at if we're interested in how long before the construction move takes place , um how much of the time they spend looking at the same thing . Let's call that our measure of alignment . So they're gonna be yeah , that's right , A_ is gonna be on triangle one and various other places . That's right . And and B_ um okay . And we're gonna look at the percentage of of that time where they're both in the same region ."}
+{"timestamp": "08:48", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "08:54", "speaker": "Speaker_C", "text": "Uh m"}
+{"timestamp": "09:06", "speaker": "Speaker_A", "text": "Alright ."}
+{"timestamp": "09:10", "speaker": "Speaker_C", "text": "Uh-huh ."}
+{"timestamp": "09:14", "speaker": "Speaker_C", "text": "M yes , somewhere ."}
+{"timestamp": "09:17", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "09:22", "speaker": "Speaker_B", "text": "Right . So what I want to make sure is that we don't um simplify , do you know what I mean ? Temporarily simplify too much , so that yeah ."}
+{"timestamp": "09:33", "speaker": "Speaker_C", "text": "It it sh yeah , it I mean uh as long as we're dif r yeah , it there shouldn't be anything missing ."}
+{"timestamp": "09:37", "speaker": "Speaker_B", "text": "'Cause then you lose percentage as an as a as a D_V_ ."}
+{"timestamp": "09:43", "speaker": "Speaker_C", "text": "That should be alright ."}
+{"timestamp": "09:49", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "09:49", "speaker": "Speaker_C", "text": "Yep ."}
+{"timestamp": "09:51", "speaker": "Speaker_A", "text": "So , you know , he might get triangle one there and no maybe this one's gonna overlook lap quite a bit . So what you want to do is be able to define um bigger periods , which is the period when they're sort of interested in triangle one overall , right ? This is sort of some meta level analysis ."}
+{"timestamp": "09:52", "speaker": "Speaker_C", "text": "M m yeah ."}
+{"timestamp": "09:55", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "09:56", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "10:05", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "10:07", "speaker": "Speaker_B", "text": "Mm-hmm . When they should be . Right ."}
+{"timestamp": "10:07", "speaker": "Speaker_C", "text": "So we yeah . So we if we have an an event , yeah , that that yeah , the second line then for the second before it . And then we can just take that chunk out and do something with it ."}
+{"timestamp": "10:16", "speaker": "Speaker_A", "text": "Yeah . But that's that's not a something that you can do in the N_X_T_ query language , but it you can't do that in any you know , this is such special purpose s but it's easy enough given the data format for any of these things to do that . So you could do it on 'cause i it's just a matter of i the hard part is deciding how close together these have to be before you decide that this is a event that you wanna pull out . Because , you know , algorithmically you're you're already putting together I mean this is essentially already , you know , these fixations with stuff in between ."}
+{"timestamp": "10:18", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "10:29", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "10:43", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "10:44", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "10:47", "speaker": "Speaker_C", "text": "Yeah . Yeah ."}
+{"timestamp": "10:48", "speaker": "Speaker_A", "text": "And uh um , you know , we we've got an algorithm for deciding when that's a look , I guess . You already have that or no ?"}
+{"timestamp": "10:48", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "10:55", "speaker": "Speaker_C", "text": "Uh well , if it's just based on uh like a a stable fixation for so long or or something and crossing into that region . Yeah ."}
+{"timestamp": "11:02", "speaker": "Speaker_A", "text": "Oh yeah , yeah . So it's all fixations . They're these are all fixations and saccades , but within the yep . So that's easy enough . So the hard thing is they could be moving their eye arbitrarily here , right ? And you know , maybe even having fixations on other things ? Yeah ?"}
+{"timestamp": "11:16", "speaker": "Speaker_B", "text": "Yes . Yes , because for example for part of that time both B_ and A_ are probably looking at the construct , okay . If if your intention is to move the red triangle to sit on top of the thing already constructed , you would tend to look back and forth . Right ."}
+{"timestamp": "11:17", "speaker": "Speaker_C", "text": "Mm-hmm . Yep ."}
+{"timestamp": "11:25", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "11:32", "speaker": "Speaker_A", "text": "Back and forward . Yep . So um this isn't yeah . But what you need to do is we we can already build into this G_D_F_ format these regions if you can give a definition of what you think that is . But I think the right way to do this is to be able to inspect the data in um some tool and play around with the definitions . Because you won't get it right the first time . Yeah ."}
+{"timestamp": "11:32", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "11:35", "speaker": "Speaker_B", "text": "And we should be able to to figure that out ."}
+{"timestamp": "11:56", "speaker": "Speaker_C", "text": "Mm-hmm , yeah ."}
+{"timestamp": "12:27", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "12:38", "speaker": "Speaker_B", "text": "Right . So so essentially there's there's um A_E_ is divided into T_R_ one and C_ and other stuff , okay , where C_ is the construct , the existing thing ."}
+{"timestamp": "12:57", "speaker": "Speaker_B", "text": "Well no . I mean we'd take a separate we'd look at the percentage time I mean I have no idea because I don't know how people look when they're building things together , okay . So there's a there's the addendum and the and the co the existing construct . And I don't know whether they're gonna spend more time looking at one or the other . But if they're whatever it is that one is looking at , if the other's looking the same place they're in good shape ."}
+{"timestamp": "13:19", "speaker": "Speaker_B", "text": "Yeah . Sure , sure . And that's what the other stuff that's what the that's what the diagonal stripes are for . That's true . But we c we can one of the things we'll be doing is um categorising people I take it or interactions by the amount of time people spend looking at the clock . We'd expect that if we put people under time pressure they'll look at the clock a lot more ."}
+{"timestamp": "13:20", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "13:25", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "13:35", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "13:38", "speaker": "Speaker_C", "text": "More . Mm-hmm ."}
+{"timestamp": "13:40", "speaker": "Speaker_B", "text": "Sure , it's a separate analysis . But you don't wanna throw it away , right . So so you can define if all of these things are actually categorised by the eye tracker as to where the eye is , alright , you should be able to pull out any interesting category and say alright for this phase it's T_R_ one , or C_ . For this phase it's um S_Q_ one or C_ , okay ."}
+{"timestamp": "13:50", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "13:55", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "14:01", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "14:04", "speaker": "Speaker_A", "text": "But what we find e what we can get out of the data easily at the moment is at this kind of level , right . And then it's a case of defining algorithmically all these other transformations that you want . So this is one uh we hadn't thought of adding before , but we should , right . Which is um well , how would you decide whether something was the current addendum uh the cu"}
+{"timestamp": "14:07", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "14:10", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "14:24", "speaker": "Speaker_B", "text": "You have to actually transcribe the thing or watch the film further on . Yeah . Yeah , absolutely ."}
+{"timestamp": "14:30", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "14:30", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "14:33", "speaker": "Speaker_D", "text": "Yeah . So so m so I assume that well once you've that sort of information , you well you got the G_D_F_ format . You then filter it to say , right , between time X_ and time Y_ they're they're constructing that having triangle one to the construct . And then you just say in that time period , what percentage are they looking at triangle one . What percentage are they looking at the construct . Does that sound does that sound reasonable ?"}
+{"timestamp": "14:34", "speaker": "Speaker_A", "text": "But the ex"}
+{"timestamp": "14:36", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "14:47", "speaker": "Speaker_B", "text": "Right . Right . Yeah , that's the addendum in the construct should be , you know , kind of they they change their true identity . But they're i their categories of stuff now I w my kind of assumption was that that this was J_P_ land , that that's what he was re what he was really interested in was the kind of coding which would define the building sequence , okay ? So and"}
+{"timestamp": "14:53", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "15:11", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "15:14", "speaker": "Speaker_B", "text": "the and maybe he wants to think about that more and say well there were several candidates for the addendum , alright . And and it was the negotiation of which candidate was gonna be the right candidate that's actually the interesting stuff . So I should talk to him about this . He's he's actually um emailed me with a l with a list of things he wants to discuss at length . So I w I'll bring this one back to him ."}
+{"timestamp": "15:25", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "15:33", "speaker": "Speaker_A", "text": "But we believe J_P_ to be defining that maybe ."}
+{"timestamp": "15:36", "speaker": "Speaker_B", "text": "Well this is my question for him . Is he gonna define this kind of building sequence in a way that we can get out . Or is he so b I mean , you know , they've been working on construction there for a while . So it may be that they have a coding system that's ready to go and we should just apply it ."}
+{"timestamp": "15:55", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "15:55", "speaker": "Speaker_B", "text": "Okay . Um they do a lot of sub-assembly in the tasks they've been doing . So they may well have a yeah ."}
+{"timestamp": "16:00", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "16:02", "speaker": "Speaker_A", "text": "I could believe them , yeah , no , taking an interest in that ."}
+{"timestamp": "16:06", "speaker": "Speaker_B", "text": "Let's find out ."}
+{"timestamp": "16:07", "speaker": "Speaker_A", "text": "I mean the general division was language here and other stuff there , right ."}
+{"timestamp": "16:10", "speaker": "Speaker_B", "text": "Right . Right . So wha right . What well we but we have the now actions I mean actions might mostly be theirs , right . But since we have the the eye tracker i th we're gonna have to answer their questions about gaze , right . Yeah , I right . But um so they'll they'll uh they'll tell us something about that . But um presumably what you piously hope is happens here is what happened with um transactions , right , that the verbal analysis and the um and the visual analysis give you the same breaking points , the same chunking points ."}
+{"timestamp": "16:11", "speaker": "Speaker_C", "text": "Mm-hmm . That's what I have understood it to be . But well I don't know . But W uh mm-hmm mm-hmm ."}
+{"timestamp": "16:24", "speaker": "Speaker_C", "text": "Yes , uh-huh , yeah ."}
+{"timestamp": "16:25", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "16:48", "speaker": "Speaker_A", "text": "Well yeah . But I mean with transaction coding on something like this you would use i y you wouldn't consider it verbal analysis exactly . It'd be verbal plus action . Because it's a task breakdown . It's just a segmentation ."}
+{"timestamp": "16:57", "speaker": "Speaker_B", "text": "Well , I mean what you know . It's it is it is a task breakdown . But for the verbal version there are ways of announcing that now we're doing a new one , right . Or that we're finished with the old one ."}
+{"timestamp": "17:07", "speaker": "Speaker_A", "text": "Yeah , but you wouldn't have you you wouldn't do two codings for task level one you wouldn't do transaction coding in a action segmentation ."}
+{"timestamp": "17:10", "speaker": "Speaker_B", "text": "No , you wouldn't . But I mean one of the things one of the things you'd like to establish you know , as an as an outcome of this is that you could analyse either end and you'd get the same chunking of the material . The thing which you guys thought to make in a paper ."}
+{"timestamp": "17:20", "speaker": "Speaker_A", "text": "I I don't think that's realistic , because I think what you'd actually do is use um the full record of what you have and do a segmentation . I think it'd be hard to understand what was going on if you used like just the language without watching the video to decide whether we're breaking down the task ."}
+{"timestamp": "17:34", "speaker": "Speaker_B", "text": "It's a hypothesis ."}
+{"timestamp": "17:36", "speaker": "Speaker_A", "text": "Oh , you don't want it to be coding th uh based on that though and then that seems a strange way to go about things . I mean this the language events are multi-modal , right . You know , they're they're doing all these things together ."}
+{"timestamp": "18:03", "speaker": "Speaker_B", "text": "Um because because essentially you're looking at um cycling sequences in discourse . And if the discourse tells you what's going on that's information . I mean I g one of the questions is how the information is gonna be shared across these media . And if you can get it all out of the speech , you know , if the if all of the chunking is available when there is speech ,"}
+{"timestamp": "18:32", "speaker": "Speaker_B", "text": "Mm . But this is but we haven't looked at data like this with this with our old-fashioned analyses um , you know . And i it's it would be really nice to know that that much information , that chunking of the task information is being carried by the language . Because J_P_'s question , the overriding question is so what's language for . You know , if people are busy interacting all the time and all of our colleagues don't even bother to control for whether people are talking to one another when they're doing these joint tasks because it seems to them to be irrelevant 'cause language is irrelevant , it would actually be nice to demonstrate that in a place where we're controlling whether you have language or not . You could get the entire chunking of the task out of a language ."}
+{"timestamp": "18:34", "speaker": "Speaker_C", "text": "It's mm-hmm ."}
+{"timestamp": "19:10", "speaker": "Speaker_A", "text": "Yeah , well I c I can see maybe wanting to know whether you can do the chunking just based on the actions without the language in cases where they use both . It's more g I can't quite see why it's important to know that they can do it just based on the language when w you know that they had both ."}
+{"timestamp": "19:14", "speaker": "Speaker_B", "text": "Mm-hmm . Mm-hmm ."}
+{"timestamp": "19:16", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "19:23", "speaker": "Speaker_B", "text": "Because you know it's a self-contained system as opposed to a system which is which can't be interpreted without the other system ."}
+{"timestamp": "19:30", "speaker": "Speaker_A", "text": "Uh-huh . Well , I think that one's just bound to fail . But yeah ."}
+{"timestamp": "19:30", "speaker": "Speaker_B", "text": "Okay . Usually the claim . Almost all studies on language claim that language is a self-contained system which will give you everything you need to know ."}
+{"timestamp": "19:39", "speaker": "Speaker_A", "text": "Really ?"}
+{"timestamp": "19:40", "speaker": "Speaker_B", "text": "That's the claim ."}
+{"timestamp": "19:42", "speaker": "Speaker_A", "text": "Okay . Anyway ."}
+{"timestamp": "19:48", "speaker": "Speaker_A", "text": "So back back to this main problem , which is yeah , w the record that we are getting in the first instance is about the m about these you know , they're looking at some region of the screen defined dynamically . And then we need some way of knowing what the you can you can see adding these other analyses about , you know , they're they're jointly focused on this region and trying to figure out what s percentage of time they're looking at it as adding new tiers of information to either the ELAN track or N_X_T_ . They're they're both sort of track based in this way ."}
+{"timestamp": "19:50", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "20:03", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "20:24", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "20:25", "speaker": "Speaker_A", "text": "Um but the hard part is knowing how you wanna do that . And I I think in the first instance what we're trying to get into the G_D_F_ format is just this . And then we've got no option but to uh figure out a way for like to look at this , just explore this data , suggest ways about doing it and um be able to play them back and see um when we think we've got these things right . I don't think we even know what the set of these things are that we want , much less how to get 'em yet . So th"}
+{"timestamp": "20:51", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "21:02", "speaker": "Speaker_C", "text": "You can we can announce now ."}
+{"timestamp": "21:07", "speaker": "Speaker_B", "text": "Fine . My only concern w uh you a as I said when I barged in was just to make sure that we didn't lose the things that we might need to pick up later . That's all ."}
+{"timestamp": "21:15", "speaker": "Speaker_A", "text": "Yeah . So let's just return to this question of frame rate . Because this is the thing we were not planning to um transfer into this format . So again , you know , what a frame rate kind kind of coding is ag it can again be seen as a track . But it says it's a coding like this , right , where you say it's in state A_ , state B_ , state C_ , state A_ ."}
+{"timestamp": "21:29", "speaker": "Speaker_B", "text": "Every single frame ."}
+{"timestamp": "21:34", "speaker": "Speaker_B", "text": "Okay . But since the l the definitions of look a thing we're looking at are d um are the ones which get rid of the lower level . Like jiggling around in the area of a particular object , right . So if we're moving the the green triangle um we've defined a region which is the dynamically the green triangle , wherever it is . We will jiggle around in there . But it doesn't matter where we are in there . That's beneath our level of analysis . S"}
+{"timestamp": "21:54", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "21:58", "speaker": "Speaker_A", "text": "Right . So you right . So I'm just you're happy that it's not gonna have frame rate uh like this . It's gonna have an interpretation like this ."}
+{"timestamp": "22:06", "speaker": "Speaker_B", "text": "Well the in that interpretation is definable to frame rate by our by the only way we're gonna use frame rate ."}
+{"timestamp": "22:14", "speaker": "Speaker_A", "text": "What does that mean ? Sorry ."}
+{"timestamp": "22:28", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "22:33", "speaker": "Speaker_A", "text": "W right . But it seems to me it seems to me that Ellen's concerns might mean we need to add more information to these tags because um , you know , this thing in itself is th bunch of fixations , right , with saccades ."}
+{"timestamp": "22:33", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "22:41", "speaker": "Speaker_C", "text": "Uh but y y y"}
+{"timestamp": "22:46", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "22:49", "speaker": "Speaker_A", "text": "Fixations and the percentage of time those fixations cover , you might want ."}
+{"timestamp": "22:54", "speaker": "Speaker_C", "text": "Bi um yeah , with some some measure of the so we could work out the number of fixations that made and the average fixation duration as well . Because having st long steady fixations can be informative ."}
+{"timestamp": "23:05", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "23:05", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "23:07", "speaker": "Speaker_B", "text": "And okay , I'm I'm asking you as an expert . This is this this isn't a leading question . This is a question question . Why would that be informative particularly ?"}
+{"timestamp": "23:16", "speaker": "Speaker_C", "text": "Um if if they're holding their if there's less dancing around , the um the cognitive focus tends to be in one sort of part . So uh there is a difference between if they even though they're still looking at the same part , if they're looking around it uh rather than just holding their gaze steady or um and longer on it ."}
+{"timestamp": "23:21", "speaker": "Speaker_B", "text": "Uh-huh ."}
+{"timestamp": "23:30", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "23:32", "speaker": "Speaker_B", "text": "Uh-huh ."}
+{"timestamp": "23:35", "speaker": "Speaker_B", "text": "On it . So you think that if for example if they're looking at um one or another um apex of a triangle it would just that would make a difference . They were exploring the thing , as opposed to they were simply alright , there is it there it is . Okay , so th um so that really means that we're not throwing away absolute fixations ."}
+{"timestamp": "23:46", "speaker": "Speaker_C", "text": "Uh yeah . It , yeah , it's it's certainly it's it's worth mm-hmm ."}
+{"timestamp": "24:00", "speaker": "Speaker_B", "text": "The screen location of absolute fixations ."}
+{"timestamp": "24:11", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "24:14", "speaker": "Speaker_B", "text": "Alright ."}
+{"timestamp": "24:17", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "24:19", "speaker": "Speaker_B", "text": "Uh-huh . As opposed to out of it . So you so I thought I understood you to mean exploring the figure . Because you know , your fixation is a point . And the figures are bigger than points . So you could be exploring the figure or you could be just somewhere in the region defined as the figure but not on it ."}
+{"timestamp": "24:35", "speaker": "Speaker_C", "text": "Uh if well yes , but that probably isn't going to be easy to get out because you'd then have to break up uh the parts somehow ."}
+{"timestamp": "24:45", "speaker": "Speaker_B", "text": "So you just want to know the variability of the of the fixation . And wouldn't that differ from person to person ?"}
+{"timestamp": "24:47", "speaker": "Speaker_C", "text": "Yep . Mm-hmm ."}
+{"timestamp": "24:51", "speaker": "Speaker_C", "text": "Uh it it yes , it can do , but it's also looking at it within their their own behaviour to see , yeah ."}
+{"timestamp": "24:59", "speaker": "Speaker_B", "text": "Okay . So it's the number of different spots within that region where the eye has fixed the number of different fix oh , ok okay . So it's a jiggle rate , okay ."}
+{"timestamp": "25:08", "speaker": "Speaker_A", "text": "Yeah , the spots'll be different anyway . 'Cause i you're not gonna g have the same pixel . So um we have the option that we can put in an A_ fixation thing here , right , as well . If you want the smaller if you want the smaller coding in in here . So that it's not just parsed into this idea of which object . But you also have the raw fixation um data . We can put that in as another track . If you think that that's something that you might want to look at in one of these tools that shows you the tracks against each other ."}
+{"timestamp": "25:12", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "25:18", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "25:35", "speaker": "Speaker_B", "text": "Well , all I th understood you to ask for was the duration of each fixation inside . Yeah ."}
+{"timestamp": "25:44", "speaker": "Speaker_B", "text": "You can come back ."}
+{"timestamp": "25:49", "speaker": "Speaker_A", "text": "Yeah , and in N_X_T_ there's no cost , right , because the y the uh you just don't choose to load those . All we're doing is dumping it as output that you can load if you choose to . Um i g s you know , so if they're things that you just know are crazy and you're not gonna want then we don't do it . But otherwise we go ahead and dump 'em . 'Cause it's easy to dump out the fixations . Um yeah ?"}
+{"timestamp": "25:55", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "25:59", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "26:03", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "26:05", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "26:10", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "26:10", "speaker": "Speaker_B", "text": "So it's the number of different fixations ."}
+{"timestamp": "26:14", "speaker": "Speaker_B", "text": "Well , actually do you want the average duration ? Or do you want the number of different ones ?"}
+{"timestamp": "26:23", "speaker": "Speaker_B", "text": "Duration of each fixation in the region ."}
+{"timestamp": "26:30", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "26:41", "speaker": "Speaker_B", "text": "Well , you've already got that ."}
+{"timestamp": "26:41", "speaker": "Speaker_C", "text": "Uh well , if you've got the number of fixations in the average time , you can then just generate it . Yeah , yeah ."}
+{"timestamp": "26:45", "speaker": "Speaker_A", "text": "Yeah , then that's that's the way you want it ? That way around ?"}
+{"timestamp": "26:50", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "26:50", "speaker": "Speaker_B", "text": "So that's a measure of jiggle in the region , roughly ."}
+{"timestamp": "26:53", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "27:01", "speaker": "Speaker_B", "text": "Moving ."}
+{"timestamp": "27:06", "speaker": "Speaker_A", "text": "Yeah . Well , it's not um the the extra cost of having these as attributes is not high . So um , you know , it saves you i uh having to do write scripts to do arithmetic on that later if you know that these are numbers that are gonna be useful to you ."}
+{"timestamp": "27:21", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "27:21", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "27:43", "speaker": "Speaker_B", "text": "Right , okay ."}
+{"timestamp": "27:46", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "27:55", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "28:00", "speaker": "Speaker_B", "text": "It's yeah , okay , right ."}
+{"timestamp": "28:04", "speaker": "Speaker_B", "text": "Okay . So my question was going to be alright , the the mouse is a dynamic object , right . The eye track is a dynamic object ? Or is it only the the piece that the eye tra the other person's eye track is on that's that's an object in this definition ?"}
+{"timestamp": "28:05", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "28:29", "speaker": "Speaker_C", "text": "Yes , yep ."}
+{"timestamp": "28:43", "speaker": "Speaker_C", "text": "Yes . So if there uh if mm-hmm ."}
+{"timestamp": "28:50", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "28:53", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "28:54", "speaker": "Speaker_C", "text": "But not looking at their individual and pr fact , they probably will avoid looking directly . Because if they're looking directly at it , it's obscuring"}
+{"timestamp": "28:58", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "29:04", "speaker": "Speaker_C", "text": "the the part ."}
+{"timestamp": "29:06", "speaker": "Speaker_B", "text": "But it's directly added when when these two in this situation when these two overlap , right , like this ."}
+{"timestamp": "29:09", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "29:12", "speaker": "Speaker_C", "text": "Yeah , mm-hmm ."}
+{"timestamp": "29:13", "speaker": "Speaker_D", "text": "Okay . Yeah 'cause I think that that's gonna co that's 'cause b the diagram we got there suggesting that they're only looking thing at time . So whether it's triangle or whatever else . But so what you're suggesting there is they can be looking at the triangle and maybe a mouse pointer and maybe an eye at the same time . Okay , okay ."}
+{"timestamp": "29:19", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "29:21", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "29:25", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "29:26", "speaker": "Speaker_B", "text": "Mm-hmm . Mm-hmm . Mm-hmm . Well it would come up it would say yes , right ? I mean because they would be in the same place . So if you y you're gonna have dynamic regions which overlap one another by definition . If the mouse is on the construct , then right , right ."}
+{"timestamp": "29:33", "speaker": "Speaker_A", "text": "I don't know ."}
+{"timestamp": "29:33", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "29:36", "speaker": "Speaker_C", "text": "Mm-hmm . The m the mouse , the gaze and the part are all layered ."}
+{"timestamp": "29:42", "speaker": "Speaker_A", "text": "Well well but y those are different tracks of information . So what you want is one track of information about which object it's one , one about whether or not it's on the other guy's gaze , and one about whether it's on um one of the mouse positions ."}
+{"timestamp": "29:45", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "29:52", "speaker": "Speaker_B", "text": "We treat those as as other objects . But the difference between them and the the parts of the c thing to be constructed is that they're allowed to overlap with other things so nothing breaks . Okay ? If we mm-hmm ."}
+{"timestamp": "30:17", "speaker": "Speaker_B", "text": "Mm-hmm . Yes , as opposed to simply looking at somebody's gaze when the mouse isn't also there , right . And you want to know those things . Right , they're i they're independent dynamic objects ."}
+{"timestamp": "30:23", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "30:26", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "30:35", "speaker": "Speaker_B", "text": "Okay . So a definition of we're all looking at and touching the same thing . So imagine that we've just added a piece to the construct , alright . So now that's the construct . And both mouse symbols are on it , right . And both gazes are on it , right . So at that point you should have a line-up of A_ is on the construct , A_ is on the mouse , A_ is on A_ is on A_'s mouse , A_ is on B_'s mouse , A_ is on B_'s gaze , and B_ likewise . Okay ."}
+{"timestamp": "30:43", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "30:50", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "30:51", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "30:54", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "31:06", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "31:08", "speaker": "Speaker_A", "text": "Yeah . So g so there's there's a lot of tracks here , right . Because well we just added this fixation track ."}
+{"timestamp": "31:12", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "31:18", "speaker": "Speaker_B", "text": "Ooh , I love the eraser ."}
+{"timestamp": "31:18", "speaker": "Speaker_A", "text": "And then there is A_'s mouse , not their eyes , is on an object , right . And the mouse might be on triangle one ."}
+{"timestamp": "31:24", "speaker": "Speaker_B", "text": "Mm-hmm . Yeah , but the mouse is also a dynamic object ."}
+{"timestamp": "31:30", "speaker": "Speaker_A", "text": "But it doesn't matter . I mean i the mouse we're just saying where is the mouse . You know , it's on this object . And then um A_'s eye is on well A_'s mouse I guess , right . A_'s eye might be looking at A_'s mouse here ."}
+{"timestamp": "31:31", "speaker": "Speaker_B", "text": "That's fine . Okay ."}
+{"timestamp": "31:34", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "31:35", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "31:48", "speaker": "Speaker_A", "text": "A_'s eye might be looking at B_'s mouse here , right . I mean these are all the different ways of taking cross-products at the things that could be co-located . So you just treat 'em as independent . And I'm guessing from what you say yeah . I guessing from what you're saying you want all these tracks . Yeah , which is fine . There's no problem with that at all ."}
+{"timestamp": "31:52", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "31:56", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "31:59", "speaker": "Speaker_B", "text": "And then you then you look for combinations of them . Yeah ."}
+{"timestamp": "32:09", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "32:15", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "32:17", "speaker": "Speaker_A", "text": "S so um uh you kinda got the idea here ? Yeah ."}
+{"timestamp": "32:19", "speaker": "Speaker_D", "text": "Yep , yep . Okay , yeah . So so yeah . So so it's just a matter of adding these , the two mouse pointers and the um two gazes as extra objects . Um so yeah . As long as as long as they've got an I_D_ in there we can just say right at this p between these times they're looking at that object or they're looking at the mouse , they're looking at whatever ."}
+{"timestamp": "32:23", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "32:32", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "32:35", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "32:35", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "32:37", "speaker": "Speaker_A", "text": "But the important thing is you don't treat that entire set as mutually exclusive and exhaustive . It's just so tha the objects is like a separate level of analysis . If whether they're looking at the objects than whether they're looking at the gaze . 'Cause they can happen at the same time ."}
+{"timestamp": "32:45", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "32:49", "speaker": "Speaker_B", "text": "Right , but that it's also gonna be the case that um whatever region you define as the region of the dynamic object of the red triangle may get to the point where it overlaps the region of the dynamic object of the green square . Okay , what do we do about that ?"}
+{"timestamp": "32:51", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "33:04", "speaker": "Speaker_A", "text": "Does that happen ?"}
+{"timestamp": "33:06", "speaker": "Speaker_B", "text": "Yeah , because if you have them close together , there's always some fuzz factor around them . And so if they're left lying close together , okay , or in the in fact in the model , in the not in the model , in the in the supplies set they're actually neatly packed into a little space ."}
+{"timestamp": "33:09", "speaker": "Speaker_A", "text": "Oh , right ."}
+{"timestamp": "33:13", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "33:14", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "33:21", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "33:24", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "33:24", "speaker": "Speaker_C", "text": "Two objects close together , your eye gaze can actually be looking at the left edge of one and the right edge of the other . And they're sor therefore looking at two objects at once ."}
+{"timestamp": "33:32", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "33:35", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "33:38", "speaker": "Speaker_A", "text": "Okay . Can you write on my pen pad ? Just say , yeah , pens ."}
+{"timestamp": "33:41", "speaker": "Speaker_C", "text": "New pens . White-board pens ."}
+{"timestamp": "33:53", "speaker": "Speaker_D", "text": "I confuse 'em ."}
+{"timestamp": "33:55", "speaker": "Speaker_B", "text": "Because the two are so close together that their regions overlap ."}
+{"timestamp": "33:59", "speaker": "Speaker_A", "text": "Okay , that's a problem for the data models and either of the things that we were using ."}
+{"timestamp": "34:01", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "34:01", "speaker": "Speaker_C", "text": "Mm-hmm . Uh unle uh but it uh unless we just define it as there's only they're they are exclusive . And which ever area m has the greatest overlap is what they're actually looking at ."}
+{"timestamp": "34:17", "speaker": "Speaker_A", "text": "What do you mean by greatest overlap ?"}
+{"timestamp": "34:17", "speaker": "Speaker_B", "text": "The greatest overlap with what ?"}
+{"timestamp": "34:18", "speaker": "Speaker_C", "text": "Well it w if if you've got your sort of eye position , and it's it's unlikely to be exactly fifty percent in one object and fifty percent in the other ."}
+{"timestamp": "34:21", "speaker": "Speaker_B", "text": "Ho ho ."}
+{"timestamp": "34:27", "speaker": "Speaker_A", "text": "Draw uh my g my uh spacial reasoning is no good ."}
+{"timestamp": "34:32", "speaker": "Speaker_B", "text": "I think I think you're throwing information away ."}
+{"timestamp": "34:44", "speaker": "Speaker_A", "text": "Uh this is the better pen ."}
+{"timestamp": "35:01", "speaker": "Speaker_C", "text": "there ."}
+{"timestamp": "35:01", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "35:03", "speaker": "Speaker_C", "text": "Then that overlap means they're looking at the two pieces simultaneously ."}
+{"timestamp": "35:09", "speaker": "Speaker_A", "text": "Yeah . But you had a way of choosing which one , right ?"}
+{"timestamp": "35:12", "speaker": "Speaker_C", "text": "Yeah , uh just if this is there's more of it uh yeah , I yes , uh that's w uh that's that's a decision we'll uh uh uh I'm saying is if they're looking if most of what their overlap is here then we stick with that one ."}
+{"timestamp": "35:20", "speaker": "Speaker_B", "text": "Yeah . J"}
+{"timestamp": "35:28", "speaker": "Speaker_A", "text": "So you just mean which i is it closer to the is the circle I mean , what is this circle ? They're looking at a pixel or something , right ?"}
+{"timestamp": "35:35", "speaker": "Speaker_C", "text": "Uh that's th we no , that because um the gaze position will be a sort of fuzzy area . It won't just be a pixel . It'll it'll be an actual like circle and area . Yeah . So i i it it that's that's going to be w uh it's it's not just a single point . It's it's a it's a sort of lump target . And so there'll be a bit of a a sort uh some sort of overlap of two objects . Or b yeah , they could just be oscillating mm-hmm ."}
+{"timestamp": "35:47", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "35:47", "speaker": "Speaker_B", "text": "The gaze will wobble . The gaze will wobble . That's natural ."}
+{"timestamp": "35:51", "speaker": "Speaker_A", "text": "S right . Oh , so those vary in size . Yeah yeah ."}
+{"timestamp": "35:55", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "35:58", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "36:04", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "36:04", "speaker": "Speaker_B", "text": "Or indeed they might be looking from one to another . D or deciding which one to choose or thinking so you don't want to decide it's only one and throw the other one out ."}
+{"timestamp": "36:07", "speaker": "Speaker_A", "text": "Yeah . They could be ."}
+{"timestamp": "36:15", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "36:16", "speaker": "Speaker_B", "text": "Okay , well that's fine . That I was going to say that's the obvious way to do it ."}
+{"timestamp": "36:20", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "36:23", "speaker": "Speaker_B", "text": "Well each one is yes or no . couple of dozen ."}
+{"timestamp": "36:29", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "36:35", "speaker": "Speaker_B", "text": "Six to a dozen usually ."}
+{"timestamp": "36:36", "speaker": "Speaker_A", "text": "Okay . I know ways of getting around this analytically ."}
+{"timestamp": "36:37", "speaker": "Speaker_D", "text": "But th but sa but thing is if if we if we got if we got tracks for each for each part we can we can easily analyse it down later on ."}
+{"timestamp": "36:42", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "36:43", "speaker": "Speaker_A", "text": "'Cause you c"}
+{"timestamp": "36:43", "speaker": "Speaker_B", "text": "Yeah . I mean I think it's very likely that um if people are considering f mm-hmm ."}
+{"timestamp": "36:44", "speaker": "Speaker_C", "text": "Mm-hmm . Uh I mean if if they are oscillating though , then that's presumably going to st change the weight . So you are actually going to see them flipping between uh when you decide they're looking there mm-hmm , if they're really close , yeah ."}
+{"timestamp": "36:54", "speaker": "Speaker_B", "text": "Well , not if the regions overlap , okay . If the regions i"}
+{"timestamp": "36:56", "speaker": "Speaker_A", "text": "If they're really close to each other , it's gonna get foxed . Yeah ."}
+{"timestamp": "37:00", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "37:03", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "37:10", "speaker": "Speaker_C", "text": "H yes ."}
+{"timestamp": "37:14", "speaker": "Speaker_B", "text": "I mean I I actually like the solution , however ugly it it looks in terms of a data format of having a track for every possible object of gaze ."}
+{"timestamp": "37:19", "speaker": "Speaker_A", "text": "It's not the data format I'm worried about . It's the um the way you do the analysis . Because you don't wanna have to say um , you know , did they jointly look at triangle one . Okay . Did they jointly look at square one . Okay . Did they jointly look at you know , you need some way of uh uh going over the whole thing . But i c we can find ways around that . I think for now we we do it this way and then we we think about what we need out of it in the end . It's just you know , in ELAN it that has the side effect that if you go for the naturalistic way of of up-translating to ELAN , there'll be a zillion tracks . And it'll probably ruin their viewer . 'Cause you'll get very sparse data on each track . It'll be like the old referring expression generalis uh uh visualization um the map task . You know , where they talk about one object one landmark and then another landmark . Well , it's big , right ."}
+{"timestamp": "37:31", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "37:35", "speaker": "Speaker_B", "text": "S a thing . Mm-hmm ."}
+{"timestamp": "37:43", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "37:49", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "37:55", "speaker": "Speaker_B", "text": "Uh-huh ."}
+{"timestamp": "38:02", "speaker": "Speaker_B", "text": "Mm-hmm . Mm-hmm . I always thought that was brilliant . Yeah , it is big , and you do have to scroll through it to see what's going on . But it gives you a very clear picture of what's going on . Yeah , well , okay . But so we'd we'd better do a test one and and listen to them scream ."}
+{"timestamp": "38:13", "speaker": "Speaker_A", "text": "Well we'll see if ELAN likes it or not ."}
+{"timestamp": "38:15", "speaker": "Speaker_C", "text": "The yeah ."}
+{"timestamp": "38:17", "speaker": "Speaker_A", "text": "Yeah , and we b we better also like have in the representational list of par like even in the N_X_T_ up-translation a list of parts . It it affects the way we do the N_X_T_ u up-translation and make things easier for people ."}
+{"timestamp": "38:23", "speaker": "Speaker_B", "text": "With parts ."}
+{"timestamp": "38:24", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "38:26", "speaker": "Speaker_D", "text": "Yeah . Well the the the the doesn't really list part in the in the G_D_F_ . Um so yeah . That that that's not a problem . There so that bas basically what I've got is well there there there's places where you got the I_D_ though . So you've the an I_D_ for a part , you got an I_D_ for a location on the screen . So it shows you the target , config the clock , whatever else . Um and then we can easy add I_D_s for the two mouse points and the two gazes . Um and from that and ba basically all all the all the tracks are doing is saying at this between this time there's a look at this o this object . Yeah , th this I_D_ . Um so uh so it's effectively a track for each I_D_ ."}
+{"timestamp": "38:37", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "39:07", "speaker": "Speaker_D", "text": "Well wha wha what happen what happens there is that the the two the the existing parts basically cease to exist and a new part with a new I_D_ starts existing at the point where they're joined ."}
+{"timestamp": "39:10", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "39:12", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "39:13", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "39:14", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "39:16", "speaker": "Speaker_B", "text": "So you cha so every time a part is added to the construct , it becomes a new part . So the construct actually um has say it has six things that are added to some initial thing , okay . So if there's just the initial thing you've put it in the middle of the screen , that's just the initial object , right . Soon as you put a part , there's a construct . But it's construct one . Because when you add another part , construct one ceases to exist and you get construct two , right . So actually defining all of those as the construct is gonna be the trickiest thing ."}
+{"timestamp": "39:34", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "39:41", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "39:50", "speaker": "Speaker_C", "text": "Uh i it's also going to be a problem uh because you're going to have one part or a construct forming in the middle of a fixation ."}
+{"timestamp": "40:02", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "40:02", "speaker": "Speaker_C", "text": "So it's not gonna be quite as clear if you can't can't chop it off . Uh-huh . And then it yes . And it becomes construct or assembly whatever two ."}
+{"timestamp": "40:07", "speaker": "Speaker_A", "text": "And it suddenly becomes and there could be more than one construct at a time , right . It's there is no the construct , right ."}
+{"timestamp": "40:14", "speaker": "Speaker_D", "text": "Yeah . Oh ."}
+{"timestamp": "40:18", "speaker": "Speaker_B", "text": "'Cause you can build sub-assemblies . And then you can start again . Also when you when you screw it up , you g start again ."}
+{"timestamp": "40:20", "speaker": "Speaker_C", "text": "No . You can build sub sub-assemblies and then link the the part really , yeah ."}
+{"timestamp": "40:24", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "40:25", "speaker": "Speaker_A", "text": "What why does it why does construct one become construct two when you add something to it ?"}
+{"timestamp": "40:35", "speaker": "Speaker_A", "text": "Yeah . Oh , and this is because we don't want it to stay triangle one when you start with a construct it's not a construct at all , it's just a one thing . And we don't want triangle one to suddenly have bigger stuff ."}
+{"timestamp": "40:41", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "40:43", "speaker": "Speaker_B", "text": "Well , the problem is that all of these things are popping out of existence . So do we know the difference between um we broke it and it went away and um it's now part of the construct ?"}
+{"timestamp": "41:03", "speaker": "Speaker_B", "text": "Can we ta can we tag the constructs with what's in them ?"}
+{"timestamp": "41:07", "speaker": "Speaker_D", "text": "Yeah , the the the yeah . The con the con the constructs are already tagged with that . So that I'm act there's actually a s a separate file of the data format which says for each construct , which which two parts made it made that came together to make that construct ."}
+{"timestamp": "41:07", "speaker": "Speaker_A", "text": "Yeah yeah , there are . There are ."}
+{"timestamp": "41:08", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "41:14", "speaker": "Speaker_C", "text": "Which constituent parts ."}
+{"timestamp": "41:25", "speaker": "Speaker_D", "text": "Yeah . But you can still ta you can still track what parts went into it . So you can still find triangle one , whatever ."}
+{"timestamp": "41:30", "speaker": "Speaker_B", "text": "So some fancy programming's gonna have to be done to say I was looking at triangle one and now I'm looking at triangle one in construct one . 'Cause the first construct was triangle one and square one , okay ."}
+{"timestamp": "41:39", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "41:42", "speaker": "Speaker_D", "text": "Yeah . But but that's easy n uh it's easy to do because the the co each construct has the I_D_s for the pa the things that construct it ."}
+{"timestamp": "41:55", "speaker": "Speaker_B", "text": "So l let's imagine this , we've made a construct of two parts , and we're c i a triangle and a square . And we're considering now adding something on to the side of the square that isn't attached to the triangle ."}
+{"timestamp": "42:06", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "42:06", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "42:08", "speaker": "Speaker_B", "text": "Are we looking at the square or we looking at the construct ?"}
+{"timestamp": "42:13", "speaker": "Speaker_A", "text": "Yeah . That was the next question I had . Yeah ."}
+{"timestamp": "42:13", "speaker": "Speaker_C", "text": "Construct ."}
+{"timestamp": "42:14", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "42:16", "speaker": "Speaker_C", "text": "You'll be looking at the construct . 'Cause that's the way it's dis defined ."}
+{"timestamp": "42:18", "speaker": "Speaker_B", "text": "Uh in this definit should be looking at the construct . There isn't a way to figure out that you're looking at the square rather than the triangle ."}
+{"timestamp": "42:20", "speaker": "Speaker_D", "text": "Yeah . Yeah ."}
+{"timestamp": "42:24", "speaker": "Speaker_C", "text": "Looking at areas within it ."}
+{"timestamp": "42:34", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "42:37", "speaker": "Speaker_B", "text": "It is ."}
+{"timestamp": "42:38", "speaker": "Speaker_A", "text": "Oh yeah ."}
+{"timestamp": "42:43", "speaker": "Speaker_B", "text": "Okay , because I mean that's that's the example m f presumably that's the best example of overlapping overlapping areas . 'Cause if if the thing the two s the two things are now abutted . Of course there's an area which is common to both of them , okay . Um so what I'm trying to run through in my head is that we can always tell the difference between um something going out of existence 'cause it's joined to construct something going out of existence 'cause we threw it away , right . Suppose we pick up an we we we screwed up the first time we put the triangle with the square and we threw it away and decided we didn't like it , and we took another one . Is it triangle one ? Is it triangle one prime or something like that ? It's the replacement for triangle one ."}
+{"timestamp": "42:54", "speaker": "Speaker_A", "text": "Mm-hmm . That'll cover most of 'em ."}
+{"timestamp": "43:11", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "43:18", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "43:27", "speaker": "Speaker_A", "text": "I yeah . It's triangle two ."}
+{"timestamp": "43:29", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "43:32", "speaker": "Speaker_B", "text": "Well how do I know what it replaces ?"}
+{"timestamp": "43:35", "speaker": "Speaker_A", "text": "You don't because that's you'd have to have human coding to do that . Yeah , there might be multiple triangles that you've broke and you won't know which one they're planning on using it for ."}
+{"timestamp": "43:38", "speaker": "Speaker_D", "text": "Yeah , I mean the we e"}
+{"timestamp": "43:39", "speaker": "Speaker_B", "text": "N n"}
+{"timestamp": "43:42", "speaker": "Speaker_B", "text": "Uh this is true . But if I have triangles one two three , right , and I throw them away , any triangles I take out are to replace one two three ."}
+{"timestamp": "43:51", "speaker": "Speaker_A", "text": "Well you know which mold they come from . And so you know which shape they match . But you can't possibly know which one of the ones they're meant to replace ."}
+{"timestamp": "43:54", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "43:59", "speaker": "Speaker_B", "text": "Except that ex no , you don't know which one they're meant to replace . But you know they're not meant to replace any that are all that are that haven't been thrown away . Okay ."}
+{"timestamp": "44:05", "speaker": "Speaker_C", "text": "They can't replace uh the new parts only appear when the previous one's broken ."}
+{"timestamp": "44:14", "speaker": "Speaker_B", "text": "Right . So the new parts are replacing those which have disappeared from the screen . And if there's no more T_R_ one track the T_R_ one track is gone now ."}
+{"timestamp": "44:18", "speaker": "Speaker_C", "text": "Yes . They ca they can appear without them . You c"}
+{"timestamp": "44:22", "speaker": "Speaker_A", "text": "Oh , so there's no two parts with the same shape ?"}
+{"timestamp": "44:24", "speaker": "Speaker_B", "text": "Oh there are many ."}
+{"timestamp": "44:27", "speaker": "Speaker_B", "text": "Same identity ."}
+{"timestamp": "44:27", "speaker": "Speaker_A", "text": "Oh same shape and colour . Right okay ."}
+{"timestamp": "44:34", "speaker": "Speaker_B", "text": "Oh , okay ."}
+{"timestamp": "44:34", "speaker": "Speaker_A", "text": "Oh okay . So you can tell what it's meant to replace then . Because it's the same it's uh just a case of the mold , right ?"}
+{"timestamp": "44:39", "speaker": "Speaker_C", "text": "Yes . So that's the way it works at the moment . Uh I just assume that's how ni Nijmegen had set it all up ."}
+{"timestamp": "44:47", "speaker": "Speaker_C", "text": "Th that's that's back to uh Tim's day . They are individual uh you have different colours for the yep . Unique , yeah ."}
+{"timestamp": "44:52", "speaker": "Speaker_B", "text": "So shape plus colour ."}
+{"timestamp": "44:54", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "44:57", "speaker": "Speaker_B", "text": "They're unique . All the parts are unique . So wai hang on . That makes the task a little bit easier , right ."}
+{"timestamp": "44:58", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "45:03", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "45:10", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "45:11", "speaker": "Speaker_C", "text": "Yep ."}
+{"timestamp": "45:13", "speaker": "Speaker_C", "text": "It is just a construction task rather than a puzzle ."}
+{"timestamp": "45:17", "speaker": "Speaker_B", "text": "Indeed . Which kind of leaves you with an obvious way of making the same task harder and easier , doesn't it ?"}
+{"timestamp": "45:23", "speaker": "Speaker_C", "text": "Yep ."}
+{"timestamp": "45:34", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "45:40", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "45:41", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "45:43", "speaker": "Speaker_C", "text": "Mm-hmm . Yeah ."}
+{"timestamp": "45:49", "speaker": "Speaker_C", "text": "Uh yes . It at the moment there are d uh there are two I think two small ones and two large triangles . They're actually the same physical size and shape . At the moment they're in different colours . That also means in the p new parts list they're there for , you know , two v large triangles and two small one small ones , say . Whereas in in the revised edition if they were all just black there'd only be one uh mold in the new parts ."}
+{"timestamp": "45:57", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "46:13", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "46:15", "speaker": "Speaker_A", "text": "Yeah . We in when you specify these things , do you specify the molds or does it figure out what the molds are based on ? So is this hard-wired into Tim's program ? Or is it just an artifact of the way we s"}
+{"timestamp": "46:15", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "46:26", "speaker": "Speaker_D", "text": "Well yeah yeah . When you when you specify the molds in the in the in the p the file that c that generates the parts , like a list of parts , the molds are bas just taken out of the the file that generate that specifies the parts . So so ho however many part however many mo however many parts there are in the file , that's how many parts appear in the in the parts box ."}
+{"timestamp": "46:36", "speaker": "Speaker_A", "text": "Right . Okay ."}
+{"timestamp": "46:36", "speaker": "Speaker_C", "text": "Mm-hmm . The polygon one , polygon two , whatever it might be ."}
+{"timestamp": "46:38", "speaker": "Speaker_A", "text": "So it's hard-wired ."}
+{"timestamp": "46:42", "speaker": "Speaker_B", "text": "So if you have five black triangles , there gonna be five black triangles in the parts box ? Or one ?"}
+{"timestamp": "46:47", "speaker": "Speaker_D", "text": "If you have five black triangles gonna be five five parts in the fi five black black triangles in the parts box . But what what what but what you can do well if in the in the initial configuration you can re-use a triangle . So if you so if you only want one black triangle , you just create one black triangle in the parts box and then re-use that pa that triangle five times in the configuration ."}
+{"timestamp": "46:52", "speaker": "Speaker_B", "text": "Uh-huh ."}
+{"timestamp": "46:54", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "46:56", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "46:57", "speaker": "Speaker_C", "text": "Mm mm-hmm ."}
+{"timestamp": "47:00", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "47:02", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "47:07", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "47:09", "speaker": "Speaker_C", "text": "Yep ."}
+{"timestamp": "47:13", "speaker": "Speaker_C", "text": "Hmm . Yep , same same pieces ."}
+{"timestamp": "47:20", "speaker": "Speaker_A", "text": "Uh but what were the req wha"}
+{"timestamp": "47:25", "speaker": "Speaker_A", "text": "Has multiples , yeah ."}
+{"timestamp": "47:29", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "47:31", "speaker": "Speaker_B", "text": "The the v the nuts are are red or and all the um flat things are wood colour something ."}
+{"timestamp": "47:34", "speaker": "Speaker_A", "text": "Mm-hmm . Mm ."}
+{"timestamp": "47:37", "speaker": "Speaker_C", "text": "No , so they they can have different uh nuts there . W well nuts that are different colours . But same part in different colours , yeah ."}
+{"timestamp": "47:42", "speaker": "Speaker_B", "text": "The same part the same part is different colours . Oh yeah ?"}
+{"timestamp": "47:48", "speaker": "Speaker_C", "text": "No , what I mean there's more than they're multiple pieces that look the same . Mm-hmm ."}
+{"timestamp": "47:54", "speaker": "Speaker_B", "text": "So when you say a red nut or a green bolt or a long green bolt then there'll be lots of them lying around . And I think that's how the robot is set up to there are five five green bolts . Uh here is one , you know ."}
+{"timestamp": "48:02", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "48:04", "speaker": "Speaker_A", "text": "Mm-hmm . So I th"}
+{"timestamp": "48:06", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "48:08", "speaker": "Speaker_A", "text": "I think we've gotten to the point where , you know , to try to summarise , uh we we think Tim's program can do both of these conditions that you want . But I'm still worried about what the uh effects are for analysis . Because you were aiming at something in um the G_D_F_ format and I wasn't quite sure what . And w"}
+{"timestamp": "48:17", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "48:28", "speaker": "Speaker_B", "text": "Okay , so w uh all I'm I'm doing is kind of worrying out loud about all the things that will happen that we'll miss by th a simple view of for example regions and looking at at triangle one . When is triangle one not triangle one anymore . Um does it s keep its identity ."}
+{"timestamp": "48:39", "speaker": "Speaker_A", "text": "Yeah . So so okay . So I'll summarise what we said about that part that um every time you cast off a new part from a mold or , you know , every black triangle has a different I_D_ . And you know it's a black triangle 'cause you know which mold it came from . But you don't know which part it was intended to replace on the screen , because you can't mind-read ."}
+{"timestamp": "48:46", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "48:50", "speaker": "Speaker_B", "text": "Identity , yes ."}
+{"timestamp": "48:55", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "48:55", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "48:59", "speaker": "Speaker_B", "text": "That's true . So how can we define the shapes that people build ?"}
+{"timestamp": "49:08", "speaker": "Speaker_A", "text": "What do you mean define ?"}
+{"timestamp": "49:13", "speaker": "Speaker_B", "text": "If assuming I was for a moment I was J_P_ and I wanted to know how they actually went about building the thing ."}
+{"timestamp": "49:21", "speaker": "Speaker_B", "text": "Okay . And I wanted to um to look at the strategy . And I wanted to see if the strategy was different when we could talk about it and when we just picked up whatever . I mean suppose I can't talk to you and I'm doing this task with you and I can't talk to you . Um"}
+{"timestamp": "49:32", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "49:37", "speaker": "Speaker_B", "text": "the thing which is gonna be hardest for me is making elaborate plans with you . I can reach for the next thing and you can go where I reach . But if I have some , you know , sub-goal , some long-term sub-goal , of doing something clever with putting these together 'cause it's hard and then putting these together 'cause it's hard , there it's gonna be almost impossible to convey that to you . And the difference in the history of construction , right , is an important thing , and I wonder how we can get that information back ."}
+{"timestamp": "50:00", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "50:04", "speaker": "Speaker_A", "text": "I think that this is a human coding that is part of the action coding . Because I don't see how anybody but a person watching this can guess why they cast off this thing at this time ."}
+{"timestamp": "50:08", "speaker": "Speaker_B", "text": "Do you think ?"}
+{"timestamp": "50:15", "speaker": "Speaker_B", "text": "No , it why is not uh that's that's not the question I'm asking . The question I'm asking is what's the history of the construct ? So you have the n the names of the things in there . And you have two constructs suppose we have two sub-constructs . And whichever one had two pieces put together first is the earlier numbered of those constructs , right . How do you tell the difference between adding a piece to this first construct and creating a second construct ?"}
+{"timestamp": "50:34", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "50:47", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "50:50", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "50:53", "speaker": "Speaker_B", "text": "It's it's it's parent child relationship ."}
+{"timestamp": "50:54", "speaker": "Speaker_D", "text": "Yeah , yeah . So you got parent child relationship and i the child can be a part or it can be another construct ."}
+{"timestamp": "50:58", "speaker": "Speaker_B", "text": "Okay . So construct two could b um construct one is um a red triangle and a green square . Construct two is um two green squares , okay . Construct three , right , is a red triangle , a green square and another red triangle . Construct four okay ."}
+{"timestamp": "51:22", "speaker": "Speaker_B", "text": "Okay . And you can so how are we gonna tell when for example you think we're gonna have to do human coding on when two sub-constructs are put together . No , that's a definition wherein a construct has a c has constructs as children ?"}
+{"timestamp": "51:31", "speaker": "Speaker_A", "text": "No . No , no ."}
+{"timestamp": "51:35", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "51:35", "speaker": "Speaker_D", "text": "Yeah , yeah . 'Cause uh there's a joint action . The result the t what you need for a join action you need to yeah , a construct and a part , two parts , whate whatever you're taking together . And then the result of that is a construct . You've got time when that happens . You can see that construct appeared at that time . Um and you can still track the children of that construct ."}
+{"timestamp": "51:35", "speaker": "Speaker_A", "text": "Yes ."}
+{"timestamp": "51:36", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "51:42", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "51:42", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "51:48", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "51:49", "speaker": "Speaker_B", "text": "So we could zip we could zip through this and look at all the um all the interactions in which people build sub-construct contstructs first which we expect them to do bu as a wild hypothesis more when they have verbal communication than when they don't , okay . And we can do that by simply searching for any constructs that have constructs as children ."}
+{"timestamp": "52:05", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "52:11", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "52:11", "speaker": "Speaker_A", "text": "Yeah . So we can easily look at things like that automatically . It's just the why they g why they get new parts that's the problem for us . We can't if they suddenly if they decide to get a part of a mold we don't know we can't know why until they do something with it , if they do ."}
+{"timestamp": "52:12", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "52:13", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "52:19", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "52:25", "speaker": "Speaker_B", "text": "Yeah , we haven't actually made a rule that you can't uh collect extra parts , right ?"}
+{"timestamp": "52:40", "speaker": "Speaker_B", "text": "No no . I mean you have to b you have to break one to get one , okay ."}
+{"timestamp": "52:41", "speaker": "Speaker_A", "text": "But you can break you you can but you can break one when you break one , you don't cast off the mold yourself , it happens automatically ? Oh okay , never mind then ."}
+{"timestamp": "52:43", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "52:49", "speaker": "Speaker_C", "text": "Yes . I i it appears in the new p uh like uh suddenly the th th the new part lights up sort of thing and it's there ."}
+{"timestamp": "52:53", "speaker": "Speaker_A", "text": "So they just have to use it , yeah ."}
+{"timestamp": "52:56", "speaker": "Speaker_A", "text": "Uh-huh . Oh , but they have to drag it up past the mold line . Yeah ."}
+{"timestamp": "53:00", "speaker": "Speaker_C", "text": "Yes . They have to bring it into play ."}
+{"timestamp": "53:02", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "53:04", "speaker": "Speaker_B", "text": "And you can't just bring extras in case you screw up . You have to screw up first and then you can bring an extra ."}
+{"timestamp": "53:05", "speaker": "Speaker_C", "text": "No . Nope . That yeah . That that is one think unlike the say the Baufix or anything . We I assume the the Baufix . The there aren't any extra parts . And at the moment the software doesn't a allow for that . Yes . Replacement , but no superfluous so you can't have a a standard stock with extra parts that it'll never use ."}
+{"timestamp": "53:11", "speaker": "Speaker_B", "text": "Mm-hmm . Mm-hmm . Mm . Mm-hmm ."}
+{"timestamp": "53:11", "speaker": "Speaker_A", "text": "Yeah , where there's extra parts ."}
+{"timestamp": "53:20", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "53:23", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "53:24", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "53:25", "speaker": "Speaker_B", "text": "Mm-hmm . There there's a so you so so you appreciate you appreciate the cost of"}
+{"timestamp": "53:29", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "53:31", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "53:32", "speaker": "Speaker_B", "text": "screwing up ."}
+{"timestamp": "53:37", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "53:38", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "53:40", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "53:41", "speaker": "Speaker_A", "text": "They do it ."}
+{"timestamp": "53:44", "speaker": "Speaker_B", "text": "Mm-hmm , that's right . Right . Okay . So they rejected something or they broke something inadvertantly . Okay . Is there a way of"}
+{"timestamp": "53:44", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "53:44", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "53:46", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "53:55", "speaker": "Speaker_B", "text": "telling the difference between intentional and unintentional breakages ?"}
+{"timestamp": "54:00", "speaker": "Speaker_A", "text": "How would you do that ?"}
+{"timestamp": "54:06", "speaker": "Speaker_B", "text": "Bec yeah ."}
+{"timestamp": "54:09", "speaker": "Speaker_B", "text": "No , you p they both put they both put their hands on a construct because they don't like it ."}
+{"timestamp": "54:14", "speaker": "Speaker_A", "text": "Yeah , but there's there'd be no way of coding that automatically , right . How could you possibly do that ?"}
+{"timestamp": "54:19", "speaker": "Speaker_C", "text": "You have to hope that there's language and one of them says something . You c mm-hmm . Uh there's no there's there's no way you could tell that just from the the raw movements or or something ."}
+{"timestamp": "54:22", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "54:22", "speaker": "Speaker_A", "text": "But that's a human coding , right ."}
+{"timestamp": "54:24", "speaker": "Speaker_B", "text": "Yep . So that just has to be coded ."}
+{"timestamp": "54:27", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "54:29", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "54:32", "speaker": "Speaker_B", "text": "Um not generically . Because they'll if they're gonna do it by gesture they'll build up a convention , right ."}
+{"timestamp": "54:32", "speaker": "Speaker_A", "text": "So w"}
+{"timestamp": "54:33", "speaker": "Speaker_C", "text": "Mm yep ."}
+{"timestamp": "54:40", "speaker": "Speaker_B", "text": "What else do we need to know ?"}
+{"timestamp": "54:51", "speaker": "Speaker_B", "text": "Unless they develop a convention . Suppose they start off with language and then they they say hey look , you know , let's do it like this ."}
+{"timestamp": "55:04", "speaker": "Speaker_C", "text": "What I'm trying to remember is if the people deliberately break things by moving two pieces together . They they don't both break ."}
+{"timestamp": "55:15", "speaker": "Speaker_D", "text": "Uh they do . If if if what if one if one person's trying to get a part to a part that isn't that that so the part that's just sitting on the screen that's not being touched . They both break ."}
+{"timestamp": "55:24", "speaker": "Speaker_C", "text": "Mm-hmm . So the i intentional thing is when they actually both click on the same object and it breaks ."}
+{"timestamp": "55:30", "speaker": "Speaker_B", "text": "For sure you know that's and l or well n is not necessarily intentional . They could just screw up . Yep ."}
+{"timestamp": "55:33", "speaker": "Speaker_C", "text": "No , they could just make a mistake or screw up , yeah ."}
+{"timestamp": "55:34", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "55:36", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "55:36", "speaker": "Speaker_A", "text": "Mm . they could discuss deciding to break something and and then one guy does it . Yeah , yeah ."}
+{"timestamp": "55:38", "speaker": "Speaker_B", "text": "Mm-hmm . Or I don't think that's very good , no , we'll never get away with that , we'll get a bad score . Let's just throw that away and start again , yeah ."}
+{"timestamp": "55:39", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "55:39", "speaker": "Speaker_C", "text": "Y yeah . But that's bringing in the the language thing again ."}
+{"timestamp": "55:44", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "55:44", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "55:46", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "55:47", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "55:49", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "55:51", "speaker": "Speaker_B", "text": "Which reminds we have fixed the score problem . Have we ?"}
+{"timestamp": "55:55", "speaker": "Speaker_D", "text": "Uh well yeah . 'Cause yeah . C 'cause it was through the rotational part . Yeah ."}
+{"timestamp": "55:58", "speaker": "Speaker_C", "text": "Oh uh yes . At the the percentage score . Yeah . So our yes , rather than the number of penalties or or something . No , the the score w uh is fine ."}
+{"timestamp": "55:58", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "56:04", "speaker": "Speaker_B", "text": "Was the percentage overlap and that made the score ?"}
+{"timestamp": "56:09", "speaker": "Speaker_B", "text": "Yeah ? That's when I left . Oh yeah , well do you know which which which which one was the top right . Yeah . Mm-hmm ."}
+{"timestamp": "56:20", "speaker": "Speaker_B", "text": "But that's all been fixed . That's that's that's back ."}
+{"timestamp": "56:22", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "56:27", "speaker": "Speaker_C", "text": "Uh well . Uh yes , it was something that had to be defined and the uh Dutch lot didn't . So that was it was actually their their fault . But um it's not clear enough in the documentation . Yeah . Yeah . But i it it is quite fundamental and uh causes quite immediate problems if you don't know about it . Yep , exactly ."}
+{"timestamp": "56:31", "speaker": "Speaker_B", "text": "Alright ."}
+{"timestamp": "56:36", "speaker": "Speaker_A", "text": "Well , whi which is probably a documentation fault , right ."}
+{"timestamp": "56:41", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "56:45", "speaker": "Speaker_B", "text": "The right ."}
+{"timestamp": "56:45", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "56:47", "speaker": "Speaker_B", "text": "Not prominently flagged . Okay . A communication flaw . Okay . So we can now that's now just lovely . And there won't be any crazy scores anymore ."}
+{"timestamp": "56:49", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "56:54", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "57:13", "speaker": "Speaker_B", "text": "Oh . I have to use a new page ."}
+{"timestamp": "57:14", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "57:21", "speaker": "Speaker_D", "text": "Yeah . Yeah ."}
+{"timestamp": "57:25", "speaker": "Speaker_D", "text": "No . No the the the there's there's very small graphical bugs . But it's it's not it's not big thing . It's like couple of white pixels uh in the course of a in the course of a the course of a task . So it's there's distracting ."}
+{"timestamp": "57:29", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "57:37", "speaker": "Speaker_A", "text": "Nothing important and noth nothing big enough they're gonna look at it , right ?"}
+{"timestamp": "57:39", "speaker": "Speaker_C", "text": "No ."}
+{"timestamp": "57:40", "speaker": "Speaker_D", "text": "No ."}
+{"timestamp": "57:40", "speaker": "Speaker_B", "text": "Alright . So the last I think I'm sorry , you know , I had as assorted emails from you and I was probably didn't catch everything . The problem was that there are two Camtasia records ."}
+{"timestamp": "57:50", "speaker": "Speaker_C", "text": "Yes . There will now have to be two Camtasia records because uh e each person actually sees a different screen because of the gaze feedback . They don't see their own gaze to the other person . So there'll need to be two separate Camtasia videos generated ."}
+{"timestamp": "57:58", "speaker": "Speaker_B", "text": "They don't see their own gaze . They see the o only the other guy's gaze , right ."}
+{"timestamp": "58:00", "speaker": "Speaker_A", "text": "Yep . Yeah ."}
+{"timestamp": "58:04", "speaker": "Speaker_A", "text": "Yeah , yeah . I know . Oh , do you need two copies of Camtasia to do that ?"}
+{"timestamp": "58:12", "speaker": "Speaker_B", "text": "Huh huh ."}
+{"timestamp": "58:14", "speaker": "Speaker_D", "text": "Yeah , but then the que the que the question is there a licence for Camtasia where you just need one editing c thing and two recording things . 'Cause yeah , the r the recording yeah , the recording thi pro program is just quite a it's quite a small program . They just gen it just generates the video and so I don't know don't know if it's worth having a look at the licensing for that just to see ."}
+{"timestamp": "58:33", "speaker": "Speaker_A", "text": "So you're gonna look into this , right ?"}
+{"timestamp": "58:49", "speaker": "Speaker_A", "text": "I c I never pre-judge licences until I've read 'em ."}
+{"timestamp": "58:58", "speaker": "Speaker_A", "text": "So uh well and um hold on , before we get go any further . So this has implications for data storage , right ? Because w um it means we've got well no , this is three times , right , 'cause we've got oh no , we're gonna build we're gonna use JavaScript to build the videos on the fly , right , 'cause it's fast . So the the permanent storage is just the Camtasia stuff . So uh is that a problem ? Where are we putting things ?"}
+{"timestamp": "59:04", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "59:15", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "59:26", "speaker": "Speaker_B", "text": "Is there mm . Is there such a thing um as um , you know , dual track video ? Because you can certainly mix things . Um what ideally one wants one doesn't really want to l to have these things . Uh um because we're using them for back-up and for coding . We don't really want to play them independently . We do almost always want to use them in exactly in parallel . Time aligned ."}
+{"timestamp": "59:26", "speaker": "Speaker_C", "text": "Uh mm . Hmm . Mm-hmm . Mm-hmm ."}
+{"timestamp": "59:41", "speaker": "Speaker_A", "text": "Oh we can we can put 'em in the same thing , right ?"}
+{"timestamp": "59:48", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "59:54", "speaker": "Speaker_C", "text": "Well the other problem is uh Camtasia has to be manually launched on both machines separately ."}
+{"timestamp": "00:01", "speaker": "Speaker_A", "text": "So the synchronization's gonna be a problem ."}
+{"timestamp": "00:02", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "00:06", "speaker": "Speaker_C", "text": "Uh during the task there is a flash and a bleep ."}
+{"timestamp": "00:10", "speaker": "Speaker_C", "text": "Oh I mean not during the task . Uh before . For each task . Yes . Yes ."}
+{"timestamp": "00:13", "speaker": "Speaker_A", "text": "Yeah , before the task ."}
+{"timestamp": "00:14", "speaker": "Speaker_B", "text": "Okay . So that we'd have to re-align them . We couldn't dump them from their start points . Well , maybe you could . The thing that you're dumping them onto just starts running with the flash and the bleep . You turn on the two copies whenever at different times . But they're still no ? Is the what what i th what are they I don't really understand the the parts that are operating here . Two videos are turning on . There is no time stamp that comes from some common source ."}
+{"timestamp": "00:42", "speaker": "Speaker_C", "text": "No , they're they're on two s the two separate machines and the you you start and end them separately . The they they're not talking to each other . They're just recording . You start it recording and it starts recording what's on one screen . And you start the other recording on the other machine . And they're they're totally separate . They don't know about the other one ."}
+{"timestamp": "00:43", "speaker": "Speaker_A", "text": "No ."}
+{"timestamp": "00:45", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "00:53", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "00:58", "speaker": "Speaker_B", "text": "Right . Okay ."}
+{"timestamp": "01:00", "speaker": "Speaker_A", "text": "These are ba these are back-ups . Right . So the flash get allows you to hand-synchronize them later if you need to by stripping extra video off the front . As long as you make sure you start 'em before the flash then you're fine . But it will there's a a cost of having to go to back-up , which is synchronizing them ."}
+{"timestamp": "01:02", "speaker": "Speaker_B", "text": "Right , is there a div mm ."}
+{"timestamp": "01:06", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "01:07", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "01:12", "speaker": "Speaker_C", "text": "Yep ."}
+{"timestamp": "01:12", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "01:13", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "01:18", "speaker": "Speaker_B", "text": "Mm-hmm . So they'll include things like the um the eye tracker calibration , right , which is not a bad thing actually . Because sometimes you wanna go back and find out if this was just a particularly duff subject . . Right . Yeah . And hand every time we re-calibrated the damn thing slipped , yeah ."}
+{"timestamp": "01:24", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "01:41", "speaker": "Speaker_A", "text": "Oh okay . So you so you should start the Camtasia really early then ."}
+{"timestamp": "01:41", "speaker": "Speaker_B", "text": "That actually helps . I mean that ni"}
+{"timestamp": "01:44", "speaker": "Speaker_B", "text": "Right . Yep ."}
+{"timestamp": "01:47", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "01:47", "speaker": "Speaker_A", "text": "Right . Okay ."}
+{"timestamp": "01:48", "speaker": "Speaker_B", "text": "Right . No , they that actually saves you hours trying to make somebody's data smooth out when it won't . Because yeah . That's a technical term . That's a a technical categorization in psychological research ."}
+{"timestamp": "01:52", "speaker": "Speaker_C", "text": "Mm-hmm . You go back and actually yes , they were crap . Isn't that the answer ? Yeah . Um yes . The other thing we were getting sorted out was the the microphones . 'Cause only one of the uh Camtasia videos will actually have the soundtrack ."}
+{"timestamp": "02:14", "speaker": "Speaker_B", "text": "And that's because ?"}
+{"timestamp": "02:26", "speaker": "Speaker_B", "text": "Well we need sound we we need real sound recording , right . That's that's two track . That's stereo ."}
+{"timestamp": "02:31", "speaker": "Speaker_C", "text": "Uh yeah . So the at at at the moment it's ins well , what we've finally just uh at twelve o'clock today looks like we've got it sussed um is to get one channel one microphone being the left channel and one being the right channel to merge into a stereo single file . Uh unfortunately the on one machine ."}
+{"timestamp": "02:35", "speaker": "Speaker_B", "text": "Alright ."}
+{"timestamp": "02:47", "speaker": "Speaker_B", "text": "Uh-huh ."}
+{"timestamp": "02:49", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "03:00", "speaker": "Speaker_C", "text": "The display P_C_s . Yeah , the Camtasia v video ."}
+{"timestamp": "03:05", "speaker": "Speaker_C", "text": "Or m m multi-media thing ."}
+{"timestamp": "03:08", "speaker": "Speaker_B", "text": "On Camtasia ."}
+{"timestamp": "03:08", "speaker": "Speaker_A", "text": "That's not where you're putting it . I mean u"}
+{"timestamp": "03:09", "speaker": "Speaker_D", "text": "Mm ."}
+{"timestamp": "03:10", "speaker": "Speaker_B", "text": "That's our only sound record ?"}
+{"timestamp": "03:10", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "03:12", "speaker": "Speaker_C", "text": "Yes ."}
+{"timestamp": "03:19", "speaker": "Speaker_C", "text": "Yep . It's Camtasia that's recording it ."}
+{"timestamp": "03:21", "speaker": "Speaker_A", "text": "What before we were gonna use Camtasia at all , what well what we were gonna do what were we going to do with the sound ?"}
+{"timestamp": "03:22", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "03:30", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "03:30", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "03:31", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "03:44", "speaker": "Speaker_A", "text": "So uh ha wou is there any sound degradation that comes about from putting this through Camtasia rather than running it out straight ?"}
+{"timestamp": "03:45", "speaker": "Speaker_B", "text": "How good is it ?"}
+{"timestamp": "03:47", "speaker": "Speaker_B", "text": "Yeah . Have to really question ."}
+{"timestamp": "03:56", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "04:03", "speaker": "Speaker_A", "text": "Okay . So what you're planning on doing it is bunging it on one of the Camtasia tracks and then splicing it off the Camtasia track ."}
+{"timestamp": "04:16", "speaker": "Speaker_A", "text": "It's an easy bit of yeah ."}
+{"timestamp": "04:18", "speaker": "Speaker_A", "text": "And then you're gonna bung it on the other Camtasia track too if you need it , right ? But we'll just we're gonna store all three separately then . And the sound is going to start at the same time as one of that arbitrary one of the Camtasia videos . But you'll know when the real experiment you'll know the relationship between that and the eye tracker timings ?"}
+{"timestamp": "04:18", "speaker": "Speaker_B", "text": "And then then they can do sound analysis on that ."}
+{"timestamp": "04:39", "speaker": "Speaker_D", "text": "Uh yeah . Because the the synchronization , the audio and vi the audio visual synchronisation comes at a specific point in the eye track file ."}
+{"timestamp": "04:50", "speaker": "Speaker_A", "text": "Yeah . No human intervention required . It's time-stamped ."}
+{"timestamp": "04:53", "speaker": "Speaker_D", "text": "No , it's yeah th it's i i sta stamped into it . So it's just after just after it prints the line starting experiment uh uh yeah . I'll I'm pretty sure it's just yeah ."}
+{"timestamp": "05:08", "speaker": "Speaker_A", "text": "Yeah . But ho hold on . Do we need that ? I mean it I I thought the way that Tim had this set up originally , um the audio uh w the time stamps used there would be joint time stamps between the audio and the eye tracker , so that , you know , uh the audio record ten seconds in was the same as ten seconds into the eye tracker record so that we didn't have to do any extra hand work , you know , any uh chopping the starts of audio signals to get there was nothing okay ."}
+{"timestamp": "05:08", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "05:40", "speaker": "Speaker_A", "text": "So we're relying on your MATLAB script to get us the chopped version of the audio , right ?"}
+{"timestamp": "05:52", "speaker": "Speaker_A", "text": "Right , so we can either adjust the eye trai track data or we can actually chop the audio signal to take off the first whatever , however many seconds ."}
+{"timestamp": "05:52", "speaker": "Speaker_B", "text": "Oh okay ."}
+{"timestamp": "05:57", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "05:59", "speaker": "Speaker_B", "text": "Right . So we there's gonna be a way to , sooner or later , to align the eye track , Camtasia one , Camtasia two with two sound channels ."}
+{"timestamp": "06:09", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "06:11", "speaker": "Speaker_A", "text": "Yeah , but uh but d um the uh lining up the Camtasia two is gonna take we w he's working on a MATLAB script for the sound but not for so the one that's got the sound on it , that'll also tell you where to chop the video to get it to line up . The one that doesn't have the sound on it , it won't ."}
+{"timestamp": "06:11", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "06:25", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "06:34", "speaker": "Speaker_B", "text": "Ah , the bleep we'll find ."}
+{"timestamp": "06:36", "speaker": "Speaker_D", "text": "Oh yeah ."}
+{"timestamp": "06:44", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "06:55", "speaker": "Speaker_A", "text": "'Kay . How confident are you about the finding these things ?"}
+{"timestamp": "07:00", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "07:08", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "07:22", "speaker": "Speaker_A", "text": "Yeah . Okay ."}
+{"timestamp": "07:26", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "07:32", "speaker": "Speaker_A", "text": "Yeah . 'Cause this this is the drop-out test . Yep . Okay ."}
+{"timestamp": "07:32", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "07:40", "speaker": "Speaker_A", "text": "Yeah , yeah ."}
+{"timestamp": "07:43", "speaker": "Speaker_B", "text": "Right . Okay . So when you've when you've pressed we're finished , it pings back at you ? Okay ."}
+{"timestamp": "07:47", "speaker": "Speaker_D", "text": "Yep . Yep ."}
+{"timestamp": "07:51", "speaker": "Speaker_B", "text": "It's just that all kinds of crazy things happen when you're running things , and so up saving a percentage of a trial is sometimes a good i you know , being able to do that is sometimes a good idea . Okay ."}
+{"timestamp": "07:59", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "08:14", "speaker": "Speaker_A", "text": "Oh yeah ."}
+{"timestamp": "08:15", "speaker": "Speaker_D", "text": "Yes , it's a stereo jack . It's a stereo jack . But it's a mono but it's a mono uh microphone . Mono mono recording on microphones . Line in . Uh sp going going through a line in . So it's a so it's a lit so it's quieter because it's not as though it's not powered . But it's still , think , yeah . We we still pick up a signal ."}
+{"timestamp": "08:23", "speaker": "Speaker_A", "text": "Oh right , okay . Yeah ."}
+{"timestamp": "08:36", "speaker": "Speaker_B", "text": "Can w"}
+{"timestamp": "08:44", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "08:46", "speaker": "Speaker_B", "text": "Yeah , I mean it's it's crazy . We're in an anechoic room which we specially , yeah , built an anechoic . But , you know , sound room which we specially built for this . We're d in good circumstances . We shouldn't screw it up more than we have to . Is there anything we can do to improve this ?"}
+{"timestamp": "08:48", "speaker": "Speaker_A", "text": "You know ."}
+{"timestamp": "08:50", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "08:53", "speaker": "Speaker_A", "text": "And you're gonna want forced alignment ."}
+{"timestamp": "08:57", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "09:01", "speaker": "Speaker_A", "text": "Oh no . Well no no . Better to collect and sort ."}
+{"timestamp": "09:02", "speaker": "Speaker_B", "text": "No . No , no . Do you have a powered microphone or something ."}
+{"timestamp": "09:14", "speaker": "Speaker_A", "text": "Wait wait , w I I thought the sol that a better solution was fixing this problem with the mono microphone socket . Sound card ?"}
+{"timestamp": "09:15", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "09:22", "speaker": "Speaker_A", "text": "So you said the problem was the m it the m m i is expecting a mono microphone input ."}
+{"timestamp": "09:24", "speaker": "Speaker_D", "text": "The so the sound the sound the s"}
+{"timestamp": "09:25", "speaker": "Speaker_B", "text": "That the line is stereo , the input is mono . Right ? Is that what you said ? Right ."}
+{"timestamp": "09:29", "speaker": "Speaker_D", "text": "Well the yeah , the the yeah , the the the the jack that is that it's plugged into is stereo . But when you plug in when it's recording from microphone , it records in mono ."}
+{"timestamp": "09:33", "speaker": "Speaker_B", "text": "Is ah ."}
+{"timestamp": "09:37", "speaker": "Speaker_A", "text": "So is that fixable ? Like is there any way yeah . Uh I think a new sound card sounds a better solution than monkeying about with trying to filter white noise out ."}
+{"timestamp": "09:40", "speaker": "Speaker_B", "text": "That's somewhere in the sound card ."}
+{"timestamp": "09:41", "speaker": "Speaker_D", "text": "And yeah . A new sound card is fixable ."}
+{"timestamp": "09:46", "speaker": "Speaker_D", "text": "Yeah . Als think we we have a well I suppo I suppose it well one th one thing you do is uh re is record the sou speech signal separately for each for each person . But then you'd have to pull the two pull the two sounds together ."}
+{"timestamp": "10:00", "speaker": "Speaker_A", "text": "Which isn't hard ."}
+{"timestamp": "10:00", "speaker": "Speaker_B", "text": "Yep ."}
+{"timestamp": "10:02", "speaker": "Speaker_A", "text": "But hi but it's only got one input , right ."}
+{"timestamp": "10:03", "speaker": "Speaker_D", "text": "So if uh so if i i if each machine recorded its own with a recorded the recorded like the the p th the uh the user on that one ."}
+{"timestamp": "10:07", "speaker": "Speaker_B", "text": "Its own track , its own video . You have to align the videos anyway , right ?"}
+{"timestamp": "10:11", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "10:17", "speaker": "Speaker_D", "text": "Yeah . Oh they yeah . And then the so the yeah . So th"}
+{"timestamp": "10:21", "speaker": "Speaker_D", "text": "Yeah , it's easy . Easy . If if nothing if nothing else you h uh if nothing else you can do it in a MATLAB script . You just write read read file one , read file two . And then you just yeah ."}
+{"timestamp": "10:21", "speaker": "Speaker_B", "text": "Well I'm not the technical person who would do it . But I know who to ask ."}
+{"timestamp": "10:26", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "10:26", "speaker": "Speaker_A", "text": "Yeah , yeah ."}
+{"timestamp": "10:28", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "10:29", "speaker": "Speaker_A", "text": "So is there any reason why we wou don't do that ?"}
+{"timestamp": "10:37", "speaker": "Speaker_D", "text": "Yeah , but then the the the MATLAB the MATLAB script will tell you how l it will tell you how far apart they are . 'Cause you can do you can just measure the drift between the two of them . 'Cause you got a l you got a list of where the where the beeps are . And then you say right , this stream is like , I don't know , nought point two five seconds behind the other one ."}
+{"timestamp": "10:50", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "10:57", "speaker": "Speaker_A", "text": "Yeah . Well , it's in the old days we probably would have want a little if they'd been in the same room we would have had a little stereo thing in the background as backup as well just to make sure . 'Cause it's slightly dicier you know , if his scripts don't work then you don't get the overlap ."}
+{"timestamp": "11:05", "speaker": "Speaker_B", "text": "Mm-hmm . Mm-hmm ."}
+{"timestamp": "11:10", "speaker": "Speaker_B", "text": "Yeah , I wanna see several of them . I wanna see I wanna see one of them um look really nice before we start running subjects . Can we do that ?"}
+{"timestamp": "11:20", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "11:21", "speaker": "Speaker_B", "text": "Yes , that's right ."}
+{"timestamp": "11:29", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "11:52", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "11:57", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "12:00", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "12:03", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "12:03", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "12:05", "speaker": "Speaker_A", "text": "Do do they both have the same sound card problem ? I wouldn't count on it ."}
+{"timestamp": "12:08", "speaker": "Speaker_D", "text": "They've both got the same sound card ."}
+{"timestamp": "12:09", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "12:10", "speaker": "Speaker_D", "text": "So yeah ."}
+{"timestamp": "12:16", "speaker": "Speaker_B", "text": "Yeah . It's probably worth mentioning this to the to the guys in the garage in Toronto , right . To say mm-hmm ."}
+{"timestamp": "12:23", "speaker": "Speaker_D", "text": "Yes ."}
+{"timestamp": "12:28", "speaker": "Speaker_B", "text": "Mm-hmm . Mm-hmm ."}
+{"timestamp": "12:35", "speaker": "Speaker_D", "text": "Yeah . So the the external version's got plugs that size and that that is stereo microphones . But yeah . The other one's plug's like the smaller size and that isn't stereo . So the colour the colour can do it . It's just that the connectors on the the connectors at the back of the computer can't ."}
+{"timestamp": "12:35", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "12:38", "speaker": "Speaker_B", "text": "Uh-huh ."}
+{"timestamp": "12:40", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "12:52", "speaker": "Speaker_A", "text": "Well uh yeah . I think tell the guys ."}
+{"timestamp": "12:54", "speaker": "Speaker_B", "text": "I think that's a if the documentation said it w could record in stereo then I think we should talk to them about how they've done this . Is you're not sure from the documentation what it says it can do ?"}
+{"timestamp": "13:13", "speaker": "Speaker_A", "text": "To yeah , yeah ."}
+{"timestamp": "13:13", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "13:14", "speaker": "Speaker_D", "text": "Yeah . But as as far far as we can and find the the web site of the , yeah , the the Creative Labs web site and the review of it . Um and they weren't entirely clear . But they both suggested that it is there is a mono that there there is a mono microphone ."}
+{"timestamp": "13:28", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "13:35", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "13:38", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "13:38", "speaker": "Speaker_A", "text": "Yeah , it's just the way they wired it ."}
+{"timestamp": "13:41", "speaker": "Speaker_A", "text": "So um it's getting late and I've got a two o'clock and I've got a nice lunch . So I wanna eat my lunch today . Uh what did you wanna get through today more ? I mean I think I think it was useful going through your expectations about this . 'Cause um that's quite a bit clearer in my head at least and but I think mostly we leave you to go away and re-design the G_D_F_ or add new bits to the G_D_F_ along these lines . And then w"}
+{"timestamp": "13:43", "speaker": "Speaker_B", "text": "Right . Okay ."}
+{"timestamp": "13:48", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "13:53", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "14:07", "speaker": "Speaker_D", "text": "Yeah . So and basically out the output the G_D_F_ is just gonna be a whole series of events , you know , with start and end time . And the event's gonna have whatever all whatever the object uh is that's being looked at and things . Um and then , yeah , and then it's a matter of we're gonna put whatever filters you need after that . So you can say right , I just want so you can say from the time where they picked up triangle one to the part time it became part of the assembly , find out how it's how m percentages of time they were looking at it or whatever ."}
+{"timestamp": "14:10", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "14:13", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "14:16", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "14:19", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "14:24", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "14:32", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "14:34", "speaker": "Speaker_B", "text": "Right . Okay , so when you I mean uh given that there are these events recorded , we can use any of them as the beginning of any of them as a start point , for example , right . Um there are also motions being recorded of objects . Right ."}
+{"timestamp": "14:46", "speaker": "Speaker_D", "text": "Yep . So yeah . So you got mo yeah . There there's move events . There's look events . there's fixations and blinks now at the moment as well . Um and , yeah , and oh yeah and see uh looks at looks at objects and looks whatever else . So um s"}
+{"timestamp": "14:47", "speaker": "Speaker_A", "text": "Yeah , yeah , yeah ."}
+{"timestamp": "14:50", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "14:51", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "14:57", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "14:59", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "15:00", "speaker": "Speaker_A", "text": "But I think the thing to do is um for you to go away and think about it this way with the different tracks for the different objects and the um the kinds of things we've added about whether they're looking at the other person's gaze and what have you , and and try to change the spec so it it reflects this and maybe um oh maybe by that point there will be some sample data or something uh and the right thing to do is for us to look at the sp the spec the way you understand it now and some data . And then Ellen'll have new ideas about what's needed or about these post-analyses , you know , the and then and we can add 'em in . But it's gonna emerge over time . I mean that's clear ."}
+{"timestamp": "15:12", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "15:29", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "15:33", "speaker": "Speaker_D", "text": "Yeah . Yeah I will ."}
+{"timestamp": "15:36", "speaker": "Speaker_B", "text": "So I'm right . Uh that that that's great . I I'd before we break up for lunch I just wanna make sure that tha that I know how long it's gonna be before we're in run mode , okay . So the sound thing the sound thing is stands in our way , we need to be recording sound online . Okay . So that's a thing that has to be solved . The shape thing is solved ."}
+{"timestamp": "15:50", "speaker": "Speaker_A", "text": "Oh , so the spec to the other conversation , yeah ."}
+{"timestamp": "16:04", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "16:05", "speaker": "Speaker_B", "text": "We think ."}
+{"timestamp": "16:07", "speaker": "Speaker_B", "text": "We believe . Right . So that's that that that should be done this week . Um in fact like tomorrow for example . Um the shape all the shape problems are solved . Generating shapes , no problem . Um scoring shape overlap , no problem . Nothing is problem there . There are no visual display problems ."}
+{"timestamp": "16:09", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "16:27", "speaker": "Speaker_A", "text": "Well you don't have your models , or do you ?"}
+{"timestamp": "16:35", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "16:49", "speaker": "Speaker_B", "text": "Ah ."}
+{"timestamp": "17:03", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "17:07", "speaker": "Speaker_A", "text": "Yeah . Well , uh anything you actually need fixed ."}
+{"timestamp": "17:11", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "17:11", "speaker": "Speaker_A", "text": "You know ."}
+{"timestamp": "17:11", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "17:12", "speaker": "Speaker_B", "text": "Okay . S"}
+{"timestamp": "17:21", "speaker": "Speaker_A", "text": "Well , i but he wasn't gonna be booking any time to us after the thirty first of October . So um"}
+{"timestamp": "17:29", "speaker": "Speaker_A", "text": "that that means that any bugs that need fixed are now Craig's responsibility , right ? You don't know have any change on that , right ?"}
+{"timestamp": "17:34", "speaker": "Speaker_D", "text": "Okay . Fair enough ."}
+{"timestamp": "17:38", "speaker": "Speaker_A", "text": "'Cause he that's what he said to us originally . So I would assume , you know , no more contact with Joe . It's not fair to get work out of somebody for free . So you know , ask Craig instead ."}
+{"timestamp": "17:38", "speaker": "Speaker_B", "text": "Um I haven't I haven't had any discussions with him since ."}
+{"timestamp": "17:47", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "17:51", "speaker": "Speaker_B", "text": "Well , he's ph he's physically here . If we want to pay him for some more time we can do that . Would that be a just better use of our time in get"}
+{"timestamp": "17:51", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "18:02", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "18:03", "speaker": "Speaker_A", "text": "Well w he wasn't paid in advance . He's being paid in arrears . So it doesn't matter ."}
+{"timestamp": "18:07", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "18:21", "speaker": "Speaker_B", "text": "Right . But if um if everybody has a lot to do and , you know , Joe could give it a couple of hours , which i is what it might take just to fix it , then let's do it because starting run-time is now getting to be fairly urgent ."}
+{"timestamp": "18:31", "speaker": "Speaker_A", "text": "Yeah . I if he can give it , you know , like because the problem is you gotta have an immediately when you discover a bug in that . And we can make Craig shift all his other priorities to do this 'cause we bought him . Right . Yeah . So it's a kinder way . It yeah ."}
+{"timestamp": "18:33", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "18:36", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "18:40", "speaker": "Speaker_B", "text": "Right . Right . But we can't we can't make Joe do this ec alright , so there's uh some trade-off between availability and speed from start to finish , given that this is somebody else's code . So you know ."}
+{"timestamp": "18:51", "speaker": "Speaker_D", "text": "Well yeah . Yeah ."}
+{"timestamp": "19:00", "speaker": "Speaker_A", "text": "And how many models do you need to completion ? And how long does that take ?"}
+{"timestamp": "19:04", "speaker": "Speaker_B", "text": "We have the design somewhere ."}
+{"timestamp": "19:08", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "19:12", "speaker": "Speaker_A", "text": "And you know about complexity ?"}
+{"timestamp": "19:16", "speaker": "Speaker_A", "text": "You're waiting on Marloes ."}
+{"timestamp": "19:17", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "19:23", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "19:24", "speaker": "Speaker_A", "text": "You can cold call her today , this afternoon ."}
+{"timestamp": "19:29", "speaker": "Speaker_B", "text": "Yeah . I think so . 'Cause um I have to check back with"}
+{"timestamp": "19:57", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "19:59", "speaker": "Speaker_B", "text": "Ads go up . Yeah , I do . I do . But I think ad should probably go up this week . We want people for n for next week . Is that okay ? Is anybody now terrified at the thought that we're live next week ? There are people coming in here one after another . Or p two two after two , more likely . Yeah . Yeah . Okay , is the is this is this generalised is this generalised anxiety , Robin ? Or do you have a specific thing that okay . So aside from the usual angst which we all suffer when we go live . So we w we wanna do some piloting at the end of the week ?"}
+{"timestamp": "20:07", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "20:27", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "20:36", "speaker": "Speaker_D", "text": "Yep . Yeah . So we'll we'll get we'll get the get the audio stuff tested , you know , single microphones . Um yeah . Get that tested next couple days and I assu I assume that's not something you need me for t in terms of that ."}
+{"timestamp": "20:37", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "20:44", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "20:48", "speaker": "Speaker_B", "text": "Right . S"}
+{"timestamp": "20:54", "speaker": "Speaker_B", "text": "Right . She's using but she's actually relaxed that somewhat . Yeah ."}
+{"timestamp": "20:59", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "21:05", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "21:11", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "21:20", "speaker": "Speaker_A", "text": "So you can dash in there for half an hour at a time ? Doesn't sound very useful for you ."}
+{"timestamp": "21:26", "speaker": "Speaker_A", "text": "Uh-huh . Okay , well . You guys sort it out ."}
+{"timestamp": "21:28", "speaker": "Speaker_B", "text": "Okay . We've but we have we have a solid booking for all the mornings anyway . Right ? And l except by permission of us , alright . We own it . Um so we can change that . I mean they everybody acknowledged the the other week that we that we had priority . Oh yeah . Yeah , yeah , yeah . Oh yeah , yeah . Oh yeah , yeah . Don't worry . Um there's there's a booking system , right . So it's public what's booked and what isn't ."}
+{"timestamp": "21:36", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "21:54", "speaker": "Speaker_A", "text": "Mm-hmm . I thought that was the problem that your mornings weren't sliced off on the booking system ."}
+{"timestamp": "21:55", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "22:00", "speaker": "Speaker_B", "text": "No ."}
+{"timestamp": "22:20", "speaker": "Speaker_B", "text": "Huh ."}
+{"timestamp": "22:22", "speaker": "Speaker_A", "text": "Yeah . And what are the instr what are the people upstairs downstairs have um i you know , as rules about who you hand the keys to . 'Cause , you know , we like people to know to ground the oh I thought the the lending for the booking system Caroline ."}
+{"timestamp": "22:22", "speaker": "Speaker_B", "text": "Right ."}
+{"timestamp": "22:36", "speaker": "Speaker_B", "text": "Oh I see ."}
+{"timestamp": "22:39", "speaker": "Speaker_B", "text": "From Caroline ? Or the general office ? The general office . I see ."}
+{"timestamp": "22:45", "speaker": "Speaker_B", "text": "But no , they need a they need an account on this machine to actually to use it . They need account on these machines so that they could book . They couldn't actually log in . Mm-hmm . Okay . We're also working on a way of making sure that the matin that the machines return to zero state when they're when you come off them . because the it's the people have been leaving var um well , people have been leaving various bits of who knows what around on them , right , which which we think is what's critical ."}
+{"timestamp": "22:49", "speaker": "Speaker_A", "text": "Oh okay , so that's the safety . And you control those accounts . Oh okay , that's fair enough . Okay ."}
+{"timestamp": "23:21", "speaker": "Speaker_A", "text": "Yeah , yeah . Okay . I really have to get out of here . So um what else is important before you run ?"}
+{"timestamp": "23:25", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "23:30", "speaker": "Speaker_A", "text": "Nothing , right ?"}
+{"timestamp": "23:30", "speaker": "Speaker_B", "text": "Um piloting piloting piloting . You have we have to build the things . We have to try the machi th things . We have to check them with Marloes and J_P_ that they like the representation , the variables , right . How about uh you have any time on Friday ?"}
+{"timestamp": "23:33", "speaker": "Speaker_A", "text": "You got uh willing heads ."}
+{"timestamp": "23:49", "speaker": "Speaker_B", "text": "I get a email back . Maybe you and I should be the pilot subjects . First pilot subjects , the ones who um know which questions we wanna ask . And then we should get another pair who are naive to the whole thing ."}
+{"timestamp": "24:01", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "24:04", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "24:06", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "24:25", "speaker": "Speaker_A", "text": "Hmm . So do you know what time of day you might want ? 'Cause I should c I should check that ."}
+{"timestamp": "24:36", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "24:44", "speaker": "Speaker_A", "text": "You all have to b you'll have to be there to when it falls over ."}
+{"timestamp": "24:54", "speaker": "Speaker_A", "text": "Yeah . Okay ."}
+{"timestamp": "24:58", "speaker": "Speaker_A", "text": "So that all sounds f good fun ."}
+{"timestamp": "25:13", "speaker": "Speaker_A", "text": "Well I can just leave you guys here , you know ."}

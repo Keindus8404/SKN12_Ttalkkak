@@ -1,0 +1,1013 @@
+﻿"[00:12] me013 | And uh Hans - uh , Hans - Guenter will be here , um , I think by next next Tuesday or so ."
+"[00:20] mn052 | Oh , OK ."
+[00:23] mn052 | Oh ! That 's nice .
+[00:24] me018 | Just for a visit ?
+"[00:25] me013 | Uh , we 'll see ."
+[00:27] me013 | We might might end up with some longer collaboration or something . So he 's gonna look in on everything we 're doing and
+[00:27] me018 | Huh .
+[00:30] me018 | Cool .
+[00:30] mn007 | Mm - hmm .
+[00:34] me013 | give us his his thoughts . And so it 'll be another another good person looking at things .
+[00:38] mn052 | Oh . Hmm .
+[00:40] me026 | Th - that 's his spectral subtraction group ? Is that right ?
+"[00:42] me013 | Yeah , yeah ."
+"[00:42] me026 | Oh , OK . So I guess I should probably talk to him a bit too ?"
+"[00:45] me013 | Oh , yeah . Yeah ."
+"[00:46] me013 | Yeah . No , he 'll be around for three weeks . He 's , uh , um , very , very , easygoing , easy to talk to , and , uh , very interested in everything ."
+[00:53] me018 | Really nice guy .
+"[00:54] me013 | Yeah , yeah ."
+"[00:55] mn052 | Yeah , we met him in Amsterdam ."
+"[00:59] mn052 | Oh , OK . I haven't noticed him ."
+[01:03] me013 | N nine months . Something like that . Yeah .
+[01:05] me018 | Yeah .
+[01:05] me013 | Yeah . He 's he 's done a couple stays here . Yeah .
+[01:08] mn052 | Hmm .
+"[01:11] me018 | So , um , I guess we got lots to catch up on . And we haven't met for a couple of weeks . We didn't meet last week , Morgan ."
+"[01:18] me018 | Um , I went around and talked to everybody , and it seemed like they they had some new results but rather than them"
+"[01:24] me018 | coming up and telling me I figured we should just wait a week and they can tell both you know , all of us ."
+"[01:31] me018 | why don't we why don't we start with you , Dave , and then , um , we can go on . So ."
+"[01:34] me026 | Oh , OK ."
+"[01:41] me026 | mean log m magnitude spectral subtraction , um , into the SmartKom system ,"
+"[02:07] me018 | Twelve twelve seconds back from the current frame , is that what you mean ?"
+"[02:10] me026 | Twelve seconds , um , counting back from the end of the current frame , yeah . So it was , um , twen I think it was twenty - one frames and that worked out to about twelve seconds ."
+"[02:14] me018 | OK , OK ."
+[02:19] me018 | Mm - hmm .
+[02:28] me013 | Mm - hmm .
+[02:28] me018 | Hmm !
+[02:28] me026 | Is is that right ?
+[02:32] me026 | Uh - huh .
+"[02:34] me026 | So that was encouraging . And , um ,"
+"[02:37] me026 | that that um , that 's encouraging for for the idea of using it in an interactive system like SmartKom."
+"[02:44] me026 | And , um , another issue I 'm I 'm thinking about is in the SmartKom system . So say twe twelve seconds in the earlier test seemed like a good length of time , but what happens if you have less than twelve seconds ?"
+"[02:58] me026 | So I w bef before , um Back in May , I did some experiments using , say , two seconds , or four seconds , or six seconds ."
+"[03:05] me026 | In those I trained the models using mean subtraction with the means calculated over two seconds , or four seconds , or six seconds . And , um ,"
+"[03:32] me026 | I mean , I th I think it was , um , four se"
+"[03:36] me026 | I think I think it was , um , something like four seconds and ,"
+"[03:41] me026 | um , six seconds , and eight seconds . Something like that . And it seems like it it it hurts compared to if you actually train the models using th that same length of time but it it doesn't hurt that much . Um ,"
+"[03:53] me026 | u usually less than point five percent , although I think I did see one where it was a point eight percent or so rise in word error rate . But this is , um ,"
+"[04:04] me026 | w where , um , even if I train on the , uh , model , and mean subtracted it with the same"
+"[04:11] me026 | length of time as in the test , it the word error rate is around , um , ten percent or nine percent . So it doesn't seem like that big a d a difference ."
+"[04:26] me026 | That that 's true . Um ,"
+"[04:30] me013 | I mean , why would you do it , if you knew that you were going to have short windows in testing ."
+[04:30] me026 | Wa -
+"[04:33] me018 | Yeah , it seems like for your I mean , in normal situations you would never get twelve seconds of speech , right ?"
+"[04:40] mn052 | You need twelve seconds in the past to estimate , right ?"
+[04:41] me018 | I 'm not e u
+[04:43] me013 | Yeah .
+"[04:44] me026 | Um , t twelve s"
+[04:47] me026 | N n uh For the test it 's just twelve seconds in the past .
+"[04:47] me013 | No , total ."
+"[04:48] mn052 | Oh , OK ."
+"[04:50] me018 | Is this twelve seconds of uh , regardless of speech or silence ? Or twelve seconds of speech ?"
+[04:55] me026 | Of of speech .
+[04:56] me018 | OK .
+[04:57] mn052 | Mm - hmm .
+"[05:03] me013 | that , um , I wonder if you trained with twelve seconds , and then when you were two seconds in"
+"[05:09] me013 | you used two seconds , and when you were four seconds in , you used four seconds , and when you were six and you basically build up to the twelve seconds . So that if you have very long utterances you have the best ,"
+[05:15] me026 | Yeah .
+[05:18] me013 | but if you have shorter utterances you use what you can .
+[05:21] me026 | Right . And that 's actually what we 're planning to do in SmartKom.
+[05:24] me013 | OK .
+"[05:25] me026 | But s so I g So I guess the que the question I was trying to get at with those experiments is ,"
+[05:25] me013 | Yeah .
+"[05:29] me026 | "" does it matter what models you use ? Does it matter how much time y you use to calculate the mean when you were , um , tra doing the training data ? """
+[05:38] me013 | Right .
+"[05:48] me013 | mean cepstral subtraction , especially the way you 're doing it , uh , as being a kind of filter ."
+"[05:54] me013 | And so , the other thing is just to design a filter ."
+"[05:57] me013 | You know , basically you 're you 're you 're doing a high - pass filter or a band - pass filter of some sort and and just design a filter ."
+"[06:04] me013 | And then , you know , a filter will have a certain behavior and you loo can look at the start up behavior"
+[06:09] me026 | Mm - hmm .
+"[06:09] me013 | when you start up with nothing . And and , you know , it will , uh , if you have an IIR filter for instance , it will , um ,"
+"[06:17] me013 | uh , not behave in the steady - state way that you would like it to behave until you get a long enough period , but , um ,"
+[06:35] me013 | filters have all sorts of be temporal and spectral behaviors .
+[06:38] me026 | Mm - hmm .
+"[06:39] me013 | And the only thing , you know , consistent that we know about is that you want to get rid of the very low frequency component ."
+[06:45] me026 | Hmm .
+"[06:54] me026 | Um ,"
+[06:56] me026 | you do you mean in my tests so far ?
+[06:57] mn052 | Ye - yeah .
+[06:59] me026 | Most of the silence has been cut out .
+[07:01] mn052 | OK .
+[07:02] me026 | Just There 's just inter - word silences .
+"[07:04] mn052 | Mm - hmm . And they are , like , pretty short . Shor - Yeah , OK . Yeah ."
+[07:06] me026 | Pretty short . Yeah .
+[07:09] mn052 | Mm - hmm .
+[07:12] mn052 | So you really need a lot of speech to estimate the mean of it .
+[07:17] mn052 | Yeah .
+[07:17] mn052 | Uh - huh .
+[07:18] me026 | I saw in my test before .
+[07:20] me026 | I was trying twelve seconds cuz that was the best in my test before and that increasing past twelve seconds didn't seem to help .
+[07:23] mn052 | OK .
+[07:27] mn052 | Hmm .
+[07:30] mn052 | Huh .
+"[07:30] me026 | th um , yeah , I guess it 's something I need to play with more to decide how to set that up for the SmartKom system . Like ,"
+[07:38] me026 | may maybe if I trained on six seconds it would work better when I only had
+"[07:49] me013 | Yeah , and again , if you take this filtering perspective and if you"
+"[07:54] me013 | essentially have it build up over time . I mean , if you computed means over two and then over four , and over six , essentially what you 're getting at is a kind of ,"
+"[08:01] me013 | uh , ramp up of a filter anyway . And so you may may just want to think of it as a filter . But , uh , if you do that ,"
+"[08:07] me013 | then , um , in practice somebody using the SmartKom system , one would think if they 're using it for a while ,"
+"[08:14] me013 | it means that their first utterance , instead of , you know , getting , uh , a forty percent error rate reduction , they 'll get a uh , over what , uh , you 'd get without this , uh , um , policy ,"
+"[08:27] me013 | uh , you get thirty percent . And then the second utterance that you give , they get the full you know , uh , full benefit of it if it 's this ongoing thing ."
+[08:39] me026 | M
+[08:40] me018 | Ah . OK .
+[08:45] me018 | OK .
+"[08:45] me013 | you know , they 'll say something first . And and to begin with if it doesn't get them quite right , ma m maybe they 'll come back and say , "" excuse me ? "" uh , or some I mean it should have some policy like that anyway ."
+[08:52] me018 | Mm - hmm .
+[08:55] me018 | Mm - hmm .
+"[08:55] me013 | And and , uh ,"
+"[08:57] me013 | uh , in any event they might ask a second question . And it 's not like what he 's doing doesn't , uh , improve things . It does improve things , just not as much as he would like ."
+"[09:08] me013 | And so , uh , there 's a higher probability of it making an error ,"
+"[09:12] me013 | uh , in the first utterance ."
+"[09:19] me018 | could have a system where , before they began to use it they had to introduce themselves ,"
+[09:24] me013 | Mm - hmm .
+"[09:24] me018 | verbally . You know . "" Hi , my name is so - and - so , I 'm from blah - blah - blah . "" And you could use that initial speech to do all these"
+[09:25] me013 | Yeah .
+[09:30] me026 | Mm - hmm .
+[09:30] me013 | Right .
+"[09:32] me013 | Oh , the other thing I guess which which , uh ,"
+"[09:35] me013 | I don't know much about as much as I should about the rest of the system but but , um ,"
+"[09:40] me013 | couldn't you , uh ,"
+"[09:42] me013 | if you if you sort of did a first pass I don't know what kind of , uh ,"
+"[09:46] me013 | uh , capability we have at the moment for for doing second passes on on , uh ,"
+"[09:53] me013 | uh , some kind of little small lattice , or a graph , or confusion network , or something . But if you did first pass with , um ,"
+"[10:09] me013 | and then , um , once you , uh , actually had the whole utterance in ,"
+"[10:14] me013 | if you did , um ,"
+"[10:16] me013 | the , uh , uh , longer time version then , based on everything that you had , um , and then at that point only used it to distinguish between ,"
+"[10:27] me013 | you know , top N , um , possible utterances or something ,"
+[10:31] me013 | you you might it might not take very much time .
+"[10:34] me013 | I mean , I know in the large vocabulary stu uh , uh , systems , people were evaluating on in the past ,"
+[10:42] me013 | some people really pushed everything in to make it in one pass but other people didn't and had multiple passes .
+"[10:48] me013 | And , um ,"
+"[10:49] me013 | the argument , um , against multiple passes was u u has often been "" but we want to this to be r you know have a nice interactive response "" ."
+"[10:58] me013 | And the counterargument to that which , say , uh , BBN I think had , was "" yeah , but our second responses are second , uh , passes and third passes are really , really fast "" ."
+[11:07] me018 | Mm - hmm .
+"[11:08] me013 | So , um , if if your second pass takes a millisecond who cares ?"
+[11:13] me013 | Um .
+"[11:15] me026 | S so , um ,"
+"[11:23] me013 | Yeah , so if it turned out to be a problem ,"
+"[11:26] me013 | that you didn't have enough speech because you need a longer longer window to do this processing ,"
+[11:31] me026 | Mm - hmm .
+"[11:38] me013 | is to take in , um , the speech with some simpler mechanism or shorter time mechanism ,"
+"[11:46] me013 | um , do the best you can , and come up with some al possible alternates of what might have been said ."
+"[11:51] me013 | And , uh , either in the form of an N - best list or in the form of a lattice , or or confusion network , or whatever ."
+[11:55] me026 | Mm - hmm .
+"[11:57] me013 | And then the decoding of that is much , much faster or can be much , much faster if it isn't a big bushy network ."
+"[12:05] me013 | And you can decode that now with speech that you 've actually processed using this longer time , uh , subtraction ."
+[12:12] me026 | Mmm .
+"[12:16] me013 | So I mean , it 's it 's common that people do this sort of thing where they do more things that are more complex or require looking over more time , whatever , in some kind of second pass ."
+[12:22] me026 | Mm - hmm .
+[12:24] me026 | OK .
+"[12:25] me013 | um , and again , if the second pass is really , really fast Uh , another one I 've heard of is is in in connected digit stuff ,"
+"[12:33] me013 | um , going back and l and through backtrace and finding regions that are considered to be a d a digit ,"
+"[12:40] me013 | but , uh , which have very low energy ."
+[12:42] me026 | Mm - hmm .
+[12:45] me026 | OK .
+"[12:46] me013 | So , uh I mean , there 's lots of things you can do in second passes , at all sorts of levels . Anyway , I 'm throwing too many things out . But ."
+[13:01] me018 | that it ?
+[13:02] me026 | I guess that 's it .
+"[13:05] me018 | OK , uh , do you wanna go , Sunil ?"
+[13:07] mn052 | Yep .
+"[13:10] mn052 | Um , so ,"
+"[13:12] mn052 | the last two weeks was , like So I 've been working on that Wiener filtering ."
+"[13:16] mn052 | And , uh ,"
+"[13:18] mn052 | found that , uh , s single like , I just do a s normal Wiener filtering , like the standard method of Wiener filtering ."
+[13:26] mn052 | And that doesn't actually give me any
+"[13:30] mn052 | I mean , uh , b it actually improves over the baseline but it 's not like it doesn't meet something like fifty percent or something ."
+"[13:36] mn052 | So , I 've been playing with the v"
+[13:37] me018 | Improves over the base line MFCC system ? Yeah .
+"[13:39] mn052 | Yeah . Yeah . Yeah . So , um So that 's The improvement is somewhere around , like , thirty percent over the baseline ."
+"[13:47] mn052 | No , just just one stage Wiener filter which is a standard Wiener filter ."
+"[13:50] me013 | No , no , but I mean in combination with our on - line normalization or with the LDA ? Oh , OK ."
+"[13:54] mn052 | Yeah , yeah , yeah , yeah . So I just plug in the Wiener filtering ."
+"[13:56] mn052 | I mean , in the s in our system , where So , I di i di"
+"[13:58] me018 | Oh , OK ."
+[14:01] mn052 | No . It actually improves over the baseline of not having a Wiener filter in the whole system .
+[14:09] me013 | Yeah ?
+"[14:09] mn052 | and then I plug in the Wiener filter in that , so it improves over not having the Wiener filter ."
+[14:13] mn052 | So it improves but it it doesn't take it like be beyond like thirty percent over the baseline .
+"[14:20] me013 | But that 's what I 'm confused about , cuz I think I thought that our system was more like forty percent without the Wiener filtering ."
+"[14:26] mn052 | No , it 's like , uh ,"
+[14:28] mn007 | Mmm .
+[14:29] me018 | Is this with the v new VAD ?
+"[14:37] mn052 | nine This is like w the baseline is ninety - five point six eight ,"
+"[14:44] me013 | So I mean , if you can do all these in word errors it 's a lot a lot easier actually ."
+[14:47] mn052 | What was that ? Sorry ?
+"[14:47] me013 | If you do all these in word error rates it 's a lot easier , right ?"
+"[14:50] me013 | OK , cuz then you can figure out the percentages ."
+[14:53] me013 | Yeah .
+[14:53] mn007 | The baseline is something similar to
+"[14:56] mn007 | a w I mean ,"
+"[14:58] mn007 | the t the the baseline that you are talking about is the MFCC baseline , right ?"
+"[15:02] mn052 | The t yeah , there are two baselines . OK . So the baseline One baseline is MFCC baseline that When I said thirty percent improvement it 's like MFCC baseline ."
+[15:06] mn007 | Mm - hmm .
+[15:08] me013 | So so so what 's it start on ? The MFCC baseline is is what ? Is at what level ?
+[15:15] mn052 | it 's just the mel frequency and that 's it .
+"[15:18] me013 | No , what 's what 's the number ?"
+"[15:20] mn052 | Uh , so I I don't have that number here . OK , OK , OK , I have it here ."
+[15:34] me013 | Four point three .
+[15:35] mn052 | Ten point seven .
+[15:37] me013 | What 's ten point seven ?
+[15:39] me013 | Ah .
+[15:48] mn052 | Forty percent is the high mismatch .
+[15:51] me013 | OK .
+[15:57] me013 | Not changed .
+"[15:58] mn052 | Yeah , it 's like ten point one . Still the same ."
+[16:02] mn052 | And the high mismatch is like
+[16:06] mn052 | eighteen point five .
+[16:08] me013 | Eighteen point five . And what were you just describing ?
+"[16:11] mn052 | Oh , the one is this one is just the baseline plus the ,"
+"[16:14] mn052 | uh , Wiener filter plugged into it ."
+"[16:17] me013 | But where 's the , uh , on - line normalization and so on ?"
+"[16:20] mn052 | Oh , OK . So Sorry ."
+"[16:22] mn052 | So , with the with the on - line normalization , the performance was , um ,"
+"[16:27] mn052 | ten OK , so it 's like four point three ."
+"[16:31] mn052 | Uh , and again , that 's the ba the ten point , uh , four"
+[16:37] mn052 | and twenty point one .
+[16:40] mn052 | That was with on - line normalization and LDA .
+[16:43] mn052 | So the h well matched has like literally not changed by adding on - line or LDA on it .
+"[16:51] mn052 | I mean , even the medium mismatch is pretty much the same ."
+[16:54] mn052 | And the high mismatch was improved by twenty percent absolute .
+"[17:01] mn052 | It 's the It - it 's Italian . I 'm talking about Italian , yeah ."
+"[17:03] me013 | Italian ? And what did So , what was the , um ,"
+"[17:07] me013 | uh , corresponding number , say , for ,"
+"[17:10] me013 | um , uh , the Alcatel system for instance ? Do you know ?"
+[17:13] mn052 | Mmm . @ @
+[17:17] mn052 | You have it ?
+"[17:18] mn007 | Yep , it 's"
+"[17:22] mn007 | uh , eight point , uh , seven , and , uh , thirteen point seven ."
+[17:29] me013 | OK . OK .
+[17:30] mn052 | Yep . So Thanks .
+[17:33] mn007 | Mm - hmm .
+[17:40] me013 | OK .
+"[17:40] mn052 | So , uh , this is the"
+[17:45] mn052 | with The noise estimation was based on
+[17:45] me013 | Mm - hmm .
+[17:48] mn052 | first ten frames .
+[17:54] mn052 | it doesn't work for Finnish and Spanish because the VAD endpoints are not good
+"[18:00] mn052 | to estimate the noise because it cuts into the speech sometimes , so I end up overestimating the noise and getting a worse result ."
+[18:06] me013 | Mm - hmm .
+[18:06] mn052 | So it works only for Italian by u for using a VAD to estimate noise . It works for Italian because the VAD was trained on Italian .
+[18:13] me013 | Mm - hmm .
+"[18:19] mn052 | um , this this was like not improving a lot on this baseline of not having the Wiener filter on it ."
+"[18:33] mn052 | estimated the new Wiener filter based on the cleaned up speech ,"
+[18:37] me013 | Mm - hmm .
+"[18:44] mn052 | I mean , I have I 've I 've observed there are , like , a lot of bumps in the frequency when I do this Wiener filtering which is more like a musical noise or something ."
+"[18:51] mn052 | And so by adding another stage of Wiener filtering ,"
+"[18:55] mn052 | the results on the SpeechDat - Car was like ,"
+"[18:59] mn052 | um So , I still don't have the word error rate . I 'm sorry about it . But the overall improvement was like fifty - six point four six ."
+[19:06] mn052 | This was again using ten frames of noise estimate and two stage of Wiener filtering .
+[19:10] mn052 | And the rest is like the LDA plu and the on - line normalization all remaining the same .
+"[19:16] mn052 | Uh , so this was , like , compared to , uh , uh Fifty - seven is what you got by using the French Telecom system , right ?"
+"[19:24] mn007 | No , I don't think so . Is it on Italian ?"
+[19:25] mn052 | Y i
+"[19:29] mn007 | Oh , yeah , fifty - seven Right ."
+"[19:31] mn052 | Yeah , so the new the new Wiener filtering schema is like some fifty - six point four six which is like"
+[19:37] mn007 | Uh - huh .
+[19:37] mn052 | one percent still less than
+[19:39] mn052 | what you got using the French Telecom system .
+[19:42] me013 | But it 's a pretty similar number in any event .
+[19:44] mn052 | It 's very similar .
+"[19:45] me013 | Yeah . But again , you 're you 're more or less doing what they were doing , right ?"
+[19:49] mn052 | It 's it 's different in a sense like I 'm actually cleaning up the cleaned up spectrum which they 're not doing .
+"[19:55] mn052 | They 're d what they 're doing is , they have two stage stages of estimating the Wiener filter ,"
+[20:00] me013 | Yeah .
+[20:08] me013 | Uh - huh .
+"[20:08] mn052 | And they filter the original signal using that fil filter ,"
+[20:11] mn052 | which is like
+[20:13] mn052 | final filter is acting on the input noisy speech rather than on the cleaned up .
+"[20:17] mn052 | So this is more like I 'm doing Wiener filter twice ,"
+[20:21] mn052 | but the only thing is that the second time I 'm actually smoothing the filter and then cleaning up the cleaned up spectrum first level .
+[20:29] me013 | OK .
+"[20:36] mn052 | I mean , the original spectrum where , like , I the second time I estimate the filter but actually clean up the"
+"[20:45] mn052 | seems to be a giving , I mean , that much improvement . I I didn didn't run it for the whole case ."
+"[20:58] mn052 | the VAD is very , like , crucial . I mean , just by changing the VAD itself gives you the a lot of improvement by instead of using"
+"[21:10] mn052 | when instead of using channel zero and channel one ,"
+[21:13] mn052 | because that was the p that was the reason why I was not getting a lot of improvement for estimating the noise .
+[21:18] mn052 | So I just used the channel zero VAD to estimate the noise so that it gives me some reliable mar
+[21:24] mn052 | markers for this noise estimation .
+[21:26] me013 | What 's a channel zero VAD ? I 'm I 'm confused about that .
+[21:28] mn007 | So it 's the close - talking microphone .
+"[21:29] mn052 | Yeah , the close - talking without So because the channel zero and channel one are like the same"
+"[21:30] me013 | Oh , oh , oh , oh ."
+"[21:35] mn052 | speech , but only w I mean , the same endpoints . But the only thing is that the speech is very noisy for channel one , so you can actually use the output of the channel zero for"
+"[21:43] mn052 | channel one for the VAD . I mean , that 's like a cheating method ."
+"[21:46] me013 | Right . I mean , so a are they going to pro"
+"[21:48] me013 | What are they doing to do , do we know yet ?"
+[21:50] me013 | about as far as what they 're what the rules are going to be and what we can use ?
+"[21:52] mn007 | Yeah , so actually I received a a new document , describing this . And what they did finally is to , mmm ,"
+"[22:00] mn007 | uh , not to align the utterances but to perform recognition ,"
+[22:10] mn007 | and to take the result of the recognition to get the boundaries
+[22:10] mn052 | Which is the channel zero .
+"[22:15] mn007 | uh , of speech ."
+[22:16] me013 | So it 's not like that 's being done in one place or one time . That 's that 's just a rule and we 'd you you were permitted to do that . Is is that it ?
+"[22:28] me013 | Oh , so they will send files so everybody will have the same boundaries to work with ?"
+[22:30] mn007 | Yeah .
+[22:31] mn007 | Yeah .
+[22:33] mn052 | But actually their alignment actually is not seems to be improving in like on all cases .
+[22:33] me013 | OK .
+"[22:34] mn007 | Oh , i"
+"[22:37] mn007 | Yeah , so what happened here is that ,"
+"[22:40] mn007 | um , the overall improvement that they have with this method So Well , to be more precise , what they have is , they have these alignments and then"
+"[22:49] mn007 | they drop the beginning silence and and the end silence but they keep ,"
+"[22:55] mn007 | uh , two hundred milliseconds before speech and two hundred after speech . And they keep the speech pauses also ."
+"[23:01] mn007 | Um , and the overall improvement over the MFCC baseline So , when they just ,"
+"[23:08] mn007 | uh , add this frame dropping in addition it 's r uh , forty percent , right ? Fourteen percent , I mean ."
+[23:10] me013 | Mm - hmm .
+[23:15] me013 | Mm - hmm .
+"[23:16] mn007 | Um , which is , um , t"
+"[23:21] mn007 | which is the overall improvement . But in some cases it doesn't improve at all . Like , uh , y do you remember which case ?"
+[23:26] me013 | Mm - hmm .
+"[23:27] mn052 | It gives like negative Well , in in like some Italian and TI - digits , right ?"
+"[23:29] mn007 | Yeah , some @ @ ."
+[23:33] mn007 | Right .
+[23:33] mn052 | Yeah .
+[23:35] mn052 | So by using the
+"[23:37] mn052 | endpointed speech , actually it 's worse than the baseline in some instances , which could be due to the"
+[23:40] mn007 | Mmm .
+"[23:41] mn007 | Yeah . And Yeah , the other thing also is that fourteen percent is less than what you obtain using a real VAD ."
+[23:42] mn052 | word pattern .
+"[23:51] mn052 | Yeah , yeah ."
+[23:53] me013 | Yeah .
+"[23:54] me013 | Yeah , c"
+"[23:58] mn007 | Uh , well , working on the VAD is still still important I think ."
+[24:10] me018 | why are people doing that ? What 's what 's the deal with that ?
+[24:10] mn052 | Hmm .
+"[24:14] mn052 | OK , so"
+"[24:15] mn052 | the Wiener filter ,"
+[24:17] mn052 | it 's it 's like it 's like you
+"[24:20] mn052 | try to minimize I mean , so the basic principle of Wiener filter is like you try to minimize the ,"
+"[24:25] mn052 | uh , d uh , difference between the noisy signal and the clean signal if you have two channels . Like let 's say you have a clean t signal and you have an additional channel where you know what is the"
+[24:34] mn052 | noisy signal . And then you try to minimize the error between these two .
+[24:35] me018 | Mm - hmm .
+[24:37] me018 | Mm - hmm .
+[24:38] mn052 | So that 's the basic principle . And you
+"[24:39] mn052 | get you can do that I mean , if if you have only a c"
+"[24:43] mn052 | noisy signal , at a level which you , you w try to estimate the noise from the w"
+[24:53] me018 | Mm - hmm .
+[24:54] me018 | Do you assume the noise is the same ?
+"[24:56] mn052 | in yeah , after the speech starts ."
+[24:58] me018 | Uh - huh .
+"[24:59] mn052 | but that 's not the case in , uh , many many of our cases but it works reasonably well ."
+[25:02] me018 | I see .
+[25:02] mn052 | And and then you
+"[25:05] mn052 | What you do is you , uh b"
+"[25:07] mn052 | So again , I can write down some of these eq Oh , OK ."
+[25:11] mn052 | Yeah .
+"[25:12] mn052 | And then you do this uh , this is the transfer function of the"
+"[25:15] mn052 | Wiener filter , so "" SF "" is a clean speech spectrum , power spectrum"
+[25:19] me018 | Mm - hmm .
+"[25:19] mn052 | And "" N "" is the noisy power spectrum ."
+[25:21] mn052 | And so this is the transfer function .
+"[25:24] mn052 | And ,"
+[25:28] mn052 | Yeah .
+[25:34] mn052 | And then you multiply your noisy power spectrum with this . You get an estimate of the clean power spectrum .
+"[25:44] mn052 | but the thing is that you have to estimate the SF from the noisy spectrum , what you have ."
+[25:49] mn052 | So you estimate the NF from the initial noise portions
+[25:53] mn052 | and then you subtract that from the current noisy spectrum to get an estimate of the SF .
+[25:59] mn052 | So sometimes that becomes zero because you do you don't have a true estimate of the noise .
+[26:04] mn052 | So the f filter will have like sometimes zeros
+[26:06] me018 | Mm - hmm .
+[26:07] mn052 | in it because some frequency values will be zeroed out because of that .
+[26:10] mn052 | And that creates a lot of
+[26:13] mn052 | discontinuities across the spectrum because @ @ the filter .
+"[26:17] mn052 | So ,"
+"[26:18] mn052 | uh , so that 's what that was just the first stage of Wiener filtering that I tried ."
+"[26:22] me018 | So is this , um ,"
+"[26:24] me018 | basically s uh , similar to just regular spectral subtraction ?"
+"[26:29] me013 | It 's all pretty related , yeah . It 's it 's there 's a di there 's a whole class of techniques where you try in some sense to minimize the noise ."
+[26:30] mn052 | Yeah .
+[26:37] me018 | Uh - huh .
+"[26:37] me013 | And it 's typically a mean square sense , uh uh uh , i in in in some way . And , uh uh , spectral subtraction is is , uh uh , one approach to it ."
+"[26:49] me018 | Do people use the Wiener filtering in combination with the spectral subtraction typically , or is i are they"
+[26:54] me018 | sort of
+[26:54] mn052 | Not seen .
+[26:54] me018 | competing techniques ?
+[26:55] mn052 | They are very s similar techniques . So it 's like I haven't seen anybody using s Wiener filter with spectral subtraction .
+"[26:58] me018 | Yeah . O oh , OK ."
+[26:59] mn007 | Mm - hmm .
+"[27:01] me018 | I see , I see ."
+[27:04] mn052 | Yeah .
+[27:06] me018 | Mmm .
+"[27:07] me013 | in spectral subtraction , for instance , there 's a a an estimation factor . You sometimes will figure out what the noise is and you 'll multiply"
+"[27:22] me013 | even though this really should be in the power domain , sometimes people s work in the magnitude domain because it it it works better . And , uh ,"
+[27:28] me018 | Mm - hmm .
+"[27:30] me013 | uh , you know ."
+"[27:31] me018 | So why did you choose , uh , Wiener filtering over some other one of these other techniques ?"
+"[27:36] mn052 | Uh , the reason was , like , we had this choice of using spectral subtraction , Wiener filtering , and there was one more thing which I which I 'm trying , is this sub space approach . So ,"
+[27:45] mn052 | Stephane is working on spectral subtraction .
+"[27:48] me018 | Oh , OK ."
+[27:49] me018 | So you 're sort of trying @ @ them all .
+"[27:50] mn052 | Y Yeah , @ @ we just wanted to have a few noise production compensation techniques and then pick some from that pick one ."
+"[27:51] me018 | Ah , I see ."
+"[27:54] me018 | Oh , OK ."
+"[27:55] me013 | I m I mean yeah , I mean , there 's Car - Carmen 's working on another , on the vector Taylor series . So they were just kind of trying to cover a bunch of different things"
+[27:55] me018 | Mm - hmm .
+"[27:58] mn052 | VA Yeah , VAD . w Yeah ."
+"[28:01] me018 | Ah , OK . That makes sense ."
+"[28:03] me013 | with this task and see , you know , what are what are the issues for each of them . Um ."
+[28:04] me018 | Yeah .
+[28:06] me018 | Mm - hmm .
+[28:07] me018 | Mm - hmm .
+"[28:08] me018 | Cool , thanks ."
+"[28:09] mn052 | So so one of one of the things that I tried , like I said , was to remove those zeros in the fri filter by doing some smoothing of the filter ."
+[28:09] me013 | Yeah .
+[28:16] me018 | Mm - hmm .
+"[28:17] mn052 | Like , you estimate the edge of square and then you do a f smoothing across the frequency so that those zeros get , like , flattened out ."
+[28:24] me018 | Mm - hmm .
+[28:34] mn052 | the same thing but with the smoothed filter the second time . And that seems to be working .
+[28:37] me018 | Mm - hmm .
+[28:38] me018 | Mm - hmm .
+[28:39] mn052 | So that 's where I got like fifty - six point five percent improvement on SpeechDat - Car with that .
+[28:46] mn052 | So the other thing what I tried was I used still the ten frames of noise estimate but I used this channel zero VAD to drop the frames .
+[28:58] mn052 | which which like sort of shows that by using a proper VAD you can just
+"[29:03] mn052 | take it to further ,"
+[29:07] mn052 | So .
+"[29:08] me018 | So that 's sort of like , you know , best - case performance ?"
+"[29:10] mn052 | Yeah , so far I 've seen sixty - seven I mean , no , I haven't seen s like sixty - seven percent ."
+"[29:15] mn052 | And , uh , using the channel zero VAD to estimate the noise also seems to be improving but I don't have the results for all the cases with that ."
+"[29:23] mn052 | So I used channel zero VAD to estimate noise as a lesser 2 x frame , which is like ,"
+[29:34] me013 | So I 'm I 'm still a little confused . Is that channel zero information going to be accessible during this test .
+"[29:41] mn052 | Nnn ,"
+[29:42] mn052 | no . This is just to test whether we can really improve by using a better VAD .
+[29:44] me013 | Mm - hmm .
+[29:46] me013 | Mm - hmm .
+[29:49] mn007 | Mm - hmm .
+[29:54] me013 | Mm - hmm .
+[29:56] mn052 | so we c
+"[29:57] mn052 | so I mean , which which means , like ,"
+[29:59] mn052 | by using this technique what we improve just the VAD we can just take the performance by another ten percent or better .
+[30:05] me013 | OK .
+"[30:06] mn052 | So , that that was just the , uh , reason for doing that experiment ."
+"[30:18] mn052 | a lot on the TI - digits , so I 'm like investigating that , why it 's not ."
+"[30:37] mn052 | Tried this stuff on the mel as well mel and the magnitude , and mel magnitude , and all those things . But it seems to be the power spectrum seems to be getting the best result ."
+"[30:45] mn052 | So , one of one of reasons I thought like doing the averaging , after the filtering using the mel filter bank , that seems to be maybe helping rather than trying it on the mel filter ba filtered outputs ."
+[30:52] me013 | Mm - hmm .
+[30:53] me013 | Mm - hmm .
+[30:54] me013 | Ma -
+"[30:54] mn052 | So just th Yeah , th that 's that 's the only thing that I could think of why why it 's giving improvement on the mel ."
+[30:55] me013 | Makes sense .
+"[31:01] mn052 | And , yep . So that 's it ."
+"[31:05] me013 | Uh , how about the subspace stuff ?"
+"[31:07] mn052 | Subspace , I 'm I 'm like that 's still in a little bit in the back burner because I 've been"
+"[31:11] mn052 | p putting a lot effort on this to make it work , on tuning things and other stuff . So"
+[31:16] mn052 | I was like
+"[31:17] mn052 | going parallely but not much of improvement . I 'm just have some skeletons ready , need some more time for it ."
+[31:27] me013 | OK .
+[31:33] me018 | Tha - that it ?
+[31:34] mn052 | Yep . Yep .
+[31:35] me018 | Cool .
+"[31:36] me018 | Do you wanna go , Stephane ?"
+"[31:38] mn007 | Uh , yeah . So , I 've been , uh , working still on the spectral subtraction ."
+"[31:44] mn007 | Um ,"
+"[31:45] mn007 | So to r to remind you a little bit of of what I did before , is just to apply some spectral subtraction with an overestimation factor also to get ,"
+"[32:06] mn007 | but subtracting more when the SNR is is , uh , low ,"
+[32:11] mn007 | which is a technique that it 's
+[32:14] mn007 | often used .
+"[32:16] mn007 | So you overestimate the noise spectrum . You multiply the noise spectrum by a factor ,"
+"[32:20] me018 | Oh , OK ."
+"[32:20] mn007 | uh , which depends on the SNR . So , above twenty DB ,"
+[32:23] me018 | I see .
+[32:27] me018 | Mm - hmm .
+[32:28] mn007 | And then it 's b
+[32:34] me018 | Mm - hmm .
+[32:38] me018 | Mm - hmm .
+[32:39] mn007 | when the SNR is below zero DB .
+[32:40] me018 | Mm - hmm .
+"[32:42] mn007 | Um , doing just this , uh , either on the FFT bins or on the mel bands , um ,"
+[32:44] me013 | Oh !
+[32:51] mn007 | t doesn't yield any improvement
+"[32:53] me013 | Um , uh , what are you doing with negative , uh , powers ?"
+[32:54] mn007 | o
+[33:01] me018 | Mm - hmm .
+"[33:04] mn007 | So what I I just do is to put ,"
+[33:08] mn007 | uh to to add to put the threshold first and then to add
+"[33:12] mn007 | a small amount of noise ,"
+[33:14] mn007 | which right now is speech - shaped .
+[33:20] me018 | Speech - shaped ?
+"[33:21] mn007 | Yeah , so it 's a it has the overall overall energy , uh pow it has the overall power spectrum of speech ."
+"[33:31] me018 | So when y when you talk about there being something less than zero after subtracting the noise , is that at a particular"
+[33:32] mn007 | i
+[33:36] mn007 | Uh - huh .
+[33:37] me018 | frequency bin ?
+[33:38] mn007 | Yeah . There can be frequency bins with negative values .
+[33:39] me018 | OK .
+"[33:41] me018 | And so when you say you 're adding something that has the overall shape of speech ,"
+[33:45] me018 | is that in a in a particular frequency bin ?
+[33:48] me018 | Or you 're adding something across all the frequencies when you get these negatives ?
+[33:56] mn007 | but the a the amount of the amount of noise I add is not the same for all the frequency bins .
+[34:01] me018 | Ah ! OK . I gotcha . Right .
+[34:09] me018 | Mm - hmm .
+[34:14] mn007 | Yeah .
+[34:18] me018 | So what does that mean ? I 'm trying to understand what it means when you do the spectral subtraction and you get
+[34:18] mn007 | Hmm .
+[34:22] me018 | a negative . It means that
+[34:24] mn007 | That means that Mm - hmm .
+[34:24] me018 | at that particular frequency range you subtracted
+[34:29] mn007 | Yeah .
+[34:41] mn007 | so you don't subtract enough . But sometimes it can be too large also .
+[34:45] me018 | Mm - hmm .
+"[34:45] mn007 | If if the noise , uh , energy in this particular frequency band drops for some reason ."
+[34:51] me018 | Mm - hmm .
+[34:52] mn007 | Mmm .
+[34:54] me018 | So in in an ideal word i world if the noise
+"[34:58] me018 | were always the same ,"
+"[34:59] me018 | then ,"
+[35:00] me018 | when you subtracted it
+[35:02] me018 | the worst that i you would get would be a zero .
+"[35:04] me018 | I mean , the lowest you would get would be a zero , cuz i"
+[35:06] me018 | if there was no other energy there you 're just subtracting exactly the noise .
+"[35:09] mn007 | Mm - hmm , yeah ."
+"[35:10] me013 | Yep , there 's all there 's all sorts of , uh , deviations from the ideal here . I mean , for instance , you 're you 're talking about the signal and noise , um , at a particular point ."
+"[35:20] me013 | And even if something is sort of stationary in ster terms of statistics , there 's no guarantee"
+"[35:25] me013 | that any particular instantiation or piece of it is exactly a particular number or bounded by a particular range . So ,"
+[35:27] mn007 | Mm - hmm .
+[35:33] me013 | you 're figuring out from some chunk of of of the signal what you think the noise is .
+"[35:39] me013 | Then you 're subtracting that from another chunk ,"
+[35:41] me018 | Mm - hmm .
+"[35:42] me013 | and there 's absolutely no reason to think that you 'd know that it wouldn't , uh , be negative in some places ."
+[35:44] mn007 | Mm - hmm .
+"[35:47] me013 | Uh , on the other hand that just means that in some sense you 've made a mistake because"
+[35:51] me013 | you certainly have stra subtracted a bigger number than is due to the noise .
+[35:56] me018 | Mm - hmm .
+"[35:56] me013 | Um Also , we speak the whole where all this stuff comes from is from an assumption that signal and noise are uncorrelated ."
+"[36:02] me013 | And that certainly makes sense in s in in a statistical interpretation , that , you know , over , um , all possible realizations that they 're uncorrelated or"
+[36:07] me018 | Mm - hmm .
+"[36:13] me013 | assuming , uh , ergodicity that i that i um , across time , uh , it 's uncorrelated ."
+"[36:19] me013 | But if you just look at a quarter second ,"
+"[36:24] me013 | uh , and you cross - multiply the two things , uh , you could very well , uh , end up with something that sums to something that 's not zero . So in fact , the two"
+"[36:34] me013 | signals could have some relation to one another . And so there 's all sorts of deviations from ideal in this . And and given all that , you could definitely end up with something that 's negative ."
+"[36:45] me013 | But if down the road you 're making use of something as if it is a power spectrum ,"
+"[36:51] me013 | um ,"
+[36:52] me013 | then it can be bad to have something negative .
+"[36:55] me013 | Now , the other thing I wonder about actually is , what if you left it negative ?"
+[37:02] mn052 | Is that the log ?
+"[37:04] me013 | Um , are you taking the log before you add them up to the mel ?"
+[37:06] mn052 | After that .
+"[37:08] mn052 | No , after ."
+"[37:09] me013 | Right . So the thing is , I wonder how if you put your thresholds after that , I wonder how often"
+"[37:15] me013 | you would end up with , uh with negative values ."
+"[37:19] mn052 | But you end up reducing some neighboring frequency bins @ @ in the average , right ?"
+[37:24] mn052 | When you add the negative to the positive value which is the true estimate .
+[37:28] me013 | Yeah .
+"[37:30] me013 | But nonetheless , uh , you know , these are it 's another f kind of smoothing , right ? that you 're doing ."
+"[37:36] me013 | Right . So , you 've done your best shot at figuring out what the noise should be , and now i then you 've subtracted it off ."
+"[37:43] me013 | And then after that , instead of instead of , uh , uh , leaving it as is and adding things adding up some neighbors , you artificially push it up ."
+[37:53] mn052 | Hmm .
+"[37:53] me013 | Which is , you know , it 's there 's no particular reason that that 's the right thing to do either , right ?"
+"[37:58] mn052 | Yeah , yeah ."
+"[37:59] me013 | So , um , uh , i in fact ,"
+"[38:04] me013 | what you 'd be doing is saying , "" well , we 're d we 're we 're going to definitely diminish the effect of this frequency in"
+[38:17] mn052 | Yeah . Uh - huh .
+"[38:17] me018 | Sort of the opposite of that would be if if you find out you 're going to get a negative number ,"
+[38:21] me018 | you don't do the subtraction for that
+[38:23] me018 | bin .
+[38:25] mn052 | That is true .
+[38:27] mn007 | Mm - hmm .
+"[38:27] me018 | That would be almost the opposite , right ?"
+"[38:30] me018 | Instead of leaving it negative , you don't do it ."
+"[38:33] me018 | If your if your subtraction 's going to result in a negative number , you you don't do subtraction"
+[38:38] me018 | in that .
+"[38:39] me013 | Yeah , but that means that in a situation where you thought that that the bin was almost entirely noise , you left it ."
+[38:45] me018 | Yeah .
+[38:46] mn052 | We just Yeah .
+"[38:46] me013 | Uh . Yeah . Well , yeah that 's that 's the opposite , yeah ."
+"[38:46] me018 | Yeah , I 'm just saying that 's like the opposite . Yeah ."
+[38:49] mn007 | Mm - hmm .
+"[38:50] mn007 | And , yeah , some people also if it 's a negative value they , uh , re - compute it using inter interpolation from the edges and bins . Well , there are different things that you can do ."
+"[38:59] mn052 | For frames , frequency bins ."
+[38:59] me013 | Yeah .
+[39:01] me018 | Oh .
+[39:08] me018 | Oh .
+[39:09] me013 | instead of half wave . But it was just a thought that that it might be something to try .
+[39:10] mn007 | Mm - hmm .
+[39:13] mn007 | Mm - hmm .
+"[39:15] mn007 | Yep . Well , actually I tried , something else based on this , um ,"
+[39:25] me013 | Mm - hmm .
+"[39:41] mn007 | Yeah , let me go back a little bit . Actually , when you do spectral subtraction you can ,"
+"[39:48] mn007 | uh , find this this equivalent in the s in the spectral domain . You can uh compute , y you can say that d your spectral subtraction is a filter , um , and the gain of this filter is the , um ,"
+"[40:03] mn007 | signal energy minus what you subtract , divided by the signal energy ."
+[40:23] mn007 | what happen actually is that
+"[40:26] mn007 | during low SNR values , the gain is close to zero but it varies a lot ."
+[40:43] me013 | Mm - hmm .
+[40:47] mn007 | Mmm .
+"[40:49] mn007 | So the smoothing is I did a smoothing actually on this gain , uh , trajectory ."
+"[40:55] mn007 | But it 's the smoothing is nonlinear in the sense that I tried to not smooth if the gain is high , because in this case we know that ,"
+"[41:05] mn007 | uh , the estimate of the gain is correct because we we are not close to to to zero ,"
+"[41:12] mn007 | um , and to do more smoothing if the gain is low ."
+[41:17] mn007 | Mmm .
+[41:19] mn007 | Um .
+"[41:22] mn007 | Yeah . So , well , basically that 's this idea , and"
+"[41:30] mn007 | uh , although I 've just just tested on Italian and Finnish ."
+"[41:35] mn007 | And on Italian it seems my result seems to be a little bit better than the Wiener filtering , right ?"
+"[41:41] mn052 | Mm - hmm . Yeah , the one you showed yesterday . Right ?"
+[41:43] me013 | Yeah .
+"[41:44] mn007 | Uh , I don't know if you have these improvement the detailed improvements for Italian , Finnish , and Spanish there or you have just have your own ."
+"[41:49] mn052 | No , I don't have , for each , I I just just have the final number here ."
+"[41:52] me013 | So these numbers he was giving before with the four point three , and the ten point one , and so forth , those were Italian , right ?"
+"[41:58] mn052 | Yeah , yeah , yeah . So so , no , I actually didn't give you the number which is the final one , which is , after two stages of Wiener filtering ."
+[41:58] me013 | Yeah .
+"[42:04] mn052 | I mean , that was I just well , like the overall improvement is like fifty - six point five ."
+[42:08] me013 | Right .
+"[42:08] mn052 | So , I mean , his number is still better than what I got in the two stages of Wiener filtering ."
+[42:08] mn007 | Mm - hmm .
+[42:10] mn007 | Yeah .
+[42:13] me013 | Right .
+[42:17] mn052 | Mm - hmm .
+[42:19] me013 | But do you have numbers in terms of word error rates on on Italian ? So just so you have some sense of reference ?
+"[42:21] mn007 | Yeah . Uh , so , it 's , uh , three point , uh , eight ."
+[42:26] me013 | Uh - huh .
+[42:28] mn007 | Am I right ?
+"[42:29] mn052 | Oh , OK . Yeah , right , OK ."
+"[42:31] mn007 | And then , uh , d uh , nine point , uh , one ."
+[42:34] me013 | Mm - hmm .
+"[42:35] mn007 | And finally , uh , sixteen point five ."
+[42:49] me013 | On - line normalization and LDA ? Yeah .
+"[42:52] mn007 | Yeah . But instead of double stage Wiener filtering , it 's it 's this smoothed spectral subtraction . Um , yeah ."
+[42:52] me013 | Yeah .
+[43:00] me013 | Right .
+"[43:01] me018 | What is it the , um ,"
+[43:02] me018 | France Telecom system uses
+"[43:07] mn052 | They use spectral subtraction , right ."
+[43:09] mn007 | For what ?
+[43:10] mn052 | French Telecom .
+"[43:12] mn052 | Oh , it 's it 's Wiener filtering . Sorry ."
+[43:13] me018 | Oh .
+"[43:14] mn052 | Yeah , filtering . Yeah , it 's not exactly Wiener filtering but some variant of Wiener filtering ."
+[43:16] mn007 | Yeah .
+[43:17] me018 | I see .
+[43:19] mn052 | Yeah .
+[43:21] mn052 | s
+[43:24] mn007 | Mm - hmm .
+[43:30] mn052 | some smoothing techniques on the final filter . The th they actually do the filtering in the time domain .
+[43:33] me018 | Mmm .
+[43:34] mn007 | Yeah .
+"[43:36] mn052 | So they would take this HF squared back , taking inverse Fourier transform ."
+[43:36] me018 | Hmm .
+[43:41] mn052 | And they convolve the time domain signal with that .
+"[43:44] me018 | Oh , I see ."
+"[43:44] mn052 | And they do some smoothing on that final filter , impulse response ."
+[43:48] me018 | Hmm .
+"[43:48] mn007 | But they also have two two different smoothing @ @ . One in the time domain and one in the frequency domain by just taking the first , um , coefficients of the impulse response ."
+"[44:01] mn007 | So , basically it 's similar . I mean , what you did , it 's similar because you have also two two kind of smoothing . One in the time domain , and one in the frequency domain , yeah ."
+[44:08] mn052 | Yeah .
+[44:10] mn052 | Yeah .
+[44:11] mn052 | The frequency domain .
+"[44:15] me018 | Well , do you get this musical noise stuff with Wiener filtering or is that only with , uh , spectral subtraction ?"
+"[44:19] mn052 | No , you get it with"
+[44:21] mn007 | Yeah .
+[44:21] mn052 | Wiener filtering also .
+[44:22] me018 | Does the smoothing in the time domain help with that ?
+[44:25] me018 | Or
+"[44:25] mn052 | Oh , no , you still end up with zeros in the s spectrum . Sometimes ."
+[44:27] me018 | some other smoothing ?
+[44:29] mn007 | Yeah .
+"[44:30] me013 | I mean , it 's not clear that these musical noises hurt us in recognition . We don't know if they do . I mean , they they sound bad ."
+[44:30] me018 | Hmm .
+[44:33] me018 | Hmm .
+[44:34] mn052 | Yeah .
+"[44:36] me013 | But we 're not listening to it , usually ."
+[44:36] me018 | Mm - hmm .
+"[44:36] mn052 | Yeah , I know ."
+[44:37] mn007 | Mm - hmm .
+[44:38] me018 | Hmm .
+[44:45] mn007 | Mmm .
+"[44:47] mn007 | Well , I cannot you cannot hear beca well , actually what I d did not say is that this is not in the FFT bins . This is in the mel frequency bands ."
+"[44:59] mn007 | So , it could be seen as a f a a smoothing in the frequency domain because I used , in ad mel bands in addition and then the other phase of smoothing in the time domain ."
+"[45:17] mn007 | in silence portions , and at the beginning and end of speech , you see spots of high energy randomly distributed over the the spectrogram ."
+[45:25] me018 | Mm - hmm .
+[45:27] me018 | Mm - hmm .
+[45:29] me018 | That 's the musical noise ?
+[45:30] me018 | Mm - hmm .
+"[45:32] mn007 | If you listen to it uh , if you do this in the FFT bins , then you have spots of energy randomly distributing . And if you f if you re - synthesize these spot sounds as ,"
+[45:43] me018 | Mm - hmm .
+"[45:47] me013 | Well , none of these systems , by the way , have I mean , y you both are are working with , um , our system that does not have the neural net , right ?"
+[45:57] mn007 | Mm - hmm .
+[45:57] mn052 | Yep . Yeah .
+[45:57] me013 | OK .
+[45:59] mn007 | Yeah .
+"[45:59] me013 | So one would hope , presumably , that the neural net part of it would would improve things further as as they did before ."
+"[46:15] mn007 | one of the reason , uh , the n system with the neural net was ,"
+"[46:20] mn007 | um , more than well , around five percent better , is that it was much better on"
+"[46:27] mn007 | highly mismatched condition . I 'm thinking , for instance , on the TI - digits trained on clean speech and tested on noisy speech ."
+[46:30] me013 | Mm - hmm .
+"[46:35] mn007 | Uh , for this case , the system with the neural net was much better . But not much on the in the other cases . And"
+[46:39] me013 | Mm - hmm .
+[46:43] me013 | Yeah .
+"[46:44] mn007 | if we have no , uh , spectral subtraction or Wiener filtering , um , i the system is Uh , we thought the neural neural network is much better than before ,"
+[47:03] me013 | Maybe .
+[47:04] me018 | Could you train a neural net to do spectral subtraction ?
+"[47:07] me013 | Yeah , it could do a nonlinear spectral subtraction but I don't know if it I mean , you have to figure out what your targets are ."
+[47:08] mn007 | Mm - hmm .
+"[47:15] me018 | Yeah , I was thinking if you had a"
+"[47:17] me018 | clean version of the signal and and a noisy version ,"
+[47:18] mn007 | Mm - hmm .
+[47:20] me013 | Right .
+[47:20] mn007 | Mm - hmm .
+[47:21] me018 | and your targets were the
+[47:24] mn007 | Mm - hmm .
+[47:30] me018 | People do that ?
+"[47:30] me013 | y yeah , in fact , we had visitors here who did that I think when you were here ba way back when ."
+[47:34] mn007 | Mm - hmm .
+[47:36] me018 | Hmm .
+"[47:36] me013 | Uh , people d done lots of experimentation over the years with training neural nets . And it 's not a bad thing to do . It 's another approach ."
+[47:43] me018 | Hmm .
+[47:43] mn007 | Mm - hmm .
+"[47:44] me013 | M I mean , it 's it , um The objection everyone always raises , which has some truth to it is that , um ,"
+[47:50] me013 | it 's good for mapping from a particular noise to clean but then you get a different noise .
+[47:54] me018 | Mm - hmm .
+"[47:55] me013 | And the experiments we saw that visitors did here showed that it there was at least some ,"
+"[48:01] me013 | um , gentleness"
+[48:11] me013 | another way to go .
+"[48:15] me018 | uh , stuff that it was trained on ? Did it do pretty well ?"
+"[48:19] me013 | Oh , yeah , it did very well ."
+[48:20] me018 | Mmm .
+[48:20] me013 | Yeah .
+[48:21] me018 | Mmm .
+[48:21] mn007 | Mm - hmm .
+"[48:22] me013 | Um , but to some extent that 's"
+"[48:27] me013 | kind of what we 're doing . I mean , we 're not doing exactly that , we 're not"
+"[48:32] me013 | trying to generate good examples but by trying to do the best classifier you possibly can ,"
+[48:37] me018 | Mm - hmm .
+"[48:38] me013 | for these little phonetic categories ,"
+[48:40] me018 | You could say it 's sort of built in .
+"[48:41] me013 | It 's Yeah , it 's kind of built into that . And and that 's why we have found that it it does help ."
+[48:43] me018 | Hmm .
+[48:46] me018 | Mm - hmm .
+"[48:46] me013 | Um so , um , yeah , I mean , we 'll just have to try it . But I I would I would I would imagine that it will help some ."
+"[48:53] me013 | I mean , it we 'll just have to see whether it helps more or less the same , but I would imagine it would help some ."
+[48:58] mn007 | Mm - hmm .
+"[49:00] me013 | So in any event , all of this I was just confirming that all of this was with a simpler system . OK ?"
+"[49:03] mn007 | Yeah , yeah ."
+"[49:04] mn007 | Um ,"
+"[49:10] mn007 | Well , actually , this was kind of the first try with this spectral subtraction plus smoothing , and I was kind of excited by the result ."
+[49:16] me013 | Mm - hmm .
+[49:20] me013 | Mm - hmm .
+"[49:20] mn007 | Um , then I started to optimize the different parameters . And ,"
+"[49:27] mn007 | uh , the first thing I tried to optimize is the , um , time constant of the smoothing ."
+[49:32] mn007 | And it seems that the one that I chose
+[49:36] mn007 | for the first experiment was
+"[49:50] mn007 | it 's important to mention is , um , that this has a this has some additional latency ."
+[49:58] mn007 | Um .
+"[50:01] mn007 | Because when I do the smoothing ,"
+"[50:04] mn007 | uh , it 's a recursion that estimated the means , so of the g of the gain curve . And"
+"[50:12] mn007 | this is a filter that has some latency . And I noticed that it 's better if we take into account this latency . So , instead o of using"
+[50:34] me018 | And that 's what causes the latency ?
+[50:35] mn007 | Yeah .
+[50:36] me013 | Mm - hmm .
+[50:36] me018 | OK .
+"[50:41] mn007 | It 's the recursion , so it 's it 's the center recursion , right ?"
+[50:45] mn052 | Mm - hmm .
+[50:45] mn007 | Um and the latency of this recursion is around fifty milliseconds .
+[50:50] me013 | One five ?
+[50:50] mn007 | @ @
+[50:52] me013 | One five ? Five zero ?
+"[50:53] mn007 | Five zero , yeah ."
+[50:54] me013 | Five zero . Yeah .
+"[50:55] mn007 | Um , mmm ."
+"[50:58] mn052 | I 'm sorry , why why is that delay coming ? Like , you estimate the mean ?"
+"[51:02] mn007 | Yeah , the mean estimation has some delay , right ?"
+"[51:05] mn007 | I mean , the the filter that that estimates the mean has a time constant ."
+"[51:06] mn052 | Oh , yeah ."
+"[51:08] mn052 | It isn't OK , so it 's like it looks into the future also ."
+[51:10] mn007 | Yeah .
+[51:11] mn052 | OK .
+[51:11] me013 | What if you just look into the past ?
+"[51:13] mn007 | It 's , uh , not as good ."
+[51:17] me013 | How m by how much ?
+[51:20] me013 | By how much ?
+"[51:22] mn007 | It 's around three percent , um , relative ."
+[51:30] mn007 | Yeah .
+[51:32] me013 | Hmm .
+[51:38] me013 | It 's depending on how all this stuff comes out we may or may not be able to add any latency .
+"[51:43] mn007 | Yeah , but Yeah ."
+"[51:46] mn007 | So , yeah , it depends . Uh , y actually , it 's it 's l it 's three percent . Right ."
+[51:51] mn007 | Mmm .
+"[51:54] mn007 | Yeah , b but I don't think we have to worry too much on that right now while you kno ."
+[52:07] mn007 | Mm - hmm .
+"[52:07] me013 | Because if we completely ignore latency ,"
+"[52:11] me013 | and then we discover that we really have to do something about it , we 're going to be find ourselves in a bind ."
+"[52:16] me013 | So , um ,"
+"[52:18] me013 | you know , maybe you could"
+[52:20] me013 | make it twenty - five . You know what I mean ?
+[52:21] mn007 | Yeah .
+[52:22] mn007 | Oh yes .
+"[52:23] me013 | Yeah , just , you know , just be be a little conservative because we may end up with this crunch where all of a sudden we have to cut the latency in half or something ."
+[52:25] mn007 | s
+[52:27] mn007 | Mm - hmm .
+[52:29] mn007 | Yeah .
+[52:30] me013 | OK .
+[52:40] me018 | Sorry . A quick question just about the latency thing . If if there 's another part of the system that causes a latency of
+"[52:45] me018 | a hundred milliseconds ,"
+[52:47] me018 | is this an additive thing ? Or c or is yours hidden in that ?
+[52:49] mn007 | Mm - hmm .
+"[52:50] mn007 | No , it 's it 's added ."
+[52:52] me018 | It 's additive . OK .
+[52:53] mn007 | Mm - hmm .
+"[52:54] mn052 | We can OK . We can do something in parallel also , in some like some cases like , if you wanted to do voice activity detection ."
+[53:01] me018 | Uh - huh .
+[53:02] mn052 | And we can do that in parallel with some other filtering you can do . So you can make a decision on that
+[53:03] mn007 | Mmm .
+[53:09] mn052 | voice activity detection and then you decide whether you want to filter or not . But by then you already have the sufficient samples to do the filtering .
+[53:09] mn007 | Yeah .
+[53:14] me018 | Mm - hmm .
+"[53:16] mn052 | So So , sometimes you can do it anyway ."
+"[53:20] me018 | Couldn't you just also I mean , i if you know that the l the largest latency in the system is"
+"[53:25] me018 | two hundred milliseconds , don't you couldn't you just buffer up that number of frames and then"
+[53:28] mn052 | Yeah .
+[53:28] me018 | everything uses that buffer ? And that way
+[53:31] me018 | it 's not additive ?
+"[53:33] me013 | Well , in fact , everything is sent over in buffers cuz of isn't it the TCP"
+"[53:39] mn052 | You mean , the the data , the super frame or something ?"
+[53:40] mn007 | Mm - hmm .
+"[53:41] me013 | Yeah , yeah ."
+[53:42] mn007 | Yeah .
+"[53:43] mn052 | Yeah , but that has a variable latency because the last frame doesn't have any latency and first frame has a twenty framed latency . So you can't r rely on that latency all the time ."
+[53:45] mn007 | Mm - hmm .
+[53:53] me013 | Yeah .
+[53:54] mn052 | Because I mean the transmission over over the air interface is like a buffer . Twenty frame twenty four frames .
+[53:55] mn007 | Yeah .
+[53:59] me018 | Yeah .
+[54:00] me018 | Yeah .
+[54:01] mn052 | So But the only thing is that the first frame in that twenty - four frame buffer has a twenty - four frame latency . And the last frame doesn't have any latency .
+[54:08] mn052 | Because it just goes as Yeah .
+"[54:09] me018 | Yeah , I wasn't thinking of that one in particular but more of , you know , if if there is some part of your system that has to buffer twenty frames ,"
+[54:15] me013 | Yeah .
+"[54:15] me018 | uh , can't the other parts of the system draw out of that buffer and therefore not add to the latency ?"
+[54:21] me013 | Yeah . And and that 's sort of one of the all of that sort of stuff is things that they 're debating in their standards committee .
+[54:28] me018 | Oh !
+[54:30] me018 | Hmm .
+[54:34] mn007 | Mm - hmm .
+"[54:36] mn007 | Yeah . So , um ,"
+"[54:41] mn007 | there is uh , these parameters that I still have to to look at . Like , I played a little bit with this overestimation factor ,"
+"[54:50] mn007 | uh , but I still have to to look more at this , um , at the level of noise I add after ."
+"[55:01] mn007 | Uh , I know that adding noise helped , um , the system just using spectral subtraction without smoothing , but I don't know"
+"[55:09] mn007 | right now if it 's still important or not , and if the level I choose before is still the right one . Same thing for the shape of the the noise ."
+[55:20] mn007 | Maybe it would be better to add just white noise instead of speech shaped noise .
+[55:24] me013 | That 'd be more like the JRASTA thing in a sense . Yeah .
+[55:27] mn007 | Mm - hmm .
+"[55:29] mn007 | Um , yep ."
+"[55:35] mn007 | Yeah , for this I just use as noise estimate the mean , uh , spectrum of the first twenty frames of each utterance ."
+"[55:46] mn052 | I used ten just ten frames . Yeah , because I mean , the reason was like in TI - digits I don't have a lot . I had twenty frames most of the time ."
+[55:48] mn007 | The ten frames ?
+[55:52] mn007 | Mm - hmm .
+"[55:54] mn007 | Um . But , so what 's this result you told me about , the fact that if you use more than ten frames you can improve by t"
+"[56:00] mn052 | Well , that 's that 's using the channel zero ."
+"[56:05] mn007 | Oh , OK . But this is ten frames plus plus"
+"[56:10] mn007 | Uh , no , these results with two stage Wiener filtering is ten frames but possibly more . I mean , if channel one VAD gives you Yeah ."
+[56:11] mn052 | Hmm .
+[56:18] mn052 | f
+[56:19] mn052 | Yeah .
+[56:21] mn052 | Yeah .
+"[56:29] mn007 | So I expected it to be a little bit better , if , uh , I use more more frames ."
+[56:36] mn007 | Um .
+"[56:39] mn007 | OK , that 's it for spectral subtraction . The second thing I was working on is to , um ,"
+"[57:06] mn007 | which is technique that , um , takes a bunch of frame , um , and for each frequency bands of this frame , takes a look at the minima"
+"[57:31] mn007 | And there is something more to this actually . What is done is that , uh , these minima are computed , um , based on , um ,"
+[57:56] me018 | So you have one minimum for each frequency ?
+"[57:59] mn007 | What what I what I d uh , I do actually , is to take a bunch of to take a tile on the spectrogram and this tile is five hundred milliseconds long and two hundred hertz wide ."
+[58:10] me018 | Mmm .
+"[58:16] mn007 | Uh , in this tile appears , like , the harmonics if you have a voiced sound , because it 's it 's the FTT bins . And when you take the m the minima of of these this tile ,"
+"[58:33] mn007 | If you have voiced speech , these minima will still give you some noise estimate because"
+"[58:41] mn007 | And If you have other other kind of speech sounds then it 's not the case , but if the time frame is long enough ,"
+"[58:49] mn007 | uh , like s five hundred milliseconds seems to be long enough , you still have portions which , uh , are very close whi which minima are very close to the noise energy ."
+[59:00] me013 | I 'm confused . You said five hundred milliseconds but you said sixty - four milliseconds . Which is which ? What ?
+[59:00] mn007 | Mmm ?
+"[59:09] me013 | Yeah , yeah ."
+"[59:11] mn007 | Um , actually it 's better to use sixty - four milliseconds because , um , if you use thirty milliseconds , then , uh , because of the this short windowing and at low pitch ,"
+"[59:25] mn007 | uh , sounds , the harmonics are not , wha uh , correctly separated ."
+[59:26] me013 | Mm - hmm .
+[59:33] mn007 | they will overestimate the noise a lot .
+"[59:41] me013 | Uh , what do you do over five hundred ?"
+"[59:43] mn007 | So I take to I take a bunch of these sixty - four millisecond frame to cover five hundred milliseconds ,"
+[59:48] me013 | Ah . OK .
+"[59:50] mn007 | and then I look for the minima ,"
+[59:53] me013 | I see .
+[59:53] me018 | Mmm .
+"[59:54] mn007 | on the on on the bunch of uh fifty frames , right ?"
+[59:57] me013 | I see .
+[59:57] mn007 | Mmm .
+"[00:00] mn007 | So the interest of this is that , as y with this technique you can estimate u"
+"[00:10] mn007 | of signal , so if the the n the noise varies a lot , uh , you can track better track the noise ,"
+[00:17] me013 | Mm - hmm .
+"[00:17] mn007 | which is not the case if you rely on the voice activity detector . So even if there are no no speech pauses , you can track the noise level ."
+"[00:27] mn007 | The only requirement is that you must have , in these five hundred milliseconds segment , you must have voiced sound at least ."
+[00:34] mn007 | Cuz this these will help you to to track the the noise level .
+"[00:41] mn007 | Um . So what I did is just to simply replace the VAD - based , uh , noise estimate by this estimate ,"
+"[00:52] mn007 | first on SpeechDat - Car Well , only on SpeechDat - Car actually . And it 's , uh , slightly worse , like one percent relative compared to the VAD - based estimates ."
+"[01:10] mn007 | I think the reason why it 's not better , is that the SpeechDat - Car noises are all stationary ."
+"[01:16] mn007 | Um . So , u"
+"[01:19] mn007 | y y there really is no need to have something that 's adaptive and Uh , well , they are mainly stationary . Um ."
+[01:21] me013 | Mm - hmm .
+"[01:28] mn007 | But , I expect s maybe some improvement on TI - digits because , nnn , in this case the noises are all sometimes very variable ."
+"[01:36] mn007 | Uh , so I have to test it . Mmm ."
+"[01:45] me013 | Uh , when you compare it with the V A D - based ,"
+"[01:51] mn007 | It 's the France - Telecom - based spectra , s uh , Wiener filtering and VAD . So it 's their system but just I replace their noise estimate by this one ."
+"[02:04] me013 | Oh , you 're not doing this with our system ?"
+"[02:06] mn007 | In i I 'm not No , no ."
+"[02:09] mn007 | Yeah , it 's our system but with just the Wiener filtering from their system ."
+[02:15] mn007 | Right ?
+[02:17] mn007 | Mmm .
+[02:18] me013 | OK .
+[02:19] mn007 | Yeah .
+"[02:20] mn007 | Actually , th the best system that we still have is ,"
+"[02:24] mn007 | uh , our system but with their noise compensation scheme , right ?"
+"[02:29] mn007 | So I 'm trying to improve on this , and by by replacing their noise estimate by , uh , something that might be better ."
+[02:38] me013 | OK . But the spectral subtraction scheme that you reported on also re requires a a noise estimate .
+[02:41] mn007 | Yeah .
+[02:45] mn007 | Yeah . But I di
+[02:46] me013 | Couldn't you try this for that ? Do you think it might help ?
+"[02:48] mn007 | Not yet , because I did this in parallel , and I was working on one and the other . Um ,"
+"[02:49] me013 | I see , I see ."
+[02:52] me013 | Yeah .
+"[02:55] mn007 | Yeah , for for sure I will . I can try also , mmm , the spectral subtraction ."
+[02:55] mn052 | Yeah .
+[02:58] me013 | OK .
+[02:58] mn052 | So I 'm also using that
+[03:00] mn052 | n new noise estimate technique on this Wiener filtering what I 'm trying .
+[03:03] mn007 | Mm - hmm .
+"[03:04] mn052 | So I I have , like , some experiments running , I don't have the results ."
+[03:04] me013 | Yeah .
+[03:07] me013 | Yeah .
+[03:07] mn052 | So . I don't estimate the f noise on the ten frames but use his estimate .
+[03:11] mn007 | Mm - hmm .
+[03:11] me013 | Yeah .
+[03:13] mn007 | Um .
+"[03:22] mn007 | spectral whitening idea which is in the , um , Ericsson proposal ."
+"[03:30] mn007 | Uh , the idea is just to"
+"[03:33] mn007 | um , flatten the log ,"
+"[03:37] mn007 | uh , spectrum ,"
+"[03:41] mn007 | um , and to flatten it more if the the probability of silence is higher ."
+"[03:50] mn007 | So in this way , you can also reduce somewhat reduce the musical noise and you reduce the variability if you have different noise shapes , because"
+[04:01] mn007 | the the spectrum becomes more flat in the silence portions . Um .
+[04:10] mn007 | Yeah .
+"[04:11] mn007 | With this , no improvement , uh , but there are a lot of parameters that we can play with and ,"
+"[04:18] mn007 | um Actually , this this could be seen as a soft version of the frame dropping because ,"
+"[04:24] mn007 | um , you could just put the threshold and say that "" below the threshold ,"
+"[04:30] mn007 | I will flatten comp completely flatten the the spectrum "" . And above this threshold ,"
+"[04:36] mn007 | uh , keep the same spectrum ."
+"[04:48] mn007 | uh , w you would have some kind of dummy frame which is a perfectly flat spectrum ."
+"[04:53] mn007 | And this , uh , whitening is something that 's more soft because ,"
+"[04:58] mn007 | um ,"
+"[05:01] mn007 | you whiten you just , uh , have a function the whitening is a function of the speech probability , so it 's not a hard decision ."
+[05:10] me013 | Mm - hmm .
+"[05:11] mn007 | Um , so I think maybe it can be used together with frame dropping and"
+"[05:18] mn007 | when we are not sure about if it 's speech or silence , well ,"
+[05:22] mn007 | maybe it has something do with this .
+"[05:27] me013 | in JRASTA we were essentially adding in , uh , white uh , white noise dependent on our estimate of the noise ."
+[05:34] mn007 | Mm - hmm .
+"[05:35] me013 | On the overall estimate of the noise . Uh , I think it never occurred to us to use a probability in there ."
+[05:42] mn007 | Mm - hmm .
+"[05:47] me013 | where the amount that you added in was ,"
+"[05:50] me013 | uh , a function of the probability of it being s speech or noise ."
+[05:53] mn007 | Mm - hmm .
+[05:55] mn007 | Mm - hmm .
+"[06:00] mn007 | Yeah , w"
+[06:06] mn007 | the noise spectrum .
+[06:06] me013 | Yeah .
+[06:09] mn007 | Mm - hmm .
+[06:14] me013 | Cuz that that brings in
+[06:14] mn007 | Mm - hmm .
+"[06:17] me013 | sort of powers of classifiers that we don't really have in , uh , this other estimate . So it could be it could be interesting ."
+[06:22] mn007 | Mm - hmm .
+[06:25] mn007 | Mm - hmm .
+[06:32] me013 | It went a little long ?
+[06:40] me018 | I think we 're OK .
+[06:41] me013 | OK .
+[06:43] mn007 | Yeah .
+"[06:54] mn007 | as the Ericsson proposal but , um , the probability of speech is not computed the same way . And"
+"[07:05] mn007 | I think , i for yeah , for a lot of things , actually a g a good"
+[07:15] me013 | Mm - hmm .
+[07:21] me013 | Mm - hmm .
+[07:26] me013 | Mm - hmm .
+"[07:27] mn007 | S so , yeah ."
+[08:00] mn007 | And so I 'm starting to obtain alignments on these databases .
+"[08:06] mn007 | Um , and the way I mi I do that is that I just use the HTK system but I train it only on the close - talking microphone ."
+[08:14] mn007 | And then I aligned I obtained the Viterbi alignment of the training utterances .
+"[08:22] mn007 | It seems to be , uh i"
+[08:29] mn052 | No .
+"[08:31] mn052 | So , it doesn't seems to help by their use of channel zero or channel one ."
+[08:34] mn007 | What ?
+"[08:35] mn052 | Uh , you mean their d the frame dropping , right ?"
+[08:38] mn007 | Yeah .
+[08:51] mn052 | TI - digits .
+[08:53] mn052 | @ @
+"[08:54] mn007 | Uh , yeah . And it seems to work on Italian but not on the Finnish and Spanish data ."
+"[09:00] mn007 | So , maybe one reason is that s s Finnish and Spanish noise are different . And"
+"[09:07] mn007 | actually we observed we listened to some of the utterances and sometimes for Finnish there is music in the recordings and strange things , right ?"
+[09:16] mn052 | Yeah .
+"[09:17] mn007 | Um Yeah , so the idea was to train all the databases and obtain an alignment"
+"[09:24] mn007 | to train on these databases , and , um , also to , um , try different kind of features , uh , as input to the VAD network ."
+"[09:35] mn007 | And we came up with a bunch of features that we want to try like , um ,"
+"[09:41] mn007 | the spectral slope , the , um , the degree o degree of voicing with the features that , uh , we started to develop with Carmen ,"
+"[09:51] mn007 | um , e with , uh , the correlation between bands"
+[09:59] mn052 | Yeah . Mm - hmm .
+[10:03] mn052 | The energy also .
+[10:05] mn052 | Yeah .
+"[10:06] me013 | Yeah , right ."
+"[10:13] me013 | OK . Well , Hans - Guenter will be here next week so I think he 'll be interested in all all of these things . And , so ."
+[10:18] mn007 | Mm - hmm .
+[10:19] me013 | Mmm .
+[10:25] me013 | Yeah .
+"[10:27] me018 | Want to go ahead , Morgan ?"
+[10:28] me013 | Sure .
+[13:43] me018 | OK .

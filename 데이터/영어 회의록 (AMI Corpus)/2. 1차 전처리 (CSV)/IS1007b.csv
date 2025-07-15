@@ -1,0 +1,210 @@
+﻿[00:37] Speaker_A | So we come again for the the second meeting .
+[00:41] Speaker_B | Mm-hmm .
+[00:41] Speaker_A | Uh for the aim of this
+[00:47] Speaker_A | now is to
+[00:50] Speaker_A | to make presentation about
+[00:54] Speaker_A | uh the work for each one .
+[00:58] Speaker_A | And take the the decision about the the design and the functionality of the the remote
+[01:02] Speaker_B | Okay .
+[01:08] Speaker_A | control . And we have think I got a new project requirement . So I think
+[01:09] Speaker_C | Okay .
+[01:17] Speaker_A | uh teletext becomes outdated .
+"[01:21] Speaker_A | So the popularity of the since the popularity of the internet , and I think we don't need lighting adaptive , so the remote control should be only used for the the television ."
+[01:22] Speaker_C | Okay .
+[01:42] Speaker_A | in the in the design .
+"[01:46] Speaker_A | So , let's start with the"
+[01:52] Speaker_A | the industrial designer .
+[01:56] Speaker_A | Or y you can use the whiteboard if you want .
+[01:59] Speaker_C | Well I have a PowerPoint pr presentation stored in my
+[02:02] Speaker_A | Here .
+[02:05] Speaker_C | in my personal folder so I I I think you can reach it from here .
+[02:10] Speaker_D | Just go to explorer .
+[02:12] Speaker_A | Oh okay .
+[02:12] Speaker_D | Or open .
+[02:15] Speaker_D | Participant two .
+[02:16] Speaker_C | Participant two .
+[02:23] Speaker_A | This one .
+[02:24] Speaker_C | Yeah .
+[02:25] Speaker_D | Open uh .
+"[02:39] Speaker_D | Slide show , view slide show , ."
+[02:42] Speaker_A | Ah .
+"[02:43] Speaker_C | And um well I I will present my my first idea on how to build the our new remote control for television . So uh can you go one page down , please . So I think the first things to do is to define the hardware components neededs to achieve uh what we want to do . So uh mm I'm thin uh I think uh I I'll do a survey about what is uh what is available on the market and what what is the the cheapest possible things we hav we can use ."
+"[04:02] Speaker_C | So , wha what I think for now is we don't want to have a remote control w which is wired so uh I think we u we can use a battery for the . Then two programmable chips for both software functionalities and communication . And the communication with the T_V_ set is uh made through uh infrared communication"
+"[04:34] Speaker_C | So uh this is the the schema of the o of the future uh remote controls so uh you can you can see the components , uh battery and uh the two chips goes to the infrared uh connection to the T_V_ set ."
+[04:52] Speaker_B | This . What is the other chip for ? The one on top .
+"[04:56] Speaker_C | The one on top is for the um well the functionali the functionalities and the the th red um sorry the green one is is to well , putting things together , um f transform the data into uh qu into the format to to uh to communicate with the T_V_ set ."
+[04:58] Speaker_D | One is a communication .
+[05:12] Speaker_B | For men .
+"[05:19] Speaker_C | And , that's it . I think we should use a F_P_G_A_ for for the functionalities which is easy to to t"
+[05:24] Speaker_B | Mm .
+[05:28] Speaker_B | What is F_P_G_A_ ?
+[05:29] Speaker_C | It's field programmable uh something array . Yeah .
+[05:36] Speaker_B | So why's it how is it different from the Bluetooth ?
+"[05:39] Speaker_C | Well , uh a F_P_G_A_ is just a chip you can uh you can pr programme it uh wi with wh whatever you want . And uh well the Bluetooth chip is just responsible to uh make the communication uh between uh the two devices ."
+[05:42] Speaker_B | Yeah . Programme it .
+[05:43] Speaker_D | Yeah .
+[05:47] Speaker_B | Okay .
+"[05:59] Speaker_C | No . Well , th the F_P_G_A_ will produce the the data to send ."
+[06:04] Speaker_B | Okay .
+[06:05] Speaker_D | Or it's something like isn't hardware the first one ? And the second one is for the software . Yeah to run th to make it run . That's it .
+[06:08] Speaker_B | Is the is the software par alri okay .
+[06:09] Speaker_C | Yeah .
+[06:15] Speaker_C | Yeah . Alright and that's it for the working design . So if you have any questions ?
+[06:16] Speaker_D | No .
+[06:22] Speaker_B | Mm .
+"[06:23] Speaker_D | Okay , and how about the battery power ? Uh you mean that battery would be somewhere there and the remote contro the power to the battery comes through infrared ?"
+"[06:37] Speaker_D | Into the more compact and uh okay , ."
+[06:45] Speaker_B | Mm . Mm .
+"[06:47] Speaker_D | Yeah , yeah . Okay ."
+[06:48] Speaker_B | Mm . You can put it on the charger when uh you when you don't need to use it .
+[06:50] Speaker_C | Yeah .
+[06:52] Speaker_C | It's a good idea .
+[06:54] Speaker_B | Yeah .
+"[06:57] Speaker_B | Yeah , yeah ."
+[06:58] Speaker_C | Yeah .
+[07:01] Speaker_B | Yeah .
+[07:02] Speaker_B | Mm .
+"[07:03] Speaker_B | Uh mm . Y yeah , yeah . Because you are using because you are using Bluetooth , if some people have P_D_A_ they can use their P_D_A_ to control the T_V_ if they want to , right ?"
+[07:06] Speaker_C | That's a good idea .
+[07:06] Speaker_A | You can i yeah .
+"[07:13] Speaker_C | Also , but but I I I think uh the the goal is to sell our remote control . S okay , so charger for is the ."
+[07:17] Speaker_A | Yeah we can change the b .
+[07:20] Speaker_A | Yeah .
+[07:37] Speaker_A | Um .
+[07:46] Speaker_B | So is mine .
+"[07:48] Speaker_A | It's mine . Participant one , no ?"
+[07:49] Speaker_B | Oh .
+[07:56] Speaker_A | Mm .
+[07:58] Speaker_A | Oh we have so let's move to
+[08:02] Speaker_A | to user interface design .
+[08:04] Speaker_B | Yeah . So you can open uh three .
+[08:15] Speaker_B | Yeah .
+[08:19] Speaker_B | So I'm working on the technical functions design .
+[08:53] Speaker_A | Mm-hmm .
+[09:09] Speaker_A | This are usual functionality .
+[09:21] Speaker_A | Tasks .
+[09:36] Speaker_A | And they are small .
+[09:38] Speaker_B | Yeah . O on the right I tried to play with the problem is that uh if I have hundred channels I have uh I have to choo press the other button to choose the hundred channels and I have to compose the number so it's very lousy . So you so you move to the next the next one .
+[09:47] Speaker_C | Yeah .
+[09:53] Speaker_A | Mm-hmm .
+[09:53] Speaker_C | Of course .
+"[09:57] Speaker_B | Yeah , so I talk about the problem . And then I I look at the user manual they are a hundred pages thick , so we don't want that . So I propose the easy to use uh prototype . You can navigate on T_V_ screen and we can the user's preference and we need to have the T_V_ connected to internet so we end in order to access the T_V_ programmes by X_M_L_ and we need some to do some preprocessing . From the technical aspect , the processing should be done on the T_V_ set than on the on the remote controller , right ? And then we the speech recognition as uh Harry says we may just put in we may K_I_V_ ."
+[10:04] Speaker_A | Yeah .
+[10:41] Speaker_A | What do you mean by the pa pa processing will be done on the T_V_
+[10:51] Speaker_A | So we should have specific T_V_ ? Or ? We can use this .
+[10:53] Speaker_B | Yeah .
+"[11:03] Speaker_A | Yeah , I think so . J j just the remote control ."
+"[11:03] Speaker_D | Yeah , not the T_V_s ."
+[11:09] Speaker_B | Yeah .
+[11:17] Speaker_B | Okay .
+[11:19] Speaker_D | Yeah .
+[11:20] Speaker_B | Yeah .
+"[11:22] Speaker_D | Yeah , that's right ."
+[11:23] Speaker_A | Mm .
+"[11:25] Speaker_A | Yeah , we ."
+[11:30] Speaker_A | Yeah .
+[11:34] Speaker_A | Speech recognition .
+"[11:52] Speaker_C | Well , f four five buttons , it's sufficient . It's easy to build ,"
+[11:55] Speaker_B | Yeah .
+[11:56] Speaker_B | Mm .
+"[11:59] Speaker_D | Yeah , that's right ."
+"[12:06] Speaker_D | Oh , but you have a catch there , um assume that um if you want to go to if you are watching channel two and if you want to go to channel ninety nine , then ."
+[12:22] Speaker_B | Mm .
+"[12:23] Speaker_B | Mm . No , because you choose by channel , so you choose by T_V_ program so you don't have hundred channels to choose from ."
+[12:27] Speaker_D | Uh-huh huh huh huh .
+[12:32] Speaker_D | Mm-hmm hmm hmm .
+"[12:33] Speaker_B | If you go by channel , you don't have to do that ."
+[12:39] Speaker_B | Ah .
+[12:41] Speaker_D | Yeah then yeah that's right .
+"[12:41] Speaker_B | Ah , a big jump ."
+[12:59] Speaker_B | Yeah .
+[12:59] Speaker_D | Mm hmm hmm . Okay .
+[13:00] Speaker_A | Mm .
+[13:09] Speaker_D | Okay .
+"[13:09] Speaker_C | So , we can think of buttons like in the telephone to send messages or things like that ."
+[13:16] Speaker_B | Mm-hmm .
+[13:19] Speaker_A | How the this remote ?
+"[13:26] Speaker_A | Yeah , of course small ."
+"[13:40] Speaker_D | Yeah , that's ."
+[14:00] Speaker_A | Participant four .
+[14:10] Speaker_A | So Harry .
+"[14:50] Speaker_C | Well I I think it will be a , yes , a bit complicated to um make a speech recognisers runs on the small uh ts"
+[15:01] Speaker_D | An it does how feasible it is .
+[15:17] Speaker_C | Yeah .
+"[15:18] Speaker_C | And this can allow to choose the the program , for instance without uh adding uh buttons"
+[15:19] Speaker_B | Mm .
+[15:25] Speaker_B | Yeah .
+[15:25] Speaker_C | so it's a good idea .
+[15:30] Speaker_B | Mm .
+[15:31] Speaker_B | Mm .
+[15:43] Speaker_B | Mm .
+[15:43] Speaker_A | Mm-hmm .
+[15:45] Speaker_A | But do you think what they sug suggested s possibility .
+[15:50] Speaker_D | I mean we have to look for a trade-off . The features and the cost .
+[15:50] Speaker_B | Mm .
+[15:51] Speaker_B | Yeah .
+[16:06] Speaker_D | Little bit more if it's with extra features .
+[16:07] Speaker_C | Yeah .
+"[16:07] Speaker_B | little bit more for comfort , yeah , extra features ."
+[16:09] Speaker_A | Yeah .
+[16:11] Speaker_D | Okay .
+"[16:14] Speaker_D | Yeah , yeah . That's right ."
+[16:14] Speaker_B | Mm . Yeah .
+[16:15] Speaker_A | But is it useful or not u
+"[16:19] Speaker_D | I mean , for a lazy guys they could say nine and the nine channel comes . Or they say movie name or I don't go for movie names but only for the numbers on the channel , or volume up , volume down , brightness , contrast ."
+[16:22] Speaker_B | Mm .
+[16:30] Speaker_B | Mm .
+[16:33] Speaker_B | Mm .
+[16:34] Speaker_A | Mm .
+"[16:34] Speaker_D | So , I think this should be a good idea , to put this features . And the fourth one was the teletext in various languages ."
+[17:00] Speaker_B | What is the teletext ?
+[17:02] Speaker_B | Mm .
+[17:06] Speaker_C | Yeah .
+[17:09] Speaker_C | Okay .
+[17:12] Speaker_A | What about lighting adaptive options ? According to the re to the new requirements I think we don't need that .
+"[17:14] Speaker_D | Yeah as discussed in the earlier meeting , but I think uh not much people are really interested in this point if it's not really required ."
+[17:20] Speaker_A | Yeah .
+[17:23] Speaker_B | It is interesting but we are only concerned with the remote controller .
+[17:27] Speaker_A | Mm .
+[17:29] Speaker_B | So you need s special T_V_ sets to do that ? Or it's it's done via this remote controller ?
+[17:37] Speaker_B | It's very complex .
+"[17:42] Speaker_D | I mean yeah , it's for the um industrial design and users interface designers to decide if it's going to be working or not ."
+[17:47] Speaker_B | Mm .
+"[17:54] Speaker_B | Yeah , then we can conclude that ."
+[17:57] Speaker_B | Yeah .
+"[17:59] Speaker_B | Yeah , but it's quite possible but maybe not in this project ."
+[18:11] Speaker_A | So we have I think we have s still we have
+[18:18] Speaker_A | couple of minutes . Mm-mm .
+[18:26] Speaker_A | So any things to
+[18:29] Speaker_A | to discuss ?
+[18:31] Speaker_A | Or any suggestions ?
+[18:31] Speaker_D | I think as I discussed th that four points would be good for um marketing .
+[18:37] Speaker_D | The speech interface and uh less uh reasonable uh cost .
+[18:39] Speaker_A | Expensive .
+[18:41] Speaker_A | Price .
+[18:42] Speaker_B | Mm .
+"[18:44] Speaker_D | And the lighting adaptation and the teletext . And regarding the teletext uh these are the subtitl these are the text information which you got on the televisions . If you are watching an foreign movie , you get subtitles sometimes . And uh if you are a French guy watching an English movie you would like to have it in French . And if I am a German then I would like to have the my options in German . So , the remote it should have some it should give me some flexibility of choosing the ch languages . That should be a good uh point ."
+[18:45] Speaker_B | Mm .
+[18:56] Speaker_B | Yeah . Okay .
+[18:59] Speaker_B | Mm .
+[19:11] Speaker_C | Function .
+"[19:19] Speaker_C | Yeah , but well what about the the new project's requirement ? I I I think we should give up with teletext , no ?"
+[19:31] Speaker_C | Yes .
+"[19:34] Speaker_C | Well , so maybe we we can j we can already think uh about a way to to access the internet via the television ."
+[19:44] Speaker_B | Mm .
+"[19:50] Speaker_C | Yeah , but uh we can think that in a few years there will be T_V_ set that can access the internet ."
+[19:51] Speaker_A | Yeah .
+"[19:57] Speaker_B | Yeah , okay ."
+[19:58] Speaker_D | We already have some .
+[20:17] Speaker_A | So you have to anticipate the the future ?
+[20:20] Speaker_C | Yeah . Yeah .
+[20:30] Speaker_B | The functionality in the future . Alright .
+[20:33] Speaker_A | In future .
+"[20:37] Speaker_B | Yeah . Because all the T_V_ sets will be digital , right . All the programmes , everything will be in digital than analog . Th the system will change and we have to anticipate for those change ."
+"[20:48] Speaker_D | Yeah , ."
+[20:52] Speaker_A | Okay .
+"[20:54] Speaker_A | So let's go for the the lunch break , and"
+"[20:59] Speaker_C | Okay , thank you ."
+[21:00] Speaker_B | Okay . Thank you .
+[21:00] Speaker_A | we will meet after .
+"[21:00] Speaker_D | Okay , thank you ."

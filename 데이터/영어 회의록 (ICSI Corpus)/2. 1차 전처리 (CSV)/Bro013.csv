@@ -1,0 +1,470 @@
+﻿[00:23] me006 | OK .
+[00:23] me013 | Sh - Close your door on door on the way out ? Thanks .
+[00:23] me006 | Thanks .
+[00:25] me006 | Oh .
+"[00:39] mn007 | Uh , well , first there are perhaps these uh Meeting Recorder"
+[00:44] mn007 | digits
+[00:45] mn007 | that we tested . So .
+[00:47] mn007 | Um .
+[00:49] me013 | the SRI System and the oth And
+[00:54] me013 | difference between having a lot of uh
+[01:06] me013 | on
+[01:09] mn007 | Mm - hmm .
+"[01:12] me013 | And uh it 's significantly better than that , using"
+[01:19] mn007 | Mm - hmm .
+"[01:26] me013 | But that 's that 's using uh a a pretty huge amount of data ,"
+[01:41] mn007 | Yeah . Right .
+[01:47] me013 | is is doing the digits um
+[01:50] me013 | the wor as a word model or as
+[01:53] me013 | uh a sub s sub - phone states ?
+[02:04] me013 | Yeah .
+[02:14] mn007 | It 's their complete system and including on - line
+[02:20] me013 | That 's true .
+"[02:21] mn007 | And if you don't use adaptation , the error rate is"
+[02:25] mn007 | around
+"[02:27] mn007 | fifty percent worse , I think , if I remember . Yeah ."
+[02:29] me013 | OK .
+"[02:31] me013 | It 's tha it 's that much , huh ?"
+[02:31] mn007 | Nnn .
+[02:32] mn007 | It 's Yeah . It 's quite significant . Yeah .
+[02:35] me013 | Oh . OK .
+[02:37] mn007 | Mm - hmm .
+"[02:45] me013 | take I guess that somebody 's gonna do this , right ? is to take some of these tandem things and feed it into the SRI system , right ?"
+[02:51] mn007 | Yeah .
+[02:52] me013 | Yeah .
+[02:52] mn007 | We can do something like that . Yeah .
+"[02:59] mn007 | I am not sure . Our back - end is is fairly simple but until now , well , the attempts"
+"[03:07] mn007 | to improve it or have fail Ah , well , I mean"
+[03:10] mn007 | uh what Chuck
+[03:11] mn007 | tried
+[03:12] mn007 | to to to do
+[03:15] mn007 | Yeah . So it 's Yeah .
+[03:23] mn007 | Mm - hmm .
+[03:27] mn007 | Mm - hmm .
+[03:34] mn007 | Mm - hmm .
+[03:37] mn007 | Yeah .
+[03:38] mn007 | Mmm .
+[03:38] me013 | And um .
+"[03:41] mn007 | So , yeah , we could retrain"
+[03:43] mn007 | some of these tandem
+[03:52] mn007 | f for the HMM models . Yeah . Mm - hmm .
+[03:53] me013 | much better H M Ms . Yeah .
+[03:56] mn007 | Mm - hmm .
+"[03:58] me013 | But just train those H M Ms using different features , the features coming from our Aurora stuff . So ."
+[04:01] mn007 | Yeah .
+[04:04] mn007 | Yeah .
+"[04:08] mn007 | perhaps it 's not related , the amount of data but the um"
+"[04:14] mn007 | it 's probably not a problem of noise , because"
+[04:17] mn007 | our features are supposed to be robust to noise .
+"[04:20] mn007 | It 's not a problem of channel , because there is"
+"[04:20] me013 | Well , yeah ."
+[04:23] mn007 | um
+[04:29] me013 | I I I 'm sorry . What what is the problem that you 're trying to explain ?
+[04:34] me013 | That the Oh .
+[04:37] me013 | So much worse ?
+[04:37] mn007 | uh so much worse . Yeah .
+"[04:44] me013 | I mean , that it has to do with the um amount of training data . It it 's it 's orders of magnitude off ."
+[04:50] mn007 | Yeah but Yeah .
+"[04:54] mn007 | Yeah but we train only on digits and it 's it 's a digit task , so . Well ."
+[04:57] me013 | But but
+"[05:00] me013 | if you look at what commercial places do , they use a huge amount of data . This is a modest amount of data ."
+[05:01] mn007 | Mm - hmm .
+[05:03] mn007 | Alright .
+[05:05] mn007 | Yeah . Mm - hmm .
+[05:12] mn007 | Mm - hmm .
+"[05:14] me013 | But the thing is , if you have a huge in other words , do word models But if you have a huge amount of data"
+[05:18] mn007 | Right .
+[05:19] mn007 | Mmm .
+[05:20] me013 | then you 're going to have many occurrences of similar uh allophones .
+[05:24] mn007 | Yeah .
+[05:29] mn007 | Mm - hmm .
+"[05:30] me013 | I I think it has to be that , because , as you say , this is , you know , this is near - microphone , it 's really pretty clean data ."
+[05:35] mn007 | Mm - hmm .
+"[05:38] me013 | Now , some of it could be the fact that uh let 's see , in the in these multi - train things did we include noisy data in the"
+[05:46] mn007 | Yeah .
+"[05:46] me013 | training ? I mean , that could be hurting us actually , for the clean case ."
+"[05:54] mn007 | are better than the multi - train , yeah ."
+[05:59] mn007 | Mm - hmm .
+[06:00] me013 | But um .
+[06:02] me013 | Uh .
+[06:04] me013 | So .
+"[06:06] mn007 | well , let 's say if we if we add enough data to train on the um"
+[06:10] me013 | Uh - huh .
+"[06:12] mn007 | on the Meeting Recorder digits ,"
+[06:13] me013 | Mm - hmm .
+[06:14] mn007 | I guess we could have better results than this .
+[06:17] mn007 | And .
+[06:18] mn007 | What I meant is that perhaps we can learn something
+"[06:21] mn007 | uh from this ,"
+[06:22] mn007 | what 's what 's wrong
+[06:24] mn007 | uh
+[06:30] me013 | What kind of numbers are we getting on TI - digits ?
+"[06:32] mn007 | It 's point eight percent , so ."
+[06:38] me013 | Oh . I see .
+[06:38] mn007 | Four - Fourier .
+[06:39] mn007 | @ @
+[06:42] mn007 | Yeah . Yeah .
+[06:45] mn007 | Mm - hmm .
+[06:46] me013 | Yeah .
+"[06:48] me013 | Sure , but I mean ,"
+[06:55] mn007 | Mm - hmm .
+[07:05] mn007 | Mmm .
+[07:14] mn007 | Mm - hmm .
+[07:20] mn007 | Mm - hmm .
+[07:21] mn007 | Yeah .
+[07:30] mn007 | Yeah . Mm - hmm .
+[07:34] me013 | Um .
+[07:39] mn007 | Mm - hmm .
+[08:00] mn007 | Mm - hmm .
+[08:05] me013 | Um .
+[08:10] me013 | Yeah .
+[08:30] me013 | the uh point eight percent for for for the original TI - digits database ?
+[08:36] me013 | Um .
+[08:40] mn007 | th that 's my point I I I don't
+[08:43] mn007 | Mm - hmm .
+[08:54] mn007 | Mm - hmm .
+"[08:58] me013 | Um . Why is it uh four times as high ,"
+[09:03] me013 | or more ?
+"[09:10] me013 | Right ? I mean , there 's even though it 's close - miked there 's still there really is background noise ."
+[09:15] mn007 | Mm - hmm .
+[09:16] me013 | Um . And uh I suspect when the TI - digits were recorded if somebody fumbled or said something wrong or something that they probably made them take it over .
+[09:26] mn007 | Mm - hmm .
+[09:28] me013 | It was not I mean there was no attempt to have it be realistic in any in any sense at all .
+[09:28] mn007 | Well .
+[09:31] mn007 | Yeah .
+[09:42] me013 | Mm - hmm .
+[09:42] mn007 | whereas these Meeting Recorder digits
+[09:46] mn007 | sometimes you have breath noise and
+[09:50] mn007 | Mmm .
+"[09:53] mn007 | It 's not controlled at all , I mean ."
+[09:58] mn007 | Mm - hmm . But -
+"[10:12] me013 | um ,"
+"[10:14] me013 | the SRI results . I mean , they 're much much better , but still you 're getting something like one point three percent"
+[10:18] mn007 | Mm - hmm .
+"[10:34] me013 | on the actual TI - digits . So this I think , on both systems the these digits are showing up as harder ."
+[10:35] mn007 | Mmm .
+[10:41] me013 | Um .
+[10:41] mn007 | Mm - hmm .
+[10:45] me013 | uh I mean it 's still read .
+"[10:59] me013 | I mean , I 'm sure they wouldn't release the numbers , but I don't think that uh"
+[11:03] me013 | the uh the the companies that that do telephone speech get anything like point four percent on their
+"[11:13] me013 | Uh , I mean , for one thing people do phone up who don't have uh"
+[11:16] me013 | uh Middle America accents and
+[11:20] mn007 | Mm - hmm .
+[11:28] me013 | Um .
+[11:29] me013 | I mean .
+[11:31] me013 | OK . That was that topic . What else we got ?
+[11:35] mn007 | Um .
+"[11:42] me013 | I know Thilo and Dan Ellis are are submitting something , but uh ."
+[11:46] mn007 | Yeah . I I guess e the only thing with
+"[12:06] me013 | Now , actually for the for the Aur - uh we do have stuff for Aurora , right ? Because because we have ano an extra month or something ."
+[12:09] mn007 | Yeah . Yeah .
+"[12:12] mn007 | Yeah . So . Yeah , for sure we will"
+[12:14] me013 | Yeah .
+[12:15] mn007 | do something for
+[12:18] mn007 | the special session . Yeah .
+[12:21] mn007 | Mm - hmm .
+[12:27] me013 | That 's fine .
+[12:29] me013 | Um .
+[12:31] me013 | Anything else ?
+"[12:49] mn007 | So , yeah ."
+[12:56] mn007 | the results are
+[12:59] mn007 | similar to the
+[13:00] mn007 | France Telecom results and
+[13:02] me013 | Hmm .
+[13:06] mn007 | Um .
+[13:09] mn007 | So there is this point .
+"[13:19] mn007 | um ,"
+[13:20] me013 | Mm - hmm .
+"[13:23] mn007 | well , this VAD"
+"[13:28] mn007 | and we if we put it on the server side ,"
+[13:39] mn007 | so you accumulate the delay so
+[13:48] mn007 | and
+[13:49] me013 | So wha where did this good VAD come from ?
+[13:50] mn007 | So .
+[13:52] mn007 | It 's
+[13:53] mn007 | um from OGI . So
+"[13:58] mn007 | it 's the network with the huge amounts on hidden of hidden units , and"
+[14:02] mn007 | um
+[14:04] mn007 | nine input frames compared to
+[14:07] mn007 | the VAD that was
+[14:08] mn007 | in the proposal which has
+[14:10] mn007 | a very small amount of hidden units and fewer inputs .
+[14:16] mn007 | Yeah .
+"[14:18] me013 | Yeah , but they had to get rid of it because of the space , didn't they ?"
+[14:21] mn007 | Yeah . So .
+[14:23] mn007 | Yeah . But the abso assumption is that
+[14:30] mn007 | And .
+[14:33] mn007 | Yeah but nnn .
+[14:41] me013 | if if I I don't know what the thinking was amongst the the the the ETSI folk but um
+[14:48] mn007 | Mm - hmm .
+"[14:53] mn007 | They just want , apparently they don't want to fix the VAD because"
+[14:57] mn007 | they think there is some interaction between
+[15:02] mn007 | and
+[15:06] mn007 | But
+[15:07] mn007 | they still want to just to give some
+[15:12] mn007 | requirement for this VAD because it 's it will not be part of they don't want it to be part of the standard .
+[15:19] me013 | OK .
+[15:19] mn007 | So .
+[15:20] mn007 | So it must be at least
+[15:27] mn007 | uh not yet
+[15:30] mn007 | Nnn .
+[15:34] me013 | s
+[15:43] mn007 | Yeah .
+"[15:44] me013 | You know , as long as it did the job ."
+[15:47] mn007 | Mm - hmm .
+[15:50] me013 | So that 's good .
+[15:55] mn007 | Yeah .
+[15:56] mn007 | Uh I designed a new a new filter
+[16:00] mn007 | because
+[16:01] mn007 | when I designed other filters
+[16:10] me013 | Right .
+[16:11] mn007 | uh Hynek suggested that both could have sixty - five sixty - s
+[16:16] me013 | Yeah .
+"[16:18] me013 | You didn't gain anything , right ?"
+[16:19] mn007 | And . So I did that and
+[16:21] mn007 | uh it 's running .
+"[16:23] mn007 | So , let 's see"
+[16:25] mn007 | what will happen .
+[16:27] mn007 | Uh but the filter is of course closer
+[16:32] me013 | Mm - hmm .
+[16:33] mn007 | Mmm .
+[16:36] mn007 | Um . Yeah .
+"[16:40] me013 | So that means logically , in principle , it should be better . So probably it 'll be worse ."
+[16:48] me013 | Or in the basic
+[16:52] mn007 | Yeah . Sure .
+[16:57] me013 | OK .
+"[16:57] mn007 | Yeah , and then we 've started to work with this of um"
+[17:00] mn007 | voiced - unvoiced
+[17:02] me013 | Mm - hmm .
+[17:03] mn007 | stuff .
+[17:04] mn007 | And
+[17:10] mn007 | perhaps try to have um
+[17:12] mn007 | a new system with uh uh MSG stream also
+[17:16] mn007 | see what what happens .
+"[17:24] mn007 | So , something that 's similar to the proposal too , but with MSG stream ."
+[17:28] me013 | Mm - hmm .
+[17:29] me013 | Mm - hmm .
+[17:29] mn007 | Mmm .
+[17:31] me013 | OK .
+[17:41] fn002 | I begin to play
+[17:59] fn002 | between the um FFT of the signal and the small
+[18:06] fn002 | we after the um mel filter bank .
+[18:09] me013 | Uh - huh .
+"[18:10] fn002 | And , well , is more or less robust ."
+[18:12] fn002 | Is good for clean speech . Is
+[18:16] me013 | Huh ?
+[18:16] fn002 | for noisy speech .
+[18:17] me013 | Mm - hmm .
+"[18:18] fn002 | but um we must to have bigger statistic with TIMIT ,"
+[18:23] me013 | Mm - hmm .
+[18:23] fn002 | and is not ready yet
+[18:25] me013 | Yeah .
+"[18:25] fn002 | to use on , well , I don't know ."
+[18:29] me013 | Yeah .
+[18:35] me013 | Right .
+[18:35] fn002 | Mm - hmm .
+[18:39] fn002 | I have here .
+[18:40] fn002 | I have here
+[18:40] mn007 | Mmm .
+"[18:42] fn002 | for one signal , for one frame ."
+[18:43] me013 | Yeah .
+"[18:45] fn002 | The the mix of the two , noise and unnoise , and the signal is this ."
+[18:45] me013 | Uh - huh .
+[18:55] me013 | Uh .
+"[18:57] fn002 | These are the two the mixed , the big signal is for clean ."
+"[19:02] me013 | There 's None of these axes are labeled , so I don't know what this What 's this axis ?"
+"[19:09] fn002 | nnn , "" frame "" ."
+[19:11] fn002 | Mm - hmm .
+[19:12] me013 | And what 's th what this ?
+"[19:14] fn002 | Uh , this is uh energy , log - energy of the spectrum ."
+"[19:18] fn002 | Of the - No , this is the variance , the difference"
+[19:22] fn002 | between
+[19:23] fn002 | the spectrum of the signal
+[19:26] fn002 | and
+[19:28] fn002 | FFT of each frame of the signal and
+[19:31] fn002 | this mouth spectrum of time after the f
+[19:35] me013 | For this one .
+[19:35] fn002 | may fit
+[19:36] me013 | For the noi
+"[19:36] fn002 | for the two ,"
+"[19:37] fn002 | this big , to here , they are to signal ."
+[19:40] fn002 | This is for clean and this is for noise .
+[19:44] me013 | Oh . There 's two things on the same graph .
+"[19:45] fn002 | Yeah . I don't know . I I think that I have d another graph , but I 'm not sure ."
+[19:50] mn007 | Yeah .
+[19:50] me013 | So w which is clean and which is noise ?
+[19:53] mn007 | I think the lower one is noise .
+[19:54] fn002 | The lower is noise and the height is clean .
+[19:57] me013 | OK . So it 's harder to distinguish
+[20:00] fn002 | It 's height .
+[20:00] mn007 | Yeah .
+[20:02] fn002 | Oh . I must to have .
+"[20:04] fn002 | Pity , but I don't have"
+[20:07] fn002 | two different
+[20:12] mn007 | So this should the the the t
+[20:14] mn007 | voiced
+[20:15] me013 | Uh - huh .
+"[20:15] fn002 | Yeah , it is the height"
+[20:16] mn007 | portions .
+[20:17] fn002 | is voiced portion .
+[20:20] fn002 | And this is the noise portion .
+[20:23] me013 | Uh - huh .
+[20:23] fn002 | And this is more or less like this .
+[20:25] fn002 | But I meant to have see @ @ two two the picture .
+[20:25] me013 | Yeah .
+[20:28] me013 | Yeah .
+"[20:29] fn002 | This is , for example , for one frame ."
+[20:31] me013 | Yeah
+[20:32] fn002 | the the spectrum of the signal .
+[20:35] fn002 | And this is the small
+[20:37] fn002 | version of the spectrum after ML
+[20:40] fn002 | mel filter bank .
+[20:42] me013 | Yeah . And this is the difference ?
+[20:42] fn002 | And this is
+[20:44] fn002 | I don't know .
+[20:48] fn002 | with LPC model
+[20:50] fn002 | the spectrum but
+[20:52] fn002 | using Matlab without going factor and s
+[20:57] fn002 | Not pre - emphasis . Nothing .
+[20:59] fn002 | And the I think that this is good .
+[21:06] fn002 | this is another frame .
+"[21:11] fn002 | envelope ,"
+"[21:12] fn002 | this envelope ,"
+[21:15] fn002 | with the mel filter bank .
+[21:28] me013 | Um .
+"[21:29] me013 | But if you were to really try and get a voiced - unvoiced , do you do you want to totally ignore that ? I mean , do you do you I mean ,"
+"[21:34] me013 | clearly a a very big very big cues for voiced - unvoiced come from uh spectral slope and so on , right ?"
+[21:41] mn007 | Mm - hmm .
+[21:43] me013 | Um .
+[21:49] me013 | Yeah . I see .
+[21:50] mn007 | Yeah .
+[21:51] fn002 | Yeah because when did noise
+[21:52] mn007 | Uh .
+[21:57] me013 | Mm - hmm .
+[21:58] fn002 | if s @ @
+[21:59] fn002 | val value is
+[22:00] fn002 | indicative that is a voice frame and it 's
+[22:04] me013 | Yeah .
+[22:05] me013 | Yeah .
+"[22:07] me013 | certainly if you want to do good voiced - unvoiced detection , you need a few features . Each each feature is by itself not enough . But , you know , people look at at slope and uh"
+[22:17] mn007 | Mmm .
+[22:36] mn007 | Mmm .
+[22:41] me013 | Uh . Or maybe you could you just do it going through the P FFT 's figuring out some um probable um harmonic structure .
+[22:49] me013 | Right . And and uh .
+[22:50] mn007 | Mmm .
+[22:55] fn002 | the paper that you s give me yesterday .
+[23:02] fn002 | they are some
+[23:02] fn002 | problem
+"[23:03] mn007 | Yeah , but it 's not it 's , yeah , it 's it 's another problem . Yeah"
+[23:06] fn002 | Is another problem .
+"[23:09] mn007 | Yeah , there is"
+[23:10] mn007 | th this fact actually . If you
+[23:15] me013 | Yeah .
+[23:17] mn007 | What 's this again ? Is it the mel - filters ?
+[23:20] fn002 | Yeah like this . Of kind like this .
+[23:21] mn007 | Yeah .
+[23:22] mn007 | OK .
+[23:23] mn007 | So the envelope here is the output of the mel - filters
+[23:26] me013 | Mm - hmm .
+"[23:26] mn007 | and what we clearly see is that in some cases ,"
+[23:31] mn007 | and
+"[23:32] mn007 | the the harmonics are resolved by the f Well ,"
+"[23:36] mn007 | there are still appear after mel - filtering ,"
+[23:39] me013 | Mm - hmm .
+[23:42] mn007 | for high pitched voice because
+[23:48] mn007 | is sometimes even smaller than the pitch .
+[23:51] me013 | Yeah .
+[23:53] me013 | Right .
+[23:56] mn007 | Nnn .
+[23:59] mn007 | And so what happens is that this
+[24:07] me013 | Yeah .
+[24:08] mn007 | um
+[24:10] mn007 | so we were thinking to modify the mel - spectrum to have something that that 's smoother on low frequencies .
+[24:20] mn007 | i
+[24:22] mn007 | Yeah . This is a separate thing .
+[24:23] fn002 | Yeah .
+[24:23] me013 | Separate thing ? Yeah .
+[24:24] mn007 | And .
+[24:38] mn007 | Yeah .
+[24:39] mn007 | Mm - hmm .
+[24:56] mn007 | Mm - hmm .
+[24:56] me013 | by uh
+"[25:04] me013 | It 's uh a variant on what you 're s what you 're doing . The I mean , the the the mel"
+[25:27] mn007 | Mm - hmm .
+"[25:31] me013 | if was uh noisy , the proportion that it would go down would be"
+[25:36] mn007 | Mm - hmm .
+[25:36] me013 | if it was if it was unvoiced or something .
+[25:39] me013 | So you oughta be able to pick out voiced segments .
+[25:43] me013 | At least it should be another another cue .
+[25:49] mn007 | Mm - hmm .
+[26:06] me013 | Mm - hmm .
+"[26:27] me006 | you know ,"
+[26:38] me006 | um
+[26:47] me006 | the uh the great advantages that
+[27:02] me006 | you can imagine um
+[27:06] me006 | um features
+[27:14] me006 | with uh undirected links
+[27:18] me013 | Hmm .
+[27:29] me006 | and um
+"[27:31] me006 | yeah , I 've just been continue reading"
+[27:34] me006 | um about certain things .
+[27:34] me013 | Mm - hmm .
+[27:41] me006 | um
+[27:49] me013 | Mm - hmm .
+[27:52] me006 | it seems like the modulation um spectrum tells you a lot about
+"[28:04] me006 | So , um . Yeah ."
+[28:06] me006 | Just
+[28:07] me006 | that 's about it .
+[28:09] me013 | OK .
+[28:13] me026 | OK . And um so I 've been looking at Avendano 's work and um
+[28:51] me026 | the reverberation responses um simply convolved
+[28:56] me026 | um
+"[28:56] me026 | in , but"
+[28:58] me026 | it 's not really with these ten millisecond frames
+[29:00] me026 | cuz you j
+[29:12] me026 | and the then it um
+[29:37] me026 | that 's supposed to d
+[29:55] me026 | method training trading the um the spectral resolution for time resolution and um
+[30:11] me026 | frequency resolution .
+[30:28] mn007 | Mm - hmm .
+[30:45] mn007 | Mm - hmm .
+"[30:47] me026 | Oh , and um , another f first step is um , so the the way I want to extend his work is make it able to deal with a time varying reverberation response um and um"
+[31:00] me026 | we don't really know how fast
+[31:09] me026 | we we have this um block least squares um
+[31:28] mn007 | Mm - hmm .
+[31:33] mn007 | Mm - hmm .
+[31:39] me013 | OK .
+[31:46] mn007 | Yeah .
+[32:46] me013 | Yeah .
+[32:46] me026 | Is there a particular way we 're supposed to read them ?
+[32:48] mn007 | There are only zeros here . Well .
+"[32:51] me013 | No . "" O "" "" O "" "" O "" and "" zero "" are two ways that we say that digit ."
+[32:55] mn007 | Yeah .
+[32:58] me013 | so it 's i
+"[32:58] mn007 | Perhaps in the sheets there should be another sign for the if we want to the the guy to say "" O "" or"
+[33:06] mn007 | Yeah .
+[33:07] mn007 | OK .
+[33:07] me026 | Alright .
+[33:14] me026 | OK .
+[33:19] mn007 | because here you only have zeros
+[33:24] me013 | they they write down OH . or they write down ZERO a and they and they each have their own pronunciation .
+"[33:28] mn007 | Yeah but if the sh the sheet was prepared with a different sign for the "" O "" ."
+[33:32] me013 | But people wouldn't know what that wa
+[33:33] me013 | I mean there is no convention for it .
+[33:34] mn007 | OK .
+[33:36] mn007 | Yeah .
+"[33:38] me013 | "" OK when we write this , say it tha "" , you know , and you just They just want people to read the digits as you ordinarily would and and people"
+[33:40] mn007 | Mm - hmm .
+[33:42] mn007 | Yeah .
+[33:43] mn007 | Yep .
+[33:45] me013 | say it different ways .
+[33:46] me026 | OK . Is this a change from the last batch of of um forms ? Because in the last batch it was spelled out which one you should read .
+"[33:51] mn007 | Yeah , it was orthographic , so ."
+[33:58] me026 | Oh . OK .
+[34:02] me026 | OK .
+[34:05] me026 | OK .
+[34:06] me013 | OK .
+"[34:59] me013 | when I 'm talking on the phone , certainly , and and saying these numbers , I almost always say zero ."
+"[35:19] me013 | Yeah it 's shorter . Yeah . So it 's So . So uh . Now , don't think about it ."
+[37:54] me013 | OK . We 're done .

@@ -1,0 +1,363 @@
+﻿[00:27] Speaker_A | I hope you're ready for this uh functional design meeting .
+[00:34] Speaker_A | Um so I will take the minutes you mm you three are going to do presentation .
+[00:44] Speaker_A | Um uh we want to know to at the end to know the new project's requirement so we need uh to know the the user uh needs that we want to fulfil to fulfil the from the technical part we want to know how it going to work and um
+[01:09] Speaker_A | third part uh I don't remember which is not very good .
+"[01:20] Speaker_A | Ah of course , how to to design this uh this yeah ."
+"[01:30] Speaker_A | um let's go for the three presentations , so first um Marketing Expert ."
+[01:39] Speaker_A | So wait a minute . Mm .
+[01:55] Speaker_B | Sammy Benjo . I know this name uh . We met before .
+"[02:01] Speaker_D | So as you know , you I think you already know me , Sammy Benjo . I am the expert in marketing and I want to tell you about what people uh s want and uh like and dislike in remote controls , and I hope this is going to help you to to design it correctly . So next please ."
+[02:21] Speaker_A | Mm uh .
+"[02:22] Speaker_C | Yeah , it is put F_ five ."
+[02:25] Speaker_A | Hmm .
+"[02:26] Speaker_C | The full page presentation , yep ."
+"[02:28] Speaker_D | Yeah maybe in the full page because i I spent lots of time doing this presentation , so ."
+[02:29] Speaker_B | F_ F_ five .
+[02:30] Speaker_A | Okay .
+[02:30] Speaker_C | Yeah . Yep .
+[02:32] Speaker_A | F_ five .
+[02:34] Speaker_C | Yeah .
+[02:34] Speaker_D | Uh-huh hmm okay .
+[02:36] Speaker_A | Mm-hmm . Mm .
+[03:01] Speaker_D | Don't forget about that . So we've we've conducted a a survey on on the use of uh remote controls and I'd like to show you some of the results we found on this survey .
+[03:16] Speaker_D | And next please .
+"[03:18] Speaker_D | Yeah , so basically what we found was that uh there are several things that the user don't like in remote controls ."
+"[03:30] Speaker_D | First of all , they find it very ugly . Current remote controls as you know they're the same as this one uh they're not nice colour , not nice shape , I mean they're all the same , and they're not l good looking ."
+"[03:47] Speaker_D | Um what is interesting is that in fact it seems that they were people are ready to pay for nice and look and fancy looking uh remote control , so I think we should probably spend lots of time in and effort in that um ."
+[04:03] Speaker_D | And the other thing is that uh the the current remote controls are not so easy to use and it it the the current uh facilities that they offer do not match what people really want to use their remote controls .
+[04:19] Speaker_D | For instance uh we see that uh they zap very often so I think this is a very uh important uh functionality that it should be easy for them to to zap uh in one way or another .
+"[04:32] Speaker_D | And most of the buttons uh on uh current remote controls are not used , so I think we should design something where some of the buttons which are those that are used should be easier to see and use than others that only a couple of people are using ."
+[04:49] Speaker_D | Um next please . Now people are very frustrated w with their remote controls and they for instance uh they don't even find it it's it's often lost somewhere in the in the in your home and nobody knows where it is .
+[05:09] Speaker_C | Yeah .
+"[05:10] Speaker_D | Maybe if we have something where we could ask the remote control please , where are you ? Like uh something to to like t I think phones . Some of the phones have some of this kind of s functionality . Uh of course phone you can always phone your phone but you can't phone your your remote control . But why not ? Yeah ."
+[05:10] Speaker_B | Agree .
+[05:11] Speaker_C | Yeah .
+"[05:32] Speaker_D | And because of the fact that there are so many buttons in these remote controls that nobody use , in fact they don't even know how to use them , so most of the the people say they they don't know how to they to use properly their r remote controls ."
+[05:37] Speaker_C | Hmm .
+[05:47] Speaker_D | And uh they are bad for R_S_I_ but uh I don't remember what is R_S_I_ . So I think they are bad . Mm-hmm . Mm nobody has any idea about that ? Well I'll check uh with my
+"[06:06] Speaker_C | Yeah , it's electromagnetic waves or something kind of maybe uh effect ."
+"[06:10] Speaker_B | No , I don't think so ."
+[06:15] Speaker_A | Mm-hmm . Okay .
+[06:15] Speaker_D | Okay .
+"[06:17] Speaker_D | So , it seems that it's a lot of people for a concept that we don't know but we have to take this into account ."
+[06:20] Speaker_C | Uh .
+[06:24] Speaker_C | Uh .
+"[06:25] Speaker_B | Every fourth , you know . Every four some of us knows ."
+[06:30] Speaker_D | So anyway that's for what the biggest frustration uh of the user and um
+[06:31] Speaker_A | Okay .
+[06:37] Speaker_C | Yeah . Yeah .
+[06:38] Speaker_D | what else do I have ? Next slide ?
+[06:41] Speaker_D | Ah yeah . So we've listed a couple of uh
+[06:42] Speaker_B | Mm-hmm .
+[06:45] Speaker_B | Functions .
+[07:11] Speaker_D | People want to have a power button . Channel selection is uh o often used very often used and indeed uh very relevant .
+[07:28] Speaker_D | Ah now I remember what is R_S_I_ it's repetitivity stress injury .
+[07:41] Speaker_C | Uh .
+"[07:50] Speaker_D | Volume is not often used but people uh want to have control on volume and that makes sense of course . And n then you have things which are very much less often used like the settings . Audio settings , screen settings , even teletext and channel settings ."
+"[08:07] Speaker_D | All of them . they're not often used and they are s more or less relevant . It seems that people find teletext teletext uh relevant , even if I personally never use it but seems that it's average relevant at least , so ."
+"[08:21] Speaker_A | I have been told that we uh don't consider teletext , that it's out of date now because of internet ."
+"[08:30] Speaker_D | I can tell you that uh in a l in a scale between one and ten relevant uh not relevant to relevant people scored a six on this , which is not as uh these these two one were had I think ten I think ."
+[08:43] Speaker_A | Mm-hmm .
+"[08:43] Speaker_D | But but if you compare with these ones , uh I think they scored a one or two . Not very relevant , so"
+[08:49] Speaker_C | Hmm .
+[08:51] Speaker_D | if if there are good reason not to put teletext it's okay but just know that people find it somehow relevant .
+[08:58] Speaker_B | Mm-hmm .
+"[09:12] Speaker_D | One of the thing the trend uh that uh you are probably aware of is the possibility the eventual possibility of having speech recognition in your remote control , so you wouldn't have to tap tap in your buttons but just tell your remote control or whatever you need you have what you want ."
+"[09:30] Speaker_D | So we've conducted a survey about uh whether people would like or not to have uh this kind of uh functionality in their remote control and as we can see it really depends on the age . Young people , probably because it's a buzz word , find it very relevant ."
+[09:47] Speaker_D | And uh as the age goes up the the relevance goes down . So now it really depends on the kind of uh targeting uh wha who are we targeting with this remote control ? I think if we are targeting young people then uh it's probably something we have to consider .
+[09:53] Speaker_C | Yeah .
+"[10:05] Speaker_D | If we are targeting you very old people this is something they really don't know why they this should be so now this is of course , depends on that ."
+[10:12] Speaker_A | Mm-mm . Okay .
+"[10:15] Speaker_D | And um I don't have any conclusion , I didn't have time the meeting was very tight , so that's basically my findings . And uh , if you have any question ?"
+"[10:26] Speaker_A | Mm I think it's good , okay . You done a good review ."
+"[10:29] Speaker_B | I got one question , uh you are a Market Expert so should we aim at the young people or not ?"
+"[10:29] Speaker_D | I can go back . Yeah one question , yeah ?"
+[10:29] Speaker_C | Thank you .
+[10:46] Speaker_C | Mm .
+"[10:51] Speaker_B | Okay , then teletext is used less ."
+[10:52] Speaker_C | Mm .
+[10:54] Speaker_A | Mm-hmm .
+"[10:54] Speaker_D | Then teletext is useless for them I think , yeah . Because they they have other means of finding their information . Yeah . But yeah . Nope ."
+[10:56] Speaker_B | Okay .
+[10:59] Speaker_B | Mm-hmm . Mm-hmm .
+[11:00] Speaker_A | Mm-hmm mm mm . Okay . That's good point .
+"[11:03] Speaker_C | Mm , yep ."
+[11:03] Speaker_B | Mm . Okay .
+[11:04] Speaker_A | Okay .
+[11:05] Speaker_D | 'Kay ?
+[11:06] Speaker_C | Thank you .
+[11:11] Speaker_A | So um now I think it's the turn of the
+"[11:28] Speaker_A | Of the technical function , so"
+"[11:33] Speaker_D | So I think it's you , huh ?"
+[11:34] Speaker_C | Uh it's
+"[11:38] Speaker_D | No , user requiremen"
+[11:40] Speaker_C | Yeah .
+[11:42] Speaker_A | Okay .
+[11:44] Speaker_A | Wait a second . Argh .
+[11:45] Speaker_C | I have to do working design so uh .
+"[11:48] Speaker_B | That's but this but number three , yes ."
+[11:56] Speaker_B | Mm-hmm .
+"[12:02] Speaker_B | So , my name is Mark Dwight , and um I am responsible for User Interface Design . However , uh mm Project Manager asked me to give you some presentation about technical functions design ."
+"[12:18] Speaker_B | Uh , as I'm a more an artist that's gonna be less technical functions but more User Interface and current intentions and everything which is linked with this . So next slide please ."
+[12:30] Speaker_A | Okay . Let's go .
+"[12:32] Speaker_B | And uh a general method which is seems to be very useful for our task is not to forget about uh Occam razor . We should never complicate things too much . We should only make a remote control , nothing more . Nothing more than this , just a remote control ."
+[12:35] Speaker_C | Mm .
+[12:51] Speaker_B | 'Cause current remote controls they are never easy enough to use .
+"[12:58] Speaker_B | So , make a click , please ."
+[13:02] Speaker_B | So here is this remote control .
+"[13:06] Speaker_B | It's quite a standard one , but it's not from a T_V_ , it's from a much"
+"[13:13] Speaker_B | easier device like air conditioning or something . But you know , we can use it for a T_V_ easily ."
+"[13:23] Speaker_B | Only buttons we need is on off , volume , channels and maybe some options or something else , and please make a click , compared to this one"
+[13:39] Speaker_B | which one would you prefer ? I guess this .
+"[13:42] Speaker_C | Yeah , yeah ."
+[13:42] Speaker_D | I would say the simplest one as long as there are the uh I find the buttons that I need every time I need a button .
+"[13:48] Speaker_B | Sure , sure ."
+"[13:49] Speaker_C | Yeah . Maybe it can be yeah middle of like , between those two li"
+"[13:51] Speaker_B | Yeah , and our method is going to be , provide simple"
+[13:58] Speaker_B | simple desires into simple actions .
+[14:02] Speaker_D | Nice . Nice sentence .
+[14:07] Speaker_B | Findings .
+[14:08] Speaker_A | Okay . Oh sorry .
+"[14:10] Speaker_B | Our question of the style , we should remember that our company"
+[14:18] Speaker_B | puts fashion into electronics
+[14:22] Speaker_B | and we should never forget about it .
+"[14:28] Speaker_B | Concept . Be simple . Be simple and you'll lean on this market . Market is a of remote controls you know it better , it's very"
+[14:38] Speaker_D | Mm .
+"[14:41] Speaker_B | well , it's"
+"[14:43] Speaker_B | it's not an easy field to to play , you know ?"
+[14:49] Speaker_B | So be simple . For personal preferences I think that to make a baby-proof remote control it got to be a titanium .
+"[15:02] Speaker_B | It's a really good style , it going to be look like like this ."
+[15:08] Speaker_B | It is unbreakable and it is very universal .
+"[15:15] Speaker_B | W we'll have a screen with a back light which can change colours ,"
+[15:20] Speaker_D | Mm-hmm .
+[15:21] Speaker_B | and we can put all the options into this screen . We'll need only few buttons . All the other things can be controlled through the screen .
+"[15:56] Speaker_B | I would propose this concept for design , just few buttons , a screen with a back light which can change colours , titanium"
+[16:00] Speaker_C | Mm .
+"[16:06] Speaker_B | I think , and uh what else ? I got just very few and good ideas . We need power and volume ."
+"[16:17] Speaker_B | And let us include two nice features into this device , first , power on and off can be made fully automatic ."
+"[16:26] Speaker_B | When you go to the sofa , take your control and point it to the T_V_ ,"
+[16:31] Speaker_D | Hmm .
+[16:31] Speaker_A | It's off . It's on .
+[16:33] Speaker_B | the T_V_ turns on .
+[16:35] Speaker_D | And when does it turn off ?
+[16:41] Speaker_D | Oh so you have a
+"[16:46] Speaker_B | It's a question to our technical design , our two engineers . And another nice feature that I would like to implement is uh volume control . Suppose you set u you set up some volume and then you move out or you move to the other corner of the room and take your control with you ."
+"[17:08] Speaker_B | Like , you want to to change the chair or you want to move to the armchair from the sofa or something , and then the volume changes ."
+[17:14] Speaker_A | Or you want to go to the kitchen .
+[17:18] Speaker_D | Mm-hmm .
+"[17:20] Speaker_D | According to your distance to and the angle maybe , if you have a stereo system ."
+[17:21] Speaker_C | Distance .
+[17:22] Speaker_B | According to the distance . Yeah yeah yeah .
+"[17:27] Speaker_D | Uh I'm not sure about the screen , wha what is the use usefulness of the screen ? Uh is it a touch screen by the way ?"
+"[17:34] Speaker_B | I think it can be just a menu which can be controlled with a left , right , up , down and enter ."
+[17:40] Speaker_C | Yeah .
+"[17:44] Speaker_B | So , its main purpose in fact is a back light , which change colours , which makes it easier to find ,"
+[17:49] Speaker_C | Mm-hmm .
+[17:50] Speaker_D | Okay .
+"[17:55] Speaker_B | and each can it can respond for your voice , like it can turn on the light for you just to f find it easily , yeah ?"
+[18:09] Speaker_D | Okay .
+[18:09] Speaker_A | Mm .
+[18:10] Speaker_B | So basically that's it .
+"[18:22] Speaker_B | Can be easily done , 'cause"
+[18:22] Speaker_A | Yeah .
+"[18:24] Speaker_B | you got simple designs , y we should put it to simple actions . Let it be universal , so you want to use it for your hi-fi system . You want to change tracks and you want to adjust volume ."
+[18:29] Speaker_A | Hmm .
+[18:38] Speaker_A | Mm-hmm .
+"[18:39] Speaker_B | Just few actions , a few actions for everything . All the rest , we sh we'll put it into this menu on the screen ."
+[18:39] Speaker_C | Mm .
+[18:42] Speaker_A | Hmm . S
+[18:48] Speaker_A | Mm .
+[18:49] Speaker_A | Since we were targeting a really soon uh uh date for the the the um i issuing of this uh remote control I think we will only concentrate on T_V_ for the moment and then maybe m make it more generalised yeah .
+[19:01] Speaker_C | Mm . Yeah and it mm .
+"[19:01] Speaker_B | Okay , okay ."
+"[19:04] Speaker_B | Okay , but it's quite universal you know ."
+[19:05] Speaker_C | Mm .
+[19:06] Speaker_B | We can just extend it to any device .
+[19:08] Speaker_C | Mm .
+"[19:08] Speaker_D | So for instance if I want to go to directly to channel twenty five , how would I do can I do that with this ?"
+[19:13] Speaker_B | Uh twenty five .
+"[19:15] Speaker_D | Yeah mm let's say I am uh on channel eight now . You know these days we have hundreds of channels , that's not so easy to go just next next next when you have hundreds of channels . Or is it ?"
+[19:20] Speaker_B | Mm-hmm .
+[19:30] Speaker_D | Most people yeah .
+"[20:00] Speaker_A | Yeah it's it's the same solution , I think . Hmm ."
+[20:01] Speaker_C | Yeah .
+[20:02] Speaker_D | B yeah .
+"[20:08] Speaker_D | Go to channel twenty five . One thing is that as I said in my presentation people really do like to z zap . So even if they are only watching four or five channels , I think they want to zap out of the one hundred channels , just because this is one kind of thing they do , zapping ."
+[20:16] Speaker_C | Yeah .
+[20:19] Speaker_B | Mm-hmm .
+[20:23] Speaker_C | Yeah .
+"[20:25] Speaker_A | Yeah uh on zap it's only next next next next next , yeah ."
+[20:26] Speaker_C | Yeah .
+[20:29] Speaker_C | Yeah .
+[20:30] Speaker_B | Mm . We got these buttons here . Next next . Or say this can be back .
+[20:30] Speaker_A | Mm-hmm .
+[20:32] Speaker_D | Okay .
+[20:33] Speaker_C | Yeah. .
+[20:36] Speaker_C | Yeah .
+[20:45] Speaker_D | Okay .
+[20:46] Speaker_A | Maybe we can make uh different modes for each button and you can change mode zapping mode or
+[20:46] Speaker_C | Yeah .
+[20:51] Speaker_C | Yeah .
+"[20:53] Speaker_C | Yeah , yeah ."
+[20:54] Speaker_D | Mm-hmm . Alright . Listening more .
+[20:55] Speaker_A | uh current chan
+"[20:55] Speaker_C | Yeah , yeah ."
+[20:58] Speaker_C | Yeah but since we are focusing only on T_V_ remote controls so we can have more functions for T_V_ uh if you want to go for a universal then we ought to limit for functions for each of our devices .
+[21:00] Speaker_A | Yeah .
+[21:01] Speaker_D | Mm-hmm .
+[21:09] Speaker_A | Mm-hmm .
+"[21:11] Speaker_B | Could we carry out some research if we w really need this , like how many people really need to go to channel number twenty five and then to sixty four ?"
+[21:23] Speaker_C | Yeah . Yeah .
+[21:32] Speaker_B | Alright ? Thanks for your attention .
+[21:34] Speaker_A | Uh you're finish ? Okay . So now the technical aspects of this new device .
+[21:45] Speaker_A | Mm .
+[21:53] Speaker_C | Two .
+"[22:33] Speaker_C | Well , as you know the basic function of remote control is sending some message to the the device , like T_V_ or V_C_R_ or D_V_D_ player etcetera ."
+[22:46] Speaker_C | So we will have a p portable device which will send message to the the main device like T_V_ .
+"[23:03] Speaker_C | And usually this so to do these functions we need an interface , which basically some kind of pressing buttons or keys or like moving jack or something like that ."
+[23:16] Speaker_C | And then these messages these key buttons can be transferred into some kind of message and then it will process by the chip and then it will generate some information to the main device .
+[23:31] Speaker_C | It's generally in the form of infrared or
+[23:35] Speaker_C | some kind of s sensor information . Then we will have the main control in the main device to do the particular action what we want .
+"[23:49] Speaker_C | So , basically we need uh since we are focusing on our interface device remote control we need few components , mainly the energy source like the battery and then we have user interface like uh the keypad and you know buttons we want ,"
+"[24:08] Speaker_C | and then we have some chip , it's mainly digital signal processing chip because since we are I am one doing mostly digital uh devices we ought to have some kind of processor which take care of all these functions and put it in some digital format ."
+[24:26] Speaker_C | And then we'll have the infrared L_E_D_ source which sends the information to the main device .
+"[24:33] Speaker_C | Then we'll have switch in our main uh um device to do particular operations , and we ought to do different codes for different T_V_s , so some T_V_s will have different encryption codes for doing s s uh channel changing and these things ."
+[24:43] Speaker_A | Mm-hmm .
+[24:49] Speaker_A | Okay .
+[24:51] Speaker_A | To make it quite uh an universal uh device uh .
+"[24:54] Speaker_C | Yeah yeah , because the people don't use one particular brand so or at least we have more more than five brands , which are really good ."
+[24:58] Speaker_A | Mm .
+[25:01] Speaker_A | Okay .
+[25:02] Speaker_C | So we need to check their specifications and do their uh encryption that's passing information to the T_V_ device . So we need to have particular encryption codes .
+[25:14] Speaker_A | Okay .
+"[25:15] Speaker_C | Then , components , so we have the main uh energy source and then we will have some buttons and then we will have infrared uh source and then we have some inside some chip in in the device ."
+"[25:32] Speaker_C | Uh since I don't have much time so I'll input the connections to all this components . And since I also want to know feedback from our Marketing Expert and User Interface , so if you want to add some more components we can incorporate them ."
+[25:46] Speaker_A | Mm-hmm .
+"[25:49] Speaker_A | Mm-hmm . And from from the discussion we had do you can you make it on the whiteboard , or mm ."
+[25:53] Speaker_C | Yeah .
+"[25:56] Speaker_C | Yeah , I'm sure , because since our User Interface speech recognition and also Marketing Expert for the speech recognition is really handy , so we can have another , like uh s simple speech recogniser on our D_S_B_ chip . Since we have some kind of uh energy this is our"
+[26:06] Speaker_A | Mm-hmm .
+[26:10] Speaker_A | Mm-hmm .
+[26:10] Speaker_D | Mm-hmm .
+[26:17] Speaker_A | Mm .
+"[26:47] Speaker_A | Uh train it , okay ."
+[26:49] Speaker_D | Mm-hmm .
+[26:49] Speaker_A | Mm-hmm .
+"[26:57] Speaker_C | Yeah . No , even in you can find even simple mobile device like any mobile brand you can have these voice dialers or these things , yeah ."
+[27:05] Speaker_B | Okay .
+[27:10] Speaker_B | Okay .
+[27:10] Speaker_C | Yeah .
+[27:13] Speaker_A | Mm . And what about the price of this component ?
+[27:13] Speaker_C | Yeah .
+"[27:18] Speaker_C | Uh maybe we can make uh it in five Euros and even less than that , because we want to have uh millions and in bulk , so we can make really simp and we want to make really simple device because we have only very few words like like power , switch on or some like then we'll have something like this um"
+[27:20] Speaker_A | It mm okay .
+[27:22] Speaker_D | Hmm . Cheap .
+[27:30] Speaker_A | Okay .
+[27:30] Speaker_D | Cheap .
+[27:37] Speaker_A | Mm-hmm .
+[27:43] Speaker_C | we'll have volume
+"[27:46] Speaker_C | and then we will have s particular channel , so users can listen ."
+"[27:51] Speaker_D | The user uh will just be able to say uh please can you uh pump up the vo pump up the volume or or it will be something like volume , up , down ."
+[27:51] Speaker_A | Mm-hmm .
+"[27:58] Speaker_C | No , yeah , a user can use any kind of sender but they should have this prompt volume and then yeah volume and decrease or increase , so we try to only recognise those words and and because we can't really say user to say same wording then it become more mechanical and yeah ."
+[28:05] Speaker_D | Okay .
+[28:06] Speaker_A | With a keywords and yeah .
+[28:09] Speaker_D | Okay .
+[28:10] Speaker_D | Couple of words .
+[28:11] Speaker_A | Mm-hmm mm .
+[28:16] Speaker_A | Mm-hmm .
+[28:17] Speaker_D | Okay .
+[28:18] Speaker_A | Okay .
+[28:18] Speaker_B | Um .
+"[28:18] Speaker_C | And then we can have channel they can say , okay I want eight , because we don't know like users have different programmes , I mean they don't really follow same channels strict uh so we just want channel number , we don't want like B_B_C_ or C_N_N_ or something else because"
+"[28:35] Speaker_C | it will be complicated so we'll have only these three uh main basic uh anyway volume is not really speech recognition problem , it's it it will be take care of our main mm ."
+[28:40] Speaker_D | Okay .
+[29:04] Speaker_D | First of all I I think this is not uh functionality that it is going to be instead of using the buttons . It's on top of using the button .
+"[29:09] Speaker_A | No , in no not only speech , yeah ."
+"[29:13] Speaker_B | Okay , for this budget like twelve Euros ."
+"[29:24] Speaker_C | This really , suppose like here we have our main chip which controls power , volume and this part and this D_S_P_s ."
+[29:30] Speaker_B | Mm-hmm .
+"[29:31] Speaker_C | Again , this to have some interaction like suppose people use D_S_P_ then it particularly sends some information to the chip like in some form , like volume and like this key ."
+[29:45] Speaker_B | Okay. .
+[29:49] Speaker_D | T_V_ .
+[29:50] Speaker_A | Okay .
+"[29:51] Speaker_B | Mm-hmm , mm-hmm ."
+"[29:52] Speaker_A | Sho to to train , okay ."
+[29:55] Speaker_C | Yeah .
+"[29:56] Speaker_B | Did you consider the r gest uh gesture recognition ? Like , if I want to put volume up I like do mm I take my remote control do like something like"
+[30:06] Speaker_B | roll 'em up or roll 'em down .
+[30:07] Speaker_A | Mm .
+"[30:14] Speaker_A | And well , what about the idea of automatic on off on the button , yeah ."
+[30:19] Speaker_D | And volume control .
+[30:36] Speaker_D | Sh should we target a a user personalised uh uh remote control ? So in in a given room there might be more than one remote control . We would uh have each one and uh with our own personal uh settings .
+[30:47] Speaker_C | Yay yeah .
+[31:00] Speaker_D | Hmm .
+[31:23] Speaker_B | Okay .
+[31:24] Speaker_A | Mm-hmm .
+[31:25] Speaker_A | Okay . You have mm something else to say ? Uh .
+"[31:29] Speaker_C | Uh , not very much , like yeah ."
+[31:30] Speaker_A | No .
+[31:31] Speaker_D | Okay . Thanks .
+"[31:32] Speaker_A | Okay , thanks ."
+[31:33] Speaker_C | Thank you . Yep .
+[31:36] Speaker_C | Thank you .
+[31:39] Speaker_C | Can you just yeah .
+"[31:42] Speaker_A | mm I think , okay , we're just on time ."
+[31:48] Speaker_A | Um mm mm .
+"[31:54] Speaker_A | So , we're now going to l have the lunch break ."
+"[32:08] Speaker_A | we will uh meet again for the next meeting , and uh in this one want to"
+[32:18] Speaker_A | to be more focused on the individual actions the um on the components so
+[32:33] Speaker_A | you will focus on the component concept um
+[32:36] Speaker_C | Yeah yeah .
+[32:40] Speaker_A | uh of course the U_I_D_ Mark will be uh focused on the user interface concept and uh our m Market Expert Sammy Benjo uh on the trend watching .
+[32:55] Speaker_A | So um of course like before specific instruction will be sent to you by your personal personal coach .
+[33:07] Speaker_A | Well I think that's all .
+"[33:09] Speaker_A | And we have um maybe we have to we say , only for T_V_ , not teletext ? Uh I think automatic on off control uh it's not possible ."
+"[33:23] Speaker_C | Uh it's in current price , yeah ."
+[33:24] Speaker_D | Difficult .
+"[33:25] Speaker_A | Yeah , maybe in the next uh step if we make it work um ."
+[33:27] Speaker_C | Yeah .
+[33:33] Speaker_C | But speech recogniser can be possible .
+"[33:34] Speaker_A | Yeah , implemented . O okay , we can think about that ."
+[33:36] Speaker_D | Mm-hmm .
+[33:38] Speaker_A | And um
+[33:41] Speaker_A | do you see something else ?
+[33:44] Speaker_D | No .
+"[33:47] Speaker_B | Uh , should it be equipped with the"
+"[33:53] Speaker_B | uh , with uh speakers ?"
+"[33:58] Speaker_B | Like , you want to find it , you shout"
+[34:00] Speaker_D | Oh yeah .
+[34:06] Speaker_D | It just beeps . That would be enough . Something very cheap .
+[34:08] Speaker_B | Just beeps ?
+[34:09] Speaker_A | Or maybe you want to phone him .
+[34:12] Speaker_D | But that's ex that's expensive . Uh .
+[34:12] Speaker_C | Yeah yeah yeah .
+[34:12] Speaker_A | Since now all yeah ?
+[34:19] Speaker_A | Uh-huh .
+[34:21] Speaker_D | Well I I heard of devices where you just uh whistle them and and they because of the the frequency they they just answer to that . You can't whistle . Uh-huh . Or a clap .
+[34:25] Speaker_A | And it's answered .
+[34:26] Speaker_C | Yeah .
+[34:28] Speaker_C | Yeah .
+"[34:28] Speaker_B | I can't whistle . No , no , I can't ."
+[34:34] Speaker_B | Mm .
+[34:34] Speaker_D | You can clap . Can you ? Clap is good . Tak
+[34:34] Speaker_A | Clap clap clap it's a good I I think it's universal .
+[34:35] Speaker_C | Yeah .
+[34:37] Speaker_C | Yeah .
+[34:48] Speaker_C | Yeah I think it's good .
+[34:50] Speaker_A | Mm uh okay .
+[34:51] Speaker_C | But it's a good feature I guess yeah we need to think about more how to incorporate it .
+[34:54] Speaker_A | Mm-hmm . Okay .
+[34:57] Speaker_B | Just don't interfere with other devices like 'cause like all these people do that their lights are turning on with clapping .
+[35:01] Speaker_D | Mm-hmm .
+[35:07] Speaker_C | Oh .
+"[35:09] Speaker_B | Yeah , I got it at my home , like . Oops ."
+[35:10] Speaker_A | Mm-hmm .
+"[35:13] Speaker_A | Mm-hmm , so let's to think s so that yeah . I think that could be in the component uh concept uh ."
+"[35:17] Speaker_D | Think about it . Yeah , okay ."
+[35:21] Speaker_C | Yeah .
+[35:23] Speaker_A | It yes .
+[35:25] Speaker_D | Okay .
+"[35:30] Speaker_D | Good we're done ? Right , thanks ."
+"[35:31] Speaker_A | So , yeah , let's go to lunch ."
+"[35:32] Speaker_C | Yeah . Thank you , thank you very much ."

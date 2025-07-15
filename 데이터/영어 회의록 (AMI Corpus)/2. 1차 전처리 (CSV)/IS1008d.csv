@@ -1,0 +1,251 @@
+﻿[00:30] Speaker_B | I'm sorry to be late .
+[00:30] Speaker_A | Welcome back . Welcome back everybody .
+[00:36] Speaker_C | Yeah .
+[00:37] Speaker_C | Thanks .
+[00:41] Speaker_A | So this meeting agenda will be the detailed design meeting .
+[00:47] Speaker_A | And uh
+"[00:50] Speaker_A | opening and uh P_M_s of the meet minutes , uh prototype presentation from uh Christine and uh Agnes ."
+"[01:00] Speaker_B | Agnes , yes ."
+[01:01] Speaker_A | Yes and uh evaluation criteria .
+"[01:28] Speaker_A | Okay , let's talk about uh maybe first uh for the prototype ."
+"[01:35] Speaker_C | Mm , okay ."
+"[01:39] Speaker_C | I've done a presentation , but it pretty much covers work that we've both done , so if I'm missing anything , Christine can just correct me ."
+[01:44] Speaker_A | So shall I go to sorry .
+[01:47] Speaker_A | Yep .
+"[01:49] Speaker_A | Okay , let's go to A_M_I_ ."
+[01:59] Speaker_C | Three .
+[02:06] Speaker_C | Um .
+[02:08] Speaker_D | Probably .
+[02:10] Speaker_D | Technical pa I would think .
+"[02:12] Speaker_C | No , then this is the la yeah , that one , final design . It is named appropriately , you just couldn't see the name . Um okay , can I have the mouse ?"
+[02:14] Speaker_D | Ha .
+[02:16] Speaker_A | Yeah .
+[02:22] Speaker_A | Yes .
+[02:25] Speaker_C | Thanks .
+"[02:27] Speaker_C | Alright , so"
+"[02:31] Speaker_C | from when we were discussing specifying the case in the last meeting , we decided that we wanted an ergonomic shape , the material that we chose was wood , and uh the colour would be customisable , 'cause you can stain the wood whatever colour ."
+"[02:45] Speaker_C | Um , so in terms of function , you have to be able to turn the T_V_ on and off , volume and channel control , menu control , voice recognition control , and we've incorporated the L_C_D_ screen on the flip panel as part of the design , if we figure out it's too expensive , well then you just take it off . Um , so"
+"[03:10] Speaker_C | This is our remote control , with the flip panel as you can see ."
+"[03:15] Speaker_C | So if you lift up the panel , you can see the lovely yellow L_C_D_ display . Um , this is actually hard to do . The yellow button you have is the on off button , so it's really big , hard to miss ."
+"[03:28] Speaker_C | You have the the red um triangles are the toggles for changing the volume . So up volume up , down volume down . The green are the channel changing ."
+"[03:43] Speaker_C | And then you have the numeric pad in the dark blue at the bottom , and on the right-hand side you have the access to the menu on the T_V_ , and on the left-hand side you have the the the ability to turn off the voice recognition . So this is pretty much what we had on the white board the last time ."
+[04:06] Speaker_A | Mm-hmm .
+[04:09] Speaker_C | So .
+[04:12] Speaker_B | Yeah the d
+[04:39] Speaker_C | Yeah .
+"[04:41] Speaker_A | I think the microphone is on on the top , uh on the middle , the under the flip ."
+"[04:43] Speaker_B | Yes , okay ."
+[04:46] Speaker_B | Uh-huh .
+"[04:54] Speaker_B | No , I mean it depends on the design of the circuit board ."
+[04:57] Speaker_A | Yes .
+"[04:58] Speaker_C | But it shouldn't be under the flip either , because you can have the remote control closed , but you still might want to activate it by voice ."
+"[05:05] Speaker_A | Yeah , but uh uh my opinion I think it's better under the flip because whenever you want to uh the talk , okay , so then you can speak then you can close it . But if you put it on the on the flip , okay , then uh technical I don't think it's uh feasible , 'cause most of the time you speak then it will be recognised ."
+"[05:24] Speaker_C | But if you've already got the remote control in your hand you need to open the flip to use the voice , why use the voice , why not just use your hand ? I mean the whole point of the voice is that if the remote control is sitting there and I'm too lazy to reach over and pick it up , I can just use my voice ."
+[05:38] Speaker_B | Maybe I've got my hand in the popcorn bowl and I'm holding my cup of Coca-Cola in the other hand .
+[05:45] Speaker_D | I don't wanna say . Louder . Yeah .
+"[05:50] Speaker_C | I mean it doesn't have to be on the flip , it can be on the side somewhere ."
+[05:52] Speaker_D | Can also be on the side .
+"[05:52] Speaker_A | Yeah , the sides maybe is good . So That's good idea ."
+[05:53] Speaker_C | Yeah .
+[05:54] Speaker_B | Mm-hmm .
+[05:57] Speaker_A | Yes . So it's maybe good idea .
+[06:07] Speaker_A | Yes .
+[06:10] Speaker_A | Yeah .
+"[06:12] Speaker_C | Yeah , exactly ."
+[06:15] Speaker_D | Yeah .
+[06:16] Speaker_A | So it's maybe good idea .
+[06:17] Speaker_A | S s
+[06:19] Speaker_D | Compliments to the artist .
+[06:24] Speaker_D | Uh .
+"[06:28] Speaker_A | I'm fine , I'm satisfi I'm satisfied ."
+"[06:33] Speaker_A | Of course it's it's it's looks more heo heavy , but I think when it's completely maybe it's a less weight ."
+[06:38] Speaker_C | Yeah . I mean this is plasticene . There's only so much you can do . We could have possibly made it a lot thinner as well .
+[06:40] Speaker_A | Yes .
+"[06:47] Speaker_C | And part of the thing is m a lot of people say that they don't like something that's too light , because they don't feel like they have enough control over it . So I mean maybe this is excessively heavy , but I think it needs to have some weight , it needs to feel like you're still holding something ."
+[06:53] Speaker_B | Mm-hmm .
+[06:58] Speaker_A | Yep .
+[07:08] Speaker_C | Yeah .
+[07:20] Speaker_A | Okay .
+"[07:43] Speaker_A | So evaluation criteria , I think uh that will be good , so then let's come to the finance uh , I have some uh calculations which I made uh as for uh the budget ."
+[07:56] Speaker_A | So here you can uh look like uh the energy and uh dynamo and uh kinetic and solar cells .
+"[08:04] Speaker_A | Uh it's optional , somewhat optional and Ed wants the chip on print , that's what uh we were talking about that ."
+"[08:12] Speaker_A | So then we have sample sensor and sample speaker , then uh we have the wood material , then special colour and push button ."
+"[08:22] Speaker_A | So it's uh actually , our budget was uh twelve point five Euro , but uh it's coming to nine point nine five Euro , so we are under uh below the budget , okay , so still we are saving some money ."
+[08:36] Speaker_A | I think it's a good figure .
+"[08:44] Speaker_B | Oh , okay . It's gonna cost a long way to c you know , cost a lot of money to market it , is it ?"
+"[09:14] Speaker_C | No we do , but it's not filled in . It's number thirty . Oh , yeah , yeah , you're right , sorry , yes ."
+"[09:15] Speaker_D | It's not it doesn't say . We don't have the price up there , okay , so if we add approximately two to three Euro per"
+[09:16] Speaker_A | It's not . Yeah . Yeah .
+[09:16] Speaker_B | Thirty .
+[09:18] Speaker_A | Yeah . Yeah .
+[09:18] Speaker_B | Yeah .
+"[09:36] Speaker_D | Display in . But as far as production um I'm putting up a question because we're talking about profit also , and in mine you'll see uh"
+"[09:36] Speaker_B | the L_C_D_ in , yeah ."
+"[09:46] Speaker_D | the problem with uh our survey , the p the possibility that how many units can be sold , what percentage of the market , etcetera etcetera because that has to be taken in into consideration ."
+"[10:05] Speaker_A | Yes , so still uh we have twelve point five Euro ."
+[10:09] Speaker_A | Yes .
+[10:13] Speaker_A | Yes . Yep .
+[10:13] Speaker_C | Um-hmm .
+"[10:20] Speaker_A | Yes . This we are talking about one unit , okay , so when it go into the quantity , okay , and the cost will come down ."
+[10:29] Speaker_D | Slightly .
+[10:36] Speaker_A | Yeah .
+[10:36] Speaker_D | It's gonna be very hard to reduce .
+[10:37] Speaker_C | Yes .
+"[10:48] Speaker_B | Uh you got some pretty cheap labour that can do this case for one Euro . That's really that's the cost of the material and lab wow , that's really outstanding ."
+[10:54] Speaker_A | Yep .
+[10:55] Speaker_A | Yeah .
+[11:30] Speaker_D | If we can go to to my display .
+[11:33] Speaker_D | And we'll come back to yours just to give everybody an idea of the market .
+[11:35] Speaker_A | Yes .
+[11:48] Speaker_D | If I'm still here . Yep .
+[11:50] Speaker_A | You're in four ?
+[11:53] Speaker_D | The four gives me it's gotta be uh TrendWatch .
+[11:55] Speaker_A | TrendWatch .
+[11:57] Speaker_B | Is this the same one you did before ?
+[11:59] Speaker_D | No .
+[12:01] Speaker_B | Okay .
+"[12:02] Speaker_D | It shouldn't be if it's not it's not the right one . No , no we g no , that's the same one . You have to go back and find another one ."
+"[12:02] Speaker_C | That's no , I think it's the same one ."
+[12:13] Speaker_D | Whatever name it popped up under .
+"[12:16] Speaker_D | Uh functional , try functional , it might not be it either , but we'll see ."
+[12:16] Speaker_C | Functional .
+"[12:24] Speaker_D | Yep , that's it . So we'll go screen by screen . Although since uh we need to have some type of idea on a market uh we had independent study that says it this this market has an availability to absorb eight mi eight million units per year . Okay ? Our internal company evaluation puts it between eight to nine million which is approximately the same as the independent study ."
+[12:25] Speaker_C | S Yeah .
+[12:26] Speaker_A | Okay .
+"[12:46] Speaker_D | So if we continue , we'll look at the findings . Next screen ."
+[12:59] Speaker_A | Mm-hmm .
+"[13:02] Speaker_D | No kidding , yeah ."
+[13:04] Speaker_B | Mayb maybe they already expected something .
+"[13:05] Speaker_D | So , if we put an inflated price of fifty Euro at a production cost that cannot exceed twenty-five Euro , okay , we're already in that that price , okay , with transport , promotion , labour , because we hav gi included the promotion in the cost , transport for the material to the stores or whatever how however we're gonna break this down between our our retailers ."
+[13:14] Speaker_A | Yes .
+[13:21] Speaker_C | Um-hmm .
+"[13:28] Speaker_D | Twenty-five percent of the market to get to two million units . At two million units , we have to have a profit of twenty-five Euro per unit to get to the fifty million unit Eu Euro profit . Okay ?"
+[13:36] Speaker_A | Mm-hmm .
+[13:38] Speaker_A | Yep .
+"[13:40] Speaker_D | So , obviously we w w I just did a run down the evaluation of the form , the fan uh the fancy stylishness of the of the unit , the ease of use , speech recognition , cost , we've gone through these . Now , the company must evaluate the feasibility of being able to take enough of the market to justify in production ."
+"[13:59] Speaker_D | Or we project this over two years , but being that the market changes very very quickly , maybe there's no more interest in buying this thing in eighteen months from now . So , now we have to come up with a decision . Can the company sell two million units ? Can it sell it for fifty Euros ?"
+[14:05] Speaker_A | Yes .
+[14:08] Speaker_A | Yep .
+[14:09] Speaker_A | Of course .
+[14:09] Speaker_C | Mm .
+[14:13] Speaker_A | Yep .
+"[14:14] Speaker_B | Could could I go to findings ? Uh uh um I would uh like to explore the possibility of using um alternative um delivery and sales channel which would be um to use the internet for promotion and ordering and then to drop-ship the p product to the customer's residence . That way you have no storage , you have no um you do have transportation , still have the labour cost , but you don't have the transport to the uh point of sale . The point of sale is online ."
+[14:15] Speaker_A | Yep .
+[14:32] Speaker_A | Yes .
+[14:38] Speaker_C | Directly .
+[14:44] Speaker_C | Um-hmm .
+[14:50] Speaker_A | Yes .
+[14:51] Speaker_C | Yeah .
+[14:52] Speaker_A | To the agents .
+"[14:54] Speaker_C | Yeah . You can do a shipping centre somewhere , or strategically place shipping centres to minimise distance costs ."
+"[14:58] Speaker_B | Right , like Amazon . In fact , we should sell through Amazon , don't you think ? Or eBay , yeah ."
+[15:00] Speaker_A | Yes .
+[15:03] Speaker_A | Yes .
+[15:04] Speaker_C | Yeah .
+"[15:07] Speaker_A | Yeah , that's a good idea ."
+[15:10] Speaker_D | S Upscale technology . Well .
+"[15:11] Speaker_A | Yeah , yes ."
+[15:27] Speaker_B | Mm .
+[15:28] Speaker_D | There are several companies that have gone that way .
+[15:31] Speaker_B | Mm .
+[15:37] Speaker_B | Mm-hmm .
+[15:40] Speaker_B | And you can even have an a movie that you can rotate the object and look at the di the only thing that you're missing really is the weight .
+[15:45] Speaker_C | Yeah .
+[15:48] Speaker_C | The weight and feel .
+[15:50] Speaker_B | Mm .
+[15:50] Speaker_C | Yeah .
+"[15:51] Speaker_B | We're getting used to that . It's not quite like trying on a shoe , but"
+[15:56] Speaker_B | people are getting used to buying things online that they can't touch before buying .
+[15:56] Speaker_C | Yeah .
+[16:00] Speaker_C | Yeah .
+[16:05] Speaker_C | Mm-hmm .
+[16:08] Speaker_D | There's a lot of online that's that is doing this now .
+[16:10] Speaker_C | Yes .
+"[16:11] Speaker_D | And when you're rotating , you'll look behind and look this way uh it's possible to do with this , maybe there's a possibility of selling more than two million units in one year , which could you know , feasibili feasibility uh lower the price of the unit ."
+[16:19] Speaker_A | Yeah .
+[16:25] Speaker_C | Mm-hmm .
+[16:27] Speaker_A | We can .
+[16:28] Speaker_B | Great .
+"[16:29] Speaker_A | I don't think that's uh not possible , it's uh okay then , l uh let's wait for the production , okay , then uh you can evaluate the product , so how it looks like technically and uh how it look like uh the real ."
+[16:42] Speaker_C | What turnaround time do we have ?
+[16:46] Speaker_C | 'Cause I mean production evaluation can be very very quick or very very long .
+"[16:49] Speaker_A | Yes it's it's very quick , of course . It will uh come back in two weeks , okay , it will be ready in two weeks . For evaluation , okay ."
+[16:56] Speaker_B | Works for me .
+"[17:01] Speaker_A | Yes , the prototype uh prototype product evaluation ."
+[17:04] Speaker_B | We probably should do some market tests uh once we have the prototypes and do some orders and things like that and test-market it .
+[17:06] Speaker_A | Yes .
+"[17:07] Speaker_D | Well , obviously ."
+[17:07] Speaker_A | Yes . Yes .
+[17:08] Speaker_C | Yeah .
+[17:11] Speaker_A | Yeah .
+[17:14] Speaker_A | So you can take a minimum two weeks to a maximum four weeks .
+[17:15] Speaker_C | Mm-hmm .
+[17:17] Speaker_C | Think minimum two weeks if we're gonna develop prototypes and then try to take them to different places and see how people use it's not a trivial task .
+[17:18] Speaker_A | Yeah .
+"[17:26] Speaker_A | Yeah , because we we are not going to do it in uh our factory , okay , so we can give it a product evalua Yes , yes ."
+"[17:34] Speaker_A | So we'll do it in the other place , and I don't think it's take more than four weeks time ."
+"[17:43] Speaker_A | Okay , so then the real production we will start once we product evaluation , okay , then uh it's approve from uh the technical team and uh your team , okay , uh from the management , then we can launch in the market ."
+[18:01] Speaker_A | Hm ?
+[18:02] Speaker_B | Any outstanding ?
+[18:03] Speaker_A | S Any any other uh questions or uh comments to be discuss ?
+"[18:11] Speaker_B | No , I'm go ahead ."
+[18:11] Speaker_C | What ab
+[18:12] Speaker_D | I think we pretty much covered everything .
+[18:14] Speaker_B | Did you have something ?
+"[18:28] Speaker_A | Okay uh , let's take like this . Let's proceed with this model , okay , for the for the marketing direction , okay . So no more changes will be made , okay , in this the basic design ."
+"[18:42] Speaker_A | Okay ? So we will introduce m this model and uh let's introduce in the market and let's take the feedback from the customers , then we can uh go for the"
+[18:52] Speaker_B | Second generation .
+[18:52] Speaker_A | second generation .
+"[18:54] Speaker_A | Okay . There's no end , there's not limit . Every every custom"
+[18:57] Speaker_C | The problem is there might not be a second generation if the first generation flops for some silly reason that we haven't thought of .
+"[19:00] Speaker_D | Well , then it may not be ."
+[19:02] Speaker_A | Okay .
+"[19:03] Speaker_A | Well , every customer , okay , they have their own ideas , they have their own test , okay , so there's no end , there's no limit ."
+"[19:12] Speaker_C | No , but there's a difference between releasing a product that has been minimally tested and fine-tuned to suit a general range of requirements versus releasing a product that we think will work but we don't really have anything to back it up ."
+"[19:25] Speaker_A | Yeah , so that's the reason you are here for uh the design , okay , I hope you made a good design ."
+"[19:29] Speaker_C | Yes , but I'm not everybody . I mean the whole point of user evaluation is to see what real people need . We have our own motivations in mind , we have our own ideas in mind , but that doesn't mean that that's what's gonna sell ."
+[20:09] Speaker_A | Yes .
+[20:10] Speaker_B | Our project doesn't um
+[20:10] Speaker_A | Yeah .
+"[20:14] Speaker_B | Ed , d do you know what season of the year or time of the year is the most important for T_V_ remote control sales ?"
+[20:20] Speaker_D | Hmm .
+[20:22] Speaker_B | Would it be the Christmas season by any chance ? Sports season .
+[20:24] Speaker_A | The sports time .
+"[20:27] Speaker_D | Right before the Eur the World Cup . World soccer . World Cup soccer , they need those things that they have their hands g occupied and they need to be able to talk to the con remote control ."
+[20:28] Speaker_B | Which sport season ?
+[20:30] Speaker_A | Football .
+[20:30] Speaker_B | So so
+[20:33] Speaker_A | Football .
+"[20:38] Speaker_B | So I think what we need to do is perhaps to synchronise the final the the launch of a user-tested device with some special event . And and then um so that gives us a little more time perhaps then we anticipated , because I don't know when the World Cup is , but I'm sure there's gonna be one ."
+[20:44] Speaker_A | Yes .
+[20:47] Speaker_A | Yes .
+"[20:47] Speaker_C | Yeah , that's a good idea ."
+[21:07] Speaker_A | Yes .
+[21:07] Speaker_C | Yeah .
+[21:16] Speaker_A | Research .
+[21:17] Speaker_C | Mm-hmm .
+[21:22] Speaker_A | Yep .
+"[21:26] Speaker_B | And to work with motion pictures . There might be some motion pictures that are coming out um that are coming out on D_V_D_ that uh they need to have a m special remote control to work with it , so we could maybe work out a campaign with uh with Sony Pictures for example . Maybe some management has got uh relationships there we can leverage ."
+[21:27] Speaker_C | Yeah .
+[21:43] Speaker_A | Yes .
+[21:44] Speaker_C | Mm-hmm .
+"[21:48] Speaker_A | Yes , the that of course uh I will convince the management to do that , okay ."
+"[21:56] Speaker_C | It's just something to to keep in mind , 'cause it's really really important . A lot of products have gone out there without being properly user-tested and completely flopped , when in fact it gets re-released a few years down the line with proper testing and it takes off like crazy ."
+"[22:10] Speaker_B | Disposable diapers is an example of that in fact . Yes , it is one of the first consumer products that was launched about thirty years that was a disposable consumer product , and uh people the market hadn't really gotten on to the concept that you could use something and then throw it away , 'cause it wasn't uh but then when they re-launched them thirty years later , they were virtually the same design , but people had gotten the throw-away , you know , paper cups and napki y all kinds of things that they hadn't um so , you're right , timing is very important , but I think we've got a good product ."
+[22:29] Speaker_C | Mm-hmm .
+[22:43] Speaker_C | Yeah .
+[22:45] Speaker_A | Yeah .
+[22:47] Speaker_C | Yeah .
+[22:47] Speaker_A | That's the reason Ed is here . I think he can promote the the brand value and the product value . Yes .
+[22:49] Speaker_B | That's right .
+"[22:57] Speaker_A | We are behind the scene and he is the front screen , so ."
+[23:00] Speaker_C | Yep .
+[23:02] Speaker_A | He's on the big screen .
+"[23:16] Speaker_A | Okay , so then uh let's come to the closing and uh are the costs within the budget and uh is the product evaluated , okay , so that will uh come soon . Okay for uh but our time being , so thanks for all your efforts and great work and uh great design and uh let's leave it to the Ed for later for once production is"
+[23:39] Speaker_A | over and the meantime let's celebrate . So let's meet up uh this evening to hang up for some party .
+[23:48] Speaker_B | Sounds good . Thank you . Nice working with you .
+[23:49] Speaker_A | 'S good .
+[23:50] Speaker_C | Okay .
+[23:52] Speaker_A | Thank you . Thank you again for all .
+[23:54] Speaker_C | Thanks .
+[23:56] Speaker_A | And see you in the evening for drinks .

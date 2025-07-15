@@ -1,0 +1,1238 @@
+﻿[00:11] me018 | I 'll get it .
+[00:19] me018 | Hey Dave ?
+[00:27] me013 | So that 's the virtual Stephane over there .
+[00:27] me018 | OK .
+"[00:31] me018 | Uh , yeah , a Linux box . Yeah . It 's got , uh , like sixteen channels going into it ."
+[00:33] mn058 | Uh - huh .
+[00:36] mn058 | Uh - huh .
+[00:38] me018 | Mm - hmm .
+"[00:40] me018 | Yeah , so far , it 's been pretty good ."
+[00:42] mn058 | Mm - hmm .
+[00:43] me013 | Yeah .
+"[00:46] me013 | So , uh , yeah the suggestion was to"
+[00:50] me018 | OK .
+"[00:53] me026 | OK . Um , so , yeah , the this past week I 've been main mainly occupied with , um ,"
+"[00:59] me026 | getting some results , u from the SRI system trained on this short Hub - five training set for the mean subtraction method . And , um ,"
+"[01:08] me026 | I ran some tests last night . But , um ,"
+[01:11] me026 | c
+[01:15] me026 | the baseline results are worse
+[01:24] me018 | That 's on digits ?
+"[01:26] me026 | That 's on digits . It c it it could h it could have something to do with , um ,"
+[01:30] me026 | downsampling . That 's that 's worth looking into .
+"[01:33] me026 | Um ,"
+"[01:35] me026 | d and , um ,"
+"[01:36] me026 | ap ap apart from that , I guess the the main thing I have t ta I have to talk is , um ,"
+[01:42] me026 | where I 'm planning to go over the next week . Um .
+[01:46] me026 | So I 've been working on integrating this mean subtraction approach into the SmartKom system .
+"[01:51] me026 | And there 's this question of , well , so , um , in my tests before with HTK I found it worked it worked the best with about twelve seconds of data used to estimate the mean , but ,"
+[02:00] me026 | we 'll often have less in the SmartKom system . Um .
+"[02:10] me026 | we 'll concatenate utterances together ,"
+"[02:12] me026 | um , to get as much data as we possibly can from the user . But , um , there 's a question of how to set up the models . So um ,"
+[02:20] me026 | we could train the models . If we think twelve seconds is ideal we could train the models using
+"[02:25] me026 | twelve seconds to calculate the mean ,"
+"[02:28] me026 | to mean subtract the training data . Or we could , um ,"
+[02:32] me026 | use some other
+"[02:33] me026 | amount . So like I did an experiment where I , um ,"
+"[02:38] me026 | was using six seconds in test ,"
+"[02:41] me026 | um , but ,"
+[02:42] me026 | for I tried twelve seconds
+"[02:45] me026 | in train . And I tried , um ,"
+"[02:49] me026 | um , the same in train I 'm a I tried six seconds in train . And six seconds in train was about point three percent better ."
+"[02:57] me026 | Um , and um , it 's not"
+"[03:04] me026 | So I wanna do some tests and , um , actually make some plots"
+[03:16] me018 | Mm - hmm .
+"[03:23] me013 | a uh , uh ,"
+[03:28] me013 | long - term window F F Ts .
+"[03:30] mn058 | Yeah , we we spoke about it already , yeah ."
+"[03:30] me013 | Yeah . Yeah , he you talked about it . Oh , OK . So you know what he 's doing . Alright ."
+[03:33] me026 | y s so I was I actually ran the experiments mostly and I I was I was hoping to
+[03:48] me026 | I p I think there are some
+[03:50] me026 | I think it 's it 's kind of like a a bit of a tricky engineering problem . I 'm trying to figure out what 's the optimal way
+"[03:55] me026 | to set this up . So , um , I 'll try to make the plots and then put some postscript up on my on my web page ."
+"[04:05] me013 | You could clarify something for me . You 're saying point three percent ,"
+[04:11] me013 | when
+"[04:16] me026 | w Well , it c"
+[04:17] me026 | I I don't think it it 's just for any mismatch you take a hit . i In some cases it might be
+[04:21] me013 | Yeah .
+"[04:24] me026 | u better to have a mismatch . Like I think I saw something like like if you only have two seconds in test ,"
+[04:26] me013 | Yeah .
+"[04:31] me026 | or , um , maybe it was something like four seconds , you actually"
+"[04:35] me026 | do a little better if you , um , train on six seconds than if you train on four seconds . Um ,"
+[04:38] me013 | Right .
+"[04:45] me026 | using six seconds in test , um , comparing train on twelve seconds versus train on six seconds ."
+[04:51] me013 | And which was worse ?
+[04:52] me026 | The train on twelve seconds .
+[05:01] me026 | w went from it was something vaguely like ninety - five point six
+[05:09] me013 | So four point four to four point one .
+[05:12] me026 | OK .
+"[05:12] me013 | So yeah . So about a about an eight percent ,"
+"[05:16] me013 | uh , seven or eight percent relative ?"
+[05:18] me026 | OK .
+"[05:18] me013 | Uh ,"
+"[05:20] me013 | Yeah . Well , I think in a p You know , if if you were going for an evaluation system you 'd care . But if you were"
+"[05:26] me013 | doing a live system that people were actually using nobody would notice . It 's uh , I think the thing is to get something that 's practical , that that you could really use ."
+"[05:33] me026 | Huh . That 's that 's interesting . Alright , the e"
+"[05:36] me026 | uh , I see your point . I guess I was thinking of it as , um , an interesting"
+[05:41] me026 | research problem .
+[05:42] me013 | Yeah .
+"[05:42] me026 | The how to g I was thinking that for the ASRU paper we could have a section saying , "" For SmartKom ,"
+"[05:48] me026 | we we d in we tried this approach in , uh , interactive system "" , which I don't think has been done before ."
+[05:51] me013 | Mm - hmm .
+[05:54] me013 | Mm - hmm .
+[05:54] me026 | And and then there was two research questions from that . And one is the k does it still work if you just use the past history ?
+[06:00] me013 | Mm - hmm .
+"[06:01] me026 | Alright , and the other was this question of , um"
+"[06:07] me013 | I mean , a short - time FFT short - time cepstrum calculation ,"
+"[06:11] me013 | uh , mean u mean calculation work that people have in commercial systems , they do this all the time . They the they"
+"[06:18] me013 | calculate it from previous utterances and then use it , you know . But but , uh ,"
+"[06:20] me026 | Yeah , um ."
+"[06:23] me013 | as you say , there hasn't been that much with this long long - time , uh ,"
+"[06:26] me013 | spectra work . Uh ,"
+[06:32] me026 | OK .
+"[06:33] me013 | Um , but , u uh , yes . No , it is interesting . And the other thing is , I mean ,"
+"[06:38] me013 | there 's two sides to these really small , uh , gradations in performance . Um ,"
+"[06:42] me013 | I mean , on the one hand in a practical system if something is , uh ,"
+"[06:46] me013 | four point four percent error , four point one percent error , people won't really tell be able to tell the difference ."
+"[06:51] me013 | On the other hand , when you 're doing , uh , research ,"
+"[06:54] me013 | you may , eh you might find that the way that you build up a change from a ninety - five percent"
+[07:07] me013 | so the they they it 's I don't mean to say that they 're they 're irrelevant .
+"[07:11] me013 | Uh , they are relevant . But , um , i for a demo ,"
+[07:16] me013 | you won't see it .
+[07:16] me026 | Mm - hmm .
+[07:17] me026 | Right . OK .
+"[07:21] me026 | And , um ,"
+"[07:23] me026 | Let 's l let 's see . Um ,"
+"[07:31] me026 | wi is , um , the choice of the analysis window length . So I 've just been using two seconds"
+"[07:36] me026 | just because that 's what Carlos did before . Uh , I wrote to him asking about he chose the two seconds ."
+"[07:43] me026 | And it seemed like he chose it a bit informally . So , um ,"
+"[07:48] me026 | with the with the HTK set - up I should be able to do some experiments , on"
+"[07:53] me026 | just varying that length , say between one and three seconds , in a few different reverberation conditions , um ,"
+"[07:59] me026 | say this room and also a few of the artificial impulse responses we have for reverberation ,"
+"[08:05] me026 | just , um , making some plots and seeing how they look ."
+"[08:09] me026 | And , um , so ,"
+"[08:12] me026 | with the the sampling rate I was using , one second or two seconds or four seconds is at a power of two"
+"[08:19] me026 | um , number of samples and , um , I 'll I 'll jus f for the ones in between I guess I 'll just zero - pad ."
+[08:32] me013 | a spectrum over a bunch of different kinds of speech sounds .
+"[08:35] me013 | Um , and so it might matter"
+[08:38] me013 | how fast someone was talking for instance .
+[08:41] me026 | Oh .
+[08:53] me013 | I don't know if you have some samples of
+[08:53] me026 | Huh .
+[08:56] me013 | faster or slower speech but it might make a difference . I don't know .
+"[09:01] me026 | Uh , yeah , I don't I don't think the TI - digits"
+"[09:04] me026 | data that I have , um , i is would be appropriate for that ."
+"[09:08] me013 | Yeah , probably not . Yeah ."
+"[09:10] me026 | But what do you What about if I w I fed it through some kind of , um ,"
+[09:15] me026 | speech processing algorithm that changed the speech rate ?
+"[09:19] me013 | Yeah , but then you 'll have the degradation of of , uh , whatever you do"
+"[09:24] me013 | uh , added onto that . But maybe . Yeah , maybe if you"
+[09:27] me013 | get something that sounds that that 's does a pretty job at that .
+"[09:30] me026 | Yeah . Well , uh , just if you think it 's worth looking into . I mean ,"
+[09:31] me013 | You could imagine that .
+[09:33] me026 | it it is getting a little away from reverberation .
+"[09:39] me013 | uh , I was thinking more from the system aspect , if you 're making a choice for SmartKom , that that that it might be"
+[09:41] me026 | Yeah .
+"[09:45] me013 | that it 's it c the optimal number could be different ,"
+[09:48] me026 | Right .
+[09:50] me013 | Could be . I don't know .
+"[09:55] me026 | And and th the third thing , um ,"
+"[09:58] me026 | uh , is , um , Barry explained LDA filtering"
+[10:02] me026 | to me yesterday .
+"[10:04] me026 | And so , um , Mike Shire in his thesis um , did a a series of experiments , um ,"
+[10:10] me026 | training LDA filters
+"[10:18] me026 | for this mean subtraction approach ? Is is that right ? Or for these long analysis windows , I guess , is the right way to put it ."
+"[10:23] me013 | I guess , the the the issue I was the general issue I was bringing up was that"
+"[10:30] me013 | moving window , uh , a wa a a set of weights"
+[10:35] me013 | times things
+"[10:36] me013 | that , uh , move along , shift along in time ,"
+[10:39] me013 | that you have in fact a linear time invariant filter .
+[10:43] me013 | And you just happened to have picked a particular one by setting all the weights to be equal .
+"[10:50] me013 | some other filters that you could use ,"
+[10:53] me026 | Mm - hmm .
+"[10:53] me013 | uh , in that sense of "" filter "" ? And , um ,"
+"[10:57] me013 | as I was saying , I think the simplest thing to do is not to train anything , but just to do some sort of , uh ,"
+"[11:02] me013 | uh , hamming or Hanning , uh , kind of window ,"
+[11:03] me026 | Right . Mm - hmm .
+"[11:05] me013 | kind of thing , just sort of to de - emphasize the jarring . So I think that would sort of be the first thing to do ."
+"[11:10] me013 | But then , yeah , the LDA"
+"[11:12] me013 | i uh , is interesting because it would sort of say"
+"[11:15] me013 | well , suppose you actually trained this up to do the best you could by some criterion ,"
+[11:19] me013 | what would the filter look like then ?
+[11:21] me026 | Uh - huh .
+"[11:21] me013 | Uh , and , um ,"
+"[11:24] me013 | that 's sort of what we 're doing in this Aur - Aurora stuff . And , uh ,"
+"[11:28] me013 | it 's still not clear to me in the long run whether the best thing to do would be to do that or to have some stylized version of the filter that looks like these things you 've trained up , because"
+[11:37] me013 | you always have the problem that it 's trained up for one condition and it isn't quite right for another . So .
+[11:44] me013 | that 's why RASTA filter has actually ended up
+"[11:47] me013 | lasting a long time , people still using it quite a bit , because"
+[11:50] me013 | y you don't change it . So
+[11:52] me013 | doesn't get any worse .
+"[11:57] me013 | Uh ,"
+[11:58] me026 | Huh .
+"[11:59] me026 | o OK . So , um ,"
+[12:01] me026 | a actually I was just thinking about
+"[12:03] me026 | what I was asking about earlier , wi which is about having less than say twelve seconds"
+"[12:08] me026 | in the SmartKom system to do the mean subtraction . You said in systems where you use cepstral mean subtraction ,"
+[12:30] mn058 | that you calculate the mean of this and subtract the mean .
+"[12:35] mn058 | And then you can yeah , you you can increase your window"
+[12:40] mn058 | whi while you get while you are getting more samples .
+"[12:45] me026 | and , um , so so in tha in that case ,"
+"[12:49] me026 | wh what do they do when they 're t um , performing the cepstral mean subtraction on the training data ?"
+[12:54] me026 | So because you 'd have hours and hours of training data . So do they
+[12:57] me026 | cut it off and start over ?
+"[13:03] mn058 | uh , you you mean you have files which are"
+"[13:14] mn058 | file lengths are , I guess"
+"[13:16] mn058 | the same order or in the same size as for test data , or"
+[13:19] mn058 | aren't they ?
+"[13:21] me026 | OK . But it 's OK . So if someone 's interacting with the system , though , uh , Morgan uh , Morgan said that you would tend to , um , chain utterances together"
+"[13:31] me026 | um , r"
+"[13:31] me013 | Well , I think what I was s I thought what I was saying was that , um ,"
+[13:33] me026 | Oh .
+[13:35] me013 | at any given point you are gonna start off with what you had from before .
+"[13:44] me013 | where you 're gonna be asking , uh , you know , th for some information ,"
+[13:52] me013 | you might have some general average . But you you d you don't have very much information yet .
+"[13:57] me013 | But at after they 've given one utterance you 've got something . You can compute your mean cepstra from that ,"
+[14:02] me026 | Mm - hmm .
+"[14:02] me013 | and then can use it for the next thing that they say , uh ,"
+"[14:05] me013 | so that , you know , the performance should be better that second time ."
+"[14:08] me013 | Um ,"
+[14:09] me013 | and I think the heuristics of exactly how people handle that and how they handle their training
+"[14:17] me013 | ideally , it seems to me anyway , that you you would"
+[14:21] me013 | wanna do the same thing in training as you do in test .
+"[14:24] me013 | But that 's that 's just , uh , a prejudice . And I think anybody"
+[14:28] me026 | Right .
+[14:28] me013 | working on this with some particular task would experiment .
+"[14:30] me026 | I g I guess the question I had was , um ,"
+[14:33] me026 | amount
+[14:35] me026 | of
+"[14:40] me026 | update this estimate . Because say you if you have say five thousand utterances in your training set , um ,"
+"[14:54] me013 | So for instance , in in the in a telephone task , these are different phone calls . So you don't wanna"
+[14:58] me013 | chain it together from a from a different phone call .
+"[15:03] me013 | So it 's within speaker , within phone call , if it 's a dialogue system , it 's within"
+[15:03] me026 | g s
+[15:04] mn058 | Yeah .
+[15:05] mn058 | Hmm .
+"[15:07] me013 | whatever this characteristic you 're trying to get rid of is expected to be consistent over , right ?"
+"[15:11] me026 | r and it right . OK , so you 'd you and so in training you would start over at at every new phone call or at every new speaker . Yeah , OK ."
+[15:18] me013 | Yeah .
+"[15:19] me013 | Yeah . Now , you know , maybe you 'd use something from the others just because at the beginning of a call you don't know anything , and"
+[15:41] me026 | R right .
+"[15:41] me013 | but I mean , when you the the hints that you get from what they when they talk about it are that they do they all do something like this ."
+"[15:55] me013 | Yeah , but you might have somebody who 's using it and then later you might have somebody else who 's using it . And so you 'd wanna set some Yeah ."
+[15:57] me026 | Yeah .
+"[15:59] me026 | Right . Right . I I see . I was I was about to say . So if if you ask it "" What what movies are on TV tonight ? "" , if I look at my wristwatch when I say that it 's about"
+[16:02] me013 | Yeah .
+"[16:07] me026 | two seconds . The way I currently have the mean subtraction ,"
+[16:08] me013 | Yeah .
+"[16:31] me026 | Oh , right ."
+"[16:33] me013 | Uh , there 's been some discussion about whether the work we 're doing in that project is gonna be for the kiosk or for the mobile or for both . And I think for this kind of discussion it matters ."
+"[16:43] me013 | If it 's in the kiosk , then the physical situation is the same ."
+"[16:48] me013 | It 's gonna you know , the exact interaction of the microphone 's gonna differ depending on the person and so forth . But at least the basic acoustics are gonna be the same ."
+"[16:55] me013 | So f if it 's really in one kiosk ,"
+[17:04] me013 | because what you 're really trying to get at is the is the reverberation characteristic .
+[17:08] me026 | Yeah .
+"[17:09] me013 | But in in the case of the mobile ,"
+"[17:12] me013 | uh , presumably the acoustic 's changing all over the place ."
+[17:15] me026 | Right .
+[17:16] me013 | And in that case you probably don't wanna have it
+[17:18] me013 | be endless because you wanna have some sort of it 's it 's not a question of how long
+"[17:23] me013 | do you think it 's you can get an approximation to a stationary something , given that it 's not really stationary . So ."
+[17:23] me026 | @ @
+[17:27] me026 | Right .
+[17:28] me026 | Right .
+"[17:34] me026 | for for the very first frame ,"
+"[17:37] me026 | w what what do I do if I 'm if I take if I use that frame to calculate the mean ,"
+[17:41] me013 | Mm - hmm .
+[17:41] me026 | then I 'm just gonna get n nothing .
+[17:43] me013 | Right .
+"[17:44] me026 | Um , so I should probably have some kind of default mean for the first f couple of frames ? OK ."
+[17:49] me013 | Yeah .
+"[17:54] me013 | Yeah , yeah ."
+"[18:00] me013 | Yeah , people do something . They they , uh , they have some , um ,"
+"[18:06] me013 | uh ,"
+"[18:07] me013 | in in cepstral mean subtraction ,"
+"[18:09] me013 | for short - term window analysis windows , as is usually done ,"
+"[18:14] me013 | you 're trying to get rid of some very general characteristic . And so ,"
+"[18:19] me013 | uh , if you have any other information about what a general kind of characteristic would be , then you you can do it there ."
+[18:25] me018 | you can also reflect the data .
+[18:31] me026 | Uh - huh .
+[18:36] me013 | Yeah .
+"[18:40] me013 | I I remember B B N doing this , is that if you have a multi - pass system ,"
+"[18:46] me013 | um , if the first pass ta it takes most of the computation ,"
+"[18:50] me013 | the second and the third pass could be very , very quick , just looking at a relatively small n small , uh , space of hypotheses ."
+[18:53] me026 | Mmm .
+[18:57] me026 | Uh - huh .
+[18:58] me013 | Then you can do your first pass without any subtraction at all .
+[19:02] me026 | Oh .
+"[19:02] me013 | And then your second pass , uh ,"
+[19:12] me013 | improved version o of the analysis . So .
+[19:13] me026 | OK .
+[19:14] me026 | OK .
+"[19:15] me026 | OK . So that was all I had , for now ."
+[19:17] me013 | Yeah .
+"[19:18] me018 | Do you wanna go , Barry ?"
+"[19:19] me006 | Yeah , OK . Um , so for the past , uh , week an or two ,"
+"[19:25] me006 | I 've been just writing my , uh , formal thesis proposal ."
+"[19:42] me006 | And uh , should I should I explain , uh , more about"
+"[19:46] me006 | what what I 'm proposing to do , and s and stuff ?"
+[19:49] me018 | Yeah briefly .
+[19:50] me006 | OK .
+"[19:50] me006 | Um , so briefly , I 'm proposing to do a n a new p approach to speech recognition using"
+"[20:05] me006 | about the uh , acoustic phonec phonetic approach to speech recognition ."
+"[20:14] me006 | um , that implement"
+[20:16] me006 | the multi - band approach to recognize a set of intermediate categories
+[20:26] me006 | other f feature things that are more closely related to the acoustic signal itself .
+"[20:32] me006 | Um , and the hope in all of this is that by going multi - band and by going into these , um"
+"[20:38] me006 | intermediate classifications , that we can get a system that 's more robust to to unseen noises ,"
+"[20:46] me006 | and situations like that . Um ,"
+"[20:49] me006 | and so ,"
+"[20:50] me006 | some of the research issues involved in this are , um ,"
+"[20:54] me006 | one , what kind of intermediate categories do we need to classify ?"
+[21:03] me006 | what other types of structures in these multi - band graphical models should we consider in order to
+"[21:09] me006 | um , combine evidence from the sub - bands ?"
+"[21:14] me006 | And , uh , the third one is how do we how do we merge all the , uh , information from the individual"
+"[21:21] me006 | uh , multi - band classifiers to come up with word word recognition or or phone recognition things ."
+"[21:28] me006 | Um , so basically that 's that 's what I 've been doing . And ,"
+"[21:32] me018 | So you 've got two weeks , huh ?"
+"[21:34] me006 | I got two weeks to brush up on d um , presentation stuff and , um ,"
+"[21:39] me013 | Oh , I thought you were finishing your thesis in two weeks ."
+"[21:42] me006 | Oh , that too ."
+[21:43] me006 | Yeah .
+[21:44] me018 | Are you gonna do any dry runs for your
+"[21:47] me006 | Yes . Yes . I , um I 'm I 'm gonna do some . Would you be interested ?"
+[21:51] me018 | Sure .
+[21:52] me006 | To help out ?
+[21:53] me006 | OK . Thanks .
+[21:55] me006 | Yeah .
+"[21:59] me018 | OK . Uh . Hhh . Let 's see . So we 've got forty minutes left , and it seems like there 's a lot of material . An - any suggestions about"
+[22:06] me018 | where we where we should go next ?
+"[22:08] mn052 | Mmm , @ @ ."
+[22:09] me018 | Uh .
+"[22:10] me018 | Do you wanna go , Sunil ? Maybe we 'll just start with you ."
+[22:12] mn052 | Yeah . But I actually stuck
+[22:14] mn052 | most of this in our
+[22:15] mn052 | m last meeting with Guenter .
+"[22:19] mn052 | Um , so the last week , uh , I"
+[22:21] mn052 | showed some results with only SpeechDat - Car which was like some fifty - six percent .
+"[22:26] mn052 | And , uh , I didn't h I mean , I I found that the results I mean , I wasn't getting that"
+"[22:30] mn052 | r results on the TI - digit . So I was like looking into "" why , what is wrong with the TI - digits ? "" . Why why I was not getting it . And I found that , the"
+[22:38] mn052 | noise estimation is a reason for
+[22:40] mn052 | the TI - digits to perform worse than the baseline .
+[22:50] mn052 | because I found there are a lot of zeros in the
+[22:52] mn052 | spectrogram for the TI - digits
+[22:55] mn052 | when I used this approach . So
+[22:59] mn052 | So the the results that I 've shown here are the
+"[23:04] mn052 | Well , the n the new technique is nothing but the noise estimate scaled by a factor of point five ."
+"[23:09] mn052 | So it 's just an ad - hoc I mean , some intermediate result , because it 's not optimized for anything ."
+"[23:19] mn052 | the p the current noise estimation or the , uh , noise composition scheme is working good for like"
+[23:29] mn052 | p very good result in the TI - digits is the
+"[23:32] mn052 | noise car noise condition for their test - A , which is like the best I could see that"
+"[23:37] mn052 | uh , for any non - stationary noise like "" Babble "" or "" Subway "" or any "" Street "" ,"
+"[23:43] mn052 | some "" Restaurant "" noise , it 's like it 's not performing w very well ."
+[23:58] mn058 | big difference between the training modes .
+"[24:01] mn058 | Uh - huh . If you have clean training ,"
+[24:01] mn052 | Yeah .
+[24:03] mn052 | Yeah .
+[24:06] mn058 | But if you have muddy condition training you get only
+[24:08] mn052 | Yeah .
+[24:08] mn058 | twenty percent .
+[24:09] mn052 | Yeah .
+[24:09] mn007 | Mm - hmm .
+[24:10] mn058 | Mm - hmm .
+"[24:10] mn052 | Uh , and in that twenty percent @ @ it 's very inconsistent across different noise conditions . So I have like"
+[24:15] mn058 | Mmm .
+"[24:16] mn052 | a forty - five percent for "" Car noise "" and then there 's a minus five percent for the "" Babble "" ,"
+[24:20] mn058 | Mmm .
+"[24:21] mn052 | and there 's this thirty - three for the "" Station "" ."
+[24:24] mn052 | And so it 's it 's not it 's not actually very consistent across . So .
+[24:28] mn052 | The only correlation between the SpeechDat - Car and this performance is the c stationarity of the noise that is there in these conditions and the SpeechDat - Car .
+[24:35] mn058 | Mm - hmm .
+"[24:39] mn052 | so the overall result is like in the last page , which is like forty - seven , which is still"
+[24:43] mn052 | very imbalanced because there are like fifty - six percent on the SpeechDat - Car and thirty - five percent on the TI - digits .
+"[24:50] mn052 | uh , ps the fifty - six percent is like comparable to what the French Telecom gets , but the thirty - five percent is way off ."
+"[24:58] me013 | I 'm sort of confused but this I 'm looking on the second page ,"
+[25:03] me013 | and it says
+"[25:07] me013 | looking in the lower right - hand corner , "" fifty percent relative performance "" ."
+[25:12] mn058 | For the clean training .
+[25:14] mn058 | u
+[25:18] mn052 | Yeah .
+[25:18] mn058 | Yeah .
+[25:19] mn052 | For that 's for the clean training and the noisy testing for the TI - digits .
+[25:23] me013 | So it 's improvement over the baseline mel cepstrum ?
+[25:25] mn052 | Yeah . Yeah .
+[25:27] me013 | But the baseline mel cepstrum under those training doesn't do as well
+"[25:33] me013 | I I 'm I 'm trying to understand why it 's it 's eighty percent That 's an accuracy number , I guess , right ?"
+"[25:37] mn052 | Yeah , yeah , yeah ."
+[25:38] me013 | So that 's not as good as the one up above .
+[25:40] mn052 | No .
+"[25:41] me013 | But the fifty is better than the one up above , so I 'm confused ."
+[25:44] mn052 | Yeah .
+"[25:45] mn052 | Uh , actually the noise compensation whatever , uh , we are put in it works very well for the high mismatch condition ."
+"[25:51] mn052 | I mean , it 's consistent in the SpeechDat - Car @ @ and in the"
+[25:59] mn052 | is that the the high mismatch performance equivalent to the high mismatch performance in the speech .
+"[26:02] me018 | So n s So since the high mismatch performance is much worse to begin with ,"
+[26:06] mn052 | Yeah .
+[26:06] me018 | it 's easier to get a better relative improvement .
+[26:09] mn007 | Yeah .
+"[26:12] mn007 | Yeah , if we look at the figures on the right , we see that"
+[26:12] me013 | Oh .
+[26:15] mn007 | the reference system is very bad .
+"[26:17] me013 | Oh , oh , oh , oh , oh , oh . I see ."
+[26:17] mn007 | Like for clean clean training condition .
+[26:19] mn052 | Yeah .
+[26:20] me013 | I see .
+[26:20] mn007 | Nnn .
+[26:26] mn052 | Yeah .
+[26:27] mn052 | Yeah .
+"[26:28] mn052 | Oh . Yeah . It 's not written anywhere . Yeah , it 's TI - digits . The first r spreadsheet is TI - digits ."
+"[26:33] me013 | Mmm . How does clean training do for the , uh , "" Car """
+"[26:39] mn052 | The "" Car "" ? Oh . Still it still , uh that that 's still consistent . I mean , I get the best performance in the case of "" Car "" , which is the third column in the A condition ."
+"[26:47] me013 | No . I mean , this is added noise . I mean , this is TI - digits . I 'm sorry . I meant in in the in the , uh , multi - language , uh ,"
+[26:54] mn058 | This is next next page . Hmm .
+"[26:58] mn052 | So that is the performance for Italian , Finnish and Spanish ."
+"[27:10] me013 | And "" increase "" ,"
+[27:13] me013 | That 's increase e
+[27:14] mn058 | Improvement .
+[27:19] me013 | Which means decrease in word error rate ?
+[27:21] mn052 | Yeah .
+"[27:23] me013 | OK , so "" percentage increase "" means decrease ? OK ."
+"[27:28] mn058 | Yeah . The the w there was a very long discussion about this on on the on the , uh ,"
+[27:33] mn058 | Amsterdam meeting .
+[27:34] me013 | Yeah .
+[27:35] mn058 | How to how to calculate it then .
+[27:41] mn052 | Which is there in the spreadsheet . I 'm not changing anything in there .
+[27:43] mn058 | OK .
+[27:43] mn058 | Mmm .
+[27:46] me013 | Alright .
+"[27:48] mn052 | So . Uh ,"
+[27:50] mn052 | yeah . So all the hi H M numbers are w
+"[27:53] mn052 | very good , in the sense , they are better than what the French Telecom gets . So ."
+"[27:59] mn052 | the only number that 's still I mean , which Stephane also got in his result was that"
+"[28:04] mn052 | medium mismatch of the Finnish , which is very which is a very strange"
+"[28:08] mn052 | situation where we used the we changed the proto for initializing the HMM I mean , this this is basically because it gets stuck in some local minimum in the training ."
+[28:17] mn052 | That seventy - five point seven nine in the Finnish mismatch
+[28:21] mn052 | which is that the eleven point nine six what we see .
+[28:22] mn058 | Mmm .
+[28:25] mn052 | Yeah .
+[28:26] me013 | So we have to jiggle it somehow ?
+[28:35] me013 | S Wait a minute . Start with a different what ?
+"[28:36] mn052 | Different prototype , which is like a different initialization for the , uh , s transition probabilities ."
+"[28:42] mn052 | It 's just that right now , the initialization is to stay more in the current state , which is point four point six , right ?"
+[28:48] mn007 | Yeah .
+"[28:48] mn052 | Yeah . And if it changes to point five point five , which is equal @ @ for transition and self loop where it becomes eighty - eight percent ."
+"[28:55] me018 | Well , but that involves mucking with the back - end , which is not allowed ."
+[28:57] mn052 | Yeah . We can't do it .
+[28:58] me018 | Yeah .
+[28:58] mn007 | Mmm .
+[29:01] mn052 | So .
+"[29:02] mn058 | I mean , it uh , like , i i"
+"[29:03] mn058 | i It is well known , this this medium match condition of the Finnish data has"
+[29:07] mn007 | Yeah .
+"[29:08] mn052 | It has a very few at uh , actually , c uh , tran I mean , words also . It 's a very , very small set , actually ."
+"[29:15] mn058 | There is a l a There is a lot of Uh , there are a lot of utterances with music in with music in the background ."
+[29:19] mn052 | Yeah .
+[29:21] mn058 | Mmm .
+[29:21] me013 | Uh - huh .
+[29:28] mn052 | I know .
+"[29:33] me013 | Mmm ,"
+"[29:36] mn052 | So ,"
+"[29:39] mn052 | that that 's the that 's about the results . And , uh ,"
+"[29:45] mn052 | the summary is like OK . So there are the other thing what I tried was , which I explained in the last meeting , is using the"
+"[29:50] mn052 | channel zero for , uh ,"
+[29:54] mn052 | for both
+[29:55] mn052 | dropping and estimating the noise .
+[29:58] mn052 | that 's like just to f n get a feel of how good it is .
+[30:02] mn052 | I guess the fifty - six percent improvement in the SpeechDat - Car becomes like sixty - seven percent .
+[30:07] mn052 | Like ten percent better .
+[30:08] mn052 | But that 's that 's not a that 's a cheating experiment . So .
+"[30:12] mn052 | That 's just So ,"
+[30:13] mn052 | m
+[30:14] mn052 | w
+"[30:14] mn058 | But the but the , uh , forty - seven point nine percent which you have now , that 's already a"
+[30:20] mn058 | remarkable improvement in comparison to the
+[30:23] mn058 | first proposal .
+[30:24] mn052 | Yeah . So we had forty - four percent in the first proposal . Yeah .
+[30:27] mn058 | OK . Mm - hmm .
+"[30:28] mn052 | We have f a big im So the major improvement that we got was in all the high mismatch cases , because all those numbers were in sixties and seventies because we never had any noise compensations ."
+[30:36] mn058 | Mmm .
+[30:38] mn052 | So that 's where the biggest improvement came up . Not much in the well match and the medium match and TI - digits also right now .
+[30:48] mn058 | Mmm .
+[30:50] mn058 | Mmm .
+"[30:51] me013 | Yeah , so that 's good ."
+"[30:54] me013 | Then if we can improve the noise estimation , then it should get better ."
+"[31:02] mn058 | uh ,"
+"[31:04] mn058 | on this Aurora task almost two years ago , that you have the problem with this mulit a at the beginning we had only this multi condition training of the TI - digits ."
+[31:12] mn052 | Yeah .
+"[31:12] mn058 | And , uh , I I found the same problem . Just taking"
+"[31:15] mn058 | um , what we were used to u use ,"
+[31:20] mn058 | you get even worse results than
+"[31:23] mn052 | Yeah . Yeah , yeah ."
+[31:30] mn052 | So . Yes . Stephane also has the same experience of using the spectral subtraction right ?
+[31:32] mn058 | Mmm .
+[31:35] mn007 | Mm - hmm .
+[31:35] mn052 | Yeah .
+[31:36] mn007 | Yeah .
+"[31:36] mn052 | So here here I mean , I found that it 's if I changed the noise estimate I could get an improvement ."
+"[31:41] mn052 | So that 's so it 's something which I can actually pursue , is the noise estimate ."
+[31:41] mn058 | Mm - hmm .
+"[31:49] mn058 | Yeah , I think what you do is in when when you have the the this multi - condition training mode ,"
+[31:55] mn058 | um
+"[31:56] mn058 | then you have then you can train models for the speech , for the words , as well as for the pauses"
+[32:02] mn058 | where you really have
+[32:03] mn058 | all information about the noise available .
+[32:05] mn052 | Yeah .
+[32:07] mn058 | And
+"[32:10] mn058 | At the beginning it was not surprising to me that you get really the best results on doing it this way , I mean , in comparison to any type of training on clean data and"
+"[32:18] mn058 | any type of processing . But it was So , u u"
+[32:28] mn058 | And every when we now start
+[32:31] mn058 | some noise reduction technique we we introduce also somehow artificial distortions .
+[32:43] mn058 | why we have the problems in this multi - condition training .
+"[32:45] mn058 | That means the H M Ms we trained , they are they are based on Gaussians ,"
+[32:50] mn052 | Yeah .
+[32:53] mn058 | Can I move a little bit with this ? Yeah .
+[33:07] mn058 | I 'm I 'm
+[33:08] mn058 | showing now an envelope
+[33:11] mn058 | um
+[33:11] mn058 | maybe you 'll f for this time .
+[33:13] mn058 | So usually you have maybe in clean condition you have something
+[33:18] mn058 | which looks like this . And if it is noisy it is somewhere here .
+[33:30] mn058 | these these these zeros
+[33:32] mn052 | Yeah .
+[33:33] mn058 | in there .
+[33:42] mn058 | And then I think what you do is you introduce some some artificial distribution
+[33:47] mn058 | in this
+[33:48] mn058 | uh
+"[33:53] mn058 | but , i somehow there is u u there is no longer a a Gaussian distribution . It is somehow a strange distribution which we introduce with these"
+[34:03] mn058 | And and I was thinking that that might be the reason why you get these problems in the especially in the multi - condition
+"[34:10] mn052 | Yeah , yeah . Th - That 's true ."
+[34:10] mn058 | training mode .
+[34:12] mn052 | Yeah the c the models are not complex enough to
+[34:12] mn058 | s
+[34:14] mn052 | absorb that additional variability that you 're introducing .
+[34:16] me018 | Thanks Adam .
+[34:17] mn058 | Yeah .
+[34:18] mn058 | Yes .
+[34:21] mn007 | I also have the feeling that
+"[34:36] mn007 | just a straight spectral subtraction algorithm when I was using neural networks ,"
+"[34:41] mn007 | big neural networks , which maybe are more"
+[34:47] mn058 | Mm - hmm .
+[34:49] mn007 | Yeah .
+[34:51] mn007 | Then I tried the same exactly the same spectral subtraction algorithm on these Aurora tasks and
+[34:56] mn007 | it simply doesn't work .
+[34:58] mn058 | Hmm .
+[35:02] mn058 | Hmm .
+[35:08] mn058 | Mm - hmm .
+[35:13] me013 | looks more Gaussian .
+[35:15] mn058 | Hmm .
+[35:20] mn058 | um
+[35:22] mn058 | w what what we could
+"[35:23] mn058 | try to do , or do about it I mean , if you if you get at"
+[35:27] mn058 | this in this situation that you get this this negative values and you simply set it to zero or to a constant or whatever
+[35:30] mn052 | @ @
+[35:34] mn058 | if we if we would use
+[35:36] mn058 | there a
+[35:38] mn058 | a random generator
+"[35:40] mn058 | which which has a certain distribution , u not a certain yeah , a special distribution"
+[35:44] mn058 | we should see we we have to think about it .
+"[35:47] mn058 | And that we ,"
+"[35:48] mn058 | so , introduce again some natural"
+[35:50] mn058 | behavior
+[35:52] mn058 | in this trajectory .
+[35:53] mn052 | Mm - hmm . Very different from speech .
+"[35:58] mn058 | Yeah , I mean , similar to what what you see really u in in the real"
+[36:00] mn052 | OK .
+[36:02] mn058 | um
+[36:03] mn058 | noisy situation .
+[36:05] mn052 | Mm - hmm .
+[36:06] mn058 | Or i in the clean situation . But but somehow a a natural distribution .
+"[36:19] me013 | if you have random data , um , in in the time domain ,"
+[36:23] me013 | then when you look at the s spectrum it 's gonna be pretty flat .
+[36:28] mn058 | Mm - hmm .
+"[36:28] me013 | And and ,"
+"[36:31] me013 | uh ,"
+[36:34] me013 | so just add something everywhere
+"[36:37] me013 | rather than just in those places . It 's just a constant , right ?"
+[36:38] mn007 | Mm - hmm .
+[36:39] mn058 | Yeah .
+"[36:43] mn058 | I think e yeah . It 's it 's just especially in these segments , I mean , you introduce , um , very artificial"
+[36:48] me013 | Yeah .
+"[36:50] me013 | Yeah . Well , see if you add something everywhere , it has almost no effect up up up on on top ."
+[36:55] mn007 | Mm - hmm .
+"[36:55] me013 | And it and it and it has significant effect down there . That was , sort of the idea ."
+[36:58] mn058 | Mm - hmm .
+[37:02] mn052 | Hmm .
+[37:03] mn052 | Yeah the that 's true . That those those regions are the cause for this
+[37:03] mn058 | I
+[37:07] mn058 | Mm - hmm .
+[37:07] mn052 | @ @ those negative values or whatever you get . Yeah .
+[37:10] mn058 | Mm - hmm .
+[37:12] mn052 | So .
+"[37:13] mn058 | I mean , we we could trit uh , we we could think how"
+[37:15] mn052 | Yeah .
+"[37:17] mn052 | Yeah , yeah ."
+[37:18] mn007 | Mm - hmm .
+[37:20] me013 | I think when it 's noisy people should just speak up .
+[37:23] mn058 | Mmm .
+"[37:30] mn007 | If we look at the France Telecom proposal , they"
+[37:34] mn007 | use some kind of noise addition .
+"[37:36] mn007 | They have a random number generator , right ?"
+[37:39] mn007 | And they add noise
+"[37:41] mn007 | on the trajectory of , uh , the log energy only , right ?"
+[37:42] mn052 | Yep .
+[37:46] mn007 | Yeah .
+"[37:50] mn007 | But I don't know how much effect it this have , but"
+[37:53] mn052 | Now ?
+[37:53] mn007 | they do that . Yeah .
+[37:54] mn058 | Uh - huh .
+[37:54] mn052 | Oh .
+[37:58] mn007 | I think because they have th
+"[38:00] mn007 | log energy , yeah , and then just generate random number . They have some kind of mean and variance ,"
+[38:10] mn007 | to the log energy simply .
+"[38:12] mn052 | Yeah the the log energy , the after the clean cleaning up ."
+[38:15] mn007 | Mm - hmm .
+[38:15] mn052 | So they add a random random noise to it .
+"[38:18] me013 | To the just the energy , or to the mel uh , to the mel filter ?"
+[38:21] mn052 | No . On - only to the log energy .
+[38:22] mn007 | Only Yeah .
+[38:23] me013 | Oh .
+[38:23] mn058 | Uh - huh .
+"[38:24] me013 | So it Cuz I mean , I think this is most interesting for the mel filters ."
+[38:28] mn058 | Uh - huh .
+"[38:29] me013 | Right ? Or or F F Ts , one or the other ."
+[38:44] mn052 | No their filter is not M domain .
+[38:47] mn058 | Yeah . I kn
+[38:47] mn052 | S so they did filter their time signal and then
+[38:52] mn052 | u
+[38:53] mn052 | Yeah then after that it is s almost the same as the baseline prop system .
+[38:57] mn058 | Mm - hmm .
+"[38:58] mn052 | And then the final log energy that they that they get , that to the to that they add some random noise ."
+"[39:05] mn052 | Yeah . So it 's not the mel . You know , it 's not the mel filter bank output ."
+[39:06] mn058 | Mmm .
+[39:10] mn058 | Mm - hmm .
+"[39:10] mn052 | These are log energy computed from the time s domain signal , not from the mel filter banks ."
+[39:17] mn007 | Maybe it 's just a way to decrease the importance of
+[39:20] mn007 | this particular parameter in the in the world feature vector cu
+[39:24] me013 | Hmm .
+[39:27] mn052 | Becomes flat .
+"[39:28] mn052 | The variance , yeah , reduces , so ."
+[39:32] me013 | So it could reduce the dependence on the amplitude and so on . Yeah .
+[39:35] mn007 | Yeah .
+[39:39] me013 | Maybe .
+"[39:44] me018 | So is , uh Is that about it ?"
+[39:49] mn052 | I 'm just looking at a little bit on the delay
+[39:58] mn052 | just tried another
+"[39:59] mn052 | sk system I mean , another filter which I 've like shown at the end . Which is very similar to the existing"
+"[40:04] mn052 | uh , filter ."
+[40:12] me018 | This is for the LDA ?
+[40:13] mn052 | Yeah so so this this is like So this makes the delay
+[40:17] mn052 | like zero for LDA because it 's completely causal .
+[40:20] me018 | Oh .
+[40:32] mn052 | degradation .
+"[40:37] mn052 | I don't know it f fares for the other conditions . So it 's just like it 's like a three percent relative degradation ,"
+"[40:49] mn058 | Yeah , I mean , I talked to to uh , I ta"
+"[40:53] me013 | This is So So , basically our our position is"
+[40:58] me013 | we shouldn't be unduly constraining
+[41:02] me013 | the latency
+[41:03] me013 | at this point because we 're all still experimenting with trying to make the performance better in the presence of noise .
+"[41:15] me013 | um ,"
+"[41:17] me013 | uh , having a further constraining of the latency ."
+"[41:21] me013 | So we 're s just continuing to keep aware of what the trade - offs are and , you know , what what do we gain"
+[41:26] mn058 | Mmm .
+[41:28] me013 | from having longer or shorter latencies ? But
+[41:31] me013 | since we always seem to at least get something out of longer
+"[41:34] me013 | latencies not being so constrained , we 're tending to go with that if we 're not"
+[41:40] mn058 | Mm - hmm .
+[41:42] me018 | the smallest latency of all the systems last time ?
+[41:45] mn052 | The French Telecom .
+"[41:46] me013 | Well , France Telecom was was was very short latency and they had a very good result ."
+[41:50] me018 | What what was it ?
+[41:53] me013 | Yeah .
+[41:53] me018 | Thirteen ?
+[41:54] me013 | th th
+[41:54] mn058 | Thirty .
+[41:55] me018 | Thirty .
+[41:56] mn052 | Thirty - four .
+[41:56] me013 | Yeah .
+[41:56] mn058 | Yeah .
+[41:57] mn058 | @ @
+[42:00] me018 | Yeah .
+"[42:02] me018 | I was just curious about where we are compared to , you know , the shortest that people have done ."
+[42:10] mn052 | Yeah .
+"[42:10] mn058 | calculation . And this is included now ,"
+[42:11] mn052 | Yeah .
+[42:11] mn052 | Yeah .
+[42:12] mn052 | Yeah .
+[42:12] mn058 | you know ?
+[42:13] mn052 | Yeah .
+[42:19] me013 | Yeah .
+[42:23] mn058 | Nine - point .
+[42:25] mn058 | OK .
+[42:26] mn058 | Mmm .
+[42:27] mn052 | they didn't include that .
+[42:28] me013 | Yeah .
+[42:28] mn058 | Mm - hmm .
+[42:34] me018 | OK .
+[42:34] mn007 | Where does the comprish compression in decoding delay comes from ? @ @
+"[42:39] mn052 | the the frames are packed , like you have to wait for one more frame to pack . Because it 's the CRC is computed for two frames always ."
+[42:46] mn007 | Mm - hmm .
+"[42:47] me013 | Well , that the they would need that"
+[42:48] me013 | forty milliseconds also .
+[42:50] me013 | Right ?
+[42:52] mn007 | Mm - hmm .
+[42:53] mn052 | So they have their own compression and decoding scheme and they I don't know what they have . But they have coded zero delay for that .
+[42:56] me013 | Oh .
+"[43:00] mn052 | Because they ch I know they changed it ,"
+[43:05] me013 | Oh .
+"[43:11] me013 | Oh , OK ."
+[43:16] mn052 | part also .
+[43:17] me013 | Hmm .
+[43:17] mn058 | Mm - hmm .
+"[43:26] mn058 | No , I think I I used this scheme as it was before ."
+[43:29] mn052 | OK .
+[43:30] mn052 | Ah .
+[43:32] mn052 | Mm - hmm .
+[43:36] me018 | probably
+[43:37] me018 | try to move along .
+"[43:38] me018 | Uh , did you wanna go next , Stephane ?"
+[43:43] mn007 | Mmm .
+[43:51] me013 | Oh .
+[43:56] me013 | Wait a minute . I think I 'm confused .
+[44:01] me013 | Alright .
+[44:01] mn007 | So you have w
+[44:02] mn007 | w one sheet ?
+"[44:04] mn007 | This one is you don't need it , alright ."
+[44:09] mn007 | the five . There should be five sheets . @ @
+"[44:11] me013 | OK , I have four now because I left one with Dave because I thought I was"
+[44:24] mn052 | Thanks .
+[44:31] me018 | I can share with Barry .
+[44:32] me006 | Yeah .
+[44:32] mn058 | OK .
+[44:32] mn007 | Can we look
+[44:33] me026 | Yeah .
+[44:33] mn007 | at this ?
+"[44:35] mn007 | So ,"
+"[44:36] mn007 | yeah , there are two figures showing actually the , mmm ,"
+"[44:43] mn007 | um ,"
+"[44:51] mn007 | uh , which estimate silence probabilities , and then"
+[44:55] mn007 | I
+[44:56] mn007 | just put a median filtering on this
+[44:59] mn007 | to smooth the
+"[45:00] mn007 | probabilities , right ?"
+"[45:10] mn007 | In the proposal Well , in in the system we want to add like speech frame"
+[45:14] mn007 | before
+"[45:19] mn007 | of , uh , s a couple of frames after also ."
+[45:30] mn007 | the false alarm rate of speech detection . Right ?
+"[45:33] mn007 | Um ,"
+"[45:35] mn007 | so ,"
+[45:36] mn007 | there is u normally a figure for the Finnish
+[45:40] mn007 | and one for Italian .
+[45:42] mn007 | And maybe someone has two for the Italian because
+[45:45] mn007 | I 'm missing one figure here .
+[45:47] mn052 | No .
+"[45:53] mn007 | Uh Yeah , so one surprising thing that we can notice first is that apparently the speech miss rate is"
+"[46:01] mn007 | uh , higher than the false alarm rate ."
+[46:04] mn007 | So .
+[46:05] mn058 | So so what is the lower curve and the upper curve ?
+[46:07] mn007 | Mm - hmm .
+[46:10] mn058 | Yeah .
+"[46:10] mn007 | One curve 's for the close - talking microphone , which is"
+"[46:18] mn007 | which has more noise so ,"
+"[46:22] mn007 | it performs worse . So as I was saying , the miss rate is quite important"
+[46:32] mn007 | as a silence .
+"[46:35] mn007 | And ,"
+[46:49] mn007 | And it may also be due to
+"[46:53] mn007 | well , the reference alignment . Because right now I"
+[46:59] mn007 | from a system trained on channel zero .
+[47:01] mn007 | And
+[47:02] mn007 | I checked it a little bit but
+[47:05] mn007 | there might be alignment errors .
+"[47:08] mn007 | Um , yeah ,"
+[47:08] mn007 | e
+[47:09] mn007 | like
+[47:12] mn007 | the the models tend to align
+[47:15] mn007 | their first state on silence and their last state o on silence also . So
+"[47:30] mn007 | mmm ,"
+"[47:33] mn007 | So this cus this could also explain , uh , the high miss rate maybe ."
+"[47:37] mn058 | And and this this curves are the average over the whole database , so ."
+[47:42] mn007 | Yeah . Right .
+[47:42] mn058 | Mmm .
+"[47:47] mn007 | Yeah , and the different points of the curves are for five"
+"[47:52] mn007 | uh , thresholds"
+[47:54] mn007 | on the probability uh from point three to point seven .
+[48:04] mn052 | So that threshold OK .
+[48:04] mn007 | Mm - hmm . Yeah .
+[48:07] mn007 | So the v
+"[48:09] mn052 | Yeah , yeah ."
+[48:12] mn007 | That puts
+[48:13] mn007 | all the values to zero or one . And then the median filtering .
+[48:15] mn052 | Mmm .
+"[48:18] mn052 | Yeah , so the median filtering is fixed ."
+[48:21] mn052 | You just change the threshold ? Yeah .
+"[48:21] mn007 | Yeah . It 's fixed , yeah . Mm - hmm ."
+"[48:24] mn007 | So , going from channel zero to channel one ,"
+"[48:28] mn007 | uh , almost double"
+[48:30] mn007 | the
+"[48:33] mn007 | Um ,"
+[48:37] mn007 | Yeah .
+"[48:38] mn007 | Well , so it 's a reference"
+"[48:42] mn007 | you know , if we want to to work on the VAD , we can"
+[48:49] mn052 | OK .
+[48:50] me006 | Is this is this VAD a MLP ?
+[48:52] mn007 | Yeah .
+[48:53] me006 | OK . How how big is it ?
+[48:55] mn007 | It 's a very big one . I don't remember . m
+"[48:57] mn052 | So three three hundred and fifty inputs , uh ,"
+[49:02] mn052 | six thousand hidden nodes and two outputs . t t
+[49:06] me006 | OK .
+[49:07] mn052 | Yeah .
+[49:07] mn007 | Mm - hmm .
+[49:09] me013 | Middle - sized one .
+[49:15] mn007 | Mm - hmm .
+[49:19] mn007 | Yeah .
+"[49:20] mn007 | Uh , ppp . I don't know , you have questions about that , or suggestions ?"
+[49:24] mn052 | Mmm .
+"[49:30] mn052 | Well , it 's not trained on Finnish ."
+[49:31] fn002 | It 's worse .
+"[49:31] mn007 | It 's not trained on Finnish , yeah ."
+[49:33] me013 | What 's it trained on ?
+"[49:34] mn052 | I mean , the MLP 's not trained on Finnish ."
+"[49:36] me013 | Right , what 's it trained on ?"
+"[49:37] mn052 | Oh oh . Sorry . Uh , it 's Italian TI - digits ."
+[49:38] me013 | Yeah .
+[49:41] mn052 | Yeah . That 's right .
+[49:49] mn058 | Mm - hmm .
+[49:50] mn052 | Yeah .
+"[49:51] mn052 | Yeah , the Yeah , it 's true ."
+"[50:01] mn007 | um ,"
+"[50:02] mn007 | I don't know if we want to talk about that . But , well , the the "" Car "" noises are below like five hundred hertz . And we were looking at the "" Music "" utterances and"
+[50:12] mn007 | in this case the noise is more about two thousand hertz .
+"[50:15] mn007 | Well , the music energy 's very low apparently ."
+"[50:19] mn007 | Uh ,"
+[50:23] mn007 | So maybe just
+[50:25] mn007 | looking at this frequency range for from five hundred to two thousand
+[50:29] mn007 | would
+[50:39] mn007 | Yes .
+[50:41] mn007 | Mm - hmm .
+"[50:46] mn007 | Uh , the next , um Oh , it 's there ."
+[50:51] mn058 | is the training based on these labels files which you take as reference here ?
+[50:57] mn007 | Yeah .
+[50:59] mn007 | No .
+[51:00] mn007 | It 's not .
+[51:01] mn007 | It 's it was trained on some alignment obtained
+"[51:08] mn007 | For the Italian data ,"
+[51:10] mn007 | I think we trained
+"[51:14] mn007 | with embedded training . So re - estimation of the alignment using the neural network , I guess ."
+[51:19] mn007 | That 's right ?
+[51:23] mn007 | Yeah .
+[51:26] mn052 | system with u
+[51:27] mn007 | So it was a f f a phonetic classification system for the Italian Aurora data .
+[51:27] mn052 | Yeah .
+[51:29] mn052 | It must be somewhere .
+[51:32] mn052 | Yeah .
+"[51:32] mn007 | For the Aurora data that it was trained on , it was different . Like , for TI - digits you used"
+"[51:38] mn007 | a a previous system that you had , I guess ."
+"[51:39] mn052 | No it Yeah , yeah . That 's true ."
+[51:42] mn007 | So the alignments from the different database that are used for training came from different
+[51:47] mn007 | system .
+[51:47] mn052 | Yeah .
+[51:47] mn007 | Then we put them tog together .
+"[51:49] mn007 | Well , you put them together and"
+[51:52] mn007 | trained the VAD on them . Mmm .
+[51:53] mn052 | Yeah .
+[51:54] mn058 | Hmm .
+"[51:57] mn007 | Uh ,"
+[52:04] mn052 | I just took their entire Italian training part . So it was both channel zero plus channel one .
+[52:06] mn007 | Yeah .
+[52:08] mn007 | So di
+[52:09] mn007 | Yeah . So the alignments
+"[52:12] mn007 | might be wrong then on channel one , right ?"
+[52:13] mn052 | On one . Possible .
+[52:16] mn052 | We can do a realignment . That 's true .
+[52:18] mn007 | at least want to retrain on
+"[52:20] mn007 | these alignments , which should be better because they come from close - talking microphone ."
+"[52:23] mn058 | Yeah , the that was my idea . I mean ,"
+[52:25] mn058 | if if it ha if it is not the same labeling which is taking the spaces .
+[52:25] mn052 | Yeah .
+[52:25] mn007 | OK .
+[52:29] mn007 | Yeah .
+[52:29] mn058 | Mmm .
+[52:30] mn007 | Yeah .
+[52:34] mn007 | Mm - hmm .
+[52:35] mn058 | Mm - hmm .
+[52:36] mn007 | Mm - hmm .
+[52:36] mn052 | was the alignments were w were different for s certainly different because they were independently trained . We didn't copy the channel zero alignments to channel one .
+[52:44] mn058 | Mm - hmm .
+[52:47] mn007 | Yeah .
+"[52:47] mn052 | But for the new alignments what you generated , you just copied the channel zero to channel one , right ?"
+[52:52] mn007 | Right .
+[52:52] mn007 | Yeah .
+[52:52] mn052 | Yeah .
+"[52:58] mn007 | actually when we look at at the VAD , for some utterances it 's almost perfect , I mean , it just"
+"[53:05] mn007 | dropped one frame ,"
+[53:07] mn007 | the first frame of speech or So there are some utterances where it 's almost
+[53:12] mn007 | one hundred percent
+[53:14] mn058 | Hmm .
+[53:14] mn007 | VAD performance .
+[53:23] mn007 | Yep .
+[53:24] mn007 | So the next thing is
+"[53:27] mn007 | um ,"
+[53:28] mn007 | I have the spreadsheet for three different system .
+[53:31] mn007 | But for this you only have to look right now on the SpeechDat - Car
+[53:36] mn007 | performance
+"[53:38] mn007 | uh , because I didn't test so I didn't test the spectral subtraction on TI - digits yet ."
+"[53:44] mn007 | Uh , so you have three she sheets . One is"
+"[53:47] mn007 | the um proposal - one system . Actually , it 's not exe exactly proposal - one . It 's the system that"
+[53:53] mn007 | Sunil just described .
+"[53:56] mn007 | Um , but with"
+"[53:58] mn007 | uh , Wiener filtering from"
+"[54:06] mn007 | Um , so this gives like fifty - seven point seven percent , uh ,"
+"[54:12] mn007 | s uh , error rate reduction on the SpeechDat - Car data ."
+"[54:25] mn007 | uh , so it 's again the same system . But"
+[54:28] mn007 | in this case we have spectral subtraction
+[54:31] mn007 | with a maximum overestimation factor of two point five .
+"[54:34] mn007 | Uh , there is smoothing of the gain trajectory with some kind of"
+"[54:39] mn007 | uh , low - pass filter ,"
+[54:41] mn007 | which has forty milliseconds latency .
+"[54:44] mn007 | And then , after subtraction"
+"[54:48] mn007 | um , I add a constant to the energies and"
+[54:53] mn007 | I have two cases d where The first case is where the constant is twenty - five DB below the mean
+[54:59] mn007 | speech energy and the other is thirty DB below .
+"[55:03] mn007 | Um ,"
+[55:05] mn007 | and for these s two system we have like fifty - five
+"[55:08] mn007 | point , uh , five - percent improvement ,"
+[55:12] mn007 | and fifty - eight
+[55:14] mn007 | point one .
+[55:29] mn007 | For the France Telecom
+"[55:31] mn007 | uh , spectral subtraction included in the our system ,"
+"[55:35] mn007 | the TI - digits number are the right one , but not"
+"[55:41] mn007 | this system , including with spectral subtraction on the TI - digits data ."
+[55:46] mn007 | I just tested it on SpeechDat - Car .
+[55:47] mn058 | Mm - hmm . So so so these numbers are simply Yeah . OK .
+"[55:49] mn007 | This , we have to Yeah . Yes ."
+[55:50] me013 | Yeah . So you so you just should look at that fifty - eight perc point O nine percent and so on . OK . Good .
+[55:50] mn052 | But this number .
+[55:53] mn007 | Right . Right .
+[55:57] mn007 | Mm - hmm .
+"[56:01] mn007 | Um ,"
+[56:18] mn058 | s
+"[56:18] mn052 | So by uh , by by reducing the noise a a decent threshold like minus thirty DB ,"
+"[56:24] mn052 | Uh , you are like r r reducing the floor of the"
+"[56:28] mn052 | noisy regions , right ?"
+[56:28] mn007 | Yeah . The floor is lower .
+"[56:30] mn007 | Um ,"
+[56:32] mn007 | mm - hmm .
+[56:40] mn007 | To the average
+"[56:42] mn007 | um , speech energy which is estimated on"
+"[56:46] me013 | OK , so basically you 're creating a signal - to - noise ratio of twenty - five or thirty DB ?"
+[56:46] mn007 | the world database .
+[56:50] mn007 | Yeah .
+"[56:52] mn058 | I I I think what you do is this . i When when you have this , after you subtracted it , I mean , then you get something w w"
+[56:52] me013 | uh r
+"[56:59] mn058 | with this , uh ,"
+[57:01] mn058 | where you set the values to zero and then
+[57:04] mn058 | you simply add an additive constant again .
+[57:05] mn007 | Yeah .
+[57:06] mn058 | So you shift it somehow . This this whole curve is shifted again .
+[57:09] mn007 | Right .
+"[57:14] mn007 | But , it 's after the thresholding . So ,"
+"[57:16] me013 | Oh , so you 'd really want to do it before , right ?"
+"[57:18] mn007 | maybe we might do it before , yeah ."
+"[57:20] me013 | Yeah , because then the then you would have less of that phenomenon ."
+[57:23] mn007 | Yeah .
+[57:24] me013 | I think .
+[57:25] mn007 | Yeah .
+[57:25] me013 | c
+"[57:25] mn007 | But still , when you do this and you take the log after that , it it reduce the the variance . But Mmm ,"
+[57:31] me013 | Right .
+"[57:33] me013 | Yeah , that will reduce the variance . That 'll help . But maybe if you does do it before you get less of these funny - looking things he 's drawing ."
+[57:38] mn058 | Mm - hmm .
+"[57:40] mn052 | So before it 's like adding this , col"
+[57:47] mn052 | OK .
+"[57:48] me013 | Um , essentially"
+[57:50] me013 | you 're adding a constant into everything .
+[57:52] mn007 | Mm - hmm .
+[58:04] mn007 | Um .
+[58:06] mn007 | Yeah .
+[58:06] me013 | Just you you just ta you just set it for a particular signal - to - noise ratio that you want ?
+"[58:14] mn058 | I made s similar investigations like Stephane did here , just"
+"[58:18] mn058 | uh , adding this constant and and looking"
+[58:18] me013 | Yeah .
+[58:21] mn058 | how dependent is it on the value of the constant
+[58:23] me013 | Yeah .
+[58:23] mn007 | Mm - hmm .
+"[58:23] mn058 | and then , must choose them somehow to give on average the best results for"
+[58:27] mn007 | Yeah .
+[58:27] me013 | Uh - huh .
+[58:28] mn058 | a certain range of the signal - to - noise ratios .
+[58:30] mn007 | Mm - hmm .
+"[58:33] mn007 | Oh , it 's clear . I should have gi given other results . Also it 's clear when you don't add noise , it 's"
+"[58:38] mn007 | much worse . Like , around five percent worse I guess ."
+[58:42] me013 | Uh - huh .
+[58:43] mn007 | And if you add too much noise it
+[58:47] mn007 | get worse also . And it seems that right now this this is c a constant
+[58:54] mn007 | on anything that you can learn from the utterance . It 's just a constant noise addition .
+[59:00] mn007 | Um .
+[59:02] mn007 | And I I think w w
+[59:07] me013 | you 're saying it doesn't depend on the utterance but I thought you were adding an amount that was twenty - five DB down from the signal energy .
+[59:20] mn007 | I I have I used this as mean speech energy .
+[59:24] mn007 | Mm - hmm .
+"[59:24] me013 | Oh , it 's just a constant amount"
+[59:27] me013 | over all .
+"[59:27] mn007 | wha what I observed is that for Italian and Spanish , when you go"
+[59:28] mn052 | OK .
+[59:29] mn052 | Oh .
+[59:36] mn007 | uh
+"[59:37] mn007 | it it 's good . It stays In this range , it 's , uh , the p u"
+"[59:41] mn007 | well , the performance of the this algorithm is"
+"[59:44] mn007 | quite good . But for Finnish ,"
+[59:47] mn007 | you have a degradation already when you go from thirty - five to thirty and then from thirty to
+[59:53] mn007 | twenty - five .
+[59:56] mn007 | I have the feeling that maybe it 's because
+[00:06] me013 | Yeah .
+[00:06] mn007 | the the a the noise addition should be lower
+[00:17] me013 | from something else .
+[00:17] mn007 | Yeah .
+[00:23] mn058 | No . It 's overall . OK .
+"[00:29] mn007 | Yeah , so I g"
+[00:34] mn007 | No .
+[00:35] mn007 | It No . Because I did it I started working on Italian . I obtained this average energy and then I used this one .
+[00:35] me013 | No ?
+[00:42] mn052 | For all the languages . OK .
+[00:43] mn007 | Yeah .
+[00:46] mn052 | Yeah .
+"[00:48] mn007 | Um , yeah , so the next thing is to use this as as maybe"
+[00:52] mn007 | initialization and then use something on - line . But And I expect improvement at least in Finnish because
+[00:53] me013 | Uh - huh .
+"[00:55] me013 | Something more adaptive , yeah ."
+[00:59] me013 | OK .
+"[01:01] mn007 | Well ,"
+"[01:03] mn007 | um ,"
+[01:05] mn007 | for Italian and Spanish it 's th this value works good but not necessarily for Finnish .
+[01:13] mn007 | Mmm .
+"[01:18] mn007 | But unfortunately there is , like , this forty millisecond latency and ,"
+[01:29] mn007 | I already know that
+"[01:30] mn007 | if I completely remove this latency , so ."
+[01:35] mn007 | um
+[01:36] mn007 | there is a three percent hit on Italian .
+[01:42] mn052 | d Does latency Sorry . Go ahead .
+[01:44] mn058 | Yeah . Your your smoothing was
+"[01:46] mn058 | uh , over this"
+[01:49] mn058 | the factor of the Wiener .
+[01:54] mn007 | Mm - hmm .
+"[01:55] mn058 | this smoothing , it was over the"
+"[01:57] mn058 | subtraction factor , so to say ."
+[01:59] mn007 | It 's a smoothing over
+[02:02] mn007 | the gain of the subtraction algorithm .
+[02:06] mn058 | Mm - hmm .
+"[02:08] mn058 | And and you are looking into the future , into the past ."
+[02:11] mn007 | Right .
+[02:11] mn058 | And smoothing . Mm - hmm .
+"[02:12] mn007 | So , to smooth this thing . Yeah ."
+[02:19] mn058 | um
+[02:24] mn058 | to smooth the the t to to smooth stronger the the envelope ?
+"[02:29] mn007 | Um , no , I did not ."
+[02:32] mn058 | Mmm .
+[02:34] mn007 | Mmm .
+[02:38] mn007 | Yeah .
+[02:46] mn007 | Mm - hmm .
+[02:48] mn058 | and later on you smooth also this
+[02:50] mn058 | subtraction factor .
+"[02:57] mn052 | Uh , actually I d I do all the smoothing . Yeah , yeah ."
+"[02:59] mn058 | Ah . Oh , it w it was you . Yeah ."
+[03:00] mn007 | Uh Yeah . Yeah .
+[03:02] mn058 | Yeah .
+[03:04] mn058 | Uh - huh .
+[03:06] mn007 | But the way it 's done is that
+"[03:08] mn007 | um , for low gain ,"
+[03:11] mn007 | there is this non nonlinear smoothing actually . For low gains
+"[03:15] mn007 | um ,"
+"[03:17] mn007 | I use the smoothed sm uh , smoothed"
+[03:20] mn007 | version but for high gain
+[03:20] mn058 | Uh .
+[03:23] mn007 | it 's I don't smooth .
+[03:24] mn058 | Mm - hmm .
+[03:35] mn058 | The best is to do the smoo smoothing as early as possible .
+[03:38] mn007 | Uh - huh .
+[03:43] mn058 | somehow with the noisy envelope .
+[03:45] mn007 | Mm - hmm .
+"[03:45] mn058 | And ,"
+[03:46] mn058 | best is to smooth this somehow .
+[03:49] mn007 | Mm - hmm .
+"[03:54] mn052 | So , before estimating the SNR , @ @ smooth the envelope ."
+[03:56] mn058 | Yeah .
+[03:57] mn058 | Yeah .
+[03:58] mn058 | Uh - huh .
+[03:59] mn007 | Mm - hmm .
+[04:04] mn007 | Yeah .
+[04:05] mn007 | Then I I would need to find a way to like smooth less also when there is high energy .
+[04:12] mn007 | Cuz I noticed that it it helps a little bit to s like
+[04:16] mn007 | smooth more during
+"[04:19] mn058 | Yes , y"
+[04:21] mn058 | Yeah .
+[04:21] mn058 | Yeah .
+[04:28] mn058 | Right .
+[04:28] mn007 | Um .
+[04:31] mn007 | Mm - hmm .
+"[04:38] mn058 | you have somehow a noise estimate ,"
+"[04:40] mn058 | and , if you say I 'm I 'm with my envelope I 'm close to this noise estimate ,"
+[04:45] mn058 | then you have a bad signal - to - noise ratio and then you you would like to have a stronger smoothing .
+[04:45] mn007 | Yeah .
+[04:50] mn007 | Mm - hmm .
+[04:51] mn058 | So you could you could
+[04:51] mn007 | Yeah .
+[04:52] mn007 | Mm - hmm .
+[04:58] mn007 | Mm - hmm .
+[05:01] mn007 | Mmm .
+[05:25] me013 | I see .
+[05:27] me018 | So is that it ?
+[05:36] mn058 | SpeechDat - Car
+[05:38] mn058 | results is similar than than yours so to say .
+"[05:41] mn052 | Yeah , so the fifty - eight is like the be some fifty - six point Yeah , that 's true ."
+[05:41] mn007 | Yeah .
+"[05:42] mn058 | Y you have you have fifty - six point four and and and dependent on this additive constant , it is"
+[05:46] mn007 | Yeah .
+[05:48] mn007 | Mm - hmm .
+[05:49] mn058 | s better or or worse . Yeah .
+[05:50] mn052 | Yeah .
+[05:51] mn007 | Mm - hmm .
+"[05:52] mn007 | And , yeah , i i i the condition where it 's better than your approach ,"
+"[06:05] mn052 | Yeah . Yeah , you you caught up . Yep , that 's true ."
+"[06:08] mn007 | if you don't weigh differently the different condition , you can see that"
+"[06:13] mn007 | your well , the win the two - stage Wiener filtering is"
+"[06:19] mn007 | It 's better for high mismatch , right ?"
+"[06:21] mn052 | Yeah , it 's better for high mismatch ."
+[06:23] mn007 | Mm - hmm .
+[06:23] mn007 | But
+"[06:25] mn052 | So over all it gets , yeah , worse for the well matched condition , so y"
+[06:31] me018 | So we need to combine these two .
+[06:39] mn007 | Mm - hmm .
+"[06:40] mn052 | So they know that the weighting is good for the well matched , and so there 's everywhere the well matched 's s s performance is very good for the French Telecom ."
+[06:46] mn007 | Yeah .
+[06:46] mn058 | Mm - hmm .
+[06:47] mn007 | Mm - hmm .
+[06:49] mn052 | T we are we may also have to do something similar @ @ .
+[06:51] mn007 | Mm - hmm .
+"[06:52] me013 | Well , our"
+[06:54] me013 | tradition here has always been to focus on the mismatched . Cuz it 's more interesting .
+"[06:59] mn058 | Mu - my mine was it too , I mean ."
+[07:03] me013 | Yeah . Yeah .
+[07:06] me013 | Yeah .
+[07:08] me013 | OK .
+"[07:21] fn002 | um , for Italian the last experiment for Italian , are bad ."
+"[07:33] fn002 | There . You know , this ."
+"[07:37] fn002 | Um , well ."
+"[07:39] fn002 | If we put everything , we improve a lot u"
+[07:44] fn002 | but the final result are not still
+"[07:49] fn002 | mmm , good like the"
+[07:59] fn002 | to have the same result . I don't know exactly .
+[08:06] mn052 | You s you have a better r
+[08:07] fn002 | worse result in medium mismatch
+[08:10] fn002 | and high mismatch .
+[08:13] fn002 | And Yeah . I someti
+[08:16] fn002 | are more or less similar but but are worse .
+[08:20] fn002 | And
+[08:22] fn002 | still I don't have the result for TI - digits .
+[08:25] fn002 | The program is training . Maybe for this weekend I will have result TI - digits and I can complete that
+[08:32] fn002 | s like this .
+[08:40] fn002 | Well .
+[08:46] me013 | Uh .
+[08:49] me013 | Right .
+[08:53] fn002 | One thing that I note are not here in this result but are speak are spoken before with Sunil
+[09:01] fn002 | I I improve my result using clean LDA filter .
+[09:07] mn052 | Mm - hmm .
+[09:07] me013 | Mm - hmm .
+[09:14] fn002 | that hurts the res my results .
+[09:17] me013 | So what are these numbers here ? Are these with the clean or with the noisy ?
+[09:20] fn002 | This is with the clean .
+[09:21] me013 | OK .
+"[09:22] fn002 | With the noise I have worse result , that if I doesn't use"
+[09:25] me013 | Uh - huh .
+[09:27] fn002 | it .
+[09:34] fn002 | really clean speech .
+"[09:36] fn002 | The speech the representation that go to the HTK is really clean speech because it 's from the dictionary , the code book"
+[09:45] fn002 | and maybe from that . I don't know .
+[09:47] mn007 | Mm - hmm .
+"[09:52] fn002 | the two LDA filter , clean and noi and noise , and it doesn't matter too much ."
+"[09:58] mn007 | Um ,"
+"[10:00] mn007 | yeah , I did that but it doesn't matter on SpeechDat - Car ,"
+"[10:05] mn007 | but , it matters , uh , a lot on TI - digits ."
+[10:08] fn002 | It 's better to use clean .
+[10:08] mn052 | Using the clean filter .
+"[10:09] mn007 | Yeah , d uh , it 's much better when you we used the clean derived"
+[10:13] fn002 | Mm - hmm . Maybe you can do d also this .
+[10:13] mn007 | LDA filter .
+[10:14] mn052 | Yeah .
+[10:17] fn002 | To use clean speech .
+"[10:19] mn052 | Yeah , I 'll try ."
+[10:20] mn052 | I I 'll try the cle
+[10:24] mn007 | It 's with the noisy one . Yeah .
+[10:24] mn052 | noisy LDA .
+[10:27] me013 | Oh !
+[10:28] mn052 | It 's with the noisy . Yeah . It 's it 's not the clean LDA .
+"[10:33] mn052 | It 's In in the front sheet , I have like like the summary . Yeah ."
+[10:38] mn007 | It 's with the clean LDA .
+[10:41] mn052 | Oh . This is Your results are all with the clean LDA result ?
+"[10:41] fn002 | Yeah , with the clean LDA ."
+[10:43] mn007 | Yeah .
+[10:44] mn052 | OK .
+[10:44] fn002 | Is that the reason ?
+"[10:46] mn052 | All noisy , yeah ."
+[10:49] mn007 | Yeah .
+"[10:50] mn007 | But I observe my case it 's in , uh ,"
+"[10:53] mn007 | uh , at least on SpeechDat - Car it doesn't matter but TI - digits it 's"
+"[10:57] mn007 | like two or three percent absolute ,"
+[11:02] mn052 | Absolute .
+[11:02] mn007 | better .
+[11:04] me013 | So you really might wanna
+"[11:05] mn052 | Yeah , I I I will have to look at it . Yeah , that 's true ."
+[11:06] me013 | try the clean I think . Yeah .
+"[11:11] me013 | Yeah , that could be sizeable right there ."
+[11:14] fn002 | And this is everything .
+[11:18] mn058 | Yeah .
+"[11:24] mn058 | So I mean , if if if I would put it put on the head of a project mana manager I I I I would say , uh ,"
+"[11:30] mn058 | um I mean there is not so much time left now . I mean , if um ,"
+[11:31] me013 | Be my guest .
+[11:42] fn002 | And prepare at the s
+[11:42] mn058 | c create create all the results for the whole database that you get to the final number as as Sunil did it and
+[11:48] mn058 | um
+"[11:51] mn058 | to write somehow a document where you describe your approach , and what you have done ."
+"[11:56] fn002 | Yeah , I was thinking to do that next week ."
+[11:58] mn058 | Yeah .
+"[11:59] me013 | Yeah ,"
+[12:00] me013 | I 'll I 'll borrow the head back and and agree .
+"[12:05] fn002 | Yeah , I wi I I will do that next week ."
+[12:07] me013 | Right .
+"[12:10] me013 | the Spanish government , uh , requires that anyway . They want some kind of report from everybody who 's in the program . So ."
+[12:15] fn002 | Mm - hmm .
+"[12:16] me013 | And of course I 'd we 'd we 'd like to see it too . So , yeah ."
+[12:19] fn002 | OK .
+"[12:22] me018 | So , um , what 's Do you think we , uh , should do the digits or skip it ? Or what are what do you think ?"
+"[12:28] me018 | Yeah , got them ."
+"[12:29] me013 | Uh , why don why don't we do it ?"
+[12:30] me018 | OK .
+[12:31] me013 | Just just take a minute .
+[12:34] fn002 | I can send
+[12:35] fn002 | yet .
+[12:38] me018 | Would you pass those down ?
+[12:39] me013 | Oh ! Sorry .
+"[12:44] me018 | OK , um , so I guess I 'll go ahead ."
+"[12:46] me018 | Um ,"
+[13:27] fn002 | Me ?
+[13:35] mn007 | Dave ?
+"[13:37] mn007 | Is it the channel , or the mike ? I don't remember . It 's the mike ?"
+[13:41] mn007 | Mike five .
+[16:10] mn058 | What is this ? QUAL whispering
+[16:10] mn058 | OK .
+[16:14] mn052 | t
+"[18:28] me018 | OK , if you could just leave , um ,"
+[18:36] me018 | I didn't get a chance to fill them out ahead of time .
+[18:38] me013 | Yeah . The seat numbers have fallen off here .
+"[18:41] me013 | What What are the seat numbers , I wonder ?"
+"[18:43] me018 | Uh , let 's see , it starts with one here , and then goes around and ends with nine"
+[18:45] me006 | Seven .
+[18:48] me018 | here .
+"[18:49] me006 | So I I 'm eight ,"
+"[18:49] me018 | So he 's eight ,"
+"[18:50] me018 | you 're seven ,"
+"[18:52] me013 | I just put "" yes "" ."
+[18:53] me013 | Would that be @ @

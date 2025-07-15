@@ -1,0 +1,1160 @@
+﻿[00:00] me045 | As usual .
+[00:01] me003 | Yes .
+"[00:14] me003 | I woke up twenty minutes ago , thinking ,"
+[00:17] me003 | what did I forget ?
+[00:20] mn015 | It 's great how the br brain sort of does that .
+[00:24] me045 | Something 's not right here .
+[00:25] me003 | Internal alarms .
+[00:31] mn015 | OK .
+"[00:32] mn015 | So the news for me is A , my"
+[00:39] mn015 | in two weeks
+[00:39] me003 | Yes .
+[00:41] mn015 | from today ?
+[00:43] mn015 | Yeah ?
+[00:43] mn015 | More or less ?
+[00:46] mn015 | I 'll be off to Sicily and Germany
+"[00:49] mn015 | for a couple , three days ."
+[00:51] me003 | Now what are y what are you doing there ? I forgot ?
+"[00:53] mn015 | OK , I 'm flying to Sicily basically to drop off Simon"
+[00:58] mn015 | there with his grandparents . And then I 'm flying to Germany t to go to a MOKU - Treffen which is
+"[01:06] mn015 | the meeting of all the module - responsible people in SmartKom ,"
+[01:11] me003 | Mmm .
+[01:17] mn015 | and myself I guess
+[01:20] mn015 | there .
+[01:21] mn015 | And um .
+[01:23] mn015 | That 's the
+[01:24] mn015 | mmm
+[01:25] mn015 | actual reason .
+[01:26] mn015 | And then I 'm also going up to EML
+"[01:30] mn015 | meet the very big boss , Wolfgang Walster ,"
+[01:35] mn015 | in Saarbruecken and the System system integration people in Kaiserslautern
+[01:42] mn015 | and then I 'm flying back via Sicily
+[01:48] mn015 | come back here on the fourth of July .
+[01:53] mn015 | And uh .
+[01:53] me045 | What a great time to be coming back to the U S - of - A .
+[01:58] me003 | God bless America .
+[01:58] me045 | You 'll see maybe see the fireworks from your plane coming in .
+[02:02] mn015 | And I 'm sure all the the people at the airport will be happy to work on that day .
+[02:07] me045 | You 'll get even better service than usual .
+[02:09] mn015 | Mm - hmm .
+"[02:10] me003 | Wait , aren't you flying on Lufthansa though ?"
+[02:12] mn015 | Alitalia .
+"[02:16] me003 | Once you get to the United States it 'll be a problem , but"
+[02:20] mn015 | Yeah .
+"[02:22] mn015 | And um ,"
+"[02:26] mn015 | that 's that bit of news , and the other bit of news is we had you know , uh , I was visited by my"
+"[02:36] mn015 | what we 're doing here , and B ,"
+"[02:38] mn015 | is planning to come here either three weeks in July or three weeks in August ,"
+[02:44] mn015 | to actually work .
+[02:46] me003 | On ? Oh .
+[02:46] mn015 | With us .
+[02:49] mn015 | And we sat around and we talked and he came up we came up with a
+[02:55] mn015 | pretty strange idea .
+[02:58] mn015 | And that 's what I 'm gonna lay on you now .
+"[03:01] mn015 | And um , maybe it might be ultimately the most interesting thing for Eva"
+[03:06] mn015 | because she has
+[03:07] fn050 | OK .
+[03:08] mn015 | been known to complain about the fact that the stuff we do here is not weird enough .
+[03:13] mn015 | So this is so weird it should even
+[03:16] mn015 | make you happy .
+[03:19] mn015 | Imagine
+[03:23] mn015 | that we have a system that does all that understanding
+[03:27] mn015 | that we want it to do
+[03:28] me003 | Mm - hmm .
+[03:30] mn015 | based on utterances .
+[03:33] mn015 | It should be possible
+[03:36] mn015 | to make that system produce
+[03:39] mn015 | questions .
+"[03:41] mn015 | So if you have the knowledge of how to interpret "" where is X ? """
+"[03:46] mn015 | under given conditions ,"
+"[03:48] mn015 | situational , user , discourse and ontological"
+[03:53] mn015 | you should also be able to make that same system ask
+"[03:57] mn015 | "" where is X ? """
+"[03:59] mn015 | in a sper certain way ,"
+[04:00] mn015 | based on
+[04:02] mn015 | certain intentions .
+[04:04] mn015 | So in instead of just being able to
+"[04:07] mn015 | observe phenomenon ,"
+"[04:10] mn015 | um , and ,"
+[04:11] mn015 | guess the intention we
+[04:13] mn015 | might be able just to
+[04:17] mn015 | sort of
+"[04:19] mn015 | give it an intention , and make it produce an utterance ."
+"[04:22] me003 | Well , like in"
+[04:24] me003 | AI they generally do the
+"[04:26] me003 | take in , and then they also do the generation phase , like Nancy 's thing ."
+"[04:31] me003 | Or uh ,"
+"[04:33] me003 | you remember , in the the hand"
+"[04:35] me003 | thing in one - eighty - two , like not only was it able to recognize but it was also to generate based upon situations . You mean that sort of thing ?"
+[04:42] mn015 | Absolutely .
+[04:42] me003 | OK .
+[04:44] mn015 | And once you 've done that
+[04:47] mn015 | what we can do is have the system ask
+[04:51] mn015 | itself .
+"[04:54] mn015 | And answer ,"
+"[04:56] mn015 | understand the answer ,"
+"[04:58] mn015 | ask something else ,"
+[04:59] mn015 | and enter a dialogue with itself . So the the ba basic the same idea as having two chess computers play against each other .
+[05:07] me045 | Except this smacks a little bit more of a schizophrenic computer than AI .
+"[05:10] mn015 | Yeah you c if you want , you can have two parallel machines"
+"[05:15] mn015 | um , asking each other ."
+"[05:17] mn015 | What would that give us ? Would A be something completely weird and strange ,"
+"[05:22] mn015 | and B , i"
+[05:22] me045 | That 's good .
+"[05:23] mn015 | if you look at all the factors ,"
+[05:26] mn015 | we will never observe
+[05:28] mn015 | people
+"[05:30] mn015 | let 's say , in wheelchairs under you know , in under all conditions , you know ,"
+"[05:34] mn015 | when they say "" X "" , and there is a ride at the goal , and the parking is good ,"
+[05:39] mn015 | we can never collect enough data .
+[05:41] me045 | Mm - hmm .
+[05:41] mn015 | It 's it 's it 's not possible .
+"[05:42] me045 | Right , right ."
+[05:44] mn015 | But maybe one could do some learning .
+"[05:47] mn015 | If you get the system to speak to itself ,"
+[05:51] mn015 | you may find n
+[05:52] mn015 | break downs and errors
+[05:55] mn015 | and you may be able to
+[05:58] mn015 | learn .
+[06:00] mn015 | And make it
+"[06:02] mn015 | more robust , maybe learn new things ."
+"[06:05] mn015 | And um ,"
+"[06:09] mn015 | no end of potential things one could get out of it ,"
+[06:12] mn015 | if that works .
+[06:15] mn015 | And he would like to actually work on that
+[06:18] mn015 | with us .
+[06:22] mn015 | So -
+"[06:22] me003 | Well then , he probably should be coming back a year from now ."
+"[06:26] mn015 | Yeah , I w"
+[06:33] mn015 | is shouldn't be too hard .
+[06:38] me045 | Yeah . No problem .
+[06:41] me003 | I think we 're probably a year away from getting the system to understand things .
+[06:44] mn015 | Yeah .
+"[06:45] mn015 | Well , if we can get it to understand one thing , like our "" where is """
+[06:50] mn015 | run through
+"[06:51] mn015 | we can also , maybe , e make it say , or ask"
+"[06:56] mn015 | "" where is"
+"[06:58] mn015 | X ? """
+[07:00] mn015 | Or not . @ @
+"[07:01] me045 | Mmm , I don't know . e I 'm sort of have the impression that getting it to say the right thing in the right circumstances is much more difficult than"
+"[07:09] me045 | getting it to understand something given the circumstances and so on , you know , I mean just cuz it 's sort of harder to"
+[07:14] me045 | learn to
+"[07:16] me045 | speak correctly in a foreign language , rather than"
+[07:19] me045 | learning to understand it . Right ? I mean
+"[07:32] mn015 | Well , I 've I 've done generation and language production research for fo four four and a half years . And so it 's it 's you 're right , it 's not the same as the understanding ."
+"[07:42] mn015 | It 's in some ways easier and some ways harder . nuh ? But , um ,"
+[07:44] me045 | Yeah .
+[07:46] mn015 | I think it 'd be
+"[07:48] mn015 | fun to look at it , or into that question ."
+"[07:49] me045 | Nnn , yeah ."
+"[07:55] me003 | The basic idea I guess would be to give allow the system to have intentions , basically ?"
+[07:59] me003 | Cuz that 's basically what needs to be added to the system for it .
+"[08:00] mn015 | Well , look at th"
+[08:05] mn015 | What it would be the the prior intention .
+"[08:10] me003 | Well we 'd have to seed that , I mean ."
+"[08:12] mn015 | No . Let 's we have to we have some some top - down processing , given certain setting ."
+"[08:17] mn015 | OK , now we change nothing , and just say ask something ."
+[08:21] mn015 | Right ?
+[08:23] mn015 | What would it ask ?
+[08:27] mn015 | It shur
+"[08:28] me003 | Unless it was in a situation . We 'd have to set up a situation where ,"
+[08:30] mn015 | Yeah !
+[08:31] me003 | it didn't know where something was and it wanted to go there .
+[08:31] fn050 | Mm - hmm .
+[08:34] mn015 | Yeah .
+[08:34] me003 | Which means that we 'd need to set up an intention inside of the system .
+[08:38] me003 | Right ?
+"[08:39] me003 | Which is basically , "" I don't know where something is and I need to go there "" ."
+[08:41] me045 | Yeah .
+"[08:43] mn015 | Ooh , do we really need to do that ?"
+"[08:46] mn015 | Because ,"
+[08:50] mn015 | s
+"[08:51] mn015 | It 's i I know it 's it 's strange , but"
+[08:58] mn015 | Let 's assume we don't have any input
+[09:01] mn015 | from the language .
+[09:02] mn015 | Right ?
+"[09:03] mn015 | So there 's also nothing we could query the ontology , but we have a certain user setting ."
+"[09:09] mn015 | If you just ask , what is the likelihood of that person wanting to enter some something , it 'll give you an answer ."
+[09:17] mn015 | Right ? That 's just how they are .
+"[09:20] mn015 | And so , @ @ whatever that is , it 's the generic default intention ."
+"[09:26] mn015 | That it would find out . Which is ,"
+"[09:32] mn015 | I don't know what it 's gonna be , but there 's gonna be something that"
+"[09:35] me045 | Well you 're not gonna are you gonna get a variety of intentions out of that then ? I mean , you 're just talking about like given this user ,"
+[09:42] me045 | what 's the th what is it what is that user most likely to want to do ?
+"[09:46] mn015 | Well you can observe some user and context stuff and ask , what 's the"
+[09:50] mn015 | posterior probabilities of all of our decision nodes .
+[09:52] me045 | OK .
+"[09:54] mn015 | You could even say , "" let 's take all the priors , let 's observe nothing "" , and query all the posterior probabilities ."
+[10:00] mn015 | It - it 's gonna tell us something .
+[10:02] mn015 | Right ?
+"[10:04] me003 | Well , it will d"
+[10:05] me003 | r
+[10:09] mn015 | Yes . And come up with
+"[10:15] mn015 | Which , if we have an algorithm that filters out whatever the the best or the most consistent"
+"[10:20] mn015 | answer out of that ,"
+[10:22] mn015 | will give us the
+[10:26] mn015 | intention ex nihilo .
+"[10:30] mn015 | And that is exactly what would happen if we ask it to produce an utterance , it would be b based on that extension , ex nihilo , which we don't know what it is , but it 's there ."
+[10:41] mn015 | So we wouldn't even have to t to kick start it by giving it a certain intention or
+[10:46] mn015 | observing anything on the decision node .
+"[10:50] mn015 | maybe that would lead to "" what is the castle ? "" , or "" what is that whatever "" ."
+"[10:54] me003 | I guess what I 'm afraid of is if we don't ,"
+"[10:58] me003 | we 'll just get a bunch of garbage out , like"
+"[11:01] me003 | you know , everything 's exactly thirty percent ."
+[11:03] fn050 | Mmm .
+"[11:04] mn015 | Yeah . So what we actually then need to do is is write a little script that changes all the settings , you know ,"
+"[11:14] me003 | Well that was that was absurdly low , in the last meeting , cuz I went and looked at it cuz I was thinking , that could not be right , and it would it was on the order of"
+"[11:15] fn050 | Uh ,"
+"[11:28] me003 | So to test every output node ,"
+[11:39] me003 | Which is very th very large .
+[11:42] mn015 | Oh ! That 's n
+"[11:43] mn015 | that 's that 's nothing for those neural guys . I mean , they train for millions and millions of epochs . So ."
+[11:58] me003 | a number two to the thirty is
+[12:00] me003 | like a
+[12:08] me003 | And if i
+[12:10] me045 | Th - that 's big .
+"[12:13] me045 | That 's just That 's uh It 's a billion , right ?"
+[12:16] me003 | Two to the thirty ?
+"[12:17] me003 | Well , two to the thirty is a billion , but if we have to do it two to the twenty times ,"
+[12:22] me045 | Argh .
+[12:22] me003 | then that 's a very very large number .
+"[12:24] me045 | Oh , OK . Yeah . Yeah , that 's big ."
+"[12:27] me003 | Cuz you have to query the node , for every a"
+[12:27] me045 | Sure .
+[12:29] me045 | Alright .
+"[12:30] me003 | uh , or query the net"
+[12:32] me003 | two to the twenty times .
+"[12:35] me045 | OK . So , is it t comes to twenty billion or something ?"
+[12:38] me003 | Yes .
+"[12:39] me045 | That 's pretty big , though ."
+[12:40] me003 | As far as That 's @ @ That 's big . Actually Oh ! We calculated a different number before . How did we do that ?
+[12:45] fn050 | Hmm .
+"[12:45] me045 | I remember there being some other one floating around . But anyway , uh ."
+[12:48] fn050 | I don't really know .
+"[12:48] me045 | Yeah , it 's g Anyway , the point is that given all of these different factors , it 's uh e it 's it 's still going to be impossible to run through all of the possible"
+"[12:57] me045 | situations or whatever . But I mean , this 'll get us a bit closer at least , right ? I mean ."
+[13:07] me045 | Yeah .
+"[13:08] me003 | Eva , do the math ."
+[13:10] me045 | Long !
+[13:11] fn050 | Can't .
+[13:12] me003 | Hours and hours and hours and hours .
+[13:17] me003 | But we can do randomized testing .
+[13:23] me003 | Which probabilistically will be good enough .
+[13:25] mn015 | Mm - hmm .
+"[13:27] mn015 | Yeah . So , it be it it 's an idea that one could n"
+"[13:31] mn015 | for for example run run past , um ,"
+[13:38] mn015 | You know ? He - he 's usually here .
+[13:42] me045 | Here in the group ?
+"[13:45] mn015 | Oh , yeah . That 's the guy . We we we we g"
+"[13:48] me045 | Yeah , i that would the g the bald guy ."
+[13:50] me003 | Oh ! My advisor !
+[13:53] mn015 | And um .
+"[13:58] mn015 | And um , hmm ,"
+[14:00] mn015 | what other news do I have ?
+"[14:04] mn015 | Well we fixed some more things from the SmartKom system , but that 's not really of general interest ,"
+"[14:10] mn015 | Um ,"
+"[14:14] mn015 | Oh ! Questions , yeah . I 'll ask Eva about the E Bayes and she 's working on that ."
+[14:18] mn015 | How is the generation XML
+[14:22] mn015 | thing ?
+[14:23] me003 | I 'm gonna work on that today and tomorrow .
+"[14:28] me003 | I 'm gonna finish it today , uh hopefully ."
+[14:30] mn015 | OK .
+"[14:31] me003 | I wanna do one of those things where I stay here . Cuz uh , if I go home , I can't finish it . I 've tried"
+"[14:36] me003 | about five times so far ,"
+"[14:38] me003 | where I work for a while and then I 'm like ,"
+[14:41] me003 | I 'm hungry .
+"[14:47] me003 | Either that or I think to myself , I can work at home . And then I try to work at home , but I fail miserably ."
+[14:49] me045 | Yeah .
+[14:52] me003 | Like I ended up at Blakes last night .
+[14:54] me045 | Non - conducive .
+[14:55] me003 | No .
+[15:00] me003 | But I did not finish
+"[15:01] me003 | the uh , SmartKom."
+[15:02] me003 | But I 've been looking into it .
+[15:04] me003 | I th @ @ It 's not like it 's a blank slate .
+"[15:06] me003 | I found everything that I need and stu and uh ,"
+[15:10] mn015 | But st
+"[15:11] me003 | At the b uh furthermore , I told Jerry that I was gonna finish it before he got back . So ."
+[15:14] mn015 | OK .
+"[15:17] me003 | Well ,"
+"[15:18] me003 | I think we think we 'll see him definitely on Tuesday for the next Or , no , wait . The meetings are on Thursday ."
+[15:24] mn015 | Maybe .
+[15:25] mn015 | Who knows .
+[15:25] me003 | Maybe .
+[15:25] me045 | OK .
+"[15:27] me003 | Well , we 'll see him next week ."
+[15:28] me045 | Alright .
+[15:30] mn015 | That 's good .
+[15:32] mn015 | Yeah .
+[15:35] mn015 | The paper .
+[15:38] me003 | I was thinking about that . I think
+[15:48] me003 | if you work on it ?
+[15:49] me003 | I don't have a problem with us working on it though ? So .
+[15:51] mn015 | OK .
+[15:52] mn015 | So you would say it 's
+[15:54] mn015 | funky
+[15:56] mn015 | cool .
+"[15:58] me003 | I mean we just I mean it wouldn't hurt to write up a paper , cuz then , I mean , yeah I was talking with Nancy and Nancy said , you don't know whether you have a paper to write up until you write it up . So ."
+[16:06] me045 | Yeah .
+[16:07] mn015 | Well
+"[16:08] me003 | And since Jerry 's coming back , we can run it by him too . So ."
+[16:10] mn015 | Yep .
+"[16:12] mn015 | Um , what 's your input ?"
+"[16:16] me045 | I don't have much experience with uh , conference papers for compu in the computer science realm , and so when I looked at what you had ,"
+"[16:22] me045 | which was apparently a complete submission , I just sort of said"
+"[16:26] me045 | I I didn't really know what to do with it , like , this is the sort of the basic outline of the system or whatever , or or"
+"[16:32] me045 | "" here 's an idea "" , right ? That 's what that paper was , "" here 's here 's one possible thing you could do "" ,"
+[16:36] mn015 | Mm - hmm .
+"[16:36] me045 | short ,"
+"[16:36] me045 | eight pages , and I just don't know"
+[16:38] me045 | what you have in mind for expanding . Like I 'd I what I didn't do is go to the web site of the conference and look at what they 're looking for or whatever .
+[16:45] mn015 | Mm - hmm .
+"[16:46] mn015 | Well , it seems to me that"
+"[16:55] mn015 | It 's both , right ? It 's it 's sort of"
+"[16:57] mn015 | t cognitive , neural , psycho , linguistic , but all for the sake of doing computer science ."
+"[17:07] mn015 | So it 's sort of cognitive , psycho , neural , plausibly motivated , architectures of natural language processing ."
+"[17:18] mn015 | So it seems pretty interdisciplinary , and I mean , w w the keynote speaker is Tomasello and blah - blah - blah , so ,"
+"[17:23] me045 | Right . Oh , yeah ."
+[17:27] mn015 | W the the question is what could we actually
+[17:30] mn015 | do and and and keep a straight face while doing it .
+[17:33] mn015 | And i
+"[17:34] me003 | Well , I really can't keep a straight face doing anything ."
+"[17:37] mn015 | My idea is ,"
+"[17:39] mn015 | well , you can say we have done a little bit and that 's this , and uh sort of the rest is position paper , "" we wanna also do that "" . Which is not"
+[17:47] mn015 | too good .
+[17:50] mn015 | Might be more interesting to do something like
+[17:54] mn015 | let 's assume
+"[17:56] mn015 | um ,"
+"[17:57] mn015 | we 're right ,"
+"[17:58] mn015 | we have as Jerry calls it , a delusion of adequacy ,"
+"[18:01] mn015 | and take a "" where is X "" sentence ,"
+[18:04] me045 | Mm - hmm .
+"[18:05] mn015 | and say , "" we will just talk about this , and how we"
+"[18:09] mn015 | cognitively , neurally ,"
+"[18:12] mn015 | psycho - linguistically , construction grammar - ally ,"
+"[18:16] mn015 | motivated ,"
+[18:17] mn015 | envision
+"[18:19] mn015 | uh , understanding that "" ."
+[18:23] mn015 | So we can actually show how we parse it .
+"[18:26] mn015 | That should be able to we should be able to come up with , you know , a sort of a a parse ."
+[18:32] me045 | Right .
+[18:37] me003 | Did Ben harass you ?
+[18:39] me003 | Good .
+[18:41] me003 | Yes .
+[18:43] mn015 | You don
+[18:44] me003 | Oh .
+"[18:44] mn015 | You will suffer in hell , you know that ."
+[18:46] me045 | Backwards .
+[18:47] me045 | There 's a s
+[18:51] mn015 | This is it .
+[18:52] mn015 | Yeah .
+[18:56] fe004 | OK .
+[18:57] me003 | See the p how the plastic things ar arch out like that ? There we go .
+[19:02] fe004 | It hurts .
+[19:03] me003 | It hurts . It hurts real bad .
+[19:05] fe004 | I 'm sorry I didn't mean to I 'm sorry .
+"[19:09] fe004 | I 'm sorry , oh these are all the same ."
+[19:11] fe004 | OK ! th this is not very on target .
+[19:13] me003 | Is your mike on ?
+[19:14] fn050 | An -
+"[19:14] mn015 | Yeah , it is ."
+[19:15] me003 | OK .
+"[19:16] fe004 | Alright , you guys can continue talking about whatever you were talking about before ."
+"[19:20] me045 | Um ,"
+"[19:21] mn015 | We 're talking about this um , alleged paper that we may , just , sort of w"
+[19:25] fe004 | Oh ! Which Johno mentioned to me . Uh - huh .
+[19:26] mn015 | Yeah .
+[19:28] mn015 | And I just sort of
+[19:30] mn015 | brought forth the idea that
+"[19:31] mn015 | we take a sentence , "" Where is the Powder - Tower "" ,"
+[19:34] fe004 | Mm - hmm .
+[19:35] mn015 | and we we p
+"[19:37] mn015 | pretend to parse it ,"
+"[19:38] mn015 | we pretend to understand it ,"
+[19:40] mn015 | and we write about it .
+[19:42] me045 | Hmm .
+[19:43] fe004 | What 's the part that 's not pretend ? The writing ?
+[19:48] me045 | The submitting to a major international conference . Yeah .
+"[19:58] mn015 | There is this conference , it 's the seventh already international conference , on neu neurally , cognitively , motivated , architectures of natural language processing ."
+[20:07] fe004 | Oh .
+[20:08] fe004 | Wow .
+[20:08] mn015 | And
+[20:09] fe004 | Interesting .
+[20:13] fe004 | Whinney . MacWhinney. Uh - huh .
+[20:13] me045 | MacWhinney.
+"[20:15] fe004 | So , interesting , both , like , child language people ."
+[20:16] mn015 | Yeah .
+[20:18] mn015 | Yep .
+[20:20] fe004 | OK .
+[20:21] mn015 | So maybe you wanna write something too .
+"[20:22] fe004 | Yeah , maybe I wanna go ."
+[20:23] me045 | Mmm . Mmm .
+"[20:23] fe004 | Um , why are they speaking at it if it is is it normally like like , dialogue systems , or , you know , other NLP - ish things ?"
+"[20:30] fe004 | Oh , it 's cognitive . OK ."
+[20:31] mn015 | Yeah . Yeah .
+[20:32] mn015 | Even neuro .
+[20:33] fe004 | And
+"[20:34] fe004 | uh , both learning and like , comprehension , production , that kinda stuff ."
+[20:39] mn015 | You could look at the web site .
+[20:39] fe004 | OK .
+[20:42] fe004 | OK .
+[20:43] mn015 | And the ad and and the deadline is the fifteenth of June .
+[20:43] fe004 | I don't know about it .
+[20:46] fe004 | Yeah that 's pretty soon .
+[20:48] mn015 | Hey . Plenty of time .
+"[20:53] mn015 | It would be nice to go write two papers actually . Yeah . And one one from your perspective , and one from our peve per per"
+[20:58] fe004 | Mm - hmm .
+"[21:00] fe004 | I mean , th that 's the kinda thing that maybe like , um , the general"
+"[21:04] fe004 | uh con sort of like NTL - ish like , whatever , the"
+[21:07] fe004 | previous simulation based pers maybe you 're talking about the same kind of thing . A general paper about
+[21:11] fe004 | the approach here would probably be appropriate .
+[21:14] mn015 | Yeah .
+[21:14] fe004 | And good to do at some point anyway .
+[21:15] mn015 | Yeah .
+[21:17] fe004 | Um .
+"[21:18] mn015 | Well , I I also think that if we sort of"
+"[21:21] mn015 | write about what we have done in the past six months ,"
+[21:25] mn015 | we we we could
+"[21:28] mn015 | sort of craft a nice little paper that if it gets rejected , which could happen ,"
+[21:33] fe004 | Mm - hmm .
+[21:37] fe004 | Yeah .
+[21:45] fe004 | Mm - hmm . It 's fun .
+"[21:47] mn015 | And um , we should all do more for our publication lists . And . It just never hurts ."
+[21:53] mn015 | And
+[21:58] me003 | Will I ?
+[21:58] fe004 | When is it and where ?
+[21:58] me045 | Hmm !
+"[22:06] fe004 | Ah , it 's in Germany . Ah , OK . I s I see . Tomasello 's already in Germany anyway , so makes sense . OK ."
+[22:14] fe004 | Um .
+"[22:16] fe004 | OK . So , is the What Are you just talking about"
+"[22:20] fe004 | you know , the details of how to do it , or whether to do it , or what it would be ?"
+[22:24] fe004 | Or what to write about ?
+"[22:28] mn015 | Because I mean , it I don't like papers where you just talk about what you plan to do ."
+"[22:33] mn015 | I mean ,"
+"[22:34] mn015 | it 's obvious that we can't do any kind of evaluation , and have no you know , we can't write an ACL type paper where we say , "" OK , we 've done this and now we 're"
+[22:41] fe004 | Mm - hmm .
+"[22:43] mn015 | whatever percentage better than everybody else "" . You know ."
+[22:45] fe004 | Mm - hmm .
+[22:46] mn015 | It 's far too early for that .
+[22:52] mn015 | never hurts to try .
+"[22:55] mn015 | And um ,"
+[23:03] fe004 | Mm - hmm .
+[23:05] fe004 | How many pages ?
+[23:07] mn015 | It 's just like four pages . I mean it 's it 's not even a h
+[23:08] fe004 | Four pages ?
+"[23:09] fe004 | OK , so it 's a little thing ."
+[23:11] mn015 | Mm - hmm .
+[23:12] fe004 | Oh .
+"[23:12] me003 | Well , you said it was four thousand lines ? Is that what you s"
+[23:12] me045 | Oh .
+"[23:14] fe004 | OK . Four pages is , like , really not very much"
+[23:14] mn015 | I don't know w Did you look at it ?
+"[23:18] mn015 | Yeah , it depends on the format ."
+[23:19] fe004 | space .
+"[23:19] me045 | Oh my gosh . Oh , I thought you were I thought we were talking about something which was much"
+[23:23] mn015 | No that 's I mean that 's actually a problem . It 's difficu it 's more difficult to write on four pages than on eight .
+[23:23] me045 | more like ten or something .
+[23:25] fe004 | It 's Yeah .
+[23:27] me045 | Yeah .
+"[23:28] fe004 | And it 's also difficult to even if you had a lot of substance , it 's hard to demonstrate that in four pages , basically . Um ."
+[23:33] me045 | Yeah .
+[23:34] me045 | That would be hard .
+[23:39] mn015 | They don't have a TeX f style @ @ guide . They just want ASCII . Pure ASCII
+"[23:41] fe004 | Uh - huh , uh - huh ."
+[23:44] fe004 | OK .
+"[23:44] mn015 | lines , whatever . Why , for whatever reason , I don't know ."
+[23:46] fe004 | Not including figures and such ?
+[23:48] mn015 | I don't know .
+[23:50] mn015 | Very unspecific unfortunately .
+"[23:53] fe004 | Well ,"
+[23:56] me003 | I would say that 's closer to six pages actually . Four thousand lines of ASCII ?
+[23:59] mn015 | OK then .
+[24:00] me045 | Four thousand lines . I mean .
+"[24:02] me045 | Isn't a isn't it about fifty s fifty five , sixty lines to a page ?"
+[24:07] mn015 | I d don't quote me on this . This is numbers I I have from looking o
+[24:14] mn015 | OK .
+[24:15] fe004 | ASCII ?
+"[24:15] mn015 | Let 's let 's wh wh what should we should should we uh , um , discuss this over tea and all of us look at the web ? Oh , I can't . I 'm wizarding today ."
+"[24:24] fe004 | OK , look at the web page ?"
+[24:25] mn015 | Um .
+[24:26] fe004 | Wha - w
+[24:26] mn015 | Look at the web page and let 's talk about it maybe tomorrow afternoon ?
+"[24:28] fe004 | More cues for us to find it are like ,"
+[24:30] fe004 | neural cons
+[24:31] mn015 | Johno will send you a link .
+"[24:33] fe004 | Oh , you have a link . OK . OK ."
+[24:34] me003 | I got an email .
+[24:36] fe004 | OK .
+"[24:37] me003 | By the way , Keith is comfortable with us calling him "" cool Keith "" ."
+"[24:40] fe004 | Oh . Cool . Keith . Cool , "" cool Keith "" ."
+[24:41] me045 | He he decided I 'm chilling in the five - one - O .
+[24:50] mn015 | OK .
+[24:51] fe004 | That 's a very cool T - shirt .
+[24:53] me045 | Thank you .
+[24:58] fe004 | New York ?
+[24:59] fe004 | Excellent .
+[25:02] fe004 | Sorry . Yes ?
+"[25:04] fe004 | Oh , lucky you ."
+[25:06] mn015 | w and a week of business in Germany . I should mention that for you .
+"[25:10] mn015 | And otherwise you haven't missed much , except for a really weird idea ,"
+[25:15] mn015 | but you 'll hear about that
+[25:17] fe004 | The idea that you and I already know about ?
+[25:17] mn015 | soon enough .
+[25:19] fe004 | That you already told me ?
+"[25:21] mn015 | No , no , no ."
+"[25:23] mn015 | Yeah , that is something for the rest of the gang to to g"
+[25:30] mn015 | Change
+[25:36] mn015 | Um .
+[25:38] mn015 | Did you catch that allusion ? It 's time to walk the sheep ?
+[25:41] mn015 | It 's a a
+"[25:46] mn015 | Anyways , th um ,"
+"[25:50] mn015 | um ,"
+[25:51] mn015 | don't make any plans for spring break next year .
+[25:57] mn015 | That 's the other thing . We 're gonna do an int EDU internal workshop in Sicily .
+[26:03] fe004 | That 's what That 's what he says .
+"[26:06] mn015 | I 've already got the funding . So , I mean ."
+[26:07] fe004 | I kn That 's great !
+[26:09] me045 | We 'll see .
+[26:11] fe004 | Does that mean you 'll get you 'll fly us there ?
+"[26:13] mn015 | Yeah , that 's what it means ."
+"[26:13] fe004 | Hhh ! OK , cool . Uh - a a"
+[26:15] me045 | Huh .
+"[26:15] me003 | And he 'll put us up , too ."
+[26:16] fe004 | I know I know about that part . I know about the the almond trees and stuff .
+[26:21] fe004 | Not joking .
+[26:23] mn015 | OK .
+"[26:24] fe004 | Name a vegetable , OK . Oh , um , kiwi ?"
+"[26:28] mn015 | Mmm , too easy ."
+[26:30] fe004 | Coconut .
+[26:32] mn015 | Ki -
+[26:32] fe004 | Pineapple . See ?
+[26:34] fe004 | Mango ?
+[26:35] mn015 | Too easy .
+[26:36] fe004 | OK . OK . Too easy ?
+"[26:38] mn015 | Yeah , mangos go everywhere . So do kiwi ."
+"[26:41] fe004 | Oh . OK , but I was trying to find something that he didn't grow on his farm ."
+"[26:44] mn015 | But coconut anana pineapple , that 's that 's tricky , yeah ."
+[26:56] me003 | Potatoes .
+"[27:00] me045 | Um ,"
+"[27:02] me045 | I mean , we 're gonna have an example case um , right ? I m the the point is to like this "" where is "" case , or something ."
+"[27:09] mn015 | Yeah , maybe you have It would be kind of The paper ha would have , in my vision , a nice flow if we could say ,"
+[27:22] me045 | Mm - hmm .
+"[27:24] fe004 | But then in the end we 're not doing like those things right yet , right ? Would that be clear in the paper or not ?"
+[27:31] fe004 | OK .
+"[27:32] fe004 | It would be like , this is the idea ."
+"[27:36] mn015 | No ,"
+[27:36] fe004 | Did I ? Oops . Sorry .
+"[27:37] me003 | No , y I don't think you got it ."
+"[27:40] fe004 | I 'm sorry . I 'm sorry , I 'm sorry . Sorry ."
+"[27:45] fe004 | OK , go on ."
+[27:46] mn015 | Su -
+[27:48] mn015 | So we could we could say this is what what 's sort of
+[27:51] mn015 | state of the art today .
+[27:53] fe004 | OK .
+"[27:53] mn015 | Nuh ? And say , this is bad ."
+[27:55] fe004 | Yeah .
+"[27:55] mn015 | Nuh ? And then we can say , uh well what we do is this ."
+[27:59] fe004 | OK .
+[27:59] mn015 | Yeah .
+"[28:02] fe004 | Parsing done right , interpretation done right , example ."
+[28:06] mn015 | Mm - hmm .
+[28:07] mn015 | Yeah . And
+[28:08] fe004 | And how much to get into the cognitive neural part ?
+[28:12] mn015 | We -
+"[28:20] fe004 | Well , you don't have t I mean the conference may be cognitive neural , doesn't mean that every paper has to be both ."
+"[28:24] mn015 | Yeah , and you can you can just point to the to the literature , you can say that construction - based @ @"
+[28:24] me045 | Mmm .
+"[28:24] fe004 | Like ,"
+[28:25] fe004 | NLP cognitive neural .
+"[28:30] fe004 | So i so this paper wouldn't particularly deal with that side although it could reference the NTL - ish sort of , like , um , approach . Yeah ."
+[28:34] mn015 | Mm - hmm .
+[28:36] mn015 | Yeah .
+[28:39] fe004 | The fact that the methods here are all compatible with
+"[28:41] fe004 | or designed to be compatible with whatever , neurological neuro"
+[28:43] mn015 | Mm - hmm .
+[28:45] fe004 | neuro - biol su stuff .
+[28:54] fe004 | It 'd just be small . Like introducing the formalism might be not
+[28:58] fe004 | really
+"[28:59] fe004 | possible in detail , but you can use an example of it ."
+"[29:01] me045 | Well , l looking at yeah , looking at that paper that that you had , I mean you know , like , you didn't really"
+"[29:08] me045 | explain in detail what was going on in the XML cases or whatever you just sorta said well , you know , here 's the general idea , some stuff gets put in there ."
+"[29:15] me045 | You know , hopefully you can you can say something like constituents tells you what the construction is made out of , you know , without going into this intense detail ."
+"[29:20] fe004 | Yeah , yeah ."
+[29:22] fe004 | So it be like using the formalism rather than
+[29:24] me045 | Yeah .
+"[29:25] fe004 | you know , introducing it per se . So ."
+"[29:26] me045 | Give them the one paragraph whirlwind tour of w w what this is for , and Yeah ."
+[29:28] fe004 | Yeah .
+[29:30] mn015 | Mm - hmm .
+[29:31] fe004 | And people will sort of figure out
+[29:33] fe004 | or ask about the bits that are
+[29:35] mn015 | Yeah .
+"[29:36] mn015 | So this will be sort of documenting what we think , and documenting what we have in terms of the Bayes - net"
+[29:37] fe004 | implicit .
+[29:42] fe004 | Mm - hmm .
+[29:43] mn015 | stuff .
+"[29:44] mn015 | And since there 's never a bad idea to document things , no ?"
+[29:47] fe004 | That 's th that 's definitely a good idea .
+"[29:55] mn015 | We we should sketch out the details maybe tomorrow afternoon - ish , if everyone is around ."
+[30:00] mn015 | I don't know . You probably
+[30:01] me045 | I think so .
+[30:03] mn015 | wouldn't be part of it . Maybe you want ?
+[30:05] mn015 | Think about it .
+"[30:07] mn015 | Um ,"
+"[30:16] mn015 | And um ,"
+"[30:19] mn015 | the uh ,"
+"[30:22] mn015 | other thing ,"
+"[30:24] mn015 | Have we made any progress on what we decided , uh , last week ?"
+[30:31] fe004 | No .
+[30:33] fe004 | Sorry .
+"[30:34] mn015 | We decided t that we 're gonna take a "" where is something "" question , and pretend we have parsed it , and see what we could possibly hope to observe on the discourse side ."
+"[30:41] me003 | Remember I came in and I started asking you about how we were sor going to sort out the uh , decision nodes ?"
+[30:48] fe004 | Yes !
+"[30:56] fe004 | Um ,"
+[30:57] fe004 | a few more bits .
+"[31:02] me003 | You know , it was whether it was whether we would have a Bayes - net on the output and on the input , or whether the construction was gonna be in the Bayes - net ,"
+"[31:11] fe004 | Oh , yeah . OK ."
+[31:13] fe004 | OK .
+[31:17] me003 | Well that was related to what we were talking about .
+[31:21] mn015 | Should I introduce it as SUDO - square ?
+[31:26] mn015 | We have to put this in the paper .
+[31:28] mn015 | If we write it .
+[31:30] mn015 | This is this is my only constraint . The th So .
+[31:34] mn015 | The SUDO - square
+"[31:39] mn015 | is ,"
+"[31:42] mn015 | "" User "" ,"
+"[31:44] mn015 | "" Discourse "" , right ? "" Ontology "" ."
+"[31:46] fe004 | Oh my god , that 's amazing !"
+[31:48] mn015 | Mmm .
+[31:50] mn015 | Yeah . Whatever .
+[31:51] fe004 | No way .
+[32:01] fe004 | Someone 's gonna start making Phil Collins jokes .
+[32:03] mn015 | Yeah .
+[32:04] mn015 | Hmm ?
+[32:08] fe004 | You guys are too young .
+"[32:08] me045 | You know like "" Sussudio "" , that horrible , horrible song that should never have been created ."
+"[32:09] fe004 | Yeah , come on ."
+"[32:10] me003 | Oh , oh , oh , oh ."
+"[32:11] fe004 | I know , that was horrible ."
+[32:12] me003 | I 've blocked every aspect of Phil Collins out of my mind .
+[32:13] fn050 | What ?
+"[32:19] mn015 | Oh Well , also he 's talking about suicide , and that 's that 's not a notion I wanna have evoked ."
+"[32:24] fe004 | No , he 's not ."
+[32:26] mn015 | He is .
+[32:26] fe004 | Really ?
+"[32:28] fe004 | Oops . I didn't really listen to it , I was too young . Anyway ."
+[32:29] me045 | Hmm .
+[32:36] me045 | Was wollte der Kuenstler uns damit sagen ?
+"[32:36] mn015 | So ,"
+[32:40] fe004 | Stop excluding me .
+"[32:41] mn015 | OK , so we have tons of little things here , and we 've"
+"[32:49] me003 | Wait , what are the dots ? I don't remember what the dots were ."
+[32:54] mn015 | OK .
+"[32:56] mn015 | You know , these are our , whatever , belief - net decision nodes , and they all contribute to these"
+"[33:01] me003 | Oh , oh ."
+[33:03] mn015 | things down here .
+"[33:03] fe004 | Wait , wait , what 's the middle thing ?"
+[33:05] mn015 | That 's EDU . e e Our e e e
+"[33:12] mn015 | Well , in the moment it 's a Bayes - net ."
+[33:14] mn015 | And it has sort of fifty not - yet - specified interfaces .
+[33:19] mn015 | OK . Eh I have taken care that we actually can build little
+"[33:25] mn015 | interfaces ,"
+"[33:27] mn015 | to other modules that will tell us whether the user likes these things and , n the or these things , and he whether"
+[33:34] fe004 | OK .
+"[33:35] mn015 | he 's in a wheelchair or not ,"
+[33:36] fe004 | Is that supposed to be the international sign for interface ?
+"[33:38] mn015 | I think so , yeah ."
+[33:39] fe004 | Mmm .
+[33:40] fe004 | OK .
+[33:40] me003 | I 'd I 'd never seen it before either .
+[33:41] fe004 | OK . Just t Cool .
+[33:42] mn015 | Mmm . So .
+"[33:43] me045 | Cuz things fit onto that , see ?"
+[33:48] fe004 | Cool .
+"[33:51] mn015 | No , this is a RME core by agent"
+"[33:55] mn015 | design , I don't know ."
+[33:56] mn015 | There 's maybe a different
+"[33:57] me045 | So wait , what a what are these letters again , Situr - Situation , User , Discourse and"
+"[34:00] mn015 | Situation , user , d ontology ."
+[34:02] fe004 | User ?
+[34:03] me045 | Ontology .
+[34:03] fe004 | What about the utterance ?
+[34:05] mn015 | That 's here .
+[34:06] fn050 | Discourse .
+"[34:07] fe004 | Oh , discourse ."
+[34:07] mn015 | Yeah .
+"[34:08] me045 | Discourse is all things linguistic , yeah ."
+"[34:08] fe004 | So that 's not like context , OK ."
+[34:13] mn015 | the current utterance plus all the previous utterances .
+"[34:14] fe004 | Interesting , uh - huh ."
+[34:18] fe004 | User .
+"[34:18] mn015 | And for example w i s I Irena Gurevich is going to be here eh , end of July . She 's a new linguist working for EML ."
+[34:20] fe004 | User .
+[34:27] mn015 | And what she would like to do for example is great for us . She would like to
+"[34:32] mn015 | take the ent ontolog So ,"
+[34:36] fe004 | Grateful for us ?
+[34:37] fe004 | Did you just say grateful for us ?
+"[34:41] mn015 | Think of back at the EVA vector ,"
+"[34:43] mn015 | and Johno coming up with the idea that if the person discussed the discussed the admission fee , in eh previously , that might be a good indication that ,"
+[34:49] fe004 | Mm - hmm .
+"[34:53] mn015 | "" how do I get to the castle ? "" , actually he wants to enter ."
+"[34:56] mn015 | Or , you know , "" how do I get to X ? """
+"[34:59] mn015 | discussing the admission fee in the previous utterance , is a good indication ."
+[34:59] me045 | Mm - hmm .
+[35:02] fe004 | @ @
+[35:03] mn015 | So
+"[35:04] mn015 | we don't want a hard code ,"
+"[35:06] mn015 | a set of lexemes , or things , that person 's"
+"[35:10] mn015 | you know , sort of filter , or uh search the discourse history ."
+[35:14] fe004 | Mm - hmm .
+[35:15] mn015 | So what would be kind of cool is
+"[35:17] mn015 | that if we encounter concepts that are castle , tower , bank , hotel ,"
+"[35:21] mn015 | we run it through the ontology , and the ontology tells us it has"
+"[35:26] mn015 | um , admission , opening times , it has admission fees , it has this , it has that ,"
+"[35:31] mn015 | and then we we we make a thesaurus lexicon , look up , and then search dynamically through the uh , discourse history"
+[35:40] mn015 | for occurrences of these things in a given
+[35:44] mn015 | window
+[35:45] mn015 | of utterances .
+[35:46] fe004 | Mm - hmm .
+"[35:47] mn015 | And that might , you know , give us additional input to belief A versus B ."
+[35:52] mn015 | Or
+[35:53] mn015 | E versus A .
+"[36:00] fe004 | sorry , a few specific cues to some intention ."
+"[36:02] me003 | You can dynamically look up keys , yeah ."
+[36:04] mn015 | Yeah .
+"[36:04] me045 | Uh , so , wait so um , since this since this sort of technical stuff is going over my head , the the point is that you uh that"
+[36:04] fe004 | OK .
+"[36:06] me003 | And then grep , basically ."
+"[36:14] me045 | when someone 's talking about a castle , you know that it 's the sort of thing that people are likely to wanna go into ? Or , is it the fact that"
+"[36:21] me045 | if there 's an admission fee , then one of the things we know about admission fees is that you pay them in order to go in ? And then the idea of entering is active in the discourse or something ? And then"
+[36:31] mn015 | Well
+[36:31] me045 | blah - blah - blah ? I mean .
+"[36:32] mn015 | the the idea is even more general . The idea is to say ,"
+[36:36] mn015 | we encounter a certain entity in a in a in a utterance .
+[36:40] mn015 | So le let 's look up everything we the ontology gives us
+"[36:44] mn015 | about that entity , what"
+"[36:45] mn015 | stuff it does , what roles it has , what"
+"[36:49] mn015 | parts , whatever it has ."
+"[36:53] mn015 | And , then we look"
+"[36:56] mn015 | in the discourse , whether any of that , or any"
+[37:00] mn015 | surface structure corresponding to these
+"[37:03] me045 | Oh , OK ."
+"[37:03] mn015 | roles , functions aaa has ever occurred ."
+"[37:06] mn015 | And then , the discourse history can t tell us , "" yeah "" , or "" no "" ."
+[37:10] me045 | OK .
+[37:10] mn015 | And then it 's up for us
+[37:12] mn015 | to decide what to do with it .
+[37:14] me045 | OK .
+[37:14] mn015 | t
+[37:14] mn015 | So i
+"[37:15] me045 | No , go ahead ."
+"[37:16] mn015 | So , we may think that if you say"
+"[37:24] mn015 | um , whether or not he has talked about tickets before ,"
+[37:27] me045 | Mm - hmm .
+[37:28] mn015 | then we he 's probably wanna go there to
+[37:30] mn015 | see something .
+[37:31] me045 | OK .
+"[37:32] mn015 | Or "" where is the opera in Par - Paris ? , yeah ? Lots of people go to the opera to take pictures of it and to look at it , and lots of people go to attend a performance ."
+[37:36] me045 | Mm - hmm . OK .
+[37:40] me045 | Mm - hmm .
+"[37:41] mn015 | And , the discourse can maybe tell us w what 's more likely"
+[37:45] mn015 | if we know what to look for in previous statements .
+"[37:49] mn015 | And so we can hard code "" for opera , look for tickets , look for this , look for that ,"
+[37:51] me045 | OK .
+[37:52] me045 | OK .
+"[37:56] mn015 | but the smarter way is to go via the ontology and dynamically , then look up"
+[38:00] mn015 | u
+[38:00] mn015 | stuff .
+"[38:00] me045 | OK . But you 're still doing look up so that when the person So the point is that when the person says ,"
+"[38:05] me045 | "" where is it ? """
+"[38:06] me045 | then you sort of say , let 's go back and look at"
+"[38:10] me045 | other things and then decide , rather than the other possibility which is that all through discourse as they talk about different things You know like w"
+"[38:19] me045 | prior to the "" where is it "" question they say , you know , "" how much does it cost to get in , you know , to to see a movie around here "" , um ,"
+[38:34] mn015 | Yeah .
+"[38:34] me045 | You know . That becomes part of like , their sort of current ongoing"
+[38:37] mn015 | Mm - hmm .
+"[38:38] me045 | active conceptual structure . And then , um ,"
+[38:54] mn015 | Mm - hmm .
+[38:55] mn015 | Yeah .
+"[38:58] mn015 | Yeah , e ultimately that 's also what we wanna get at . I think that 's that 's the correct way . So , of course we have to keep"
+"[39:05] mn015 | memory of what was the last intention , and how does it fit to this , and what does it tell us , in terms of of the the what we 're examining ."
+[39:07] me045 | Mm - hmm .
+"[39:10] me045 | Mmm , yeah ."
+"[39:13] mn015 | And furthermore ,"
+"[39:15] mn015 | I mean we can idealize that , you know , people don't change topics ,"
+[39:19] me045 | Mm - hmm .
+"[39:20] mn015 | but they do . But ,"
+[39:20] me045 | Right .
+"[39:21] mn015 | even th for that , there is a student of ours who 's doing a dialogue act"
+"[39:25] mn015 | um , recognition"
+[39:27] me045 | Mm - hmm .
+[39:27] mn015 | module .
+"[39:28] mn015 | So ,"
+[39:35] me045 | Mmm .
+[39:36] me045 | And much harder to r program .
+[39:38] mn015 | Hmm ?
+[39:38] me045 | And much harder to p to program .
+[39:40] mn015 | Yeah . How how do these pieces fit together ? Uh - huh .
+"[39:43] mn015 | And um . But , OK , nevertheless . So these are issues but we what we actually decided last week , is to ,"
+"[39:53] mn015 | is to um ,"
+[39:55] mn015 | pretend we have
+"[39:57] mn015 | observed and parsed an utterance such as "" where is the Powder - Tower "" ,"
+"[40:02] mn015 | or "" where is the zoo "" ,"
+[40:03] mn015 | and specify
+"[40:05] mn015 | um , what what we think the the output"
+"[40:09] mn015 | uh , observe , out i input nodes for our Bayes - nets for the sub sub - D , for the discourse bit , should be ."
+[40:23] mn015 | come up with the ontology side
+"[40:26] mn015 | uh , bits and pieces , so that we can say , OK we we always just look at this utterance ."
+"[40:31] mn015 | That 's the only utterance we can do ,"
+"[40:34] mn015 | it 's hard coded , like Srini , sort of hand parsed ,"
+"[40:37] mn015 | hand crafted ,"
+"[40:39] mn015 | but this is what we hope to be able to observe in general from utterances , and from ontologies ,"
+[40:45] mn015 | and then we can sort of
+"[40:46] mn015 | fiddle with these things to see what it actually produces , in terms of output ."
+[41:02] mn015 | So
+"[41:03] mn015 | we need to find out what the "" where is X "" construction will give us in terms of semantics and"
+[41:12] mn015 | type things .
+"[41:12] fe004 | Just OK . Just "" where is X "" ?"
+[41:15] mn015 | Mm - hmm .
+[41:16] fe004 | Or any variants of that .
+[41:17] mn015 | Yeah .
+"[41:19] mn015 | Um , look at it this way , i"
+[41:23] mn015 | Yeah .
+"[41:28] mn015 | the prototypical "" where is X "" , where"
+"[41:32] mn015 | you know , we don't really know , does he wanna go there , or just wanna know where it is ."
+"[41:37] mn015 | So the difference of "" where is the railway station "" , versus where where "" where is Greenland "" . Nuh ?"
+[41:42] me045 | Mm - hmm .
+"[41:44] me003 | Uh s I was just dancing , sorry ."
+[41:48] mn015 | We 're not videotaping any of this . So .
+"[42:03] me045 | I mean we 're talking about sort of anything that has the semantics of request for location , right ? actually ?"
+"[42:09] me045 | Or ,"
+"[42:18] me045 | I mean , anyway , the node in the uh the ultimate , uh , in in the Bayes - net thing when you 're done , the the node that we 're talking about um , is"
+[42:28] me045 | one that says
+"[42:30] me045 | "" request for location , true "" , or something like that , right ? Um , and and exactly how that gets activated , you know , like whether we want"
+[42:39] me045 | the sentence
+"[42:40] me045 | "" how do I get there ? """
+"[42:42] me045 | to activate that node or not , you know , that 's that 's sort of the issue that sort of the linguistic - y side has to deal with , right ?"
+[42:55] mn015 | Well actually more m more the other way around . We wanted
+"[42:59] mn015 | something that represents uncertainty uh we in terms of going there or just wanting to know where it is , for example . Some generic information ."
+[43:08] me045 | OK .
+[43:09] mn015 | And so
+"[43:11] mn015 | this is prototypically @ @ found in the "" where is something "" question , surface structure ,"
+[43:15] me045 | OK .
+[43:16] me003 | We -
+"[43:17] mn015 | which can be p you know ,"
+[43:20] mn015 | should be maps to
+[43:22] mn015 | something that activates both . I mean
+"[43:27] me045 | Alright , OK ."
+"[43:30] me003 | I don't see unde how we would be able to distinguish between the two intentions just from the g utterance , though ."
+"[43:34] me003 | I mean , uh bef or , before we don't before we cranked it through the Bayes - net . I mean ."
+"[43:38] mn015 | Yeah , we we wouldn't ."
+[43:39] mn015 | That 's exactly what we want .
+[43:41] mn015 | No . We wouldn't .
+"[43:42] me003 | OK , but then so basically it 's just a for every construction we have a node in the net , right ? And we turn on"
+[43:48] mn015 | Yeah .
+[43:48] me003 | that node .
+"[44:04] mn015 | Yeah , it should be So we have"
+"[44:07] mn015 | um ,"
+"[44:15] mn015 | And what we actually get if we just look at the discourse ,"
+"[44:18] mn015 | "" where is X "" should activate"
+[44:23] me045 | Mmm .
+"[44:23] mn015 | Hmm . Should be both ,"
+"[44:24] mn015 | whereas maybe "" where is X located "" ,"
+"[44:28] mn015 | we find from the data , is always just asked when the person wants to know where it is ,"
+"[44:33] mn015 | and "" how do I get to "" is always asked when the person"
+[44:36] mn015 | just wants to know how to get there .
+[44:39] mn015 | Right ?
+[44:40] mn015 | So
+[44:41] mn015 | we want to sort of
+[44:43] mn015 | come up with
+[44:44] mn015 | what gets
+"[44:47] mn015 | uh , input , and how inter in case of a "" where is "" question ."
+[44:57] mn015 | So what what would the outcome of of your parser look like ?
+"[45:02] mn015 | And , what other discourse information from the discourse history could we hope to get ,"
+[45:07] mn015 | squeeze out of that utterance ?
+[45:10] mn015 | So define the the input into the Bayes - net
+"[45:15] mn015 | based on what the utterance , "" where is X "" , gives us ."
+[45:20] mn015 | So definitely
+[45:21] mn015 | have an Entity node here
+[45:22] fe004 | s
+"[45:26] mn015 | which is activated via the ontology , so"
+[45:38] fe004 | That it has a location or something like that ? or th the ontology will tell us where actually it is located ?
+[45:42] mn015 | No .
+[45:43] fe004 | OK .
+"[45:43] mn015 | Not at all . Where it is located , we have , a user proximity node here somewhere ,"
+[45:47] fe004 | OK .
+[45:48] fe004 | OK .
+[45:49] mn015 | e which tells us how far the user how far away the user is in respect to that uh entity .
+[45:54] fe004 | OK .
+"[45:55] fe004 | So you 're talking about , for instance , the construction obviously involves this entity or refers refers to this entity ,"
+[45:59] mn015 | Mm - hmm .
+[46:01] fe004 | and
+[46:06] fe004 | thing that can be located .
+[46:08] fe004 | Right ? Ontology says this thing has a location slot .
+[46:13] fe004 | that is the content of the question that 's being queried by
+"[46:16] fe004 | one interpretation of "" where is X "" ."
+"[46:19] fe004 | And another one is , um ,"
+[46:25] mn015 | Mm - hmm .
+[46:25] fe004 | that location . So .
+"[46:29] fe004 | Is the question , for this particular construction how we specify that that 's the information it provides ?"
+[46:37] fe004 | or asked for ?
+[46:38] fe004 | b
+"[46:38] fe004 | Both sides , right ?"
+"[46:39] mn015 | Yeah , you don't need to"
+[46:41] mn015 | even do that . It 's just sort of what
+[46:44] mn015 | what would be
+[46:46] mn015 | observed
+[46:48] mn015 | in uh in that case .
+[46:54] mn015 | Mm - hmm .
+[46:56] fe004 | So these little circles you have by the D ?
+[46:58] fe004 | Is that ?
+[46:59] mn015 | That 's exactly what we 're looking for .
+[46:59] fe004 | OK .
+[47:00] fe004 | OK .
+"[47:01] me003 | I d I just I don't like having characterizing the constructions with location and path ,"
+[47:09] me003 | It seems like in the general case you wouldn't know
+[47:12] mn015 | You wouldn't .
+[47:17] me003 | I mean it just seems like @ @ has to have uh a node for the construction
+[47:21] me003 | and then let the chips fall where they may .
+[47:24] me003 | Versus
+"[47:26] me003 | uh ,"
+"[47:28] me003 | saying , this construction either can mean location or path ."
+"[47:32] me003 | And , in this cas and since since it can mean either of those things , it would light both of those up ."
+[47:38] mn015 | It 's the same .
+[47:43] me003 | Thoughts ?
+[47:44] me003 | Questions ?
+[47:46] mn015 | It will be the same . So I think
+"[47:47] mn015 | r in here we have "" I 'll go there "" , right ?"
+[47:48] me003 | Answers ?
+[47:50] mn015 | And we have our Info - on .
+"[47:53] mn015 | So in my c my case , this would"
+"[47:55] mn015 | sort of make this happy , and this would make the Go - there happy ."
+"[47:59] mn015 | What you 're saying is we have a Where - X question , Where - X node ,"
+[48:04] mn015 | that makes both happy .
+"[48:06] mn015 | Right ? That 's what you 're proposing , which is , in my mind just as fine ."
+"[48:10] mn015 | So w if we have a construction node , "" where is X "" ,"
+[48:15] mn015 | it 's gonna
+[48:16] mn015 | both
+[48:17] mn015 | get the
+"[48:19] mn015 | po posterior probability that it 's Info - on up ,"
+"[48:20] me003 | Mmm , yeah ."
+"[48:23] mn015 | Info - on is True - up , and that Go - there is True - up , as well ."
+"[48:27] mn015 | Which would be exactly analogous to what I 'm proposing is ,"
+[48:32] mn015 | uh
+"[48:33] mn015 | makes something here true , and this makes something also something here true , and this makes this True - up , and this makes this True - up as well ."
+"[48:47] mn015 | Yeah , because we get we get tons of constructions I think . Because ,"
+"[48:47] fe004 | Is - uh ,"
+[48:49] me045 | Yeah .
+"[48:53] me003 | Yeah , sure ."
+[48:53] fe004 | Yeah .
+[48:54] fe004 | So un
+[48:54] me003 | I change I changed my mind actually .
+[48:56] me045 | OK .
+"[48:56] fe004 | So I agree with that . I have a different kinda question ,"
+"[48:59] fe004 | might be related ,"
+"[49:00] fe004 | which is , OK so implicitly everything in EDU , we 're always inferring the speaker"
+"[49:05] fe004 | intent , right ?"
+"[49:06] fe004 | Like , what they want"
+"[49:11] fe004 | It 's always information that they want probably , of some kind ."
+"[49:16] mn015 | The system doesn't massage you , no . No ."
+"[49:20] fe004 | OK . So , um ,"
+[49:24] fe004 | let 's see . So I don't know if the I mean i if th
+"[49:26] fe004 | just there 's more s here that 's not shown that you it 's already like part of the system whatever ,"
+"[49:31] fe004 | but , "" where is X "" ,"
+"[49:33] fe004 | like , the fact that it is , you know , a speech - act , whatever ,"
+"[49:36] fe004 | it is a question . It 's a question that ,"
+"[49:38] fe004 | um , queries on some particular thing X , and X is that location ."
+"[49:41] fe004 | There 's , like , a lot of structure in representing that ."
+[49:43] mn015 | Yep . Yeah .
+"[49:44] fe004 | So that seems different from just having the node "" location - X "" and that goes into EDU , right ?"
+[49:47] mn015 | Yeah .
+"[49:50] mn015 | So , w"
+[49:50] fe004 | So tha is that what you 're t
+[49:51] mn015 | Exactly . We have su we have specified two .
+[49:51] fe004 | talking about ? wh what kinds of structure we want .
+"[49:53] mn015 | OK , the next one would be here , just for mood ."
+[49:55] me045 | Mm - hmm .
+[49:56] fe004 | Mm - hmm .
+[49:57] mn015 | The next one would be what we can squeeze out of the uh
+[50:06] fe004 | Mmm .
+"[50:12] mn015 | and g a and t make conclusions about the user 's intelligence . I don't know , yeah ."
+"[50:16] fe004 | um , so in some ways in the other sort of parallel set of mo more linguistic meetings we 've been talking about possible semantics of some construction ."
+[50:24] me045 | Mm - hmm .
+[50:24] fe004 | Right ? Where it was
+"[50:26] fe004 | the simulation that 's ,"
+"[50:28] fe004 | according to it you know , that that corresponds to it , and as well the as discourse ,"
+[50:31] mn015 | Mm - hmm .
+"[50:31] fe004 | whatever , conte infor in discourse information , such as the mood , and , you know , other stuff . So ,"
+"[50:37] fe004 | are we looking for a sort of abbreviation of that , that 's tailored to this problem ?"
+"[50:42] fe004 | Cuz that that has , you know , basically , you know ,"
+"[50:45] fe004 | s it 's in progress still it 's in development still , but it definitely has various feature slots , attributes ,"
+[50:49] mn015 | Mm - hmm .
+[50:50] mn015 | Yeah .
+"[50:51] mn015 | U that 's exactly r um , why I 'm proposing It 's too early to have to think of them of all of these"
+[50:57] fe004 | Uh - huh .
+"[50:58] mn015 | discourse things that one could possibly observe ,"
+[51:00] fe004 | Mm - hmm .
+[51:01] mn015 | so let 's just assume
+"[51:04] mn015 | human beings are not allowed to ask anything but "" where is X "" ."
+[51:07] fe004 | OK .
+[51:08] mn015 | This is the only utterance in the world . What could we observe from that ?
+"[51:10] fe004 | OK . That exactly "" where is X "" , not"
+[51:11] mn015 | In ter
+"[51:13] fe004 | the the choices of "" where is X "" or "" how do I get to X "" . Just "" where is X "" . OK ."
+[51:16] me045 | Yeah .
+"[51:16] mn015 | Just just "" where is X "" ."
+"[51:20] mn015 | do it in such a way that we know that people can also say , "" is the town hall in front of the bank "" ,"
+"[51:34] fe004 | Wait , so do , or do not take other kinds of"
+[51:37] fe004 | constructions into account ?
+"[51:38] mn015 | Well , if you if you can , oh definitely do ,"
+[51:40] fe004 | OK . Where possible . OK .
+[51:41] mn015 | where possible . Right ?
+"[51:43] mn015 | If i if if it 's not at all triggered by our thing , then it 's irrelevant , and it doesn't hurt to leave it out for the moment ."
+[51:46] fe004 | Mm - hmm .
+[51:54] fe004 | OK .
+"[51:57] fe004 | Um , it seems like for instance , "" where is X "" ,"
+[52:00] fe004 | the fact that it might mean
+"[52:02] fe004 | um ,"
+"[52:03] fe004 | "" tell me how to get to X "" ,"
+[52:06] fe004 | Do y
+"[52:09] fe004 | Those are the two interpretations , right ? the the ones that are location or path ."
+"[52:12] fe004 | So , you could say that the s construction is a question asking about this location ,"
+"[52:17] fe004 | and then you can additionally infer , if they 're asking about the location , it 's because they wanna go to that place ,"
+[52:21] mn015 | Mm - hmm .
+"[52:21] fe004 | in which case , the you 're jumping a step step and saying , "" oh , I know where it is but I also know how to get they wanna seem they seem to wanna get there so I 'm gonna tell them "" . So there 's like structure"
+[52:21] me045 | Yeah .
+"[52:31] me045 | Right , th this it 's not it 's not that this is sort of like semantically ambiguous between these two . It 's really about this but why would you care about this ? Well ,"
+[52:32] mn015 | Mm - hmm .
+"[52:39] me045 | it 's because you also want to know this , or something like that right ?"
+[52:41] mn015 | Mm - hmm .
+[52:47] me045 | Yeah .
+[52:47] mn015 | Mm - hmm .
+[52:49] mn015 | Yep .
+"[52:53] mn015 | Think Uh , well this is just a mental exercise . If you think about ,"
+[52:56] fe004 | Yeah .
+[52:59] me045 | Mm - hmm .
+"[53:01] mn015 | do you feel confident about saying this is part of the language already to to detect those plans , and why would anyone care about location , if not , you know"
+[53:11] me045 | Mmm .
+[53:11] mn015 | and so forth .
+"[53:12] mn015 | Or do you actually ,"
+"[53:13] mn015 | I mean this is perfectly legitimate , and I I would not have any problems with erasing this and say ,"
+"[53:18] mn015 | that 's all we can activate , based on the utterance out of context ."
+[53:20] fe004 | Mm - hmm .
+[53:23] fe004 | Oh .
+[53:23] mn015 | What ?
+[53:23] me045 | Right .
+"[53:24] fe004 | Right , like ,"
+"[53:24] mn015 | And then the the the miracle that we get out the intention , Go - there ,"
+"[53:25] fe004 | with context and enough user information , yeah ."
+[53:28] me045 | Yeah .
+"[53:29] mn015 | happens , based on what we know about that entity , about the user , about his various beliefs , goals , desires , blah - blah - blah ."
+[53:36] mn015 | Absolutely fine .
+"[53:37] mn015 | But this is the sort of thing , I I propose that we think about ,"
+[53:38] fe004 | OK .
+"[53:41] mn015 | so that we actually end up with um ,"
+"[53:45] mn015 | um ,"
+[53:46] mn015 | nodes for the discourse and ontology
+"[53:49] mn015 | so that we can put them into our Bayes - net ,"
+"[53:52] mn015 | never change them ,"
+"[53:53] mn015 | so we all there is is "" where is X "" ,"
+[54:12] fe004 | OK .
+[54:13] me045 | Here 's hoping .
+[54:14] mn015 | Hmm ?
+[54:14] me045 | Here 's hoping . Right ? Now cross your fingers .
+[54:21] me045 | Yeah . Yeah .
+"[54:22] mn015 | would like to look at uh ,"
+[54:25] mn015 | what this ad - hoc process of designing a belief - net would actually produce .
+[54:30] fe004 | Mmm .
+[54:32] mn015 | If if we ask it where is something .
+"[54:36] mn015 | And , maybe it also h"
+"[54:39] mn015 | enables you to think about certain things more specifically ,"
+"[54:43] mn015 | um , come up"
+"[54:45] mn015 | with interesting questions , to which you can find interesting answers ."
+"[54:49] mn015 | And , additionally it might"
+[54:51] mn015 | fit in really nicely with the paper .
+[54:53] me045 | Um - hmm .
+"[54:54] mn015 | Because if if if we want an example for the paper ,"
+[54:57] mn015 | I suggest there it is .
+[54:59] me045 | Yeah .
+"[55:06] mn015 | So th this might be a nice opening paragraph for the paper as saying ,"
+"[55:10] mn015 | "" you know people look at kinds of at ambiguities "" , and"
+"[55:14] mn015 | um ,"
+"[55:15] mn015 | in the literature there 's "" bank """
+[55:18] mn015 | and
+[55:18] me045 | Mm - hmm .
+[55:19] mn015 | whatever kinds of garden path phenomenon .
+"[55:22] mn015 | And we can say , well , that 's all nonsense ."
+"[55:26] mn015 | A , uh these things are never really ambiguous in discourse ,"
+"[55:31] mn015 | B , don't ever occur really in discourse , but"
+"[55:35] mn015 | normal statements that seem completely unambiguous , such as "" where is the blah - blah "" ,"
+[55:40] me045 | Mm - hmm .
+"[55:41] mn015 | actually are terribly complex , and completely ambiguous ."
+[55:44] me045 | Mm - hmm .
+"[55:45] mn015 | And so , what every everybody else has been doing so far in in in you know , has been completely nonsensical , and can all go into the wastepaper bin ,"
+[56:04] mn015 | Yeah .
+[56:04] me045 | That 's good .
+"[56:09] mn015 | OK , I 'm eja exaggerating , but that might be , you know ,"
+"[56:13] mn015 | saying "" hey "" , you know ,"
+[56:16] mn015 | some stuff is is actually
+"[56:20] mn015 | complex , if you look at it in in in the vacuum"
+[56:23] me045 | Mm - hmm .
+"[56:24] mn015 | and and ceases to be complex in reality . And some stuff that 's as that 's absolutely straightforward in the vacuum ,"
+[56:32] mn015 | is actually terribly complex in reality .
+"[56:36] mn015 | Would be nice sort of , uh , also , nice , um"
+"[56:39] mn015 | bottom - up linguistics , um ,"
+[56:44] mn015 | type message .
+[56:45] me045 | Mm - hmm .
+[56:46] me045 | True .
+[56:50] mn015 | Versus the old top - down school .
+[56:56] mn015 | I 'm running out of time . OK .
+[57:02] mn015 | At four ten .
+"[57:03] mn015 | OK , this is the other bit of news ."
+"[57:05] mn015 | The subjects today know Fey , so she can't be here , and do the wizarding ."
+[57:09] me045 | Huh .
+[57:10] mn015 | So I 'm gonna do the wizarding and Thilo 's gonna do the instructing . Also we 're getting a a person who just got fired
+[57:13] me003 | Mmm .
+"[57:17] mn015 | uh , from her job ."
+[57:18] mn015 | Uh a person from Oakland who is interested in maybe continuing the wizard bit once Fey leaves in August .
+"[57:32] mn015 | And um , she 's gonna look at it"
+[57:35] mn015 | today .
+"[57:36] mn015 | Which is good news in the sense that if we want to continue ,"
+[57:40] mn015 | after the thir
+"[57:41] mn015 | thir after July , we can . We could ."
+[57:48] mn015 | and that 's also
+"[57:49] mn015 | maybe interesting for Keith and whoever ,"
+[57:52] mn015 | if you wanna get some more stuff into the data collection .
+"[57:55] mn015 | Remember this , we can completely change the set - up any time we want ."
+[57:55] me045 | Mm - hmm .
+"[57:59] mn015 | Look at the results we 've gotten so far for the first ,"
+"[58:03] mn015 | whatever , fifty some"
+[58:04] mn015 | subjects ?
+"[58:05] fe004 | Fifty ? You 've had fifty so far , or ?"
+"[58:06] mn015 | No , we 're approaching twenty now . But , until Fey is"
+[58:08] fe004 | OK .
+[58:09] fe004 | Yeah .
+[58:12] mn015 | some of the higher numbers .
+[58:14] fe004 | Hmm .
+"[58:14] mn015 | And um ,"
+[58:16] mn015 | so that 's cool .
+[58:18] mn015 | Can
+[58:19] mn015 | a
+[58:20] mn015 | do more funky stuff .
+[58:20] me045 | Sure .
+"[58:22] me045 | Yeah , I 'll have to look more into that data . Is that around ? Like , cuz that 's pretty much getting posted or something right away when you get it ? Or ? I guess it has to be transcribed , huh ?"
+[58:28] mn015 | Um .
+"[58:31] mn015 | We have uh , eh found someone here who 's hand st hand transcribing the first twelve ."
+[58:37] me045 | OK .
+[58:39] me045 | Uh - huh .
+[58:39] mn015 | just so we can build a a language model for the recognizer .
+[58:43] me045 | OK .
+"[58:43] mn015 | But , um So those should be available soon ."
+[58:46] me045 | OK .
+[58:47] mn015 | The first twelve . And
+[58:48] mn015 | I can ch ch st e
+"[58:49] me045 | I mean you know that I that I looked at the first the first one and got enough data to keep me going for , you know , probably most of July . So ."
+"[58:58] me045 | Yeah , a probably not the right way to do it actually ."
+[59:00] mn015 | a y y y You can listen to all of them from your Solaris box .
+[59:04] me045 | OK .
+[59:05] mn015 | If you want .
+[59:06] me045 | Right .
+[59:07] mn015 | It 's always fun .

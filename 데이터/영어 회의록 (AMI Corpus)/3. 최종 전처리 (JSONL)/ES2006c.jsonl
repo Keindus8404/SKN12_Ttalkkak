@@ -1,0 +1,383 @@
+﻿{"timestamp": "00:02", "speaker": "Speaker_C", "text": "Excellent . So um I sent you the agenda , it was on the in the project documents . I don't know if you got a chance to just have a look at it . Anyway , it's the meeting's gonna follow more or less the same structure as last time , so we'll go round each of you in turn and you can give your presentations on what you've been up to . Um and at the end of that we need to discuss what you've come up with , so that we can make a decision on the key remote control concepts , so that's we need to know about the components' properties , materials , the user interface and any trends that the Marketing Expert has been watching ."}
+{"timestamp": "00:51", "speaker": "Speaker_C", "text": "Okay . Um , do you wanna start again ? Let me we've got forty minutes ."}
+{"timestamp": "00:55", "speaker": "Speaker_A", "text": "Right s so I haven't made a PowerPoint presentation , yeah , I I thought I'll use the whiteboard instead . Um mm , okay , so basically I'll start off by uh I thought I'll use the whiteboard because we have so many different options and what we can do is that we can start um uh rubbing off the options that we do not require and putting in the options that uh are m or highlighting or underlining them or something like that ."}
+{"timestamp": "01:03", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "01:26", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "01:33", "speaker": "Speaker_A", "text": "Okay , so uh I'll start again with a brief introduction to connect that anyway brief introduction to the insides of a remote control and uh then we can probably uh discuss the various components . Yeah ."}
+{"timestamp": "01:37", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "01:59", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "02:15", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "02:24", "speaker": "Speaker_A", "text": "Okay , so if you flip the circuit board , this is what it looks like . So you see for example a particular button attaches to a particular place on the P_C_B_ and uh on pressing this button I a circuit completes , the information goes to the chip , which is somewhere here and the chip that tra then translates the code into an infra infrared radiation , which goes goes out through there . So uh the important point that I read over the website was uh that the configurations of these printed circuit circuit boards uh are quite cheap to make , you can ge get them printed as you want to , so w we can have a configuration um irrespective of the cost , the way we want to have . Right ? So that's the important point here , so these are the different options that we have ."}
+{"timestamp": "02:34", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "03:03", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "03:11", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "03:18", "speaker": "Speaker_A", "text": "Okay . So the batteries , I'll start with the battery , right ?"}
+{"timestamp": "03:23", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "03:27", "speaker": "Speaker_A", "text": "So they can be simple which is like uh the normal batteries in uh our uh the cells , yeah ? Uh thes these are the kind different kind of batteries that the company makes , right ? So ."}
+{"timestamp": "03:37", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "03:46", "speaker": "Speaker_A", "text": "And dynamos ."}
+{"timestamp": "03:50", "speaker": "Speaker_A", "text": "Um yeah , yeah . So uh I don't know if even if you want to consider this , but these are the different things that the company makes , so th they'll they'll since uh they'll come internally from the company , they'll be eas uh cheaper , uh all these options . So the third one is uh the kinetic energy ones ."}
+{"timestamp": "03:51", "speaker": "Speaker_B", "text": "Does that mean like a wind-up one ?"}
+{"timestamp": "04:00", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "04:06", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "04:13", "speaker": "Speaker_B", "text": "You could make the hand dynamo into an exercise bike , and then people could exercise whilst watching T_V_ ."}
+{"timestamp": "04:17", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "04:17", "speaker": "Speaker_C", "text": "And charging their remote , yeah ."}
+{"timestamp": "04:24", "speaker": "Speaker_D", "text": "So what was what was this k ka"}
+{"timestamp": "04:30", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "04:31", "speaker": "Speaker_C", "text": "Uh yeah ."}
+{"timestamp": "04:34", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "04:37", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "04:39", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "04:43", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "04:47", "speaker": "Speaker_B", "text": "Yay ."}
+{"timestamp": "04:56", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "05:09", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "05:16", "speaker": "Speaker_A", "text": "curved and one side flat , and they can be curved with on both the sides ."}
+{"timestamp": "05:22", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "05:33", "speaker": "Speaker_A", "text": "Yeah , would it be flat on both the sides , would be curved from one side , or whatever uh there were different kind of supplements available , um like it can be in plastic , rubber , wood , or titanium , right ? Wo wo wood ."}
+{"timestamp": "05:34", "speaker": "Speaker_D", "text": "Yeah , mm-hmm , mm-hmm ."}
+{"timestamp": "05:37", "speaker": "Speaker_D", "text": "Mm-hmm mm-hmm ."}
+{"timestamp": "05:37", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "05:45", "speaker": "Speaker_C", "text": "Mm-hmm . Okay ."}
+{"timestamp": "05:47", "speaker": "Speaker_B", "text": "Did you say wool ?"}
+{"timestamp": "05:49", "speaker": "Speaker_B", "text": "Wood . Oh right ."}
+{"timestamp": "05:52", "speaker": "Speaker_B", "text": "Yeah , you'll understand why when we get to my presenta ."}
+{"timestamp": "05:54", "speaker": "Speaker_A", "text": "Oh really ? Okay . Um the so uh we can use even um a certain titanium is also used uh in the company to make uh uh some space design equipment , so it's kind of um uh it'll be probably nicer to use , because it relates to the overall image of the company , but uh it cannot be used on a double curved surface . If we choose this , we cannot use titanium . For for these two we can use titanium , wood , rubber , or plastic . Yeah ? Uh okay , the interface options now . So"}
+{"timestamp": "05:57", "speaker": "Speaker_C", "text": "Huh ."}
+{"timestamp": "06:21", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "06:27", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "06:47", "speaker": "Speaker_B", "text": "Sony ."}
+{"timestamp": "06:49", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "06:50", "speaker": "Speaker_B", "text": "Sony Ericsson mobile phones has it ."}
+{"timestamp": "06:53", "speaker": "Speaker_A", "text": "Yeah , yeah , something like that . So , and they have they can even have an an integrated uh push-button inside the scrolling thing . The scroll plus push . So this is something that has been recently developed by the company , um in the last decade , so not too recent . And L_C_D_s , we can have L_C_D_s . So these two are recent and and this is q quite old . The various electronic options are um"}
+{"timestamp": "06:54", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "07:00", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "07:19", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "07:28", "speaker": "Speaker_A", "text": "uh so th this concerns firs first of all the the chips I I showed you at uh so there's there's a chip behind this one , right ? The P_C_B_ is uh inexpensive , so we can put put in uh whatever we want , but the various integrated circuit options are , we have either a simple one"}
+{"timestamp": "07:41", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "07:48", "speaker": "Speaker_A", "text": "or a regular"}
+{"timestamp": "07:52", "speaker": "Speaker_A", "text": "or advanced ."}
+{"timestamp": "07:56", "speaker": "Speaker_A", "text": "And uh the price goes up"}
+{"timestamp": "07:59", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "08:01", "speaker": "Speaker_A", "text": "as we go down , obviously . Um okay , so the good thing about uh wh wh why why we would want to use advanced u why we might want to use advanced is that L_C_D_s can only come with the advanced chip . Um the we need regular or advanced for uh scroll wheels ."}
+{"timestamp": "08:16", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "08:27", "speaker": "Speaker_A", "text": "Right ? Um and the chip basically includes the infra infrared sender ."}
+{"timestamp": "08:33", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "08:34", "speaker": "Speaker_A", "text": "Yeah . Uh besides this in electr under electronics uh also the company has started making a sample sender , which is did not explained what i what it was , but I'm guessing that uh so they have a sample sender and a sample speaker ."}
+{"timestamp": "08:55", "speaker": "Speaker_A", "text": "So I'm guessing that uh the sample speaker is probably something like um uh you know , as soon as you press a button , it it mm uh give gives you feedback , one five or whatever . Yeah , on . Um and uh I dunno whether sample sender sender has to do something with voice recognition or not , but anyway . So , these are the different options that we have ."}
+{"timestamp": "09:07", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "09:16", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "09:20", "speaker": "Speaker_A", "text": "Okay , so th that's that's basically now now uh I think that uh we can integrate um uh you know , uh the user interface uh and uh the marketing things in that , keep uh taking out things from this and uh underlining things that are important , yeah ."}
+{"timestamp": "09:32", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "09:35", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "09:37", "speaker": "Speaker_C", "text": "Excellent . Do you wanna stay somewhere near the board , so that if we need to you can sit down , but just we might need you to leap up ."}
+{"timestamp": "09:38", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "09:41", "speaker": "Speaker_A", "text": "Yeah , yeah , sure . Sure . Yeah ."}
+{"timestamp": "09:49", "speaker": "Speaker_D", "text": "Um I have some PowerPoint , yeah ."}
+{"timestamp": "09:51", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "09:51", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "10:19", "speaker": "Speaker_C", "text": "Do you think these pens can give you cancer of the hand ? Some sort of radiation ?"}
+{"timestamp": "10:20", "speaker": "Speaker_D", "text": "'Kay ."}
+{"timestamp": "10:24", "speaker": "Speaker_B", "text": "No it's got its little camera in there , plug it in ."}
+{"timestamp": "10:26", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "10:28", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "10:29", "speaker": "Speaker_B", "text": "'S a"}
+{"timestamp": "10:29", "speaker": "Speaker_A", "text": "Yeah , it should should do it . Yeah ."}
+{"timestamp": "10:33", "speaker": "Speaker_C", "text": "Right , interface concept ."}
+{"timestamp": "10:35", "speaker": "Speaker_D", "text": "Okay . Um to be honest actually , I mentioned some some of the things which which could fit on the on the this talk um this time , I m I mentioned them already in the previous talk . So um yeah , this time um I might not have them on the slides but I I can just mention them aw again . Okay ."}
+{"timestamp": "10:46", "speaker": "Speaker_C", "text": "That's fine ."}
+{"timestamp": "10:52", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "10:57", "speaker": "Speaker_D", "text": "So um I thought um I would also include the definition of user interface um so it's the aspects of a of of a computer system or programme which can be seen uh by the user um and and which uh the mechanisms that the user uses to control its operation and input data . So this would p includes things like shape and size and buttons and um voice recognition as well , and colour , and so on ."}
+{"timestamp": "11:23", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "11:55", "speaker": "Speaker_D", "text": "this can help us to decide which features we want to incorporate in our product . So some findings um um ."}
+{"timestamp": "11:59", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "12:06", "speaker": "Speaker_D", "text": "So in in the case of many user interfaces , they're just so full of buttons that it's actually uh hard to find the ones you you really um want to use and um and it's just confusing , it takes y know time to learn . Um okay , and I thought I would just quickly show some of them that I found ."}
+{"timestamp": "12:30", "speaker": "Speaker_D", "text": "Okay , some of them are here . Um well the picture is not very clear , but as you can see , there are actu oi , oh oh oh , sorry for that ."}
+{"timestamp": "12:39", "speaker": "Speaker_D", "text": "'S go back ."}
+{"timestamp": "12:42", "speaker": "Speaker_D", "text": "Ah , no , please ."}
+{"timestamp": "12:47", "speaker": "Speaker_D", "text": "Okay , so yeah , they're quite big and have many many buttons . Actually of the of all these I personally p prefer this one , because it's it's the smallest and and with with least uh with the smallest number of buttons as well . And I would say even the appearance of some of them is kind of not so nice . Um okay ."}
+{"timestamp": "13:05", "speaker": "Speaker_B", "text": "Ugly ."}
+{"timestamp": "13:06", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "13:20", "speaker": "Speaker_D", "text": "So uh um o other findings um some new things um used , uh some of them were mentioned already by our Technical um Designer uh . Our own company has developed a new in user interface uh wait , no this is not the one ."}
+{"timestamp": "13:39", "speaker": "Speaker_D", "text": "Okay , there is a we can uh include voice recognition and um it allows i it's possible to record eighty different voice samples on it . Uh so uh this uh this one was already mentioned uh the L_C_ display ."}
+{"timestamp": "13:49", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "13:49", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "13:54", "speaker": "Speaker_C", "text": "It's yeah ."}
+{"timestamp": "14:14", "speaker": "Speaker_D", "text": "mm sorry uh speaker unit I guess it's it should be . Um and this means that um once uh uh it it it comes together with a voice recognition , but it's once once the mm um gadget uh recognises uh the voice of the speaker , there can be a um pre-programmed answer , for example , you can pick up the remote control and say something to it like hello and it says some hello and your name or whatever . So I mean this is also one of the n dev new developments which we might consider if we wanted to include ."}
+{"timestamp": "14:17", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "14:39", "speaker": "Speaker_C", "text": "Uh-huh , hi yeah ."}
+{"timestamp": "14:42", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "14:48", "speaker": "Speaker_A", "text": "Uh sorry , uh can you go back for a second ? Um uh are you sure wha what this means , a spinning wheel with the L_C_ display ? Uh oh yeah are th"}
+{"timestamp": "14:56", "speaker": "Speaker_C", "text": "It's like the like you said , no ? The scroll scroll wheel ."}
+{"timestamp": "15:15", "speaker": "Speaker_B", "text": "Oh , it's like the iPod ."}
+{"timestamp": "15:27", "speaker": "Speaker_A", "text": "Alright , right . Okay , okay ."}
+{"timestamp": "15:31", "speaker": "Speaker_A", "text": "So instead of going down you just spin yeah , yeah ."}
+{"timestamp": "15:34", "speaker": "Speaker_B", "text": "You just go round and it is a bit weird at first , but it's actually very like fast ."}
+{"timestamp": "15:34", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "15:38", "speaker": "Speaker_A", "text": "Uh-huh ."}
+{"timestamp": "15:39", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "15:39", "speaker": "Speaker_B", "text": "I like the the wheels that click on the side you you get 'em much slower , so it's quite good if you like searching quite a lot of stuff . Do you know , if you're lookin if you're th scrolling through the A_ to Z_ of your music and you're looking for something at T_ , then it's a lot faster than the wheel , but you've got a lot less control over it ."}
+{"timestamp": "15:45", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "15:45", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "15:45", "speaker": "Speaker_D", "text": "Uh-huh ."}
+{"timestamp": "15:50", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "15:54", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "15:54", "speaker": "Speaker_A", "text": "Right . So maybe I should include that here as well , L_C_D_s um plus spinning ."}
+{"timestamp": "15:55", "speaker": "Speaker_D", "text": "Mm ."}
+{"timestamp": "15:57", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "16:02", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "16:04", "speaker": "Speaker_D", "text": "Okay , and the personal preferences are pretty much the same as as as last time . It it has to be small , simple . Okay , we decided to include voice recognition , so to have the standard uh major buttons like on , off , um ch the channels and and then um volume and then the rest would be a menu on the screen ."}
+{"timestamp": "16:08", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "16:25", "speaker": "Speaker_D", "text": "Um and I I also thought uh if we want to keep it small and nice um and actually I I quite like the idea of a scroll a scrolling button , I thought it could be for for voice like , I dunno , it mm like on a um i like it used to be on Walkmans or something . There is uh I think there is no reason why we couldn't use something like this for for the remote control ."}
+{"timestamp": "16:48", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "16:48", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "16:50", "speaker": "Speaker_D", "text": "So yeah , that's uh that's it ."}
+{"timestamp": "16:52", "speaker": "Speaker_C", "text": "Excellent . Okay , straight to trends , and then we can discuss it all at once ."}
+{"timestamp": "16:56", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "17:05", "speaker": "Speaker_B", "text": "Okay , I've put the copy of the presentation in um the yeah ."}
+{"timestamp": "17:09", "speaker": "Speaker_C", "text": "The project documents . Excellent . If you two could both do that as well , in case we need to refer to it ."}
+{"timestamp": "17:13", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "17:30", "speaker": "Speaker_B", "text": "Cool ."}
+{"timestamp": "17:37", "speaker": "Speaker_C", "text": "Here it comes ."}
+{"timestamp": "17:48", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "17:50", "speaker": "Speaker_B", "text": "Fabulous . Okay , cool . Um so what I did was to search the internet to come up with market trends and you know what users are gonna be wanting in the the near future . Okay ."}
+{"timestamp": "18:01", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "18:04", "speaker": "Speaker_B", "text": "Right . Now , the first aspect is apparently twice as important as the second aspect , which is twice as important as the third a aspect . So , I mean the the easy to use thing is fairly low down on the which I think given the target group is what you would expect , really ."}
+{"timestamp": "18:11", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "18:16", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "18:20", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "18:34", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "18:34", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "18:39", "speaker": "Speaker_A", "text": "So um uh maybe uh as you're discussing things , is it okay if we just uh keep highlighting things here ? Right . So mm uh so it yeah , so probably voice recognition is is kind of important , right ? Um and an yeah . Okay , I I have a point about L_C_D_ , I dunno if it is the right point to take it up . W uh L_C_D_s are basically for feedback , right , to the user who's pressing buttons , and the feedback can come through television itself , so do we need an L_C_D_ on the remote ?"}
+{"timestamp": "18:43", "speaker": "Speaker_C", "text": "Yeah , yeah , sure . Yeah ."}
+{"timestamp": "18:44", "speaker": "Speaker_B", "text": "Yeah , yeah ."}
+{"timestamp": "18:53", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "18:55", "speaker": "Speaker_C", "text": "And maybe the L_C_D_ and spinning so that means we need an advanced thing ."}
+{"timestamp": "19:05", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "19:06", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "19:18", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "19:25", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "19:36", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "19:37", "speaker": "Speaker_B", "text": "You know ?"}
+{"timestamp": "19:41", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "19:50", "speaker": "Speaker_C", "text": "Yeah . Rather than having to interrupt your viewing pleasure ."}
+{"timestamp": "19:52", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "19:54", "speaker": "Speaker_B", "text": "But um I think maybe a way to do it would be a similar way to how you have your mobile phone , you know , like you have the slidey ones and you have the flippy ones and then the screen's protected so it doesn't actually get scratched . So you can have like what looks like a normal remote control , you know or like a minimalist remote control . So you got your buttons one to nine , your on and off and your volume on that and then if you want to mess about with it , you flip it open and , yeah ."}
+{"timestamp": "19:54", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "20:03", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "20:04", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "20:08", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "20:12", "speaker": "Speaker_A", "text": "Mm right ."}
+{"timestamp": "20:14", "speaker": "Speaker_C", "text": "And then you can flip it open ."}
+{"timestamp": "20:17", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "20:22", "speaker": "Speaker_C", "text": "Yeah , I think so ."}
+{"timestamp": "20:24", "speaker": "Speaker_B", "text": "Yeah , so that kind of decides your whole chip thing ."}
+{"timestamp": "20:26", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "20:26", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "20:28", "speaker": "Speaker_A", "text": "You you agree ? Maarika , yeah ? Yeah ."}
+{"timestamp": "20:29", "speaker": "Speaker_D", "text": "Yep , yeah ."}
+{"timestamp": "20:31", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "20:32", "speaker": "Speaker_A", "text": "So L_C_D_s , yeah , definitely . Go on ."}
+{"timestamp": "20:32", "speaker": "Speaker_B", "text": "Okay ?"}
+{"timestamp": "20:36", "speaker": "Speaker_B", "text": "Cool . Okay , apparently , fruit and vegetables will be providing inspiration . Sorry , I discovered clip art . Um so these will be an important feature for clothes , shoes and furniture . So I mean , I'm taking this to mean , you know , curviness ."}
+{"timestamp": "20:55", "speaker": "Speaker_B", "text": "Do you know ? 'Cause you don't tend to get flat vegetables . You know ?"}
+{"timestamp": "20:57", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "21:08", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "21:08", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "21:16", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "21:17", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "21:17", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "21:27", "speaker": "Speaker_D", "text": "So it could be like a rubbery yeah , uh-huh ."}
+{"timestamp": "21:43", "speaker": "Speaker_C", "text": "Yeah , and it'd help if you drop it , it protects it as well ."}
+{"timestamp": "21:47", "speaker": "Speaker_B", "text": "Yeah , yeah ."}
+{"timestamp": "21:48", "speaker": "Speaker_C", "text": "To some degree ."}
+{"timestamp": "21:57", "speaker": "Speaker_C", "text": "Uh-huh ."}
+{"timestamp": "22:06", "speaker": "Speaker_C", "text": "Or if we want to use the the latex , then we have to go with one of the other um power things ."}
+{"timestamp": "22:11", "speaker": "Speaker_B", "text": "If it's made of rubber you could get the kinetic energy fairly easily there , you could just bounce it up and down ."}
+{"timestamp": "22:12", "speaker": "Speaker_A", "text": "Yeah , w energy source ."}
+{"timestamp": "22:20", "speaker": "Speaker_B", "text": "Yeah . Um so yeah , um okay ."}
+{"timestamp": "22:23", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "22:26", "speaker": "Speaker_A", "text": "So probably double curved surface is the way to go , yeah , ."}
+{"timestamp": "22:30", "speaker": "Speaker_C", "text": "Mm yeah ."}
+{"timestamp": "22:42", "speaker": "Speaker_B", "text": "You have to have a certain element of flatness , I think . It it depends on the whole ergonomics of it , you know , it's like how you put your hands so y it's the least movement basically ."}
+{"timestamp": "22:45", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "22:52", "speaker": "Speaker_C", "text": "Uh-huh ."}
+{"timestamp": "22:55", "speaker": "Speaker_B", "text": "No , I d I don't think it makes a lot of difference . I I have one of those s slidey phones and I mean the back is essentially straight , but it's curvy , so . Besides , you have four sides to a thing , so I mean does curved one side mean one side is straight and , you know curved two sides means the whole thing is just a big curvy p thing ?"}
+{"timestamp": "23:04", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "23:04", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "23:09", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "23:12", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "23:17", "speaker": "Speaker_A", "text": "Right . Di now did it say anywhere in your research material about this sliding stuff uh because um according to the information that I have , I think uh the onl only options that we have with the case is are these three . Uh eith either we have uh a flat surfaced uh case or a curved surfaced case . It does not say anything about uh whether technically , you know , this this stuff is available at all ."}
+{"timestamp": "23:17", "speaker": "Speaker_C", "text": "Dunno ."}
+{"timestamp": "23:30", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "23:35", "speaker": "Speaker_C", "text": "Nothing to open them ."}
+{"timestamp": "23:39", "speaker": "Speaker_B", "text": "Yeah . Uh it's it's more about the protecting the L_C_D_ , which I think is where it came from . But no , my research didn't tell me anything , which is why we have all the pictures , 'cause I had nothing better to do with my time . Okay , cool ."}
+{"timestamp": "23:42", "speaker": "Speaker_A", "text": "Right , yeah , yeah ."}
+{"timestamp": "23:50", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "23:51", "speaker": "Speaker_C", "text": "Anything else ? What've we got ?"}
+{"timestamp": "23:53", "speaker": "Speaker_B", "text": "Uh combine style with a level of functionality , um beauty and practicality and a thing of beauty and p function ."}
+{"timestamp": "24:01", "speaker": "Speaker_A", "text": "Cool , thanks ."}
+{"timestamp": "24:01", "speaker": "Speaker_C", "text": "Okay , so ."}
+{"timestamp": "24:02", "speaker": "Speaker_B", "text": "Okay ?"}
+{"timestamp": "24:05", "speaker": "Speaker_C", "text": "Looking at what we've got , we we want an L_C_D_ display with a spinning wheel ."}
+{"timestamp": "24:10", "speaker": "Speaker_A", "text": "Yeah . Let's let's try to r rub off things and yeah , so um hand dynamos are definitely out , right ?"}
+{"timestamp": "24:13", "speaker": "Speaker_C", "text": "Yeah , rub off some of those ."}
+{"timestamp": "24:20", "speaker": "Speaker_D", "text": "Yeah uh-hum yeah ."}
+{"timestamp": "24:24", "speaker": "Speaker_A", "text": "Okay . Um kinetic energy does seem to have some kind of uh uh appeal , but uh"}
+{"timestamp": "24:30", "speaker": "Speaker_C", "text": "I think tha"}
+{"timestamp": "24:35", "speaker": "Speaker_A", "text": "Yeah . As against a watch , which constantly keeps moving , this this thing will have to be tapped every time , which which might be very frustrating for the user ."}
+{"timestamp": "24:45", "speaker": "Speaker_A", "text": "Kinetic energy it needs I don't have too much technical information on that , yeah , right . Okay , let's keep it option uh keep an option , yeah . Um the flat co completely flat case is definitely out , right ? It has to be at least curved from one side , yeah ."}
+{"timestamp": "24:59", "speaker": "Speaker_C", "text": "We don't want that it's no it's not not vegetable ."}
+{"timestamp": "25:04", "speaker": "Speaker_A", "text": "Um okay , we still have all all the options . Wood , do you think wood will be a good idea ?"}
+{"timestamp": "25:15", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "25:18", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "25:19", "speaker": "Speaker_D", "text": "The wood thing . Because you need to you n you need to put all the technology in , so I mean if the case you add the case and it it becomes a bit bulky wi mm-mm yeah ."}
+{"timestamp": "25:19", "speaker": "Speaker_B", "text": "I can't imagine a m wooden remote control ."}
+{"timestamp": "25:19", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "25:28", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "25:31", "speaker": "Speaker_D", "text": "Yeah , yeah ."}
+{"timestamp": "25:33", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "25:39", "speaker": "Speaker_D", "text": "U yeah wood is not really yeah ."}
+{"timestamp": "25:41", "speaker": "Speaker_B", "text": "Well it's not very cleanable either , do you know . It's it's not a practical I mean it's it's alright for a table , but for a remote control , you know ."}
+{"timestamp": "25:41", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "25:43", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "25:43", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "25:49", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "25:52", "speaker": "Speaker_A", "text": "Yeah , okay wood is out ."}
+{"timestamp": "25:53", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "25:55", "speaker": "Speaker_B", "text": "It just m doesn't make any sense , I think is the thing with wood ."}
+{"timestamp": "25:56", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "25:56", "speaker": "Speaker_D", "text": "Yeah , yeah , in the case of remote control not really ."}
+{"timestamp": "25:59", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "26:04", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "26:14", "speaker": "Speaker_B", "text": "You have to have some push-buttons , don't you ?"}
+{"timestamp": "26:15", "speaker": "Speaker_D", "text": "Yeah , but you um I think for for the channel numb uh channel numbers you still need them , wouldn't you ?"}
+{"timestamp": "26:20", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "26:20", "speaker": "Speaker_B", "text": "G yeah , yeah ."}
+{"timestamp": "26:21", "speaker": "Speaker_A", "text": "Mm right ."}
+{"timestamp": "26:23", "speaker": "Speaker_A", "text": "Oh , if if we have L_C_D_ displays , that opens up a whole world , you know , if you have an L_C_D_ display , then mm you can select almost everything on the L_C_D_ display ."}
+{"timestamp": "26:30", "speaker": "Speaker_D", "text": "But I th yeah but I think the L_C_D_ display is kind of yeah , it's faster with a m yeah and w if we dis and when we s um discussed that we might like this flipping open thing , then I mean y you can use it as a normal remote control , but if you do want to use L_C_D_ , then you flip it open , but it's it it's more time-consuming ."}
+{"timestamp": "26:41", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "26:41", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "26:43", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "26:43", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "26:47", "speaker": "Speaker_B", "text": "Yeah . I think this is going back to the the graph at the beginning that I made , where , you know , the buttons that people use all the time , you want buttons for them and everything else menu-driven ."}
+{"timestamp": "26:47", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "26:55", "speaker": "Speaker_A", "text": "Mm right ."}
+{"timestamp": "26:55", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "26:56", "speaker": "Speaker_C", "text": "And it yeah L_ L_C_D_ ."}
+{"timestamp": "26:58", "speaker": "Speaker_A", "text": "So uh in in the buttons we have for the channels also we have options . Do you do we enumerate everything from zero to nine ? Or do we have just uh channel plus , channel minus , just to just to scroll ?"}
+{"timestamp": "27:12", "speaker": "Speaker_A", "text": "The numbers ."}
+{"timestamp": "27:13", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "27:16", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "27:16", "speaker": "Speaker_C", "text": "Do we need them on as buttons or do we need them as L_C_D_ ?"}
+{"timestamp": "27:16", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "27:21", "speaker": "Speaker_B", "text": "G yeah , I would think buttons , yeah ."}
+{"timestamp": "27:21", "speaker": "Speaker_D", "text": "Yeah , I would say buttons , because it's yeah ."}
+{"timestamp": "27:24", "speaker": "Speaker_C", "text": "Buttons ."}
+{"timestamp": "27:25", "speaker": "Speaker_B", "text": "It's it's the I think the thing is , so if someone just wants to turn on their T_V_ and put on a channel , then it should be easier to use than any other remote , and then if someone wants to , you know , change the contrast on their T_V_ and they should be able to do that and it should be accessible , but , you know , I mean most of the time I mean there's a limit to how much the biggest techno geek can spend fiddling with the T_V_ , I think is the the the issue there ."}
+{"timestamp": "27:29", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "27:32", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "27:33", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "27:40", "speaker": "Speaker_A", "text": "Alright ."}
+{"timestamp": "27:43", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "27:50", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "27:50", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "28:00", "speaker": "Speaker_C", "text": "I think that's what you guys are gonna do next , so if we put down the key um things that we want ."}
+{"timestamp": "28:05", "speaker": "Speaker_A", "text": "Okay , okay , so the components . Right , so uh what about the the scrolling uh ?"}
+{"timestamp": "28:06", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "28:12", "speaker": "Speaker_D", "text": "Yeah but n I I'm not completely um completely clear uh I yeah , about the spinning wheel . So I think it it doesn't make sense to have both like a scrolling and spinning thing , it's uh you can al include everything in the spinning if you yeah , yeah , in that case ."}
+{"timestamp": "28:27", "speaker": "Speaker_C", "text": "Just spinning and not scrolling , I would say ."}
+{"timestamp": "28:27", "speaker": "Speaker_B", "text": "G yeah ."}
+{"timestamp": "28:32", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "28:44", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "28:46", "speaker": "Speaker_C", "text": "But if you've got a if if you've got a flipped thing , effectively it's something that's curved on one side and flat on the other side , but you folded it in half . Th that would be on one side , uh-huh ."}
+{"timestamp": "28:54", "speaker": "Speaker_B", "text": "Yeah , but y your spinning wheel tends to go to one side ."}
+{"timestamp": "29:02", "speaker": "Speaker_C", "text": "No , I think it's just the casing rubber on the outside ."}
+{"timestamp": "29:02", "speaker": "Speaker_D", "text": "Yeah , I um I think so too , I mean the case would be yeah the case would be rubber and the the buttons ,"}
+{"timestamp": "29:07", "speaker": "Speaker_A", "text": "Or or at the corners , edges , just the edges covered by rubber or something like that . Everything else in plastic or even titanium if we want to use it ."}
+{"timestamp": "29:08", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "29:11", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "29:13", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "29:15", "speaker": "Speaker_B", "text": "Or maybe like interchangeable cases ."}
+{"timestamp": "29:17", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "29:18", "speaker": "Speaker_B", "text": "'Cause I know like we're going back to iPods again n the whole spinning wheel , but I have like a you know , obviously my iPod's not made of rubber , but then I have a little rubber case that goes over the top of it and I can change the colour , theoretically , to match my outfit ."}
+{"timestamp": "29:29", "speaker": "Speaker_C", "text": "Mm ."}
+{"timestamp": "29:29", "speaker": "Speaker_A", "text": "Right , right ."}
+{"timestamp": "29:39", "speaker": "Speaker_B", "text": "Yeah , I think the spinning wheel is definitely very now ."}
+{"timestamp": "29:42", "speaker": "Speaker_A", "text": "Right . Yeah , and uh we're going more for the trends than for the usability anyway , right ? So"}
+{"timestamp": "29:42", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "29:43", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "29:47", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "29:50", "speaker": "Speaker_A", "text": "I'll rub that out ."}
+{"timestamp": "29:58", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "30:11", "speaker": "Speaker_C", "text": "I guess ."}
+{"timestamp": "30:11", "speaker": "Speaker_B", "text": "That doesn't fit in with the whole vegetable theme though ."}
+{"timestamp": "30:14", "speaker": "Speaker_D", "text": "Yeah . Banana's yellow , yeah , definitely ."}
+{"timestamp": "30:16", "speaker": "Speaker_B", "text": "Yeah , but I mean do you think we could incorporate the colours of the company into the buttons and then make the colour of the main remote the colour like vegetable colours , do you know ? So you could have like I mean I suppose vegetable colours would be orange and green and some reds and um maybe purple and that and then you'd pick the buttons in company colours to to match with it ."}
+{"timestamp": "30:26", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "30:30", "speaker": "Speaker_C", "text": "Green ."}
+{"timestamp": "30:33", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "30:38", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "30:57", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "31:00", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "31:05", "speaker": "Speaker_A", "text": "So I'll rub off the other two ."}
+{"timestamp": "31:06", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "31:15", "speaker": "Speaker_A", "text": "Oh is oh the constraint was uh yeah ."}
+{"timestamp": "31:18", "speaker": "Speaker_C", "text": "We can't have solar panels with rubber , so ."}
+{"timestamp": "31:22", "speaker": "Speaker_B", "text": "Yeah , okay , so we lose that I think ."}
+{"timestamp": "31:31", "speaker": "Speaker_D", "text": "Mm-hmm . And the buttons as well , I think . Yeah ."}
+{"timestamp": "31:34", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "31:36", "speaker": "Speaker_A", "text": "I think uh we'll have uh uh using the simple battery will be a safer option as compared to the kinetic energy one , I mean , a although it does seem uh interesting . But it does not hold any advantages as such for a yeah ."}
+{"timestamp": "31:37", "speaker": "Speaker_C", "text": "We've got five more minutes ."}
+{"timestamp": "31:46", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "31:49", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "31:50", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "31:51", "speaker": "Speaker_C", "text": "Yeah , mm-hmm ."}
+{"timestamp": "31:52", "speaker": "Speaker_B", "text": "It's just a gimmick ."}
+{"timestamp": "32:04", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "32:16", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "32:16", "speaker": "Speaker_D", "text": "Yeah , but it it I think it should be quite cheap because it's from our own company , yeah ."}
+{"timestamp": "32:20", "speaker": "Speaker_A", "text": "Yeah , okay , so so th this is in as well then , the sample speaker ."}
+{"timestamp": "32:25", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "32:28", "speaker": "Speaker_C", "text": "Okay . And the case is curved on one side , but then flat flat , so it's flipped into each other ."}
+{"timestamp": "32:28", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "32:32", "speaker": "Speaker_A", "text": "Flat on the top ."}
+{"timestamp": "32:35", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "32:35", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "32:40", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "32:44", "speaker": "Speaker_C", "text": "Can I pull the thing out the back of your computer ?"}
+{"timestamp": "32:46", "speaker": "Speaker_B", "text": "Yeah , sure j"}
+{"timestamp": "33:07", "speaker": "Speaker_C", "text": "There we go ."}
+{"timestamp": "33:10", "speaker": "Speaker_B", "text": "What does um I_C_S_ mean ?"}
+{"timestamp": "33:12", "speaker": "Speaker_A", "text": "I_C_s ? Uh integrated circuits ."}
+{"timestamp": "33:15", "speaker": "Speaker_B", "text": "Okay , cool . So it's advanced integrated circuits ?"}
+{"timestamp": "33:19", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "33:20", "speaker": "Speaker_C", "text": "Uh oh now I've gone too far ."}
+{"timestamp": "33:24", "speaker": "Speaker_A", "text": "Uh um we we're definitely going in for voice recognition as well as L_C_D_s , mm ."}
+{"timestamp": "33:29", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "33:35", "speaker": "Speaker_C", "text": "We're on our way ."}
+{"timestamp": "33:51", "speaker": "Speaker_C", "text": "Okay . So we've basically worked out that we're going with a simple battery , the advanced chip and a curved on one side case which is folded in on itself , um made out of rubber and"}
+{"timestamp": "34:01", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "34:06", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "34:11", "speaker": "Speaker_C", "text": "the buttons are also rubber . We're having push-buttons on the outside and then on the inside an L_C_D_ with spinning wheel , and we're incorporating voice recognition . That's our overall concept , and it's gonna look sort of vegetable , and be in bright vegetable colours ."}
+{"timestamp": "34:38", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "34:40", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "34:46", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "34:48", "speaker": "Speaker_D", "text": "Yeah , okay ."}
+{"timestamp": "34:52", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "34:53", "speaker": "Speaker_C", "text": "Mm-mm . Yeah ."}
+{"timestamp": "34:58", "speaker": "Speaker_B", "text": "You've maybe got , you know like if you're modelling on iPod you've got five buttons and a wheel , and four of the buttons are in the wheel , and the other one's the little bit inside the wheel , yeah ."}
+{"timestamp": "35:04", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "35:09", "speaker": "Speaker_C", "text": "In the centre , yeah , sure . Okay , so now we've got thirty minutes before our next meeting . In the meantime , the Industrial Designer over here is gonna work on the look and feel design , which I'll presume he'll work out what that means . Um the User Interface Designer will work on the user interface design and the Marketing Expert is going to work on product evaluation . And as well as that , the two designers are going to work together on our prototype following those instructions that we've just come up with using modelling clay and you will get extra instructions from your personal coach . Is that all okay ? And anyone who hasn't put their their presentation in the project documents folder , it would be good just so in case we have to refer to it ."}
+{"timestamp": "35:10", "speaker": "Speaker_D", "text": "Mm yeah ."}
+{"timestamp": "35:22", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "35:48", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "35:50", "speaker": "Speaker_A", "text": "Cool ."}
+{"timestamp": "35:53", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "35:59", "speaker": "Speaker_D", "text": "Mm-hmm ."}
+{"timestamp": "36:05", "speaker": "Speaker_B", "text": "Cool , I'm gonna go and sit on my own ."}
+{"timestamp": "36:08", "speaker": "Speaker_C", "text": "Y ah nobody wants to talk to you . Unplug yourself ."}
+{"timestamp": "36:13", "speaker": "Speaker_B", "text": "I've got a bit tangled up in all this ."}
+{"timestamp": "36:19", "speaker": "Speaker_C", "text": "I dunno , maybe I would car"}

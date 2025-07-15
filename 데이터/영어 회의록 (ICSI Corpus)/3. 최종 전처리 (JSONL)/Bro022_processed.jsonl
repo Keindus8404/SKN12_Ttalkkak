@@ -1,0 +1,615 @@
+{"timestamp": "00:03", "speaker": "Speaker_C", "text": "I think for two years we were two months , uh , away from being done ."}
+{"timestamp": "00:09", "speaker": "Speaker_D", "text": "And what was that , Morgan ?"}
+{"timestamp": "00:11", "speaker": "Speaker_D", "text": "What project ?"}
+{"timestamp": "00:12", "speaker": "Speaker_C", "text": "Uh , the , uh , TORRENT chip ."}
+{"timestamp": "00:15", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "00:29", "speaker": "Speaker_D", "text": "It was true for two years ."}
+{"timestamp": "00:35", "speaker": "Speaker_D", "text": "So , should we just do the same kind of deal where we go around and do , uh ,"}
+{"timestamp": "00:39", "speaker": "Speaker_D", "text": "status report kind of things ?"}
+{"timestamp": "00:42", "speaker": "Speaker_D", "text": "OK . And I guess when Sunil gets here he can do his last or something ."}
+{"timestamp": "00:47", "speaker": "Speaker_D", "text": "So ."}
+{"timestamp": "00:47", "speaker": "Speaker_C", "text": "Yeah . So we probably should wait for him to come before we do his ."}
+{"timestamp": "00:50", "speaker": "Speaker_D", "text": "OK . That 's a good idea ."}
+{"timestamp": "00:50", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "00:50", "speaker": "Speaker_C", "text": "Yeah . Yeah ."}
+{"timestamp": "00:52", "speaker": "Speaker_D", "text": "Any objection ?"}
+{"timestamp": "00:56", "speaker": "Speaker_D", "text": "Do you want to start , Morgan ? Do you have anything , or ?"}
+{"timestamp": "01:07", "speaker": "Speaker_C", "text": "since they 're here , they can talk about it themselves ."}
+{"timestamp": "01:11", "speaker": "Speaker_B", "text": "OK . So should I go so that , uh ,"}
+{"timestamp": "01:13", "speaker": "Speaker_D", "text": "Yeah . Why don't you go ahead , Barry ?"}
+{"timestamp": "01:14", "speaker": "Speaker_B", "text": "you 're gonna talk about Aurora stuff , per se ? OK . Um ."}
+{"timestamp": "01:16", "speaker": "Speaker_D", "text": "OK ."}
+{"timestamp": "01:18", "speaker": "Speaker_B", "text": "Well , this past week I 've just been , uh , getting down and dirty into writing my my proposal ."}
+{"timestamp": "01:28", "speaker": "Speaker_B", "text": "Mmm . I just finished a section on , uh on talking about these intermediate categories that I want to classify ,"}
+{"timestamp": "01:36", "speaker": "Speaker_B", "text": "um , as a as a middle step . And , um , I hope to hope to get this , um a full rough draft done by , uh , Monday so I can give it to Morgan ."}
+{"timestamp": "01:48", "speaker": "Speaker_D", "text": "When is your , uh , meeting ?"}
+{"timestamp": "01:50", "speaker": "Speaker_B", "text": "Um , my meeting with , uh ? Oh , oh , you mean the the quals . Uh , the quals are happening in July twenty - fifth ."}
+{"timestamp": "01:52", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "01:54", "speaker": "Speaker_D", "text": "The quals . Yeah ."}
+{"timestamp": "01:59", "speaker": "Speaker_D", "text": "Oh . Soon ."}
+{"timestamp": "02:00", "speaker": "Speaker_B", "text": "Yeah . D - Day ."}
+{"timestamp": "02:01", "speaker": "Speaker_D", "text": "Uh - huh ."}
+{"timestamp": "02:04", "speaker": "Speaker_D", "text": "So , is the idea you 're going to do this paper and then you pass it out to everybody ahead of time and ?"}
+{"timestamp": "02:15", "speaker": "Speaker_B", "text": "And , um , and then , um then everybody asks you questions ."}
+{"timestamp": "02:21", "speaker": "Speaker_D", "text": "Hmm ."}
+{"timestamp": "02:22", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "02:23", "speaker": "Speaker_D", "text": "I remember now ."}
+{"timestamp": "02:28", "speaker": "Speaker_B", "text": "Yep . So , um . Y s"}
+{"timestamp": "02:29", "speaker": "Speaker_D", "text": "Have you d ?"}
+{"timestamp": "02:30", "speaker": "Speaker_D", "text": "I was just gonna ask , do you want to say any a little bit about it , or ?"}
+{"timestamp": "02:33", "speaker": "Speaker_B", "text": "Oh . Uh , a little bit about ?"}
+{"timestamp": "02:34", "speaker": "Speaker_D", "text": "Mmm ."}
+{"timestamp": "02:37", "speaker": "Speaker_B", "text": "Oh , the the Right . Well , I was , um ,"}
+{"timestamp": "02:43", "speaker": "Speaker_B", "text": "I think one of the perplexing problems is , um ,"}
+{"timestamp": "02:47", "speaker": "Speaker_B", "text": "for a while I was thinking that I had to come up with a complete set of intermediate features in intermediate categories to to classify right away ."}
+{"timestamp": "03:05", "speaker": "Speaker_B", "text": "like , uh , re regular phonetic features , just to just to start off that way ."}
+{"timestamp": "03:10", "speaker": "Speaker_B", "text": "And do some phone recognition . Um , build a system that , uh , classifies these , um these feat uh , these intermediate categories using , uh , multi - band techniques ."}
+{"timestamp": "03:24", "speaker": "Speaker_B", "text": "Combine them and do phon phoneme recognition ."}
+{"timestamp": "03:28", "speaker": "Speaker_B", "text": "Look at then I would look at the errors produced in the phoneme recognition and say , OK , well , I could probably reduce the errors if I included this extra feature or this extra intermediate category ."}
+{"timestamp": "03:40", "speaker": "Speaker_B", "text": "That would that would reduce certain confusions over other confusions ."}
+{"timestamp": "03:48", "speaker": "Speaker_B", "text": "Um , build the intermediate classifiers . Uh , do phoneme recognition . Look at the errors . And then postulate new or remove , um , intermediate categories . And then do it again ."}
+{"timestamp": "04:02", "speaker": "Speaker_D", "text": "So you 're gonna use TIMIT ?"}
+{"timestamp": "04:03", "speaker": "Speaker_B", "text": "Um , for that for that part of the the process , yeah , I would use TIMIT ."}
+{"timestamp": "04:06", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "04:17", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "04:19", "speaker": "Speaker_B", "text": "that 's , um that 's just the ph the phone recognition task ."}
+{"timestamp": "04:22", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "04:23", "speaker": "Speaker_B", "text": "Uh , I wanted to take a look at , um , things that I could model within word ."}
+{"timestamp": "04:27", "speaker": "Speaker_B", "text": "So , I would mov I would then shift the focus to , um , something like Schw - Switchboard ,"}
+{"timestamp": "04:34", "speaker": "Speaker_B", "text": "uh , where I 'd I would be able to , um to model , um , intermediate categories that span across phonemes , not just within the phonemes , themselves ,"}
+{"timestamp": "04:42", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "04:44", "speaker": "Speaker_B", "text": "um , and then do the same process there , um , on on a large vocabulary task like Switchboard ."}
+{"timestamp": "04:55", "speaker": "Speaker_B", "text": "for that part I would I 'd use the SRI recognizer since it 's already set up for for Switchboard . And I 'd run some some sort of tandem - style processing with , uh , my intermediate classifiers ."}
+{"timestamp": "05:08", "speaker": "Speaker_D", "text": "Oh . So that 's why you were interested in getting your own features into the SRI files ."}
+{"timestamp": "05:11", "speaker": "Speaker_B", "text": "Yeah . That 's why I I was asking about that . Yeah ."}
+{"timestamp": "05:12", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "05:14", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "05:22", "speaker": "Speaker_B", "text": "I guess that 's that 's it . Any any questions ?"}
+{"timestamp": "05:29", "speaker": "Speaker_D", "text": "Sounds good . So you just have a few more weeks , huh ?"}
+{"timestamp": "05:33", "speaker": "Speaker_B", "text": "Um , yeah . A few more ."}
+{"timestamp": "05:35", "speaker": "Speaker_D", "text": "It 's about a month from now ?"}
+{"timestamp": "05:36", "speaker": "Speaker_B", "text": "It 's a it 's a month and and a week ."}
+{"timestamp": "05:38", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "05:38", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "05:45", "speaker": "Speaker_E", "text": "Oh . OK , sure . So , um , last week I finally got results from the SRI system about this mean subtraction approach ."}
+{"timestamp": "05:54", "speaker": "Speaker_E", "text": "And , um , we we got an improvement , uh , in word error rate , training on the TI - digits data set and testing on Meeting Recorder digits of , um ,"}
+{"timestamp": "06:05", "speaker": "Speaker_E", "text": "six percent to four point five percent , um , on the n"}
+{"timestamp": "06:09", "speaker": "Speaker_E", "text": "on the far - mike data using PZM F , but , um , the near - mike performance worsened , um , from one point two percent to two point four percent ."}
+{"timestamp": "06:22", "speaker": "Speaker_E", "text": "And , um ,"}
+{"timestamp": "06:27", "speaker": "Speaker_E", "text": "considering that we actually got an improvement in near - mike performance using HTK ? And so ,"}
+{"timestamp": "06:46", "speaker": "Speaker_E", "text": "This mean subtraction approach will do a kind of channel normalization and so that might have given the HTK use of it a boost that wouldn't have been applied in the SRI case ."}
+{"timestamp": "07:03", "speaker": "Speaker_E", "text": "So those finer - grained acoustic models could be more sensitive to the artifacts in the re - synthesized audio ."}
+{"timestamp": "07:11", "speaker": "Speaker_E", "text": "And me and Barry were listening to the re - synthesized audio and sometimes it seems like you get of a bit of an echo of speech"}
+{"timestamp": "07:17", "speaker": "Speaker_E", "text": "in the background . And so that seems like it could be difficult for training , cuz you could have different phones lined up with a different foreground phone ,"}
+{"timestamp": "07:28", "speaker": "Speaker_E", "text": "depending on the timing of the echo . So , um ,"}
+{"timestamp": "07:43", "speaker": "Speaker_E", "text": "set of , um , read speech , and , um Hmm ."}
+{"timestamp": "07:56", "speaker": "Speaker_C", "text": "some of the other stuff that Avendano did , where they were ,"}
+{"timestamp": "07:59", "speaker": "Speaker_C", "text": "um , getting rid of low - energy sections ?"}
+{"timestamp": "08:06", "speaker": "Speaker_C", "text": "if you did a high - pass filtering , as Hirsch did in late eighties to reduce some of the effects of reverberation ,"}
+{"timestamp": "08:13", "speaker": "Speaker_C", "text": "uh , uh , Avendano and Hermansky were arguing that ,"}
+{"timestamp": "08:23", "speaker": "Speaker_C", "text": "an all - positive power spectrum you get some negative values ,"}
+{"timestamp": "08:29", "speaker": "Speaker_C", "text": "and you gotta figure out what to do with them if you 're gonna continue treating this as a power spectrum ."}
+{"timestamp": "08:33", "speaker": "Speaker_C", "text": "So , what what Hirsch did was , uh , set them to zero set the negative values to zero ."}
+{"timestamp": "08:38", "speaker": "Speaker_C", "text": "So if you imagine a a waveform that 's all positive ,"}
+{"timestamp": "08:41", "speaker": "Speaker_C", "text": "which is the time trajectory of energy ,"}
+{"timestamp": "08:45", "speaker": "Speaker_C", "text": "um , and , uh , shifting it downwards ,"}
+{"timestamp": "08:48", "speaker": "Speaker_C", "text": "and then getting rid of the negative parts ,"}
+{"timestamp": "08:50", "speaker": "Speaker_C", "text": "that 's essentially throwing away the low - energy things ."}
+{"timestamp": "08:52", "speaker": "Speaker_C", "text": "And it 's the low - energy parts of the speech"}
+{"timestamp": "09:00", "speaker": "Speaker_C", "text": "So in this case you have some artificially imposed reverberation - like thing . I mean , you 're getting rid of"}
+{"timestamp": "09:06", "speaker": "Speaker_C", "text": "some of the other effects of reverberation ,"}
+{"timestamp": "09:08", "speaker": "Speaker_C", "text": "but because you have these non - causal windows ,"}
+{"timestamp": "09:11", "speaker": "Speaker_C", "text": "you 're getting these funny things coming in , uh , at n"}
+{"timestamp": "09:14", "speaker": "Speaker_C", "text": "And , um , what if you did ?"}
+{"timestamp": "09:17", "speaker": "Speaker_C", "text": "I mean , there 's nothing to say that the the processing for this re - synthesis has to be restricted"}
+{"timestamp": "09:22", "speaker": "Speaker_C", "text": "to trying to get it back to"}
+{"timestamp": "09:24", "speaker": "Speaker_C", "text": "the original , according to some equation . I mean , you also"}
+{"timestamp": "09:25", "speaker": "Speaker_E", "text": "Uh - huh ."}
+{"timestamp": "09:30", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "09:31", "speaker": "Speaker_C", "text": "And one of the things you could do is , you could do some sort of VAD - like thing and you actually could"}
+{"timestamp": "09:36", "speaker": "Speaker_C", "text": "take very low - energy sections and set them to some some , uh , very low or or near zero value ."}
+{"timestamp": "09:43", "speaker": "Speaker_E", "text": "Uh - huh ."}
+{"timestamp": "09:43", "speaker": "Speaker_C", "text": "I mean , uh , I 'm just saying if in fact it turns out that that these echoes that you 're hearing"}
+{"timestamp": "09:50", "speaker": "Speaker_C", "text": "or pre - echoes , whichever they are are are ,"}
+{"timestamp": "09:53", "speaker": "Speaker_C", "text": "uh , part of what 's causing the problem , you actually could get rid of them ."}
+{"timestamp": "09:59", "speaker": "Speaker_E", "text": "Uh - huh ."}
+{"timestamp": "10:02", "speaker": "Speaker_C", "text": "Be pretty simple ."}
+{"timestamp": "10:04", "speaker": "Speaker_E", "text": "OK ."}
+{"timestamp": "10:05", "speaker": "Speaker_C", "text": "I mean , you do it in a pretty conservative way so that if you made a mistake you were more likely to keep in an echo than to throw out speech ."}
+{"timestamp": "10:14", "speaker": "Speaker_E", "text": "Hmm ."}
+{"timestamp": "10:14", "speaker": "Speaker_G", "text": "Um , what is the reverberation time like there ?"}
+{"timestamp": "10:18", "speaker": "Speaker_G", "text": "On , uh , the the one what the s in the speech that you are you are using like ?"}
+{"timestamp": "10:22", "speaker": "Speaker_E", "text": "Y Yeah . I I I I don't know ."}
+{"timestamp": "10:26", "speaker": "Speaker_G", "text": "It 's , uh Oh , this room ? OK ."}
+{"timestamp": "10:29", "speaker": "Speaker_C", "text": "this micro close microphone and a distant microphone , he 's doing these different tests on ."}
+{"timestamp": "10:29", "speaker": "Speaker_B", "text": "Oh ."}
+{"timestamp": "10:33", "speaker": "Speaker_C", "text": "Uh , we should do a measurement in here . I g think we never have . I think it 's I would guess , uh ,"}
+{"timestamp": "10:38", "speaker": "Speaker_C", "text": "point seven , point eight seconds f uh , R T - sixty something like that ?"}
+{"timestamp": "10:42", "speaker": "Speaker_G", "text": "Mm - hmm ."}
+{"timestamp": "10:42", "speaker": "Speaker_C", "text": "But it 's you know , it 's this room ."}
+{"timestamp": "10:44", "speaker": "Speaker_G", "text": "OK ."}
+{"timestamp": "10:45", "speaker": "Speaker_G", "text": "Mm - hmm ."}
+{"timestamp": "10:45", "speaker": "Speaker_C", "text": "Uh ."}
+{"timestamp": "10:48", "speaker": "Speaker_C", "text": "But the other thing is , he 's putting in w I was using the word \"\" reverberation \"\" in two ways . He 's also putting in ,"}
+{"timestamp": "10:54", "speaker": "Speaker_C", "text": "he 's taking out some reverberation , but he 's putting in something , because he has averages over multiple windows stretching out to twelve seconds ,"}
+{"timestamp": "11:03", "speaker": "Speaker_C", "text": "which are then being subtracted from the speech . And since ,"}
+{"timestamp": "11:12", "speaker": "Speaker_G", "text": "Mm - hmm . Mm - hmm ."}
+{"timestamp": "11:13", "speaker": "Speaker_C", "text": "So you can end up with some components in it that are affected by things that are seconds away ."}
+{"timestamp": "11:19", "speaker": "Speaker_C", "text": "Uh , and if it 's a low energy compo portion , you might actually hear some funny things ."}
+{"timestamp": "11:25", "speaker": "Speaker_G", "text": "Yeah ."}
+{"timestamp": "11:26", "speaker": "Speaker_E", "text": "O o one thing , um , I noticed is that , um , the mean subtraction seems to make the PZM signals louder after they 've been re - synthesized ."}
+{"timestamp": "11:36", "speaker": "Speaker_E", "text": "So I was wondering , is it possible that one reason it helped with the Aurora baseline system is just as a kind of gain control ?"}
+{"timestamp": "11:43", "speaker": "Speaker_E", "text": "Cuz some of the PZM signals sound pretty quiet if you don't amplify them ."}
+{"timestamp": "11:48", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "11:50", "speaker": "Speaker_F", "text": "I don't see why why your signal is louder after processing , because yo"}
+{"timestamp": "11:54", "speaker": "Speaker_E", "text": "Yeah . I don't know why - y , uh , either ."}
+{"timestamp": "11:56", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "11:57", "speaker": "Speaker_C", "text": "I don't think just multiplying the signal by two would have any effect ."}
+{"timestamp": "12:00", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "12:01", "speaker": "Speaker_E", "text": "Oh , OK ."}
+{"timestamp": "12:02", "speaker": "Speaker_C", "text": "Yeah . I mean , I think if you really have louder signals ,"}
+{"timestamp": "12:06", "speaker": "Speaker_C", "text": "what you mean is that you have better signal - to - noise ratio ."}
+{"timestamp": "12:10", "speaker": "Speaker_C", "text": "So if what you 're doing is improving the signal - to - noise ratio , then it would be better ."}
+{"timestamp": "12:15", "speaker": "Speaker_E", "text": "It w i i it wouldn't affect things . OK ."}
+{"timestamp": "12:17", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "12:17", "speaker": "Speaker_C", "text": "No ."}
+{"timestamp": "12:24", "speaker": "Speaker_F", "text": "on the signal level ."}
+{"timestamp": "12:27", "speaker": "Speaker_F", "text": "But , not so much , I guess ."}
+{"timestamp": "12:29", "speaker": "Speaker_F", "text": "Mmm ."}
+{"timestamp": "12:31", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "12:34", "speaker": "Speaker_C", "text": "in both training and test , the absolute level by a factor of two , it will n have no effect ."}
+{"timestamp": "12:37", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "12:38", "speaker": "Speaker_D", "text": "Did you add this data to the training set , for the Aurora ?"}
+{"timestamp": "12:42", "speaker": "Speaker_D", "text": "Or you just tested on this ?"}
+{"timestamp": "12:43", "speaker": "Speaker_E", "text": "Um ."}
+{"timestamp": "12:46", "speaker": "Speaker_E", "text": "Did I w what ? Sorry ?"}
+{"timestamp": "12:51", "speaker": "Speaker_E", "text": "Yeah ."}
+{"timestamp": "12:52", "speaker": "Speaker_D", "text": "I was sort of under the impression that you just tested with this data . You didn't train it also ."}
+{"timestamp": "12:57", "speaker": "Speaker_E", "text": "I Right . I trained on clean TI - digits . I I did the mean subtraction on clean TI - digits . But I didn't I 'm not sure if it made the clean ti TI - digits any louder ."}
+{"timestamp": "13:02", "speaker": "Speaker_C", "text": "Oh , I see ."}
+{"timestamp": "13:08", "speaker": "Speaker_E", "text": "I only remember noticing it made the , um , PZM signal louder ."}
+{"timestamp": "13:13", "speaker": "Speaker_C", "text": "OK . Well , I don't understand then . Yeah ."}
+{"timestamp": "13:15", "speaker": "Speaker_E", "text": "Huh ."}
+{"timestamp": "13:15", "speaker": "Speaker_E", "text": "I don't know . If it 's if it 's like , if it 's trying to find a a reverberation filter , it could be that this reverberation filter is"}
+{"timestamp": "13:25", "speaker": "Speaker_E", "text": "that taking it out makes things louder ."}
+{"timestamp": "13:32", "speaker": "Speaker_E", "text": "I mean ."}
+{"timestamp": "13:33", "speaker": "Speaker_C", "text": "Uh , no . I mean , uh , there 's there 's nothing inherent about"}
+{"timestamp": "13:35", "speaker": "Speaker_E", "text": "Nuh - huh ."}
+{"timestamp": "13:39", "speaker": "Speaker_C", "text": "removing if you 're really removing ,"}
+{"timestamp": "13:42", "speaker": "Speaker_E", "text": "The mean ."}
+{"timestamp": "13:45", "speaker": "Speaker_E", "text": "OK . Yeah , I see . Yeah . OK . So I should maybe listen to that stuff again ."}
+{"timestamp": "13:54", "speaker": "Speaker_C", "text": "Uh , yeah . I don't know ."}
+{"timestamp": "13:55", "speaker": "Speaker_E", "text": "Oh . OK ."}
+{"timestamp": "14:02", "speaker": "Speaker_D", "text": "for s for the PZM data , uh , you know , if occasionally , uh , somebody hits the table or something , you could get a spike ."}
+{"timestamp": "14:11", "speaker": "Speaker_D", "text": "Uh ."}
+{"timestamp": "14:14", "speaker": "Speaker_D", "text": "I 'm just wondering if there 's something about the , um you know , doing the mean normalization where ,"}
+{"timestamp": "14:18", "speaker": "Speaker_D", "text": "uh , it it could cause you to have better signal - to - noise ratio ."}
+{"timestamp": "14:24", "speaker": "Speaker_D", "text": "Um ."}
+{"timestamp": "14:25", "speaker": "Speaker_C", "text": "Well , you know , there is this ."}
+{"timestamp": "14:31", "speaker": "Speaker_C", "text": "Subtracting the the mean log spectrum is is is like dividing by the spectrum ."}
+{"timestamp": "14:37", "speaker": "Speaker_C", "text": "So , depending what you divide by , if your if s your estimate is off and sometimes you 're you 're you 're getting a small number ,"}
+{"timestamp": "14:45", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "14:45", "speaker": "Speaker_C", "text": "you could make it bigger ."}
+{"timestamp": "14:46", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "14:51", "speaker": "Speaker_C", "text": "there 's It it could be that there 's some normalization that 's missing ,"}
+{"timestamp": "14:54", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "14:56", "speaker": "Speaker_C", "text": "Uh , y you 'd think it shouldn't be larger , but"}
+{"timestamp": "14:59", "speaker": "Speaker_C", "text": "maybe in practice it is ."}
+{"timestamp": "15:00", "speaker": "Speaker_C", "text": "That 's something to think about . I don't know ."}
+{"timestamp": "15:04", "speaker": "Speaker_F", "text": "I had a question about the system the SRI system . So , you trained it on TI - digits ?"}
+{"timestamp": "15:11", "speaker": "Speaker_F", "text": "But except this , it 's exactly the same system as the one that was tested before and that was trained on Macrophone . Right ?"}
+{"timestamp": "15:18", "speaker": "Speaker_F", "text": "So on TI - digits it gives you one point two percent error rate and on Macrophone it 's still O point eight ."}
+{"timestamp": "15:25", "speaker": "Speaker_F", "text": "Uh , but is it exactly the same system ?"}
+{"timestamp": "15:26", "speaker": "Speaker_E", "text": "Uh ."}
+{"timestamp": "15:29", "speaker": "Speaker_E", "text": "I think so . If you 're talking about the Macrophone results that Andreas had about , um , a week and a half ago , I think it 's the same system ."}
+{"timestamp": "15:30", "speaker": "Speaker_F", "text": "Hmm ."}
+{"timestamp": "15:33", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "15:35", "speaker": "Speaker_F", "text": "So you use VTL - uh , vocal tract length normalization and , um ,"}
+{"timestamp": "15:38", "speaker": "Speaker_E", "text": "Mm - hmm ."}
+{"timestamp": "15:44", "speaker": "Speaker_F", "text": "all that stuff ."}
+{"timestamp": "15:49", "speaker": "Speaker_F", "text": "It was training on Macrophone and testing yeah , on on meeting digits ."}
+{"timestamp": "15:56", "speaker": "Speaker_C", "text": "Uh , and it 's point eight ? OK ."}
+{"timestamp": "15:58", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "16:05", "speaker": "Speaker_C", "text": "OK ."}
+{"timestamp": "16:05", "speaker": "Speaker_F", "text": "Yeah . I I 've just been text testing the new Aurora front - end with well , Aurora system actually so front - end and HTK ,"}
+{"timestamp": "16:15", "speaker": "Speaker_F", "text": "um , acoustic models on the meeting digits and it 's a little bit better than the previous system . We have I have two point seven percent error rate ."}
+{"timestamp": "16:35", "speaker": "Speaker_F", "text": "Yeah . Two point seven ."}
+{"timestamp": "16:37", "speaker": "Speaker_G", "text": "I know in the meeting , like Right ."}
+{"timestamp": "16:38", "speaker": "Speaker_F", "text": "On the meeting we have two point seven ."}
+{"timestamp": "16:41", "speaker": "Speaker_B", "text": "That 's with the new IIR filters ?"}
+{"timestamp": "16:45", "speaker": "Speaker_B", "text": "OK ."}
+{"timestamp": "16:51", "speaker": "Speaker_F", "text": "I think , maybe I didn't look , but"}
+{"timestamp": "16:59", "speaker": "Speaker_F", "text": "Do y did you have a look at at the meet uh , meeting digits , if they have a DC component , or ?"}
+{"timestamp": "17:08", "speaker": "Speaker_E", "text": "I didn't . No ."}
+{"timestamp": "17:09", "speaker": "Speaker_F", "text": "Oh ."}
+{"timestamp": "17:12", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "17:12", "speaker": "Speaker_G", "text": "No . The DC component could be negligible . I mean , if you are recording it through a"}
+{"timestamp": "17:17", "speaker": "Speaker_G", "text": "mike . I mean , any all of the mikes have the DC removal some capacitor sitting right in that bias it ."}
+{"timestamp": "17:22", "speaker": "Speaker_C", "text": "Yeah . But this uh , uh , uh , no . Because , uh , there 's a sample and hold"}
+{"timestamp": "17:28", "speaker": "Speaker_C", "text": "in the A - toD. And these period these typically do have a DC offset ."}
+{"timestamp": "17:33", "speaker": "Speaker_G", "text": "Oh , OK ."}
+{"timestamp": "17:33", "speaker": "Speaker_C", "text": "And and they can be surprisingly large . It depends on the electronics ."}
+{"timestamp": "17:36", "speaker": "Speaker_G", "text": "Oh , so it is the digital OK . It 's the A - toD that introduces the DC in ."}
+{"timestamp": "17:40", "speaker": "Speaker_C", "text": "Yeah . The microphone isn't gonna pass any DC . But but ,"}
+{"timestamp": "17:41", "speaker": "Speaker_G", "text": "Yeah . Yeah . Yeah . OK ."}
+{"timestamp": "17:44", "speaker": "Speaker_C", "text": "typi you know , unless Actually , there are instrumentation mikes that that do pass go down to DC . But but ,"}
+{"timestamp": "17:49", "speaker": "Speaker_G", "text": "Mm - hmm ."}
+{"timestamp": "17:52", "speaker": "Speaker_G", "text": "Mm - hmm ."}
+{"timestamp": "17:53", "speaker": "Speaker_C", "text": "then there 's amplification afterwards . And you can get ,"}
+{"timestamp": "17:58", "speaker": "Speaker_C", "text": "I think it was in the Wall Street Journal data"}
+{"timestamp": "18:04", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "18:06", "speaker": "Speaker_C", "text": "messing with it . And we were getting these terrible results . And then"}
+{"timestamp": "18:15", "speaker": "Speaker_G", "text": "Oh , OK ."}
+{"timestamp": "18:16", "speaker": "Speaker_G", "text": "OK ."}
+{"timestamp": "18:18", "speaker": "Speaker_D", "text": "So was that was that everything , Dave ?"}
+{"timestamp": "18:21", "speaker": "Speaker_E", "text": "Oh . And I also , um , did some experiments about normalizing the phase ."}
+{"timestamp": "18:34", "speaker": "Speaker_E", "text": "the interesting thing that I tried was , um , Adam and Morgan had this idea ,"}
+{"timestamp": "18:39", "speaker": "Speaker_E", "text": "um , since my original attempts to , um , take the mean of the phase spectra over time"}
+{"timestamp": "18:45", "speaker": "Speaker_E", "text": "and normalize using that , by subtracting that off , didn't work . Um ,"}
+{"timestamp": "18:49", "speaker": "Speaker_E", "text": "so , well , that we thought that might be due to , um , problems with , um ,"}
+{"timestamp": "18:58", "speaker": "Speaker_E", "text": "um ,"}
+{"timestamp": "18:59", "speaker": "Speaker_E", "text": "there 's reason to believe that"}
+{"timestamp": "19:07", "speaker": "Speaker_E", "text": "took the mean of the FFT spectrum without taking the log or anything , and then I took the phase of that ,"}
+{"timestamp": "19:14", "speaker": "Speaker_E", "text": "and I subtracted that phase off"}
+{"timestamp": "19:18", "speaker": "Speaker_E", "text": "to normalize . But that , um ,"}
+{"timestamp": "19:21", "speaker": "Speaker_E", "text": "didn't work either ."}
+{"timestamp": "19:32", "speaker": "Speaker_D", "text": "What does it leave ?"}
+{"timestamp": "19:34", "speaker": "Speaker_C", "text": "Uh , it leaves you know , it leaves the junk . I mean , I I think it 's it 's tremendous ."}
+{"timestamp": "19:37", "speaker": "Speaker_B", "text": "Oh , wow ."}
+{"timestamp": "19:46", "speaker": "Speaker_C", "text": "So , it 's it 's a general rule . Just listen very carefully to what I say and do the opposite ."}
+{"timestamp": "20:02", "speaker": "Speaker_E", "text": "And , yeah , that 's everything ."}
+{"timestamp": "20:03", "speaker": "Speaker_D", "text": "All set ?"}
+{"timestamp": "20:06", "speaker": "Speaker_D", "text": "Do you want to go , Stephane ?"}
+{"timestamp": "20:12", "speaker": "Speaker_F", "text": "still , these meeting digits ."}
+{"timestamp": "20:15", "speaker": "Speaker_F", "text": "I 'm more interested in trying to figure out what 's still the difference between the SRI system and the Aurora system ."}
+{"timestamp": "20:24", "speaker": "Speaker_F", "text": "Um . Yeah . So , I think I will maybe train , like , gender - dependent models , because this is also one big difference between the two systems ."}
+{"timestamp": "20:44", "speaker": "Speaker_F", "text": "But , uh , Chuck , you did some experiments with this and"}
+{"timestamp": "20:49", "speaker": "Speaker_D", "text": "It didn't seem to help in the HTK system ."}
+{"timestamp": "20:49", "speaker": "Speaker_F", "text": "it was hard t to to have some exper some improvement with this . Um ."}
+{"timestamp": "20:57", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "20:58", "speaker": "Speaker_C", "text": "uh , different kinds of adaptation . You know , they have channel adaptation . They have speaker adaptation ."}
+{"timestamp": "21:00", "speaker": "Speaker_F", "text": "Yeah . Right ."}
+{"timestamp": "21:02", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "21:02", "speaker": "Speaker_C", "text": "Yeah . Yeah ."}
+{"timestamp": "21:06", "speaker": "Speaker_F", "text": "The vocal tr"}
+{"timestamp": "21:12", "speaker": "Speaker_D", "text": "conversation - side normalization for the non - C - zero components , and then utterance normalization for the C - zero components ."}
+{"timestamp": "21:19", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "21:21", "speaker": "Speaker_F", "text": "Yeah . This is another difference . Their normalization works like"}
+{"timestamp": "21:25", "speaker": "Speaker_F", "text": "on on the utterance levels ."}
+{"timestamp": "21:28", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "21:33", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "21:35", "speaker": "Speaker_F", "text": "it might be better with it might be worse if"}
+{"timestamp": "21:37", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "21:42", "speaker": "Speaker_F", "text": "Nnn ."}
+{"timestamp": "21:42", "speaker": "Speaker_G", "text": "And the acoustic models are like - k triphone models or or is it the whole word ?"}
+{"timestamp": "21:48", "speaker": "Speaker_F", "text": "SRI it 's it 's tr Yeah . I guess it 's triphones ."}
+{"timestamp": "21:48", "speaker": "Speaker_B", "text": "SRI ."}
+{"timestamp": "21:49", "speaker": "Speaker_G", "text": "Yeah ."}
+{"timestamp": "21:51", "speaker": "Speaker_G", "text": "It 's triphone ."}
+{"timestamp": "21:52", "speaker": "Speaker_C", "text": "I think it 's probably more than that . I mean , so they they have I I thin think they use these , uh ,"}
+{"timestamp": "21:52", "speaker": "Speaker_F", "text": "Huh ."}
+{"timestamp": "21:58", "speaker": "Speaker_C", "text": "uh , genone"}
+{"timestamp": "22:05", "speaker": "Speaker_C", "text": "and they can go out to all sorts of dependencies ."}
+{"timestamp": "22:07", "speaker": "Speaker_G", "text": "Oh . It 's like the tied state ."}
+{"timestamp": "22:08", "speaker": "Speaker_C", "text": "So ."}
+{"timestamp": "22:09", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "22:11", "speaker": "Speaker_C", "text": "I I I don't real I 'm talk I 'm just guessing here . But I think I think they they don't just have triphones . I think they have a range of of , uh , dependencies ."}
+{"timestamp": "22:13", "speaker": "Speaker_G", "text": "OK ."}
+{"timestamp": "22:16", "speaker": "Speaker_G", "text": "Mm - hmm ."}
+{"timestamp": "22:24", "speaker": "Speaker_F", "text": "Yeah . Well . Um ."}
+{"timestamp": "22:34", "speaker": "Speaker_F", "text": "And maybe see with Andreas if Well , I I don't know how much it helps , what 's the model ."}
+{"timestamp": "22:39", "speaker": "Speaker_D", "text": "So so the n stuff on the numbers you got , the two point seven , is that using the same training data that the SRI system used and got one point two ?"}
+{"timestamp": "22:48", "speaker": "Speaker_F", "text": "That 's right . So it 's the clean TI - digits training set ."}
+{"timestamp": "22:52", "speaker": "Speaker_D", "text": "So exact same training data ?"}
+{"timestamp": "22:52", "speaker": "Speaker_F", "text": "Right ."}
+{"timestamp": "22:54", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "22:54", "speaker": "Speaker_D", "text": "OK ."}
+{"timestamp": "22:56", "speaker": "Speaker_F", "text": "I guess you used the clean training set ."}
+{"timestamp": "22:59", "speaker": "Speaker_F", "text": "Mm - hmm . Well ."}
+{"timestamp": "23:01", "speaker": "Speaker_E", "text": "You know , the the Aurora baseline is set up with these , um this version of the clean training set that 's been filtered"}
+{"timestamp": "23:11", "speaker": "Speaker_E", "text": "um , to train the SRI system on digits S - Andreas used the"}
+{"timestamp": "23:16", "speaker": "Speaker_E", "text": "original TI - digits , um , under U doctor - speech data TI - digits , which don't have this filter . But I don't think there 's any other difference ."}
+{"timestamp": "23:24", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "23:25", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "23:28", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "23:29", "speaker": "Speaker_C", "text": "So is that ? Uh , are are these results comparable ? So you you were getting with the , uh , Aurora baseline"}
+{"timestamp": "23:35", "speaker": "Speaker_C", "text": "something like two point four percent on"}
+{"timestamp": "23:39", "speaker": "Speaker_C", "text": "clean TI - digits ,"}
+{"timestamp": "23:41", "speaker": "Speaker_C", "text": "when , uh , training the SRI system with clean TR digits TI - digits . Right ?"}
+{"timestamp": "23:47", "speaker": "Speaker_E", "text": "Um . Uh - huh ."}
+{"timestamp": "23:47", "speaker": "Speaker_C", "text": "And Yeah ."}
+{"timestamp": "23:48", "speaker": "Speaker_C", "text": "And , so , is your two point seven comparable ,"}
+{"timestamp": "23:51", "speaker": "Speaker_C", "text": "where you 're , uh , uh , using ,"}
+{"timestamp": "23:54", "speaker": "Speaker_C", "text": "uh , the submitted system ?"}
+{"timestamp": "23:57", "speaker": "Speaker_F", "text": "Yeah . I think so . Yeah ."}
+{"timestamp": "23:58", "speaker": "Speaker_C", "text": "OK . So it 's about the same , maybe a little worse ."}
+{"timestamp": "23:59", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "24:01", "speaker": "Speaker_E", "text": "W w it was one one point two"}
+{"timestamp": "24:03", "speaker": "Speaker_F", "text": "Ye -"}
+{"timestamp": "24:05", "speaker": "Speaker_F", "text": "Yeah . The complete SRI system is one point two . Yeah ."}
+{"timestamp": "24:10", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "24:20", "speaker": "Speaker_C", "text": "um , two point f"}
+{"timestamp": "24:23", "speaker": "Speaker_F", "text": "It was four point something . Right ?"}
+{"timestamp": "24:25", "speaker": "Speaker_F", "text": "The HTK system with , uh , b"}
+{"timestamp": "24:25", "speaker": "Speaker_E", "text": "D d"}
+{"timestamp": "24:28", "speaker": "Speaker_E", "text": "Do you mean the b ?"}
+{"timestamp": "24:29", "speaker": "Speaker_E", "text": "The baseline Aurora - two system ,"}
+{"timestamp": "24:32", "speaker": "Speaker_E", "text": "trained on TI - digits , tested on Meeting Recorder near , I think we saw in it today , and it was about six point six percent ."}
+{"timestamp": "24:37", "speaker": "Speaker_F", "text": "Oh ."}
+{"timestamp": "24:37", "speaker": "Speaker_C", "text": "Right . Right , right , right . OK ."}
+{"timestamp": "24:44", "speaker": "Speaker_C", "text": "He 's doing some different things ."}
+{"timestamp": "24:48", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "24:51", "speaker": "Speaker_F", "text": "Um ."}
+{"timestamp": "24:54", "speaker": "Speaker_F", "text": "Yeah . And another thing I I maybe would like to do is to just test"}
+{"timestamp": "24:58", "speaker": "Speaker_F", "text": "the SRI system that 's trained on Macrophone test it on ,"}
+{"timestamp": "25:04", "speaker": "Speaker_F", "text": "cuz I 'm still wondering where this improvement"}
+{"timestamp": "25:09", "speaker": "Speaker_F", "text": "comes from . When you train on Macrophone , it seems better on meeting digits ."}
+{"timestamp": "25:25", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "25:27", "speaker": "Speaker_F", "text": "Uh , f s"}
+{"timestamp": "25:27", "speaker": "Speaker_D", "text": "You know , it would also be interesting to see , uh to do the regular Aurora test , um , but use the SRI system instead of HTK ."}
+{"timestamp": "25:34", "speaker": "Speaker_F", "text": "That 's Yeah . That 's what I wanted , just , uh Yeah ."}
+{"timestamp": "25:38", "speaker": "Speaker_F", "text": "So , just using the SRI system , test"}
+{"timestamp": "25:40", "speaker": "Speaker_F", "text": "it on and test it on Aurora TI - digits . Right ."}
+{"timestamp": "25:45", "speaker": "Speaker_D", "text": "Why not the full Aurora , uh , test ?"}
+{"timestamp": "25:53", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "25:55", "speaker": "Speaker_F", "text": "i i"}
+{"timestamp": "25:57", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "25:58", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "25:58", "speaker": "Speaker_D", "text": "Yeah . That 's what I mean . So , like , comple"}
+{"timestamp": "26:01", "speaker": "Speaker_D", "text": "Mmm . Well , I mean , uh ,"}
+{"timestamp": "26:02", "speaker": "Speaker_F", "text": "Mmm ."}
+{"timestamp": "26:04", "speaker": "Speaker_D", "text": "uh ,"}
+{"timestamp": "26:14", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "26:15", "speaker": "Speaker_D", "text": "Because when you train up the Aurora system , you 're , uh you 're also training on all the"}
+{"timestamp": "26:20", "speaker": "Speaker_F", "text": "That 's right . Yeah ."}
+{"timestamp": "26:23", "speaker": "Speaker_F", "text": "Yeah . I see . Oh , so , OK . Right . I see what you mean ."}
+{"timestamp": "26:26", "speaker": "Speaker_C", "text": "That 's true , but I think that also"}
+{"timestamp": "26:29", "speaker": "Speaker_C", "text": "when we 've had these meetings week after week , oftentimes people have not done the full arrange of things because on on whatever it is they 're trying , because it 's a lot of work , even just with the HTK ."}
+{"timestamp": "26:33", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "26:38", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "26:39", "speaker": "Speaker_C", "text": "So , it 's it 's a good idea , but it seems like it makes sense to do some pruning"}
+{"timestamp": "26:44", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "26:45", "speaker": "Speaker_C", "text": "first with a a test or two that makes sense for you , and then take the likely candidates and go further ."}
+{"timestamp": "26:47", "speaker": "Speaker_D", "text": "Yeah . Yeah ."}
+{"timestamp": "26:53", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "26:54", "speaker": "Speaker_F", "text": "But , just testing on TI - digits would already give us some"}
+{"timestamp": "26:58", "speaker": "Speaker_F", "text": "information about what 's going on ."}
+{"timestamp": "27:09", "speaker": "Speaker_F", "text": "Uh , yeah . OK ."}
+{"timestamp": "27:10", "speaker": "Speaker_F", "text": "Uh , the next thing is this this VAD problem that ,"}
+{"timestamp": "27:25", "speaker": "Speaker_F", "text": "I sent you so , whi that shows that"}
+{"timestamp": "27:32", "speaker": "Speaker_F", "text": "uh , the current VAD approach doesn't drop much frames for"}
+{"timestamp": "27:38", "speaker": "Speaker_F", "text": "some particular noises ,"}
+{"timestamp": "27:40", "speaker": "Speaker_F", "text": "uh , which might be then noises that are closer to speech , uh , acoustically ."}
+{"timestamp": "27:47", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "27:47", "speaker": "Speaker_C", "text": "They were supp Supposedly , in the next evaluation , they 're going to be supplying us with boundaries . So does any of this matter ?"}
+{"timestamp": "27:58", "speaker": "Speaker_F", "text": "Well . First of all , the boundaries might be , uh like we would have"}
+{"timestamp": "28:03", "speaker": "Speaker_F", "text": "t"}
+{"timestamp": "28:05", "speaker": "Speaker_F", "text": "two hundred milliseconds or before and after speech . Uh ."}
+{"timestamp": "28:20", "speaker": "Speaker_F", "text": "No . Because we don't didn't"}
+{"timestamp": "28:23", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "28:23", "speaker": "Speaker_F", "text": "looked that much at that . But , still ,"}
+{"timestamp": "28:29", "speaker": "Speaker_C", "text": "Oh , yeah ."}
+{"timestamp": "28:30", "speaker": "Speaker_F", "text": "Um ."}
+{"timestamp": "28:31", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "28:38", "speaker": "Speaker_C", "text": "Because there 's lots of interesting problems , of course . And then the thing is if if they really are going to have some means of giving us fairly tight ,"}
+{"timestamp": "28:40", "speaker": "Speaker_F", "text": "Mm - hmm . Yeah , yeah ."}
+{"timestamp": "28:44", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "28:46", "speaker": "Speaker_C", "text": "uh , boundaries , then that won't be so much the issue ."}
+{"timestamp": "28:50", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "28:51", "speaker": "Speaker_C", "text": "Um But I don't know ."}
+{"timestamp": "28:53", "speaker": "Speaker_G", "text": "Because w we were wondering whether that VAD is going to be , like , a realistic one or is it going to be some manual"}
+{"timestamp": "28:59", "speaker": "Speaker_G", "text": "segmentation . And then , like , if if that VAD is going to be a realistic one , then we can actually use their markers to shift the"}
+{"timestamp": "29:07", "speaker": "Speaker_G", "text": "point around , I mean , the way we want"}
+{"timestamp": "29:09", "speaker": "Speaker_G", "text": "to find a I mean , rather than keeping the twenty frames , we can actually move the marker to a point which we find more suitable for us ."}
+{"timestamp": "29:16", "speaker": "Speaker_G", "text": "But if that is going to be something like a manual , uh , segmenter , then we can't use that information anymore , because that 's not going to be the one that is used in the final evaluation ."}
+{"timestamp": "29:16", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "29:16", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "29:25", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "29:25", "speaker": "Speaker_G", "text": "So . We don't know what is the type of VAD which they 're going to provide ."}
+{"timestamp": "29:27", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "29:29", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "29:33", "speaker": "Speaker_F", "text": "Yeah . There 's an uh , I think it 's still for even for the evaluation ,"}
+{"timestamp": "29:38", "speaker": "Speaker_F", "text": "uh , it might still be interesting to work on this because the boundaries apparently that they would provide is just ,"}
+{"timestamp": "29:52", "speaker": "Speaker_F", "text": "Um ."}
+{"timestamp": "29:53", "speaker": "Speaker_G", "text": "With some some gap . I mean , with some pauses in the center ,"}
+{"timestamp": "29:57", "speaker": "Speaker_G", "text": "provided they meet that whatever the hang - over time which they are talking ."}
+{"timestamp": "30:04", "speaker": "Speaker_G", "text": "Yeah . Then the they will just fill fill it up . I mean , th Yeah ."}
+{"timestamp": "30:07", "speaker": "Speaker_C", "text": "So if you could get at some of that , uh although that 'd be hard . But but Yeah ."}
+{"timestamp": "30:09", "speaker": "Speaker_F", "text": "Yeah . It might be useful"}
+{"timestamp": "30:10", "speaker": "Speaker_G", "text": "Yeah ."}
+{"timestamp": "30:11", "speaker": "Speaker_F", "text": "for , like , noise estimation , and a lot of other things that we want to work on . But Mmm ."}
+{"timestamp": "30:15", "speaker": "Speaker_C", "text": "Right . OK ."}
+{"timestamp": "30:21", "speaker": "Speaker_F", "text": "Yeah . So I did I just started to test putting together two VAD which was was not much work actually ."}
+{"timestamp": "30:29", "speaker": "Speaker_F", "text": "Um , I im re - implemented a VAD that 's very close to the ,"}
+{"timestamp": "30:45", "speaker": "Speaker_F", "text": "So , which is just putting a threshold on the noise energy ,"}
+{"timestamp": "30:49", "speaker": "Speaker_F", "text": "and , detect detecting the first group of four frames that have a energy that 's above this threshold ,"}
+{"timestamp": "30:59", "speaker": "Speaker_F", "text": "and , uh , from this point , uh , tagging the frames there as speech ."}
+{"timestamp": "31:06", "speaker": "Speaker_F", "text": "So it removes"}
+{"timestamp": "31:16", "speaker": "Speaker_F", "text": "still o on the noises where our MLP VAD doesn't work a lot ."}
+{"timestamp": "31:21", "speaker": "Speaker_C", "text": "Mmm ."}
+{"timestamp": "31:30", "speaker": "Speaker_C", "text": "uh , you know , in the old days people would use energy and zero crossings , for instance uh , would give you"}
+{"timestamp": "31:36", "speaker": "Speaker_C", "text": "some better performance . Right ? Cuz you might have low - energy"}
+{"timestamp": "31:40", "speaker": "Speaker_C", "text": "fricatives or or , uh stop consonants , or something like that ."}
+{"timestamp": "31:46", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "31:46", "speaker": "Speaker_C", "text": "Uh ."}
+{"timestamp": "31:50", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "32:05", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "32:05", "speaker": "Speaker_C", "text": "And , um , just as a gross generalization , most nonsp many nonspeech noises have a low - pass kind of characteristic ,"}
+{"timestamp": "32:14", "speaker": "Speaker_C", "text": "some sort of slope ."}
+{"timestamp": "32:15", "speaker": "Speaker_C", "text": "And and most ,"}
+{"timestamp": "32:18", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "32:22", "speaker": "Speaker_C", "text": "a high - pass kind of characteristic an upward slope ."}
+{"timestamp": "32:25", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "32:27", "speaker": "Speaker_C", "text": "uh , you know , at the beginning of a of a of an S sound for instance , just starting in , it might be pretty low - energy , but it will tend to have this high - frequency component . Whereas ,"}
+{"timestamp": "32:33", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "32:39", "speaker": "Speaker_C", "text": "a a lot of rumble , and background noises , and so forth will be predominantly low - frequency . Uh , you know , by itself it 's not enough"}
+{"timestamp": "32:51", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "32:55", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "33:03", "speaker": "Speaker_F", "text": "so , removes like low ,"}
+{"timestamp": "33:09", "speaker": "Speaker_F", "text": "low - energy , uh , speech frames . Because the way I do it is I just I just combine"}
+{"timestamp": "33:15", "speaker": "Speaker_F", "text": "the two decisions so , the one from the MLP and the one from the energy - based with the with the and operator . So ,"}
+{"timestamp": "33:22", "speaker": "Speaker_F", "text": "I only keep the frames where the two agree that it 's speech ."}
+{"timestamp": "33:28", "speaker": "Speaker_F", "text": "So if the energy - based dropped dropped low - energy speech ,"}
+{"timestamp": "33:32", "speaker": "Speaker_F", "text": "mmm , they they are they are lost ."}
+{"timestamp": "33:35", "speaker": "Speaker_F", "text": "Mmm ."}
+{"timestamp": "33:37", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "33:37", "speaker": "Speaker_F", "text": "But s still , the way it 's done right now it it helps on on the noises where it seems to help on the noises where"}
+{"timestamp": "33:52", "speaker": "Speaker_C", "text": "combining them in different ways . But but ,"}
+{"timestamp": "33:54", "speaker": "Speaker_C", "text": "I guess what you 're saying is that the the MLP - based one has the spectral information ."}
+{"timestamp": "33:59", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "34:00", "speaker": "Speaker_C", "text": "So ."}
+{"timestamp": "34:03", "speaker": "Speaker_F", "text": "Yeah . But the way it 's combined wi is maybe done Well , yeah ."}
+{"timestamp": "34:14", "speaker": "Speaker_C", "text": "Is ?"}
+{"timestamp": "34:14", "speaker": "Speaker_F", "text": "The frames that are dropped by the energy - based system are are , uh , dropped ,"}
+{"timestamp": "34:19", "speaker": "Speaker_F", "text": "even if the , um , MLP decides to keep them ."}
+{"timestamp": "34:19", "speaker": "Speaker_C", "text": "Right ."}
+{"timestamp": "34:23", "speaker": "Speaker_F", "text": "But , yeah ."}
+{"timestamp": "34:24", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "34:24", "speaker": "Speaker_D", "text": "No -"}
+{"timestamp": "34:28", "speaker": "Speaker_C", "text": "uh , a probability estimated by each one and and put them together ."}
+{"timestamp": "34:31", "speaker": "Speaker_F", "text": "Yeah . Mmm . M Yeah ."}
+{"timestamp": "34:32", "speaker": "Speaker_D", "text": "Something that that I 've used in the past is , um when just looking at the energy , is to look at the derivative ."}
+{"timestamp": "34:39", "speaker": "Speaker_D", "text": "And you make your decision when the derivative is increasing for so many frames ."}
+{"timestamp": "34:44", "speaker": "Speaker_D", "text": "Then you say that 's beginning of speech ."}
+{"timestamp": "34:44", "speaker": "Speaker_F", "text": "Uh - huh ."}
+{"timestamp": "34:47", "speaker": "Speaker_D", "text": "But , I 'm I 'm trying to remember if that requires that you"}
+{"timestamp": "34:51", "speaker": "Speaker_D", "text": "keep some amount of speech in a buffer ."}
+{"timestamp": "34:55", "speaker": "Speaker_D", "text": "I guess it depends on how you do it . But I mean , that 's that 's been a useful thing ."}
+{"timestamp": "34:57", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "34:59", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "35:02", "speaker": "Speaker_G", "text": "Yeah . Well , every everywhere has a delay associated with it . I mean , you still have to k always keep a buffer ,"}
+{"timestamp": "35:07", "speaker": "Speaker_D", "text": "Mm - hmm ."}
+{"timestamp": "35:08", "speaker": "Speaker_G", "text": "then only make a decision because you still need to smooth the decision further ."}
+{"timestamp": "35:11", "speaker": "Speaker_D", "text": "Right . Right ."}
+{"timestamp": "35:14", "speaker": "Speaker_G", "text": "So that 's always there ."}
+{"timestamp": "35:15", "speaker": "Speaker_D", "text": "Yeah . OK ."}
+{"timestamp": "35:26", "speaker": "Speaker_F", "text": "what I observed was the re was caused by this this VAD problem . And it seems to be the case ."}
+{"timestamp": "35:30", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "35:36", "speaker": "Speaker_F", "text": "Uh , the second thing is the this spectral subtraction . Um ."}
+{"timestamp": "35:50", "speaker": "Speaker_F", "text": "twenty - five experiments ,"}
+{"timestamp": "35:52", "speaker": "Speaker_F", "text": "uh , with different ,"}
+{"timestamp": "35:55", "speaker": "Speaker_F", "text": "uh , values for the parameters that are used . So ,"}
+{"timestamp": "35:58", "speaker": "Speaker_F", "text": "it 's the Makhoul - type spectral subtraction which use an over - estimation factor . So , we substr I subtract more ,"}
+{"timestamp": "36:09", "speaker": "Speaker_F", "text": "noise than"}
+{"timestamp": "36:10", "speaker": "Speaker_F", "text": "the noise spectra that is estimated on the noise portion of the s uh , the utterances ."}
+{"timestamp": "36:18", "speaker": "Speaker_F", "text": "So I tried several ,"}
+{"timestamp": "36:23", "speaker": "Speaker_F", "text": "And after subtraction , I also add a constant noise , and I also try different ,"}
+{"timestamp": "36:30", "speaker": "Speaker_F", "text": "uh ,"}
+{"timestamp": "36:39", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "36:48", "speaker": "Speaker_F", "text": "Well , it depends on the parameters that you use , but"}
+{"timestamp": "36:51", "speaker": "Speaker_F", "text": "for moderate over - estimation factors and moderate noise level that you add , you st have a lot of musical noise ."}
+{"timestamp": "36:59", "speaker": "Speaker_F", "text": "Um ."}
+{"timestamp": "37:00", "speaker": "Speaker_F", "text": "On the other hand , when you subtract more and when you add more noise , you get rid of this musical noise but maybe you distort a lot of speech . So ."}
+{"timestamp": "37:14", "speaker": "Speaker_F", "text": "Mmm ."}
+{"timestamp": "37:22", "speaker": "Speaker_F", "text": "We 'll see ."}
+{"timestamp": "37:23", "speaker": "Speaker_F", "text": "So the next thing , maybe I what I will try to to do is just to try to smooth"}
+{"timestamp": "37:44", "speaker": "Speaker_G", "text": "Can smooth the SNR estimate , also ."}
+{"timestamp": "37:47", "speaker": "Speaker_F", "text": "Yeah . Right ."}
+{"timestamp": "37:49", "speaker": "Speaker_F", "text": "Mmm ."}
+{"timestamp": "37:51", "speaker": "Speaker_G", "text": "Your filter is a function of SNR . Hmm ?"}
+{"timestamp": "37:58", "speaker": "Speaker_G", "text": "Yeah ."}
+{"timestamp": "37:58", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "38:01", "speaker": "Speaker_F", "text": "Yeah ."}
+{"timestamp": "38:07", "speaker": "Speaker_G", "text": "Uh . I don't know , it 's go ahead . And it 's go ahead ."}
+{"timestamp": "38:14", "speaker": "Speaker_G", "text": "OK ."}
+{"timestamp": "38:17", "speaker": "Speaker_G", "text": "u"}
+{"timestamp": "38:18", "speaker": "Speaker_G", "text": "th I 've been playing with this Wiener filter , like . And"}
+{"timestamp": "38:21", "speaker": "Speaker_G", "text": "there are there were some bugs in the program , so I was p initially trying to clear them up ."}
+{"timestamp": "38:25", "speaker": "Speaker_G", "text": "Because one of the bug was I was assuming that always the VAD uh , the initial frames were silence ."}
+{"timestamp": "38:31", "speaker": "Speaker_G", "text": "It always started in the silence state , but it wasn't for some utterances ."}
+{"timestamp": "38:35", "speaker": "Speaker_G", "text": "So the it wasn't estimating the noise initially ,"}
+{"timestamp": "38:38", "speaker": "Speaker_G", "text": "and then it never estimated , because I assumed that it was always"}
+{"timestamp": "38:41", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "38:42", "speaker": "Speaker_G", "text": "silence ."}
+{"timestamp": "38:42", "speaker": "Speaker_F", "text": "So this is on SpeechDat - Car Italian ?"}
+{"timestamp": "38:46", "speaker": "Speaker_G", "text": "Yeah . There 're a few cases , actually , which I found later , that there are ."}
+{"timestamp": "38:47", "speaker": "Speaker_F", "text": "o"}
+{"timestamp": "38:49", "speaker": "Speaker_F", "text": "Uh - huh ."}
+{"timestamp": "38:54", "speaker": "Speaker_G", "text": "And , uh , so once it was cleared , uh , I ran a few experiments with different ways of smoothing the estimated clean speech and"}
+{"timestamp": "39:03", "speaker": "Speaker_G", "text": "how t estimated the noise and , eh , smoothing the SNR also ."}
+{"timestamp": "39:09", "speaker": "Speaker_G", "text": "And so the the trend seems to be like ,"}
+{"timestamp": "39:14", "speaker": "Speaker_G", "text": "smoothing the current estimate of the clean speech for deriving the"}
+{"timestamp": "39:18", "speaker": "Speaker_G", "text": "SNR , which is like deriving the Wiener filter , seems to be helping . Then updating it quite fast using a very small time constant ."}
+{"timestamp": "39:31", "speaker": "Speaker_G", "text": "the More smoothing is helping . But still it 's like it 's still comparable to the baseline . I haven't got anything beyond the baseline . But that 's , like , not using any Wiener filter ."}
+{"timestamp": "39:41", "speaker": "Speaker_G", "text": "And , uh , so I 'm I 'm trying a few more experiments with"}
+{"timestamp": "39:55", "speaker": "Speaker_G", "text": "So , one is fixed in the line , like Smoothing the clean speech is is helping , so I 'm not going to change it that much . But , the way I 'm estimating the noise"}
+{"timestamp": "40:02", "speaker": "Speaker_G", "text": "and the way I 'm estimating the SNR , I 'm just trying trying a little bit ."}
+{"timestamp": "40:06", "speaker": "Speaker_G", "text": "So , that h And the other thing is , like , putting a floor on the , uh , SNR , because that if"}
+{"timestamp": "40:13", "speaker": "Speaker_G", "text": "some In some cases the clean speech is , like when it 's estimated , it goes to very low values , so the SNR is , like , very low . And"}
+{"timestamp": "40:21", "speaker": "Speaker_G", "text": "so that actually creates a lot of variance in the low - energy region of the speech ."}
+{"timestamp": "40:25", "speaker": "Speaker_G", "text": "So , I 'm thinking of , like , putting a floor also for the SNR so that it doesn't vary a lot in the low - energy regions ."}
+{"timestamp": "40:43", "speaker": "Speaker_G", "text": "the contributions out . So it 's just VAD , plus the Wiener filter , plus the baseline system ,"}
+{"timestamp": "40:48", "speaker": "Speaker_G", "text": "which is , uh , just the spectral I mean , the mel sp"}
+{"timestamp": "40:52", "speaker": "Speaker_G", "text": "mel , uh , frequency coefficients ."}
+{"timestamp": "40:55", "speaker": "Speaker_G", "text": "Um ."}
+{"timestamp": "40:56", "speaker": "Speaker_G", "text": "And the other thing that I tried was but I just"}
+{"timestamp": "41:03", "speaker": "Speaker_G", "text": "which Hynek had ,"}
+{"timestamp": "41:05", "speaker": "Speaker_G", "text": "to see whether it really h helps or not . I mean , it was just a a run to see whether it really degrades or it helps . And"}
+{"timestamp": "41:11", "speaker": "Speaker_G", "text": "it 's it seems to be like it 's not"}
+{"timestamp": "41:19", "speaker": "Speaker_G", "text": "a band - pass m m filter on the cubic root of the power spectrum ."}
+{"timestamp": "41:24", "speaker": "Speaker_G", "text": "So , that was the filter that Hy - uh , Carlos had ."}
+{"timestamp": "41:47", "speaker": "Speaker_G", "text": "and where d if he has any filters which are derived on OGI stories , added with some type of noise which what we are using currently , or"}
+{"timestamp": "41:57", "speaker": "Speaker_G", "text": "Yeah . Cubic root of power spectrum ."}
+{"timestamp": "41:59", "speaker": "Speaker_C", "text": "So , if you have this band - pass filter , you probably get n you get negative values . Right ?"}
+{"timestamp": "42:03", "speaker": "Speaker_G", "text": "Yeah . And I 'm , like , floating it to z zeros right now ."}
+{"timestamp": "42:06", "speaker": "Speaker_G", "text": "So it has , like the spectrogram has , like Uh , it actually ,"}
+{"timestamp": "42:11", "speaker": "Speaker_G", "text": "uh , enhances the onset and offset of I mean , the the begin and the end of the speech ."}
+{"timestamp": "42:16", "speaker": "Speaker_G", "text": "So it 's there seems to be , like , deep valleys in the begin and the end of , like , high - energy regions , because the filter has , like , a sort of Mexican - hat type structure ."}
+{"timestamp": "42:20", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "42:24", "speaker": "Speaker_G", "text": "So , those are the regions where there are , like when I look at the spectrogram , there are those deep valleys on the begin and the end of the speech ."}
+{"timestamp": "42:24", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "42:29", "speaker": "Speaker_G", "text": "But the rest of it seems to be , like , pretty nice ."}
+{"timestamp": "42:32", "speaker": "Speaker_C", "text": "Mm - hmm ."}
+{"timestamp": "42:32", "speaker": "Speaker_G", "text": "So ."}
+{"timestamp": "42:34", "speaker": "Speaker_G", "text": "That 's something I observe using that filter ."}
+{"timestamp": "42:38", "speaker": "Speaker_G", "text": "Yeah . There are a few very not a lot of because the filter doesn't have a really a deep negative portion ,"}
+{"timestamp": "42:44", "speaker": "Speaker_G", "text": "so that it 's not really creating a lot of negative values in the cubic root ."}
+{"timestamp": "42:50", "speaker": "Speaker_G", "text": "I 'll s may continue with that for some w I 'll I 'll Maybe I 'll ask Carlos a little more about how to play with those filters ,"}
+{"timestamp": "42:57", "speaker": "Speaker_G", "text": "and but while making this Wiener filter better ."}
+{"timestamp": "43:01", "speaker": "Speaker_G", "text": "Yeah . That that 's it , Morgan ."}
+{"timestamp": "43:05", "speaker": "Speaker_C", "text": "Uh , last week you were also talking about building up the subspace stuff ?"}
+{"timestamp": "43:17", "speaker": "Speaker_G", "text": "th you know , things , and I didn't work much on that ."}
+{"timestamp": "43:26", "speaker": "Speaker_D", "text": "How about you , Carmen ?"}
+{"timestamp": "43:28", "speaker": "Speaker_A", "text": "Well , I am still working with , eh , VTS . And , one of the things that last week ,"}
+{"timestamp": "43:36", "speaker": "Speaker_A", "text": "eh , say here is that maybe the problem was with the diff because the signal have different level of energy ."}
+{"timestamp": "43:44", "speaker": "Speaker_C", "text": "Hmm ?"}
+{"timestamp": "43:53", "speaker": "Speaker_A", "text": "But then we decided that that 's it doesn't work absolutely , because we modified also the noise ."}
+{"timestamp": "44:00", "speaker": "Speaker_A", "text": "And Well , thinking"}
+{"timestamp": "44:05", "speaker": "Speaker_A", "text": "we then we decide that maybe is a good idea . We don't know . I don't hav I don't this is I didn't do the experiment yet to apply VTS"}
+{"timestamp": "44:32", "speaker": "Speaker_C", "text": "So you could do a different normalization for C - zero than for other things anyway ."}
+{"timestamp": "44:44", "speaker": "Speaker_C", "text": "uh , you could do some normalization s uh , before the VTS , and then do some other normalization after ."}
+{"timestamp": "44:58", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "44:59", "speaker": "Speaker_A", "text": "Well , we s decide to m to to obtain the new expression if we work in the cepstral domain ."}
+{"timestamp": "45:09", "speaker": "Speaker_A", "text": "And Well . I am working in that now , but I 'm not sure if that will be usefu useful . I don't know . It 's k it 's k"}
+{"timestamp": "45:11", "speaker": "Speaker_C", "text": "Uh - huh ."}
+{"timestamp": "45:22", "speaker": "Speaker_C", "text": "Uh - huh ."}
+{"timestamp": "45:25", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "45:34", "speaker": "Speaker_A", "text": "I don't have any feeling if this will work better than"}
+{"timestamp": "45:44", "speaker": "Speaker_A", "text": "in filter bank domain ."}
+{"timestamp": "45:47", "speaker": "Speaker_A", "text": "I r I 'm not sure . I don't I don't know absolutely nothing ."}
+{"timestamp": "45:50", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "45:52", "speaker": "Speaker_C", "text": "Yeah . Well , you 're I think you 're the first one here to work with VTS , so ,"}
+{"timestamp": "46:00", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "46:04", "speaker": "Speaker_C", "text": "Um ."}
+{"timestamp": "46:07", "speaker": "Speaker_F", "text": "Actually , the VTS that you tested before was in the log domain and so the codebook is"}
+{"timestamp": "46:11", "speaker": "Speaker_A", "text": "Yeah ?"}
+{"timestamp": "46:25", "speaker": "Speaker_F", "text": "to , uh , be a better"}
+{"timestamp": "46:27", "speaker": "Speaker_F", "text": "model of speech ."}
+{"timestamp": "46:29", "speaker": "Speaker_F", "text": "And . Well ."}
+{"timestamp": "46:35", "speaker": "Speaker_F", "text": "No . We could normali norm I mean , remove the median ."}
+{"timestamp": "46:37", "speaker": "Speaker_C", "text": "Yeah . Yeah ."}
+{"timestamp": "46:39", "speaker": "Speaker_A", "text": "Mm - hmm ."}
+{"timestamp": "46:46", "speaker": "Speaker_F", "text": "But here also we would have to be careful about removing the mean of speech and"}
+{"timestamp": "46:52", "speaker": "Speaker_A", "text": "Ye -"}
+{"timestamp": "46:52", "speaker": "Speaker_F", "text": "not of noise . Because it 's like first doing general normalization and then"}
+{"timestamp": "47:05", "speaker": "Speaker_A", "text": "to estimate the noise with the first frames and then apply the VAD ,"}
+{"timestamp": "47:14", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "47:14", "speaker": "Speaker_A", "text": "before the on - line normalization ."}
+{"timestamp": "47:18", "speaker": "Speaker_F", "text": "Mm - hmm ."}
+{"timestamp": "47:23", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "47:25", "speaker": "Speaker_C", "text": "Sure . I mean , one of the things we 've talked about maybe it might be star time to start thinking about pretty soon , is"}
+{"timestamp": "47:31", "speaker": "Speaker_C", "text": "as we look at the pros and cons of these different methods , how do they fit in with one another ? Because we 've talked about"}
+{"timestamp": "47:38", "speaker": "Speaker_C", "text": "potentially doing some combination of a couple of them ."}
+{"timestamp": "47:46", "speaker": "Speaker_C", "text": "should be combined ."}
+{"timestamp": "47:57", "speaker": "Speaker_D", "text": "OK ? Yep . Want to go ahead , Morgan ?"}
+{"timestamp": "48:00", "speaker": "Speaker_C", "text": "Sure ."}

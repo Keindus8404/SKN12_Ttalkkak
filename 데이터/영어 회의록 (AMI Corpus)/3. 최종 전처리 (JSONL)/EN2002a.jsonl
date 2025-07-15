@@ -1,0 +1,525 @@
+﻿{"timestamp": "00:00", "speaker": "Speaker_D", "text": "Funky sh stuff like that ."}
+{"timestamp": "00:00", "speaker": "Speaker_A", "text": "Wonder how much of the meetings is talking about the stuff at the meetings . Yeah ."}
+{"timestamp": "00:03", "speaker": "Speaker_C", "text": "Yeah , exactly , yeah yeah yeah ."}
+{"timestamp": "00:15", "speaker": "Speaker_C", "text": "Well should we just go around and everyone says what they d what they've been doing , how far they've got . Well I hope so ."}
+{"timestamp": "00:21", "speaker": "Speaker_A", "text": "Not a lot . No ."}
+{"timestamp": "00:25", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "00:32", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "00:32", "speaker": "Speaker_A", "text": "'Kay ."}
+{"timestamp": "00:36", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "00:48", "speaker": "Speaker_B", "text": "Okay . Sorry . Yeah ."}
+{"timestamp": "00:48", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "00:50", "speaker": "Speaker_C", "text": "So yeah . We've go a browser we've um which comes up automatically with a transcription box and the topics . And then when you go on the menu , you can select a summarisation box , which pops up , and an audio player ."}
+{"timestamp": "01:08", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "01:08", "speaker": "Speaker_C", "text": "Um and a s I think the search works as well , so you could pop up a search . And it loads up um just the background window is empty and um so when you start , you have to either open open a particular observation or do a search and open it through that ."}
+{"timestamp": "01:26", "speaker": "Speaker_C", "text": "Does that make sense ?"}
+{"timestamp": "01:28", "speaker": "Speaker_C", "text": "Um the transcription box has got a summarise but button , which doesn't do anything yet . Um now I wonder wh how we wanna do , you know , we want a pop-up window with the speaker characterisation ."}
+{"timestamp": "01:46", "speaker": "Speaker_C", "text": "Um either we could do that you know , when does the pop-up come ? Either we can when you click on the the I_D_ , any sort of I_D_ in the transcription box , or we can put an extra button extra few buttons next to the summarise button so that you actually in the transcription box , but so like you click on a button and then that opens whatever that speaker characterisation is . The problem is the r the left-click is already used because it highlights that um"}
+{"timestamp": "01:46", "speaker": "Speaker_D", "text": "D yeah ."}
+{"timestamp": "01:46", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "02:16", "speaker": "Speaker_C", "text": "that part of speech or whatever that what he's been saying , you know , the the left-click highlights it . So that you can I don't know what happens when you double-click actually , but that'd be a bit annoying if you have left-click for one thing and double-click for something else . Um I think so yeah , when you left-click it , you can for example set set the marker there so that the mm the audio goes from there , I think ."}
+{"timestamp": "02:18", "speaker": "Speaker_D", "text": "The l the left-click or the right-click ."}
+{"timestamp": "02:20", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "02:22", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "02:32", "speaker": "Speaker_B", "text": "Yeah , I don't know ."}
+{"timestamp": "02:42", "speaker": "Speaker_C", "text": "Um so we can't put it on left-click . We could put it on a right-click . We could for example have a little menu that pops up ."}
+{"timestamp": "02:49", "speaker": "Speaker_D", "text": "Yeah , it might be quite good , I suppose . Yeah ."}
+{"timestamp": "02:50", "speaker": "Speaker_C", "text": "So right-click on at menu , you know , and you can click on speaker characterisation , up pops the window ."}
+{"timestamp": "02:56", "speaker": "Speaker_D", "text": "What else could we have in the menu ?"}
+{"timestamp": "03:05", "speaker": "Speaker_C", "text": "Yeah , yeah , but um I don't know about you , but uh usually in Windows right-click doesn't do anything , does it ? It opens a menu . Yeah , so yeah . So but that'd be yeah . If you just yeah ."}
+{"timestamp": "03:10", "speaker": "Speaker_D", "text": "Is a window ."}
+{"timestamp": "03:22", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "03:23", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "03:23", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "03:24", "speaker": "Speaker_C", "text": "Um or just , you know , or just the button ."}
+{"timestamp": "03:27", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "03:27", "speaker": "Speaker_B", "text": "I guess a button button makes a bit more sense , 'cause otherwise you don't really know that , oh , what if I right-click now , what happens then ? It's like more if it's visual . Yeah ."}
+{"timestamp": "03:38", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "03:43", "speaker": "Speaker_C", "text": "Well oh , yeah . It's more obvious , isn't it , w what you can do . Yeah . Yeah , that's right . That's true , yeah , it's more intuitive really , isn't it ?"}
+{"timestamp": "03:51", "speaker": "Speaker_B", "text": "But well , we we can have both , but whatever ."}
+{"timestamp": "03:54", "speaker": "Speaker_D", "text": "Add more buttons ."}
+{"timestamp": "04:21", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "04:23", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "04:27", "speaker": "Speaker_D", "text": "I guess so . So what did you part of the m the menu that comes down , it says give me all your meetings or something ."}
+{"timestamp": "04:40", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "04:44", "speaker": "Speaker_C", "text": "Or is that too much I mean ?"}
+{"timestamp": "04:45", "speaker": "Speaker_B", "text": "Yeah , um I don't I mean it w it's more like part of the"}
+{"timestamp": "04:51", "speaker": "Speaker_B", "text": "browsing sort of thingy . More than the speaker characterisation , as m Steve mentioned . Um , I don't really know how to involve the speaker characterisation into the browsing ."}
+{"timestamp": "04:56", "speaker": "Speaker_C", "text": "Yeah . Yeah , that's true , yeah . Yeah ."}
+{"timestamp": "04:58", "speaker": "Speaker_A", "text": "Hmm . Yeah ."}
+{"timestamp": "05:03", "speaker": "Speaker_A", "text": "Yeah , but maybe tie that in with dialogue acts or something as well . I mean speaker characterisation tied into I don't know . Di Just some way to sort of leverage that information . Like we have it , we're doing it , but what how does it help the browsing ? Or what can it give us in the browsing ? Yeah . Yeah ."}
+{"timestamp": "05:16", "speaker": "Speaker_C", "text": "Or you mean the the speaker characterisation ? Oh well , yeah , I mean ,"}
+{"timestamp": "05:25", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "05:32", "speaker": "Speaker_D", "text": "Yeah yeah ."}
+{"timestamp": "05:33", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "05:35", "speaker": "Speaker_B", "text": "Yeah . I mean I guess maybe we could have that as another thing of like , well if you get the speaker characterisation that someone s talks a lot in uh a certain topic , and then if you , I don't know , click on that topic , you get everything that's in that topic or whatever . And in that way but I don't know ."}
+{"timestamp": "05:54", "speaker": "Speaker_C", "text": "Yeah , I mean that's that's still another level further . I mean we're not even there yet . You know , it doesn't even doesn't even pop up the speaker characterisation yet . Y we have to first define what what happens when you click on a user ."}
+{"timestamp": "05:58", "speaker": "Speaker_B", "text": "No no no . Yeah ."}
+{"timestamp": "05:59", "speaker": "Speaker_D", "text": "Oh yeah ."}
+{"timestamp": "06:07", "speaker": "Speaker_A", "text": "Yeah . True , yeah ."}
+{"timestamp": "06:14", "speaker": "Speaker_D", "text": "Yeah . Alright . Why not ."}
+{"timestamp": "06:16", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "06:16", "speaker": "Speaker_A", "text": "Is that just from the main main window ? Is that is that from any particular window , like if we wanna sorta get like if we were on the users versus like topic or something , have a right-click from for these various things to yeah ."}
+{"timestamp": "06:17", "speaker": "Speaker_C", "text": "Sorry ?"}
+{"timestamp": "06:18", "speaker": "Speaker_D", "text": "Even if only one thing comes up ."}
+{"timestamp": "06:37", "speaker": "Speaker_A", "text": "Right , yeah . Yep ."}
+{"timestamp": "06:38", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "06:42", "speaker": "Speaker_A", "text": "Okay , yeah ."}
+{"timestamp": "06:44", "speaker": "Speaker_A", "text": "Now it's consistent throughout . So , yeah ."}
+{"timestamp": "06:46", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "06:46", "speaker": "Speaker_D", "text": "On the t speaker ."}
+{"timestamp": "06:49", "speaker": "Speaker_C", "text": "So yeah . So we have basically two options of of browsing the meetings is by either um searching and opening individual observations . And when then we have the interlinking by right-click basically ."}
+{"timestamp": "06:50", "speaker": "Speaker_D", "text": "And then this lot is on th"}
+{"timestamp": "07:04", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "07:06", "speaker": "Speaker_A", "text": "Actually yeah , like um another common thing , like if we have it so it's set up that um if you double-click and it goes to a default thing on the menu , I mean that's kind of a typical kinda action that would happen . If you double-click on a particular topic or something , then it goes to sort of a like a default view , so it'll be like all the um cases of that topic , either whatever we decide the default to be , whether it's in all meetings or just in one meeting , and just show up the the particular instances of that topic in a meeting . Like I'm just thinking to have the default there , so if somebody knows exactly what they wanna do and we know that that's the most common thing that's gonna happen , so the double-click will do that and so save them the trouble of right-clicking and choosing the item on the menu ."}
+{"timestamp": "07:20", "speaker": "Speaker_C", "text": "Oh ."}
+{"timestamp": "07:38", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "07:42", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "07:46", "speaker": "Speaker_A", "text": "Well , it might come to us as we start playing with it ."}
+{"timestamp": "07:49", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "07:51", "speaker": "Speaker_A", "text": "Um like we have the the right-click menu . You'll have the menu , right-click it , but instead of like have a default double-click , so if there's a de so it'll be a choice from the menu but yeah , exactly . Yeah ."}
+{"timestamp": "07:51", "speaker": "Speaker_B", "text": "Uh just let th"}
+{"timestamp": "07:53", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "07:58", "speaker": "Speaker_D", "text": "Oh , so and it figures out what's the most common use to double-click . Oh . Okay ."}
+{"timestamp": "07:58", "speaker": "Speaker_B", "text": "Yep ."}
+{"timestamp": "08:01", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "08:03", "speaker": "Speaker_B", "text": "Like , I don't know , show the speaker characterisation for instance . Or just I don't know ."}
+{"timestamp": "08:06", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "08:06", "speaker": "Speaker_C", "text": "Yeah , but then then there's the problem with a lot of windows popping up again . And they pop up without you even being quite sure what it is , you know what I mean ?"}
+{"timestamp": "08:06", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "08:11", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "08:14", "speaker": "Speaker_A", "text": "Yeah . Yeah ."}
+{"timestamp": "08:16", "speaker": "Speaker_B", "text": "But if you do double-click on something , don't you expect something to happen then ?"}
+{"timestamp": "08:21", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "08:23", "speaker": "Speaker_B", "text": "Sort of well , I don't know ."}
+{"timestamp": "08:24", "speaker": "Speaker_D", "text": "Sometimes you do it by accident though . You , oh go away . Stop coming up . Yeah . No . Yeah , yeah , oh yeah . T throw stuff throwing out the window ."}
+{"timestamp": "08:41", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "08:46", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "08:57", "speaker": "Speaker_B", "text": "I don't know ."}
+{"timestamp": "08:58", "speaker": "Speaker_C", "text": "Sorry ."}
+{"timestamp": "09:06", "speaker": "Speaker_B", "text": "Yeah , what you're clicking on . Obviously ."}
+{"timestamp": "09:08", "speaker": "Speaker_C", "text": "Sorry . Um yeah , another thing . Single audio files . Do we wanna use them or not ?"}
+{"timestamp": "09:09", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "09:18", "speaker": "Speaker_D", "text": "We don't know yet do we , I don't think . Do you mean the single channel ?"}
+{"timestamp": "09:21", "speaker": "Speaker_B", "text": "Single channel ."}
+{"timestamp": "09:22", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "09:25", "speaker": "Speaker_D", "text": "Probably not , but we might need them for disfluencies , if we try do it in audio . But at the moment , no . But yeah ."}
+{"timestamp": "09:26", "speaker": "Speaker_B", "text": "No ."}
+{"timestamp": "09:29", "speaker": "Speaker_A", "text": "Well , yeah ."}
+{"timestamp": "09:37", "speaker": "Speaker_D", "text": "We might want to be able to say oh , just give me what that person's saying ."}
+{"timestamp": "09:41", "speaker": "Speaker_C", "text": "Do you though ? I mean it's not gonna make much sense if you don't listen to it on its own d do you ? Does it ?"}
+{"timestamp": "09:41", "speaker": "Speaker_B", "text": "No ."}
+{"timestamp": "09:45", "speaker": "Speaker_D", "text": "Unless um you can't hear it properly or something . Somebody's talking over somebody else or something . Well p"}
+{"timestamp": "09:50", "speaker": "Speaker_D", "text": "W we just say no for now and put it in later or something . Yeah , yeah ."}
+{"timestamp": "09:52", "speaker": "Speaker_C", "text": "No , hmm . Yeah ."}
+{"timestamp": "09:55", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "09:56", "speaker": "Speaker_D", "text": "Yeah , 'cause otherwise it will the it will increase the amount of data we need by a lot , won't it ? Therefore print will be bigger ."}
+{"timestamp": "10:01", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "10:04", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "10:09", "speaker": "Speaker_C", "text": "Yeah , wh what do people think in general about the windows cluttering that he's mentioned ? Do you think do you think it's really that bad ?"}
+{"timestamp": "10:25", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "10:26", "speaker": "Speaker_A", "text": "Although the thing is typically though , is someone gonna have five windows open at the same time , probably not . Probably just two or two or three of whatever whatever they're looking at , like dialogue acts , to whatever , characterisations ."}
+{"timestamp": "10:30", "speaker": "Speaker_C", "text": "Probably not , no . Yeah . Two or three maybe , but yeah . But yeah , it depends , I mean I I really wanna put the summary in somewhere , you know . And the summary for example is typical . You open the window , you read through it , you might click on you know , close it again straight-away . But it'd be good to have it there ."}
+{"timestamp": "10:39", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "10:46", "speaker": "Speaker_D", "text": "Yeah . No , I think it's I think it's fine . Yeah . I think what we're doing is fine ."}
+{"timestamp": "10:46", "speaker": "Speaker_A", "text": "Yeah , true ."}
+{"timestamp": "10:46", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "10:48", "speaker": "Speaker_B", "text": "But uh well , couldn't we I mean you probably I don't know if you wanna have like the the full transcription and the summary at the same time ."}
+{"timestamp": "10:57", "speaker": "Speaker_B", "text": "So maybe you can just like choose the s same window for transcription and summary ."}
+{"timestamp": "11:01", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "11:03", "speaker": "Speaker_A", "text": "So like have a tab there ? For something like that choose on choose one ."}
+{"timestamp": "11:09", "speaker": "Speaker_D", "text": "Yeah , tabs are good . Mozilla style . Yeah ."}
+{"timestamp": "11:09", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "11:10", "speaker": "Speaker_C", "text": "That true . Yea yeah yeah yeah . That's right . I'm not sure yeah ."}
+{"timestamp": "11:16", "speaker": "Speaker_C", "text": "No . I don't know . Do you reckon ? I'm sure . I'm sure you could do anything ."}
+{"timestamp": "11:20", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "11:22", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "11:22", "speaker": "Speaker_D", "text": "If you really knew what you're doing . But I don't know . It's a bit of a cripple with Java's windowing tool-kit . The eight is sometimes it's a bit of a cripple ."}
+{"timestamp": "11:29", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "11:30", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "11:31", "speaker": "Speaker_C", "text": "I can have a look ."}
+{"timestamp": "11:34", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "11:34", "speaker": "Speaker_B", "text": "Yeah . Or just , I don't know . Yeah , uh change the contents of the same window , like from transcription to summary ."}
+{"timestamp": "11:36", "speaker": "Speaker_C", "text": "But yeah , that that might be an idea , yeah ."}
+{"timestamp": "11:41", "speaker": "Speaker_D", "text": "Yeah yeah ."}
+{"timestamp": "11:44", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "11:44", "speaker": "Speaker_B", "text": "Probably yeah ."}
+{"timestamp": "11:46", "speaker": "Speaker_B", "text": "Hmm ."}
+{"timestamp": "11:47", "speaker": "Speaker_A", "text": "Yeah , or even just have buttons on it , toggle buttons or something on the tool-bar for that window ."}
+{"timestamp": "11:53", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "11:54", "speaker": "Speaker_A", "text": "Just something ."}
+{"timestamp": "11:56", "speaker": "Speaker_A", "text": "A lot of different ways we can do it , it doesn't doesn't have to be a tab or whatever . Just gonna be yeah . Yeah ."}
+{"timestamp": "11:59", "speaker": "Speaker_B", "text": "No , no , it could be like transcription summary , like two buttons and you just press on which ever you want ."}
+{"timestamp": "12:01", "speaker": "Speaker_A", "text": "Yeah . Exactly ."}
+{"timestamp": "12:03", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "12:05", "speaker": "Speaker_A", "text": "Or check-marks . Even have two of 'em checked and send Yeah . Yeah ."}
+{"timestamp": "12:07", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "12:16", "speaker": "Speaker_A", "text": "Yeah . Yeah , exactly . Yeah ."}
+{"timestamp": "12:19", "speaker": "Speaker_B", "text": "Yeah . I don't like pop-ups ."}
+{"timestamp": "12:20", "speaker": "Speaker_C", "text": "But I mean people get used to it , I mean when you use a Windows or Linux for that matter , you have a lot of windows open . And you manage them ."}
+{"timestamp": "12:21", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "12:27", "speaker": "Speaker_D", "text": "You do , yeah ? Yeah ."}
+{"timestamp": "12:27", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "12:29", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "12:31", "speaker": "Speaker_A", "text": "True ."}
+{"timestamp": "12:32", "speaker": "Speaker_D", "text": "Yeah . Unless , can you I don't suppose you can minimise them and stuff like that Can you can you do that ? Okay , well it's alright then . Yeah . Of course you can actually , yeah , it's got everything ."}
+{"timestamp": "12:33", "speaker": "Speaker_B", "text": "I guess that yeah ."}
+{"timestamp": "12:36", "speaker": "Speaker_C", "text": "Yeah , you can minimise 'em . Yeah , yeah ."}
+{"timestamp": "12:41", "speaker": "Speaker_A", "text": "Yeah . Yeah , like a lot of these can be , like once we get the disfluencies out , then we can you know , have transcript without the disfluency , transcript with the disfluent disfluency . Have all these , you know , have all these sort of using the same window and so we can put a lot of and probably mutually um whate distinct , yeah . Exclusive , yeah ."}
+{"timestamp": "12:42", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "12:53", "speaker": "Speaker_C", "text": "Yeah , they're definitely gonna be in the same window , yeah ."}
+{"timestamp": "12:57", "speaker": "Speaker_B", "text": "He's close ."}
+{"timestamp": "12:58", "speaker": "Speaker_C", "text": "Exclusive . Yeah , that that was the plan for the disfluencies anyway . So d"}
+{"timestamp": "13:01", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "13:04", "speaker": "Speaker_C", "text": "Yeah , do you wanna do that with summaries in ? Put the summaries in in the same window ."}
+{"timestamp": "13:10", "speaker": "Speaker_B", "text": "Yeah , um well could uh I don't know . Would transcripts uh b sounds reasonable to have like transcripts like maybe three alternatives then . Like full meeting , meeting without disfluencies , and summarise ."}
+{"timestamp": "13:15", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "13:20", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "13:23", "speaker": "Speaker_C", "text": "Summary . Yeah , you wanna do that ? Yeah ."}
+{"timestamp": "13:24", "speaker": "Speaker_A", "text": "Yeah , that kinda makes sense ."}
+{"timestamp": "13:25", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "13:26", "speaker": "Speaker_D", "text": "Yeah , sounds good ."}
+{"timestamp": "13:30", "speaker": "Speaker_B", "text": "Um yeah ."}
+{"timestamp": "13:36", "speaker": "Speaker_C", "text": "And finally the prototype he spoke about . What kind of prototype could we produce ?"}
+{"timestamp": "13:43", "speaker": "Speaker_A", "text": "By the end of February ."}
+{"timestamp": "13:44", "speaker": "Speaker_C", "text": "Because I'm I'm just , you know , I go into the lab and I say right , what am I gonna change today . You know ? And it kind of just it just develops , I'm not aiming for anything . Do we wanna aim for something ?"}
+{"timestamp": "14:01", "speaker": "Speaker_C", "text": "I'm I'm pretty much getting there anyway , to be honest . It's not it's not gonna be a lot more work ."}
+{"timestamp": "14:04", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "14:06", "speaker": "Speaker_B", "text": "I guess it is . I mean just to try it and I mean for us to to be able to do something that we can include with your thing so so eas yeah . Yeah ."}
+{"timestamp": "14:14", "speaker": "Speaker_A", "text": "Yeah . Mm-hmm . Yeah ."}
+{"timestamp": "14:14", "speaker": "Speaker_D", "text": "Yeah , that's what we need , yeah . Something just slightly more than just that on its own . Yep ."}
+{"timestamp": "14:16", "speaker": "Speaker_C", "text": "Oh ."}
+{"timestamp": "14:18", "speaker": "Speaker_C", "text": "Hmm ."}
+{"timestamp": "14:18", "speaker": "Speaker_B", "text": "Yeah . Yeah . Just so see the integration works sort of between the different compo"}
+{"timestamp": "14:25", "speaker": "Speaker_C", "text": "Mm true ."}
+{"timestamp": "14:25", "speaker": "Speaker_D", "text": "Yep , definitely ."}
+{"timestamp": "14:28", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "14:28", "speaker": "Speaker_B", "text": "So I guess that's what we need to aim for ."}
+{"timestamp": "14:30", "speaker": "Speaker_D", "text": "I think that's kinda as well , isn't it really ? Seeing it seeing it sort of start to do stuff rather than just be"}
+{"timestamp": "14:32", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "14:36", "speaker": "Speaker_C", "text": "Oh right , I see . Hmm ."}
+{"timestamp": "14:37", "speaker": "Speaker_A", "text": "Mm-hmm ."}
+{"timestamp": "14:38", "speaker": "Speaker_D", "text": "a prototype with a GUI ."}
+{"timestamp": "14:39", "speaker": "Speaker_B", "text": "Yeah . Well if I guess I mean that was probably our intention , but we might not have written it down . So I guess I know ."}
+{"timestamp": "14:47", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "14:50", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "15:04", "speaker": "Speaker_D", "text": "You can make it if you make it world readable , then anybody can access it ."}
+{"timestamp": "15:10", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "15:12", "speaker": "Speaker_C", "text": "Yeah , sure . I don't know if it's readable at the moment , but you can sure have a d have a look ."}
+{"timestamp": "15:13", "speaker": "Speaker_A", "text": "That might be might be an idea ."}
+{"timestamp": "15:16", "speaker": "Speaker_D", "text": "No , uh i i it no , they're not world-readable . It not the default they're only default then only you can read them by default . You can see them but you can't read them ."}
+{"timestamp": "15:18", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "15:20", "speaker": "Speaker_B", "text": "Alright ."}
+{"timestamp": "15:22", "speaker": "Speaker_A", "text": "Yeah . Okay ."}
+{"timestamp": "15:23", "speaker": "Speaker_C", "text": "Alright ."}
+{"timestamp": "15:25", "speaker": "Speaker_A", "text": "Okay , alright ."}
+{"timestamp": "15:27", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "15:27", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "15:32", "speaker": "Speaker_A", "text": "Or you could just email to us . Okay , yeah , yeah , okay , right . Yeah , right , okay ."}
+{"timestamp": "15:34", "speaker": "Speaker_C", "text": "Well , this is not difficult . It's in all the emails . Not O_ four . O_ four , five five five ,"}
+{"timestamp": "15:36", "speaker": "Speaker_D", "text": "What's your number ?"}
+{"timestamp": "15:43", "speaker": "Speaker_D", "text": "Okay ."}
+{"timestamp": "15:48", "speaker": "Speaker_C", "text": "six O_ ."}
+{"timestamp": "15:49", "speaker": "Speaker_B", "text": "Say that again , O_ four ."}
+{"timestamp": "15:50", "speaker": "Speaker_C", "text": "O_ four five five five six O_ ."}
+{"timestamp": "15:54", "speaker": "Speaker_C", "text": "And then um there's a folder um N_L_S_S_D_ ,"}
+{"timestamp": "15:58", "speaker": "Speaker_D", "text": "N_L_S_S_D_ ."}
+{"timestamp": "15:59", "speaker": "Speaker_C", "text": "and it's called the M_ browser ."}
+{"timestamp": "16:02", "speaker": "Speaker_D", "text": "The M_ browser , for meeting ."}
+{"timestamp": "16:07", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "16:09", "speaker": "Speaker_C", "text": "Really . No , I'm I'm extremely organised , you see . I've got folders for everything . I love folders ."}
+{"timestamp": "16:15", "speaker": "Speaker_B", "text": "Oh yeah ."}
+{"timestamp": "16:21", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "16:24", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "16:26", "speaker": "Speaker_C", "text": "Yep , so that's me done . Someone else wanna talk about their stuff ?"}
+{"timestamp": "16:26", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "16:39", "speaker": "Speaker_B", "text": "Oh um I don't know . I basi I s started like browsing a bit , just like trying to see if there's anything out there to use s sort of um just"}
+{"timestamp": "16:49", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "16:52", "speaker": "Speaker_A", "text": "Um all the searching stuff . Like the the in inverted file stuff and um the next search query and all that . Hmm ."}
+{"timestamp": "16:54", "speaker": "Speaker_C", "text": "The search , okay ."}
+{"timestamp": "16:58", "speaker": "Speaker_C", "text": "Okay ."}
+{"timestamp": "17:02", "speaker": "Speaker_A", "text": "Yeah . So you could probably just use that code , like that was behind the question she asked him earlier . Just You know , the re-using code and stuff was just like okay , good ."}
+{"timestamp": "17:04", "speaker": "Speaker_C", "text": "Indexing ."}
+{"timestamp": "17:07", "speaker": "Speaker_B", "text": "Yeah . Yeah ."}
+{"timestamp": "17:08", "speaker": "Speaker_C", "text": "Oh ."}
+{"timestamp": "17:10", "speaker": "Speaker_C", "text": "Oh right . Oh that's pretty much there , is it ?"}
+{"timestamp": "17:10", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "17:10", "speaker": "Speaker_D", "text": "Oh you found some code for it . For the inde"}
+{"timestamp": "17:12", "speaker": "Speaker_B", "text": "Yeah , well I don't know if it's usable . I uh can have a look th at it . But but I found some code for like from a tutorial about i indexing . Uh whatever . Yeah ."}
+{"timestamp": "17:15", "speaker": "Speaker_A", "text": "Yeah . Yeah . Yeah ."}
+{"timestamp": "17:15", "speaker": "Speaker_D", "text": "Alright ."}
+{"timestamp": "17:19", "speaker": "Speaker_D", "text": "Alright . Cool , cool . So even if it doesn't work , you can jiggery pokery around and make it work . Y yeah ."}
+{"timestamp": "17:20", "speaker": "Speaker_C", "text": "Oh great ."}
+{"timestamp": "17:20", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "17:24", "speaker": "Speaker_A", "text": "Yeah , probably . We'll probably still have to do some other file manage while , I don't know , creation . Messing around still , though . Yeah ."}
+{"timestamp": "17:24", "speaker": "Speaker_B", "text": "Yeah , yeah ."}
+{"timestamp": "17:28", "speaker": "Speaker_D", "text": "Yeah yeah . All sorts of nonsense . But yeah . By the basics is uh oh okay , that's good ."}
+{"timestamp": "17:30", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "17:31", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "17:32", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "17:33", "speaker": "Speaker_C", "text": "Yeah , that's handy ."}
+{"timestamp": "17:34", "speaker": "Speaker_B", "text": "Um yeah , I guess that's it ."}
+{"timestamp": "17:36", "speaker": "Speaker_C", "text": "So you think it shouldn't be too difficult ?"}
+{"timestamp": "17:39", "speaker": "Speaker_B", "text": "I don't know . Uh I'm I was a bit worried about when well when he talked about this with the mm file messing around with files . I mean uh how much do we actually need to do . Like extracting things from the X_M_L_ files and stuff to be able to do the indexing ?"}
+{"timestamp": "17:56", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "17:57", "speaker": "Speaker_C", "text": "Oh , I see . Yeah . You have to convert it to some sort of format , I suppose ."}
+{"timestamp": "17:59", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "18:02", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "18:03", "speaker": "Speaker_D", "text": "I've been trying to g write something to read the X_M_L_ and get rid of it . And I can get rid of it , but I'm having trouble putting it anywhere else . So it will come up on the screen For the moment I haven't managed to put it into a vector or whatever in Java to play with it . But I guess it's not very difficult . Yeah , in Java , yeah ."}
+{"timestamp": "18:12", "speaker": "Speaker_A", "text": "Huh ? Okay . Right ."}
+{"timestamp": "18:19", "speaker": "Speaker_B", "text": "Okay . What are you writing in Java or yeah , okay . Yeah ."}
+{"timestamp": "18:21", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "18:23", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "18:24", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "18:26", "speaker": "Speaker_C", "text": "I mean you should look at look have a look at the the browser code then , because um , you know , they already extract for example transcripts . Put it into a window at least ."}
+{"timestamp": "18:34", "speaker": "Speaker_D", "text": "Yeah yeah , I'm sure they do . Yeah ."}
+{"timestamp": "18:38", "speaker": "Speaker_A", "text": "Yeah , it's good idea ."}
+{"timestamp": "19:02", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "19:05", "speaker": "Speaker_D", "text": "Yeah , yeah . Absolutely , yeah ."}
+{"timestamp": "19:08", "speaker": "Speaker_D", "text": "Should share as much as possible ."}
+{"timestamp": "19:10", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "19:13", "speaker": "Speaker_B", "text": "Yeah . Should we , I don't know ,"}
+{"timestamp": "19:13", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "19:18", "speaker": "Speaker_B", "text": "meet up and see what we could do ? I mean , I don't know , see what you've done and see what we need when we know more of what we need maybe ? Or what do we need . Yeah . Yeah ."}
+{"timestamp": "19:24", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "19:24", "speaker": "Speaker_A", "text": "Right . Yeah . Yeah . Yeah , exactly , exactly . So you're still working ? I see ."}
+{"timestamp": "19:27", "speaker": "Speaker_D", "text": "Next week sometime , yeah . I actually haven't done anything this week 'cause this week's been manic . But well , whatever it was , last week then . The the the week as it as is rather than the proper week , do you know what I mean . Do you know that , it's been all a bit manic , the last m the last yeah ."}
+{"timestamp": "19:33", "speaker": "Speaker_A", "text": "Yes , exactly , same . Yeah , I mean betwe um I sup yeah . Yeah ."}
+{"timestamp": "19:44", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "19:45", "speaker": "Speaker_A", "text": "Well well you're in S_P_N_L_P_ and S_P_ two , right ? So yeah . Yeah , that's where I'm at ."}
+{"timestamp": "19:48", "speaker": "Speaker_D", "text": "Yeah , that's right , yeah . And then we had to do an I_R_P_ , whatever it was last week as well . Which is only a page long , but it's quite difficult to write a page ."}
+{"timestamp": "19:48", "speaker": "Speaker_B", "text": "Yep ."}
+{"timestamp": "19:53", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "19:56", "speaker": "Speaker_A", "text": "Yeah . Yeah , oh yeah ."}
+{"timestamp": "19:56", "speaker": "Speaker_C", "text": "Yeah . Oh that's complete rubbish anyway . Never mind . Just so stupid ."}
+{"timestamp": "20:09", "speaker": "Speaker_A", "text": "Oh yeah ."}
+{"timestamp": "20:10", "speaker": "Speaker_A", "text": "Okay . So . Yeah , I was thinking that we can probably get uh start attacking this seriously and then just um , yeah , hopefully have something by next week that we can sorta try integrating into the GUI . Okay . Think that should be possible ."}
+{"timestamp": "20:14", "speaker": "Speaker_B", "text": "Yeah , we're gonna meet up ."}
+{"timestamp": "20:16", "speaker": "Speaker_D", "text": "Yep ."}
+{"timestamp": "20:23", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "20:23", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "20:24", "speaker": "Speaker_C", "text": "Well ye the browser as I use it now or as uh , you know , it was there when I took it um uses the um the N_X_T_ search to get the data out of the out the files , which I think is odd , but I'm not quite sure how it works yet . I don't quite understand it ."}
+{"timestamp": "20:36", "speaker": "Speaker_A", "text": "Okay . Why ?"}
+{"timestamp": "20:47", "speaker": "Speaker_C", "text": "To get the data i for example to get the summarisation data , you have to search for I think the I_D_s or something . Yeah ."}
+{"timestamp": "20:56", "speaker": "Speaker_D", "text": "That's pretty bizarre , isn't it ? Well I guess that's how it works . They've got d"}
+{"timestamp": "20:57", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "21:01", "speaker": "Speaker_D", "text": "That is pretty bizarre ."}
+{"timestamp": "21:03", "speaker": "Speaker_C", "text": "So they don't , you know , they don't say look in that and that folder , but they say search everything ."}
+{"timestamp": "21:10", "speaker": "Speaker_D", "text": "That is pretty bizarre ."}
+{"timestamp": "21:29", "speaker": "Speaker_C", "text": "No , this is not the actual search . This is just when you open what you know , to load the transcript for example , to find the transcript for a certain meeting , it does does an N_X_T_ search for the string , I don't know , transcript or text or whatever ."}
+{"timestamp": "21:35", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "21:36", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "21:46", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "21:50", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "21:53", "speaker": "Speaker_C", "text": "Yeah , so I don't know if you've looked at the search query s language , but it's like a dollar A_ text say ."}
+{"timestamp": "21:59", "speaker": "Speaker_D", "text": "Yeah . Yeah , yeah , 'cause that's the uh the declares a variable , doesn't it , and then they keep Okay ."}
+{"timestamp": "21:59", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "21:59", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "22:03", "speaker": "Speaker_C", "text": "Yeah . And then yeah . Because every every of all of these um"}
+{"timestamp": "22:11", "speaker": "Speaker_C", "text": "these files have got um tha an I_D_ . And all the transcript files have got the string , I don't know what it is , words or text or something in it , so it just searches for those files ."}
+{"timestamp": "22:22", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "22:23", "speaker": "Speaker_C", "text": "Vaguely ."}
+{"timestamp": "22:29", "speaker": "Speaker_C", "text": "Open ."}
+{"timestamp": "22:37", "speaker": "Speaker_C", "text": "Um um well , it's in the code . Just that it , you know , it yeah , you define a search object , and then you search on that string . I had to figure out how to how to do the same thing for the summary . That's how I"}
+{"timestamp": "22:41", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "22:44", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "22:51", "speaker": "Speaker_C", "text": "I had to I had to understand how to do the transcript how they did the transcript to do the summary myself ."}
+{"timestamp": "22:56", "speaker": "Speaker_D", "text": "So did you have to write it in the way that they wrote it , is that what you did ?"}
+{"timestamp": "22:59", "speaker": "Speaker_C", "text": "Yeah , just search for a specific string ."}
+{"timestamp": "23:03", "speaker": "Speaker_D", "text": "Right ."}
+{"timestamp": "23:05", "speaker": "Speaker_C", "text": "So you could just , you know , you could use that when you if you wanna um take the data out and put it somewhere . Yeah ."}
+{"timestamp": "23:05", "speaker": "Speaker_D", "text": "Okeydoke ."}
+{"timestamp": "23:11", "speaker": "Speaker_D", "text": "Fish the data , I was just thinking that , yeah ."}
+{"timestamp": "23:13", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "23:16", "speaker": "Speaker_C", "text": "If you have a a question about w what the p the code means or where to find the code that you wanna , you know , whatever you wanna do , then just send me an email ."}
+{"timestamp": "23:16", "speaker": "Speaker_B", "text": "Mm-hmm ."}
+{"timestamp": "23:25", "speaker": "Speaker_D", "text": "Mm ."}
+{"timestamp": "23:26", "speaker": "Speaker_C", "text": "I can explain it ."}
+{"timestamp": "23:28", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "23:30", "speaker": "Speaker_C", "text": "Oh yeah . Actually , in the moment it's got a load of rubbish because the the um the browser that I used from this from you know , that they gave us , had a lot of extra stuff in , and I haven't dared throwing out to through out all the functions I haven't you know , that I don't need . Yeah , just in case . Exactly . Yes . So they're all in there ye still . A lot of rubbish , but they will be get will be chucked out right at the end , I think ."}
+{"timestamp": "23:44", "speaker": "Speaker_D", "text": "Just in case . mission critical . Yeah ."}
+{"timestamp": "23:44", "speaker": "Speaker_A", "text": "Hmm , right , right ."}
+{"timestamp": "23:59", "speaker": "Speaker_C", "text": "Yes . Exactly , yes . Yeah . Precisely ."}
+{"timestamp": "23:59", "speaker": "Speaker_A", "text": "Yeah . M yeah . Yeah ."}
+{"timestamp": "24:04", "speaker": "Speaker_B", "text": "Oh yeah ."}
+{"timestamp": "24:06", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "24:08", "speaker": "Speaker_B", "text": "Oh no ."}
+{"timestamp": "24:08", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "24:11", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "24:12", "speaker": "Speaker_D", "text": "So basically we go and go and do some work really , I think that's the um the um the answer to that , isn't it . The long and the short of it ."}
+{"timestamp": "24:18", "speaker": "Speaker_A", "text": "Yeah . Well f"}
+{"timestamp": "24:20", "speaker": "Speaker_A", "text": "Uh Um Yeah . Yeah . How many hours is this ? Hmm ."}
+{"timestamp": "24:27", "speaker": "Speaker_C", "text": "I don't actually have that much to do at the moment ."}
+{"timestamp": "24:40", "speaker": "Speaker_A", "text": "Hmm . Yeah . Yeah . That's what I gotta work on ."}
+{"timestamp": "24:48", "speaker": "Speaker_A", "text": "Mm ."}
+{"timestamp": "24:53", "speaker": "Speaker_C", "text": "No ."}
+{"timestamp": "24:55", "speaker": "Speaker_A", "text": "Who was doing that ?"}
+{"timestamp": "24:59", "speaker": "Speaker_C", "text": "You do . Well , I'll do that then ."}
+{"timestamp": "25:00", "speaker": "Speaker_A", "text": "Damn ."}
+{"timestamp": "25:02", "speaker": "Speaker_A", "text": "These can be changed as well . Okay , yeah . Um I don't know , it doesn't matter . If if you want to . I mean it's just , you know , play around with some extra stuff . You have some time , why not ."}
+{"timestamp": "25:16", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "25:18", "speaker": "Speaker_B", "text": "Yeah . That's nice ."}
+{"timestamp": "25:27", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "25:30", "speaker": "Speaker_A", "text": "Was that in informatics course ? Or Oh . Oh , it like digital , okay . Okay ."}
+{"timestamp": "25:32", "speaker": "Speaker_C", "text": "Yeah , it's a nine nine course as well or ten or something . Yeah ."}
+{"timestamp": "25:33", "speaker": "Speaker_D", "text": "Yeah ."}
+{"timestamp": "25:37", "speaker": "Speaker_D", "text": "Oh , so it's uh , yeah ."}
+{"timestamp": "25:38", "speaker": "Speaker_C", "text": "And then then I'm doing parallel programming languages and systems , which we had one exercise as well , and that's in like Friday ."}
+{"timestamp": "25:39", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "25:44", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "25:53", "speaker": "Speaker_A", "text": "Alright . Yeah ."}
+{"timestamp": "25:58", "speaker": "Speaker_A", "text": "Fine . Hmm ."}
+{"timestamp": "26:04", "speaker": "Speaker_C", "text": "Oh ."}
+{"timestamp": "26:07", "speaker": "Speaker_A", "text": "Yeah . Well I don't know , is that about it then or anything else we need to discuss ?"}
+{"timestamp": "26:11", "speaker": "Speaker_B", "text": "No ."}
+{"timestamp": "26:14", "speaker": "Speaker_B", "text": "I don"}
+{"timestamp": "26:16", "speaker": "Speaker_A", "text": "Did we wanna meet before we talk to Steve next week ."}
+{"timestamp": "26:26", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:32", "speaker": "Speaker_C", "text": "Yeah , if you like . We can always decide then , I mean yeah . Yeah . Um so what what are you planning to do over the weekend then ?"}
+{"timestamp": "26:33", "speaker": "Speaker_B", "text": "Yeah , I don't know. ."}
+{"timestamp": "26:33", "speaker": "Speaker_A", "text": "Yeah . Well we can decide . Yeah , exactly . True . Yeah ."}
+{"timestamp": "26:35", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:40", "speaker": "Speaker_A", "text": "Search . And well sure , why not . Couldn't be that hard . Well , it'll be , you know , still limited version of , you know , the next query search . But , no no . Won't be the whole thing then . Um like we can just decide sort of things that we do wanna do . Hmm . yeah . Well , actually most are just dialogue acts . And what else was there ."}
+{"timestamp": "26:47", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "26:56", "speaker": "Speaker_B", "text": "No ."}
+{"timestamp": "27:00", "speaker": "Speaker_C", "text": "Mm-hmm ."}
+{"timestamp": "27:13", "speaker": "Speaker_B", "text": "Mm ."}
+{"timestamp": "27:18", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "27:19", "speaker": "Speaker_B", "text": "I don't know ."}
+{"timestamp": "27:21", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "27:27", "speaker": "Speaker_A", "text": "Yeah , it'll get behind schedule , yeah , pretty quick . Like you're saying , yeah . Well actually , do we wanna set a date for interim prototype ?"}
+{"timestamp": "27:36", "speaker": "Speaker_A", "text": "Specifically a date ?"}
+{"timestamp": "27:47", "speaker": "Speaker_B", "text": "The progress report is due on twenty third February . February ."}
+{"timestamp": "27:54", "speaker": "Speaker_C", "text": "Oh ."}
+{"timestamp": "27:55", "speaker": "Speaker_D", "text": "So so what's that , two weeks basically ."}
+{"timestamp": "27:57", "speaker": "Speaker_B", "text": "Um yeah ."}
+{"timestamp": "28:02", "speaker": "Speaker_D", "text": "Ish yeah ."}
+{"timestamp": "28:04", "speaker": "Speaker_C", "text": "Then we can write about it in the in the interim report , and s you know , and then we've got something to show ."}
+{"timestamp": "28:07", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "28:16", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "28:19", "speaker": "Speaker_B", "text": "Just looking at my own deadlines . See . Yeah , that would be fine . ."}
+{"timestamp": "28:30", "speaker": "Speaker_C", "text": "Maybe you should decide pretty pretty early what kind of things you wanna be able to search for . And then if you want , you can give that to me and I'll I'll build a u nice , you know , a few tick-boxes and drop-down menus ."}
+{"timestamp": "28:37", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "28:44", "speaker": "Speaker_B", "text": "Wasn't like what you had now , wasn't that pretty much what we agreed on ? Or was it just like that one ."}
+{"timestamp": "28:48", "speaker": "Speaker_C", "text": "No ."}
+{"timestamp": "28:50", "speaker": "Speaker_C", "text": "Oh that's that's that doesn't exist . Tha that's completely cut and pasted . That does not exist . Nicely done though , isn't it ? It's actually all these all these um things are are nicked from um you know , all these drop-down menus and tick-boxes are nicked from Google online . A screen-shot of Google ."}
+{"timestamp": "29:15", "speaker": "Speaker_B", "text": "Oh mm ."}
+{"timestamp": "29:36", "speaker": "Speaker_D", "text": "No , it's not , is it ? Yeah ."}
+{"timestamp": "29:36", "speaker": "Speaker_A", "text": "Right , true . Mm decide on that on over the weekend ."}
+{"timestamp": "29:39", "speaker": "Speaker_C", "text": "Yeah , do you wanna , you know , just get together and think about the different types of search we could possibly do , and then then we could discuss it next meeting which options we really wanna include ?"}
+{"timestamp": "29:41", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "29:44", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "29:51", "speaker": "Speaker_A", "text": "Right ."}
+{"timestamp": "29:51", "speaker": "Speaker_C", "text": "That would probably involve researching the query language a bit as well to see what that can do ."}
+{"timestamp": "29:54", "speaker": "Speaker_A", "text": "Yeah , totally ."}
+{"timestamp": "29:56", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "29:58", "speaker": "Speaker_B", "text": "It would be nice to , I don't know , meet up and uh you can sort of show us a bit what you know already , so we don't sort of have to do all the work again of just like figuring out stuff ."}
+{"timestamp": "30:10", "speaker": "Speaker_A", "text": "Oh , just like the basic . So like no . Sorry ?"}
+{"timestamp": "30:12", "speaker": "Speaker_C", "text": "Know already what ?"}
+{"timestamp": "30:16", "speaker": "Speaker_C", "text": "Oh ."}
+{"timestamp": "30:16", "speaker": "Speaker_A", "text": "Yeah . Just like all the and seeing the code , and just sort of how just see the basics of what you've done . Like just get a a quick look over and just the basics . Yeah . Or like like , you know , the class paths all that sort of thing . Like just just say okay , well here's you know , everything's basic in set-up and then just yeah , just jump right in ."}
+{"timestamp": "30:23", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "30:29", "speaker": "Speaker_C", "text": "Yeah . Yeah , I can do that ."}
+{"timestamp": "30:31", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "30:34", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "30:35", "speaker": "Speaker_C", "text": "Yeah ."}
+{"timestamp": "30:44", "speaker": "Speaker_A", "text": "Yeah . Yeah . Yeah , I know . Well thing is , you know , if yeah , something like that could happen anytime 'cause uh yeah , like my schedule's like a class , break , class , break , class , you know , that sort of thing . So so yeah , I know , exactly , exactly , that's what I'm thinking . So something like that and then if I have a class I can run off and do whatever . Yeah . Okay ."}
+{"timestamp": "30:56", "speaker": "Speaker_C", "text": "Yeah , ah it's not gonna take an hour to explain it , you know ."}
+{"timestamp": "30:58", "speaker": "Speaker_B", "text": "Yeah , yeah yeah ."}
+{"timestamp": "31:02", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "31:02", "speaker": "Speaker_C", "text": "Pick a time . I I you know , let me know , whenever ."}
+{"timestamp": "31:05", "speaker": "Speaker_B", "text": "Um yeah ."}
+{"timestamp": "31:06", "speaker": "Speaker_A", "text": "Actually Monday , Monday might be good d um ."}
+{"timestamp": "31:08", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "31:08", "speaker": "Speaker_C", "text": "What Monday . What did you say ?"}
+{"timestamp": "31:10", "speaker": "Speaker_A", "text": "Yeah , yeah ."}
+{"timestamp": "31:13", "speaker": "Speaker_D", "text": "Mm Monday afternoon ."}
+{"timestamp": "31:20", "speaker": "Speaker_C", "text": "Three o'clock . Actually th yeah ."}
+{"timestamp": "31:21", "speaker": "Speaker_A", "text": "Sure ."}
+{"timestamp": "31:24", "speaker": "Speaker_A", "text": "Possibly ."}
+{"timestamp": "31:26", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "31:28", "speaker": "Speaker_B", "text": "It's full , yeah ."}
+{"timestamp": "31:29", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "31:31", "speaker": "Speaker_A", "text": "Yeah , that's an option too . Yeah , after ."}
+{"timestamp": "31:33", "speaker": "Speaker_C", "text": "D_ and A_ ."}
+{"timestamp": "31:35", "speaker": "Speaker_A", "text": "Sure . That's fine ."}
+{"timestamp": "31:35", "speaker": "Speaker_D", "text": "Three's good though . I'll but we have s whatever . What's you what would you prefer ?"}
+{"timestamp": "31:36", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "31:39", "speaker": "Speaker_A", "text": "Yeah . Or three thirty . No , just yeah . That'd be necessarily necessarily short ."}
+{"timestamp": "31:43", "speaker": "Speaker_B", "text": "Well , it doesn't matter for me . I mean three three or after what ?"}
+{"timestamp": "31:43", "speaker": "Speaker_C", "text": "That's gonna be tight ."}
+{"timestamp": "31:44", "speaker": "Speaker_D", "text": "We could three thirty in the in the computer room in here , and then we can just go stra if you can't can you get in the front door ? Oh , you haven't got a key , do you ? Can none of you get in there ?"}
+{"timestamp": "31:47", "speaker": "Speaker_A", "text": "Actually we can't get in there though ."}
+{"timestamp": "31:50", "speaker": "Speaker_B", "text": "Maybe we ca"}
+{"timestamp": "31:52", "speaker": "Speaker_A", "text": "W we well we can get in through the through the the card the card door . Yeah ."}
+{"timestamp": "31:53", "speaker": "Speaker_C", "text": "Yeah , it what front door ?"}
+{"timestamp": "31:55", "speaker": "Speaker_D", "text": "The k the f there's computer rooms in here , the M_S_C_ computer lab and uh is in here . Well if you find me , I'll show you where I'll I'll let us all in there , and we can all go in there . Yeah , yeah . You do need to have a key for it . Like that's the thing . It's got a lock door button ."}
+{"timestamp": "31:56", "speaker": "Speaker_B", "text": "In four Buccleuch ."}
+{"timestamp": "32:00", "speaker": "Speaker_A", "text": "How about if we take uh a tour ? Yeah , right . Yeah , yeah , exactly ."}
+{"timestamp": "32:09", "speaker": "Speaker_A", "text": "Okay . Just sort bang on it . Actually I was asking Steve about that , whether we can get in there . Whether he was gonna get us access into the"}
+{"timestamp": "32:09", "speaker": "Speaker_B", "text": "Okay ."}
+{"timestamp": "32:12", "speaker": "Speaker_D", "text": "Yeah , somebody will answer it ."}
+{"timestamp": "32:18", "speaker": "Speaker_B", "text": "Into what ? Okay uh ."}
+{"timestamp": "32:18", "speaker": "Speaker_A", "text": "the computer room ."}
+{"timestamp": "32:20", "speaker": "Speaker_D", "text": "Yeah , it's only got it's crap , it's only got about four or five computers in But it would do quite good for our job , 'cause it has not very uh p not many people in it very often ."}
+{"timestamp": "32:25", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "32:27", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "32:27", "speaker": "Speaker_A", "text": "Right . Is there a printer in there too ?"}
+{"timestamp": "32:32", "speaker": "Speaker_C", "text": "Really ?"}
+{"timestamp": "32:33", "speaker": "Speaker_A", "text": "A nice okay . That would come in handy , yeah ."}
+{"timestamp": "32:34", "speaker": "Speaker_C", "text": "Really ?"}
+{"timestamp": "32:37", "speaker": "Speaker_B", "text": "Oh , is that the photo-copier I heard I heard about ? Yeah ."}
+{"timestamp": "32:42", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "32:44", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "32:45", "speaker": "Speaker_B", "text": "So what time do we say ?"}
+{"timestamp": "32:48", "speaker": "Speaker_C", "text": "I just think it's better to do it afterwards . Then we have all the time we need . Rather than have half an hour and then we'll surely run out ."}
+{"timestamp": "32:50", "speaker": "Speaker_A", "text": "Yeah , that's true . So after D_N_L_G_ . Yeah ."}
+{"timestamp": "32:50", "speaker": "Speaker_D", "text": "Oh right ."}
+{"timestamp": "32:51", "speaker": "Speaker_B", "text": "Yeah , yeah ."}
+{"timestamp": "32:53", "speaker": "Speaker_D", "text": "Yeah , yeah ."}
+{"timestamp": "32:53", "speaker": "Speaker_B", "text": "Yeah , yeah , yeah . Okay . Hmm ."}
+{"timestamp": "32:58", "speaker": "Speaker_A", "text": "As long as D_N_L_G_ doesn't go late ."}
+{"timestamp": "33:08", "speaker": "Speaker_B", "text": "What ?"}
+{"timestamp": "33:08", "speaker": "Speaker_A", "text": "Oh ."}
+{"timestamp": "33:14", "speaker": "Speaker_B", "text": "Yeah , I don't know . It's reading week next . It should be it shouldn't be any well , it's supposed to be next week . It's week six next week ."}
+{"timestamp": "33:17", "speaker": "Speaker_C", "text": "Is it really ?"}
+{"timestamp": "33:18", "speaker": "Speaker_A", "text": "Are you ? Next week ? Or the week ? How ?"}
+{"timestamp": "33:22", "speaker": "Speaker_C", "text": "Really ?"}
+{"timestamp": "33:23", "speaker": "Speaker_A", "text": "Oh ."}
+{"timestamp": "33:26", "speaker": "Speaker_A", "text": "Yeah . That's cancelled ?"}
+{"timestamp": "33:29", "speaker": "Speaker_A", "text": "Oh really ?"}
+{"timestamp": "33:32", "speaker": "Speaker_C", "text": "Yeah , I don't think there is an official I don't think there was an official one last semester . I think it was just a bank holiday , wasn't it ?"}
+{"timestamp": "33:32", "speaker": "Speaker_A", "text": "Hmm ."}
+{"timestamp": "33:38", "speaker": "Speaker_A", "text": "Um something like that . I think one or couple classes were cancelled ."}
+{"timestamp": "33:40", "speaker": "Speaker_B", "text": "No , I think it w"}
+{"timestamp": "33:43", "speaker": "Speaker_A", "text": "Yeah . Exact Yeah . I th"}
+{"timestamp": "33:43", "speaker": "Speaker_B", "text": "Yeah , which are a bit crap , yeah . I think the under-graduates had uh all were off totally ."}
+{"timestamp": "33:48", "speaker": "Speaker_A", "text": "Yeah ."}
+{"timestamp": "33:49", "speaker": "Speaker_A", "text": "I think it was up to the professor whether they did it or not . Well , I don't feel like teaching . Yeah , okay . I think yeah . I think D_I_L_ will probably have one to make up for missing classes . D_I_L_ will probably have classes , yeah ."}
+{"timestamp": "33:54", "speaker": "Speaker_D", "text": "Nah , make 'em work ."}
+{"timestamp": "34:00", "speaker": "Speaker_B", "text": "What ?"}
+{"timestamp": "34:02", "speaker": "Speaker_B", "text": "Yeah , th we will probably have it , yeah yeah . last week . Yeah ."}
+{"timestamp": "34:07", "speaker": "Speaker_C", "text": "Okay . Let's meet Monday ."}
+{"timestamp": "34:08", "speaker": "Speaker_A", "text": "Yep ."}
+{"timestamp": "34:10", "speaker": "Speaker_D", "text": "Done ."}
+{"timestamp": "34:10", "speaker": "Speaker_B", "text": "Yeah , um I guess that's it . Was there anything else ? Do anyone know you wanna like take care of this or should I take care of it ?"}
+{"timestamp": "34:13", "speaker": "Speaker_C", "text": "Hmm ?"}
+{"timestamp": "34:22", "speaker": "Speaker_B", "text": "Yeah . I don't know if there was something . Oh I think he basically said"}
+{"timestamp": "34:29", "speaker": "Speaker_B", "text": "um the same things as in the comments , if I could read it ."}
+{"timestamp": "34:44", "speaker": "Speaker_A", "text": "Do you really want multiple windows from a single lap ?"}
+{"timestamp": "34:46", "speaker": "Speaker_B", "text": "Yeah ."}
+{"timestamp": "34:49", "speaker": "Speaker_A", "text": "But most will probably want to go with defaults ."}
+{"timestamp": "34:54", "speaker": "Speaker_B", "text": "Yeah . Well , uh that was , I guess ."}
+{"timestamp": "34:54", "speaker": "Speaker_A", "text": "Yeah . Yeah . You'd be s"}
+{"timestamp": "34:58", "speaker": "Speaker_A", "text": "Yeah , exactly , and just the other comment about whether you wanna do both speaker characterisation and topic segmentation ."}
+{"timestamp": "34:58", "speaker": "Speaker_B", "text": "Oh ."}
+{"timestamp": "35:05", "speaker": "Speaker_B", "text": "No ."}
+{"timestamp": "35:06", "speaker": "Speaker_A", "text": "Yeah , yeah that's about it . Nothing terribly exciting ."}
+{"timestamp": "35:07", "speaker": "Speaker_B", "text": "Oh yeah . Yeah ? And now we have seven percent of the course already done ? Is quite good . So if y"}
+{"timestamp": "35:09", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "35:16", "speaker": "Speaker_C", "text": "Right . I think we need to tick the okay box , right ?"}
+{"timestamp": "35:21", "speaker": "Speaker_D", "text": "Oof . Bu buzzes . Yeah ."}
+{"timestamp": "35:25", "speaker": "Speaker_A", "text": "Okay . Yeah ."}
+{"timestamp": "35:26", "speaker": "Speaker_B", "text": "Who ? Yeah . ."}
+{"timestamp": "35:29", "speaker": "Speaker_A", "text": "Okay ."}
+{"timestamp": "35:31", "speaker": "Speaker_C", "text": "Should we turn these off then or what ?"}

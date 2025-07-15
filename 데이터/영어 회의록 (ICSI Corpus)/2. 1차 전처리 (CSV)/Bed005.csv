@@ -1,0 +1,822 @@
+﻿"[00:10] me003 | Yeah , I think I got my mike on ."
+[00:14] me003 | OK .
+[00:17] me003 | Let 's see .
+"[01:10] me010 | OK . Ami , do yours then we 'll open it and I think it 'll be enough ."
+"[01:20] me003 | Mmm Doesn't , uh It should be the other way . Yeah , now it 's on ."
+[01:23] mn036 | Right . OK .
+"[02:20] me010 | OK . So , we all switched on ?"
+[02:25] mn036 | We are all switched on .
+"[02:51] me010 | What we think is gonna happen is that ,"
+"[03:00] me010 | to ,"
+"[03:12] me010 | And then there 'll be a certain number of um , hours during the week which she will be available and we 'll bring in"
+"[03:19] me010 | people . Uh , roughly how many , Robert ?"
+[03:21] me010 | We d Do we know ?
+"[03:22] me010 | OK . So , we 're looking for a total of fifty people , not necessarily by any means all students but we 'll s we 'll start with with that ."
+"[03:35] me010 | And , so , I guess there 's a plan to have a meeting Friday afternoon"
+"[03:39] me010 | Uh , with uh , Jane , and maybe Liz and whoever , on actually getting the script worked out ."
+[03:50] me010 | is to s
+"[03:50] me010 | to , as I say , start the recruiting in parallel and possibly start running subjects next week ."
+"[03:55] me010 | The week after that 's Spring Break , and maybe we 'll look for them some subjects next door or i"
+[03:59] mn015 | Yeah .
+"[04:00] mn015 | Yeah . Also , Fey will not be here during spring break . So ."
+"[04:02] me010 | Oh , OK , then we won't do it . OK . So that 's easy ."
+"[04:09] me010 | So , is Is that"
+[04:11] me010 | make sense to everybody ?
+[04:44] mn015 | and get them interested in
+[04:46] me010 | That 's a good idea .
+[04:49] mn015 | So that 's as far as our brainstorming was concerned .
+"[04:52] me010 | Oh , yeah . The high school 's a great idea ."
+[04:58] mn015 | So .
+"[05:10] mn015 | And , um ,"
+"[05:18] me010 | Uh , th I think they 're necessary ."
+[05:21] mn015 | Mmm . Nuh .
+[05:26] mn015 | N .
+[05:28] mn015 | You happy with that ?
+"[05:29] me010 | Well , yeah . There 's one tricky part"
+"[05:31] me010 | about ,"
+"[05:37] me010 | I The last paragraph "" if you agree to participate you have the opportunity to have anything excised which you would prefer not to have included in the data set . """
+"[05:44] me010 | OK ? Now that , we had to be included for this"
+"[05:48] me010 | other one which might have , uh , meetings , you know , about something . In this case , it doesn't really make sense ."
+[05:49] mn015 | Mm - hmm .
+"[05:55] me010 | Um , so what I 'd like to do"
+[05:58] me010 | is also have our subjects sign a waiver
+"[06:02] me010 | saying "" I don't want to see the final transcript "" ."
+[06:04] mn015 | Mm - hmm .
+"[06:04] me010 | And if they don't If they say "" no , I 'm not willing to sign that "" , then we 'll show them the final transcript . But , um ."
+[06:10] mn015 | Yep . Makes sense .
+"[06:17] me010 | S i Jane may say that , "" you know , you can't do this "" , uh ,"
+"[06:20] me010 | "" on the same form , we need a separate form . "" But anyway . I 'd I 'd I 'd like to ,"
+"[06:25] me010 | e e um , add an a little thi eh a thing for them to initial , saying "" nah , do I don't want to see the final transcript . "" But other than that , that 's one 's been approved ,"
+[06:27] mn015 | Mm - hmm .
+"[06:33] me010 | this really is the same project ,"
+"[06:36] me010 | uh , rec you know . And so forth . So I think we just go with it ."
+[06:38] mn015 | Yeah .
+[06:39] mn015 | Yeah .
+[06:47] mn015 | OK .
+[06:51] mn015 | except that with Munich everything is fine now .
+"[06:53] mn015 | They 're gonna transcribe . They 're also gonna translate the , uh , German data from the"
+[06:58] mn015 | TV and cinema stuff for Andreas . So .
+[07:11] me010 | Yep .
+[07:12] mn015 | Well I guess the good good news of last week was the parser .
+"[07:30] mn015 | It , uh I didn't measure it , but it was about an hour and ten minutes ."
+[07:34] me012 | Yep . Something like that .
+"[07:34] mn015 | And , um and now it 's We have a complete English parser that does everything the German parser does ."
+[07:44] me012 | Yes .
+[07:50] me012 | We 'll show you .
+[07:50] fe004 | interesting about it at all ? or are we gonna see that ?
+"[07:51] me010 | Yeah , we can show us , right ?"
+"[07:52] mn015 | Well , w w"
+[08:00] me010 | Yep .
+[08:01] fe004 | Mm - hmm .
+[08:05] fe004 | OK .
+[08:07] fe004 | Mm - hmm .
+"[08:07] mn015 | And , uh , the reason was that the parser i c"
+"[08:20] mn015 | um , even if you leave out , um ,"
+[08:24] mn015 | all all of this . So it 's basically feature film and TV .
+"[08:29] fe004 | Today OK . And the t and the time , right ?"
+[08:35] fe004 | OK .
+[08:39] mn015 | and it 's optional for that parser .
+[08:40] fe004 | True .
+[08:44] fe004 | S
+"[08:48] fe004 | "" The former end g "" Oh , I see . Uh - huh ."
+"[08:52] mn015 | do this now ,"
+"[08:54] mn015 | um , you can see that"
+[09:04] mn015 | Uh do don't worry about it . It could be
+"[09:06] mn015 | "" this evening , which which films are on the cinema "" , or "" running in the cinema , which """
+[09:10] fe004 | OK .
+"[09:10] mn015 | uh , "" today evening "" , uh i"
+"[09:11] mn015 | "" Is anything happening in the cinema this evening ? """
+"[09:14] fe004 | OK . Key words , e basically ."
+"[09:19] me010 | Actually , it 's a little tricky ,"
+[09:22] me010 | in that there 's some
+[09:30] me010 | Isn't it ?
+[09:30] me012 | No .
+[09:30] mn015 | No .
+"[09:33] me010 | u these optional elements , it 's it 's actually a set , not a sequence ?"
+[09:41] me010 | Really a se
+[09:42] mn036 | e yeah . Mm - hmm .
+"[09:43] me010 | Oh , wow ."
+[09:47] fe004 | Hmm .
+[09:57] mn015 | showing ? playing ?
+[09:59] me012 | Yeah .
+[10:03] fe004 | Tonight ?
+"[10:05] me012 | I changed that file , actually , where it 's on my account ."
+"[10:05] mn036 | Actually , you would say , "" which films are on tonight ? """
+[10:05] fe004 | This this evening ?
+[10:07] me012 | You want to get it ? Or is di was it easy to get it ?
+[10:11] mn015 | Um . I have no net here .
+"[10:12] me012 | Oh , OK ."
+"[10:24] mn015 | Except that we d w we don't have this , uh , time information here now , which is ,"
+[10:34] mn015 | Oh . This are the reserve .
+[10:36] mn015 | So .
+[10:38] mn015 | Um .
+[10:39] mn015 | These are the sort of the ten different sentence types
+[10:49] fe004 | Mm - hmm .
+"[10:52] mn015 | And , um"
+"[10:55] mn015 | you have already to make it a little bit more elaborate , right ?"
+"[10:59] me012 | Yeah , I mean I changed those sentences to make it , uh ,"
+"[11:02] me012 | more , uh , idiomatic ."
+"[11:04] me012 | And , of course , you can have i"
+"[11:05] me012 | many variations in those sentences , they will still parse fine ."
+[11:11] me010 | OK .
+[11:11] mn015 | OK .
+"[11:17] mn015 | they 're conveniently located in a file , "" template "" ."
+"[11:31] mn015 | to "" today "" heu "" heute "" to "" today "" , evening "" Abend "" to "" evening """
+[11:32] fe004 | Huh .
+[11:37] me003 | Hmm .
+"[11:39] me012 | One thing I was wondering , was ,"
+"[11:40] me012 | those functions there , are those things that modify the M - three - L basically ?"
+[11:43] mn015 | Yep .
+[11:44] me012 | OK .
+"[11:49] mn015 | And so this means , um ,"
+"[11:52] mn015 | "" this "" and "" see "" are not optional ."
+"[12:01] me010 | So so , the point is , if it says "" this "" and "" see "" , it also will work in "" see "" and "" this "" ?"
+[12:01] fe004 | S
+[12:06] me010 | In the other order ?
+[12:06] mn015 | Yeah .
+[12:07] me010 | with those two key words ?
+[12:07] mn015 | Should we try it ?
+"[12:13] me010 | "" This is the one I want to see """
+[12:15] me010 | or whatever .
+[12:17] mn015 | OK .
+[12:19] me012 | Hmm .
+[12:27] me012 | Yeah .
+"[12:27] mn015 | Where it gets that from It 's correct , but I don't know where it gets it from ."
+"[12:30] me012 | "" See "" ."
+"[12:32] mn015 | Oh , "" see "" . Yeah ."
+"[12:41] me010 | OK , so it is set - based . Alright ."
+"[12:43] me012 | One thing I was wondering was ,"
+"[12:46] me012 | So , I mean ,"
+[12:48] mn015 | Yep .
+[12:53] fe004 | Mm - hmm .
+[12:53] me012 | Oh .
+"[12:54] mn015 | And the value of the score is , v I assume ,"
+[13:00] me012 | OK .
+[13:01] mn036 | Right .
+[13:01] fe004 | It 's a match .
+[13:01] me012 | So that 's the main purpose . Alright .
+[13:02] mn015 | it is .
+[13:03] fe004 | Mm - hmm .
+[13:04] me010 | OK .
+"[13:09] mn015 | So we we shouldn't belittle it too much . It 's doing something ,"
+"[13:13] mn015 | some things ,"
+[13:15] mn015 | and it 's very flexible .
+[13:17] mn015 | I 've just tried to
+[13:19] mn015 | be nice .
+"[13:25] mn015 | Um , let 's hope that the generation will not be more difficult , even though the generator is a little bit more complex ."
+"[13:35] mn015 | Mmm ,"
+[13:40] me012 | Right .
+[13:40] mn015 | I hope .
+"[13:54] mn015 | the mapping of of , uh , words to the M - three - L but we also wanted to change add a new sentence type and and make up some some new M - three - L s """
+[14:01] me010 | So -
+[14:05] me010 | whether one can get that to run .
+[14:07] mn015 | Yep .
+[14:11] mn015 | that 's shouldn't be too tough .
+"[14:16] me012 | Are they going to be called ? Um , are they present in the code for the parser ?"
+"[14:21] mn015 | Yeah . I think what it does , it i i it does something sort of fancy . It loads"
+"[14:27] mn015 | It has these style sheets and also the , um ,"
+"[14:32] mn015 | So what it probably does , is it takes the , uh ,"
+"[14:47] mn015 | This is where it takes its own , um , syntax ,"
+[15:04] me012 | What are you looking for ?
+"[15:06] mn015 | Um , where it actually produces the the XML out of the , uh , parsed stuff ."
+"[15:28] mn015 | You mean , where the where the act how the action "" Goodbye """
+"[15:35] me003 | Yeah , where are those constructors defined ?"
+[15:35] me012 | Oh .
+[15:37] mn015 | Nope .
+[15:50] mn015 | This is sort of what happens .
+"[16:11] mn015 | I saw those actions uh , the "" Goodbye "" stuff somewhere ."
+[16:17] me003 | Grep for it ?
+[16:19] mn015 | Yeah .
+[16:20] mn015 | Let 's do that .
+[16:38] mn015 | Oh .
+[16:49] me012 | Mmm .
+[16:49] me012 | M - three - L dot DTD ?
+[16:50] mn015 | Yep .
+[17:06] me012 | specification for the XML
+[17:07] mn015 | Yep .
+[17:08] me012 | format .
+"[17:20] mn015 | Well , we 'll find that out ."
+"[17:48] me010 | Hmm ? Oh , yeah ."
+"[17:50] mn015 | So , whenever it it encounters "" Goodbye "" ,"
+[17:57] me003 | That function automatically generates an initialized
+[18:00] me003 | XML structure ?
+"[18:01] me012 | I think each of those functions act on the current XML structure , and"
+"[18:08] me012 | a l a field to it , or something ."
+[18:09] mn015 | Mm - hmm .
+[18:11] me010 | there were other actions
+[18:13] me012 | Right .
+"[18:24] me012 | Oh , you mean that 's not going to actually modify the tree , but it 's going to change the event . Oh . Oh ."
+[18:26] me010 | I think that 's right . I think it 's actually That looks like it 's state modification .
+[18:31] me012 | When there 's a feature .
+[18:33] me010 | Yeah .
+"[18:33] mn015 | And so whenever I just say , "" Write "" ,"
+"[18:40] me010 | Well , go back , then , cuz it may be that all those th things ,"
+[18:40] mn015 | h
+"[18:43] me010 | while they look like function calls , are just"
+[18:45] me010 | a way of adding exactly that to the XML .
+[18:48] mn015 | Yep .
+[18:49] me010 | Uh - huh !
+[18:52] me010 | I 'm not I 'm not sure .
+"[18:55] mn015 | Um well , we we 'll see , when we say ,"
+"[18:58] mn015 | "" Goodbye "" ,"
+"[18:59] mn015 | causes it to c to create basically an "" Action Goodbye - End - Action "" . Which is a means of telling the system to shut down ."
+[19:04] me010 | Right .
+[19:06] me010 | Right .
+"[19:07] mn015 | Now , if we know that "" Write """
+"[19:10] mn015 | produces a "" Feature Discourse - Status Confirm Discourse - Status "" ."
+"[19:14] mn015 | So if I now say "" Write ,"
+"[19:16] mn015 | Goodbye , """
+"[19:20] mn015 | It sho it creates this ,"
+[19:21] me012 | Mm - hmm .
+[19:22] me010 | Right .
+[19:24] me010 | Yep .
+"[19:25] me012 | But there is some kind of function call , because how does it know to put Goodbye in Content , but , uh , Confirm in Features ?"
+[19:30] me012 | So -
+[19:34] me010 | Right .
+[19:34] me010 | Absolutely . Good point .
+[19:34] me012 | OK .
+[19:36] me010 | It 's it 's the It 's under what sub - type you 're doing it . Yeah .
+[19:38] mn015 | Mm - hmm . Yeah .
+[19:44] me003 | It 's mystery functions .
+"[19:46] me012 | Well , they 're defined somewhere , presumably ."
+"[19:47] mn015 | Well , sometimes it m Sometimes , i"
+[19:55] me010 | Alright . Uh @ @
+"[19:56] me003 | Well , it just automatically initializes things that are common , right ? So it 's just a shorthand ."
+[20:00] me010 | Yeah .
+"[20:01] mn015 | For example Oh , this is German . Sorry ."
+[20:04] mn015 | e
+"[20:11] mn015 | So , now , this , it cannot do anymore . Nothing comes out of here ."
+"[20:22] mn015 | So , it"
+"[20:24] mn015 | doesn't speak German anymore , but it does speak English . And there is , here ,"
+"[20:37] mn015 | by @ @ the restriction seed and this is exa "" I want """
+"[20:43] me010 | "" I want two seats here . """
+"[20:44] mn015 | "" need two seats here . "" Nuh ."
+"[20:48] mn015 | "" And where is it playing ? "" There should also be a reference to something , maybe ."
+"[21:07] mn015 | and that , whatever is being changed has something to do with the cinema ."
+"[21:16] me003 | Yeah , OK ."
+"[21:16] me010 | No , right , the Discourse Maintainer , yeah ."
+[21:18] me003 | Yeah .
+[21:19] me010 | I see . And it and it runs around looking for Discourse Status
+"[21:23] me010 | tags ,"
+[21:24] me010 | and doing whatever it does with them .
+[21:37] me010 | It 's worth
+[21:39] me010 | the exercise of trying to
+[21:42] me010 | actually add something
+[21:43] me010 | that isn't there .
+[21:45] mn015 | Hmm ?
+[21:47] me010 | Disc -
+"[21:53] me010 | um , figuring out how to add our own"
+"[21:56] me010 | tags , and stuff like that ."
+[21:58] mn015 | OK .
+[21:59] mn015 | Point number two .
+"[22:01] mn015 | I got the , uh , M - three - L for the routes today ."
+"[22:05] mn015 | Uh , so I got some more ."
+"[22:19] mn015 | Hmm . Interesting . It 's just going up , it 's not going"
+"[22:31] mn015 | So , this is um , what I got today is the the new um M - three - L for"
+"[22:44] mn015 | uh , and with some examples So , this is the XML and this is sort of what it will look like later on ,"
+"[22:52] mn015 | And this is what it sort of is the the structure of Map requests ,"
+"[23:01] mn015 | and here is the more interesting stuff for us , is the routes ,"
+"[23:13] mn015 | um , parameters . We have"
+"[23:18] mn015 | simple "" from objects "" and "" to objects "" and so forth ,"
+"[23:24] mn015 | And , um ,"
+[23:38] mn015 | It seems to me that some notions were missing .
+[23:44] mn015 | Yep . Who are doing this .
+[23:45] me010 | So this is not a complicated negotiation .
+"[23:53] me010 | It 's a design thing , not a political thing ."
+[23:55] me010 | Once we 've eh We can just sort of agree on what oughta be done .
+[23:59] me010 | Good .
+"[24:05] mn015 | e So that you understand , it is really simple . Uh You you have a route , and you cut it up in different pieces ."
+"[24:14] mn015 | Every segment we call a "" route element "" ."
+"[24:17] mn015 | And so , from A to B we cut up in three different steps ,"
+"[24:21] mn015 | and every step has a "" from object "" where you start , a "" to object "" where y where you sort of end , and some points of interest along the way ."
+"[24:28] mn015 | What w I was sort of missing here , and uh , maybe it was just me being too stupid , is , I didn't sort of get the the notion of the global goal"
+"[25:02] mn015 | And also ,"
+[25:15] mn015 | of how we can do it .
+"[25:26] mn015 | And the Approach mode , anyhow , is the default ."
+[25:31] me010 | Mm - hmm .
+[25:39] mn015 | @ @
+[25:41] mn015 | So .
+"[25:54] me010 | You 're in the midst of this , so you know better . But it seems to me it 's probably"
+[25:57] me010 | a good idea to
+[25:59] me010 | li uh minimize the number of
+"[26:01] me010 | uh , change requests we make of them ."
+"[26:08] me010 | OK ? And think about it some , internally , before"
+[26:12] me010 | asking them to make changes .
+[26:15] mn015 | Mm - hmm .
+[26:30] me010 | And I I don't know who 's mok working most closely on it . Probably Johno .
+"[26:34] me010 | Uh , take what they have ,"
+"[26:38] me010 | send it to everybody saying "" this is what they have , this is what we think we should add "" ,"
+"[26:42] me010 | OK ? and then have a d a an iteration within our group saying "" Hmm , well """
+[26:46] me010 | OK ? And get our best idea of what we should add .
+[26:49] mn015 | Mm - hmm .
+[26:50] me010 | And then go back to them .
+"[26:57] mn015 | Sort of , what I my feeling was eh we we sort of reserved something that has a r eh"
+[27:07] me010 | Mm - hmm .
+[27:08] mn015 | I w
+"[27:11] mn015 | this is sort of our playground . And if we get something in there that is a structure elaborate and and and and and complex enough to to to maybe enable a whole simulation ,"
+[27:13] me010 | Right .
+[27:22] me010 | Right .
+"[27:22] mn015 | one of these days ,"
+[27:39] me010 | that 's leave enough space to do all that stuff ?
+[27:41] mn015 | Mm - hmm . Yep .
+[27:42] me010 | Right . And that re that requires some thought .
+[27:45] mn015 | Yep .
+[27:49] me010 | as the priority item
+"[27:52] me010 | um , as soon as we can do it ."
+[27:54] mn015 | Yep .
+[27:55] me010 | So y so you guys will send to the rest of us
+"[28:03] me010 | um , this ,"
+"[28:09] me010 | Well b Yeah . So , the the uh Not everyone"
+"[28:12] me010 | uh , reads German , so if you 'd"
+[28:16] me003 | Mmm .
+"[28:17] me010 | tu uh , tur change the description to , uh ,"
+[28:21] me010 | English
+[28:21] me003 | OK .
+"[28:22] me010 | and , um ,"
+"[28:26] me010 | Then then , yeah . Then , with some sug s suggestions about where where do we go from here ?"
+[28:31] me003 | OK .
+"[28:39] me010 | uh , t for this class of of things , we might want to try to encompass ."
+"[28:49] me003 | Approach and Vis - or Vista . Yeah , yeah ."
+"[28:50] me010 | Oh , yeah , yeah yeah yeah . This is this is everything that that ,"
+"[28:55] me003 | Yeah , yeah ."
+[28:57] me010 | we might want to do in the next couple years .
+[29:00] me003 | So what would OK .
+[29:00] mn015 | Hmm ?
+"[29:04] me010 | We don't I mean , that 's an issue . We don't know what , entirely ."
+[29:12] me003 | this
+"[29:14] me003 | XML stuff here just has to do with Source - Path - Goal type stuff ,"
+[29:17] me003 | in terms of
+[29:18] mn015 | Hmm .
+[29:18] me003 | traveling through Heidelberg .
+"[29:20] me003 | Or travel , specifically ."
+"[29:23] me003 | So , but this O Is the domain greater than that ?"
+[29:26] me003 | OK .
+[29:39] me010 | all the complexity we want in actions and in language
+[29:43] me010 | without going outside of tourists in Heidelberg .
+"[29:48] me010 | But you know , i depending on what people are interested in ,"
+"[29:55] me010 | um , explanations of why something is is , you know , why why was this done , or I mean , no there 's no end"
+"[30:05] me010 | uh , what a tourist in Heidelberg might"
+[30:07] me003 | Mmm .
+[30:12] me010 | the general domain
+[30:14] me010 | we don't have t to
+"[30:16] me010 | uh , broaden ."
+"[30:19] me010 | That is , tourists in Heidelberg ."
+"[30:43] me010 | uh , push us into reference problems , that would be great ."
+[30:47] mn036 | OK .
+"[30:48] me010 | OK , so this is his specialty is reference ,"
+[30:50] mn015 | Mm - hmm .
+"[30:55] me010 | anaphora , but , uh , more generally the ,"
+"[30:59] me010 | this whole issue of ,"
+"[31:01] me010 | uh , referring expressions , and , what is it that they 're actually"
+[31:06] me010 | dealing with in the world ?
+[31:07] mn015 | Mm - hmm .
+"[31:08] me010 | And , again , this is li in the databa this is also pretty well formed because there is an ontology ,"
+[31:20] mn036 | Right .
+[31:22] me010 | All the entities
+[31:24] me010 | do have concrete reference . Although th the To get at them from a language may not be trivial .
+[31:25] mn036 | Right .
+[31:29] me010 | There aren't
+[31:30] me010 | really deep mysteries about
+"[31:33] me010 | um , what w what things the system knows about ."
+[31:36] mn036 | Right . And you have both proper names and descriptions and y and you can ask for it .
+"[31:39] me010 | All those things . Yeah . You have proper names , and descriptions ."
+[31:40] mn015 | Mm - hmm .
+[31:42] mn036 | Right . OK .
+[31:43] mn015 | Nuh .
+[31:45] mn036 | Right .
+[31:46] mn036 | Right .
+[31:47] me010 | all those things .
+"[31:55] mn015 | We have just commissioned someone to translate some bits of it , IE the e"
+"[32:13] mn015 | there . But did y I uh I think there will be great because the reference problem really is not trivial , even if you have such a g"
+[32:20] mn015 | well - defined world .
+[32:26] me003 | Could you give me an example of a reference problem ? so so l I can make it more concrete ?
+"[32:32] mn015 | We sort of t think that our bit in this problem is interesting , but , just to get from Powder - Tower to an object I ID in a database"
+[32:55] me010 | Yeah .
+[32:58] mn036 | Right .
+"[33:00] me010 | Yeah , that would be fine ."
+[33:01] mn036 | Right .
+[33:02] me010 | Yeah .
+[33:02] mn036 | Right .
+[33:07] me003 | OK .
+"[33:12] me003 | Yeah , yeah ."
+[33:13] me010 | OK .
+"[33:25] me010 | dive into . What ,"
+"[33:34] me010 | let 's say that by the end of spring break ,"
+"[33:39] me010 | general story about ,"
+"[33:42] me010 | um , construction grammar , and what constructions we 'd use and how all this might"
+"[33:59] me010 | I want to do that early , rather than late ."
+[34:02] me010 | And you and I will probably have to talk about this some .
+"[34:08] mn015 | Something , uh , maybe we should address one of these days , is to That most of the work people actually always do is look at some statements ,"
+"[34:21] mn015 | But the whole i is it is it really relevant that we are dealing mostly with , sort of , questions ?"
+[34:29] mn015 | And this is It seems to me that we should maybe at least spend a session or or brainstorm a little bit about whether that l
+[34:36] mn015 | this is special case in that sense .
+[34:38] me012 | Mm - hmm .
+"[34:44] mn015 | You know Did we ever find m metaphorical use in in questions in in that sense , really ?"
+[34:49] me010 | Yeah .
+[34:50] me010 | You will .
+"[34:51] mn015 | And how soon , I don't know ."
+"[34:52] me010 | Oh , yeah ."
+"[34:54] me010 | I mean , uh , we could take"
+[34:56] me010 | all the standard metaphor examples and make question
+[34:59] me010 | versions of them .
+[35:01] me010 | OK .
+[35:02] mn036 | Muh -
+"[35:02] mn015 | "" Who got kicked out of France ? "" Nuh ."
+[35:04] mn036 | Right .
+[35:06] mn015 | Nuh .
+[35:09] mn015 | Mm - hmm .
+"[35:13] me010 | uh , it 's at all"
+"[35:16] me010 | Uh , to convert them to question forms that really exist and people say all the time ,"
+[35:30] me010 | I d
+"[35:31] me010 | We don't know how to handle the declarative forms ,"
+"[35:34] me010 | really ,"
+[35:40] me010 | Uh .
+"[35:41] me010 | Yeah . Nancy , it looked like you were s"
+"[35:50] fe004 | most of the things we talked about are our story understanding . Uh , we 're gonna have a short discourse and the person talking is trying to ,"
+[35:52] me010 | Right .
+"[35:58] mn015 | Help you create a mental model , blah - blah - blah . Yeah ."
+[36:01] me010 | Yes .
+"[36:08] fe004 | you know , that we have to recognize or , you know , infer ."
+[36:14] fe004 | don't follo follow quite as many
+"[36:20] me010 | over - arching story we we worked it out for th as you say , this the storytelling scenario ."
+[36:23] fe004 | Mm - hmm .
+[36:26] fe004 | Mm - hmm .
+"[36:29] me010 | what it looks like . What is the simspec mean , et cetera ."
+[36:29] fe004 | Mm - hmm . M
+"[36:41] me010 | Well , I don't know . I mean , maybe maybe that 's what we 'll do is is s u e"
+"[36:45] me010 | We can do anything we want with it . I mean , once we have fulfilled these requirements ,"
+[36:46] fe004 | Yep . Mmm Mm - hmm .
+"[36:52] me010 | OK , and the one for next"
+"[36:55] me010 | uh , summer is just"
+"[36:56] me010 | half done and then the other half is this ,"
+"[36:59] me010 | um ,"
+"[37:00] me010 | "" generation thing "" which we think isn't much different ."
+"[37:02] me010 | So once that 's done ,"
+"[37:04] me010 | then all the rest of it is ,"
+"[37:05] me010 | uh , sort of ,"
+"[37:06] me010 | you know , what we want to do for the research ."
+[37:09] me010 | And we can w we can do all sorts of things that don't fit into their
+[37:13] me010 | framework at all .
+[37:15] me010 | Th - there 's no reason why we 're c we 're constrained to do that .
+[37:15] fe004 | Mm - hmm .
+"[37:18] me010 | If we can use all the , uh ,"
+"[37:21] me010 | execution engines ,"
+"[37:22] me010 | then we can ,"
+"[37:23] me010 | you know , really"
+[37:25] me010 | try things that
+[37:26] fe004 | Mm - hmm .
+"[37:31] me010 | So , if we want to turn it into u understan standing stories about Heidelberg ,"
+[37:35] me010 | we can do that .
+[37:46] mn015 | w
+"[37:46] mn015 | e w a Assuming we have this , um , we we ta in that case we actually do have these wonderful stories , and historical anecdotes , and"
+[37:50] me010 | Yeah .
+[37:53] fe004 | Mmm .
+"[38:00] mn015 | and if we want to answer a question on that ,"
+"[38:03] mn015 | we actually have to go one step before that , and understand that ."
+[38:07] fe004 | Mm - hmm .
+[38:08] fe004 | Yeah .
+[38:10] fe004 | Mm - hmm .
+"[38:11] me010 | You might , yeah ."
+[38:20] mn015 | how can we sort of
+"[38:21] mn015 | run our our text , our content , through a machine that will enable us , later , to"
+[38:25] fe004 | Mm - hmm .
+[38:27] mn015 | retrieve or answer e questions more sensibly ?
+[38:28] fe004 | Mmm .
+[38:30] me010 | Anyway . S
+[38:31] me010 | Who 's going ?
+"[38:31] mn036 | So , uh So , uh , I was just going to ask , um , so ,"
+[38:39] me010 | Ah !
+"[38:41] me010 | OK . So eh Yeah . So , what happened is ,"
+"[38:44] me010 | there 's this , eh , uh Robert was describing"
+"[38:47] me010 | the There 's two packages there 's a ,"
+"[38:50] me010 | uh , quote parser , there 's a particular piece"
+"[38:53] me010 | of this big system , which , in German ,"
+"[38:56] me010 | uh , takes these t sentence templates and produces XML structures ."
+[39:00] mn036 | Right .
+[39:01] me010 | And one of our jobs was to make the English equivalent of that .
+"[39:05] me010 | That , these guys did in a in a day ."
+[39:08] mn036 | Right .
+"[39:08] me010 | The other thing is , at the other end , roughly at the same level ,"
+"[39:12] me010 | there 's something that takes ,"
+"[39:14] me010 | uh , X M L structures ,"
+[39:16] me010 | produces an output XML structure which is
+[39:19] me010 | instructions for the generator .
+[39:21] mn036 | Right .
+"[39:21] me010 | OK ? And then there 's a language generator , and then after that a s a synthesizer that"
+"[39:26] me010 | goes from an XML structure to ,"
+"[39:29] me010 | uh , language generation , to"
+[39:32] me010 | actual specifications for a synthesizer .
+"[39:34] me010 | Eh , but again , there 's one module in which there 's one"
+[39:34] mn036 | Right .
+[39:38] me010 | piece
+[39:39] me010 | that we have to convert to English .
+[39:42] mn036 | Right .
+"[39:50] me010 | a m a minor thing ,"
+[39:53] mn036 | Right . Right . That 's great !
+[39:54] me010 | OK ?
+"[39:55] me010 | And much more interesting is the fact that ,"
+"[40:01] me010 | you know , inheriting this system that does all sort of these other"
+[40:04] mn036 | Right .
+[40:05] me010 | things .
+[40:11] me010 | it gets difficult . And I I don't pretend to understand yet what I think
+[40:16] me010 | we really ought to do .
+[40:21] mn015 | OK .
+"[40:22] mn015 | So , e enough of that ,"
+"[40:24] mn015 | but I , uh , um ,"
+"[40:26] mn015 | mmm ,"
+"[40:28] mn015 | the e sort of , Johno and I will take up that"
+"[40:31] mn015 | responsibility ,"
+"[40:36] mn015 | Now , we have um just , I think two more short things ."
+[40:41] me010 | OK .
+"[40:43] mn015 | Um ,"
+"[40:44] mn015 | y you guys sort of started fighting , uh , on the Bayes - net"
+[40:49] me012 | Hmm .
+"[40:51] me012 | Yeah , I thought I should , um ,"
+"[40:53] me012 | talk a little bit about that , because that might be a good , uh ,"
+[40:58] me010 | Good !
+[40:59] me010 | OK .
+"[41:00] me012 | you know , multiple inputs to a node ."
+[41:01] me010 | Good .
+[41:02] me010 | And what 's the other one ? so that just we know what the d agenda is ?
+"[41:12] me010 | put that off till I I till I understand better ,"
+"[41:15] me010 | uh , what he 's doing . It 's just a little embarrassing cause all this was in his thesis and I was on his thesis committee ,"
+"[41:21] me010 | and , so , I r really knew this at one time ."
+[41:25] me010 | It 's not only uh Is Part of what I haven't figured out yet is is how all this goes together .
+[41:29] me010 | So I 'll dig up some more
+[41:31] me010 | stuff from Dekai .
+[41:35] me012 | OK . So should I Is there a white board here that I can use ?
+[41:42] me012 | Or shall I just use this ?
+[41:42] me010 | squealing sound ?
+[41:43] me010 | It 's probably just as easy . I
+[41:44] mn036 | Yeah .
+[41:44] me012 | Yeah .
+[41:45] me003 | You can put the microphone in your pocket .
+"[41:55] fe004 | It was a quick one , huh ?"
+"[41:55] me010 | That 's why they invented "" pocket T 's "" ."
+[41:57] fe004 | They have clips ! Huh .
+"[41:59] me012 | Yeah . So , um Recall that , uh ,"
+[42:04] me012 | we want to have
+"[42:16] me012 | the typical example is that , um , these are all a bunch of cues for something , and this is a certain effect that we 'd like to conclude ."
+"[42:30] me012 | you know ,"
+[42:32] mn015 | E - EVA
+"[42:34] me012 | Yeah , E - EVA , right ?"
+[42:36] mn015 | Yeah .
+"[42:41] me012 | Yeah . Enter ,"
+"[42:43] me012 | View ,"
+[42:44] me012 | Approach .
+[42:44] mn036 | OK . Right .
+[42:45] me012 | Right .
+[42:51] mn015 | Hmm ?
+"[42:55] me012 | This isn't the way it really is , but let me say that , suppose someone mentioned , uh ,"
+"[43:03] me012 | Ah , it takes too long . Try let me just say "" Landmark "" ."
+"[43:05] me012 | If the thing is a landmark ,"
+"[43:14] me012 | if it 's closed or not , at the moment ."
+"[43:30] me012 | Right ? That 's assuming these are all binary , which f they may not be . For example , they could be "" time of day "" , in which case we could , uh , say , you know , "" Morning ,"
+[43:49] me012 | sort of deal with this .
+"[44:00] me012 | Let 's call these , uh , C - one , C - two , C - three , and C - four , and E , for Cause and Effect , I guess ."
+[44:18] me012 | Right .
+"[44:21] me012 | Well , actually , the idea , first of all , is that each of these things has a quote - unquote distinguished state , which means that this is"
+"[44:30] me012 | So , for example , if we don't really know if the thing is a landmark or not ,"
+"[44:40] me012 | if there is something for the person talking about the admission fee ,"
+[44:49] mn015 | OK .
+[44:51] mn015 | Mm - hmm .
+"[44:52] me012 | So , the idea is that , um , you have these intermediate nodes , right ? E - one , E - two , E - three and E - four ?"
+"[44:57] me010 | So , this is the Heckerman paper you 're working with ? Good ."
+[44:59] me012 | Yeah .
+[45:14] me012 | But none of the other sort of cues really apply .
+"[45:20] me012 | W The this would just represent the probability distribution of this ,"
+[46:01] me012 | so we don't need to specify any probabilities .
+"[46:04] me012 | We just have to , um , say what function this is , right ?"
+"[46:11] me012 | E - three , E - four ."
+[46:13] me012 | Right ?
+[46:17] me012 | a majority vote ?
+[46:20] me012 | Right ?
+[46:28] me010 | W not what the G function is .
+[46:34] me010 | There is a a a general kind of idea of shortcutting the full CPT . Th - c the full conditional probability table with some function .
+"[46:43] me010 | OK ? Which y w you choose appropriately for each case . So , depending on what your situation is , there are different functions which are most appropriate ."
+"[46:54] me010 | So I gave eh Bhaskara a copy of this , eh sort of "" ninety - two "" paper . D and you got one , Robert . I don't know who else has seen it ."
+[46:59] me012 | Mm - hmm .
+[47:02] me012 | There 's I mean yeah . it 's Heckerman and Breese .
+[47:04] me010 | It 's short .
+[47:06] me010 | It 's short .
+[47:06] me012 | Yeah .
+"[47:07] me010 | So , I u w Um , yo uh you Have you read it yet ?"
+"[47:10] me012 | Uh , you can Yeah , you should take a look at it , I guess ."
+"[47:12] me010 | OK , so you should take a look . Nancy , I 'm sure you read it at some point in life ."
+"[47:14] fe004 | I yeah . I I think so , yeah ."
+"[47:16] fe004 | Yeah , @ @ ."
+[47:19] mn036 | OK .
+"[47:24] me010 | One of the questions just come at Bhaskara is ,"
+"[47:26] me010 | "" How much of this does JavaBayes support ? """
+[47:36] me010 | Right .
+"[47:45] me010 | Right . So the little handout that The little thing that I sent I sent a message saying ,"
+"[47:52] me010 | One thing you could do , which is kind of s in a way , stupid , is take this deterministic function ,"
+[47:57] me010 | and use it to build the CPT .
+"[48:00] me010 | So , if Ba - JavaBayes won't do it for you ,"
+[48:01] mn015 | Mmm .
+[48:02] me010 | that you can convert all that into what the CPT would be .
+"[48:07] me010 | Um and , what I sent out about a week ago , was an idea of how to do that ,"
+"[48:13] me010 | for ,"
+"[48:23] me010 | uh , if each of th if each of the ones has its own"
+"[48:26] me010 | little table like that , then you could take the ,"
+"[48:30] me010 | uh , strength of each of those , times its little table , and you 'd add up the total evidence for "" V "" , "" E "" , and "" A "" ."
+[48:38] fe004 | Mm - hmm .
+"[48:51] me012 | quadruplets of well , N - duplets of , uh , E Vs ."
+[48:53] me010 | I i i
+[49:04] me010 | that does it . It 's a pui it 's actually one of the examples he 's got in there .
+[49:12] me010 | now is it clear
+[49:13] me010 | that you might like to be able to
+[49:17] me010 | shortcut
+[49:18] me010 | the whole conditional probability table .
+"[49:22] mn015 | I mean , in some it seems very plausible in some sense , where we will be likely to not be observe some of the stuff ."
+[49:30] mn015 | Cuz we don't have the a access to the information .
+"[49:33] me010 | Right . That 's one of the problems , is , W Is is , Where would th Where would it all come from ?"
+[49:34] mn015 | Yeah .
+[49:36] mn015 | So .
+[49:37] fe004 | Mmm .
+[49:40] me012 | What ?
+"[49:40] mn015 | I if it 's a a a discar Discourse Initial Phrase , we will have nothing in the discourse history ."
+"[49:48] mn015 | So , if if we ever want to wonder what was mention"
+[49:50] me012 | Oh . A are you saying that we 'll not be able to observe certain nodes ? That 's fine . That is sort of orthogonal thing .
+"[49:53] me010 | Yeah , so there 's there 's two separate things , Robert ."
+[49:55] me010 | The f the the the Bayes - nets in general are quite good
+"[49:59] me010 | at saying , "" if you have no current information about this variable just take the prior for that . """
+[50:04] me010 | OK ? Th - that 's what they 're real good at .
+"[50:06] me010 | So , if you don't have any information about the discourse ,"
+"[50:14] me010 | uh ,"
+[50:19] mn015 | Mm - hmm .
+"[50:23] me010 | and , so forth . So that , they 're good at . But the other problem is , how do you fill in all these numbers ?"
+[50:27] me010 | And I think that 's the one he was getting at .
+[50:28] fe004 | Mm - hmm . Yeah .
+"[50:28] me012 | Yeah . So , specifically in this case you have to f"
+"[50:31] me012 | have this many numbers , whereas in this case you just have to have three for this , three for this , three for this . Right ? So you have to have just"
+[50:36] mn015 | Mm - hmm .
+[50:37] me012 | three N ?
+[50:42] fe004 | Mm - hmm .
+[50:44] me012 | Yeah . Right .
+"[50:44] me010 | Well , pretty quickly ."
+"[50:46] fe004 | So , you don't need da data enough to cover uh , nearly as much stuff ."
+[50:46] me012 | I don't know .
+"[50:51] me003 | "" neural - net - acize "" these Bayes - nets ?"
+"[50:53] me010 | Eh well to some No , no . So , "" Noisy - OR "" is a funny"
+"[50:57] me010 | way of referring to this , because"
+[50:59] me010 | the Noisy - OR is only one instance .
+[51:01] me012 | Yeah . This isn't a Noisy - OR anymore .
+[51:05] me003 | Yeah .
+[51:05] me010 | of a way t t
+"[51:26] me010 | uh , s you know , sum of weights or anything like that ."
+"[51:30] me010 | uh , like the Noisy - OR function ,"
+"[51:33] me010 | really is one that 's essentially says , uh , take the max ."
+"[51:37] me012 | Well , the "" OR "" ."
+[51:39] me010 | Same .
+[51:39] me012 | Right . I guess you 're right . Yeah .
+"[51:47] me010 | And , I thi I think that 's the standard way people"
+[52:04] me010 | I think we definitely I think it 's a great idea tha to to pursue that .
+[52:10] mn015 | Wha - still sort of leaves one question .
+"[52:26] mn015 | of getting these point four , point five , point one ,"
+"[52:30] mn015 | of C - four ,"
+"[52:38] mn015 | and if it 's a garden ,"
+[52:57] me012 | It 'll be students Where else would it be stored ? That 's the question .
+[52:57] mn015 | let 's see .
+"[52:59] mn015 | Well , in the beginning , we 'll write up a flat file . We know we have twenty object types and we 'll write it down in a flat file ."
+[53:01] me010 | Oh .
+[53:02] me010 | Yeah .
+"[53:03] me010 | No . So , i is"
+"[53:04] me010 | Well , let me say something , guys , cuz there 's not There 's a pretty point about this we might as well get in right now ."
+[53:07] me012 | Mm - hmm .
+[53:09] me010 | The hierarchy that s comes with the ontology
+"[53:25] me010 | If you don't , you look up the hierarchy ,"
+"[53:28] me010 | Eh so , you you you may or So , then you 'd have this little vector of ,"
+"[53:32] me010 | um , you know , Approach Mode or EVA Mode . Let 's OK , so we have the EVA vector for for various kinds of landmarks . If you know it for a specific landmark you put it there ."
+"[53:41] me010 | If you don't , you just go up the hierarchy to the first place you find one ."
+[53:45] me012 | OK .
+"[53:46] me012 | So , is the idea to put it in the ontology ?"
+[53:48] me010 | Absolutely .
+[53:48] me012 | OK .
+"[53:57] me010 | a an object , is its EVA vector ."
+[54:00] me012 | OK . Mm - hmm .
+"[54:01] me010 | And , if yo As I say , if you know about a specific object , you put it there . This is part of what Dekai was doing ."
+"[54:06] me010 | So , when we get to Wu ,"
+[54:07] me012 | Right .
+[54:08] me010 | The - e We 'll see w what he says about that .
+"[54:12] me010 | If it isn't there , it 's higher , and if you don't know anything except that it 's a b it 's it 's a building , then up at the highest thing , you have the pr what amounts to a prior ."
+"[54:21] me010 | uh , you just take whatever your crude approximation is up at that level , which might be equal , or whatever it is ."
+[54:24] me012 | Right .
+[54:27] me012 | Yeah .
+[54:32] me010 | these local vectors and the ontology .
+"[54:35] me010 | And it seems to me the obvious thing to do , unless"
+[54:38] me010 | we find a reason to do something different .
+[54:41] me012 | Yeah .
+[54:42] me010 | Does this make sense to you ? Bhask - ?
+[54:43] me012 | Yeah .
+"[54:44] me012 | So , we are but we we 're not doing the ontology , so we have to get to whoever is doing the u ultimately ,"
+"[54:48] me010 | Indeed . So , that 's another thing we 're gonna need to do , is is , to ,"
+"[55:11] me003 | Yeah , hash on object name to , you know , uh , the probabilities or whatever ."
+[55:12] me010 | th
+[55:13] me010 | Yeah .
+[55:15] me010 | e
+"[55:15] me010 | Right . And , so ,"
+"[55:17] mn015 | But it 's , uh Well , it strikes me as a What For -"
+"[55:21] mn015 | If we get the mechanism ,"
+[55:38] mn015 | two to three days because they 're having really trouble getting the upper level
+"[55:42] mn015 | straight , and"
+"[55:45] mn015 | given the craw bet uh , the the the projects"
+[56:04] me010 | Right . Yeah .
+"[56:15] mn015 | And , um ,"
+"[56:18] mn015 | what I don't think is ever going to be in the ontology , is sort of , you know , the likelihood of , eh , people entering r"
+"[56:41] me010 | Well , they they they How ar What are they gonna do with instances ? I mean , you y"
+[56:56] me010 | OK .
+[57:01] mn015 | we now have to hook it up to instances .
+[57:03] mn015 | I mean this is
+[57:05] me010 | But what i What is SmartKom gonna do about that ?
+"[57:12] mn015 | Yeah , but the ontology is really not a SmartKom"
+"[57:16] mn015 | thing ,"
+[57:20] mn015 | I kicked loose
+[57:21] mn015 | in in EML . So it 's a completely EML
+"[57:28] mn015 | Yes , u a w a lot of people are aware of that ."
+"[57:39] mn015 | No , but th the r eh I th I still think that"
+"[57:44] mn015 | For example , whether OK . So , th it will know about the twenty object types there are in the world ."
+[57:50] mn015 | Let 's assume there are only twenty object types in this world .
+[57:53] mn015 | And it will know if any of those have institutional meanings .
+[58:05] mn015 | enterable .
+[58:06] mn015 | Right ? In a sense . You know .
+[58:08] mn015 | Yep .
+[58:10] mn015 | Yep .
+"[58:11] me010 | Conceptually , we know what should be done ."
+[58:18] me010 | is to build a a separate thing that that
+[58:21] me010 | just pools i i
+"[58:22] me010 | Like , i i it it may be ,"
+"[58:24] me010 | that ,"
+[58:25] me010 | the the instance w That we have to build our own
+"[58:28] me010 | instance , uh ,"
+"[58:29] me010 | things , that ,"
+"[58:30] me010 | with their types , and then it goes off to the ontology once you have its type . So we build a little data structure And so what we would do in that case ,"
+"[58:36] me010 | is , in our instance gadget have"
+"[58:49] me010 | uh , EVA tree ."
+[58:51] me012 | Yeah . Right .
+"[58:51] me010 | And then , for other ,"
+[58:59] me012 | Mm - hmm .
+"[59:00] me010 | and then would hash or whatever we do to say , "" ah ! If it 's that type of thing ,"
+"[59:06] me010 | it 's that . """
+"[59:07] me010 | So , I I think we can handle that . And then But , the combination functions ,"
+"[59:12] me010 | and whether we can put those in Java Bayes , and all that sort of stuff ,"
+"[59:15] me010 | is , uh is the bigger deal ."
+[59:18] me012 | Yeah .
+[59:18] me010 | I think that 's where we have to get technically clever .
+[59:22] me003 | We could just steal the classes in JavaBayes and then
+[59:25] me003 | interface to them with our own code .
+"[59:28] me012 | That requires understanding the classes in JavaBayes , I guess ."
+"[59:30] me010 | Yeah , I mean , it 's , uh , e e e e e cute ."
+[59:35] me010 | Just ?
+"[59:42] me010 | But , yeah , we could look at it ."
+[59:45] me010 | Yeah .
+"[00:00] me003 | Well , no , but that just means there 's a protocol ,"
+"[00:03] me010 | It may or may not . I don't know . That 's the question is "" to what extent does it allow us to put in these G functions ? """
+[00:10] me010 | And I don't know .
+"[00:13] me003 | So you could have four different Bayes - nets that you 're running , and then run your own write your own function that would take the output of those four ,"
+"[00:20] me003 | and make your own "" G function "" , is what I was saying ."
+"[00:21] me010 | Yeah , that 's fine if it 's if it comes only at the end . But suppose you want it embedded ?"
+[00:32] mn015 | Mm - hmm .
+"[00:33] me010 | Yeah , yeah , yeah , yeah , yeah , you bet ."
+"[00:34] me010 | But , at that point you may say , "" hey , Java Bayes isn't the only package in town . Let 's see if there 's"
+"[00:39] me010 | another package that 's , eh , more civilized about this . """
+"[00:45] me010 | Now , Srini"
+"[00:46] me010 | is worth talking to on this ,"
+[00:48] me010 | cuz he
+[00:49] me010 | said that he actually did
+[00:52] me010 | hack some combining functions into JavaBayes.
+[00:54] me012 | Ah !
+"[00:58] me010 | whether it was an e an easy thing , a natural thing , or whether he had to do some violence to it to make it work ."
+[01:03] me010 | Uh . But he did do it .
+"[01:06] me012 | I don't see why the , uh , combining f functions have to be directly hacked into JavaBayes. I mean , they 're used to create tables so we can just make our own little functions that create tables in XML ."
+"[01:14] me010 | Well , I say that 's one way to do it , is is to just convert it"
+[01:23] me010 | it doesn't require any
+[01:24] me012 | Mm - hmm .
+[01:25] me010 | data fitting or complication .
+[01:26] me012 | Yeah .
+"[01:31] me012 | I mean , OK . So say it blows up , right ? So there 's , like ,"
+[01:34] me012 | the
+"[01:38] me012 | that , which isn't so bad ."
+[01:41] me010 | I I understand . I 'm just saying tha that w
+[01:42] me010 | That was wi that was my note .
+[01:44] me010 | The little note I sent said that .
+[01:46] me012 | Mm - hmm .
+"[01:46] me010 | It said , "" Here 's the way you 'd take"
+"[01:48] me010 | the logical f G function and turn it into a CPT . """
+[01:51] me012 | Mm - hmm .
+[01:52] me010 | I mean that the Max - the Evidence - Combining function .
+[01:55] me010 | So we could do that . And maybe that 's what we 'll do .
+[02:02] me010 | don't know .
+[02:12] me010 | and try to understand it .
+"[02:14] me010 | Uh , you 'll make a couple of more copies of the Heckerman paper to give"
+[02:18] me012 | p Sure .
+"[02:19] mn036 | Yeah , I I would like a copy , y y yeah ."
+[02:19] me010 | to people ?
+[02:20] me012 | OK .
+[02:21] me010 | OK .
+"[02:41] mn015 | Yeah , uh - huh ."
+[02:45] mn015 | OK .
+[02:51] me010 | coming in
+[02:57] fe004 | Mm - hmm .
+[03:10] me012 | Yep .
+[03:11] fe004 | Sure .

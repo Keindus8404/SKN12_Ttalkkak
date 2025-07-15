@@ -1,0 +1,260 @@
+﻿"[00:44] Speaker_A | Okay , welcome to the second meeting of this uh design group ."
+[00:57] Speaker_A | notes of the of the last meeting
+"[01:04] Speaker_A | uh just done in in note form and I haven't attributed anything to individuals , because we're working strictly as a team here and uh n nobody's working equally , so uh . Um we we s we saw that the the problems with existing remote controls were the uh b a boring shape and boring colour ."
+[01:15] Speaker_C | Sorry .
+"[01:29] Speaker_A | Um and and we s we saw that the um what we needed to do was to to make sure the device um controls several items , that switching was easy ,"
+"[01:39] Speaker_A | that you shouldn't need to point the thing at uh anything in particular , um that it need to be contoured to make it interesting , that the keys might be concave , simply because that hasn't been done before that we know of . Um should have interchangeable fascias so people can personalise it , um illuminated so that people can see it in dark rooms . Um and that people might want it as as in addition to their existing remote controls . Um and that it sh it should just always work , whenever you uh um"
+"[02:19] Speaker_A | mm uh use it . And that it shouldn't be too small , mm that it it gets lost ."
+[02:25] Speaker_A | Um .
+[02:36] Speaker_A | Now uh
+"[02:38] Speaker_A | uh I'll shortly ask for for three three presentations . Uh before I do that , however , I will go through some new project requirements that um the the management have placed on us and uh will be challenging in terms of what we discussed at the first meeting . Um the uh"
+[03:31] Speaker_A | Anyway . Okay .
+"[03:37] Speaker_A | Now , the n the new requirements are um the the management team see that um teletext is no longer of any importance given the uh the rise of the internet . Um and and they want it only to cover televisions ."
+"[03:58] Speaker_A | Um now , what is not q quite clear from their directive is whether they mean th they don't want it to cover teletext or whether they don't want it to cover , you know , videos , D_V_D_s , um satellite boxes , which uh I mean we saw as being fundamental to the uh to the exercise . The um the actual wording of the directive is that it should cover television only ."
+"[04:27] Speaker_A | Um and on that basis um I I think we we need to bear that in mind , um but possibly uh keep at the backs of our minds that the reality that people even when they uh no longer they don't look at teletext anymore , they certainly do look at other things . Um the device has to incorporate the company logo and colours . Um the the logo uh being at b the bottom of the screen there , the the the two R_s in grey against uh a yellow background ."
+"[05:04] Speaker_A | Um now this doesn't necessarily mean that we have to give up some of our ideas about making it attractive to the t to the market . But uh do do introduce some some constraints as to how we might do that . Um it also has to be simple , which to some extent goes along w with the first one , and that we've already said that it must be simple 'cause that's what people want anyway . Um but they also want it to be simple to get it to the market quickly , which um"
+"[05:36] Speaker_A | mm uh is is is their choice , but uh um we we need to talk that through . Um okay , so uh"
+[05:56] Speaker_A | after the meeting it'll be summarised and uh
+"[06:01] Speaker_A | um notes sent out and uh etcetera . Okay , so we'll first of all mm have individual reports from everybody . Um again I there is no order of precedence here um so I I I'll leave it up to you to who who who thinks they would like to go go first ?"
+[06:29] Speaker_A | P fine .
+[06:32] Speaker_D | Uh can I steal the cable ?
+"[06:33] Speaker_A | Oh sorry , you can indeed ."
+[06:39] Speaker_D | Cheers .
+"[07:23] Speaker_A | Oh , if you click on the um uh the one that that looks like a projection screen , no the one to the right of that . That one ."
+[07:30] Speaker_D | That one . Cool . Well these are functionality requirements from the our our guys down in the the research lab . Took hundred people and covered all the aspects of what um is needed by people and what they want to see .
+"[07:51] Speaker_D | Um everything kinda from functionality and how individual functions are how mu how how often they're used and how much their necessary and stuff . And general opinions about current current remotes . See that , as we kinda noticed , seventy five percent of people find their remote controls ugly ."
+"[08:13] Speaker_D | So some kind of a new style should be incorporated that's less ugly . Uh along with um looking less ugly , if it looks better , eighty percent of people said they'd spend more money on it ."
+"[08:31] Speaker_D | Which is a a plus for us , if we can make it look better , it'd be uh"
+[08:35] Speaker_D | more cost effective
+[08:38] Speaker_D | and we can put the price up .
+[08:42] Speaker_D | Current remote controls do not match the operating behaviour of the user . I can empl I kinda take that to mean as um
+"[09:18] Speaker_D | Uh again , seventy five percent is seventy five percent of users say they zap a lot . I took to mean that they just they use it a lot , they use it regularly rather than standing up and"
+[09:30] Speaker_D | manually change channels or volume .
+"[09:36] Speaker_D | yeah , uh I think the big issue is fifty percent users only use ten percent of the buttons , 'cause uh wh if we got a remote that like well we'll have some buttons taken off by the lack of teletext , but uh oh and we're going to see uh on the uh that some of the functions like audio settings aren't h hardly ever used and used very aren't considered relevant by the user . So I think maybe fewer buttons , which also make the design look sleeker , I dunno ."
+[10:06] Speaker_D | Uh um yeah and
+"[10:10] Speaker_D | uh frustrations of like people losing remote control . I dunno maybe some kind of system of you press a button on the T_V_ or maybe that's b it would have to incorporate , but like some kind of system where you can f use something else to find the remote control ."
+[10:13] Speaker_A | Mm .
+[10:23] Speaker_D | Maybe like it'll beep or something .
+"[10:35] Speaker_D | Uh don't want to make it too complicated , easy to use for uh new like first time users and stuff ."
+"[10:41] Speaker_D | And uh repetitive strain injury , I suppose we should make it more comfortable and make ma possibly even use have to make it , yeah , fewer buttons , like I was saying about the whole mice the mouse idea of it feels more comfortable . Maybe don't even have to hold it as such ."
+[10:54] Speaker_A | Mm .
+"[10:56] Speaker_A | Gosh , must be some telly addicts out there if they get R_S_I_ from their television remote , is all I can say ."
+[11:03] Speaker_D | But uh yeah . It also asked um if we would if people would pay more for speech recognition and younger people say they would .
+"[11:14] Speaker_D | And uh there was another section on our on the report for uh L_C_D_ displays , but the data wasn't there , so . I don't actually know what the results for that were , so . May be incrementally emitting , but yeah ."
+[11:21] Speaker_A | Mm . Right .
+[11:24] Speaker_A | Mm .
+"[11:27] Speaker_A | Yeah , I must say that um the uh I c can't remember what um f you know phone service I was using the other day , but that had sorta speech recognition which worked uh remarkably well , so that is indeed a uh"
+"[11:46] Speaker_A | I was was gonna say , you can't get a lot of R_S_I_ , j just get jaw ache . Okay , sorry ."
+"[11:51] Speaker_D | Yeah , um oh yeah , so possibly the speech recognition is possibly something could add into the design . Oh , I've got some other things I couldn't fit onto this presentation ."
+[12:04] Speaker_D | Um .
+"[12:07] Speaker_D | You see this okay ? Almost no ? It's sorry it's a bit . I'll read out to you . Uh functionality , uh like people's opinions on functionality , the relevance to the remote and how often they're used . So um"
+[12:32] Speaker_A | Mm-hmm .
+[12:48] Speaker_B | Mm .
+"[13:01] Speaker_C | It could be oh uh I was just gonna say uh maybe like the flip phones that they use ? Have you seen the new mo mobile phones that flip out and they have the like texting , and then the numbers on one side , so you could have the most used buttons on top and flip it out or something . Yeah ."
+[13:08] Speaker_B | Mm .
+[13:11] Speaker_D | Oh yeah .
+[13:14] Speaker_A | Mm .
+"[13:17] Speaker_A | Hmm , hmm ."
+"[13:18] Speaker_D | Yeah , like the one that like slides back and the buttons are concealed underneath ."
+[13:18] Speaker_B | Mm .
+[13:19] Speaker_A | Uh .
+[13:21] Speaker_B | Mm .
+[13:29] Speaker_D | Just remove them completely ?
+[14:05] Speaker_D | Uh yeah .
+[14:22] Speaker_D | Um no this is for pay more for speech recognition .
+"[14:24] Speaker_A | That would 've speech recogn right . So , we're looking at um well again , we don't know the relative proportion the relative numbers in the age groups ."
+"[14:35] Speaker_D | Yeah , that's true ."
+[14:35] Speaker_A | If we wanted something
+"[14:39] Speaker_A | different , truly different , then the buttonless remote control w would be it ."
+[15:03] Speaker_C | Maybe i
+"[15:06] Speaker_C | Yeah , have a big kind of like the satellite box or the cable box and have it just go on the T_V_ and then it doesn't matter where in the room you are , you won't lose it ."
+[15:14] Speaker_D | Yeah .
+[15:14] Speaker_B | Mm .
+"[15:15] Speaker_A | It c well it I can I can see technical problems with that in terms of the , you know , the sound from the television , because if somebody actually on the television says uh uh , you know , I_T_V_ and you're watching B_B_C_ then then it might um change itself , so it probably needs to be um possibly actually need a button on it"
+[15:18] Speaker_B | Mm .
+[15:19] Speaker_C | No .
+[15:28] Speaker_B | Yeah .
+"[15:32] Speaker_C | Yeah , that's true ."
+"[15:36] Speaker_A | just to activate it . Or or something just to identify that you've lifted it up and it's use . And and then just say , oh I don't know , a thought and and then uh I mean that that would certainly be uh truly different ."
+[15:36] Speaker_D | Oh yeah .
+[15:43] Speaker_C | Yeah .
+[16:02] Speaker_D | Mm-mm .
+[16:04] Speaker_B | But look at the importance of them . The volume settings .
+"[16:10] Speaker_D | Relevance of two out of ten , yeah ."
+"[16:11] Speaker_A | Vol volume , yes um th w we need to s identify things that people actually need and and it's a function of frequency and relevance . And um I would say ignoring ig ignoring power for the moment , um the channel and volume and th w w given given that we've been told to ignore teletext . Uh channel and volume are the only ones that"
+[16:11] Speaker_B | Yeah .
+[16:13] Speaker_B | They're not used often but they are quite important when they're used . Yeah .
+[16:29] Speaker_B | Mm .
+[16:33] Speaker_D | Yeah .
+[16:37] Speaker_D | Stand out .
+[16:41] Speaker_A | Um .
+"[16:43] Speaker_A | So we if we can design something that that looks interesting ,"
+"[16:49] Speaker_A | know , or looks different , um incorporates the the logo and and the colours and um we can still have our interchangeable fascias even if it's the yellow and grey , um"
+"[17:05] Speaker_A | and uh I dunno , buttons or or buttons as an option ."
+"[17:10] Speaker_D | Uh I just had a thought actually , sorry to interrupt . Uh you were saying about um it could technical problems of like uh someone on the television saying a channel number and it changed we could maybe have like an activation"
+"[17:12] Speaker_A | Do , please ."
+[17:21] Speaker_A | Mm-hmm .
+[17:26] Speaker_D | word .
+"[17:28] Speaker_D | 'Cause I've seen I've seen this used on computers before , where you just you address the remote , you address the computer , and then give it a command ."
+[17:28] Speaker_A | You cer certainly could .
+[17:31] Speaker_B | Mm .
+[17:34] Speaker_A | Depe uh i depends whether um if we want to make this
+[17:40] Speaker_A | so simple that anybody can walk into the room and lift it up and say
+"[17:45] Speaker_D | Oh I see . Oh yeah , I see ."
+"[17:47] Speaker_A | B_B_C_ one . Um okay , I mean you could"
+[17:51] Speaker_A | print actually print it on the uh
+[17:54] Speaker_A | device itself .
+[17:57] Speaker_A | Um .
+[17:57] Speaker_D | I mean I'm just thinking of the point of view of peop you could still like lose this remote .
+[18:04] Speaker_D | Mm .
+"[18:21] Speaker_D | Oh no I I interrupted you , sorry ."
+[18:24] Speaker_D | Oh okay .
+"[18:26] Speaker_D | Um well , I was just kinda wrapping up there . Yeah , I was thinking um , yeah , maybe such things are relevant . We could make things much more f I think the the eighty percent of people would spend more on uh a remote uh that looks better ,"
+[18:29] Speaker_A | Mm okay .
+"[18:40] Speaker_D | combined with uh decrease the or take out the limited functio functions that we don't really use much . alright take out teletext , but as for channel settings and stuff it might it might um turn people somewhe peop some people that want the whole functionality away . But , since if we're marketing a more kind of fashionable approach then it'd it would be fashion and fashion over practicality ."
+[19:02] Speaker_A | Mm-hmm .
+"[19:16] Speaker_D | We c yeah , we could even have it as like a yeah the buttons control this and the voice functions control the f things that you would do all the time , so ."
+[19:26] Speaker_B | Mm .
+[19:32] Speaker_A | The I mean the the advantage of doing away the buttons altogether is it makes the thing cheaper .
+[19:36] Speaker_D | Yeah and probably it would look better as well .
+"[19:38] Speaker_A | No , it cou certainly opens up the possibility for making it uh , you know , visually very distinctive ."
+[19:44] Speaker_D | Yeah . yeah .
+"[19:45] Speaker_A | Um 'cause you know , it does not have to be a oblong box ."
+[19:50] Speaker_B | Mm .
+"[19:52] Speaker_A | Mm , yeah ."
+"[19:54] Speaker_A | Okay , who sorry , have you have you finished there Andy ? Yep , yep ."
+"[19:56] Speaker_D | Uh yeah , yeah , that's everything ."
+[19:58] Speaker_A | Um given that we've already had a extensive discussion uh .
+"[20:07] Speaker_C | Okay well , I can do mine ."
+[20:08] Speaker_B | Hmm .
+[20:10] Speaker_D | Do you want the cable ?
+"[20:11] Speaker_C | Yeah , let's see if I can make this work . Um ."
+"[20:35] Speaker_B | Oh , you have to hit like function and F_ something ."
+[20:38] Speaker_C | Oh .
+[20:39] Speaker_D | F_ eight .
+[20:39] Speaker_B | F_ eight .
+"[20:50] Speaker_D | Uh , give it about twenty seconds , or so ."
+[20:52] Speaker_C | Okay .
+"[20:53] Speaker_B | Oh yeah , it's going ."
+[20:54] Speaker_C | Oh okay .
+[21:04] Speaker_A | Alright .
+[21:30] Speaker_A | Mm-hmm .
+[21:51] Speaker_A | Mm-hmm .
+"[22:18] Speaker_C | for the company and the colours . And so , for my personal preferences , I think this one is easier to use and has quite a you know , fewer buttons . Um we want something that sends messages easily to the television and I was kind of wondering about this example that they have . It looks kind of narrow at the top , and I was thinking maybe if it were wider at the top , then that would be easier ."
+"[22:40] Speaker_A | Mm , yeah ."
+"[22:44] Speaker_C | Um and so we have to decide what's gonna make our product different . E the unique style , maybe have it light up so it's visible in the dark , um the changeable face-plates , and the lighting up and visible I was when we were talking about havi losing it , maybe to have a button on the television that you press and it maybe if it makes a noise or lights up or something like that , so it's easier to find if someone has hidden under the couch or something like that ."
+[23:12] Speaker_C | So that's my presentation .
+[23:17] Speaker_C | Yeah .
+[23:34] Speaker_C | F they probably clip to you .
+"[23:36] Speaker_B | Oh yeah , they might be movable . Oh yeah , they're all they're not connected to anything on the table , you just leave 'em on and walk around with 'em ."
+[23:37] Speaker_D | Yeah .
+"[24:03] Speaker_A | Yes , rather than the uh the the traditional in fact , um I won't even go that far . Um something like this shape , you know , sort of something that you can that's sort of a more vertical shape , um that you you sort of hold in your hand , um , well I'm trying to think"
+"[24:25] Speaker_A | uh uh uh l uh l such as I mean um something you hold up like that , possibly with a couple of buttons like that , but with the the entire top with the , you know , the uh the infrared or whatever source ."
+[24:32] Speaker_B | Mm .
+"[24:38] Speaker_A | Uh so that you know , it's"
+"[24:40] Speaker_A | flying off in all directions , so that uh um uh again the n need to look at the the the technicalities of um"
+[24:40] Speaker_B | Mm .
+"[24:51] Speaker_A | actually achieving that in terms of whether the , you know , the power requirements of the uh such a source , um you know , compromise the our our need for uh you know , it it being"
+[25:05] Speaker_A | um mm permanently
+"[25:09] Speaker_A | uh you know , available . Uh whether whether different technology um I mean th all all these remotes are presumably infrared , and like they have been for a long time . Uh we we possibly need to be looking at at at something different , um you know , short range , not like the old uh radio remote controls where you'd change next door's telly when you change yours . Um"
+"[25:35] Speaker_A | but uh uh I think basically i if we're going for i if minimum number of buttons is our priority , then we should , as I say , r know , really bite the bullets and and reduce the buttons to absolute minimum , you know , possibly with backup channel and volume buttons and on off . Um and nothing else ."
+[26:08] Speaker_C | Oh .
+[26:12] Speaker_B | Which one does this plug into ?
+[26:13] Speaker_C | Hmm I think it's all there .
+[26:16] Speaker_B | That one .
+[26:47] Speaker_C | Oh yeah . That's kind of strange .
+"[26:52] Speaker_B | That's not cool . Oh well . Anyways . Um alright , yeah , so um I'll just do my presentation on the working design uh ."
+"[27:53] Speaker_B | Oh shoot . Okay . Uh just general findings . Uh what we need uh technically speaking for the remote control is some sort of energy source , uh some sort of user interface , which I think we've mostly been talking about the user interface and the design of that . Um a circuit chip within that to uh control and send the messages and um a sender and receiver ."
+[28:21] Speaker_B | And um oops . Uh-huh .
+"[28:27] Speaker_B | This is just sort of a little schematic diagram of what we're looking for . Uh this just kinda represents the energy source which feeds into the circuit chip uh which maybe then we could have that feed into a switch which would send signals f to um a subcomponent and on to a light bulb between so it'll light up once we start once you start pressing buttons . Um also send signals to the um infrared bulb , which will be the part that actually what ? Sends signals to the the television . And then you've got your happy little T_V_ watcher there ."
+[28:30] Speaker_D | Hmm .
+"[28:59] Speaker_B | And so my personal preferences I I just think we need sorta big uh energy source that won't die out , uh perhaps some sort of rechargeable battery or a battery dock you could place it in , so it'd constantly be charged , so you wouldn't have to uh be worrying about it running out of batteries and not changing channels for you . Uh a wide range uh sender-receiver , so that you can hit the buttons from basically anywhere in the room , and the channel'll still be changed . Uh also definitely a user-friendly interface um and I think we've all sort of mentioned adding a a locating device on it , so when it does get stuck under the couch cushions , as they inevitably do , you can find them easily . And that's pretty much it ."
+[29:42] Speaker_A | Okay .
+"[29:44] Speaker_A | Uh it seems seems to me there are a number of fundamental decisions to make before we um I think your point about the the big energy source is uh a very valid one . Um I don't suppose we've got any statistics on the the life expectancy of uh remote controls , particularly sort of independent ones . Um given"
+[29:54] Speaker_B | Mm .
+"[30:10] Speaker_A | you know , the number of things you buy these days , which you know , have a a a lithium whatever battery in , that's uh , you know never needs replacing . Um perhaps we should have the the disposable remote control , uh um you know , one some sort of typical usage . You know , the the the battery will last"
+"[30:29] Speaker_A | know , five , ten years ."
+"[30:32] Speaker_A | By which time I mean when all's said and done , the digital television"
+[30:38] Speaker_B | Mm .
+[30:39] Speaker_D | Mm-hmm .
+"[30:48] Speaker_B | Just having one that's guaranteed to last five to ten years ? Oh , cool ."
+"[30:50] Speaker_A | Yeah , and if if anybody manages to run it down , we'll we'll give 'em a new one . Um it's , you know , it's what it saves in cost and you know there there's a well , it's actually a marketing gimmick . I mean it's hardly a gimmick , it's uh it's totally practical . Uh so I th think you know the idea of a rechargeable one is um"
+[31:18] Speaker_D | It could have like uh know like a cordless phone in your house it s got like a base that sits there all the time .
+[31:22] Speaker_A | Yeah . Are are people really gonna use it though ? Um .
+"[31:22] Speaker_B | Mm , mm ."
+"[31:25] Speaker_C | Yeah , people are pro I would think that people might forget I mean people forget to put their cordless phones back on there , so ."
+[31:26] Speaker_B | Mm yeah .
+[31:31] Speaker_B | Mm-mm .
+"[31:32] Speaker_A | Yeah , it's um I mean I know that somei times my my wife goes out in the morning and says oh I should have put the phone on to charge and then then she's had those for so long that if she hasn't worked that out by now . Um ."
+[31:38] Speaker_B | Mm .
+"[31:49] Speaker_A | When it yeah , wh when it's died is a problem . Yeah , yeah , yeah , so uh um what so wh what what do we think about the um the the permanent mm battery ?"
+"[32:01] Speaker_B | Yeah , think that's a good idea ."
+[32:02] Speaker_C | No .
+"[32:02] Speaker_D | Uh . That sounds pretty good , yeah ."
+"[32:05] Speaker_A | Is the uh you know , we we we are really going for the ultimate in ex uh external simplicity here . Um you know , cut cost within the"
+[32:05] Speaker_C | Um .
+[32:09] Speaker_B | Mm .
+[32:14] Speaker_A | manufacturing and uh
+"[32:18] Speaker_A | you know , if we have a high tech interior , then then that that sh may well be cost effective ."
+[32:22] Speaker_C | Do they make batteries that last that long ?
+"[32:25] Speaker_A | I mean th th certainly . Um I can't think of anything off the s top of my head , but there are certainly things that you buy . I mean calculators for example ."
+[32:42] Speaker_B | Yeah .
+[32:44] Speaker_D | Mm-hmm .
+[32:45] Speaker_B | Mm .
+[32:46] Speaker_C | Yeah .
+"[32:48] Speaker_B | Most of them , don't they have sort of a combination of the two , like when there is light , they'll work off the light , and if there isn't , they'll kick into this battery , so we can maybe do something like that whereas there is a battery , but if there's enough light , then it's using the light , so that it's not actually draining the battery all the time , but you will have the battery there for when you need it ."
+[33:01] Speaker_C | Mm .
+"[33:03] Speaker_A | Yeah , I I mean th th this needs going t into the technology a bit . I mean the the actual time that a remote control is actually operating"
+[33:06] Speaker_B | Mm .
+[33:11] Speaker_B | Mm .
+[33:12] Speaker_A | I would think is
+"[33:15] Speaker_A | i is is probably , you know , no more than minutes in its entire life ."
+"[33:23] Speaker_A | If , but I say if if people are getting R_S_I_ from it then uh then uh then then perhaps we're looking at the wrong market n"
+[33:26] Speaker_C | Yeah . Yeah .
+"[33:29] Speaker_D | W like like this um this uh market research thing says number of times per hour that it's used , channel selection a hundred and sixty eight"
+[33:38] Speaker_D | times per hour .
+[33:38] Speaker_A | Right .
+[33:39] Speaker_B | Yeah . Yeah .
+"[33:45] Speaker_A | Oh , I must admit I hadn't um I'd I'd missed that . That does sound excessive ."
+[33:55] Speaker_A | Yeah .
+"[33:56] Speaker_D | That's it's less than a second , um ."
+[33:56] Speaker_B | Yeah . Yeah .
+[33:58] Speaker_C | Yeah .
+"[33:59] Speaker_A | Well that's right , and and I I don't I don't even know whether the I don't even know whether the s the signal lasts as long as you actually keep the button pressed , or whether it's just a"
+[34:05] Speaker_B | Mm .
+"[34:09] Speaker_A | sorta tenth of a second , no matter how long you press it for , I don't know I don't actually know . Um ."
+"[34:13] Speaker_C | Though I think with digital T_V_ , like I know on my cable box , you're not supposed to do that because the channel can't keep up with it if you just press it like that , so you're supposed to use the menu and go through the different"
+[34:21] Speaker_A | Yeah .
+[34:21] Speaker_B | Mm .
+[34:24] Speaker_A | Mm-hmm .
+[34:24] Speaker_D | Mm-hmm .
+[34:31] Speaker_A | Mm .
+"[34:37] Speaker_A | Right , so I've got a message to say five minutes , I dunno how long ago that appeared . Um 'cause we're we're getting um right , so I'd I need to sum up very quickly here um . We're looking at extreme simplicity ."
+[34:41] Speaker_C | Uh-oh .
+[34:52] Speaker_A | We're looking at a
+[34:54] Speaker_A | radically different shape .
+"[34:57] Speaker_A | Possibly no buttons at all um , but if you can incorporate um"
+"[35:03] Speaker_A | channel change and volume buttons um in into the design , then then that's fine . Um in the I mean the the role of the of the um the user interface des designer becomes b you know more important here , because , you know , shape is no longer an"
+"[35:22] Speaker_A | a uh um a serious constraint . But we clearly only need th the main buttons , although , uh if clearly only need the main functions ."
+"[35:34] Speaker_A | Um I don't see why we shouldn't go for voice recognition um and the the only buttons that I think we need are channel control , volume control and on off ."
+"[35:50] Speaker_A | Um it needs to incorporate the corporate logo , uh the the grey and yellow colour scheme and there's no reason why we can't introduce um interchangeable"
+[36:04] Speaker_A | uh covers . Um uh d so does that accurately summarise what we've discussed ?
+[36:13] Speaker_D | Yeah .
+[36:13] Speaker_C | Yeah .
+[36:14] Speaker_B | Yep . Hmm .
+"[36:21] Speaker_C | Oh I just have one question . So are we doing just the television or are we doing so not D_V_D_ players , we okay , okay ."
+[36:25] Speaker_A | We are doing just the television . No .
+"[36:29] Speaker_A | I think that's quite clear from the the information that we've been given , no ?"
+[36:31] Speaker_B | Mm .
+[36:32] Speaker_C | Okay .
+"[36:33] Speaker_D | Yeah , like in the email of television only . In fact they're in the constraints email that I got ."
+[36:40] Speaker_A | Right .
+"[36:41] Speaker_D | Didn't you mention the teletext , just television only ?"
+[36:43] Speaker_B | Mm .
+[36:43] Speaker_C | Yeah .
+[36:45] Speaker_D | Oh okay . Oh yeah .
+[36:46] Speaker_C | Oh okay .
+[36:48] Speaker_B | Okay .
+"[37:01] Speaker_A | Okay , so uh we can all give some thought to that uh for for the next meeting , thank you very much indeed ."
+[37:06] Speaker_C | Okay .
+[37:07] Speaker_B | Cool .

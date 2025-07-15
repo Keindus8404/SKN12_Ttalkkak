@@ -1,0 +1,1009 @@
+﻿"[00:00] me011 | OK , here we go ."
+"[00:09] me013 | Yeah , they 're they 're having birthday cake and such and so I can't miss that ."
+"[00:11] fe016 | You 're a May birthday , right ?"
+[00:14] fe016 | Barbara told me . Barbara Peskin .
+"[00:20] me011 | So ,"
+"[00:21] me011 | only a couple of agenda items , since no one sent me email for agenda items . Uh , the first is the IBM transcripts . I 'd like to"
+"[00:29] me011 | uh , mention I s I spoke with several of you about this , but just to"
+[00:34] me011 | brainstorm a little bit about what we can do with it .
+[00:35] fe008 | Mm - hmm .
+"[00:36] me011 | So we got back the IBM transcript , and the accuracy looks OK . There are I mean , there are areas which are"
+"[00:41] me011 | clearly wrong and there are a lot of areas where they put question marks ,"
+[00:44] me011 | where the acoustics weren't very good . And I think that 's fine . Putting it in question marks is better than doing it wrong .
+[00:53] me011 | So it didn't align .
+[00:55] me011 | And that 's exactly what I was afraid of .
+"[00:57] me011 | And I went in , and more or less by hand , corrected it , by loading it I wrote a script that will convert it to the multi the Channeltrans format ,"
+[01:06] me011 | looked at it in in Channeltrans and
+[01:11] fe008 | Hmm .
+"[01:13] me011 | And in this case only only had to remove beeps , because that was th always the error ,"
+"[01:17] me011 | is that they put in it extraneous beeps . But it 's not easy to do ,"
+[01:19] fe008 | Hmm .
+[01:21] me011 | because the whole thing gets
+"[01:23] me011 | offset , and basically , it 's assigning the wrong speaker to the text , and it all gets unaligned . So it 's very difficult"
+[01:29] fe008 | Hmm .
+[01:29] me011 | to do . So it took me several hours
+[01:32] me011 | just to do that .
+[01:33] mn014 | For one meeting .
+[01:33] me013 | this is one it 's one hour of of of speech ?
+[01:35] me011 | Yep .
+[01:36] me013 | And it took you a few hours to to do it .
+"[01:38] me011 | It took me a couple hours to write the scripts , and then"
+[01:41] me011 | it it probably took me
+"[01:43] me011 | maybe forty - five minutes , just going through it . Now obviously it will be a lot faster from now on , because now I sort of understand how it works ."
+"[01:51] me011 | But , I think if we had some way uh some tool that made it easier to insert and delete beeps"
+[01:57] me011 | it would make it a lot easier . Cuz one of the problems is that it takes a very long time when you make a change to load it back up in the channel transcriber .
+[02:03] mn014 | Yep .
+"[02:03] fe008 | Yeah , that 's true . I 've noticed that . Yeah ."
+"[02:05] me018 | One of the things that Adam said that I thought would be a good idea would be , um ,"
+[02:06] fe008 | Which makes sense .
+"[02:10] me018 | if we g used different beeps . So for example if we alternated between two beeps , a high and a low ."
+[02:15] me013 | He said that ?
+[02:15] me018 | th
+"[02:16] me018 | Uh , well in in some email that , uh , we had ."
+"[02:16] fe008 | Oh , on the email ."
+"[02:18] me013 | Oh , oh , OK ."
+[02:18] fe008 | Yeah .
+"[02:21] me011 | So th so this is the o the other approach which is , what do we do in the future , to try to make this less common ? But it 's still gonna happen ."
+[02:23] me018 | Yeah .
+"[02:28] fe008 | Well , and then the other possibility was e that we provide them with a a file that already has the beeps in it or something . Wasn't that what you said ?"
+[02:30] me013 | Hunh .
+"[02:33] me018 | Sort of a text template , but I don't know how"
+[02:35] fe008 | Uh - huh .
+[02:36] me018 | we can do that .
+"[02:36] me011 | Yeah , we don't know what their process is . So I had two ideas . The first was to provide them a text template that had both the beeps in it and the speaker I Ds ."
+[02:41] fe008 | Yeah .
+"[02:44] me011 | You know , just "" male - female "" , "" English - nonEnglish "" , "" one two three four "" ."
+[02:49] me011 | And they just filled it in .
+[02:54] me013 | d were were off ?
+"[02:56] me011 | It was like a hundred twenty , and they had a hundred twenty - three or something like that . Is that right ?"
+[03:01] me013 | Alright .
+"[03:02] me018 | Well , l I I thought it was a lot more than that ."
+[03:03] me011 | Well I I don't remember .
+"[03:04] me018 | They were three off , basically ."
+"[03:06] me013 | Yeah , and it was a hundred - ish ."
+[03:06] fe016 | And this is the mixed signal ?
+[03:07] fe008 | Oh !
+[03:08] fe008 | Hmm .
+"[03:09] me013 | uh , uh , excuse me . If you get one off , it t everything is off cuz of the alignment right ?"
+[03:13] me011 | Yep .
+[03:13] mn014 | Yep .
+"[03:14] me013 | Uh , and this is all in one file that 's continuous ."
+[03:16] me018 | Yeah .
+[03:16] me011 | Yep .
+[03:17] me013 | So why don't you make it multiple files ?
+[03:19] me011 | How would that help ?
+"[03:20] me013 | Because then if they have one off , then then it would only screw up that file ."
+"[03:24] me011 | Oh , you mean just break the one hour into"
+[03:26] me013 | Yeah .
+[03:26] me011 | a few chunks .
+"[03:27] me013 | I mean , it seems now , if you just ha make one mistake then everything is off ."
+"[03:30] me018 | Well the only the only question about that that I have is , um , I think Brian has to put all this stuff onto a tape ."
+[03:36] me013 | Yeah .
+[03:38] me011 | I 'm sure they would prefer it sort of one hour .
+[03:38] me018 | Can he send them I guess he could send them multiple
+"[03:44] me013 | Yeah , just say , "" OK , is """
+"[03:46] me013 | ten minutes is "" I mean ,"
+"[03:47] me013 | maybe there 's other things to do that are more clever , but this just seemed to be the sort of the obvious thing because , again , if you make one mistake ,"
+[03:53] me013 | then everything after that mistake is off .
+[03:53] me018 | Mm - hmm .
+"[03:58] me018 | Well , the only other issue is we 'd have to worry about reassembling them in the proper order ."
+[04:02] me013 | Yeah .
+"[04:14] me011 | I mean , so so so someone will have to go through them and listen to them and pick a place to break them ."
+[04:16] mn014 | Yeah .
+"[04:25] fe016 | the ones with the beeps that they 're getting ,"
+[04:27] fe016 | that they made mistakes on is
+[04:29] me011 | They are played from the
+[04:29] fe016 | the mixed one ?
+[04:32] me011 | individual .
+"[04:37] fe016 | probably run a forced alignment ,"
+[04:39] fe016 | where you c include the beeps as words
+[04:43] fe016 | and pretty much figure out where the errors are .
+"[04:48] fe016 | But on the individual channels that would probably work , if they have enough"
+[04:52] fe016 | words in the transcript .
+"[05:00] fe016 | I mean , we could try it ."
+[05:00] fe016 | Cuz if a beep is treated as a
+"[05:02] me011 | You mean , so , actually put put the wavefile in with beep in it ."
+"[05:06] fe016 | Put in put "" beep "" in as a word ."
+[05:06] me011 | And pu and have a beep model .
+[05:09] me018 | We have the original wavefile with all the beeps .
+"[05:10] fe016 | the beep model Actually , you could train a beep model . That that 's a good idea ."
+[05:15] fe016 | Yeah .
+"[05:17] me013 | Oh . Kind of low variance , wouldn't that be ? You sort of might end up with"
+[05:22] me011 | You have to may add some jitter to it .
+[05:25] me013 | Where 's the case ?
+"[05:29] fe016 | But if it 's a problem of extra beeps ,"
+[05:35] fe016 | that 's easier
+[05:37] fe016 | and it might work . Oh .
+[05:40] me013 | So is this a
+[05:40] me011 | It 's just in this case they were not .
+[05:41] me013 | seven or something ? Or What is it ?
+"[05:42] me011 | So I think uh , Chuck had a good explanation for it which I liked , which is these they 're listening to it and so they write something down , and let 's say they miss it , they rewind ."
+[05:43] me013 | M - one - hundred . Oh .
+"[05:51] me011 | Well , they hear the beep again . Was that that beep , or was that a different beep ? So that 's why Chuck was suggesting different tones . My original thought"
+"[05:53] fe016 | Oh , yeah ."
+"[05:57] me011 | was , you could have a different tone for each speaker ."
+"[05:59] me011 | You know , there 's plenty of tone space ."
+[06:01] me011 | And that might help cue
+[06:03] me011 | the transcriptionist .
+"[06:05] me011 | You know , give them a little cue about where they are ."
+"[06:07] me013 | Or you could you could have ascending tones , or something ."
+[06:11] me011 | What do you mean ?
+[06:14] me018 | Increasingly high higher frequencies .
+[06:27] me011 | That 's what I was saying . Is that that you could have each speaker could have their own tone .
+[06:28] me013 | Oh was it ? Oh .
+"[06:29] me013 | See , I should listen . Yeah ?"
+[06:30] fe016 | Hmm .
+"[06:31] me011 | And you know , since there are no more than ,"
+"[06:33] me011 | you know , ten speakers or so per meeting ,"
+[06:33] fe008 | Oh .
+[06:36] me011 | there 's plenty of tone space .
+"[06:39] me013 | That might work too . Yeah , I was just thinking that actually temporally just , uh , uh , uh , an increasing tones so that"
+"[06:42] me011 | Oh , OK ."
+"[06:45] me013 | they would really have a sense of whether they were going , you know , forward or backward or Yeah ."
+[06:45] mn014 | In the end ? Yeah .
+[06:47] fe008 | Well you th
+[06:48] fe008 | So just r r truly chron chromatically up all the way through the entire meeting .
+[06:50] me013 | Yeah .
+"[06:52] me013 | Well , it 's a thought ."
+[06:52] fe008 | Interesting .
+"[06:53] me011 | Oh , oh , th oh , I see ."
+[06:54] fe008 | It 'd be impossible to r to misorder them .
+[06:56] me013 | Yeah .
+[06:56] fe008 | Yeah .
+"[06:56] fe016 | But yo I guess you 'd still get the mistake that you mentioned , because"
+"[07:00] fe016 | the person I mean , if that 's some of the errors , those would probably stay the same , regardless ."
+[07:01] me011 | Yep .
+"[07:05] me011 | I mean , Chuck 's suggestion of just two beeps is nice because then you could have them actually transcribe "" H - beep "" or "" L - beep "" , "" high beep "" or "" low beep "" ."
+"[07:05] me013 | Yeah , maybe ."
+[07:13] me011 | It would be much easier .
+"[07:14] me013 | That 's probably better , yeah . S scratch my other idea ."
+"[07:15] fe016 | Yeah , you have like a sanity sanity check on them . That 's a good idea . Alternating ."
+"[07:16] fe008 | It 's pretty simple , pretty simple ."
+[07:18] me013 | Yeah .
+[07:18] me011 | Yep .
+[07:20] me013 | Yeah .
+"[07:20] me018 | And it would it seems like it would help them , you know , if they"
+[07:23] me018 | just finished a long passage and they heard
+[07:25] me018 | one beep and then they
+"[07:26] me018 | hear it again , they know it 's the same beep ."
+[07:29] me013 | Yeah .
+"[07:30] fe008 | Hmm , interesting ."
+"[07:31] fe016 | Yeah , that 's a good , like , error checking"
+"[07:34] fe016 | approach , I think ."
+"[07:34] me011 | Yeah , we can ,"
+"[07:35] me011 | yeah , like , do do , uh ,"
+"[07:41] fe008 | Well . Well , "" high "" , "" low "" is pretty straightforward , yeah ."
+"[07:45] me013 | Great idea , yeah ."
+"[07:48] me013 | No , two is probably better than what I was suggesting , because what I was suggesting , in order to make it through a reasonable range for the whole"
+"[07:55] me013 | the tonal differences between the two kind of small , and actually you want them large . So ."
+[07:58] me011 | Yep .
+[07:59] fe008 | You 'd have to they 'd have to have the acoustics of dogs t hear into the high high ranges .
+[08:02] me011 | Mm - hmm .
+[08:05] me013 | Yeah .
+[08:12] me011 | If they
+"[08:14] me011 | do something on a computer in a format we can handle , we could give them a text file that was a template with speaker ID and beeps already in it ."
+[08:21] me011 | And then they could just fill that in .
+[08:21] me018 | Yeah .
+[08:22] me018 | Maybe I should write to Brian and tell him what the problem was and what our proposed solutions are .
+[08:26] me011 | Right .
+[08:28] me013 | Yeah .
+[08:28] me018 | See what he thinks would work best with them .
+"[08:33] me011 | Well , as I said , I think We don't actually know , but I think Chuck 's hypothesis was a good one , which is , you re r you listen to something ,"
+"[08:39] me011 | you write down what you thought you heard ,"
+"[08:41] me011 | but you want to listen to it again , so you r rewind ."
+"[08:43] me011 | And then you hear the beep again , and then you say "" well , is that that beep ,"
+"[08:46] me011 | or is that a new beep ? I don't remember . "" And so , you know , a couple times they got it wrong ."
+"[08:50] me018 | And there are some cases where there 's , um ,"
+"[08:52] me018 | very little speech before you hear a beep . So you hear a little bit of speech , beep , a little bit of speech , beep ."
+[08:55] mn014 | Yeah .
+[08:55] fe008 | Mm - hmm .
+"[09:07] me018 | They 've got headphones and then I guess they have a computer , and they have a foot pedal which lets them quickly"
+[09:12] me018 | scan back and forth through the tape . I i t i s makes the tape go real fast forward or fast backward .
+"[09:18] me018 | And so they can hear something , then step on the pedal and quickly rewind"
+[09:24] me018 | I think they 're probably going over and over f sections . And then they get confused about whether
+[09:35] fe008 | It 's a shame we can't really give a number . So it would be a number and a beep .
+"[09:35] me013 | OK , s"
+[09:39] fe008 | e
+[09:40] fe008 | It 's a shame we can't do that .
+"[09:42] me018 | Oh , that 's an interesting idea ."
+"[09:44] me011 | We could , but then that starts getting"
+[09:47] me011 | pretty long .
+"[09:50] me018 | maybe what we have instead of a beep is a , uh , synthesized number ."
+[09:55] mn014 | Yep .
+[09:56] me018 | And they put the number in when they hear it .
+"[09:58] me018 | So , inst replacing the beep with "" twenty - three "" ,"
+"[10:01] me018 | "" twenty - four "" ,"
+"[10:02] me018 | "" twenty - five "" And then they have to transcribe what that number is each time ."
+"[10:05] fe008 | Wow , that 'd also be shorter to type ."
+"[10:10] me011 | Well , they would have to have a mark ."
+[10:11] me018 | There 'd be some kind of mark in front of it .
+[10:11] fe008 | Interesting .
+"[10:16] me013 | that 's your indicator there , and twenty - three that somebody happens to say in a meeting ."
+"[10:19] fe008 | Oh , that 's true ."
+"[10:20] me018 | Well it would have t yeah , it would have to be um ,"
+"[10:27] me013 | But they might miss that , right ?"
+[10:28] fe008 | Or maybe could it be a click and the number .
+[10:28] me018 | Yeah .
+[10:31] me018 | Or a beep and the number .
+"[10:32] me011 | Well , it 's sequential ."
+"[10:32] fe008 | Or a beep and the number , and then and then you just do the the num th you do it as a d a digit ."
+"[10:34] me011 | Right , you would go sequential . So unless you got pretty unlucky ,"
+"[10:35] me018 | Uh , right ."
+[10:37] mn014 | Yeah .
+"[10:45] me018 | one "" ."
+[10:46] me018 | And then they 'll hear the speech .
+[10:47] me013 | I think having a beep too is good .
+"[10:50] me011 | So beep number . Yeah the It 's just getting pretty long . You know , the utterances are very short ."
+[10:53] mn014 | Yep .
+[10:55] me018 | Mm - hmm .
+[11:00] me018 | Mm - hmm .
+"[11:00] fe008 | Well , if if it saves time , yeah ."
+"[11:08] me013 | W we 're saying "" beep "" . Yeah for instance ."
+"[11:09] me011 | Yeah , yep ."
+[11:10] me018 | Yeah .
+[11:13] me011 | It 's not a bad idea .
+[11:13] me018 | Yeah . Keep
+[11:15] me018 | things from getting out of sequence . If they heard it over again they would know . It would be obvious from their transcript whether they did that one or not .
+[11:20] fe008 | It might actually help them in terms of their place holding . Yeah .
+[11:20] me011 | That would help get them synchronized .
+[11:22] fe008 | And it might be helpful to them in terms of d act
+[11:22] me018 | Yeah .
+"[11:24] me011 | I think it would be , because they would know their place . Yeah ."
+"[11:25] me018 | And we have plenty of digits data , so ."
+[11:31] me011 | Those transcriptionists need to know their place .
+[11:31] mn014 | Oh .
+[11:33] me013 | But it sounds like a k a a a short conversation with Brian might be might be helpful to get a sense of what 's going on .
+"[11:38] me011 | Yeah , the numbers are a good idea ."
+[11:39] me018 | Yeah .
+[11:39] fe008 | OK .
+"[11:39] me011 | Othe - other than lengthening the transcript ,"
+[11:42] me011 | I think it would be very helpful .
+"[11:44] mn014 | Just instead of the sequential number , for"
+[11:53] mn014 | Could could be helpful .
+"[11:56] me011 | you could keep them short by not s or just go one through ten , one through ten , one through ten , or one through twenty ."
+[11:57] mn014 | Yeah .
+[11:57] mn014 | Yeah .
+[11:58] mn014 | Yeah .
+[11:59] mn014 | Yep .
+"[12:02] fe008 | And then also , if we I mean , I don't know what their setup is , but your template idea might be a way of of"
+[12:07] me011 | Mm - hmm .
+[12:07] fe008 | of We could actually build the numbers into a template .
+[12:09] me011 | Yep .
+[12:16] mn014 | Yeah .
+[12:16] fe008 | That 's a good idea .
+[12:18] fe008 | Very simple .
+[12:21] me018 | Yeah .
+"[12:22] me011 | "" Beep . One thousand three hundred forty - two """
+[12:27] me011 | Mm - hmm .
+[12:28] me011 | I don't remember .
+[12:29] fe008 | It 's forty - five minutes .
+[12:30] me011 | Chuck was saying there was more than that .
+[12:31] me013 | Hmm ?
+[12:33] me018 | I was thinking there was on the order of
+"[12:38] mn014 | I think it should be more , yeah ."
+[12:39] fe008 | It 's possible .
+[12:40] fe016 | That was
+"[12:41] fe016 | at least forty - five minutes , right ?"
+[12:42] fe008 | Yeah . That 's right .
+[12:43] me011 | Was it that many ? I just don't recall .
+"[12:44] fe008 | Yeah , it was forty - five minutes ."
+"[12:44] fe016 | That 's the shortest meeting we have . Most of them are double that , or"
+[12:47] me011 | Yep .
+"[12:49] me013 | Well , I was just wondering what the average length"
+[12:49] fe016 | so
+"[12:51] me018 | Oh , of a of a segment that they 're hearing ?"
+[12:51] me013 | thing was .
+[12:54] me013 | Yeah .
+[12:54] me018 | I don't know .
+"[12:55] fe008 | Hmm , interesting ."
+[12:55] me013 | Uh -
+[12:56] me011 | Easy enough to figure out . We have all that data .
+[12:56] me018 | I don't know .
+[12:57] me018 | Yeah .
+"[13:03] fe016 | It must be in the high hundreds of them , at least ."
+"[13:05] me013 | So , right . So i"
+"[13:06] fe016 | So that 's getting a little cumbersome for them to type , like ,"
+[13:08] mn014 | Yeah .
+"[13:09] fe008 | Well , with just one digit though ,"
+[13:12] mn014 | Yeah .
+"[13:13] me013 | Right , but my point was , you know , if It 's a big difference to me if there 's a thousand or there 's a hundred . If"
+"[13:17] me013 | there 's a thousand , then that means"
+[13:19] me013 | that this is only happening three times out of a thousand .
+[13:26] fe016 | Yeah .
+"[13:27] me013 | W if it 's a hundred , then you know , that 's not the issue , but if it 's a hundred ,"
+"[13:31] me013 | then , the average length of each one is pretty pretty long and so having a little thing at the front of it is no big deal ."
+[13:38] me018 | Mm - hmm .
+"[13:38] me013 | So , that 's why I was curious ."
+[13:41] fe016 | Right .
+"[13:42] me011 | And it certainly was not a minute a chunk , it was a few seconds a chunk ."
+[13:46] me018 | Mm - hmm .
+"[13:46] fe016 | Yeah , so it 'd be a lot of overhead to type ."
+[13:46] me011 | So I 'm just mis - remembering .
+[13:49] me011 | I 'm just mis - remembering .
+[13:50] me011 | So .
+"[13:54] me011 | It might make the transcript faster W wel I mean I A quick conversation with Brian would be good , so ."
+[13:55] fe016 | Yeah .
+[13:58] fe008 | Mm - hmm .
+[13:58] me018 | Yeah .
+[14:04] me011 | OK .
+[14:12] fe016 | u
+"[14:12] fe016 | I mean , it 's not a bad"
+[14:14] fe016 | idea to try the alignment .
+"[14:16] fe016 | Um , if there 's only like three of them ,"
+[14:18] fe016 | then
+"[14:19] fe016 | if you align , the first point at which things get messed up is sort of the location of the first problem ."
+[14:24] me011 | Mm - hmm .
+"[14:25] fe016 | And then , the second p I mean ,"
+[14:30] fe016 | it would be
+"[14:31] fe016 | able to handle any errors . So if they make , on the average , that many ,"
+[14:33] me011 | Right .
+"[14:36] fe016 | and it costs them more time to do something different than what they 're doing , which I don't know , but if it does ,"
+"[14:42] fe016 | then we could try doing that as a post - process , and ,"
+[14:49] me011 | Yep .
+[14:51] fe016 | then you can iteratively
+[14:53] fe016 | figure out where the problems are .
+"[14:55] me018 | You know , Liz , all we would re"
+"[14:55] fe016 | It would take a little work , but not any real human not a lot of human work ."
+"[14:58] me011 | Right . I mean , that 's what we want to avoid ."
+"[14:58] me018 | I mean if in terms of the alignment , actually , all we would need is we wouldn't even need words . We would need a general speech model and a beep model ."
+[15:05] me018 | Cuz all we 're really concerned about is missing beeps or too many beeps .
+"[15:09] fe016 | Well , the for the forced alignment will run fa otherwise it 'll take forever . I mean ,"
+[15:13] me018 | Mm - hmm .
+[15:14] me018 | Well l I guess what I 'm thinking of is that w
+[15:17] me018 | that a lot of times
+"[15:19] me018 | there will be they 'll put in question marks ,"
+[15:22] fe016 | Right .
+"[15:25] fe016 | Yeah , then we just map it to a reject model ."
+"[15:30] me018 | Right , h"
+[15:33] fe016 | an expert can't even tell what they 're talking about .
+[15:35] me018 | Yeah .
+[15:37] me018 | Right .
+"[15:38] me018 | Well , what I was thinking is , map all the speech to the reject model . And then you have a beep model ."
+[15:41] me013 | Yeah .
+"[15:43] me013 | Yeah , you 're still talking a forced al"
+"[15:44] fe016 | The forced alignment might not work then , although we can try it ."
+"[15:51] me018 | The beep model is is gonna match , like , really well ."
+[15:52] fe016 | Right .
+[16:00] fe016 | You 'll get back another offset .
+"[16:03] fe016 | Um I mean , I was thinking of then I and then I realized "" Well ,"
+"[16:05] fe016 | the recognizer will just go along and line up all the beeps ,"
+[16:08] fe016 | and then there 'll be all the extra beeps at the end if there were more beeps then you
+"[16:12] fe016 | wanted . """
+"[16:12] me011 | Right , you you need But you need the text"
+[16:13] fe016 | So you need the word you need the word to c sort of control the relative location .
+[16:15] me011 | to tell it where it got it wrong . Yeah .
+"[16:17] me018 | No , I 'm not sug I 'm not suggesting that we don't have anything between the beeps ."
+[16:21] fe016 | Oh .
+"[16:22] me018 | But I what I 'm saying is , what 's between the beeps we don't really care about ."
+[16:25] fe016 | I think you do care about it .
+[16:27] me011 | Because you have to know which ones match which .
+[16:29] fe016 | Right . Otherwise you just count up the total
+[16:31] fe016 | number of beeps .
+[16:34] me011 | Right ? We already know that that we 're three short . And so if we just did
+[16:35] fe016 | Yeah .
+"[16:38] me011 | spee uh beep and non - beep all you would get is that you have three mistakes , but you wouldn't tell you which ones were wrong ."
+[16:46] fe016 | Right .
+"[16:47] me011 | You need some of the words in there , so that you can say "" well , this segment matches this one , this segment matches this one , and this one doesn't match at all ,"
+"[16:53] me011 | unless we insert a beep "" ."
+[16:56] fe016 | I mean the only thing I 'm worried about with that approach is that if
+[16:57] me013 | OK .
+[17:00] fe016 | we need to
+[17:01] fe016 | figure out the beep
+[17:03] fe016 | alignment problem
+"[17:04] fe016 | before the transcribers do the corrections here , then we 're in trouble . In other words , if the transcripts aren't sort of"
+[17:11] fe016 | good enough that the aligner
+[17:14] fe016 | constraints are good enough to sort of
+"[17:16] fe016 | show you where the errors are , then"
+[17:18] fe016 | it wouldn't work . But it might work . It might work to do this if their transcripts are pretty close
+"[17:22] fe016 | on the words that usually get recognized correctly , which are the ,"
+"[17:26] fe016 | you know , function words , the common words ."
+"[17:27] me011 | Well , actually , you know , there 's an even easier way . We don't really need a beep model ."
+"[17:31] me011 | Um , just extract the segments and do a forced alignment ,"
+"[17:40] fe016 | Um , if beeps were like the segments that we get from"
+"[17:44] fe016 | um , the transcription tool already , that that 's what we have done , and it works very well . You can see these"
+[17:50] fe016 | segments align and these don't .
+"[17:52] fe016 | Um , then you just have to go back in and figure out where the endpoints of those segments are , cuz some of them will be wrong ."
+"[17:57] fe016 | Because the bi the beeps were missing , by definition ."
+[17:57] me011 | Right .
+[17:59] me018 | So do you get a score for each alignment ? Is that what you get ?
+[18:00] fe016 | So it might actually work .
+"[18:06] fe016 | Definitely when they don't align at all , it it it fails ."
+"[18:09] fe016 | I mean , that that 's how we found a lot of"
+[18:09] me018 | Mm - hmm .
+"[18:11] fe016 | problems before , with , um , words being on the wrong place or something ."
+[18:18] me018 | Mm - hmm .
+[18:19] fe016 | the words don't match up .
+[18:19] me018 | I 'm just wondering when wha what it means to fail .
+"[18:24] fe016 | Yeah , is , uh it Right ."
+[18:27] fe016 | That 's why you actually need the text . In order to force you to try to match something that gives you a model to match against .
+"[18:46] fe016 | you know , per transcript , then we z"
+[18:48] fe016 | we might wanna try some approach like that .
+"[18:50] me011 | Well , the numbered ones would make it a lot easier , cuz you could then really localize where the error is ."
+[18:52] fe008 | Mm - hmm .
+[18:53] fe008 | Yeah .
+[18:54] fe016 | Right .
+[18:55] fe008 | Yeah .
+[18:57] me011 | Yep .
+[18:59] fe008 | I think it would save them time . I think it would help them keep the track track of it .
+[18:59] fe016 | We have to ask them .
+"[19:02] me013 | Uh uh , again , especially if there 's hundred many hundreds or thousands I still think it would it would cut the incidence of this a lot if it was possible to break it into a couple files ."
+"[19:12] fe008 | Interesting , yeah ."
+"[19:12] me013 | Yeah . Cuz it , you know , it 's r r"
+"[19:14] fe016 | I guess also even for the transcribers ,"
+[19:22] fe016 | Into
+"[19:26] me013 | I mean , you 've already broken them into chunks , so if you have if you have a th if you have a thousand chunks then"
+"[19:30] me013 | make ten things of a hundred , or or you know ."
+[19:32] me018 | There 's one file .
+"[19:33] me011 | That 's true , yeah ."
+[19:34] mn014 | Yep .
+"[19:34] me013 | And then it will be , you know , this Eve - every now and then there 'll be a a beep missing ."
+"[19:41] fe008 | So , someone 's gonna talk to Brian ."
+[19:43] me011 | I think that was Chuck .
+[19:43] me018 | I 'll talk to him .
+[19:44] fe008 | OK .
+[19:44] me011 | Yep .
+"[19:46] fe008 | I also looked thr over the text and I was impressed by the accuracy , it looks really good ."
+"[19:49] me011 | Yeah , it does look good . I mean , I found several errors , but they were not"
+[19:53] me011 | significant .
+[19:54] me011 | They were all things that I could easily listen to and
+"[19:58] me011 | sometimes convince myself they said one thing and sometimes the other , so ."
+"[20:01] fe008 | Yeah , it 's there . Mm - hmm ."
+[20:06] fe016 | but Don had told me that there 's a difference in some of the conventions ?
+"[20:10] fe016 | So but those are all easy things , right ?"
+[20:13] fe016 | Yeah .
+[20:13] fe016 | OK .
+[20:14] fe008 | And and Brian actually forwarded me in advance . He he wor he very nicely worked out
+[20:19] fe008 | a set of conventions which is intermediate between ours and the ones that they 're used to . Which is which is really a good a good way to do it .
+[20:23] fe016 | OK .
+[20:26] fe008 | No problem .
+[20:27] fe016 | Great .
+[20:30] fe016 | Hmm .
+[20:32] me011 | OK .
+"[20:36] me011 | We still haven't really sat down and talked about file reorganization , and directory reorganization . So we still have to do that ."
+[20:43] me011 | But I don't think we need to do that in this meeting .
+"[20:48] me011 | It is something that needs to get done , and I wanna also coordinate it with Dave so that we do a level zero backup right after ."
+[20:56] me011 | So we don't waste a lot of tapes .
+"[21:01] me011 | So let 's let 's try to do that sometime , OK ? ch OK ?"
+[21:03] fe008 | Yeah . We can do it this week .
+[21:05] fe008 | Yeah .
+"[21:08] me011 | We also still have to make a decision about mike issues , what we wanna do with that ."
+[21:14] fe008 | I thought we were going to get two more of the
+[21:18] me011 | And just swap them in and out ?
+"[21:20] me011 | Yeah , we could certainly do that ."
+[21:22] mn014 | So why not ?
+"[21:26] me011 | uh , since you weren't at the meeting last week , uh , apparently a bunch of the EDU fe folks really hate this style mike ."
+[21:35] fe016 | they c they come on time to their meetings in order to not be left the last person who has to sit by those
+"[21:40] me011 | I mean , that 's that 's that 's a fairly strong indication of dislike ."
+[21:40] fe016 | mikes .
+"[21:45] fe016 | There were a few people you , and like , three or four people who really like them ."
+[21:46] me011 | The Crown .
+[21:47] me013 | Uh - huh .
+"[21:48] fe008 | Yeah , I do ."
+[21:49] fe016 | And e and th all the others
+[21:50] fe016 | really don't .
+"[21:51] me011 | So what I was thinking is , we could get a few more of the Sony ones and just unplug them and plug them in . And the only thing is that"
+"[21:56] me011 | when you fill out the digit forms , you have to be sure to indicate which mike was actually used ."
+"[22:05] me011 | moves us away from this uniform , all the mikes are the same , which some people had said was a benefit ."
+"[22:12] fe008 | The other thing , too , is th y you said that the acoustic pra q quality of the one that you 're wearing , the fancy one , is actually somewhat better than"
+[22:19] me011 | It is .
+[22:20] me011 | Yeah .
+[22:30] fe008 | different preferences .
+[22:40] fe008 | OK .
+"[22:42] me013 | For instance , jus just the fact that people sit in different positions , different times , the exactly where they put it with respect to their mouth is different each time ."
+[22:47] me011 | Yep .
+"[22:53] me013 | I I just don't I mean , I think we we 're we 're getting rid of major differences like we 're not using the lapel anymore , an and so forth . But"
+[22:56] fe008 | Mm - hmm .
+[22:59] me013 | the other stuff is just gonna some variability we 're gonna have to accept .
+"[23:04] fe008 | It 's I I understand , that 's fine with me . I I g would say that um , I find this model easier to adjust , that 's one of the reasons I don't like these , cuz I keep m"
+[23:10] me013 | Uh - huh .
+"[23:13] me013 | Yeah , see I I happen to like the old one better ."
+[23:15] fe008 | You do ? OK .
+[23:15] me013 | Yeah .
+[23:16] fe016 | What about just a different headband thing ?
+[23:20] me011 | th
+[23:20] me011 | We abs th
+[23:22] fe016 | they bounce around .
+[23:25] me011 | Mm - hmm .
+"[23:26] fe016 | I mean , can we keep the microphones , and just"
+[23:32] fe016 | thing over your head ?
+[23:32] me011 | Mmm .
+[23:32] me011 | Yeah .
+[23:35] fe016 | the ear thing comes out to here . It doesn't even fit over my ear .
+[23:38] me011 | Right .
+"[23:38] fe016 | And for some of the others , it 's their ears were shaped in a way that"
+[23:38] fe008 | Hmm .
+[23:43] me011 | Right .
+[23:43] fe008 | @ @ Huh .
+"[23:49] fe008 | Then they have to be rewired though , don't they ?"
+[23:49] me011 | I 'm just not sure what we should do .
+[23:49] mn014 | Yeah .
+[23:51] fe008 | Specially .
+"[23:58] me013 | And , uh , we 're also gonna be integrating in this corpus stuff that 's that 's being done at UW ,"
+[24:02] me011 | Yep .
+"[24:03] me013 | uh , with entirely different microphones . So I I think ,"
+"[24:07] me013 | you know ,"
+"[24:07] me013 | getting away from the lapel ,"
+[24:15] me013 | I think that 's sort of the big deal .
+"[24:16] me011 | I agree with that , and so my feeling is ,"
+[24:18] me011 | we should get mikes that people like .
+[24:20] me013 | Yeah .
+[24:20] fe008 | Yeah .
+"[24:20] me011 | And so I my feeling is , going out and buying a few more mikes is fine ."
+[24:24] me013 | Yeah .
+"[24:24] mn014 | Yeah , that 's right ."
+[24:24] me011 | So should I just go do that ?
+[24:26] me013 | Yeah .
+[24:26] me011 | OK .
+"[24:27] me011 | And then also , should we go ahead and get another wireless system ?"
+[24:34] fe008 | Mm - hmm .
+"[24:39] me011 | Uh , no , actually , get we need another box . Because each each box in the back room can only take six ."
+"[24:44] me013 | Oh , to get r to get rid of the wired things . Yes , absolutely ."
+[24:45] me011 | So we could
+[24:46] me011 | Yep .
+[24:47] me011 | OK .
+[24:48] me013 | Yeah .
+[24:49] me011 | So I 'll just go d I 'll do that .
+[24:56] me011 | Yep .
+"[24:57] me013 | and the wired stuff is just gonna continue to degrade as , you know , and"
+[25:04] me018 | Really ?
+[25:05] fe016 | I think there 's a problem with this one .
+[25:06] me011 | Yep .
+[25:08] me013 | Yeah .
+"[25:12] me011 | uh , what 's - her - name ."
+"[25:12] me013 | Whoever will pay , yeah ."
+"[25:19] fe016 | this crazy idea that , um , i"
+"[25:21] fe016 | in the future , people"
+[25:23] fe016 | will just walk around with
+[25:24] fe016 | the microphones that they use for their cell phones ?
+"[25:27] fe016 | You know , these little boom ones ,"
+"[25:29] fe016 | like , and really go to meetings with close talking mikes . If they 're their own personal microphone ."
+[25:34] fe016 | And so I 'm wondering if
+"[25:36] fe016 | we can get a couple of tho I don't know how good quality they are , but it would be really interesting to see if they 're good enough ."
+[25:43] fe016 | The k kind that guys that like to look like they 're really cool at airports wear .
+[25:43] mn014 | Yeah .
+[25:48] me011 | This it 's it 's a cell phone jack .
+"[25:52] fe016 | You cannot miss it . They 're the guys going around they 're probably talking to nobody , but"
+[25:55] mn014 | Yep .
+[25:56] me011 | Th - d
+[25:56] fe016 | Yes . They wear the heads
+[25:57] me011 | Yep .
+"[25:58] fe016 | E Well , there you go . Yes . That 's that it looks sort of like that ."
+[25:58] me013 | Oh you 've you 've got one .
+[26:01] me011 | Except that one 's even bigger than most of the ones I 've seen . Most of the ones are just a little boom .
+[26:13] me018 | There 's another kind which s goes in your ear and it hangs down . There 's a little b bulb
+[26:13] me013 | Huh .
+[26:16] mn014 | Yep . It just ha just hangs down there . Yeah .
+"[26:16] me013 | Yeah , that I 've seen . Yeah ."
+[26:17] me018 | that hangs has the mike on it .
+"[26:18] fe016 | OK , so whatever people sort of"
+[26:18] fe008 | This one .
+[26:20] me011 | Mm - hmm .
+"[26:20] fe016 | wear to use l Yeah , something like tha with their cell phones ,"
+[26:22] me013 | Yeah .
+[26:27] fe008 | It 's an interesting idea .
+[26:28] fe016 | people like that .
+[26:29] fe008 | the acoustics on this are really s m better than when I talk into it directly .
+[26:32] me011 | Yeah . The the biggest issue is the stupid cable
+[26:32] fe016 | Are they ?
+[26:34] me013 | Why would it be cool ?
+"[26:36] fe016 | Oh , OK ."
+[26:38] fe016 | So it 's they 're not compatible ?
+"[26:38] me011 | It 's non - standard ,"
+[26:40] me011 | and so you can't just plug something in . You need to get it wired .
+"[26:43] me013 | Oh , I 'm sorry . You 're talking about that as a possible thing to plug into the Sonys . No ?"
+"[26:45] fe016 | Well ,"
+"[26:46] fe016 | um , just as an example for ,"
+[26:46] me011 | Right .
+[26:46] me018 | How standard are these ?
+[26:49] fe008 | Works with this . I don't know .
+"[26:54] me013 | Well , some people will , yeah ."
+"[26:54] fe016 | to meetings , you know ."
+"[26:56] fe016 | Not a I 'm not saying there 's not a far - field microphone ,"
+[27:01] fe016 | If we have a choi I 've always wondered how well they would work .
+"[27:03] me018 | It is an interesting idea . If we could build an adaptor that went from cuz I think mine looks like this too . If we had this style plug that went to that ,"
+[27:10] me011 | Right .
+[27:10] me018 | then we 'd just have adaptors and people would plug them in .
+[27:14] me011 | I wonder if you could do an adaptor . I don't know if you can or not .
+[27:18] me013 | Yeah .
+[27:19] me011 | An adaptor might be a better idea than do redoing the wiring all the time .
+[27:19] fe016 | Mmm .
+"[27:19] me013 | Well , I mean , another s"
+"[27:23] me013 | An - another side to that is that , um , in principle , uh , if it"
+"[27:27] me013 | all comes together , supposedly we 're gonna get two"
+"[27:30] me013 | um , IRAM boards ."
+"[27:32] me013 | Uh , little later on in the year ."
+"[27:34] me013 | And so , we 're gonna wanna be thinking in terms of some"
+[27:38] me013 | wireless connection
+[27:39] me011 | Mm - hmm .
+[27:40] me013 | to it .
+"[27:40] me013 | Um ,"
+"[27:41] me013 | so we have , you know , some kind of little something ,"
+[27:49] me013 | the recognition .
+"[27:50] me013 | And so , you know , we wanna be able to show off to somebody ,"
+"[27:52] me013 | you know , we have a base station somewhere , and"
+"[27:54] me013 | you 're wandering around , uh ,"
+[27:58] me011 | Yep .
+"[28:03] me013 | No , no , what I 'm saying is that we 're gonna have to put together some kind of a"
+[28:09] me011 | Demo .
+"[28:09] me013 | little superstructure , d some sort of demo box that it that doesn't"
+"[28:16] me013 | uh , remotely to this IRAM board which will be doing the real computation ."
+"[28:20] me018 | Oh , I see ."
+"[28:24] me013 | do the real work of building a portable device that 's little , that"
+"[28:28] me013 | is doing all the computation we wanna do for the recognition and the far - field mike , uh ,"
+"[28:33] me013 | compensation and all that stuff . So we 're gonna do all that on this powerful board ,"
+"[28:41] me013 | what does it look like , does it look like"
+[28:44] me013 | something that you you
+"[28:45] me013 | hold like this , or do we make a big deal out of it that you hold it arm at arm 's length th so that you can see some display ,"
+"[28:52] me013 | or , uh ,"
+[28:54] me013 | do we have one of these You know . I don't know .
+"[28:56] me013 | So , it th these are all possibilities ."
+[28:56] me011 | Yep .
+"[28:58] me011 | I mean , what I was envisioning was a PDA with a cellular link in it ."
+"[29:02] me011 | You know , with one of the r"
+[29:04] me011 | short - range wireless .
+[29:06] me011 | And let th
+[29:07] me011 | Just do capture the audio on the PDA and send the audio over the
+[29:10] me011 | wireless net .
+[29:13] me011 | But .
+"[29:16] me011 | Uh , Bluetooth is shorter range , but you could use Bluetooth ."
+[29:20] me011 | Wh - whatever the network guys already have hooked up for this floor . I don't remember what it 's called .
+[29:27] me013 | Hmm .
+"[29:27] me011 | OK , then uh ,"
+"[29:29] me011 | another issue on file reorganization is , uh ,"
+[29:32] me011 | making data available to people outside ICSI .
+"[29:35] me011 | So , specifically , the U W folks have been"
+"[29:38] me011 | wanting to get access to it . So I think the right thing to do for that , is figure out how to do CVS without"
+"[29:44] me011 | uh , compromising security . Some pass SSH tunneled"
+"[29:48] me011 | CVS ,"
+[29:49] me011 | and then give them access .
+[29:51] me018 | I was reading through some of the CVS documentation and you can just substitute CVS for your R S H command .
+"[29:57] me011 | Yes , except that the command has to not take a password ."
+[30:01] me018 | Hmm .
+"[30:06] me011 | S - hosts , which is insecure ."
+[30:09] me018 | Hmm .
+"[30:09] me011 | So we still have to sort of look at it a little bit . I mean , I 'm sure it 's been solved , and I just haven't found the solution yet ."
+[30:15] me011 | But I am sure that people have done it because it 's gonna be a problem a lot of people have .
+"[30:21] me013 | Who Well , we 're s talking about a fairly limited group , are are is it a small enough group that they would could just have accounts ? Does that solve anything ?"
+"[30:27] me011 | Uh , n n"
+"[30:29] me011 | not really , because then we have the coordination issue ."
+"[30:33] me011 | I mean , so one thing they could do I mean , I guess that 's true . They could simply log in to ICSI"
+[30:37] me013 | Yeah .
+[30:37] me011 | and do everything locally .
+[30:39] me018 | If they use SSH they have to have an account anyways .
+"[30:41] me011 | Yeah , except they could share one ."
+"[30:47] me011 | the SSH accounts , and the"
+[30:50] me011 | user accounts don't have to be similar .
+[30:53] me011 | So .
+"[30:54] me011 | I mean , there are lots of ways of doing it , but w but"
+"[30:56] me011 | if we can't figure out a remote way of doing it , just letting them log in to ICSI"
+[31:01] me011 | might be OK .
+[31:02] fe016 | Mm - hmm .
+"[31:09] me011 | And the audio files , it 's not worth doing cuz they 're too big . You 're never gonna be copying them around"
+[31:13] me011 | and making working copies of them .
+[31:16] me013 | Right .
+[31:18] me011 | And then the other issue Jane and I spoke of briefly is just general permission issues .
+"[31:23] me011 | That right now , lots of people create the files and then we have group "" Meeting Recorder "" ."
+[31:27] me011 | But that means anyone in the Meeting Recorder group can overwrite the files .
+[31:32] me011 | And so that 's a pretty coarse level of granularity . So we might wanna think about doing a Meeting Recorder user owner
+[31:51] me011 | Another option is to m
+[31:53] me011 | make a non
+"[31:56] me011 | make it owned by a not real user , and then root will be able to do it ."
+[32:00] me011 | But root is pretty tightly controlled here .
+[32:02] fe016 | Mm - hmm .
+[32:04] me011 | So th I don't think that 's a good solution .
+"[32:05] fe008 | Would w would it be possi There are scripts that uh , run ,"
+"[32:08] fe008 | and and when it 's finished compressing , would it be possible for the script to change the permissions on the file to be more strict ?"
+"[32:16] me011 | Yes , but if you do that , then someone who isn't the owner can't"
+[32:20] me011 | unchange it .
+"[32:21] fe008 | But after the meeting 's done , would they want to ?"
+"[32:25] me011 | Yeah , as I said , it 's just a question of ,"
+"[32:28] me011 | uh , do you wanna have to track down root"
+[32:30] me011 | if you have to make any change .
+[32:32] fe016 | But it doesn't have to be root . It could be some other user that we all can SUX to .
+[32:36] fe008 | That 's true .
+[32:38] me011 | You have security issues with that .
+[32:40] me011 | So .
+"[32:40] fe008 | Yeah , that 's true ."
+"[32:43] me018 | That 's what we do with doctor - speech though , right ?"
+"[32:45] me011 | No , with doctor - speech , it 's just a group ."
+"[32:47] me011 | So there 're lots of different owners of i i of the files , but the group is always doctor - speech ."
+"[32:52] me011 | Or real , usually ."
+[32:53] me018 | But there is a user doctor - speech .
+[32:56] me018 | Right ?
+[32:57] me011 | Nnn -
+"[32:59] me011 | Oh , do you ?"
+[33:00] fe016 | Oh . So tha
+"[33:01] fe016 | that 's what I meant , it just some"
+"[33:03] fe016 | user like "" meeting - root "" or something ."
+"[33:05] me011 | Oh , OK ."
+[33:06] fe016 | I don't know .
+"[33:10] me011 | I mean , I 'm not too worried , because the group 's pretty small ."
+[33:15] me013 | Yeah .
+"[33:16] fe008 | Also it seems like once it 's been stored that night , it 's it 's possible to recover from backups ,"
+[33:21] fe008 | so that the main risk is avoiding it being accidentally deleted during the day that it was recorded .
+"[33:29] me011 | Well , and just You , then , also just have the general problem of permission on the other files ,"
+"[33:35] me011 | that , do you want people checking out a transcript file"
+"[33:38] me011 | when they find an error ,"
+"[33:40] me011 | and correcting it , or do they wa do you want it to go through you ?"
+[33:43] fe008 | Yeah .
+[33:45] fe008 | Yeah .
+[33:46] fe008 | And I 'd prefer it to go through me .
+"[33:47] me011 | OK , but that means that you 're gonna have to be available for people , all the time , who say "" there 's an error here "" ,"
+[33:53] me011 | rather than just them just going in and correcting it .
+"[33:56] me018 | Well , with CVS , though , you don't actually have to do it that way ."
+[33:57] fe016 | Yeah .
+[34:00] fe008 | Yeah .
+[34:04] me018 | What I 'm saying is that it can be the case that people can do it themselves and it can be reviewed .
+[34:04] fe008 | w w
+[34:09] me018 | Right ?
+[34:10] me011 | Right .
+"[34:10] me018 | I mean , it 's not like it 's one or the other . We can do both ."
+"[34:15] me011 | Right , so you could get email ."
+[34:17] me011 | Send email to Jane that someone has done a
+[34:20] me018 | Right .
+"[34:23] fe008 | uh , uh , My my view on this is that once it 's in a final version and I 'm working toward all these being final versions ,"
+[34:28] fe008 | then
+[34:29] fe008 | it can go into this next ro this next realm . But it it 's sort of counter - productive to have
+"[34:34] fe008 | changes made which I would be making if I 'd just gotten that far in the file . You know , it 's it 's , um ."
+"[34:39] me011 | Well , so , you don't have to release it"
+[34:40] me011 | to the world until you 're ready to .
+[34:40] fe008 | Yeah .
+[34:42] fe008 | That 's right .
+[34:43] me011 | So the question is s w
+"[34:43] fe008 | And then after that , then this would probably work ."
+[34:45] fe008 | Yeah .
+[34:45] me011 | So you would keep it in a separate file structure until you were ready to put it in the repository .
+"[34:50] fe008 | Good , good ."
+[34:52] me011 | Or just keep the lock on it .
+"[34:52] fe016 | Is CVS , like Yeah , just keep the lock on ."
+[34:56] me011 | Until you 're Yep .
+"[34:59] fe016 | Oh , it doesn't . Oh , OK ."
+"[35:00] me018 | There 's no there 's no lock when you check something out , not like RCS ."
+"[35:04] me018 | In other words , everybody can check out anything ."
+[35:07] fe016 | Oh .
+[35:08] fe016 | So why not use RCS at that point ? Just at that stage ?
+[35:10] me011 | Cuz it 's not remote .
+[35:13] fe016 | It 's not remote .
+"[35:15] me011 | The nice thing about CVS is is , you can be on a different machine ."
+"[35:20] fe016 | we only want , probably , Jane to be in control anyway , and she I mean , it 's just an i"
+"[35:24] me011 | No , because UW"
+[35:26] me011 | wants to have access to these files . That 's the whole point .
+"[35:29] fe016 | But not to modify them , right ? Just to read them ."
+"[35:31] me011 | Well , if they k en if they record a meeting , and they create a "" key "" file , and they find an error in their "" key "" file ,"
+[35:37] me011 | they shouldn't have to tell us about that
+[35:40] me011 | correct an error in one of their files .
+"[35:44] fe008 | ke "" key "" file 's different ."
+"[35:46] fe008 | "" Key "" fi"
+[35:46] me011 | Different than what ?
+"[35:47] fe008 | Well , "" key "" file has the extra attributes that if you notice that there are lots of spikes on channel so - and - so , it 's useful as a repository for putting that there ."
+"[35:55] fe008 | And also if you notice that there was an extra speaker , and didn't get mentioned in the "" key "" file , but they were only there for a second , but it 's t useful to mention that they were there ."
+"[36:03] fe008 | So I th I think that the "" key "" file is usefu for notations related to the meeting ,"
+[36:05] me011 | B
+"[36:07] me011 | But , I mean , the meetings are gonna be the same way . So UW records a meeting , we transcribe it ."
+[36:11] fe008 | Yeah .
+"[36:12] me011 | A few months later they listen to it and they say "" Ope ! They got that acronym wrong . """
+[36:17] fe008 | Yeah .
+[36:17] me011 | Why why sh
+"[36:20] fe016 | It 's sort of not really a question about permissions , but more of procedure . Either those all go through Jane , or through someone ,"
+[36:26] me011 | Mm - hmm .
+"[36:29] fe016 | And if they all do , then there isn't a problem , right ? Cuz once they give us the data , it 's"
+"[36:34] fe016 | ours , and if they wanna make changes I mean , ours to sort of"
+[36:38] fe016 | transcribe and annotate .
+[36:39] me011 | The the p the point here is that it would be nice t for there to be one repository .
+"[36:40] fe016 | And if they wanna make changes , they can do that ."
+[36:44] fe008 | Yeah .
+[36:48] me011 | they 're not gonna store their data in our repository .
+[36:50] me011 | Or if we make it inconvenient for them to change their data .
+[36:53] fe016 | So then if they do have acc
+[36:54] me011 | I I 'm just looking at it the other way around .
+"[36:56] fe016 | What if they have accounts here ,"
+[36:56] me011 | So so let 's say we k
+"[36:58] fe016 | and they use RCS ,"
+"[37:00] fe016 | at that point , where you can l really lock a file ."
+"[37:04] fe016 | I mean , I 'm worried . If you can't lock a file , this this to me sounds very scary ."
+[37:05] fe008 | Hmm .
+[37:09] fe016 | And if they have accounts here and they 're modifying it If they 're ac
+[37:11] fe016 | if they 're so closely linked that they 're actually
+"[37:14] fe016 | modifying transcripts and "" key "" files ,"
+[37:17] fe016 | then they could do it
+"[37:19] fe016 | by , you know , secure - shelling into ICSI ,"
+"[37:22] fe016 | under RCS , at that point ."
+"[37:24] me011 | Ye - well , I don't see a real difference between RCS and any other system ."
+"[37:27] me011 | I mean , it 's just mechanisms . The nice thing about CVS is that"
+"[37:30] me011 | you can have multiple people modifying and if the changes don't overlap each other ,"
+[37:35] me011 | they can just do it .
+[37:36] fe008 | Hmm .
+[37:38] fe008 | That 's interesting .
+[37:39] me011 | So the problem with RCS is that if two people
+[37:39] mn014 | Yeah .
+"[37:42] me011 | want to modify a file at the same time they can't ,"
+[37:45] me011 | because the granularity of locking is at the file level .
+[37:47] me013 | What - what does CVS do if they if they do overlap ?
+[37:53] fe016 | Mm - hmm .
+"[37:53] me018 | But typically a person has to ,"
+[37:54] mn014 | Yeah .
+"[37:55] me018 | uh , mediate"
+[37:57] fe008 | Oh .
+"[37:57] me018 | you know , which changes actually get go through ."
+"[37:59] mn014 | Yeah , to decide which one is Yeah ."
+[38:00] fe008 | Oh .
+"[38:01] me013 | Oh , I"
+[38:05] fe016 | lock something if you don't want people to make any changes ?
+"[38:09] me011 | At the repository level , there certainly is . You can mark a file as as "" you can't check this out "" ."
+[38:11] fe016 | Uh - huh .
+[38:17] me018 | CVS is pretty good .
+[38:17] fe016 | So then you could use CVS
+"[38:19] fe016 | and , you know , just f have remote access , but then it 's up to whoever"
+[38:21] me011 | Yep .
+"[38:24] fe016 | is , sort of , responsible for that level of transcription to decide"
+"[38:30] me011 | Well , it 's it 's just like source code , right ?"
+"[38:32] me011 | So that , when you 're developing it and it 's really rough , you don't put it in the repository ."
+[38:36] fe016 | Yeah .
+"[38:39] me018 | Yeah , so the w"
+[38:39] fe008 | Mm - hmm .
+[38:40] me018 | In -
+"[38:40] me018 | The Maybe the model It 's a little bit different in CVS . When you check something out , you actually create your own directory with copies of everything in it , and that 's what you work on ."
+"[38:50] me018 | So , until you 're ready to check it in ,"
+[38:57] fe016 | Right .
+[38:58] fe016 | So if that 's at an
+[38:59] me013 | Hmm .
+"[39:00] fe016 | I guess it depends on Jane 's Uh , you know , if that 's if that model works for the transcripts , then"
+[39:07] fe016 | that 's fine . But if that pr
+[39:08] fe016 | @ @
+"[39:08] fe016 | um , allows"
+"[39:11] fe016 | someone to come in and modify while you 're modifying , and they turn out to be changes that ,"
+"[39:16] fe016 | you know , would have been better to wait until your version came out , then"
+"[39:20] fe016 | that 's really up to you , not up to the software , so ."
+"[39:22] fe008 | Well ,"
+"[39:22] fe008 | I also think , um , that the type of change ch ch varies an I think it 's a very good point . Because what if"
+"[39:28] fe008 | the uh , what if one set of changes one person was making was"
+[39:32] fe008 | with reference to some typographical convention .
+[39:34] me011 | Mm - hmm .
+[39:35] fe008 | And the other person n unkn n
+"[39:40] fe008 | Then you could end up with a real mess , in terms of , like , consistency of conventions across a file , there is an argument to be made for having a single editor editing at that level ."
+"[39:46] me018 | Well yeah , there would there would have to be somebody to enforce the consistency . Yeah ."
+"[39:49] fe008 | That 's right . And I also like I l also like Liz 's uh , k um ,"
+"[39:52] fe008 | phraseology of "" at this level of "" I don't remember how you put it , but this "" at this level of transcription "" or whatever . I mean it 's like there are different layers of whatever and different types of conventions ,"
+"[40:01] fe008 | and if it were an acronym , then I would I think that it would make sense f for them to"
+[40:11] me011 | Imagine that we reverse this and they were keeping the repository and we were d collecting meetings and sending them to them .
+[40:12] fe008 | Yeah .
+[40:16] fe008 | Mm - hmm .
+"[40:17] me011 | If I found an error ,"
+"[40:19] me011 | and I sent them email and said "" here 's this error "" , and I didn't get a response for a couple weeks ,"
+[40:23] me011 | I would stop sending them the my data and I would start collecting it here and we would end up with two corpora .
+"[40:28] fe008 | Well , yeah ."
+[40:29] me011 | And I don't want that to happen . So we have to make it convenient for them to make changes that they wanna make .
+[40:30] fe008 | I agree .
+"[40:35] fe008 | Well , I see now , we 're k back into the same situation as when we were ,"
+"[40:38] fe008 | uh , talking about a allowing people to edit"
+[40:40] fe008 | the transcripts before they become public .
+"[40:42] fe008 | So there 's a question of how easy or how hard to modify , and how that"
+[40:45] me011 | Mm - hmm .
+[40:46] fe008 | impacts the amount of changing that 's done .
+"[40:48] fe008 | And I I think that it 's , um ,"
+"[40:52] fe008 | I I have received some suggestions for change , which I 've made ."
+"[40:55] fe008 | And um , I think with an acronym , that 's a clear case where it would be an easy change to incorporate ."
+"[41:00] fe008 | But it would worry me to have people , um ,"
+"[41:03] fe008 | having free reign to change these things , because of the need to have consistent conventions . And people who"
+[41:09] fe008 | are only just visiting the data might not have a sense of the larger system .
+"[41:14] fe016 | Yeah , that 's what I would be worried about too ."
+"[41:15] me018 | Well , I think yeah , I think there are probably ways that you can say that , you know , only certain users are allowed to change"
+[41:15] fe008 | Yeah .
+[41:21] me018 | things .
+[41:21] fe008 | Mm - hmm .
+"[41:24] me018 | You know , f casual users who are just browsing can just r get it read - only , can't check in to the archive ."
+[41:30] fe008 | Mm - hmm .
+"[41:31] me018 | Whereas we could say "" other people "" , you know , "" these people are allowed to actually submit changes "" ."
+[41:34] fe016 | Right .
+"[41:35] me018 | I mean ,"
+[41:36] me018 | I I think one thing that 's probably everybody would agree on is that
+[41:40] me018 | there will never be a point where
+"[41:43] me018 | you know , we can say that for sure there 's no problems with any of the transcripts . I mean there 's ,"
+"[41:47] me018 | uh f You know , something 's going to get overlooked at some point , or somebody 's gonna wanna make a change somehow . So we need to"
+"[41:53] me018 | have some mechanism for ,"
+"[41:56] me018 | um , handling changes in the future ."
+"[41:58] fe008 | I agr I agree but I have to also add one other thing which i before I forget it , which is"
+[42:01] fe008 | Adam 's point about when you were reviewing the IBM transcripts .
+"[42:06] fe008 | You said that there were some places where it wasn't what y was written already , but you could see how they might have thought that 's what it said ."
+"[42:13] fe008 | So there it 's not just a right and wrong thing . Sometimes there tru there are absolutely stretches where there is no no k if you were at the meeting and you could ask the person ,"
+[42:16] me018 | Yeah . Exactly .
+[42:21] me018 | Mm - hmm .
+"[42:21] fe008 | maybe , m you know , they could they could 've told you , but five minutes later they might not have been able to tell you ,"
+[42:25] me018 | Right .
+[42:25] fe008 | even if they were listening to it .
+[42:27] me018 | Yeah .
+[42:31] me018 | Good point . Yeah .
+"[42:31] fe008 | Now But of course , this does raise the possibility of allowing ,"
+"[42:35] fe008 | um , an extra annotation for , you know , alternative interpretations of a stretch ."
+[42:39] me018 | Mm - hmm .
+[42:39] fe008 | But I just wanted to say it isn't simply right or wrong .
+"[42:41] me018 | Yeah , that 's a good point ."
+[42:42] fe008 | Or overlooked or not overlooked .
+"[42:43] fe008 | Sometimes they 're truly ambiguous , and"
+[42:45] me018 | Mm - hmm .
+"[42:46] fe008 | um , uh , um , nice to have a notation for that , but . Yeah ."
+[42:48] me018 | Yeah .
+"[42:50] fe016 | I mean , I like that idea because even a casual user can always send email"
+[42:54] me018 | Mm - hmm .
+"[42:54] fe016 | to whoever 's in charge , and say ,"
+"[42:55] fe016 | you know , "" we 'd like these changes "" and ,"
+"[42:58] fe016 | you know , hopefully we 'll give them a response . And if they really do it a lot , and they say"
+[42:58] me011 | I just I don't s
+[43:00] me011 | I don't see that this is e
+[43:02] me011 | Yep .
+"[43:02] fe016 | "" we 're a casual user but we want a chance to change the transcripts "" then we can"
+"[43:06] fe016 | face that if it happens , but"
+"[43:10] me011 | Yeah , thank you ."
+[43:10] fe016 | I don't really see the people at UW that I know of right now making huge amoun investing huge amounts of time in changing transcripts . But I could be wrong .
+"[43:17] me011 | Probably not transcripts , but it would be nice to have one mechanism for all the files ."
+[43:21] me011 | And they 're certainly gonna wanna change tools .
+[43:22] fe016 | Yeah .
+"[43:24] me011 | And so you know , it 's the same as source code . You you release source code at some point ."
+[43:32] me018 | Yeah I mean a lot of the open source pro
+[43:34] me018 | projects face this same problem .
+[43:35] fe016 | Right .
+"[43:35] me018 | You know , p anybody can check out the code ,"
+[43:38] me018 | but not everybody can check it in . Yeah .
+[43:40] fe016 | Right . And there 's some happy medium and we don't know what that is yet
+"[43:44] fe016 | until we get feedback from people , but"
+[43:47] fe016 | what if it 's OK to just handle it
+[43:49] fe016 | with
+"[43:50] fe016 | sort of a person in charge of the philosophy behind the changes ,"
+"[43:55] fe016 | and some people with permissions ,"
+"[44:04] fe016 | a file by mistake , not wanting to have done that cuz I didn't think I had permission , when I did ."
+[44:08] me011 | Mm - hmm .
+"[44:09] fe016 | Um , and then just"
+[44:10] fe008 | Mm - hmm .
+[44:14] fe016 | to handle the transcript changes .
+[44:17] fe016 | I 'm just worried about
+"[44:18] fe016 | letting everybody go in and make changes , cuz it 's real easy when you 're"
+"[44:22] fe016 | trying to , I don't know , run alignments and there 's a word you wanna fix , to go in and do that and then mess up other things ,"
+"[44:27] fe016 | if you don't know ,"
+"[44:29] fe016 | you know , the overall philosophy behind the the conventions ."
+[44:31] fe008 | Mm - hmm .
+[44:31] me011 | Right .
+"[44:32] me018 | Then There is also the possibility Remember , in CVS , when we talk about making changes ,"
+"[44:37] me018 | there 's sort of two types that can be made . To your local ,"
+[44:40] me018 | or to the global .
+[44:41] fe016 | Mm - hmm .
+"[44:41] me018 | And so people can make changes to their local and if they screw those up ,"
+[44:43] fe016 | Right .
+[44:44] fe016 | Exactly .
+"[44:44] me018 | that 's , you know , in their that 's only on them . It 's w it 's the checking in part that r we really care about , and"
+[44:46] fe008 | Mm - hmm .
+"[44:50] me018 | that we can control with , you know , who can check things in and stuff . So we can I think we can do this ."
+"[44:54] fe016 | Or just , yeah , start by make it a really tight control and then as people really need the control you can"
+[44:55] fe008 | Mm - hmm .
+[44:57] me018 | Mm - hmm .
+"[45:01] me018 | Yeah , cuz they can still check out full copies and make whatever changes they want to their local copies ."
+[45:03] fe016 | Right .
+"[45:06] me018 | And it won't affect the the g the global , official , ones at all ."
+[45:07] fe016 | Right .
+"[45:10] me011 | Right , but what I want to avoid is ending up with two corpora ."
+[45:11] mn014 | Yeah .
+[45:13] me018 | Yes .
+"[45:14] me011 | And so if you make it too hard for them to check back in , they 'll check it out once ,"
+[45:17] me018 | Yep .
+"[45:18] me011 | they 'll make all the changes , they 'll never tell us about the changes ,"
+[45:21] me018 | Mm - hmm .
+[45:21] me011 | and we 'll get two different corpora .
+[45:23] me018 | Mm - hmm .
+[45:25] me011 | Right ?
+[45:25] fe016 | I think we 're already gonna I mean there 's already
+"[45:28] fe016 | some chance that different annotations , different"
+[45:32] fe016 | But you can
+[45:34] fe016 | control that by knowing you 're making two corpora or knowing that you 're adding
+"[45:38] fe016 | um , annotations on one version and you don't have the latest corrections maybe at that point . And then you finish the project and you realize that there were"
+[45:45] fe016 | corrections made on your originals and then
+[45:48] fe016 | you have to merge them .
+[45:49] fe016 | And the b
+"[45:51] fe016 | the thing that makes it ea OK to do that , is"
+[45:54] fe016 | knowing where the synch time boundaries are .
+[45:56] fe016 | Cuz you can automatically pretty much merge things if you 've only got twenty words or so in an utterance . It 's when you get the whole meeting
+[46:03] fe016 | and the synch times ch
+"[46:04] fe016 | have changed , or you can't correspond to a previous version with synch times , that you get in trouble ."
+[46:11] fe016 | So .
+[46:18] fe016 | Was there anything else on your list ?
+[46:19] me011 | Nope .
+[46:21] me011 | Shall we do some digits ?
+"[46:28] fe016 | Now , wait , are are we doing them simultaneously or one at a time ? Alright ."
