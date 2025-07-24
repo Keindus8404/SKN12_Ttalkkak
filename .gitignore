@@ -7,3 +7,4 @@ __pycache__/
 # 환경 변수 및 설정 파일
 .env
 *.env
+*.pt
